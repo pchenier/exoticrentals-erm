@@ -1,0 +1,536 @@
+import { BlogPost } from './blog-posts';
+
+const STANDBY_POSTS: BlogPost[] = [
+  {
+    slug: 'exotic-car-rental-montreal-weekend',
+    title: 'Make Your Montreal Weekend Unforgettable with an Exotic Car Rental',
+    date: '2025-06-01',
+    description: 'Discover why renting an exotic car for the weekend in Montreal is the ultimate experience — from the Plateau to the Laurentians.',
+    content: `Montreal weekends hit different when you're behind the wheel of something extraordinary. Whether it's a spontaneous Sunday drive up to the Laurentians, a Saturday night cruise through the Vieux-Port, or simply making every errand feel like an event — an exotic car rental turns a regular weekend into something you'll actually talk about.
+
+**Why a Weekend Rental Makes Sense**
+
+The math is simple: split across two or three days, the cost per experience drops significantly. You get the full thrill — the sound, the stares, the feel — without the insurance, maintenance, and depreciation of ownership. Our weekend rates are available Friday through Sunday, and we deliver directly to your door.
+
+**What to Do with It**
+
+Start Friday night in the Vieux-Port. Park the McLaren or the G63 near the waterfront and let the city come to you. Saturday morning, hit the Mont-Royal loop early — the roads are empty and the light through the trees is something else. Saturday afternoon, blast up the A-15 toward Saint-Sauveur. Sunday, cruise through Westmount and NDG before the return.
+
+**The Fleet**
+
+Our weekend fleet includes the Audi RS5 (starting at $400/day), BMW M5 Competition ($499/day), Lamborghini Urus ($849/day), McLaren 600LT ($1,199/day), and more. Every vehicle is detailed, fueled, and ready at your requested time.
+
+**Booking**
+
+WhatsApp us at (438) 533-9053 to check availability for your dates. Weekend slots book fast, especially in summer. We accept cash, crypto, e-transfer, and credit card. No hidden fees, no waiting rooms — just the keys and the road.`,
+  },
+  {
+    slug: 'louer-lamborghini-montreal',
+    title: 'Louer une Lamborghini à Montréal : Urus disponible dès 849$/jour',
+    date: '2025-06-06',
+    description: 'Envie de conduire une Lamborghini Urus à Montréal ? Découvrez nos tarifs, la livraison et comment réserver en quelques minutes.',
+    content: `La Lamborghini Urus est l'un des véhicules les plus impressionnants que vous puissiez conduire sur les routes de Montréal. SUV de luxe à l'ADN de supercar, elle combine la praticité d'un véhicule haut-de-gamme avec une puissance de 650 chevaux qui rend chaque accélération mémorable.
+
+**Pourquoi l'Urus à Montréal ?**
+
+Montréal, c'est des pavés, des côtes, des nids-de-poule, et des routes express. L'Urus gère tout ça avec une facilité déconcertante. Contrairement à une supercar basse, elle est haute, confortable pour les passagers, et assez polyvalente pour survivre à nos routes sans sourciller. C'est la Lamborghini pour tous les jours — ou pour le week-end parfait.
+
+**Ce que vous obtenez**
+
+Notre Urus est disponible à 849$/jour avec livraison partout dans le Grand Montréal — Laval, Longueuil, Brossard, centre-ville, hôtels, aéroport. Le véhicule arrive propre, plein, et prêt. Vous n'avez rien à signer dans un bureau — tout se règle via WhatsApp, simplement et rapidement.
+
+**Pour quelle occasion ?**
+
+Anniversaire, mariage, séjour d'affaires, simplement parce que vous en avez envie — l'Urus s'adapte à tout. Plusieurs clients la réservent pour des week-ends en famille dans les Laurentides ou pour épater des clients lors de sorties corporatives.
+
+**Réservation**
+
+Disponibilités limitées. Envoyez-nous un message sur WhatsApp au (438) 533-9053 ou par courriel à contact@exoticrentalsmontreal.com. Paiements acceptés : comptant, virement Interac, crypto, carte de crédit.`,
+  },
+  {
+    slug: 'location-voiture-luxe-mariage-montreal',
+    title: 'Location Voiture de Luxe pour Mariage à Montréal',
+    date: '2025-06-11',
+    description: 'Arrivez en supercar le jour de votre mariage à Montréal. McLaren, G63, Lamborghini — découvrez nos forfaits pour mariages.',
+    content: `Votre mariage mérite une arrivée inoubliable. Pas une limousine blanche comme tout le monde — une vraie machine, un vrai impact. Chez Exotic Rentals Montreal, nous avons habillé des mariages avec notre McLaren 600LT, notre Lamborghini Urus et notre Mercedes-AMG G63. Le résultat ? Des photos époustouflantes et des invités qui s'en souviennent des années plus tard.
+
+**Quel véhicule choisir pour votre mariage ?**
+
+La McLaren 600LT (1 199$/jour) est le choix cinématographique — spectaculaire, sexy, inoubliable. Pour une arrivée élégante et imposante, la G63 AMG (999$/jour) ou l'Urus (849$/jour) s'imposent, surtout si vous êtes à deux. Pour les couples qui veulent le wow factor absolu, la R8 V10 (899$/jour) reste un classique indémodable.
+
+**Livraison à votre lieu de réception**
+
+Peu importe où se tient votre mariage — hôtel du centre-ville, domaine en banlieue, salle en Rive-Sud — nous livrons le véhicule à l'heure convenue, impeccablement propre. Vous n'avez qu'à monter dedans.
+
+**Coordination avec votre photographe**
+
+On le sait : les voitures font partie des photos de mariage. On vous livre le véhicule à l'avance pour la séance photo si nécessaire. Coordonnez avec nous par WhatsApp — on s'adapte à votre timeline.
+
+**Réservez tôt**
+
+Les dates de mariage partent vite, surtout en juin, juillet et août. Contactez-nous dès maintenant au (438) 533-9053 pour bloquer votre date. Dépôt remboursable à la réservation.`,
+  },
+  {
+    slug: 'rent-mclaren-montreal',
+    title: 'Rent a McLaren in Montreal — 600LT Available from $1,199/day',
+    date: '2025-06-16',
+    description: 'Experience the McLaren 600LT on Montreal streets. 592hp, twin-turbo V8, delivered to your door. Book via WhatsApp today.',
+    content: `There are fast cars, and then there is the McLaren 600LT. With 592 horsepower from a 3.8L twin-turbo V8, a 0-100 km/h time under 3 seconds, and a soundtrack that turns heads from three blocks away — this is not a car you drive, it's an experience you survive and immediately want to repeat.
+
+**The Montreal McLaren Experience**
+
+Montreal is one of the few cities where a McLaren makes complete sense as a rental. The streets are wide enough to appreciate the car, the culture is car-passionate enough to respect it, and the routes — Mont-Royal loop, the waterfront, the Laurentians highway — are exactly what a car like this was built for.
+
+**What's Included**
+
+Our McLaren 600LT rental comes with full detailing, full tank, and delivery anywhere in Greater Montreal. Pickup at your hotel, Airbnb, or any address. Available for single days or multi-day rentals. We offer flexible scheduling — 24/7 availability including same-day bookings when the car is free.
+
+**Who Rents It**
+
+Car enthusiasts celebrating milestones. Content creators who need something extraordinary on camera. Travelers who want Montreal from a different angle. Grooms, birthday boys, bucket-list tickers. The McLaren doesn't care why you're renting it — it just delivers every single time.
+
+**Pricing & Booking**
+
+$1,199/day. Multi-day discounts available. Book via WhatsApp at (438) 533-9053 or email contact@exoticrentalsmontreal.com. We accept cash, crypto, e-transfer, and credit card. Minimum age 25 with valid driver's license.`,
+  },
+  {
+    slug: 'location-audi-rs7-montreal',
+    title: 'Location Audi RS7 à Montréal — La Berline Sport la Plus Élégante',
+    date: '2025-06-21',
+    description: "Louez l'Audi RS7 à Montréal dès 499$/jour. Sportback 591ch, livraison incluse, disponible 7j/7.",
+    content: `L'Audi RS7 est l'argument ultime pour ceux qui refusent de choisir entre performance et élégance. 591 chevaux, transmission intégrale Quattro, carrosserie Sportback qui redéfinit le concept de berline de sport — et une présence sur la route qui ne laisse personne indifférent.
+
+**Pourquoi l'RS7 ?**
+
+Si la McLaren est le choix du cœur et la G63 le choix de l'impact, l'RS7 est le choix de l'intelligence. Elle passe inaperçue auprès des non-initiés (ce qui peut être un avantage), mais chaque conducteur qui vous croise sait exactement ce que vous conduisez. C'est la voiture de quelqu'un qui sait.
+
+**Parfaite pour Montréal**
+
+L'RS7 est basse mais pas trop. Elle encaisse les imperfections de nos routes avec une suspension adaptative qui transforme les chocs en murmures. Elle est rapide sans être nerveuse, sonore sans être agressives. Idéale pour une journée en ville, un aller-retour à Québec, ou une nuit dans les Laurentides.
+
+**Détails de la Location**
+
+499$/jour, livraison partout dans le Grand Montréal incluse. Disponible 7 jours sur 7. Nous acceptons comptant, Interac, crypto et carte de crédit. Réservation via WhatsApp uniquement pour garantir une réponse rapide.
+
+**Réservez Maintenant**
+
+Contactez-nous au (438) 533-9053. Précisez vos dates et votre adresse de livraison — on confirme la disponibilité en quelques minutes.`,
+  },
+  {
+    slug: 'luxury-car-rental-montreal-birthday',
+    title: 'Luxury Car Rental for Your Birthday in Montreal — Make It Epic',
+    date: '2025-06-26',
+    description: "Celebrate your birthday in Montreal behind the wheel of a supercar. Same-day booking available. From $400/day.",
+    content: `Forget the restaurant reservation. Forget the bar crawl. This year, start your birthday with something that actually matches the occasion — the keys to a supercar, delivered to your door before noon.
+
+**The Birthday Rental**
+
+There's no better gift you can give yourself (or someone else) than a day behind the wheel of a machine that costs more than most people's annual salary. The Audi RS5 starts at $400/day — that's less than many birthday dinners for a group, and significantly more memorable.
+
+**Pick Your Machine**
+
+- **Audi RS5** ($400/day) — The sleeper. Nardo grey, brutal off the line, nobody sees it coming.
+- **BMW M5 Competition** ($499/day) — The all-rounder. Four doors, 625hp, sounds like it means business.
+- **Lamborghini Urus** ($849/day) — The attention magnet. Walk out of a restaurant to this and your night is made.
+- **McLaren 600LT** ($1,199/day) — The once-in-a-lifetime car. For the birthday you won't forget.
+
+**How It Works**
+
+Message us on WhatsApp at (438) 533-9053 the morning of your birthday (or the night before). Tell us which car, where to deliver, and what time. We handle the rest. Cash, crypto, e-transfer, or credit card — your call.
+
+**The Best Part**
+
+You don't have to own it. You don't insure it. You don't maintain it. For one day, it's yours completely — and that's exactly how it should feel.`,
+  },
+  {
+    slug: 'location-voiture-exotique-laval',
+    title: 'Location de Voiture Exotique à Laval — Livraison Gratuite',
+    date: '2025-07-01',
+    description: 'Louez une supercar à Laval avec livraison directe chez vous. RS5, RS7, McLaren, Lamborghini — disponibles dès aujourd\'hui.',
+    content: `Vous habitez à Laval et vous voulez conduire une vraie supercar sans devoir vous déplacer à Montréal ? Bonne nouvelle : nous livrons directement à votre adresse à Laval, sans frais supplémentaires.
+
+**Pourquoi Laval est idéal pour une supercar**
+
+Laval a quelques atouts que les Montréalais ignorent souvent : des routes plus larges, moins de cyclistes qui surgissent de nulle part, et un accès rapide à l'autoroute 15 vers les Laurentides. Prenez la 15 Nord en RS7 ou en McLaren et vous êtes à Saint-Sauveur en 45 minutes. C'est difficile à battre.
+
+**Nos Véhicules Disponibles à Laval**
+
+Toute notre flotte est disponible en livraison sur Laval : Audi RS5 (400$/jour), Audi RS7 (499$/jour), Audi RS6 (649$/jour), BMW M5 Competition (499$/jour), Audi R8 V10 (899$/jour), McLaren 600LT (1 199$/jour), Lamborghini Urus (849$/jour), Mercedes-AMG G63 (999$/jour).
+
+**Comment Réserver**
+
+WhatsApp au (438) 533-9053. Mentionnez votre adresse à Laval et vos dates. On confirme la disponibilité rapidement et on livre à l'heure convenue. Modes de paiement : comptant, Interac, crypto, carte de crédit.
+
+**Zone de Service**
+
+Nous couvrons tout Laval : Chomedey, Sainte-Rose, Vimont, Auteuil, Saint-François, Duvernay, Pont-Viau. Si vous êtes à Laval, on vous livre.`,
+  },
+  {
+    slug: 'rent-bmw-m5-montreal',
+    title: 'Rent a BMW M5 Competition in Montreal — 625hp Delivered to You',
+    date: '2025-07-06',
+    description: 'The BMW M5 Competition is Montreal\'s perfect all-rounder. 625hp, four doors, and available from $499/day with delivery.',
+    content: `If you had to pick one car to do everything — track days, airport runs, client lunches, spontaneous highway blasts — the BMW M5 Competition would be on the shortlist of every serious driver. It's 625 horsepower wrapped in a four-door sedan that can pass for a regular car in a parking lot and absolutely destroy anything it encounters on an on-ramp.
+
+**Why the M5 in Montreal?**
+
+Montreal is a city of contrasts. Fine dining in Outremont, 5am after-parties in Saint-Henri, day trips to the Eastern Townships. The M5 handles every single one without compromising. It's comfortable enough for a three-hour drive to Quebec City and violent enough to make a five-second sprint on the highway genuinely shocking.
+
+**The Numbers**
+
+4.4L twin-turbo V8. 625hp. 0-100 km/h in 3.3 seconds. M xDrive all-wheel drive. 8-speed M Steptronic. This is a machine that makes the driver feel competent regardless of actual skill level — and rewards those who actually have it.
+
+**Availability & Pricing**
+
+$499/day with delivery anywhere in Greater Montreal. Multi-day rates available. Same-day booking when the car is free. WhatsApp (438) 533-9053 or email contact@exoticrentalsmontreal.com. All payment methods accepted.
+
+**Minimum Requirements**
+
+Valid driver's license, 25+ years old, refundable security deposit. That's it — no insurance upsells, no lengthy paperwork. Just you and one of the best driver's cars on the planet.`,
+  },
+  {
+    slug: 'location-voiture-sport-rive-sud-montreal',
+    title: 'Location Voiture Sport sur la Rive-Sud de Montréal',
+    date: '2025-07-11',
+    description: 'Louez une voiture de sport ou exotique en Rive-Sud (Longueuil, Brossard, Boucherville). Livraison directe à domicile.',
+    content: `Vous êtes en Rive-Sud et vous voulez conduire quelque chose d'exceptionnel ? Nous livrons dans tout Longueuil, Brossard, Boucherville, Saint-Lambert et environs — sans frais de déplacement.
+
+**La Rive-Sud, Idéale pour les Supercars**
+
+La Rive-Sud offre des routes larges et bien entretenues, un accès rapide à l'autoroute 20 et 30, et beaucoup moins de circulation que l'île de Montréal. C'est l'endroit parfait pour apprécier une voiture à hautes performances sans le stress de la ville. L'autoroute 30 en particulier — peu connue, relativement fluide — est un plaisir en BMW M5 ou en Audi RS7.
+
+**Nos Véhicules**
+
+Toute notre flotte est disponible en Rive-Sud : de l'Audi RS5 à 400$/jour jusqu'à la McLaren 600LT à 1 199$/jour. Chaque véhicule est livré propre, plein, et prêt à partir.
+
+**Zones Couvertes**
+
+Longueuil · Brossard · Boucherville · Saint-Lambert · Greenfield Park · Saint-Hubert · La Prairie · Sainte-Julie · Chambly · Beloeil · Mont-Saint-Hilaire
+
+**Réservation Simple**
+
+WhatsApp au (438) 533-9053. Indiquez votre ville, la voiture souhaitée et vos dates. Réponse en quelques minutes. Paiements : comptant, Interac, crypto, carte de crédit.`,
+  },
+  {
+    slug: 'louer-audi-r8-montreal',
+    title: 'Louer une Audi R8 V10 à Montréal — La Supercar Accessible',
+    date: '2025-07-21',
+    description: "L'Audi R8 V10 disponible à Montréal dès 899$/jour. Moteur V10 atmosphérique, livraison incluse, réservation via WhatsApp.",
+    content: `L'Audi R8 V10 est l'une des dernières voitures au monde avec un moteur V10 atmosphérique — pas de turbo, juste dix cylindres qui hurlent vers les 8 500 tours. Ce son est une espèce en voie de disparition. Montez dedans avant qu'il disparaisse.
+
+**Pourquoi la R8 est Spéciale**
+
+Contrairement à la McLaren qui demande un peu d'adaptation, la R8 se conduit immédiatement comme une voiture normale — mais avec une intensité sensorielle hors du commun. La position de conduite est parfaite, la visibilité est bonne, et la transmission S tronic est une des meilleures du monde. C'est la supercar la plus accessible de notre flotte.
+
+**599 chevaux, Moteur Central**
+
+Le moteur V10 de 5.2L est positionné au centre du véhicule, derrière vous. Vous l'entendez, vous le sentez, vous vivez avec lui. Chaque coup d'accélérateur sur une rampe d'autoroute vide est un moment pur.
+
+**À Montréal**
+
+La R8 est parfaite pour le Vieux-Port en soirée, pour une journée dans les Cantons-de-l'Est, ou simplement pour transformer votre samedi matin en quelque chose d'exceptionnel. Elle attire les regards sans être aussi intimidante que la McLaren pour les non-initiés.
+
+**Réservation**
+
+899$/jour, livraison partout dans le Grand Montréal. WhatsApp : (438) 533-9053. Email : contact@exoticrentalsmontreal.com. Disponible 7j/7.`,
+  },
+  {
+    slug: 'montreal-luxury-car-rental-airport-delivery',
+    title: 'Montreal Airport Luxury Car Rental — Delivery to YUL & YMX',
+    date: '2025-07-26',
+    description: 'Land in Montreal and drive off in a supercar. We deliver to YUL (Trudeau) and YMX (Mirabel) airports. Book before you fly.',
+    content: `You've just landed at Montréal-Trudeau. Instead of joining the taxi line or waiting for a rideshare, your McLaren 600LT is sitting in the arrivals area, keys in hand. That's not a fantasy — that's a booking with Exotic Rentals Montreal.
+
+**Airport Delivery Service**
+
+We deliver to both Montreal airports: YUL (Pierre Elliott Trudeau International) and YMX (Mirabel). Tell us your flight number and arrival time, and we time the delivery so the car is there when you walk out. No waiting, no delays.
+
+**For Business Travelers**
+
+Arriving in Montreal for a conference or client meeting? Pull up in an RS7 or G63 AMG and you've already made an impression before saying a word. Our vehicles are immaculately maintained and presented — they reflect well on you.
+
+**For Leisure Travelers**
+
+You're visiting Montreal and you want to experience the city properly. Rent the RS5 for the whole trip — it handles downtown, day trips, airport runs, and everything in between with equal competence.
+
+**The Process**
+
+1. WhatsApp us at (438) 533-9053 with your flight details and car preference
+2. We confirm availability and send payment info
+3. Land, walk out, drive away
+
+That's it. No offices, no queues, no forms to fill out on a plastic counter. Just the car.`,
+  },
+  {
+    slug: 'location-mercedes-g63-montreal',
+    title: 'Location Mercedes-AMG G63 à Montréal — Le SUV Qui Commande le Respect',
+    date: '2025-07-31',
+    description: 'Louez la Mercedes-AMG G63 à Montréal. 585ch, look iconique, disponible à 999$/jour avec livraison.',
+    content: `Il y a des voitures qui sont rapides. Il y a des voitures qui sont belles. Et puis il y a la Mercedes-AMG G63 — une machine qui inspire quelque chose de plus primitif : le respect. Sur Sherbrooke, dans le Vieux-Port, ou devant n'importe quel hôtel five-star de Montréal, la G63 ne passe pas inaperçue.
+
+**L'Icône**
+
+La G-Classe existe depuis 1979. La version AMG actuelle avec son V8 biturbo de 585 chevaux en est la transformation ultime : boîte angulaire, gueule carrée, et une accélération qui défie son gabarit. 0-100 km/h en 4.5 secondes dans un véhicule de 2.5 tonnes. C'est de la physique insolente.
+
+**Pour Qui ?**
+
+La G63 est pour ceux qui veulent de la présence avant la performance. C'est le choix des entrepreneurs qui font des réunions importantes, des célébrités en visite à Montréal, des couples qui veulent quelque chose d'impressionnant pour un événement spécial. C'est aussi parfaite pour les Laurentides en hiver — la traction intégrale gère tout.
+
+**Tarifs et Disponibilité**
+
+999$/jour, livraison partout dans le Grand Montréal. Disponible 7j/7. WhatsApp : (438) 533-9053. Paiements : comptant, Interac, crypto, carte de crédit.
+
+**Réservation Rapide**
+
+Envoyez-nous vos dates et votre adresse de livraison via WhatsApp. On confirme en quelques minutes. Dépôt de sécurité remboursable à la prise en charge du véhicule.`,
+  },
+  {
+    slug: 'location-voiture-exotique-gatineau-ottawa',
+    title: 'Location Voiture Exotique Gatineau & Ottawa — Livraison Disponible',
+    date: '2025-08-05',
+    description: "Exotic Rentals Montreal livre maintenant à Gatineau et Ottawa. Supercars disponibles pour la région Outaouais dès 400$/jour.",
+    content: `Bonne nouvelle pour la région Outaouais : nous livrons maintenant à Gatineau et Ottawa. Que vous soyez du côté québécois ou ontarien, notre flotte de supercars est accessible sans que vous ayez à vous déplacer jusqu'à Montréal.
+
+**Gatineau — Livraison Directe**
+
+Nous couvrons tout Gatineau : Hull, Aylmer, Buckingham, Masson-Angers. Livraison à domicile, à votre hôtel, ou à un point de rencontre convenu. Mêmes tarifs qu'à Montréal, frais de livraison additionnels applicables selon la distance exacte.
+
+**Ottawa — La Capitale Fédérale en Supercar**
+
+Conduire une McLaren sur le boulevard de la Confédération ou longer le Canal Rideau en Lamborghini Urus — c'est une expérience que peu de gens ont eue. Ottawa est une ville sous-estimée pour les belles voitures : les routes sont larges, bien entretenues, et le contraste avec le décor institutionnel de la capitale est saisissant.
+
+**Notre Flotte**
+
+Audi RS5 (400$/jour) · RS7 (499$/jour) · RS6 (649$/jour) · BMW M5 (499$/jour) · R8 V10 (899$/jour) · McLaren 600LT (1 199$/jour) · Lamborghini Urus (849$/jour) · G63 AMG (999$/jour)
+
+**Réservation**
+
+WhatsApp : (438) 533-9053. Indiquez votre ville et vos dates. On calcule les frais de livraison et on confirme rapidement. Paiements : comptant, Interac, crypto, carte de crédit.`,
+  },
+  {
+    slug: 'location-audi-rs6-montreal',
+    title: "Location Audi RS6 à Montréal — La Familiale Qui Humilie les Supercars",
+    date: '2025-08-15',
+    description: "L'Audi RS6 Avant, disponible à Montréal dès 649$/jour. 600ch dans un break de luxe — livraison incluse.",
+    content: `L'Audi RS6 Avant est peut-être la voiture la plus absurde et la plus brillante que l'industrie automobile ait jamais produite. C'est techniquement un break familial. C'est pratiquement une arme. 600 chevaux, transmission intégrale Quattro, 0-100 km/h en 3.6 secondes — dans un véhicule avec cinq places, un coffre généreux, et une discrétion que n'ont pas la McLaren ou la Lamborghini.
+
+**Le Wolf in Sheep's Clothing**
+
+L'RS6 est pour ceux qui connaissent. Elle ne crie pas, elle ne roule pas bas, elle ne fait pas se retourner les gens dans la rue (enfin, si — mais pour des raisons différentes). C'est le choix de l'initié, de celui qui veut la performance maximale sans le théâtre. Et sur une autoroute québécoise en route vers Québec City, elle est imbattable dans sa catégorie.
+
+**Pour Tous les Usages**
+
+Entreprise en ville ? RS6. Week-end aux Laurentides avec des amis ? RS6. Aller chercher quelqu'un à l'aéroport en faisant une impression durable ? RS6. Elle s'adapte à tout sans jamais paraître déplacée.
+
+**Tarifs**
+
+649$/jour, livraison partout dans le Grand Montréal. Disponible 7j/7. Réservation via WhatsApp au (438) 533-9053 ou par courriel à contact@exoticrentalsmontreal.com.`,
+  },
+  {
+    slug: 'location-supercar-anniversaire-montreal',
+    title: "Location Supercar pour Anniversaire à Montréal — Surprise Inoubliable",
+    date: '2025-08-25',
+    description: "Offrez une location de supercar pour un anniversaire à Montréal. Livraison surprise disponible. Dès 400$/jour.",
+    content: `Vous cherchez un cadeau d'anniversaire qui sorte vraiment de l'ordinaire ? Pas une bouteille de scotch, pas une montre, pas un spa — les clés d'une supercar livrée à l'adresse de la personne concernée, le matin de son anniversaire. C'est le cadeau dont on parle encore dix ans plus tard.
+
+**La Livraison Surprise**
+
+Notre service de livraison surprise fonctionne simplement : vous réservez et payez à l'avance, vous nous donnez l'adresse et l'heure, et on se présente avec le véhicule choisi au moment convenu. La personne ouvre la porte, et là — sa journée change complètement.
+
+**Quel Véhicule Choisir ?**
+
+Pour quelqu'un qui aime les voitures : la McLaren 600LT ou l'Audi R8 V10 — des expériences de conduite pures et inimitables. Pour quelqu'un qui aime l'impact visuel : la Lamborghini Urus ou la G63 AMG. Pour une première expérience en supercar accessible : l'Audi RS5 ou le BMW M5. On peut vous conseiller selon le profil de la personne — envoyez-nous un message.
+
+**Occasions Populaires**
+
+30 ans, 40 ans, 50 ans — les grandes décennies méritent quelque chose de grand. Mais on a aussi fait des livraisons pour des 25 ans, des diplômes, des promotions, des retours de voyage. Toute bonne raison est la bonne raison.
+
+**Réservation Cadeau**
+
+WhatsApp : (438) 533-9053. Dites-nous la date, l'adresse, l'heure souhaitée, et le véhicule. On s'occupe du reste. Paiement à l'avance par n'importe quel mode accepté.`,
+  },
+  {
+    slug: 'location-voiture-luxe-saint-jean-sur-richelieu',
+    title: 'Location Voiture de Luxe Saint-Jean-sur-Richelieu et Rive-Sud',
+    date: '2025-09-06',
+    description: 'Livraison de voitures exotiques à Saint-Jean-sur-Richelieu, Chambly, Beloeil et toute la Rive-Sud. Disponible dès 400$/jour.',
+    content: `Vous êtes dans la Vallée-du-Richelieu et vous voulez conduire quelque chose d'exceptionnel ? Nous livrons à Saint-Jean-sur-Richelieu, Chambly, Beloeil, Saint-Hyacinthe et les environs — pas besoin de monter à Montréal.
+
+**Les Routes de la Vallée-du-Richelieu**
+
+La région entre Saint-Jean et Chambly offre certaines des plus belles petites routes du Québec. La route qui longe le Richelieu, les rangs tranquilles entre les champs — en Audi RS7 ou en BMW M5 un dimanche matin, c'est une expérience de conduite authentique sans la foule de la ville.
+
+**Service de Livraison**
+
+Nous livrons dans toute la région : Saint-Jean-sur-Richelieu · Chambly · Beloeil · McMasterville · Saint-Basile-le-Grand · Mont-Saint-Hilaire · Sainte-Julie · Varennes · Contrecœur
+
+Frais de livraison variables selon la distance depuis Montréal. Contactez-nous pour un devis précis.
+
+**Notre Flotte**
+
+De l'Audi RS5 à 400$/jour jusqu'à la McLaren 600LT à 1 199$/jour. Tous les véhicules sont livrés propres, pleins, et prêts à partir. Service disponible 7j/7.
+
+**Comment Réserver**
+
+WhatsApp : (438) 533-9053. Email : contact@exoticrentalsmontreal.com. Indiquez votre ville, le véhicule souhaité, et vos dates. Réponse en moins d'une heure pendant les heures d'ouverture.`,
+  },
+  {
+    slug: 'montreal-exotic-car-rental-crypto-payment',
+    title: 'Exotic Car Rental in Montreal — We Accept Bitcoin, Ethereum & Crypto',
+    date: '2025-09-11',
+    description: 'Exotic Rentals Montreal accepts Bitcoin, Ethereum, USDC and other crypto. Rent a supercar in Montreal and pay with crypto.',
+    content: `Exotic Rentals Montreal is one of the few luxury car rental services in Canada that accepts cryptocurrency as a payment method. Bitcoin, Ethereum, USDC, and other major tokens are all accepted. Here's how it works.
+
+**Why We Accept Crypto**
+
+It's 2025. A significant portion of our clientele holds digital assets and prefers to transact in crypto when possible. We don't believe in limiting options — if you want to rent a McLaren and pay in Bitcoin, that's a transaction we're happy to facilitate.
+
+**Supported Tokens**
+
+We accept: Bitcoin (BTC) · Ethereum (ETH) · USDC · USDT · And other major tokens on request. Contact us to confirm if your preferred token is supported.
+
+**How It Works**
+
+1. WhatsApp us at (438) 533-9053 with your rental request
+2. We provide a wallet address and the CAD equivalent in your token at current market rate
+3. You complete the transfer and send us the transaction hash
+4. We confirm receipt and schedule delivery
+
+Simple, fast, no intermediaries. The exchange rate is locked at the time of confirmation to protect both parties.
+
+**Full Discretion**
+
+Crypto transactions are handled with full discretion. We don't ask questions about the source of funds beyond standard due diligence. Your rental is your business.
+
+**Other Payment Methods**
+
+We also accept cash, Interac e-transfer, and credit card. Choose whatever works best for you.`,
+  },
+  {
+    slug: 'rent-lamborghini-urus-montreal',
+    title: 'Rent a Lamborghini Urus in Montreal — $849/Day, Delivery Included',
+    date: '2025-09-16',
+    description: 'The Lamborghini Urus is available to rent in Montreal from $849/day. 650hp, all-wheel drive, delivered to your address.',
+    content: `The Lamborghini Urus is the world's most successful SUV in terms of pure want. Not need — want. People who will never track a car, never push it past 80%, buy it because the Lamborghini badge and those aggressive angular lines represent something to them. Renting one means you get all of that without the $300,000 price tag and the depreciation that follows.
+
+**650 Horsepower in an SUV**
+
+The numbers remain absurd no matter how many times you read them. 4.0L twin-turbo V8. 650hp. 0-100 km/h in 3.6 seconds. In a vehicle that seats five adults with luggage room for a ski trip. Lamborghini managed to make the impossible practical.
+
+**Montreal Is Perfect for the Urus**
+
+The Urus is comfortable in traffic (unlike the McLaren), handles Montreal's variable road conditions without drama (unlike the R8), and commands attention wherever it parks (unlike everything else). It's the supercar for people who want to use their rental car, not just look at it.
+
+**A Day in the Urus**
+
+Morning coffee pickup in the Plateau. Midday meeting in Westmount. Afternoon drive up to Saint-Sauveur. Evening dinner in the Old Port. The Urus handles all of this while making each leg of the day feel like an event.
+
+**Rent It**
+
+$849/day, delivery anywhere in Greater Montreal. WhatsApp (438) 533-9053 or email contact@exoticrentalsmontreal.com. Available 7 days a week.`,
+  },
+  {
+    slug: 'location-voiture-exotique-quebec-city',
+    title: 'Location Voiture Exotique Québec City — Livraison Depuis Montréal',
+    date: '2025-09-21',
+    description: "Louez une supercar à Québec City avec livraison depuis Montréal. RS7, McLaren, G63 — disponibles pour la Vieille Capitale.",
+    content: `Québec City est l'une des plus belles villes d'Amérique du Nord. Ses rues historiques, le Château Frontenac, la Grande-Allée — chaque décor est cinématographique. Ajoutez une McLaren ou une G63 AMG à ce tableau, et vous avez quelque chose d'inoubliable.
+
+**Livraison à Québec City**
+
+Nous livrons nos véhicules à Québec City avec préavis de 24 à 48 heures. La distance depuis Montréal est d'environ 250 km, et nous calculons les frais de livraison selon le véhicule et la durée de la location. Contactez-nous pour un devis personnalisé.
+
+**Les Incontournables en Supercar à Québec**
+
+La Grande-Allée est l'artère principale de la Haute-Ville — large, bien éclairée en soirée, parfaite pour une Lamborghini ou une G63. Le boulevard Champlain longe le Saint-Laurent avec des vues spectaculaires. La route 138 vers l'est offre des accélérations ouvertes.
+
+**Pour Quel Type de Location ?**
+
+Multi-jours recommandé pour rentabiliser la livraison. Deux ou trois jours à Québec City en supercar, c'est l'idéal — vous avez le temps d'explorer, de profiter du véhicule, et de couvrir les frais de transport.
+
+**Réservation**
+
+WhatsApp : (438) 533-9053. Email : contact@exoticrentalsmontreal.com. Indiquez la durée souhaitée et le véhicule — on calcule un forfait livraison/location complet.`,
+  },
+  {
+    slug: 'exotic-car-rental-montreal-new-years-eve',
+    title: 'Exotic Car Rental in Montreal for New Year\'s Eve — Ring In the Year Right',
+    date: '2025-09-26',
+    description: "New Year's Eve in Montreal deserves an entrance. Rent an exotic car for December 31st — book early, availability is very limited.",
+    content: `New Year's Eve in Montreal is spectacular. The fireworks over the Old Port, the restaurant reservations six weeks in advance, the energy of a city collectively deciding to go all out — it's one of the best nights of the year in one of the best cities on the continent. Make your arrival match the occasion.
+
+**Why Rent on New Year's Eve**
+
+You're already spending money on dinner, a hotel, experiences. The car rental becomes the detail that ties it together. Arriving at your NYE dinner in a McLaren 600LT or a Mercedes-AMG G63 is the kind of thing that starts conversations, creates memories, and makes the evening genuinely exceptional rather than just expensive.
+
+**Availability Warning**
+
+New Year's Eve is the most in-demand single night of the year. We typically have zero availability by mid-December. If you're reading this and NYE is less than six weeks away, message us immediately to check. If it's further out — book now, pay the deposit, secure your car.
+
+**Recommended for NYE**
+
+The **G63 AMG** ($999/day) for maximum presence at any door. The **McLaren 600LT** ($1,199/day) for the driver who wants the night to be about the car. The **Lamborghini Urus** ($849/day) if you're in a group and want everyone comfortable without sacrificing the moment.
+
+**Book Now**
+
+WhatsApp (438) 533-9053. This is the one rental of the year where we strongly recommend booking as early as possible. Don't wait.`,
+  },
+  {
+    slug: 'how-to-rent-exotic-car-montreal-tips',
+    title: 'How to Rent an Exotic Car in Montreal — 5 Things You Should Know',
+    date: '2025-10-01',
+    description: 'First time renting an exotic car in Montreal? Here are 5 things every first-time renter should know before booking.',
+    content: `Renting an exotic car for the first time feels slightly intimidating until you've done it once. The process is actually simpler than most people expect — especially with us. Here are five things you should know before your first booking.
+
+**1. You Don't Need Special Insurance**
+
+Many first-time renters assume they need to purchase expensive additional insurance. With Exotic Rentals Montreal, basic coverage is included in your rental. We'll walk you through what's covered before you drive. No surprises.
+
+**2. The Car Comes to You**
+
+You don't go to a rental office. The car comes to your address — hotel, home, office, wherever. This means zero wasted time and maximum convenience. Tell us where and when, we show up.
+
+**3. Age Requirement Is 25+**
+
+You need a valid driver's license and to be at least 25 years old. This is standard for high-performance vehicles and non-negotiable. If you're under 25 and reading this hoping for an exception — there isn't one.
+
+**4. Start Small If You're Uncertain**
+
+If you've never driven a car with 500+ horsepower, the Audi RS5 or BMW M5 are excellent starting points. They're powerful and exciting without being as demanding as the McLaren or R8. Work your way up.
+
+**5. Book via WhatsApp for the Fastest Response**
+
+We respond to WhatsApp messages within minutes. Email is slightly slower. Calling is not currently available. The fastest way to check availability and secure your booking is to message (438) 533-9053.
+
+Ready to book? Message us now.`,
+  },
+  {
+    slug: 'exotic-car-photography-montreal',
+    title: 'Exotic Car Photography in Montreal — Rent for Content & Photoshoots',
+    date: '2025-10-06',
+    description: 'Content creators and photographers: rent an exotic car in Montreal for your next shoot. Flexible scheduling, multiple locations.',
+    content: `Montreal has some of the most photogenic backdrops on the continent — the Old Port warehouses, the glass towers of downtown, the industrial textures of Griffintown, the mountain silhouette at dusk. Put any car from our fleet in front of any of these and you have content that performs.
+
+**Content Creators & Influencers**
+
+Our vehicles are regularly rented for Instagram content, YouTube videos, TikTok productions, and personal brand photoshoots. The McLaren 600LT and Lamborghini Urus are the most popular choices for visual impact. The Audi RS7 and R8 photograph exceptionally well for their clean, purposeful lines.
+
+**Flexible Scheduling**
+
+We understand that golden hour is at 6:30am and that your shoot might run 12 hours. We can arrange early morning deliveries, extended rentals, and multi-day bookings for complex productions. Let us know what you need and we'll make it work.
+
+**Commercial Productions**
+
+If you're producing commercial content for a brand or agency, we can accommodate larger productions with proper invoicing and coordination. Email contact@exoticrentalsmontreal.com with your production brief.
+
+**Suggested Montreal Photo Locations**
+
+Old Port / Bonsecours Market · Griffintown industrial district · Mount Royal lookout (night shots) · Atwater Market exterior · Crescent Street at night · Île Notre-Dame (F1 circuit)
+
+**Pricing**
+
+Same as standard rental rates. Half-day rates available for shoots that don't require full-day use. WhatsApp (438) 533-9053 to discuss your project.`,
+  },
+];
+
+export default STANDBY_POSTS;

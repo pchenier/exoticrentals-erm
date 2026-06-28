@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 100" fill="none">
+  <defs>
+    <linearGradient id="gold-metal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4a853"/>
+      <stop offset="25%" stop-color="#f0d080"/>
+      <stop offset="50%" stop-color="#c9943e"/>
+      <stop offset="75%" stop-color="#e8c870"/>
+      <stop offset="100%" stop-color="#a07830"/>
+    </linearGradient>
+    <linearGradient id="gold-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a07830" stop-opacity="0.3"/>
+      <stop offset="30%" stop-color="#e8c870"/>
+      <stop offset="70%" stop-color="#e8c870"/>
+      <stop offset="100%" stop-color="#a07830" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="gold-sub" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b8943a" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#d4a853"/>
+      <stop offset="100%" stop-color="#b8943a" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top gold line -->
+  <rect x="60" y="28" width="200" height="1" fill="url(#gold-line)"/>
+
+  <!-- ERM monogram -->
+  <text x="160" y="72"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="44"
+    font-weight="700"
+    letter-spacing="10"
+    text-anchor="middle"
+    fill="url(#gold-metal)">ERM</text>
+
+  <!-- Bottom gold line (thinner, shorter) -->
+  <rect x="80" y="80" width="160" height="0.8" fill="url(#gold-line)"/>
+
+  <!-- EXOTIC RENTALS MONTREAL -->
+  <text x="160" y="98"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="7.5"
+    font-weight="300"
+    letter-spacing="4"
+    text-anchor="middle"
+    fill="url(#gold-sub)">EXOTIC RENTALS MONTREAL</text>
+</svg>

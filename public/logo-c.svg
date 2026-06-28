@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="gg"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#a07840"/><stop offset="50%" stop-color="#e8d4a0"/><stop offset="100%" stop-color="#a07840"/></linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="#0a0a0a"/>
+  <!-- Serif luxury style — circle frame -->
+  <circle cx="450" cy="450" r="340" fill="none" stroke="#c9a96e" stroke-width="0.7" opacity="0.3"/>
+  <circle cx="450" cy="450" r="328" fill="none" stroke="#c9a96e" stroke-width="0.3" opacity="0.15"/>
+  <text x="450" y="430" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-weight="400" font-size="86" letter-spacing="14" fill="#ffffff" filter="url(#g)">EXOTICS</text>
+  <line x1="250" y1="470" x2="650" y2="470" stroke="url(#gold)" stroke-width="0.8" opacity="0.8"/>
+  <text x="450" y="512" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-weight="400" font-size="16" letter-spacing="10" fill="url(#gold)" filter="url(#gg)">MONTRÉAL</text>
+</svg>

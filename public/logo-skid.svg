@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <defs>
+    <filter id="gw">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="skid-blur">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="smoke">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge><feMergeNode in="b"/></feMerge>
+    </filter>
+    <filter id="gg">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="skid-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#2a2a2a" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#222222" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#111111" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="skid-fade2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#252525" stop-opacity="0.85"/>
+      <stop offset="65%" stop-color="#1e1e1e" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#111111" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a07030"/>
+      <stop offset="50%" stop-color="#e8d4a0"/>
+      <stop offset="100%" stop-color="#a07030"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="900" fill="#080808"/>
+
+  <!-- Smoke haze behind skid origin (right side) -->
+  <ellipse cx="700" cy="490" rx="180" ry="80" fill="#c9a96e" opacity="0.015" filter="url(#smoke)"/>
+  <ellipse cx="680" cy="490" rx="120" ry="50" fill="#ffffff" opacity="0.02" filter="url(#smoke)"/>
+
+  <!-- Left tire skid mark — wide sweeping curve -->
+  <path d="M 60 570 Q 300 420 640 480 Q 760 500 860 460"
+        fill="none" stroke="url(#skid-fade)" stroke-width="22"
+        stroke-linecap="round" filter="url(#skid-blur)"/>
+  <!-- Left tire — thin detail line inside -->
+  <path d="M 60 570 Q 300 420 640 480 Q 760 500 860 460"
+        fill="none" stroke="#333333" stroke-width="2"
+        stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Right tire skid mark — parallel offset -->
+  <path d="M 60 620 Q 300 468 640 528 Q 760 548 860 508"
+        fill="none" stroke="url(#skid-fade2)" stroke-width="22"
+        stroke-linecap="round" filter="url(#skid-blur)"/>
+  <!-- Right tire — thin detail line -->
+  <path d="M 60 620 Q 300 468 640 528 Q 760 548 860 508"
+        fill="none" stroke="#333333" stroke-width="2"
+        stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Rubber dots / skid texture - scattered marks -->
+  <g fill="#1e1e1e" opacity="0.7">
+    <ellipse cx="280" cy="445" rx="12" ry="4" transform="rotate(-8, 280, 445)"/>
+    <ellipse cx="350" cy="432" rx="8" ry="3" transform="rotate(-10, 350, 432)"/>
+    <ellipse cx="420" cy="440" rx="15" ry="3" transform="rotate(-6, 420, 440)"/>
+    <ellipse cx="510" cy="452" rx="10" ry="3" transform="rotate(-5, 510, 452)"/>
+    <ellipse cx="590" cy="462" rx="13" ry="4" transform="rotate(-4, 590, 462)"/>
+    <ellipse cx="660" cy="472" rx="7" ry="3" transform="rotate(-3, 660, 472)"/>
+  </g>
+
+  <!-- EXOTICS wordmark — over the skid -->
+  <text
+    x="450"
+    y="470"
+    text-anchor="middle"
+    font-family="'Helvetica Neue',Arial,sans-serif"
+    font-weight="800"
+    font-size="104"
+    letter-spacing="10"
+    fill="#ffffff"
+    filter="url(#gw)"
+  >EXOTICS</text>
+
+  <!-- Gold thin rule -->
+  <line x1="240" y1="498" x2="660" y2="498" stroke="url(#gold)" stroke-width="0.6" opacity="0.65"/>
+
+  <!-- MTL -->
+  <text
+    x="450"
+    y="534"
+    text-anchor="middle"
+    font-family="'Helvetica Neue',Arial,sans-serif"
+    font-weight="200"
+    font-size="12"
+    letter-spacing="14"
+    fill="#c9a96e"
+    opacity="0.85"
+    filter="url(#gg)"
+  >MONTRÉAL</text>
+
+</svg>

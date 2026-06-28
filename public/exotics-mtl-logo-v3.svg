@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <defs>
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <filter id="glow-white" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="b1"/>
+      <feGaussianBlur stdDeviation="24" result="b2"/>
+      <feMerge>
+        <feMergeNode in="b2"/>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-gold-soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a07840"/>
+      <stop offset="35%" stop-color="#c9a96e"/>
+      <stop offset="65%" stop-color="#e8d4a0"/>
+      <stop offset="100%" stop-color="#b08a50"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="900" fill="url(#bg-grad)"/>
+
+  <!-- Thin outer frame -->
+  <rect x="40" y="40" width="820" height="820" fill="none" stroke="#c9a96e" stroke-width="0.6" opacity="0.25"/>
+  <rect x="50" y="50" width="800" height="800" fill="none" stroke="#c9a96e" stroke-width="0.3" opacity="0.12"/>
+
+  <!-- Top decorative rule -->
+  <line x1="120" y1="310" x2="780" y2="310" stroke="#c9a96e" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- EXOTICS — main wordmark -->
+  <text
+    x="450"
+    y="510"
+    text-anchor="middle"
+    font-family="Optima, 'Gill Sans', 'Helvetica Neue', sans-serif"
+    font-weight="400"
+    font-size="118"
+    letter-spacing="22"
+    fill="#ffffff"
+    filter="url(#glow-white)"
+  >EXOTICS</text>
+
+  <!-- Gold hairline divider with center diamond -->
+  <line x1="120" y1="556" x2="418" y2="556" stroke="url(#gold-grad)" stroke-width="0.7" opacity="0.7"/>
+  <polygon points="450,548 458,556 450,564 442,556" fill="#c9a96e" opacity="0.9" filter="url(#glow-gold-soft)"/>
+  <line x1="482" y1="556" x2="780" y2="556" stroke="url(#gold-grad)" stroke-width="0.7" opacity="0.7"/>
+
+  <!-- MONTRÉAL -->
+  <text
+    x="450"
+    y="605"
+    text-anchor="middle"
+    font-family="Optima, 'Gill Sans', 'Helvetica Neue', sans-serif"
+    font-weight="300"
+    font-size="18"
+    letter-spacing="14"
+    fill="url(#gold-grad)"
+    opacity="0.9"
+    filter="url(#glow-gold-soft)"
+  >MONTRÉAL</text>
+
+  <!-- Bottom decorative rule -->
+  <line x1="120" y1="630" x2="780" y2="630" stroke="#c9a96e" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Bottom year / est -->
+  <text
+    x="450"
+    y="672"
+    text-anchor="middle"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-weight="200"
+    font-size="10"
+    letter-spacing="8"
+    fill="#ffffff"
+    opacity="0.18"
+  >EST. 2020</text>
+
+</svg>

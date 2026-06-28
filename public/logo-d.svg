@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="900" fill="#080808"/>
+  <!-- Stacked, big X focal point -->
+  <text x="450" y="520" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="520" letter-spacing="-10" fill="#ffffff" opacity="0.04">X</text>
+  <text x="450" y="470" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="300" font-size="80" letter-spacing="30" fill="#ffffff" filter="url(#g)">EXOTICS</text>
+  <text x="450" y="520" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="200" font-size="14" letter-spacing="18" fill="#c9a96e" opacity="0.85">MONTRÉAL · 2020</text>
+</svg>

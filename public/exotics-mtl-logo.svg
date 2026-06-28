@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur1"/>
+      <feGaussianBlur stdDeviation="14" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-sub" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="200" fill="#0a0a0a"/>
+
+  <!-- Gold accent line top -->
+  <line x1="60" y1="42" x2="540" y2="42" stroke="#c9a96e" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- EXOTICS — main wordmark -->
+  <text
+    x="300"
+    y="128"
+    text-anchor="middle"
+    font-family="'Helvetica Neue', 'Arial Black', sans-serif"
+    font-weight="900"
+    font-size="88"
+    letter-spacing="18"
+    fill="#ffffff"
+    filter="url(#glow)"
+  >EXOTICS</text>
+
+  <!-- MTL — subtitle -->
+  <text
+    x="300"
+    y="158"
+    text-anchor="middle"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-weight="300"
+    font-size="14"
+    letter-spacing="12"
+    fill="#c9a96e"
+    filter="url(#glow-sub)"
+  >MONTRÉAL</text>
+
+  <!-- Gold accent line bottom -->
+  <line x1="60" y1="172" x2="540" y2="172" stroke="#c9a96e" stroke-width="0.5" opacity="0.4"/>
+
+</svg>

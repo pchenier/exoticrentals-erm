@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="900" fill="#060606"/>
+  <!-- Ultra minimal, extreme spacing, thin weight -->
+  <text x="450" y="420" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="100" font-size="72" letter-spacing="42" fill="#ffffff" filter="url(#g)">EXOTICS</text>
+  <line x1="200" y1="460" x2="700" y2="460" stroke="#c9a96e" stroke-width="0.6" opacity="0.6"/>
+  <text x="450" y="500" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="100" font-size="13" letter-spacing="16" fill="#c9a96e" opacity="0.8">MTL</text>
+</svg>

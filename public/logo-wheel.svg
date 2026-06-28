@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <radialGradient id="tire-grad" cx="50%" cy="45%" r="52%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#070707"/>
+    </radialGradient>
+    <radialGradient id="rim-grad" cx="42%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#2c2c2c"/>
+      <stop offset="60%" stop-color="#181818"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </radialGradient>
+    <radialGradient id="hub-grad" cx="42%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#111"/>
+    </radialGradient>
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#060606"/>
+    </radialGradient>
+    <filter id="gw">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gg">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="20" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9a6e28"/>
+      <stop offset="50%" stop-color="#e8d4a0"/>
+      <stop offset="100%" stop-color="#9a6e28"/>
+    </linearGradient>
+    <linearGradient id="spoke-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="30%" stop-color="#2e2e2e"/>
+      <stop offset="70%" stop-color="#252525"/>
+      <stop offset="100%" stop-color="#181818"/>
+    </linearGradient>
+    <clipPath id="rim-clip">
+      <circle cx="540" cy="540" r="368"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg-grad)"/>
+
+  <!-- Wheel shadow -->
+  <circle cx="540" cy="560" r="385" fill="#000000" opacity="0.5" filter="url(#shadow)"/>
+
+  <!-- TIRE (outer ring) -->
+  <circle cx="540" cy="540" r="420" fill="#0a0a0a"/>
+  <!-- Tire sidewall texture -->
+  <circle cx="540" cy="540" r="420" fill="none" stroke="#161616" stroke-width="50"/>
+  <circle cx="540" cy="540" r="400" fill="none" stroke="#111111" stroke-width="2"/>
+  <circle cx="540" cy="540" r="390" fill="none" stroke="#0e0e0e" stroke-width="1.5"/>
+
+  <!-- RIM FACE -->
+  <circle cx="540" cy="540" r="375" fill="url(#rim-grad)"/>
+
+  <!-- Rim outer ring highlight -->
+  <circle cx="540" cy="540" r="375" fill="none" stroke="#3a3a3a" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="540" cy="540" r="368" fill="none" stroke="#252525" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- 5 DOUBLE SPOKES — 72° apart, starting at -90° (top) -->
+  <!-- Each spoke: two parallel paths forming a Y-arm shape -->
+  <g clip-path="url(#rim-clip)">
+    <!-- Spoke 1 — 270° (top) -->
+    <polygon points="540,540 516,172 564,172" fill="url(#spoke-grad)"/>
+    <polygon points="540,540 514,172 528,172" fill="#2e2e2e" opacity="0.4"/>
+    <polygon points="540,540 552,172 566,172" fill="#141414" opacity="0.4"/>
+    <!-- highlight edge left -->
+    <line x1="540" y1="540" x2="516" y2="172" stroke="#383838" stroke-width="1" opacity="0.8"/>
+    <line x1="540" y1="540" x2="564" y2="172" stroke="#1a1a1a" stroke-width="1" opacity="0.6"/>
+
+    <!-- Spoke 2 — 342° -->
+    <polygon points="540,540 881,435 896,479" fill="url(#spoke-grad)" transform="rotate(72, 540, 540)"/>
+    <line x1="540" y1="540" x2="881" y2="435" stroke="#383838" stroke-width="1" opacity="0.8" transform="rotate(72, 540, 540)"/>
+    <line x1="540" y1="540" x2="896" y2="479" stroke="#1a1a1a" stroke-width="1" opacity="0.6" transform="rotate(72, 540, 540)"/>
+
+    <!-- Spoke 3 -->
+    <polygon points="540,540 881,435 896,479" fill="url(#spoke-grad)" transform="rotate(144, 540, 540)"/>
+    <line x1="540" y1="540" x2="881" y2="435" stroke="#383838" stroke-width="1" opacity="0.8" transform="rotate(144, 540, 540)"/>
+    <line x1="540" y1="540" x2="896" y2="479" stroke="#1a1a1a" stroke-width="1" opacity="0.6" transform="rotate(144, 540, 540)"/>
+
+    <!-- Spoke 4 -->
+    <polygon points="540,540 881,435 896,479" fill="url(#spoke-grad)" transform="rotate(216, 540, 540)"/>
+    <line x1="540" y1="540" x2="881" y2="435" stroke="#383838" stroke-width="1" opacity="0.8" transform="rotate(216, 540, 540)"/>
+    <line x1="540" y1="540" x2="896" y2="479" stroke="#1a1a1a" stroke-width="1" opacity="0.6" transform="rotate(216, 540, 540)"/>
+
+    <!-- Spoke 5 -->
+    <polygon points="540,540 881,435 896,479" fill="url(#spoke-grad)" transform="rotate(288, 540, 540)"/>
+    <line x1="540" y1="540" x2="881" y2="435" stroke="#383838" stroke-width="1" opacity="0.8" transform="rotate(288, 540, 540)"/>
+    <line x1="540" y1="540" x2="896" y2="479" stroke="#1a1a1a" stroke-width="1" opacity="0.6" transform="rotate(288, 540, 540)"/>
+  </g>
+
+  <!-- Brake disc peek (between spokes) -->
+  <circle cx="540" cy="540" r="240" fill="#0e0e0e" opacity="0.6"/>
+
+  <!-- Inner rim ring -->
+  <circle cx="540" cy="540" r="230" fill="none" stroke="#2a2a2a" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Center hub -->
+  <circle cx="540" cy="540" r="130" fill="url(#hub-grad)"/>
+  <circle cx="540" cy="540" r="130" fill="none" stroke="#333333" stroke-width="1.5" opacity="0.9"/>
+  <circle cx="540" cy="540" r="118" fill="none" stroke="#222222" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Hub gold ring -->
+  <circle cx="540" cy="540" r="108" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.7" filter="url(#gg)"/>
+
+  <!-- EXOTICS in hub -->
+  <text x="540" y="529" text-anchor="middle"
+    font-family="'Helvetica Neue',Arial,sans-serif"
+    font-weight="700" font-size="36" letter-spacing="5"
+    fill="#ffffff" filter="url(#gw)">EXOTICS</text>
+
+  <!-- Gold line in hub -->
+  <line x1="462" y1="544" x2="618" y2="544" stroke="url(#gold)" stroke-width="0.7" opacity="0.8"/>
+
+  <!-- MTL in hub -->
+  <text x="540" y="564" text-anchor="middle"
+    font-family="'Helvetica Neue',Arial,sans-serif"
+    font-weight="200" font-size="10" letter-spacing="7"
+    fill="#c9a96e" opacity="0.9">MTL</text>
+
+  <!-- Center bolt -->
+  <circle cx="540" cy="540" r="12" fill="#1a1a1a"/>
+  <circle cx="540" cy="540" r="10" fill="none" stroke="#333" stroke-width="1"/>
+
+</svg>

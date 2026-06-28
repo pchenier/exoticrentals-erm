@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <defs>
+    <linearGradient id="mg" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#888888"/></linearGradient>
+    <filter id="g"><feGaussianBlur stdDeviation="16" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="900" fill="#080808"/>
+  <!-- Bold condensed, full width -->
+  <text x="450" y="540" text-anchor="middle" font-family="'Arial Black','Helvetica Neue',sans-serif" font-weight="900" font-size="148" letter-spacing="-2" fill="url(#mg)" filter="url(#g)">EXOTICS</text>
+  <text x="450" y="590" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="200" font-size="12" letter-spacing="22" fill="#c9a96e" opacity="0.9">— MONTRÉAL —</text>
+</svg>
