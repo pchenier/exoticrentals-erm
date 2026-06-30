@@ -177,9 +177,7 @@ const jsonLd = {
   },
   "openingHours": "Mo-Su 00:00-23:59",
   "priceRange": "$$$",
-  "sameAs": [
-    "https://www.instagram.com/exotics.mtl"
-  ]
+  "sameAs": []
 };
 
 export default function RootLayout({

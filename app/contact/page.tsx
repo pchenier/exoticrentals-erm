@@ -37,9 +37,7 @@ const schema = {
   },
   openingHours: "Mo-Su 00:00-23:59",
   priceRange: "$$$",
-  sameAs: [
-    "https://www.instagram.com/exotics.mtl",
-  ],
+  sameAs: [],
   areaServed: [
     "Montreal",
     "Laval",
@@ -72,13 +70,6 @@ const contactMethods = [
     value: "contact@exoticrentalsmontreal.com",
     href: "mailto:contact@exoticrentalsmontreal.com",
     description: "For detailed inquiries",
-  },
-  {
-    label: "Instagram",
-    value: "@exotics.mtl",
-    href: "https://www.instagram.com/exotics.mtl",
-    description: "See the fleet in action",
-    external: true,
   },
 ];
 
