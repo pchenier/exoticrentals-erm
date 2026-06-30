@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   devIndicators: false,
+  staticPageGenerationTimeout: 300,
   images: {
     remotePatterns: [
       {
