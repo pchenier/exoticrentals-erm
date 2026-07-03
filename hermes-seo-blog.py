@@ -76,10 +76,33 @@ def slugify(text: str) -> str:
 
 # ── Step 1: Pick a topic ────────────────────────────────────────────────────
 def pick_topic(existing_slugs: set) -> dict:
+    """Pick the next topic that hasn't been written yet.
+    Falls back to batch topics when original list is exhausted."""
     for topic in TOPICS:
         slug = slugify(topic["title"])
         if slug not in existing_slugs:
             return topic
+
+    # Original list exhausted — try batch topics
+    try:
+        batch_script = REPO / "hermes-seo-blog-batch.py"
+        if batch_script.exists():
+            batch_content = batch_script.read_text()
+            topics_start = batch_content.find('NEW_TOPICS = [')
+            topics_end = batch_content.find(']\n', topics_start) + 1
+            topics_block = batch_content[topics_start:topics_end]
+            for m in re.finditer(r'"title":\s*"([^"]+)"', topics_block):
+                title = m.group(1)
+                slug = slugify(title)
+                if slug not in existing_slugs:
+                    # Find matching kw and angle
+                    kw_match = re.search(rf'"kw":\s*"([^"]+)"[^}}]*"title":\s*"{re.escape(title)}"[^}}]*"angle":\s*"([^"]+)"', topics_block)
+                    if kw_match:
+                        return {"kw": kw_match.group(1), "title": title, "model": None, "angle": kw_match.group(2)}
+    except Exception:
+        pass
+
+    # All topics done — cycle with a date suffix
     topic = TOPICS[len(existing_slugs) % len(TOPICS)]
     topic = {**topic, "title": topic["title"].rstrip(" 2026") + f" ({datetime.now().year})"}
     return topic
@@ -87,7 +110,10 @@ def pick_topic(existing_slugs: set) -> dict:
 # ── Step 2: Get existing slugs ───────────────────────────────────────────────
 def get_existing_slugs() -> set:
     content = BLOG_FILE.read_text()
-    return set(re.findall(r"slug:\s*'([^']+)'", content))
+    # Match both single and double quoted slugs
+    slugs_single = set(re.findall(r"slug:\s*'([^']+)'", content))
+    slugs_double = set(re.findall(r'slug:\s*"([^"]+)"', content))
+    return slugs_single | slugs_double
 
 # ── Step 3: Generate blog content via API ───────────────────────────────────
 def generate_post(topic: dict) -> dict:
