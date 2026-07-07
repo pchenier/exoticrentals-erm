@@ -140,8 +140,16 @@ Output ONLY valid JSON with these exact keys:
 {
   "title": "the blog post title",
   "description": "155-165 character meta description containing the main keyword",
-  "content": "the full blog post in markdown, 800-1200 words, with ## headings, natural keyword placement, and a CTA at the end"
+  "content": "the full blog post in markdown, 1000-1400 words, with ## headings, natural keyword placement, and a CTA at the end"
 }
+
+IMPORTANT GEO RULES (AI-citable content format):
+- AI search engines cite PASSAGES, not pages. 44% of citations come from the first 30% of text.
+- Start with a DIRECT ANSWER to the implied search query in the FIRST sentence.
+- Use QUESTION-BASED headings (e.g. "How Much Does It Cost to Rent a Lamborghini?" beats "Pricing")
+- Include an FAQ section near the end with at least 4 questions as ## headings and concise 2-3 sentence answers.
+- Pack 3-4 specific data points (prices, percentages, comparisons, HP numbers) — AI engines prioritize passages with verifiable stats.
+- FAQ is the #1 most-cited format by Google AI Overviews and ChatGPT.
 
 IMPORTANT: Output ONLY the JSON object. Do NOT think or reason. Do NOT wrap in code blocks. Start your response with { and end with }."""
 
@@ -151,9 +159,12 @@ Angle: {angle}
 Date: {today}
 
 Requirements:
-- 800-1200 words
+- 1000-1400 words
 - Include the exact keyword "{kw}" in the first paragraph, at least one heading, and naturally 3-4 more times
-- Use ## headings for structure
+- Start with a DIRECT ANSWER to the search query in the FIRST sentence (e.g. "Renting a Lamborghini in Montreal costs between $1,400 and $1,800 per day, depending on the model and season.")
+- Use QUESTION-BASED ## headings (e.g. "## How Much Does It Cost?" instead of "## Pricing")
+- Include an FAQ section near the end with at least 4 ## questions and concise 2-3 sentence answers
+- Pack 3-4 specific data points (prices, HP numbers, 0-60 times, deposit amounts)
 - Include 2-3 internal links using this format: [anchor text](/path) — available paths: /cars/[slug], /faq, /contact, /blog, /locations/[slug], /lamborghini-rental-montreal, /mclaren-rental-montreal, /ferrari-rental-montreal, /porsche-rental-montreal, /audi-rental-montreal, /bmw-rental-montreal, /mercedes-rental-montreal
 - End with a CTA: phone number {PHONE} and WhatsApp link
 - For French angle posts ("french"), write the ENTIRE post in French
@@ -165,88 +176,112 @@ Requirements:
     api_url = os.environ.get("OLLAMA_API_URL", "https://ollama.com/v1/chat/completions")
     api_key = os.environ.get("OLLAMA_API_KEY", "bd39f0f08b934b58bf69b740267f4c9d.xzl7vzW6hqFKYFMJ4ItvVlMr")
 
-    payload = json.dumps({
-        "model": "glm-5.1",
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ],
-        "temperature": 0.7,
-        "max_tokens": 8000,
-    }).encode("utf-8")
+    # Retry up to 3 times if JSON parsing fails (GLM-5.1 sometimes outputs reasoning text)
+    for attempt in range(1, 4):
+        print(f"Generating post for: {title}... (attempt {attempt}/3)")
 
-    req = urllib.request.Request(
-        api_url,
-        data=payload,
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}",
-        },
-    )
+        req_data = json.dumps({
+            "model": "glm-5.1",
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            "temperature": 0.7,
+            "max_tokens": 8000,
+        }).encode("utf-8")
 
-    print(f"Generating post for: {title}...")
-    with urllib.request.urlopen(req, timeout=180) as resp:
-        raw_resp = resp.read().decode("utf-8")
+        req = urllib.request.Request(
+            api_url,
+            data=req_data,
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {api_key}",
+            },
+        )
 
-    result = json.loads(raw_resp)
+        try:
+            with urllib.request.urlopen(req, timeout=180) as resp:
+                raw_resp = resp.read().decode("utf-8")
+        except Exception as e:
+            print(f"ERROR: API request failed: {e}")
+            if attempt < 3:
+                print(f"Retrying ({attempt}/3)...")
+                continue
+            sys.exit(1)
 
-    if "choices" not in result:
-        print(f"ERROR: Unexpected API response: {raw_resp[:500]}")
-        sys.exit(1)
+        result = json.loads(raw_resp)
 
-    raw = result["choices"][0]["message"].get("content", "")
+        if "choices" not in result:
+            print(f"ERROR: Unexpected API response: {raw_resp[:500]}")
+            if attempt < 3:
+                print(f"Retrying ({attempt}/3)...")
+                continue
+            sys.exit(1)
 
-    if not raw.strip():
-        reasoning = result["choices"][0]["message"].get("reasoning", "")
-        if reasoning.strip():
-            raw = reasoning
-            print("(Using reasoning field as content)")
+        raw = result["choices"][0]["message"].get("content", "")
 
-    if not raw.strip():
-        print(f"ERROR: Empty response from API. Full result: {json.dumps(result, indent=2)[:500]}")
-        sys.exit(1)
+        if not raw.strip():
+            reasoning = result["choices"][0]["message"].get("reasoning", "")
+            if reasoning.strip():
+                raw = reasoning
+                print("(Using reasoning field as content)")
 
-    start = raw.find('{')
-    if start == -1:
-        print(f"ERROR: No JSON found in response. Raw output:\n{raw[:500]}")
-        sys.exit(1)
+        if not raw.strip():
+            print(f"ERROR: Empty response from API. Full result: {json.dumps(result, indent=2)[:500]}")
+            if attempt < 3:
+                print(f"Retrying ({attempt}/3)...")
+                continue
+            sys.exit(1)
 
-    depth = 0
-    end = start
-    in_string = False
-    escape_next = False
-    for i in range(start, len(raw)):
-        ch = raw[i]
-        if escape_next:
-            escape_next = False
-            continue
-        if ch == '\\' and in_string:
-            escape_next = True
-            continue
-        if ch == '"' and not escape_next:
-            in_string = not in_string
-            continue
-        if in_string:
-            continue
-        if ch == '{':
-            depth += 1
-        elif ch == '}':
-            depth -= 1
-            if depth == 0:
-                end = i + 1
-                break
+        start = raw.find('{')
+        if start == -1:
+            print(f"ERROR: No JSON found in response. Raw output:\n{raw[:500]}")
+            if attempt < 3:
+                print(f"Retrying ({attempt}/3)...")
+                continue
+            sys.exit(1)
 
-    raw_json = raw[start:end]
+        depth = 0
+        end = start
+        in_string = False
+        escape_next = False
+        for i in range(start, len(raw)):
+            ch = raw[i]
+            if escape_next:
+                escape_next = False
+                continue
+            if ch == '\\' and in_string:
+                escape_next = True
+                continue
+            if ch == '"' and not escape_next:
+                in_string = not in_string
+                continue
+            if in_string:
+                continue
+            if ch == '{':
+                depth += 1
+            elif ch == '}':
+                depth -= 1
+                if depth == 0:
+                    end = i + 1
+                    break
 
-    try:
-        post_data = json.loads(raw_json)
-    except json.JSONDecodeError as e:
-        print(f"ERROR: Could not parse JSON: {e}")
-        print(f"Raw JSON (first 300 chars): {raw_json[:300]}")
-        print(f"Raw JSON (last 100 chars): {raw_json[-100:]}")
-        sys.exit(1)
+        raw_json = raw[start:end]
 
-    return post_data
+        try:
+            post_data = json.loads(raw_json)
+            return post_data
+        except json.JSONDecodeError as e:
+            print(f"ERROR: Could not parse JSON: {e}")
+            print(f"Raw JSON (first 300 chars): {raw_json[:300]}")
+            print(f"Raw JSON (last 100 chars): {raw_json[-100:]}")
+            if attempt < 3:
+                print(f"Retrying ({attempt}/3)...")
+                continue
+            sys.exit(1)
+
+    # Should never reach here, but just in case
+    sys.exit(1)
 
 # ── Step 4: Convert markdown content to TS template literal ─────────────────
 def md_to_ts_template(md: str) -> str:
