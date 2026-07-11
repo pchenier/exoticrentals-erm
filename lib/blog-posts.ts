@@ -9,6 +9,91 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'audi-r8-v10-rental-montreal-the-last-naturally-aspirated-v10',
+    title: 'Audi R8 V10 Rental Montreal: The Last Naturally Aspirated V10',
+    date: '2026-07-11',
+    description: 'Rent the Audi R8 V10 in Montreal from $1,200/day. 602 HP naturally-aspirated V10, 3.2s 0-100 km/h. 24/7 delivery across Greater Montreal. Call (438) 533-9053.',
+    content: `An Audi R8 V10 rental in Montreal costs between $1,200 and $1,500 per day through Exotic Rentals Montreal, putting you behind the wheel of one of the last naturally-aspirated 10-cylinder supercars ever built. The 5.2-liter V10 produces 602 horsepower and hits 100 km/h in 3.2 seconds — raw, mechanical power delivery that turbocharged alternatives cannot replicate. This car marks the end of an era, and driving it through Quebec is an experience worth prioritizing before Audi ends production permanently.
+
+## Why Choose an Audi R8 V10 Rental in Montreal?
+
+The R8 V10 occupies a unique position in the supercar hierarchy. It shares its engine architecture with the Lamborghini Huracan, but the driving character is distinctly different. Where the Huracan screams for attention, the R8 delivers the same 602 horsepower with daily-driver refinement. The naturally-aspirated V10 builds power linearly — no turbo lag, no artificial boost, just a rising wave of torque that pulls harder the higher you rev.
+
+Montreal's road network makes this car shine. The highways surrounding the island — Autoroute 20, the 40, the 132 — offer long on-ramps and sweeping curves that let the R8's mid-engine chassis settle into a rhythm. Head north toward the Laurentians on Route 117, and you'll find elevation changes and tight corners that showcase the Quattro all-wheel-drive system's grip. The R8 doesn't just handle; it communicates through the steering wheel and seat, giving you confidence to push harder.
+
+## How Much Does an Audi R8 V10 Rental Cost?
+
+Pricing for an Audi R8 V10 rental in Montreal runs between $1,200 and $1,500 per day, depending on the season and availability. Peak summer months — June through September — command the higher end of that range, while late fall and winter bookings can see slight reductions.
+
+The security deposit sits at $7,500, held on a credit card for the duration of the rental. This is standard for vehicles in this performance bracket and is fully refundable upon return, assuming no damage. Full insurance coverage is required — no exceptions.
+
+All rentals operate on a 24-hour minimum. Pick up at noon, return by noon the next day. Exotic Rentals Montreal also delivers anywhere in Greater Montreal, 24 hours a day, 7 days a week. That means the R8 can be waiting in your hotel driveway in Old Montreal or at your office in Westmount when you're ready to drive.
+
+## What Makes the R8 V10 Different From Other Supercars?
+
+The defining characteristic is that 5.2-liter naturally-aspirated V10. Almost every other performance car in this price range has moved to forced induction. The [Lamborghini Huracan EVO](/lamborghini-rental-montreal) shares the same engine block, but the R8's tuning and exhaust note deliver a different acoustic signature — slightly more restrained at idle, absolutely vicious above 6,000 RPM.
+
+The numbers tell part of the story: 602 horsepower, 413 lb-ft of torque, 3.2 seconds to 100 km/h, and a top speed north of 320 km/h. But the real difference is how that power arrives. Turbocharged engines hit hard in the midrange and then flatten out. The R8 V10 builds intensity the entire way to its 8,700 RPM redline. Every 1,000 RPM gain adds urgency. By 7,000 RPM, the engine is screaming, and you're gripping the wheel with white knuckles.
+
+The Quattro all-wheel-drive system makes this power usable year-round. Unlike rear-drive exotics that become liabilities in wet or cold conditions, the R8 puts power down confidently. Montreal's spring showers and autumn dampness don't phase this car. The magnetic ride suspension adapts to road conditions in milliseconds, keeping the chassis composed over Quebec's notoriously uneven pavement.
+
+## Where Should You Drive the R8 in Montreal?
+
+Start downtown and head west on Autoroute 720 toward the Turcot interchange. The on-ramps here let you stretch the V10 through the first three gears before merging. From there, take the 20 west toward Vaudreuil-Dorion — long, open stretches where the R8 breathes at speed.
+
+For a more engaging route, cross the Champlain Bridge to the South Shore and follow Route 132 toward Longueuil and Boucherville. The river views are a bonus, but the road surface and sweeping curves are the real draw.
+
+The Laurentians offer the best driving roads within an hour of the city. Route 117 north from Saint-Jérôme winds through forests and elevation changes. The R8's chassis was built for roads like this. Plan a Saturday morning departure before traffic builds, and you'll have 90 minutes of genuinely world-class driving.
+
+If you're staying in the city, a cruise through Old Montreal at night turns heads. The R8's LED lighting signature and wide stance look theatrical against the cobblestone streets and historic architecture. Just keep the revs low in the narrow streets — save the V10's voice for the open road.
+
+## How Does the R8 Compare to Other Exotic Rentals?
+
+The R8 sits between raw supercars and grand tourers. Against the [McLaren 600LT](/mclaren-rental-montreal), the R8 is more comfortable and easier to drive slowly, but less explosive at the limit. Compared to the [Ferrari 488 GTB](/ferrari-rental-montreal), the Audi trades Italian drama for German precision. The Ferrari sounds better at idle; the R8 sounds better at full throttle.
+
+For context within the Audi lineup, the R8 V10 is a different animal than the [RS7](/audi-rental-montreal) or RS6. Those cars are brutally fast practical machines — turbocharged, spacious, and devastatingly quick in a straight line. The R8 is a mid-engine supercar with a naturally-aspirated engine that demands you rev it out. Different mission, different reward.
+
+The R8's closest competitor in the fleet is arguably the [Porsche 911 4S Techart](/porsche-rental-montreal). Both offer all-weather capability and everyday usability. The Porsche is more practical; the Audi is more theatrical. If you want to feel like you're driving something special every second you're behind the wheel, the R8 wins.
+
+## What Are the Requirements to Rent the R8 V10?
+
+You need to be at least 25 years old to rent the Audi R8 V10. No exceptions. The minimum rental period is 24 hours, and full insurance coverage is mandatory — your personal auto policy won't cover a $200,000+ supercar.
+
+You'll need a valid driver's license, a clean driving record, and a credit card capable of holding the $7,500 security deposit. International licenses are accepted with proper documentation.
+
+Delivery is available anywhere in Greater Montreal, 24/7. If you're flying into Trudeau Airport and want the R8 waiting when you land, Exotic Rentals Montreal coordinates timing and location to match your schedule. The same goes for hotel deliveries in downtown, Plateau, Westmount, or anywhere on the island.
+
+## Can You Rent the R8 V10 for Special Events?
+
+The Audi R8 V10 is a popular choice for weddings, corporate events, and film productions. Its styling is striking without being ostentatious, which makes it appropriate for events where you want presence without spectacle.
+
+For weddings, the R8 works as a getaway car or a photo backdrop. The wide stance and side blade design elements photograph exceptionally well. For corporate events, it communicates success and taste rather than excess.
+
+Multi-day rentals are available at reduced rates. If you're planning a weekend in the Laurentians or a three-day road trip through Quebec, the per-day cost decreases significantly on bookings of 72 hours or more. Contact the team directly to discuss extended rental packages.
+
+## How Much Does an Audi R8 V10 Rental in Montreal Cost?
+
+An Audi R8 V10 rental in Montreal costs between $1,200 and $1,500 per day, with a $7,500 refundable security deposit. Peak summer rates tend toward the higher end, while off-season bookings may see slight discounts. All rentals require full insurance coverage and a 24-hour minimum commitment.
+
+## What Is the Minimum Age to Rent the Audi R8 V10?
+
+The minimum age to rent the Audi R8 V10 is 25 years old. Exotic Rentals Montreal offers select models to drivers 21 and older, but the R8 falls into the higher-tier category requiring the 25+ age minimum. A valid license and clean driving record are also mandatory.
+
+## Can the Audi R8 V10 Be Delivered to My Location?
+
+Yes, Exotic Rentals Montreal delivers the Audi R8 V10 anywhere in Greater Montreal, 24 hours a day, 7 days a week. Whether you're at Trudeau Airport, a downtown hotel, or a residence in Laval or the South Shore, the car arrives where you need it at no extra delivery fee within the standard service area.
+
+## How Does the R8 V10 Compare to the Lamborghini Huracan?
+
+The Audi R8 V10 and Lamborghini Huracan share the same 5.2-liter V10 engine block, but they deliver different experiences. The R8 produces 602 horsepower with Quattro all-wheel drive and a more refined cabin, while the Huracan offers a more aggressive driving position and sharper track-focused dynamics. Both hit 100 km/h in roughly 3.2 seconds, but the R8 is more comfortable for extended drives through Montreal and the surrounding region.
+
+## Book Your Audi R8 V10 Rental
+
+The naturally-aspirated V10 is a dying breed. Audi has confirmed the R8's production run is ending, and no direct successor is planned. Every drive in this car is a drive in a piece of automotive history.
+
+Call (438) 533-9053 or message on WhatsApp at wa.me/14385339053 to reserve the Audi R8 V10 for your Montreal rental. Delivery is available across Greater Montreal, 24/7. The car is waiting — the question is whether you're ready to drive it.`,
+  },
+  {
     slug: 'mercedes-e63s-amg-rental-montreal-luxury-meets-raw-power',
     title: 'Mercedes E63S AMG Rental Montreal: Luxury Meets Raw Power',
     date: '2026-07-09',
