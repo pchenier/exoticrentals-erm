@@ -9,6 +9,87 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-old-montreal-supercars-in-the-historic-quarter',
+    title: 'Exotic Car Rental Old Montreal: Supercars in the Historic Quarter',
+    date: '2026-07-14',
+    description: 'Rent a supercar in Old Montreal with 24/7 delivery. Choose from Lamborghini, Ferrari, McLaren and more. Minimum age 21. Call (438) 533-9053.',
+    content: `An exotic car rental Old Montreal puts you behind the wheel of a Lamborghini, Ferrari, or McLaren with 24/7 delivery directly to your hotel or venue in the historic quarter. Exotic Rentals Montreal operates across Greater Montreal, bringing high-performance machines straight to Rue Saint-Paul, the Old Port, or any address in H2Y and H3A. No need to travel to a lot—we bring the car to you.
+
+Old Montreal demands a certain standard. The cobblestone streets and 17th-century architecture set a backdrop that a standard rental sedan simply cannot match. Pulling up to the Ritz-Carlton or Hotel William Gray in a [Lamborghini Urus](/cars/lamborghini-urus) or a [Ferrari 488 GTB](/ferrari-rental-montreal) changes the entire context of your visit. This is what an exotic car rental Old Montreal should feel like—effortless, direct, and built for the location.
+
+## What Supercars Are Available for an Exotic Car Rental Old Montreal?
+
+Our fleet sits ready for delivery anywhere in Greater Montreal. The lineup includes some of the most requested performance vehicles in the city.
+
+Italian exotics dominate the list. The [Lamborghini Huracan Tecnica](/lamborghini-rental-montreal) delivers 631 horsepower from its naturally aspirated 5.2-liter V10, hitting 60 mph in 2.8 seconds. The Lamborghini Huracan EVO offers rear-wheel steering and 631 HP in a slightly more aggressive daily setup. For those needing four seats and four doors, the Lamborghini Urus brings 641 HP and a twin-turbo V8 to the table—equally capable on Saint-Laurent Boulevard as it is on a run up to Tremblant.
+
+Ferrari is represented by the 488 GTB. Its 3.9-liter twin-turbo V8 produces 661 HP and carries a 0-60 time of 2.9 seconds. Read more about our [Ferrari rental options](/ferrari-rental-montreal) if you want the Prancing Horse for your weekend.
+
+McLaren’s 600LT is a track-focused weapon. With 592 HP and a dry weight under 3,000 lbs, it is the lightest, most responsive car in the fleet. We also offer the [McLaren 600LT](/mclaren-rental-montreal) for those who want a mid-engine experience that borders on race car.
+
+German engineering fills out the rest. The Audi RS7 and RS6 both carry 4.0-liter twin-turbo V8s making 591 HP. The Audi R8 V10 gives you a 5.2-liter naturally aspirated V10 with 602 HP. BMW’s M5 Competition and M3 Competition offer 617 HP and 503 HP respectively. The BMW X6M delivers 617 HP in an SUV package. Mercedes brings the E63S AMG (630 HP) and the S63 AMG (621 HP). Porsche options include the 911 4S Techart and the Panamera GTS. The Audi RS5 rounds out the roster.
+
+## How Does Delivery Work for an Exotic Car Rental Old Montreal?
+
+We deliver 24/7 anywhere in Greater Montreal. That includes Old Montreal, Downtown, the Plateau, Westmount, and out to the suburbs. There is no pickup requirement on your end. When you book an exotic car rental Old Montreal through Exotic Rentals Montreal, we arrive at your specified address with the car fully fueled and ready.
+
+Delivery to hotels in the Old Port area—like the Hotel William Gray or the Auberge du Vieux-Port—is standard practice. We also deliver to private residences, corporate offices on McGill College Avenue, and event venues across the city. Our team coordinates timing with you directly, whether that is a 6 AM departure for a business trip or a 10 PM arrival for a weekend kickoff.
+
+## What Are the Requirements to Rent a Supercar in Montreal?
+
+The minimum age to rent most vehicles in our fleet is 25. Drivers aged 21 to 24 can access select models, including the Audi RS5, BMW M3 Competition, and certain Mercedes AMG models. A valid driver’s license is required—Quebec, other Canadian provinces, US states, and international licenses are all accepted.
+
+Full insurance is mandatory. You must carry a valid auto insurance policy that covers a rental vehicle in this value class, or you can purchase coverage through us at the time of booking. A security deposit is held on your credit card for the duration of the rental. The deposit amount varies by vehicle, ranging from $5,000 for entry-level performance cars up to $20,000 for the McLaren 600LT and Lamborghini Huracan Tecnica.
+
+The minimum rental period is 1 day, which translates to a full 24 hours from the time of delivery. Mileage limits apply depending on the vehicle and rental duration. Additional kilometers are billed at a per-km rate disclosed in your rental agreement.
+
+## How Much Does an Exotic Car Rental Old Montreal Cost?
+
+Pricing is set per day (24 hours) and varies significantly by model. The BMW M3 Competition starts around $650 per day. The Audi RS7 and RS6 come in near $850 per day. Mid-tier exotics like the [Porsche 911 4S Techart](/porsche-rental-montreal) and the Mercedes E63S AMG sit in the $900 to $1,100 range.
+
+True supercars command higher rates. The Lamborghini Huracan EVO and Huracan Tecnica run between $1,400 and $1,800 per day depending on season and availability. The Ferrari 488 GTB and McLaren 600LT fall in the $1,500 to $2,000 per day bracket. These prices reflect the market rate for a properly maintained, fully insured exotic car rental Old Montreal.
+
+Weekend rates (Friday through Sunday) and weekly rates are available at adjusted pricing. Contact us directly for multi-day packages. The security deposit—held on credit card—is not part of the rental fee and is released upon safe return of the vehicle.
+
+## Where Should You Drive an Exotic Car Around Old Montreal?
+
+Old Montreal itself is for low-speed cruising. The cobblestones on Rue Saint-Paul and the narrow streets around Place d'Armes are best navigated at a measured pace. This is where the car gets seen. The stretch along the Old Port boardwalk, De la Commune Street, runs parallel to the water and offers clean sightlines and photo opportunities with the St. Lawrence River in the background.
+
+For actual driving, head north. Boulevard Saint-Laurent provides a straight, wide run through the city core. The on-ramps to Autoroute 10 East and Autoroute 15 North are within five minutes of Old Montreal. Once on the highway, you can open the car up. The run toward Mont-Tremblant on Route 117 is a 90-minute drive through the Laurentians with elevation changes and sweeping corners that suit a mid-engine chassis.
+
+Closer to the city, the bridge crossings—Jacques-Cartier, Champlain, and Victoria—each offer a distinct view of the Montreal skyline. Crossing the Jacques-Cartier at night in a [McLaren 600LT](/mclaren-rental-montreal) with the exhaust open is an experience that justifies the rental alone.
+
+## Can You Rent an Exotic Car for a Wedding or Corporate Event in Old Montreal?
+
+Yes. A significant portion of our bookings are for weddings, corporate events, and film productions in the Old Montreal area. The Basilique Notre-Dame, the Marché Bonsecours, and the various hotels in the quarter are frequent pickup and drop-off points. We handle the logistics—you tell us the address and the time, and the car arrives.
+
+For weddings, we recommend booking at least two weeks in advance, particularly during peak season (June through September). White and black vehicles are most requested for wedding use, with the [Mercedes S63 AMG](/mercedes-rental-montreal) and the BMW M5 Competition being common choices. Corporate clients tend to favor the Lamborghini Urus and the Audi RS7 for client entertainment and VIP transport. Read our [FAQ](/faq) for more details on event bookings.
+
+## Frequently Asked Questions About Exotic Car Rental Old Montreal
+
+## What Is the Minimum Age to Rent a Supercar in Montreal?
+
+The minimum age is 25 for most high-value vehicles in our fleet, including all Lamborghini, Ferrari, and McLaren models. Drivers aged 21 and older can rent select vehicles such as the Audi RS5, BMW M3 Competition, and certain Mercedes AMG models. A valid license and full insurance are required regardless of age.
+
+## How Much Is the Security Deposit for an Exotic Car Rental?
+
+Security deposits range from $5,000 to $20,000 depending on the vehicle. The deposit is held on your credit card at the time of delivery and released upon safe return of the car. For example, the BMW M3 Competition requires a $5,000 deposit, while the McLaren 600LT requires $20,000.
+
+## Can You Deliver the Car to My Hotel in Old Montreal?
+
+Yes. We deliver 24/7 to any address in Greater Montreal, including all hotels in the Old Montreal and Old Port area. We deliver directly to Hotel William Gray, the Ritz-Carlton, the W Montreal, and private residences alike. You do not need to come to us.
+
+## Do I Need My Own Insurance to Rent a Lamborghini or Ferrari?
+
+Yes. Full insurance coverage is required for all exotic car rentals. You can use your own auto insurance policy if it covers rental vehicles in this value class, or you can purchase coverage through Exotic Rentals Montreal at the time of booking. No vehicle leaves our possession without confirmed insurance.
+
+## Book Your Exotic Car Rental Old Montreal Today
+
+Exotic Rentals Montreal, operated by Gestion Exotics Inc., provides the fleet, the logistics, and the discretion you need for a proper supercar experience in the city. We have been putting drivers behind the wheel of the most capable machines on the road for years, and we handle every booking with the same standard.
+
+Browse the full fleet on our [cars page](/cars/), or go straight to booking by calling us at (438) 533-9053. We also respond on WhatsApp at [wa.me/14385339053](https://wa.me/14385339053). Delivery is available 24/7 anywhere in Greater Montreal. Tell us where and when—we bring the car.`,
+  },
+  {
     slug: 'bmw-x6m-competition-rental-montreal-aggressive-suv-performance',
     title: 'BMW X6M Competition Rental Montreal: Aggressive SUV Performance',
     date: '2026-07-12',
