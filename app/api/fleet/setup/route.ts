@@ -120,36 +120,7 @@ export async function GET() {
         coming_soon: false,
         sort_order: 5,
       },
-      {
-        name: 'Lamborghini Urus Black on Black',
-        nickname: 'The Throne',
-        rate: 1200,
-        original_rate: null,
-        description: 'Nero Noctis, blacked-out wheels, black interior. The Urus in stealth mode — 641hp SUV that disappears into the night and reappears in your rearview.',
-        specs: '641 hp · V8 Twin-Turbo · AWD',
-        engine: '4.0L V8 Biturbo',
-        hp: '641 hp',
-        sprint: '3.5s',
-        image: '/cars/urus_black1.jpg',
-        gallery: ['/cars/urus_black1.jpg', '/cars/urus_black2.jpg', '/cars/urus_black3.jpg'],
-        coming_soon: false,
-        sort_order: 12,
-      },
-      {
-        name: 'Mercedes G63 AMG',
-        nickname: 'The Commander',
-        rate: 999,
-        original_rate: null,
-        description: 'The G63 AMG is an icon. 577hp of AMG muscle in the most recognizable silhouette on the road.',
-        specs: '577 hp · V8 Bi-Turbo · 4MATIC',
-        engine: '4.0L V8 Biturbo',
-        hp: '577 hp',
-        sprint: '4.5s',
-        image: '/cars/g63_3.jpg',
-        gallery: ['/cars/g63_3.jpg', '/cars/g63_4.jpg', '/cars/g63_2.jpg', '/cars/g63_5.jpg', '/cars/g63_6.jpg', '/cars/g63_7.jpg'],
-        coming_soon: false,
-        sort_order: 7,
-      },
+
     ];
 
     let inserted = 0;

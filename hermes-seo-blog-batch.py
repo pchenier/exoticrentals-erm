@@ -20,9 +20,9 @@ from pathlib import Path
 
 # ── Config ──────────────────────────────────────────────────────────────────
 SITE = "exoticrentalsmontreal.com"
-PHONE = "(438) 533-9053"
-PHONE_TEL = "+14385339053"
-WHATSAPP = "https://wa.me/14385339053"
+PHONE = "438-809-4417"
+PHONE_TEL = "+14388094417"
+WHATSAPP = "https://wa.me/14388094417"
 REPO = Path("/Users/pogod/.openclaw/workspace/exoticrentals-erm")
 BLOG_FILE = REPO / "lib" / "blog-posts.ts"
 DRY_RUN = "--dry-run" in sys.argv
@@ -153,8 +153,8 @@ def generate_post(topic: dict) -> dict:
     system_prompt = """You are an expert SEO content writer for a luxury car rental company in Montreal called "Exotic Rentals Montreal" (by Gestion Exotics Inc.). Write in a confident, direct style — no fluff, no filler, no AI cliches. Avoid: "in today's fast-paced world", "whether you're a seasoned pro or a first-timer", "imagine this", "it's no secret that", "elevate your experience", "seamless", "unforgettable", "unparalleled". Write like a car enthusiast who knows Montreal.
 
 Key facts to include naturally:
-- Phone: (438) 533-9053
-- WhatsApp: wa.me/14385339053
+- Phone: 438-809-4417
+- WhatsApp: wa.me/14388094417
 - Delivery anywhere in Greater Montreal, 24/7
 - Minimum age 25 for most vehicles, 21 for select models
 - Minimum rental 1 day (24 hours)
