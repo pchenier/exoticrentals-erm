@@ -43,7 +43,14 @@ export async function generateMetadata({
       url: `https://www.exoticrentalsmontreal.com/blog/${slug}`,
       type: 'article',
       publishedTime: post.date,
-      ...(post.image ? { images: [{ url: post.image }] } : {}),
+      images: [
+        {
+          url: post.image || 'https://www.exoticrentalsmontreal.com/og-image.jpg',
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
     },
   };
 }
@@ -106,7 +113,7 @@ export default async function BlogPostPage({
       url: 'https://www.exoticrentalsmontreal.com',
     },
     url: `https://www.exoticrentalsmontreal.com/blog/${slug}`,
-    ...(post.image ? { image: post.image } : {}),
+    image: post.image || 'https://www.exoticrentalsmontreal.com/og-image.jpg',
   };
 
   return (

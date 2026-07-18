@@ -6,7 +6,7 @@ import type { Viewport } from "next";
 import FloatingWA from "@/components/FloatingWA";
 import ScrollBanner from "@/components/scroll-banner";
 
-const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || "G-PLACEHOLDER";
+const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || "G-J3DCXV066G";
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18142334755";
 
 const inter = Inter({
