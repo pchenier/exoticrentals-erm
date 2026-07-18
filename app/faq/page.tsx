@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: 'What exotic cars can I rent in Montreal?',
-    a: 'We offer the McLaren 600LT, Lamborghini Huracán EVO, Lamborghini Huracán Tecnica, Lamborghini Urus, Audi RS7, Audi RS6, Audi R8 V10 Spyder, BMW M5 Competition, BMW M3 Isle of Man, BMW M4 Competition, BMW X6M, Mercedes G63 AMG, Mercedes E63S AMG, Mercedes S63 AMG, Ferrari 488 GTB, Porsche 911 TechArt, Porsche Panamera GTS and more. 20+ vehicles available year round.',
+    a: 'We offer the McLaren 600LT, Lamborghini Huracán EVO, Lamborghini Huracán Tecnica, Lamborghini Urus, Audi RS7, Audi RS6, Audi R8 V10 Spyder, BMW M5 Competition, BMW M3 Isle of Man, BMW M4 Competition, Mercedes G63 AMG, Mercedes E63S AMG, Mercedes S63 AMG, Ferrari 488 GTB, Porsche 911 TechArt, Porsche Panamera GTS and more. 20+ vehicles available year round.',
   },
   {
     q: 'How much does it cost to rent an exotic car in Montreal?',

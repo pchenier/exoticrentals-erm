@@ -13,6 +13,11 @@ const DELETED_SLUGS = new Set([
   'luxury-car-rental-montreal-summer',
   'exotic-car-rental-montreal-corporate-events',
   'exotic-car-rental-bachelor-party-montreal',
+  'bmw-x6m-competition-rental-montreal-aggressive-suv-performance',
+  'bmw-x6m-competition-montreal-price-specs',
+  'bmw-x6m-competition-prix-specs-montreal',
+  'bmw-x6m-competition-montreal-night',
+  'bmw-x6m-nuit-montreal',
 ]);
 
 export async function generateStaticParams() {

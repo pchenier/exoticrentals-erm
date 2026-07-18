@@ -10,7 +10,6 @@ const CAR_SLUGS = [
   'bmw-m3-competition-isle-of-man-green',
   'bmw-m5-competition',
   'bmw-x5-m-competition',
-  'bmw-x6m-competition',
   'mercedes-benz-e63s-amg',
   'mercedes-benz-s63-amg',
   'mercedes-g63-amg',

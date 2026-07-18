@@ -351,7 +351,6 @@ export default function Fleet() {
         <Link href="/cars/bmw-m3-competition-isle-of-man-green">BMW M3 Competition Rental Montreal</Link>
         <Link href="/cars/bmw-m5-competition">BMW M5 Competition Rental Montreal</Link>
         <Link href="/cars/bmw-x5-m-competition">BMW X5 M Competition Rental Montreal</Link>
-        <Link href="/cars/bmw-x6m-competition">BMW X6M Competition Rental Montreal</Link>
         <Link href="/cars/mercedes-benz-e63s-amg">Mercedes-Benz E63S AMG Rental Montreal</Link>
         <Link href="/cars/mercedes-benz-s63-amg">Mercedes-Benz S63 AMG Rental Montreal</Link>
         <Link href="/cars/mercedes-g63-amg">Mercedes G63 AMG Rental Montreal</Link>

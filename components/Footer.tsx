@@ -152,7 +152,6 @@ export default function Footer() {
             <Link href="/cars/bmw-m3-competition-isle-of-man-green" className="text-xs tracking-wide text-white/35 hover:text-white transition-colors duration-300 font-light">BMW M3 Competition</Link>
             <Link href="/cars/bmw-m5-competition" className="text-xs tracking-wide text-white/35 hover:text-white transition-colors duration-300 font-light">BMW M5 Competition</Link>
             <Link href="/cars/bmw-x5-m-competition" className="text-xs tracking-wide text-white/35 hover:text-white transition-colors duration-300 font-light">BMW X5 M Competition</Link>
-            <Link href="/cars/bmw-x6m-competition" className="text-xs tracking-wide text-white/35 hover:text-white transition-colors duration-300 font-light">BMW X6M Competition</Link>
             <Link href="/cars/mercedes-benz-e63s-amg" className="text-xs tracking-wide text-white/35 hover:text-white transition-colors duration-300 font-light">Mercedes E63S AMG</Link>
             <Link href="/cars/mercedes-benz-s63-amg" className="text-xs tracking-wide text-white/35 hover:text-white transition-colors duration-300 font-light">Mercedes S63 AMG</Link>
             <Link href="/cars/mercedes-g63-amg" className="text-xs tracking-wide text-white/35 hover:text-white transition-colors duration-300 font-light">Mercedes G63 AMG</Link>
