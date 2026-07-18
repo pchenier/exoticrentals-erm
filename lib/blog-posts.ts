@@ -9,6 +9,114 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-longueuil-south-shore-luxury-delivery',
+    title: 'Exotic Car Rental Longueuil: South Shore Luxury Delivery',
+    date: '2026-07-18',
+    description: 'Exotic car rental Longueuil with 24/7 delivery to the South Shore. Choose from Lamborghini, Ferrari, McLaren & more. Starting at $1,200/day. Call 438-809-4417.',
+    content: `An exotic car rental Longueuil starts at $1,200 per day for performance sedans like the Audi RS5 and reaches $2,500+ for mid-engine supercars like the McLaren 600LT, with Exotic Rentals Montreal delivering directly to the South Shore 24 hours a day. If you are in Longueuil, Brossard, Saint-Lambert, or Boucherville, we bring the car to your door so you never have to cross the Jacques-Cartier Bridge just to pick up keys.
+
+## Why Choose an Exotic Car Rental Longueuil Instead of Driving Downtown?
+
+Most exotic rental companies operate out of downtown Montreal lots. That means South Shore clients spend 45 minutes in traffic crossing the bridge, navigating Saint-Laurent construction, filling out paperwork in a cramped office, and repeating the whole process at return. Exotic Rentals Montreal cuts that entirely. We deliver every vehicle in our fleet directly to your home, hotel, or workplace in Longueuil at no extra charge. Our drivers arrive with the car, handle the walkthrough, verify your documents, and hand over the keys in under 20 minutes.
+
+The South Shore also has driving roads that rival anything on the island. Boulevard Marie-Victorin runs along the Saint-Laurent with open sightlines and minimal traffic outside rush hours. Route 132 heading east toward Varennes gives you stretches where a 631-horsepower Lamborghini Huracan EVO actually gets to stretch its legs. The Jacques-Cartier Bridge at night, with Montreal's skyline behind you, is a view that justifies the rental alone.
+
+## What Supercars and Luxury Vehicles Can You Rent in Longueuil?
+
+Our fleet includes 16 vehicles covering Italian exotics, German performance sedans, and track-focused machines. Every car is available for delivery to Longueuil.
+
+Lamborghini Huracan Tecnica — The newest rear-drive Huracan produces 631 horsepower from its naturally aspirated 5.2-liter V10. The Tecnica hits 60 mph in 2.9 seconds and weighs 3,164 pounds dry. [Lamborghini rental Montreal](/lamborghini-rental-montreal) details current availability and pricing.
+
+Lamborghini Huracan EVO — All-wheel drive with the same V10, putting 631 HP through all four corners. More forgiving than the Tecnica for drivers who want exotic drama with added grip in Quebec conditions.
+
+Lamborghini Urus — 641 horsepower from a twin-turbo 4.0-liter V8, four seats, and enough ground clearance for South Shore winters. The Urus is the exotic car rental Longueuil clients choose when they need supercar speed with SUV practicality.
+
+McLaren 600LT — 592 HP, 2,728 pounds dry, and a carbon-fiber monocell that makes everything else feel heavy. The 600LT is a driver's car with no pretense. See our [McLaren rental Montreal](/mclaren-rental-montreal) page for specs and booking.
+
+Ferrari 488 GTB — 661 HP from a 3.9-liter twin-turbo V8. The 488 hits 60 mph in 3.0 seconds and sounds like a Formula 1 car from the early 2000s. Our [Ferrari rental Montreal](/ferrari-rental-montreal) page covers everything you need to know.
+
+Audi RS7 — 591 HP four-door that does 0-60 in 3.1 seconds while carrying four adults and their luggage. The RS7 is the rational exotic when you need performance without sacrificing practicality.
+
+Audi RS6 Avant — The wagon that makes station cars exciting. Same twin-turbo V8 as the RS7, same absurd acceleration, but with 60 cubic feet of cargo space.
+
+Audi R8 V10 — 562 HP of naturally aspirated V10 mounted behind the driver. Approachable, reliable, and better-sounding than almost anything else on the road.
+
+Porsche 911 4S Techart — Our modified 992 with Techart aero and exhaust. 443 HP from the twin-turbo flat-six, AWD, and a cabin built for long drives along Route 132.
+
+Porsche Panamera GTS — 453 HP V8 in a four-door body with GT-bred handling. For drivers who want Porsche dynamics with room for passengers.
+
+BMW M5 Competition — 617 HP, 0-60 in 3.1 seconds. A sedan that out-accelerates most mid-engine supercars from the 2010s. Our [BMW rental Montreal](/bmw-rental-montreal) lineup includes the M3 Competition and X6M.
+
+BMW M3 Competition — 503 HP inline-six, rear-drive, and the sharpest steering in our fleet under $1,500/day.
+
+BMW X6M — 617 HP SUV with the same engine as the M5 Competition. Fast, loud, and capable in Quebec weather.
+
+Mercedes E63S AMG — 603 HP from a hand-built 4.0-liter V8. An executive express that runs 10-second quarter miles.
+
+Mercedes S63 AMG — Full-size luxury with 603 HP. Heated, ventilated, and massaged seats while you cover 0-60 in 3.4 seconds.
+
+Audi RS5 — 444 HP twin-turbo V6 in a two-door body. The entry point for our exotic car rental Longueuil fleet.
+
+## How Does Delivery to Longueuil Work?
+
+Delivery is free within Greater Montreal, including all South Shore locations. We operate 24/7, so if you land at YUL at midnight and need a car waiting at your Longueuil hotel, we make it happen. Our drivers bring the vehicle to your exact address, walk you through the controls, verify your documents, and hand over the keys.
+
+Pickup works the same way. When your rental period ends, we collect the vehicle from wherever you are in the Longueuil area. No driving back to a lot, no paperwork queues.
+
+## What Are the Requirements to Rent an Exotic Car?
+
+You must be at least 25 years old to rent most vehicles in our fleet, including all Lamborghini, Ferrari, and McLaren models. Select vehicles — the Audi RS5, BMW M3 Competition, and some Mercedes AMG models — are available to drivers 21 and older. All renters need a valid driver's license and full insurance coverage.
+
+Security deposits range from $5,000 on performance sedans up to $15,000 on the McLaren 600LT and Lamborghini models. The deposit is held on your credit card and released after the vehicle returns undamaged.
+
+The minimum rental period is one full day (24 hours). We do not offer half-day or hourly rentals.
+
+## How Much Does an Exotic Car Rental in Longueuil Cost?
+
+Pricing depends on the vehicle, season, and duration. Current baseline rates:
+
+Audi RS5 — from $1,200/day
+BMW M3 Competition — from $1,300/day
+Audi RS7 — from $1,500/day
+Porsche 911 4S Techart — from $1,500/day
+BMW M5 Competition — from $1,600/day
+Mercedes E63S AMG — from $1,600/day
+Porsche Panamera GTS — from $1,600/day
+Audi R8 V10 — from $1,800/day
+Mercedes S63 AMG — from $1,800/day
+Lamborghini Huracan EVO — from $2,000/day
+Ferrari 488 GTB — from $2,200/day
+Lamborghini Huracan Tecnica — from $2,200/day
+Lamborghini Urus — from $2,200/day
+McLaren 600LT — from $2,500/day
+
+Multi-day rentals receive discounted rates. Contact us directly for week-long bookings or special events.
+
+## Where Are the Best Driving Roads Near Longueuil?
+
+Longueuil has several routes worth experiencing in a supercar. Boulevard Marie-Victorin runs along the Saint-Laurent with open sightlines. Route 132 heads east toward Boucherville and Varennes, offering stretches where you can reach the upper rev range. For longer drives, head south toward the Eastern Townships. Mont Orford, Lac Memphremagog, and the winding roads around Magog are 90 minutes from Longueuil and deliver some of the best driving in Quebec.
+
+Check our [FAQ](/faq) for detailed policies, or browse the full fleet on our [cars page](/cars/). Longueuil clients can also view specific [location details](/locations/longueuil).
+
+## Can I Get an Exotic Car Delivered to Longueuil at Night?
+
+Yes. Exotic Rentals Montreal delivers 24 hours a day, 7 days a week to Longueuil and the entire South Shore. If your flight arrives at YUL at 2:00 AM, we will have the car waiting at your address when you arrive.
+
+## What Is the Minimum Age to Rent a Lamborghini in Longueuil?
+
+You must be 25 years old to rent the Lamborghini Huracan EVO, Huracan Tecnica, and Urus. Drivers 21 and older can rent select models like the Audi RS5 and BMW M3 Competition. Full insurance is required regardless of age.
+
+## How Much Is the Security Deposit for an Exotic Car Rental?
+
+Security deposits range from $5,000 for performance sedans like the Audi RS5 up to $15,000 for the McLaren 600LT and Lamborghini models. The deposit is authorized on your credit card at delivery and released after the vehicle is returned without damage.
+
+## Do You Offer Multi-Day Discounts for Exotic Car Rentals?
+
+Yes. Rentals of three days or more receive discounted rates, and week-long bookings are priced individually based on the vehicle and season. Contact us directly for custom quotes on extended rentals.
+
+Ready to book your exotic car rental Longueuil? Call 438-809-4417 or message us on WhatsApp at wa.me/14388094417. We deliver to any address in Longueuil and the South Shore, 24/7.`,
+  },
+  {
     slug: 'exotic-car-rental-westmount-premium-cars-for-montreal-s-best-neighbourhood',
     title: 'Exotic Car Rental Westmount: Premium Cars for Montreal\'s Best Neighbourhood',
     date: '2026-07-17',
