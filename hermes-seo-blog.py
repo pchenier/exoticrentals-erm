@@ -268,6 +268,9 @@ Requirements:
 
         raw_json = raw[start:end]
 
+        # Sanitize control chars that break JSON parsing
+        raw_json = re.sub(r'[--]', '', raw_json)
+
         try:
             post_data = json.loads(raw_json)
             return post_data
