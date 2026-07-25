@@ -9,6 +9,145 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-west-island-premium-delivery-across-the-west',
+    title: 'Exotic Car Rental West Island: Premium Delivery Across the West',
+    date: '2026-07-25',
+    description: 'Exotic car rental West Island Montreal starts at $450/day. Free 24/7 delivery to PointeClaire, DDO, Kirkland. McLaren, Lamborghini, Ferrari, and more.',
+    content: `An exotic car rental West Island Montreal starts at approximately $450 per day for an Audi RS5 and reaches $2,500 per day for a McLaren 600LT, with complimentary delivery to any address in the West Island area 24/7. Exotic Rentals Montreal operates across the entire Greater Montreal region, bringing supercars and highperformance luxury vehicles directly to your location — whether you are in PointeClaire, DollarddesOrmeaux, Kirkland, Beaconsfield, or Baied'Urfé.
+
+## Why Choose an Exotic Car Rental in West Island Montreal?
+
+The West Island offers some of the best driving roads in the Montreal area. Lakeshore Road along Lac SaintLouis provides a scenic route that pairs well with a V10 engine note. Highway 40 and the TransCanada Highway give you open stretches where a twinturbo V8 can stretch its legs. When you arrange an exotic car rental West Island Montreal through our service, you skip the downtown congestion and get straight to the driving.
+
+Exotic Rentals Montreal delivers to your hotel, home, or business address anywhere in the West Island. No need to navigate crowded city streets to pick up your vehicle — we bring the car to you, 24 hours a day, 7 days a week.
+
+## What Vehicles Are Available for West Island Delivery?
+
+Our fleet includes 16 vehicles ranging from aggressive supercars to practical performance sedans and SUVs. Here is what you can book for delivery to the West Island:
+
+Supercars and Exotics:
+
+ McLaren 600LT — 592 horsepower, 060 mph in 2.8 seconds
+ [Lamborghini Huracan Tecnica](/lamborghinirentalmontreal) — 631 horsepower, rearwheeldrive precision
+ Lamborghini Huracan EVO — 631 horsepower with allwheel drive
+ [Ferrari 488 GTB](/ferrarirentalmontreal) — 661 horsepower from a twinturbo 3.9L V8
+ [Audi R8 V10](/audirentalmontreal) — naturally aspirated 5.2L V10, 562 horsepower
+
+Performance Sedans and SUVs:
+
+ Audi RS7 — 591 horsepower, 060 mph in 3.4 seconds
+ Audi RS6 — 591 horsepower, practical wagon body
+ [BMW M5 Competition](/bmwrentalmontreal) — 617 horsepower, 4door rocket
+ BMW M3 Competition — 503 horsepower, rearwheeldrive purist choice
+ BMW X6M — 617 horsepower performance SUV
+ Mercedes E63S AMG — handbuilt 4.0L twinturbo V8
+ Mercedes S63 AMG — luxury meets 603 horsepower
+ Audi RS5 — 444 horsepower, entrylevel exotic performance
+
+Porsche Options:
+
+ [Porsche 911 4S Techart](/porscherentalmontreal) — modified 992 with Techart aero and exhaust
+ Porsche Panamera GTS — 4.0L twinturbo V8, grand touring comfort
+
+Lamborghini Urus:
+
+ Lamborghini Urus — 641 horsepower, the Super SUV
+
+## How Much Does an Exotic Car Rental Cost in the West Island?
+
+Pricing depends on the vehicle, season, and rental duration. Here are current starting rates for 1day (24hour) rentals:
+
+ Audi RS5: starting at $450/day
+ BMW M3 Competition: starting at $550/day
+ Mercedes E63S AMG: starting at $600/day
+ Audi RS7: starting at $650/day
+ BMW M5 Competition: starting at $700/day
+ Porsche 911 4S Techart: starting at $900/day
+ Audi R8 V10: starting at $1,100/day
+ Lamborghini Huracan EVO: starting at $1,400/day
+ Lamborghini Huracan Tecnica: starting at $1,500/day
+ Ferrari 488 GTB: starting at $1,600/day
+ McLaren 600LT: starting at $2,500/day
+
+Security deposits vary by vehicle. Expect deposits ranging from $2,500 for an Audi RS5 up to $15,000 for a McLaren 600LT. The deposit is held on your credit card and released upon return of the vehicle in its original condition.
+
+## What Are the Requirements to Rent an Exotic Car?
+
+To book an exotic car rental West Island Montreal, you must meet several requirements:
+
+1. Minimum age 25 for most vehicles, 21 for select models including the Audi RS5 and BMW M3 Competition
+2. Valid driver's license from your home province, state, or country
+3. Full insurance coverage — either your own policy or coverage purchased through us
+4. Security deposit held on a major credit card
+5. Minimum rental period of 1 day (24 hours)
+
+International visitors can rent with a valid license from their home country. We recommend an International Driving Permit for licenses not in English or French, though it is not strictly required.
+
+## How Does Delivery Work in the West Island?
+
+When you book an exotic car rental West Island Montreal, delivery is straightforward. We operate 24/7 across Greater Montreal, including every West Island municipality:
+
+ PointeClaire
+ DollarddesOrmeaux
+ Kirkland
+ Beaconsfield
+ Baied'Urfé
+ SainteAnnedeBellevue
+ Senneville
+ Dorval
+ PierrefondsRoxboro
+ L'ÎleBizard
+
+Our driver arrives at your specified address with the vehicle, handles a brief orientation covering controls and features, documents the car's condition with photos, and hands you the keys. At the end of your rental, we collect the vehicle from the same location or any address in Greater Montreal.
+
+There are no additional delivery fees for standard West Island locations. For deliveries outside Greater Montreal, contact us for a quote.
+
+## Where Should You Drive an Exotic Car Around the West Island?
+
+The West Island and surrounding areas offer several routes worth experiencing in a supercar:
+
+Lakeshore Road (Chemin du BordduLac) runs from Dorval through PointeClaire, Beaconsfield, and Baied'Urfé along the water. The combination of lake views and winding sections makes this a local favorite, especially in a [Lamborghini Huracan](/lamborghinirentalmontreal) or Ferrari 488 GTB.
+
+Route 342 through Senneville and SainteAnnedeBellevue provides treelined roads with minimal traffic on weekday mornings. This route connects to the Morgan Arboretum area for a peaceful drive.
+
+Highway 40 westbound toward Vaudreuil opens up once you pass the island. Early morning runs with minimal traffic let you experience what a 600+ horsepower car can do.
+
+For a longer drive, take Autoroute 15 north toward the Laurentians. MontTremblant is roughly 90 minutes from the West Island — an ideal destination for a weekend rental in a [Porsche 911](/porscherentalmontreal) or McLaren 600LT.
+
+## Can You Rent an Exotic Car for Special Events in the West Island?
+
+Weddings, corporate events, photoshoots, and anniversaries are common reasons clients book an exotic car rental West Island Montreal. The West Island is home to several highend venues that pair well with a supercar arrival:
+
+ The Royal Golf Club of Montreal in ÎleBizard
+ Club de golf SaintRaphaël in ÎleBizard
+ Château Vaudreuil for waterfront events
+ Various yacht clubs along Lakeshore Road
+
+For weddings, we recommend booking at least 2 weeks in advance. Weekend dates from May through October fill quickly. Contact us for multivehicle packages if you need a convoy for a wedding party.
+
+## What Is the Minimum Age to Rent a Lamborghini in Montreal?
+
+You must be at least 25 years old to rent a Lamborghini Huracan, Lamborghini Urus, or any supercar in our fleet. Select models like the Audi RS5 and BMW M3 Competition are available to drivers 21 and older.
+
+## How Much Is the Security Deposit for an Exotic Car Rental?
+
+Security deposits range from $2,500 for entrylevel performance cars up to $15,000 for the McLaren 600LT. The exact amount depends on the vehicle and is held on your credit card for the duration of the rental, then released upon return.
+
+## Do You Deliver Exotic Cars to West Island Hotels?
+
+We deliver to any address in the West Island and Greater Montreal area, 24 hours a day, 7 days a week. This includes hotels, private residences, corporate offices, and event venues. There is no extra charge for standard West Island deliveries.
+
+## What Insurance Do I Need to Rent a Supercar?
+
+Full insurance coverage is required for every rental. You can use your own auto insurance policy if it covers exotic car rentals, or you can purchase coverage through Exotic Rentals Montreal. Proof of insurance must be provided before the vehicle is handed over.
+
+## Book Your Exotic Car Rental West Island Montreal
+
+Exotic Rentals Montreal by Gestion Exotics Inc. delivers supercars and highperformance vehicles across the West Island and Greater Montreal, 24/7. Whether you want a Lamborghini for a weekend, a Ferrari for a special event, or an M5 Competition for a business trip, we bring the car to you.
+
+Call 4388094417 or message us on WhatsApp at wa.me/14388094417 to reserve your vehicle. Browse the full fleet at [/cars](/cars) and review rental policies at [/faq](/faq).`,
+  },
+  {
     slug: 'exotic-car-rental-brossard-luxury-cars-on-the-south-shore',
     title: 'Exotic Car Rental Brossard: Luxury Cars on the South Shore',
     date: '2026-07-24',
