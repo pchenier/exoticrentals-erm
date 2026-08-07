@@ -9,6 +9,83 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-insurance-quebec-what-you-need-to-know',
+    title: 'Exotic Car Rental Insurance Quebec: What You Need to Know',
+    date: '2026-08-07',
+    description: 'Exotic car rental insurance Quebec requirements explained: deposits from $5,000$15,000, full coverage mandatory, age 25+ for most supercars. Complete guide.',
+    content: `Full insurance coverage is mandatory for any exotic car rental in Quebec, meaning you cannot drive a Lamborghini, Ferrari, or McLaren off the lot without a valid policy that explicitly covers highvalue luxury vehicles with replacement value protection. Understanding exotic car rental insurance Quebec requirements before you book saves you from lastminute surprises at pickup and ensures you are financially protected behind the wheel of a sixfigure supercar.
+
+At Exotic Rentals Montreal, we require full insurance on every vehicle in our fleet, from the Audi RS5 to the McLaren 600LT. This guide breaks down exactly how the insurance works, what deposits to expect, and what happens if something goes wrong on Montreal's streets.
+
+## What Does Exotic Car Rental Insurance in Quebec Cover?
+
+When you rent an exotic car in Quebec, the insurance conversation starts with one hard rule: your personal auto insurance policy almost never covers a rental vehicle valued over $100,000. Standard policies cap out at vehicles worth $50,000 to $75,000, which means a Ferrari 488 GTB with a market value pushing $300,000 falls well outside that bracket.
+
+Exotic car rental insurance Quebec regulations require rental companies to carry a baseline commercial policy on the vehicle itself. This covers thirdparty liability, which is mandatory across the province. However, this baseline policy does not cover damage to the rental car itself when you are at fault. That is where your own coverage or a supplemental policy comes in.
+
+The coverage you need includes collision damage waiver (CDW), comprehensive protection against theft and vandalism, and liability coverage that meets Quebec's minimum requirements. For reference, Quebec mandates $50,000 in thirdparty liability, but operating a vehicle worth $200,000plus demands significantly higher limits. Most credit card rental insurance programs also exclude vehicles above a certain value threshold, typically capping around $65,000, which disqualifies nearly every car in our fleet.
+
+## How Much Is the Security Deposit for an Exotic Car?
+
+Security deposits for exotic car rentals in Montreal range from $5,000 to $15,000 depending on the vehicle. The deposit is held on your credit card at pickup and released upon return, assuming the vehicle comes back in the same condition it left.
+
+Here is a breakdown of typical deposit amounts across our fleet:
+
+Audi RS5, BMW M3 Competition, and Audi RS6 sit at the lower end with deposits around $5,000. Move up to the Lamborghini Huracan EVO or the Ferrari 488 GTB, and you are looking at $10,000. The McLaren 600LT, with its 592 horsepower and a 060 time of 2.8 seconds, commands a $15,000 deposit. The Lamborghini Urus, our performance SUV option generating 641 horsepower, also falls in the $10,000 to $12,000 range.
+
+The deposit is not a fee. It is a preauthorization hold that freezes the amount on your credit card. Once the car passes its return inspection, the hold is released within 3 to 5 business days, depending on your bank.
+
+## What Happens If You Damage a Rental Lamborghini or Ferrari?
+
+If you damage a rental exotic car in Quebec, financial responsibility depends on who is at fault and what coverage you carry. If you are at fault in a collision and lack proper exotic car rental insurance, Quebec law means you pay out of pocket for repairs, and supercar repairs are not cheap.
+
+A front bumper replacement on a Lamborghini Huracan Tecnica runs between $8,000 and $12,000 for parts and paint. A single carbon fiber panel on a McLaren 600LT can cost $5,000 to $7,000. Scratch the ceramic brake disc on a Porsche 911 4S Techart, and you are replacing a rotor that costs $3,500 per corner. These are not inflated numbers. They reflect actual parts pricing from certified exotic car dealerships in the Greater Montreal area.
+
+With proper insurance coverage, your outofpocket expense is limited to the deductible outlined in your policy, which typically ranges from $2,500 to $5,000 for exotic vehicles. Without coverage, the security deposit covers a fraction of the damage, and you are billed for the remainder. This is exactly why Exotic Rentals Montreal enforces a strict full insurance requirement on every rental.
+
+## Can You Use Your Personal Auto Insurance for Exotic Rentals?
+
+In most cases, no. Quebec personal auto insurance policies are designed for daily drivers, not for vehicles like the Lamborghini Huracan Tecnica with its 631horsepower V10 or the Mercedes S63 AMG with its handcrafted twinturbo V8. Your personal policy has a vehicle value exclusion that almost certainly disqualifies any car in our fleet.
+
+There are two paths to getting properly insured for an exotic rental in Montreal. The first is purchasing a standalone rental insurance policy from a provider that specializes in highvalue vehicles. Companies like Alliance Insurance or brokers familiar with Quebec's exotic car market can write shortterm policies that cover the specific replacement value of the car you are renting.
+
+The second path is the insurance offered directly through our rental agreement. We work with insurers who understand the specific risks associated with supercars on Montreal roads, from the tight turns of Old Montreal to the highway onramps along the Décarie Expressway. This option is the simplest because the coverage is written specifically for the vehicle and the rental period, which starts at a minimum of 1 day, or 24 hours.
+
+## What Are the Minimum Requirements to Rent an Exotic Car in Montreal?
+
+Beyond insurance, Quebec has specific requirements for renting an exotic car. You must be at least 25 years old for most vehicles in our fleet, including the McLaren 600LT, all Lamborghini models, and the Ferrari 488 GTB. Select models like the Audi RS5 and BMW M3 Competition are available to drivers aged 21 and up.
+
+You need a valid driver's license, a clean driving record, and a credit card in your own name with enough available credit to cover both the rental fee and the security deposit. International licenses are accepted as long as they are accompanied by a valid license from your home country.
+
+The minimum rental period is 1 day, measured as 24 hours from the time of pickup. We deliver anywhere in Greater Montreal, 24 hours a day, 7 days a week. Whether you need the car dropped at your hotel in downtown Montreal or at a residence in Westmount, delivery is included. For locations outside the Greater Montreal area, delivery fees apply and are quoted in advance.
+
+Check our [FAQ page](/faq) for additional details on licensing and rental terms, or browse the full [fleet of available cars](/cars/) to see which models match your budget and insurance situation.
+
+## FAQ: Exotic Car Rental Insurance Quebec
+
+## Is Insurance Included in the Rental Price?
+
+No. The rental price covers the vehicle rental only. Thirdparty liability insurance is carried on the vehicle by Exotic Rentals Montreal as required by Quebec law, but collision and comprehensive coverage for the vehicle itself is your responsibility. You must provide proof of full insurance before driving any car off the lot.
+
+## How Do I Prove I Have Insurance for an Exotic Car?
+
+You need to present a certificate of insurance at pickup that explicitly lists the rental vehicle by make, model, and value, or shows coverage limits that match or exceed the replacement value of the car. A standard auto insurance card is not sufficient. Your broker or insurer can email or fax this documentation directly to us before your rental date.
+
+## What If I Only Want to Drive the Car for a Few Hours?
+
+The minimum rental is 1 full day, which is 24 hours. There is no hourly rate. Insurance must cover the full rental period regardless of how long you actually drive the car. This policy applies across the entire fleet, from the [Audi RS7](/audirentalmontreal) to the [Lamborghini Urus](/lamborghinirentalmontreal).
+
+## Does Exotic Car Rental Insurance Cover Track Days?
+
+No. Insurance policies, whether personal or commercial, explicitly exclude coverage during track events, timed runs, or any driving on a closed circuit. If you want to experience the full capability of a car like the [McLaren 600LT](/mclarenrentalmontreal) or the [Ferrari 488 GTB](/ferrarirentalmontreal), it must stay on public roads within legal speed limits.
+
+## Book Your Exotic Car Rental with Confidence
+
+Understanding exotic car rental insurance Quebec rules puts you in control. You know what coverage you need, what deposit to expect, and what happens if the unexpected occurs. Every vehicle in our fleet, from the BMW X6M to the Porsche Panamera GTS, is maintained to the highest standard and protected by clear, transparent insurance requirements.
+
+Ready to book? Call Exotic Rentals Montreal at 4388094417 or message us on WhatsApp at wa.me/14388094417. We deliver anywhere in Greater Montreal, 24/7, and our team walks you through every detail of the insurance process before you sign. Browse more [rental tips and guides](/blog) or go straight to [contacting us](/contact) to reserve your car.`,
+  },
+  {
     slug: 'how-much-does-it-cost-to-rent-a-lamborghini-in-montreal',
     title: 'How Much Does It Cost to Rent a Lamborghini in Montreal?',
     date: '2026-08-05',
