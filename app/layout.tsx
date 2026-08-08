@@ -3,8 +3,7 @@ import { Inter, Bebas_Neue } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import type { Viewport } from "next";
-import FloatingWA from "@/components/FloatingWA";
-import ScrollBanner from "@/components/scroll-banner";
+
 
 const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || "G-J3DCXV066G";
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18142334755";
@@ -163,7 +162,7 @@ const jsonLd = {
   "name": "Exotic Rentals Montreal",
   "description": "Montreal's premier luxury exotic car rental service. RS7, RS6, M5 Competition, R8 V10, McLaren 600LT, Lamborghini Urus, G63 AMG.",
   "url": "https://www.exoticrentalsmontreal.com",
-  "telephone": "+14385339053",
+  "telephone": "+14388094417",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Montreal",
@@ -228,8 +227,6 @@ export default function RootLayout({
           });
         `}</Script>
         {children}
-        <ScrollBanner />
-        <FloatingWA />
       </body>
     </html>
   );
