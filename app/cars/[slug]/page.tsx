@@ -272,7 +272,7 @@ export default async function CarPage({
               </Link>
 
               <a
-                href="https://wa.me/+14388094417"
+                href="https://wa.me/+14385339053"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full border border-white/10 text-white/50 text-xs tracking-[0.2em] uppercase font-light py-4 text-center hover:border-[#c9a96e]/40 hover:text-white transition-all duration-300"

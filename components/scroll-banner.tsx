@@ -6,7 +6,7 @@ const MESSAGES = [
   "🚗 White-glove delivery to your hotel or residence — 24/7",
   "💳 We accept Credit Card, Crypto, E-Transfer & Cash",
   "⭐ 20 exotic vehicles · Lambo, Ferrari, McLaren, Porsche, AMG, M-Power, RS",
-  "📞 Book now: 438-809-4417",
+  "📞 Book now: 438-533-9053",
 ];
 
 export default function ScrollBanner() {

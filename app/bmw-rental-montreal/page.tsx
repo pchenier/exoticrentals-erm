@@ -31,7 +31,7 @@ const serviceSchema = {
     '@type': 'LocalBusiness',
     name: 'Exotic Rentals Montreal',
     url: 'https://www.exoticrentalsmontreal.com',
-    telephone: '+14388094417',
+    telephone: '+14385339053',
   },
   areaServed: 'Montreal, QC, Canada',
   description: 'Premium BMW rental service in Montreal with concierge delivery. M3 Competition, M5 Competition, X5M available.',
@@ -256,7 +256,7 @@ export default async function BMWRentalMontreal() {
               Ready to experience Montreal in a world-class BMW? Reach us instantly on WhatsApp.
             </p>
             <a
-              href="https://wa.me/14388094417"
+              href="https://wa.me/14385339053"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-400 text-white font-semibold text-lg px-8 py-4 rounded-full transition-colors duration-300"

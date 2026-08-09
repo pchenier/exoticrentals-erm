@@ -223,7 +223,7 @@ export default function Fleet() {
   const handleBookCar = (carName: string) => {
     const message = `Hi, I'm interested in renting the ${carName}. Is it available?`;
     trackWhatsAppClick(`fleet_book_${carName}`);
-    window.open(`https://wa.me/14388094417?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/14385339053?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   // Filtered cars

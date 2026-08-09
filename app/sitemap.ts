@@ -1,9 +1,6 @@
 import { MetadataRoute } from 'next'
 import { BLOG_POSTS } from '@/lib/blog-posts'
 import { LOCATIONS } from '@/lib/locations'
-import { vehicles } from '@/lib/data'
-
-const BASE_URL = 'https://www.exoticrentalsmontreal.com'
 
 const CAR_SLUGS = [
   'audi-rs5',
@@ -29,57 +26,45 @@ const CAR_SLUGS = [
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const carPages: MetadataRoute.Sitemap = CAR_SLUGS.map((slug) => ({
-    url: `${BASE_URL}/cars/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }))
+  const base = 'https://www.exoticrentalsmontreal.com'
 
-  const fleetPages: MetadataRoute.Sitemap = vehicles.map((vehicle) => ({
-    url: `${BASE_URL}/fleet/${vehicle.slug}`,
+  const carPages: MetadataRoute.Sitemap = CAR_SLUGS.map((slug) => ({
+    url: `${base}/cars/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.8,
   }))
 
   const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
-    url: `${BASE_URL}/blog/${post.slug}`,
+    url: `${base}/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }))
 
   const locationPages: MetadataRoute.Sitemap = LOCATIONS.map((loc) => ({
-    url: `${BASE_URL}/locations/${loc.slug}`,
+    url: `${base}/locations/${loc.slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }))
 
   return [
-    { url: BASE_URL, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
-    { url: `${BASE_URL}/fleet`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/experience`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE_URL}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE_URL}/faq`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/reviews`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${BASE_URL}/services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE_URL}/how-it-works`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE_URL}/car-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/luxury-car-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/audi-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/mercedes-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/bmw-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/lamborghini-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/mclaren-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/ferrari-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/porsche-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/locations`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    { url: base, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
+    { url: `${base}/faq`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/car-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/luxury-car-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/audi-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/mercedes-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/bmw-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/lamborghini-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/mclaren-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/ferrari-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/porsche-rental-montreal`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/locations`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${base}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
     ...carPages,
-    ...fleetPages,
-    { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${base}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
     ...blogPages,
     ...locationPages,
   ]

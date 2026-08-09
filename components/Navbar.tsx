@@ -63,7 +63,7 @@ export default function Navbar() {
               </button>
             ))}
             <a
-              href="tel:+14388094417"
+              href="tel:+14385339053"
               onClick={() => trackPhoneClick("navbar_phone")}
               className="text-[11px] text-white/40 hover:text-[#c9a96e] transition-colors duration-200 tracking-wide font-light hidden lg:block"
             >

@@ -3,11 +3,10 @@ import { sql } from '@/lib/db';
 
 export async function PUT(
   request: Request,
-  { params }: { params: Promise<{ id: string }> }
+  { params }: { params: { id: string } }
 ) {
   try {
-    const { id: idStr } = await params;
-    const id = parseInt(idStr, 10);
+    const id = parseInt(params.id, 10);
     const body = await request.json();
     const {
       name,
@@ -74,11 +73,10 @@ export async function PUT(
 
 export async function DELETE(
   _request: Request,
-  { params }: { params: Promise<{ id: string }> }
+  { params }: { params: { id: string } }
 ) {
   try {
-    const { id: idStr } = await params;
-    const id = parseInt(idStr, 10);
+    const id = parseInt(params.id, 10);
     await sql`DELETE FROM fleet WHERE id = ${id}`;
     return NextResponse.json({ success: true });
   } catch (err) {

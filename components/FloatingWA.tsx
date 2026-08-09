@@ -2,7 +2,7 @@
 
 import { trackWhatsAppClick, trackSmsClick } from "@/lib/analytics";
 
-const PHONE = "14388094417";
+const PHONE = "14385339053";
 const WA_URL = `https://wa.me/${PHONE}`;
 const SMS_URL = `sms:+${PHONE}`;
 
