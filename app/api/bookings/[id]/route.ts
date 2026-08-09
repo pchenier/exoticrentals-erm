@@ -5,9 +5,10 @@ export const dynamic = 'force-dynamic';
 
 export async function PUT(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    const { id } = await params;
     const body = await request.json();
     const {
       car_name, client_name, client_phone, pickup_date, return_date,
@@ -29,7 +30,7 @@ export async function PUT(
         notes = ${notes},
         referral = ${referral},
         status = ${status}
-      WHERE id = ${params.id}
+      WHERE id = ${id}
     `;
     return NextResponse.json({ success: true });
   } catch {
@@ -39,9 +40,10 @@ export async function PUT(
 
 export async function DELETE(
   _req: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const id = parseInt(params.id, 10);
-  await sql`DELETE FROM bookings WHERE id = ${id}`;
+  const { id } = await params;
+  const numId = parseInt(id, 10);
+  await sql`DELETE FROM bookings WHERE id = ${numId}`;
   return NextResponse.json({ ok: true });
 }

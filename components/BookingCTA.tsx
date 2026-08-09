@@ -2,7 +2,7 @@
 
 import { trackPhoneClick, trackWhatsAppClick } from "@/lib/analytics";
 
-const WHATSAPP_NUMBER = "+14385339053";
+const WHATSAPP_NUMBER = "+14388094417";
 const EMAIL = "contact@exoticrentalsmontreal.com";
 
 const WHATSAPP_MSG = encodeURIComponent(
@@ -69,7 +69,7 @@ export default function BookingCTA() {
           {/* Direct contact */}
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="tel:+14385339053"
+              href="tel:+14388094417"
               onClick={() => trackPhoneClick("cta_phone")}
               className="flex items-center gap-2 text-white/50 hover:text-[#c9a96e] transition-colors duration-200 text-sm tracking-widest font-light"
             >

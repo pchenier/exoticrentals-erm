@@ -49,7 +49,7 @@ export async function GET() {
     lines.push('• Deposit is fully refundable upon return');
     lines.push('• Valid driver\'s license + credit card required');
     lines.push('• Delivery available in Montreal area');
-    lines.push('• Contact: +1 438-533-9053 | contact@exoticrentalsmontreal.com');
+    lines.push('• Contact: +1 438-809-4417 | contact@exoticrentalsmontreal.com');
 
     const summary = lines.join('\n');
 

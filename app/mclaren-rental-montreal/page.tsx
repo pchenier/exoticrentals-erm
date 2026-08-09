@@ -31,7 +31,7 @@ const serviceSchema = {
     '@type': 'LocalBusiness',
     name: 'Exotic Rentals Montreal',
     url: 'https://www.exoticrentalsmontreal.com',
-    telephone: '+14385339053',
+    telephone: '+14388094417',
   },
   areaServed: 'Montreal, QC, Canada',
   description: 'Premium McLaren rental in Montreal with concierge delivery. 570GT and 600LT available.',
@@ -256,7 +256,7 @@ export default async function McLarenRentalMontreal() {
               Ready to experience Montreal in a world-class McLaren? Reach us instantly on WhatsApp.
             </p>
             <a
-              href="https://wa.me/14385339053"
+              href="https://wa.me/14388094417"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-400 text-white font-semibold text-lg px-8 py-4 rounded-full transition-colors duration-300"
