@@ -75,7 +75,7 @@ export default async function LocationPage({
       '@type': 'LocalBusiness',
       name: 'Exotic Rentals Montreal',
       url: 'https://www.exoticrentalsmontreal.com',
-      telephone: '+14385339053',
+      telephone: '+14388094417',
     },
     areaServed: location.areaServed,
     description: location.description,
@@ -278,7 +278,7 @@ export default async function LocationPage({
               Ready to roll? Reach us instantly on WhatsApp. We respond in minutes, 24/7.
             </p>
             <a
-              href="https://wa.me/14385339053"
+              href="https://wa.me/14388094417"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-400 text-white font-semibold text-lg px-8 py-4 rounded-full transition-colors duration-300"
