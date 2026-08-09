@@ -3,7 +3,7 @@ import { ShieldCheck, MapPin, Lock, MessageCircle, Car, Eye } from "lucide-react
 const trustPoints = [
   {
     icon: ShieldCheck,
-    title: "Premier Verified Fleet",
+    title: "Verified Fleet",
     description: "Every listed vehicle follows Exotic Rentals Montreal' internal presentation and quality standards.",
   },
   {
@@ -42,7 +42,7 @@ export default function TrustSection() {
             TRUST & VERIFICATION
           </div>
           <h2 className="font-display text-3xl md:text-4xl text-warm-white mb-4">
-            The Premier Standard
+            The ERM Standard
           </h2>
           <p className="text-silver max-w-2xl mx-auto">
             Every reservation is handled with the same attention to detail, from

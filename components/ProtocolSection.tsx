@@ -16,7 +16,7 @@ export default function ProtocolSection() {
             SERVICE PROTOCOL
           </div>
           <h2 className="font-display text-3xl md:text-4xl text-warm-white">
-            The Premier Protocol
+            The ERM Protocol
           </h2>
         </div>
 
