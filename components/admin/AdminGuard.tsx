@@ -19,7 +19,7 @@ export default function AdminGuard({ children }: { children: React.ReactNode }) 
   if (!checked) {
     return (
       <div className="flex h-screen items-center justify-center bg-obsidian">
-        <div className="text-silver text-sm tracking-widest animate-pulse font-spec">PREMIER MIAMI</div>
+        <div className="text-silver text-sm tracking-widest animate-pulse font-spec">EXOTIC RENTALS MONTREAL</div>
       </div>
     );
   }

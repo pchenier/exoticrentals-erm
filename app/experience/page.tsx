@@ -45,7 +45,7 @@ export default function ExperiencePage() {
             <p className="text-silver leading-relaxed max-w-2xl mx-auto mb-4">
               We're building something different. An independent house that owns every car, controls every detail, and treats every client like a member. No corporate scripts, no hidden fees, no surprises.
             </p>
-            <div className="font-display font-extrabold text-3xl text-champagne mt-8">GOAL: #1 IN FLORIDA</div>
+            <div className="font-display font-extrabold text-3xl text-champagne mt-8">GOAL: #1 IN QUEBEC</div>
           </section>
 
           <section className="mb-20">

@@ -39,7 +39,7 @@ export default function HomePage() {
         </div>
         <div className="relative z-10 px-6 lg:px-10 max-w-2xl">
           <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.2 }}>
-            <div className="text-[10px] md:text-xs font-display font-bold tracking-[0.3em] text-champagne mb-3 md:mb-4">MIAMI · FLORIDA</div>
+            <div className="text-[10px] md:text-xs font-display font-bold tracking-[0.3em] text-champagne mb-3 md:mb-4">MONTREAL · QUEBEC</div>
             <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-[-0.05em] text-warm-white leading-[0.95] mb-4 md:mb-6">
               Exotic Car Rentals<br />in Montreal
             </h1>
