@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, Suspense } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
+import { vehicles as staticVehicles } from "@/lib/data";
+import type { Vehicle } from "@/lib/data";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import VehicleCard from "@/components/VehicleCard";
-import type { Vehicle } from "@/lib/data";
 
 const makes = [...new Set(["Audi","Bentley","BMW","Cadillac","Lamborghini","McLaren","Mercedes-AMG","Mercedes-Maybach","Porsche","Range Rover"])].sort();
 
@@ -38,7 +39,17 @@ function FleetContent({ initialVehicles }: { initialVehicles: Vehicle[] }) {
   const searchParams = useSearchParams();
   const [activeMake, setActiveMake] = useState(searchParams.get("make") || "ALL");
   const [activePrice, setActivePrice] = useState(searchParams.get("price") || "ALL");
-  const allVehicles = initialVehicles;
+  const [allVehicles, setAllVehicles] = useState<Vehicle[]>(initialVehicles.length > 0 ? initialVehicles : staticVehicles);
+
+  // Fallback: if server didn't return live data, fetch from API client-side
+  useEffect(() => {
+    if (initialVehicles.length === 0) {
+      fetch('/api/vehicles')
+        .then(r => r.json())
+        .then(data => { if (Array.isArray(data) && data.length > 0) setAllVehicles(data); })
+        .catch(() => {});
+    }
+  }, [initialVehicles.length]);
 
   let filtered = allVehicles.filter(v => v.available);
 

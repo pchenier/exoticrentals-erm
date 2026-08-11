@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { faqs, reviews } from "@/lib/data";
+import { faqs, reviews, vehicles as staticVehicles } from "@/lib/data";
 import type { Vehicle } from "@/lib/data";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -13,8 +13,17 @@ import { Star, ChevronDown, ArrowRight } from "lucide-react";
 export default function HomeClient({ initialVehicles }: { initialVehicles: Vehicle[] }) {
   const [openFaq, setOpenFaq] = useState<string | null>(null);
   const [bookingOpen, setBookingOpen] = useState(false);
+  const [allVehicles, setAllVehicles] = useState<Vehicle[]>(initialVehicles.length > 0 ? initialVehicles : staticVehicles);
 
-  const allVehicles = initialVehicles;
+  // Fallback: if server didn't return live data, fetch from API client-side
+  useEffect(() => {
+    if (initialVehicles.length === 0) {
+      fetch('/api/vehicles')
+        .then(r => r.json())
+        .then(data => { if (Array.isArray(data) && data.length > 0) setAllVehicles(data); })
+        .catch(() => {});
+    }
+  }, [initialVehicles.length]);
 
   const featuredVehicles = allVehicles.filter(v => v.featured).sort((a, b) => (a.displayOrder ?? 99) - (b.displayOrder ?? 99));
   const availableCount = allVehicles.filter(v => v.available).length;
