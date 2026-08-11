@@ -1,5 +1,5 @@
 // Instant data layer: reads vehicles.json from GitHub at runtime.
-// Uses jsDelivr CDN (fast, no token, no rate limit) with GitHub API fallback.
+// Uses GitHub API (immediate, no CDN delay) with jsDelivr as fallback.
 
 import { vehicles as staticVehicles, faqs as staticFaqs, reviews as staticReviews, type Vehicle } from './data';
 
@@ -23,41 +23,47 @@ async function fetchVehicleData(): Promise<VehicleData> {
   }
 
   try {
-    // Try jsDelivr first (fast CDN, no token, no rate limit)
+    // GitHub API first (returns latest commit immediately, no CDN cache)
     let data: VehicleData | null = null;
-    try {
-      const rawRes = await fetch(
-        `https://cdn.jsdelivr.net/gh/${REPO_OWNER}/${REPO_NAME}@main/${FILE_PATH}`,
-        { cache: 'no-store' }
-      );
-      if (rawRes.ok) {
-        data = await rawRes.json() as VehicleData;
-      }
-    } catch (e) {
-      // jsDelivr failed, try GitHub API
+    const headers: Record<string, string> = {
+      'Accept': 'application/vnd.github.v3+json',
+    };
+    if (GITHUB_TOKEN) {
+      headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`;
     }
-
-    if (!data || !data.vehicles || data.vehicles.length === 0) {
-      const headers: Record<string, string> = {
-        'Accept': 'application/vnd.github.v3+json',
-      };
-      if (GITHUB_TOKEN) {
-        headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`;
-      }
+    try {
       const res = await fetch(
         `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`,
         { cache: 'no-store', headers }
       );
-      if (!res.ok) throw new Error(`GitHub API ${res.status}`);
-      const fileData = await res.json();
-      const content = typeof Buffer !== 'undefined'
-        ? Buffer.from(fileData.content, 'base64').toString('utf-8')
-        : atob(fileData.content.replace(/\n/g, ''));
-      data = JSON.parse(content) as VehicleData;
+      if (res.ok) {
+        const fileData = await res.json();
+        const content = typeof Buffer !== 'undefined'
+          ? Buffer.from(fileData.content, 'base64').toString('utf-8')
+          : atob(fileData.content.replace(/\n/g, ''));
+        data = JSON.parse(content) as VehicleData;
+      }
+    } catch (e) {
+      // GitHub API failed
+    }
+
+    // Fallback to jsDelivr CDN
+    if (!data || !data.vehicles || data.vehicles.length === 0) {
+      try {
+        const rawRes = await fetch(
+          `https://cdn.jsdelivr.net/gh/${REPO_OWNER}/${REPO_NAME}@main/${FILE_PATH}`,
+          { cache: 'no-store' }
+        );
+        if (rawRes.ok) {
+          data = await rawRes.json() as VehicleData;
+        }
+      } catch (e) {
+        // jsDelivr failed
+      }
     }
 
     if (!data || !data.vehicles || data.vehicles.length === 0) {
-      throw new Error('No vehicles in data');
+      throw new Error('No vehicles in data from any source');
     }
     cache = { data, ts: Date.now() };
     return data;
