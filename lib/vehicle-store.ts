@@ -1,6 +1,5 @@
-// Instant data layer: reads vehicles.json from GitHub API at runtime.
-// Repo is public so no token needed. GitHub API returns changes immediately
-// (unlike raw.githubusercontent.com which has a 5min CDN cache).
+// Instant data layer: reads vehicles.json from GitHub at runtime.
+// Uses jsDelivr CDN (fast, no token, no rate limit) with GitHub API fallback.
 
 import { vehicles as staticVehicles, faqs as staticFaqs, reviews as staticReviews, type Vehicle } from './data';
 
@@ -16,7 +15,7 @@ interface VehicleData {
 }
 
 let cache: { data: VehicleData; ts: number } | null = null;
-const CACHE_TTL_MS = 2_000; // 2 seconds
+const CACHE_TTL_MS = 2_000;
 
 async function fetchVehicleData(): Promise<VehicleData> {
   if (cache && Date.now() - cache.ts < CACHE_TTL_MS) {
@@ -24,10 +23,8 @@ async function fetchVehicleData(): Promise<VehicleData> {
   }
 
   try {
-    // Use jsDelivr CDN for GitHub raw (faster, no token, 10min cache)
-    // Fall back to GitHub API if jsDelivr fails
+    // Try jsDelivr first (fast CDN, no token, no rate limit)
     let data: VehicleData | null = null;
-
     try {
       const rawRes = await fetch(
         `https://cdn.jsdelivr.net/gh/${REPO_OWNER}/${REPO_NAME}@main/${FILE_PATH}`,
@@ -36,13 +33,13 @@ async function fetchVehicleData(): Promise<VehicleData> {
       if (rawRes.ok) {
         data = await rawRes.json() as VehicleData;
       }
-    } catch {}
+    } catch (e) {
+      // jsDelivr failed, try GitHub API
+    }
 
     if (!data || !data.vehicles || data.vehicles.length === 0) {
-      // Fallback to GitHub API (no CDN cache but slower + rate limited)
       const headers: Record<string, string> = {
         'Accept': 'application/vnd.github.v3+json',
-        'Cache-Control': 'no-cache',
       };
       if (GITHUB_TOKEN) {
         headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`;
@@ -51,27 +48,22 @@ async function fetchVehicleData(): Promise<VehicleData> {
         `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`,
         { cache: 'no-store', headers }
       );
-      if (!res.ok) throw new Error(`GitHub API returned ${res.status}`);
+      if (!res.ok) throw new Error(`GitHub API ${res.status}`);
       const fileData = await res.json();
-      if (!fileData.content) throw new Error('No content in GitHub response');
       const content = typeof Buffer !== 'undefined'
         ? Buffer.from(fileData.content, 'base64').toString('utf-8')
         : atob(fileData.content.replace(/\n/g, ''));
       data = JSON.parse(content) as VehicleData;
     }
 
-    if (!data.vehicles || !Array.isArray(data.vehicles) || data.vehicles.length === 0) {
+    if (!data || !data.vehicles || data.vehicles.length === 0) {
       throw new Error('No vehicles in data');
     }
     cache = { data, ts: Date.now() };
     return data;
   } catch (err) {
     console.error('vehicle-store fetch error, using static:', err);
-    return {
-      vehicles: staticVehicles,
-      faqs: staticFaqs,
-      reviews: staticReviews,
-    };
+    return { vehicles: staticVehicles, faqs: staticFaqs, reviews: staticReviews };
   }
 }
 
