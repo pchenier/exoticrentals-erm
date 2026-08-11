@@ -40,7 +40,10 @@ async function fetchVehicleData(): Promise<VehicleData> {
     if (!res.ok) throw new Error(`GitHub API returned ${res.status}`);
     const fileData = await res.json();
     if (!fileData.content) throw new Error('No content field in GitHub response');
-    const content = Buffer.from(fileData.content, 'base64').toString('utf-8');
+    // Use atob for edge compatibility (Buffer not available in edge runtime)
+    const content = typeof Buffer !== 'undefined'
+      ? Buffer.from(fileData.content, 'base64').toString('utf-8')
+      : atob(fileData.content.replace(/\n/g, ''));
     const data = JSON.parse(content) as VehicleData;
     if (!data.vehicles || !Array.isArray(data.vehicles) || data.vehicles.length === 0) {
       throw new Error('No vehicles in JSON data');
