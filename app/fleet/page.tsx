@@ -1,13 +1,21 @@
-import { getAllVehiclesLive } from "@/lib/vehicle-store";
 import FleetClient from "./fleet-client";
 import { unstable_noStore as noStore } from "next/cache";
+import type { Vehicle } from "@/lib/data";
 
-// Force server-side render on every request so admin changes appear instantly
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export default async function FleetPage() {
-  noStore(); // Opt out of static rendering
-  const liveVehicles = await getAllVehiclesLive();
+  noStore();
+  let liveVehicles: Vehicle[] = [];
+  try {
+    const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000';
+    const res = await fetch(`${baseUrl}/api/vehicles`, { cache: 'no-store' });
+    if (res.ok) {
+      liveVehicles = await res.json();
+    }
+  } catch (e) {
+    console.error('FleetPage fetch error:', e);
+  }
   return <FleetClient initialVehicles={liveVehicles} />;
 }
