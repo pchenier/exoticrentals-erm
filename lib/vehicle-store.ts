@@ -24,25 +24,42 @@ async function fetchVehicleData(): Promise<VehicleData> {
   }
 
   try {
-    const headers: Record<string, string> = {
-      'Accept': 'application/vnd.github.v3+json',
-      'Cache-Control': 'no-cache',
-    };
-    if (GITHUB_TOKEN) {
-      headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`;
+    // Use jsDelivr CDN for GitHub raw (faster, no token, 10min cache)
+    // Fall back to GitHub API if jsDelivr fails
+    let data: VehicleData | null = null;
+
+    try {
+      const rawRes = await fetch(
+        `https://cdn.jsdelivr.net/gh/${REPO_OWNER}/${REPO_NAME}@main/${FILE_PATH}`,
+        { cache: 'no-store' }
+      );
+      if (rawRes.ok) {
+        data = await rawRes.json() as VehicleData;
+      }
+    } catch {}
+
+    if (!data || !data.vehicles || data.vehicles.length === 0) {
+      // Fallback to GitHub API (no CDN cache but slower + rate limited)
+      const headers: Record<string, string> = {
+        'Accept': 'application/vnd.github.v3+json',
+        'Cache-Control': 'no-cache',
+      };
+      if (GITHUB_TOKEN) {
+        headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`;
+      }
+      const res = await fetch(
+        `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`,
+        { cache: 'no-store', headers }
+      );
+      if (!res.ok) throw new Error(`GitHub API returned ${res.status}`);
+      const fileData = await res.json();
+      if (!fileData.content) throw new Error('No content in GitHub response');
+      const content = typeof Buffer !== 'undefined'
+        ? Buffer.from(fileData.content, 'base64').toString('utf-8')
+        : atob(fileData.content.replace(/\n/g, ''));
+      data = JSON.parse(content) as VehicleData;
     }
 
-    const res = await fetch(
-      `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`,
-      { cache: 'no-store', headers }
-    );
-    if (!res.ok) throw new Error(`GitHub API returned ${res.status}`);
-    const fileData = await res.json();
-    if (!fileData.content) throw new Error('No content in GitHub response');
-    const content = typeof Buffer !== 'undefined'
-      ? Buffer.from(fileData.content, 'base64').toString('utf-8')
-      : atob(fileData.content.replace(/\n/g, ''));
-    const data = JSON.parse(content) as VehicleData;
     if (!data.vehicles || !Array.isArray(data.vehicles) || data.vehicles.length === 0) {
       throw new Error('No vehicles in data');
     }
