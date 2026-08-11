@@ -5,7 +5,7 @@
 set -e
 
 # Get latest production deployment URL
-LATEST=$(npx vercel ls exoticrentalsmontreal 2>/dev/null | grep "Production" | grep "Ready" | head -1 | awk '{print $3}')
+LATEST=$(npx vercel ls exoticrentalsmontreal 2>&1 | grep "Production" | grep "Ready" | head -1 | awk '{print $3}')
 
 if [ -z "$LATEST" ]; then
   echo "No ready production deployment found"

@@ -293,14 +293,16 @@ function VehicleCard({
             {showImages && (
               <div className="flex flex-col gap-2">
                 {v.images.map((img, i) => (
-                  <div key={i} className="flex flex-col gap-1.5 bg-black/30 p-2 border border-white/5">
+                  <div key={i} className="flex flex-col gap-2 bg-black/30 p-3 border border-white/5">
+                    {/* Large preview */}
+                    <div className="w-full aspect-[16/10] overflow-hidden bg-black/40 relative">
+                      <img src={img.url} alt={img.alt} className="w-full h-full object-cover" style={img.position ? { objectPosition: img.position } : undefined} />
+                      {img.isMain && <span className="absolute top-1 left-1 text-[8px] tracking-widest uppercase bg-[#c9a96e] text-black px-1.5 py-0.5">MAIN</span>}
+                    </div>
                     <div className="flex items-center gap-2">
-                      <div className="w-14 h-10 flex-shrink-0 overflow-hidden bg-black/40">
-                        <img src={img.url} alt={img.alt} className="w-full h-full object-cover" style={img.position ? { objectPosition: img.position } : undefined} />
-                      </div>
                       <div className="flex-1 min-w-0">
                         <input
-                          className={`${inputClass} w-full mb-1`}
+                          className={`${inputClass} w-full`}
                           value={img.url}
                           onChange={(e) => {
                             const newImages = [...v.images];
@@ -329,47 +331,52 @@ function VehicleCard({
                         ✕
                       </button>
                     </div>
-                    {/* Position X/Y */}
-                    <div className="flex items-center gap-2 pl-16">
-                      <span className="text-[8px] tracking-widest uppercase text-white/30">Position</span>
-                      <input
-                        type="number"
-                        min="0"
-                        max="100"
-                        className={`${inputClass} w-14 text-center`}
-                        value={(() => {
-                          const parts = (img.position || "50% 50%").split(" ");
-                          return parseInt(parts[0]) || 50;
-                        })()}
-                        onChange={(e) => {
-                          const x = parseInt(e.target.value) || 50;
-                          const parts = (img.position || "50% 50%").split(" ");
-                          const y = parseInt(parts[1]) || 50;
-                          const newImages = [...v.images];
-                          newImages[i] = { ...img, position: `${x}% ${y}%` };
-                          update("images", newImages);
-                        }}
-                      />
-                      <span className="text-[9px] text-white/30">% X</span>
-                      <input
-                        type="number"
-                        min="0"
-                        max="100"
-                        className={`${inputClass} w-14 text-center`}
-                        value={(() => {
-                          const parts = (img.position || "50% 50%").split(" ");
-                          return parseInt(parts[1]) || 50;
-                        })()}
-                        onChange={(e) => {
-                          const y = parseInt(e.target.value) || 50;
-                          const parts = (img.position || "50% 50%").split(" ");
-                          const x = parseInt(parts[0]) || 50;
-                          const newImages = [...v.images];
-                          newImages[i] = { ...img, position: `${x}% ${y}%` };
-                          update("images", newImages);
-                        }}
-                      />
-                      <span className="text-[9px] text-white/30">% Y</span>
+                    {/* Position X/Y sliders */}
+                    <div className="flex flex-col gap-1.5 pl-16">
+                      <div className="flex items-center gap-2">
+                        <span className="text-[8px] tracking-widest uppercase text-white/30 w-12">X</span>
+                        <input
+                          type="range"
+                          min="0"
+                          max="100"
+                          className="flex-1 accent-[#c9a96e] h-1"
+                          value={(() => {
+                            const parts = (img.position || "50% 50%").split(" ");
+                            return parseInt(parts[0]) || 50;
+                          })()}
+                          onChange={(e) => {
+                            const x = parseInt(e.target.value) || 50;
+                            const parts = (img.position || "50% 50%").split(" ");
+                            const y = parseInt(parts[1]) || 50;
+                            const newImages = [...v.images];
+                            newImages[i] = { ...img, position: `${x}% ${y}%` };
+                            update("images", newImages);
+                          }}
+                        />
+                        <span className="text-[10px] text-white/50 w-7 text-center tabular-nums">{(() => { const parts = (img.position || "50% 50%").split(" "); return parseInt(parts[0]) || 50; })()}%</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-[8px] tracking-widest uppercase text-white/30 w-12">Y</span>
+                        <input
+                          type="range"
+                          min="0"
+                          max="100"
+                          className="flex-1 accent-[#c9a96e] h-1"
+                          value={(() => {
+                            const parts = (img.position || "50% 50%").split(" ");
+                            return parseInt(parts[1]) || 50;
+                          })()}
+                          onChange={(e) => {
+                            const y = parseInt(e.target.value) || 50;
+                            const parts = (img.position || "50% 50%").split(" ");
+                            const x = parseInt(parts[0]) || 50;
+                            const newImages = [...v.images];
+                            newImages[i] = { ...img, position: `${x}% ${y}%` };
+                            update("images", newImages);
+                          }}
+                        />
+                        <span className="text-[10px] text-white/50 w-7 text-center tabular-nums">{(() => { const parts = (img.position || "50% 50%").split(" "); return parseInt(parts[1]) || 50; })()}%</span>
+                      </div>
                       <button
                         type="button"
                         onClick={() => {
@@ -377,7 +384,7 @@ function VehicleCard({
                           newImages[i] = { ...img, position: undefined };
                           update("images", newImages);
                         }}
-                        className="text-[8px] tracking-wider text-white/30 hover:text-white/50 ml-1"
+                        className="text-[8px] tracking-wider text-white/30 hover:text-white/50 self-end"
                       >
                         RESET
                       </button>

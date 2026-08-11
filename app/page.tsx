@@ -24,7 +24,7 @@ export default function HomePage() {
       .catch(() => {});
   }, []);
 
-  const featuredVehicles = allVehicles.filter(v => v.featured && v.available).sort((a, b) => (a.displayOrder ?? 99) - (b.displayOrder ?? 99)).slice(0, 6);
+  const featuredVehicles = allVehicles.filter(v => v.featured).sort((a, b) => (a.displayOrder ?? 99) - (b.displayOrder ?? 99));
   const availableCount = allVehicles.filter(v => v.available).length;
 
   return (
