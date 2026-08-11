@@ -1,11 +1,13 @@
-// Instant data layer: reads vehicles.json from GitHub raw at runtime.
+// Instant data layer: reads vehicles.json from GitHub API at runtime.
 // Admin saves commit vehicles.json to GitHub → site picks up changes on next request.
 // No Vercel rebuild needed.
 
 import { vehicles as staticVehicles, faqs as staticFaqs, reviews as staticReviews, type Vehicle } from './data';
 
-const GITHUB_RAW = 'https://raw.githubusercontent.com/pchenier/exoticrentals-erm/main/lib/vehicles.json';
-const CACHE_TTL_MS = 10_000; // 10 second in-memory cache
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
+const REPO_OWNER = 'pchenier';
+const REPO_NAME = 'exoticrentals-erm';
+const FILE_PATH = 'lib/vehicles.json';
 
 interface VehicleData {
   vehicles: Vehicle[];
@@ -13,7 +15,9 @@ interface VehicleData {
   reviews: typeof staticReviews;
 }
 
+// Very short cache — just enough to avoid hammering GitHub within a single render cycle
 let cache: { data: VehicleData; ts: number } | null = null;
+const CACHE_TTL_MS = 2_000; // 2 seconds
 
 async function fetchVehicleData(): Promise<VehicleData> {
   // Return cache if fresh
@@ -22,12 +26,21 @@ async function fetchVehicleData(): Promise<VehicleData> {
   }
 
   try {
-    const res = await fetch(GITHUB_RAW, {
-      cache: 'no-store',
-      headers: { 'Accept': 'application/json' },
-    });
-    if (!res.ok) throw new Error(`GitHub raw returned ${res.status}`);
-    const data = await res.json() as VehicleData;
+    // Use GitHub API (not raw.githubusercontent.com which has a 5min CDN cache)
+    const res = await fetch(
+      `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`,
+      {
+        cache: 'no-store',
+        headers: {
+          'Accept': 'application/vnd.github.v3+json',
+          'Authorization': GITHUB_TOKEN ? `Bearer ${GITHUB_TOKEN}` : '',
+        },
+      }
+    );
+    if (!res.ok) throw new Error(`GitHub API returned ${res.status}`);
+    const fileData = await res.json();
+    const content = Buffer.from(fileData.content, 'base64').toString('utf-8');
+    const data = JSON.parse(content) as VehicleData;
     cache = { data, ts: Date.now() };
     return data;
   } catch (err) {
