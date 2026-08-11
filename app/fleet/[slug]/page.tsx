@@ -12,8 +12,8 @@ import BookButton from "@/components/BookButton";
 import Link from "next/link";
 import { Metadata } from "next";
 
-// Revalidate every 30 seconds so admin changes appear quickly
-export const revalidate = 30;
+// Always render fresh so admin changes appear instantly
+export const revalidate = 0;
 export const dynamic = "force-dynamic";
 
 interface Props { params: Promise<{ slug: string }>; }
