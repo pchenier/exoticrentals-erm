@@ -33,7 +33,8 @@
         {
           "url": "https://www.jswluxurygroup.com/cars/maybach-virgil/web/maybach-virgil-1.jpg",
           "alt": "Mercedes-Maybach S680 by Virgil Abloh",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 76%"
         }
       ],
       "badges": [
@@ -83,16 +84,6 @@
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785367230896-f28gs3.png",
           "alt": "Lamborghini Huracán Tecnica",
           "isMain": false
-        },
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785367247552-tadrok.jpg",
-          "alt": "Lamborghini Huracán Tecnica",
-          "isMain": false
-        },
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785365248881-7dw21x.png",
-          "alt": "Lamborghini Huracán Tecnica",
-          "isMain": false
         }
       ],
       "badges": [
@@ -136,17 +127,8 @@
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785367322647-2fq7e3.png",
           "alt": "Lamborghini Huracán EVO Spyder",
-          "isMain": true
-        },
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785367413563-q6gaxo.png",
-          "alt": "Lamborghini Huracán EVO Spyder",
-          "isMain": false
-        },
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785367418838-3ckd2z.png",
-          "alt": "Lamborghini Huracán EVO Spyder",
-          "isMain": false
+          "isMain": true,
+          "position": "50% 73%"
         }
       ],
       "badges": [
@@ -190,12 +172,14 @@
         {
           "url": "https://www.jswluxurygroup.com/cars/lamborghini-urus-performante/web/24p06299.jpg",
           "alt": "Lamborghini Urus Performante",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 60%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/lamborghini-urus-performante/web/24p06316.jpg",
           "alt": "Lamborghini Urus Performante",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 66%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/lamborghini-urus-performante/web/24p06313.jpg",
@@ -244,12 +228,14 @@
         {
           "url": "https://www.jswluxurygroup.com/cars/lamborghini-huracan/web/huracan-1.jpg",
           "alt": "Lamborghini Huracán EVO",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 69%"
         },
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785418323684-h99zak.jpeg",
           "alt": "Lamborghini Huracán EVO",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 67%"
         },
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785418326420-z6mh7r.jpeg",
@@ -367,12 +353,14 @@
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368403548-pjzlcd.jpg",
           "alt": "Mercedes-AMG G63 Urban Kit",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 62%"
         },
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368406270-tj0a9h.jpg",
           "alt": "Mercedes-AMG G63 Urban Kit",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 58%"
         },
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368408610-meeumj.jpg",
@@ -421,12 +409,14 @@
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368530781-59hwca.jpg",
           "alt": "Lamborghini Urus",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 66%"
         },
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368534931-cgbkvb.jpg",
           "alt": "Lamborghini Urus",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 65%"
         },
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368537473-m5ec9h.jpg",
@@ -524,17 +514,20 @@
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368953926-op8bi5.jpeg",
           "alt": "Porsche 911 4S TECHART",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 100%"
         },
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368910188-dokzpj.jpeg",
           "alt": "Porsche 911 4S TECHART",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 78%"
         },
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368907398-bxdkfj.jpeg",
           "alt": "Porsche 911 4S TECHART",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 76%"
         },
         {
           "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368830415-lqz2nl.jpeg",
@@ -583,22 +576,26 @@
         {
           "url": "https://www.jswluxurygroup.com/cars/audi-r8-spyder/web/24p06368.jpg",
           "alt": "Audi R8 Spyder",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 57%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/audi-r8-spyder/web/24p06442.jpg",
           "alt": "Audi R8 Spyder",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 61%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/audi-r8-spyder/web/24p06397.jpg",
           "alt": "Audi R8 Spyder",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 69%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/audi-r8-spyder/web/24p06378.jpg",
           "alt": "Audi R8 Spyder",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 63%"
         }
       ],
       "badges": [
@@ -701,12 +698,14 @@
         {
           "url": "https://www.jswluxurygroup.com/cars/bentley-bentayga/web/24p06605.jpg",
           "alt": "Bentley Bentayga",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 60%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/bentley-bentayga/web/24p06573.jpg",
           "alt": "Bentley Bentayga",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 60%"
         }
       ],
       "badges": [
@@ -750,12 +749,14 @@
         {
           "url": "https://www.jswluxurygroup.com/cars/range-rover-svr/web/24p05367.jpg",
           "alt": "Range Rover Sport SVR",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 60%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/range-rover-svr/web/24p05350.jpg",
           "alt": "Range Rover Sport SVR",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 58%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/range-rover-svr/web/24p05359.jpg",
@@ -810,7 +811,8 @@
         {
           "url": "https://www.jswluxurygroup.com/cars/bmw-m4-competition/web/24p06612.jpg",
           "alt": "BMW M4 Competition",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 60%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/bmw-m4-competition/web/24p06632.jpg",
@@ -859,12 +861,14 @@
         {
           "url": "https://www.jswluxurygroup.com/cars/mercedes-c63/web/24p06518.jpg",
           "alt": "Mercedes-AMG C63 Cabriolet",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 62%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/mercedes-c63/web/24p06488.jpg",
           "alt": "Mercedes-AMG C63 Cabriolet",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 80%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/mercedes-c63/web/24p06498.jpg",
@@ -913,7 +917,8 @@
         {
           "url": "https://www.jswluxurygroup.com/cars/cadillac-escalade/web/24p06735.jpg",
           "alt": "Cadillac Escalade",
-          "isMain": true
+          "isMain": true,
+          "position": "50% 56%"
         },
         {
           "url": "https://www.jswluxurygroup.com/cars/cadillac-escalade/web/24p06783.jpg",
