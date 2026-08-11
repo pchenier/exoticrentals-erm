@@ -63,10 +63,68 @@ export async function POST(request: NextRequest) {
     }
 
     const commitData = await commitRes.json();
+
+    // Auto-alias: wait for the new Vercel deploy triggered by the git commit, then alias domains
+    const VERCEL_TOKEN = process.env.VERCEL_TOKEN || '';
+    const PROJECT_ID = 'prj_pWFn4Uq0BtnMo8YAvKiQAzZcf4vl';
+    const DOMAINS = ['exoticrentalsmontreal.com', 'www.exoticrentalsmontreal.com'];
+    let aliasStatus = 'skipped (no VERCEL_TOKEN)';
+
+    if (VERCEL_TOKEN) {
+      try {
+        // Poll for the newest deployment to become READY (max 120s)
+        let readyDeployment: string | null = null;
+        const startTime = Date.now();
+
+        while (Date.now() - startTime < 50000) {
+          await new Promise((r) => setTimeout(r, 5000));
+
+          const deploysRes = await fetch(
+            `https://api.vercel.com/v6/deployments?projectId=${PROJECT_ID}&limit=1&target=production`,
+            {
+              headers: {
+                Authorization: `Bearer ${VERCEL_TOKEN}`,
+              },
+            }
+          );
+
+          if (deploysRes.ok) {
+            const deploysData = await deploysRes.json();
+            const latest = deploysData.deployments?.[0];
+            if (latest && latest.state === 'READY' && latest.meta?.githubCommitSha === commitData.commit.sha) {
+              readyDeployment = latest.uid;
+              break;
+            }
+          }
+        }
+
+        if (readyDeployment) {
+          let aliased = 0;
+          for (const domain of DOMAINS) {
+            const aliasRes = await fetch(`https://api.vercel.com/v2/deployments/${readyDeployment}/aliases`, {
+              method: 'POST',
+              headers: {
+                Authorization: `Bearer ${VERCEL_TOKEN}`,
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ domain }),
+            });
+            if (aliasRes.ok) aliased++;
+          }
+          aliasStatus = `aliased (${aliased} domains)`;
+        } else {
+          aliasStatus = 'deploy not ready within 50s';
+        }
+      } catch (aliasErr) {
+        aliasStatus = `alias error: ${(aliasErr as Error).message}`;
+      }
+    }
+
     return NextResponse.json({
       success: true,
       commit: commitData.commit.sha,
       message: 'Data saved and deploying',
+      aliasStatus,
     });
   } catch (err) {
     console.error('Save data error:', err);
