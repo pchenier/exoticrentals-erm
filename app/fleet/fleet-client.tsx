@@ -41,13 +41,15 @@ function FleetContent({ initialVehicles }: { initialVehicles: Vehicle[] }) {
   const [activePrice, setActivePrice] = useState(searchParams.get("price") || "ALL");
   const [allVehicles, setAllVehicles] = useState<Vehicle[]>(initialVehicles.length > 0 ? initialVehicles : staticVehicles);
 
-  // Always fetch live data from API to get latest positions
+  // Only fetch client-side if server didn't provide live data (fallback)
   useEffect(() => {
-    fetch('/api/vehicles')
-      .then(r => r.json())
-      .then(data => { if (Array.isArray(data) && data.length > 0) setAllVehicles(data); })
-      .catch(() => {});
-  }, []);
+    if (initialVehicles.length === 0) {
+      fetch('/api/vehicles')
+        .then(r => r.json())
+        .then(data => { if (Array.isArray(data) && data.length > 0) setAllVehicles(data); })
+        .catch(() => {});
+    }
+  }, [initialVehicles.length]);
 
   let filtered = allVehicles.filter(v => v.available);
 

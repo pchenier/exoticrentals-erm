@@ -15,13 +15,15 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
   const [bookingOpen, setBookingOpen] = useState(false);
   const [allVehicles, setAllVehicles] = useState<Vehicle[]>(initialVehicles.length > 0 ? initialVehicles : staticVehicles);
 
-  // Always fetch live data from API to get latest positions
+  // Only fetch client-side if server didn't provide live data (fallback)
   useEffect(() => {
-    fetch('/api/vehicles')
-      .then(r => r.json())
-      .then(data => { if (Array.isArray(data) && data.length > 0) setAllVehicles(data); })
-      .catch(() => {});
-  }, []);
+    if (initialVehicles.length === 0) {
+      fetch('/api/vehicles')
+        .then(r => r.json())
+        .then(data => { if (Array.isArray(data) && data.length > 0) setAllVehicles(data); })
+        .catch(() => {});
+    }
+  }, [initialVehicles.length]);
 
   const featuredVehicles = allVehicles.filter(v => v.featured).sort((a, b) => (a.displayOrder ?? 99) - (b.displayOrder ?? 99));
   const availableCount = allVehicles.filter(v => v.available).length;
