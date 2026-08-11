@@ -1,12 +1,13 @@
-// Use static vehicle data from data.ts (PMR fleet adapted for Montreal)
-// No more fetching from old Postgres — all data is static now.
+// Live data layer: reads from GitHub raw via vehicle-store
+// Falls back to static data if GitHub is unreachable
 
 import { vehicles as staticVehicles, type Vehicle } from './data';
+import { getAllVehiclesLive, getVehicleBySlugLive } from './vehicle-store';
 
 export async function getAllVehicles(): Promise<Vehicle[]> {
-  return staticVehicles;
+  return getAllVehiclesLive();
 }
 
 export async function getVehicleBySlug(slug: string): Promise<Vehicle | null> {
-  return staticVehicles.find(v => v.slug === slug) ?? null;
+  return getVehicleBySlugLive(slug);
 }

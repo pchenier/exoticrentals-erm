@@ -1,6 +1,15 @@
 import { NextResponse } from 'next/server';
-import { vehicles as staticVehicles } from '@/lib/data';
+import { getAllVehiclesLive } from '@/lib/vehicle-store';
+
+// Force dynamic — never cache this route
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function GET() {
-  return NextResponse.json(staticVehicles);
+  const vehicles = await getAllVehiclesLive();
+  return NextResponse.json(vehicles, {
+    headers: {
+      'Cache-Control': 'no-store, max-age=0',
+    },
+  });
 }

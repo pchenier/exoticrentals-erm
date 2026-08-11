@@ -427,11 +427,16 @@ export default function AdminPage() {
   const [saveMsg, setSaveMsg] = useState<string | null>(null);
   const [search, setSearch] = useState("");
 
-  // Load vehicles on auth
+  // Load vehicles from live API on auth
   useEffect(() => {
     if (authed) {
-      // Use static import (already available client-side)
-      setVehicles(JSON.parse(JSON.stringify(staticVehicles)));
+      fetch('/api/vehicles')
+        .then(r => r.json())
+        .then(data => {
+          if (Array.isArray(data) && data.length > 0) setVehicles(JSON.parse(JSON.stringify(data)));
+          else setVehicles(JSON.parse(JSON.stringify(staticVehicles)));
+        })
+        .catch(() => setVehicles(JSON.parse(JSON.stringify(staticVehicles))));
     }
   }, [authed]);
 
@@ -495,15 +500,14 @@ export default function AdminPage() {
     setSaving(true);
     setSaveMsg(null);
     try {
-      const content = generateDataTs(vehicles);
       const res = await fetch("/api/admin/save-data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password: ADMIN_PASSWORD, content }),
+        body: JSON.stringify({ password: ADMIN_PASSWORD, vehicles, faqs: [], reviews: [] }),
       });
       const data = await res.json();
       if (data.success) {
-        setSaveMsg(`Saved! Commit: ${data.commit.slice(0, 7)}. Vercel deploying...`);
+        setSaveMsg(`Saved! Changes live instantly (commit ${data.commit.slice(0, 7)}).`);
       } else {
         setSaveMsg(`Error: ${data.error || "Unknown"}`);
       }
