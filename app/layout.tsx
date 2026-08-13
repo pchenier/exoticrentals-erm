@@ -26,8 +26,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.exoticrentalsmontreal.com'),
-  title: 'Exotic Rentals Montreal — Luxury Exotic Car Rentals',
-  description: "Montreal's #1 exotic car rental. RS7, RS6, M5 Competition, R8 V10 Spyder, McLaren 600LT, Lamborghini Urus, G63 AMG. Book now — Available 24/7.",
+  title: 'Exotic Rentals Montreal — Luxury Exotic Car Rentals from $400/day',
+  description: "Rent exotic and luxury cars in Montreal. Lamborghini, McLaren, Audi R8, Porsche, G63 AMG and more. Starting at $400/day. 24/7 delivery. Call 438-809-4417 to book.",
   keywords: [
     'exotic car rental montreal',
     'luxury car rental montreal',
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.webmanifest",
   openGraph: {
-    title: 'Exotic Rentals Montreal',
-    description: "Montreal's premier exotic car rental. Available 24/7.",
+    title: 'Exotic Rentals Montreal — Luxury Exotic Car Rentals from $400/day',
+    description: "Rent Lamborghini, McLaren, Audi R8, Porsche and more in Montreal. Starting at $400/day with 24/7 delivery. Call 438-809-4417.",
     url: 'https://www.exoticrentalsmontreal.com',
     siteName: 'Exotic Rentals Montreal',
     locale: 'en_CA',
@@ -69,8 +69,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Exotic Rentals Montreal',
-    description: "Montreal's premier exotic car rental. Available 24/7.",
+    title: 'Exotic Rentals Montreal — Luxury Exotic Car Rentals from $400/day',
+    description: "Rent Lamborghini, McLaren, Audi R8, Porsche and more in Montreal. Starting at $400/day. 24/7 delivery. Call 438-809-4417.",
     images: ['https://www.exoticrentalsmontreal.com/og-image.jpg'],
   },
   alternates: {
@@ -82,9 +82,11 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "CarRental"],
   "name": "Exotic Rentals Montreal",
-  "description": "Montreal's premier luxury exotic car rental service. RS7, RS6, M5 Competition, R8 V10, McLaren 600LT, Lamborghini Urus, G63 AMG.",
+  "description": "Rent exotic and luxury cars in Montreal. Lamborghini, McLaren, Audi R8, Porsche, G63 AMG and more. Starting at $400/day with 24/7 delivery.",
   "url": "https://www.exoticrentalsmontreal.com",
+  "image": "https://www.exoticrentalsmontreal.com/og-image.jpg",
   "telephone": "+14388094417",
+  "email": "contact@exoticrentalsmontreal.com",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Montreal",
@@ -96,9 +98,34 @@ const jsonLd = {
     "latitude": 45.5017,
     "longitude": -73.5673
   },
-  "openingHours": "Mo-Su 00:00-23:59",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
   "priceRange": "$$$",
-  "sameAs": []
+  "areaServed": ["Montreal", "Laval", "Longueuil", "Brossard", "Westmount", "Downtown Montreal", "Mont-Tremblant", "Quebec City"],
+  "sameAs": [
+    "https://www.instagram.com/exoticrentalsmontreal"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Exotic Car Rentals",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Lamborghini Huracan Tecnica Rental" }, "price": "1599", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/lamborghini-huracan-tecnica" },
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "McLaren 600LT Spider Rental" }, "price": "1999", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/mclaren-600lt-spider" },
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Audi R8 Spyder Rental" }, "price": "1299", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/audi-r8-spyder" },
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Porsche 911 4S TECHART Rental" }, "price": "999", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/porsche-911-4s-techart" },
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Mercedes-AMG G63 Urban Kit Rental" }, "price": "1199", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/mercedes-amg-g63-urban-kit" },
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Lamborghini Urus Performante Rental" }, "price": "1399", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/lamborghini-urus-performante" },
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "6"
+  }
 };
 
 export default function RootLayout({

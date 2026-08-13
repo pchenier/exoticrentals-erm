@@ -165,7 +165,8 @@ export default async function VehicleDetailPage({ params }: Props) {
             "@context": "https://schema.org",
             "@type": "Product",
             name: `${vehicle.make} ${vehicle.model}`,
-            description: vehicle.description,
+            description: `${vehicle.year} ${vehicle.make} ${vehicle.model} rental in Montreal. ${vehicle.horsepower}HP, ${vehicle.engine}, ${vehicle.zeroToSixty} 0-60. ${vehicle.dailyRate > 0 ? `$${vehicle.dailyRate}/day.` : ''} 24/7 delivery.`,
+            image: vehicle.images[0]?.url || "https://www.exoticrentalsmontreal.com/og-image.jpg",
             brand: {
               "@type": "Brand",
               name: vehicle.make,
@@ -173,11 +174,16 @@ export default async function VehicleDetailPage({ params }: Props) {
             offers: {
               "@type": "Offer",
               price: vehicle.dailyRate,
-              priceCurrency: "USD",
+              priceCurrency: "CAD",
               availability: vehicle.available
                 ? "https://schema.org/InStock"
                 : "https://schema.org/OutOfStock",
-              url: `https://exoticrentalsmontreal.com/fleet/${vehicle.slug}`,
+              url: `https://www.exoticrentalsmontreal.com/fleet/${vehicle.slug}`,
+              seller: {
+                "@type": "CarRental",
+                name: "Exotic Rentals Montreal",
+                telephone: "+14388094417",
+              },
             },
           }),
         }}
