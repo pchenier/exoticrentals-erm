@@ -70,8 +70,8 @@
       "luggage": 1,
       "convertible": false,
       "available": true,
-      "featured": true,
-      "premierVerified": true,
+      "featured": false,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 2,
       "images": [
