@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 const OPENPHONE_API_KEY = process.env.OPENPHONE_API_KEY!;
 const OPENPHONE_NUMBER = '+14388094417';
-const OPENPHONE_NUMBER_ID = 'PNJLnfn2br';
+const OPENPHONE_NUMBER_ID = process.env.OPENPHONE_NUMBER_ID || 'PND9VDWaez';
 
 export async function POST(request: Request) {
   try {

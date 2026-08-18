@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 const OPENPHONE_API_KEY = process.env.OPENPHONE_API_KEY || '';
 const ERM_PHONE = '+14388094417';
-const ERM_NUMBER_ID = process.env.OPENPHONE_NUMBER_ID || 'PNJLnfn2br';
+const ERM_NUMBER_ID = process.env.OPENPHONE_NUMBER_ID || 'PND9VDWaez';
 
 export async function POST(req: NextRequest) {
   try {
@@ -37,17 +37,6 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Server not configured' }, { status: 500 });
     }
 
-    // Debug: list all phone numbers in the response
-    let phoneDebug: any = null;
-    try {
-      const phoneListRes = await fetch('https://api.openphone.com/v1/phone-numbers', {
-        headers: { 'Authorization': OPENPHONE_API_KEY },
-      });
-      phoneDebug = await phoneListRes.json();
-    } catch (e) {
-      phoneDebug = { error: String(e) };
-    }
-
     const res = await fetch('https://api.openphone.com/v1/messages', {
       method: 'POST',
       headers: {
@@ -65,11 +54,11 @@ export async function POST(req: NextRequest) {
     if (!res.ok) {
       const errText = await res.text();
       console.error('OpenPhone API error:', res.status, errText);
-      return NextResponse.json({ error: 'Failed to send booking', phoneDebug }, { status: 502 });
+      return NextResponse.json({ error: 'Failed to send booking' }, { status: 502 });
     }
 
     const data = await res.json();
-    return NextResponse.json({ success: true, messageId: data?.data?.id, phoneDebug });
+    return NextResponse.json({ success: true, messageId: data?.data?.id });
   } catch (e: any) {
     console.error('Booking API error:', e.message);
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
