@@ -25,8 +25,8 @@
       "luggage": 3,
       "convertible": false,
       "available": true,
-      "featured": true,
-      "premierVerified": true,
+      "featured": false,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 1,
       "images": [
@@ -120,7 +120,7 @@
       "convertible": true,
       "available": true,
       "featured": true,
-      "premierVerified": true,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 3,
       "images": [
@@ -165,7 +165,7 @@
       "convertible": false,
       "available": true,
       "featured": true,
-      "premierVerified": true,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 4,
       "images": [
@@ -221,7 +221,7 @@
       "convertible": false,
       "available": true,
       "featured": true,
-      "premierVerified": true,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 5,
       "images": [
@@ -282,7 +282,7 @@
       "convertible": true,
       "available": true,
       "featured": true,
-      "premierVerified": true,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 6,
       "images": [
@@ -345,8 +345,8 @@
       "luggage": 4,
       "convertible": false,
       "available": true,
-      "featured": true,
-      "premierVerified": true,
+      "featured": false,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 7,
       "images": [
@@ -401,8 +401,8 @@
       "luggage": 4,
       "convertible": false,
       "available": true,
-      "featured": true,
-      "premierVerified": true,
+      "featured": false,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 8,
       "images": [
@@ -457,8 +457,8 @@
       "luggage": 5,
       "convertible": false,
       "available": true,
-      "featured": true,
-      "premierVerified": true,
+      "featured": false,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 9,
       "images": [
@@ -506,8 +506,8 @@
       "luggage": 2,
       "convertible": false,
       "available": true,
-      "featured": true,
-      "premierVerified": true,
+      "featured": false,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 10,
       "images": [
@@ -631,7 +631,7 @@
       "luggage": 2,
       "convertible": false,
       "available": true,
-      "featured": false,
+      "featured": true,
       "premierVerified": true,
       "instantConfirm": true,
       "displayOrder": 13,
@@ -691,7 +691,7 @@
       "convertible": false,
       "available": true,
       "featured": false,
-      "premierVerified": true,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 14,
       "images": [
