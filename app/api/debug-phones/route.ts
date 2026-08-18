@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   const apiKey = process.env.OPENPHONE_API_KEY;
   if (!apiKey) {
@@ -11,5 +13,7 @@ export async function GET() {
   });
 
   const data = await res.json();
-  return NextResponse.json(data);
+  return NextResponse.json(data, {
+    headers: { 'Cache-Control': 'no-store' },
+  });
 }
