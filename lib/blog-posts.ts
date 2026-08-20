@@ -9,6 +9,83 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'location-lamborghini-montreal-hurac-n-et-urus-disponibles',
+    title: 'Location Lamborghini Montreal: Huracán et Urus Disponibles',
+    date: '2026-08-20',
+    description: 'Location Lamborghini Montreal à partir de 1 400$/jour. Huracán Tecnica, Huracán EVO et Urus en stock. Livraison 24/7 Grand Montréal. Réservez au 4388094417.',
+    content: `Une location Lamborghini à Montreal coûte entre 1 400 $ et 1 800 $ par jour, selon le modèle et la saison. Chez Exotic Rentals Montreal, nous proposons trois modèles Lamborghini prêts à rouler : le Huracán Tecnica, le Huracán EVO et l'Urus. Livraison disponible 24/7 partout dans le Grand Montréal.
+
+## Pourquoi Choisir une Location Lamborghini à Montreal?
+
+Le son d'un V10 Lamborghini sur les rues de Montréal, ça n'a pas d'équivalent. Que vous planifiiez une sortie spéciale, un événement corporatif ou que vous vouliez simplement sentir 640 chevaux sous votre pied droit, notre service de location Lamborghini Montreal vous donne accès à des véhicules qui font tourner les têtes. Nous livrons directement à votre hôtel, résidence ou bureau — n'importe où dans le Grand Montréal, à toute heure.
+
+Notre flotte Lamborghini comprend le Huracán Tecnica avec ses 640 chevaux et son 0100 km/h en 2,9 secondes, le Huracán EVO avec la même mécanique V10 dans un format plus radical, et l'Urus, le Super SUV de 650 chevaux qui domine la route comme aucun autre SUV au monde.
+
+## Quels Modèles Lamborghini Sont Disponibles à la Location?
+
+### Lamborghini Huracán Tecnica
+
+Le Huracán Tecnica est la dernière évolution du V10 de Sant'Agata. Avec 640 chevaux à 8 000 tr/min et un couple de 565 Nm, cette bête abat le 0100 km/h en 2,9 secondes. La Tecnica se distingue par son aérodynamique affinée, ses prises d'air redessinées et son différentiel arrière autobloquant qui rend la conduite plus précise. Sur les routes sinueuses autour du MontTremblant ou sur l'autoroute 15, ce bolide offre un feeling de pilotage pur.
+
+### Lamborghini Huracán EVO
+
+Le Huracán EVO pousse la philosophie V10 encore plus loin. Moteur 5,2 litres atmosphérique, 640 chevaux, et un système de dynamique véhicule LDVI qui anticipe vos intentions. Le 0100 km/h tombe en 2,9 secondes, mais l'EVO se démarque par son caractère plus agressif en courbe et sa gestion électronique plus sophistiquée. C'est la voiture pour ceux qui veulent une connexion directe entre le volant et l'asphalte.
+
+### Lamborghini Urus
+
+L'Urus, c'est 650 chevaux dans un corps de SUV. Le 0100 km/h en 3,6 secondes pour un véhicule de 2 200 kg, c'est de la physique qui défie la logique. Sous le capot, un V8 biturbo de 4,0 litres crache 850 Nm de couple. L'Urus offre quatre modes de conduite — STRADA, SPORT, CORSA et SABBIA — pour dominer les rues de Montréal comme les chemins de terre au nord de la ville. Pour une [location Lamborghini Montreal](/lamborghinirentalmontreal) avec espace cargo et performances supercars, l'Urus est le choix évident.
+
+## Combien Coûte une Location Lamborghini à Montreal?
+
+Les tarifs pour une location Lamborghini Montreal varient selon le modèle, la saison et la durée. En général, comptez entre 1 400 $ et 1 800 $ par jour pour un Huracán, et légèrement plus pour l'Urus en raison de sa demande élevée. Ces prix incluent l'assurance responsabilité civile de base.
+
+Un dépôt de sécurité est requis — le montant varie selon le véhicule, généralement entre 5 000 $ et 15 000 $, bloqué sur votre carte de crédit pendant la durée de la location. L'assurance complète est obligatoire pour tous les véhicules sans exception.
+
+La durée minimale de location est de 24 heures. Pas de location à l'heure, pas de demijournée. On parle de voitures qui valent plus de 300 000 $ — le standard est d'une journée complète.
+
+## Quelles Sont les Exigences pour Louer une Lamborghini?
+
+L'âge minimum est de 25 ans pour la plupart de nos véhicules, incluant tous les modèles Lamborghini. Pour certains véhicules sélectionnés dans notre flotte, l'âge minimum est de 21 ans — consultez notre [FAQ](/faq) pour les détails par modèle.
+
+Vous devez présenter un permis de conduire valide, une preuve d'assurance complète et une carte de crédit au nom du locataire pour le dépôt de sécurité. Aucune exception.
+
+Les conducteurs de moins de 25 ans avec un dossier de conduite impeccable peuvent nous contacter pour discuter des options disponibles. La sécurité de nos véhicules et de nos clients reste notre priorité absolue.
+
+## Où PeutOn Conduire une Lamborghini à Montreal?
+
+Montréal offre plusieurs routes intéressantes pour une Lamborghini. L'autoroute 15 direction nord vers les Laurentides offre de longues courbes et des paysages spectaculaires. Le chemin du BordduLac à SainteAnnedeBellevue longe le lac SaintLouis avec des virages techniques. Pour une expérience urbaine, la rue SainteCatherine et le VieuxMontréal garantissent des regards impressionnés.
+
+Nous livrons partout dans le Grand Montréal — Laval, RiveSud, West Island, centreville, aéroport PierreElliottTrudeau. Notre service de livraison 24/7 signifie que votre Lamborghini peut vous attendre à votre hôtel à 6h du matin ou à votre événement à 22h.
+
+Pour des suggestions d'itinéraires, consultez notre [blog](/blog) où nous publions régulièrement des routes recommandées autour de Montréal.
+
+## Comment Réserver une Location Lamborghini à Montreal?
+
+La réservation se fait par téléphone ou WhatsApp. Appeleznous au 4388094417 ou envoyez un message sur WhatsApp. Nous confirmons la disponibilité, le tarif, et nous organisons la livraison.
+
+Nous recommandons de réserver au moins 48 heures à l'avance, surtout pendant la saison estivale (juin à septembre) où la demande pour les Lamborghini explose. Les weekends de Grand Prix en particulier — réservez semaines à l'avance.
+
+Pour explorer d'autres options dans notre flotte, consultez nos pages [location Ferrari Montreal](/ferrarirentalmontreal), [location McLaren Montreal](/mclarenrentalmontreal), ou [location Porsche Montreal](/porscherentalmontreal).
+
+## Estil Possible de Livrer la Lamborghini à Mon Hôtel?
+
+Oui. Nous livrons 24/7 partout dans le Grand Montréal, incluant les hôtels du centreville, les résidences privées, les bureaux corporatifs et l'aéroport. Le service de livraison est inclus dans le tarif de location pour la région métropolitaine. Votre Lamborghini arrive prête à rouler, avec le plein fait et les documents en ordre.
+
+## Quelle Assurance Est Nécessaire pour une Location Lamborghini?
+
+Une assurance automobile complète est obligatoire pour toute location de véhicule exotique chez Exotic Rentals Montreal. Le dépôt de sécurité, qui varie entre 5 000 $ et 15 000 $ selon le modèle, est bloqué sur votre carte de crédit et remboursé à la restitution du véhicule en bon état. Sans assurance complète, la location est impossible — c'est nonnégociable.
+
+## PeutOn Louer une Lamborghini pour un Mariage ou un Événement?
+
+Absolument. Les Lamborghini sont très demandées pour les mariages, anniversaires et événements corporatifs. Nous offrons des forfaits spéciaux pour ces occasions, incluant la décoration du véhicule si demandé. Le Urus est particulièrement populaire pour les mariages grâce à ses portes qui s'ouvrent largement et sa présence imposante. Contacteznous pour discuter de vos besoins spécifiques.
+
+## Quelle Est la Différence Entre le Huracán Tecnica et le Huracán EVO?
+
+Le Huracán Tecnica et l'EVO partagent le même V10 5,2 litres de 640 chevaux, mais la Tecnica offre un châssis plus équilibré et une aérodynamique améliorée pour une conduite plus progressive en courbe. L'EVO mise sur un système de dynamique véhicule plus agressif et un feeling de pilotage plus brut. Les deux abattent le 0100 km/h en 2,9 secondes. Le choix dépend de votre style de conduite : la Tecnica pour la précision, l'EVO pour la férocité.
+
+Prêt à prendre le volant d'une Lamborghini à Montréal? Contactez Exotic Rentals Montreal au 4388094417 ou envoyeznous un message sur WhatsApp : wa.me/14388094417. Livraison 24/7 partout dans le Grand Montréal.`,
+  },
+  {
     slug: 'location-voiture-exotique-montreal-supercars-livr-es-votre-porte',
     title: 'Location Voiture Exotique Montreal: Supercars Livrées à Votre Porte',
     date: '2026-08-16',
