@@ -5243,13 +5243,37 @@ C'est cette simplicité, combinée à la qualité de notre flotte et à la trans
     date: '2026-05-20',
     image: '/cars/mclaren.jpg',
     description: 'La 600LT est la McLaren la plus track-focused que vous pouvez louer à Montréal. 592 chevaux, poids plume, un son à réveiller tout le quartier.',
-    content: `La McLaren 600LT n'est pas une voiture de plus dans notre flotte. C'est la machine la plus radicale, la plus pure, la plus axée sur la performance de tout ce que nous proposons à Montréal. LT pour Longtail, une désignation que McLaren réserve à ses créations les plus extrêmes inspirées de la compétition. 592 chevaux extraits d'un V8 biturbo de 3,8 litres, un poids réduit de 96 kilogrammes par rapport à la 570S grâce à des panneaux de carrosserie en carbone, des vitres plus fines et l'élimination de tout ce qui n'est pas essentiel.
+    content: `La McLaren 600LT n'est pas une voiture de plus dans notre flotte. C'est la machine la plus radicale, la plus pure, la plus axée sur la performance de tout ce que nous proposons à Montréal. LT pour Longtail, une désignation que McLaren réserve à ses créations les plus extrêmes inspirées de la compétition. 592 chevaux extraits d'un V8 biturbo de 3,8 litres, un poids réduit de 96 kilogrammes par rapport à la 570S grâce à des panneaux de carrosserie en carbone, des vitres plus fines et l'élimination de tout ce qui n'est pas essentiel. The result is a car that weighs less, stops harder, and corners flatter than anything else in our garage.
+
+## Pourquoi la 600LT Est Différente de Tout Ce Que Vous Avez Conduit
 
 L'aérodynamique de la 600LT est développée spécifiquement pour générer de l'appui. Le becquet arrière fixe, le diffuseur bas, les canalisations de refroidissement optimisées, tout est conçu pour coller la voiture à la route à haute vitesse. Et les sorties d'échappement sur le toit, juste derrière les vitres latérales, font une entrée en matière sonore que personne dans votre quartier ne va oublier. C'est le son d'un supercar de compétition, pas d'un grand tourisme confortable.
 
+McLaren a poussé le concept de légèreté à un niveau que peu de constructeurs osent approcher. Les sièges sont moulés en carbone, pas rembourrés. Les vitres sont en Gorilla Glass, plus fines de 1 millimètre que celles de la 570S. Les freins sont des carbone céramique de série, pas en option. Le système d'échappement est en titane, fabriqué par Siler Oberlausitz, et pèse 70% de moins qu'un système standard. Every gram matters when you are building a track weapon that also has to be street legal.
+
+## Conduire la 600LT à Montréal: L'Expérience
+
 Conduire la 600LT à Montréal, c'est une expérience qui se distingue de tout ce qu'une Lamborghini peut offrir. Là où la Huracán est théâtrale et expressive, la McLaren est précise et communicative. Chaque mouvement de la route remonte à travers la direction. Chaque correction se fait avec une précision qui surprend. Elle n'a pas besoin d'un V10 atmosphérique pour impressionner. Elle impressionne par sa cohérence, sa rigueur, sa façon de ne jamais décevoir. Sur une route secondaire en Laurentides, les chronomètres parlent d'eux-mêmes.
 
-Contactez-nous sur WhatsApp au 438-809-4417 pour réserver la McLaren 600LT. La disponibilité est réduite en été et les créneaux du week-end partent en priorité. Livraison incluse sur l'île de Montréal et à Laval. Si vous hésitez encore entre plusieurs voitures, écrivez-nous et on vous aide à choisir selon ce que vous voulez vivre.`,
+Le 0 à 100 km/h tombe en 2,9 secondes. Le 0 à 200 km/h en 8,2 secondes. La vitesse de pointe est de 324 km/h. Mais les chiffres ne racontent qu'une partie de l'histoire. Ce qui frappe quand vous prenez le volant, c'est la connexion directe entre vos mains et l'asphalte. La direction n'a pas de filtration. La pédale de frein n'a pas de confort. Le châssis ne demande pas votre permission, il exige votre attention. C'est une voiture qui vous parle, et qui exige que vous répondiez.
+
+## Les Meilleures Routes pour la 600LT Près de Montréal
+
+La 600LT mérite mieux que le Décarie aux heures de pointe. Voici trois routes qui font justice à ses capacités.
+
+La Route 117 vers Mont Tremblant offre de longues courbes et des reliefs qui permettent à la suspension active de travailler. Comptez 90 minutes depuis le centre ville, et prévoyez une pause au village pour laisser les passants admirer la voiture. Le becquet arrière et les sorties d'échappement sur le toit attirent les regards partout où vous vous arrêtez.
+
+Le chemin du Bord du Lac à Sainte Anne de Bellevue longe le lac Saint Louis avec des virages techniques et des vues dégagées. La 600LT y est dans son élément: légère, agile, capable de réagir instantanément à chaque entrée de virage. C'est une route plus courte mais plus technique, parfaite pour exploiter la précision de la direction McLaren.
+
+Pour une expérience plus urbaine, le Vieux Montréal un dimanche matin offre des rues pavées et des façades historiques qui créent un contraste saisissant avec les lignes agressives de la 600LT. Le son du V8 biturbo résonnant entre les bâtiments anciens, c'est un moment que vous n'oublierez pas. Just be mindful of speed limits in the old quarter.
+
+## Tarifs et Réservation
+
+La McLaren 600LT est disponible à la location à partir de 2 200 dollars par jour. Le dépôt de sécurité est de 15 000 dollars, bloqué sur votre carte de crédit et libéré au retour du véhicule en bon état. L'assurance complète est obligatoire, sans exception. La durée minimale de location est de 24 heures.
+
+La disponibilité est réduite en été et les créneaux du week end partent en priorité. Les week ends de Grand Prix en juin sont particulièrement demandés, réservez semaines à l'avance. Nous livrons gratuitement sur l'île de Montréal, à Laval, et partout dans le Grand Montréal, 24 heures sur 7.
+
+Si vous hésitez encore entre plusieurs voitures, écrivez nous et on vous aide à choisir selon ce que vous voulez vivre. Contactez Exotic Rentals Montreal au 438 809 4417 ou sur WhatsApp au wa.me/14388094417. On répond directement, en français ou en anglais, et on connaît chaque voiture de notre flotte par cœur.`,
   },
   {
     slug: 'lamborghini-huracan-tecnica-montreal',
