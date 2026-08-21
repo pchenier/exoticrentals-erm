@@ -4,7 +4,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
+import { upload } from "@vercel/blob/client";
 import { vehicles as staticVehicles, type Vehicle } from "@/lib/data";
 
 const ADMIN_PASSWORD = "1666777";
@@ -102,7 +103,7 @@ ${reviewsBlock}
 }
 
 // ── Field Editor ───────────────────────────────────────────────────────
-function Field({ label, children }: { label: string; children: React.ReactNode }) {
+function Field({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div className="flex flex-col gap-1">
       <label className="text-[9px] tracking-widest uppercase text-white/30 font-light">{label}</label>
@@ -112,6 +113,66 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
 }
 
 const inputClass = "bg-[#111] border border-white/10 focus:border-[#c9a96e]/50 outline-none px-3 py-2 text-white text-xs tracking-wide placeholder-white/20 transition-colors";
+
+// ── File Upload Button ─────────────────────────────────────────────────
+function UploadButton({
+  onUploaded,
+  small = false,
+  label = "Upload",
+}: {
+  onUploaded: (url: string) => void;
+  small?: boolean;
+  label?: string;
+}) {
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const handleFile = async (file: File) => {
+    if (!file) return;
+    if (!["image/jpeg", "image/jpg", "image/png", "image/webp"].includes(file.type)) {
+      setErr("Invalid type (use JPG, PNG or WebP)");
+      return;
+    }
+    setBusy(true);
+    setErr(null);
+    try {
+      const blob = await upload(file.name, file, {
+        access: "public",
+        handleUploadUrl: "/api/photos/upload",
+      });
+      onUploaded(blob.url);
+    } catch (e) {
+      setErr((e as Error).message || "Upload failed");
+    }
+    setBusy(false);
+    if (inputRef.current) inputRef.current.value = "";
+  };
+
+  return (
+    <div className="flex flex-col gap-1">
+      <button
+        type="button"
+        disabled={busy}
+        onClick={() => inputRef.current?.click()}
+        className="text-[10px] tracking-widest uppercase border border-[#c9a96e]/40 hover:border-[#c9a96e] text-[#c9a96e] hover:text-[#c9a96e] px-3 py-1.5 transition-colors disabled:opacity-40 w-fit"
+      >
+        {busy ? "Uploading..." : `▲ ${label}`}
+      </button>
+      <input
+        ref={inputRef}
+        type="file"
+        accept="image/jpeg,image/png,image/webp"
+        className="hidden"
+        onChange={(e) => {
+          const f = e.target.files?.[0];
+          if (f) handleFile(f);
+        }}
+      />
+      {err && <span className="text-[9px] text-red-400">{err}</span>}
+    </div>
+  );
+}
 
 // ── Vehicle Edit Card ──────────────────────────────────────────────────
 function VehicleCard({
@@ -391,13 +452,18 @@ function VehicleCard({
                     </div>
                   </div>
                 ))}
-                <button
-                  type="button"
-                  onClick={() => update("images", [...v.images, { url: "", alt: `${v.make} ${v.model}`, isMain: v.images.length === 0 }])}
-                  className="text-[10px] tracking-widest uppercase text-white/40 hover:text-white/60 border border-white/10 hover:border-white/20 px-3 py-1.5 transition-colors w-fit"
-                >
-                  + Add Image
-                </button>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    type="button"
+                    onClick={() => update("images", [...v.images, { url: "", alt: `${v.make} ${v.model}`, isMain: v.images.length === 0 }])}
+                    className="text-[10px] tracking-widest uppercase text-white/40 hover:text-white/60 border border-white/10 hover:border-white/20 px-3 py-1.5 transition-colors"
+                  >
+                    + Add URL
+                  </button>
+                  <UploadButton
+                    onUploaded={(url) => update("images", [...v.images, { url, alt: `${v.make} ${v.model}`, isMain: v.images.length === 0 }])}
+                  />
+                </div>
               </div>
             )}
           </div>
