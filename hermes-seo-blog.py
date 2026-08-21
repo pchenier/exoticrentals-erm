@@ -181,7 +181,7 @@ Requirements:
         print(f"Generating post for: {title}... (attempt {attempt}/3)")
 
         req_data = json.dumps({
-            "model": "glm-5.1",
+            "model": "deepseek-v4-flash",
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
