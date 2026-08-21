@@ -574,28 +574,28 @@
       "displayOrder": 11,
       "images": [
         {
-          "url": "https://www.jswluxurygroup.com/cars/audi-r8-spyder/web/24p06368.jpg",
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/halyxis-change-vehicle-color-to-white-keep-red-interior%20%283%29-iVhPogCxpTWt5N0wAsBkWbAt0C7n0E.png",
           "alt": "Audi R8 Spyder",
-          "isMain": true,
-          "position": "50% 57%"
+          "isMain": false,
+          "position": "50% 58%"
         },
         {
-          "url": "https://www.jswluxurygroup.com/cars/audi-r8-spyder/web/24p06442.jpg",
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/r81-ab5lm7hVTtch9LRrv8CVKjoFvndyMT.png",
+          "alt": "Audi R8 Spyder",
+          "isMain": false,
+          "position": "50% 66%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/r82-qN6MCZaTzIpUKEDjG7XwmMNPlNtxtQ.png",
           "alt": "Audi R8 Spyder",
           "isMain": false,
           "position": "50% 61%"
         },
         {
-          "url": "https://www.jswluxurygroup.com/cars/audi-r8-spyder/web/24p06397.jpg",
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/r83-Gzje1nJFiyGk5fFs8m8KZjyBQSCKtm.png",
           "alt": "Audi R8 Spyder",
-          "isMain": false,
-          "position": "50% 69%"
-        },
-        {
-          "url": "https://www.jswluxurygroup.com/cars/audi-r8-spyder/web/24p06378.jpg",
-          "alt": "Audi R8 Spyder",
-          "isMain": false,
-          "position": "50% 63%"
+          "isMain": true,
+          "position": "50% 59%"
         }
       ],
       "badges": [
