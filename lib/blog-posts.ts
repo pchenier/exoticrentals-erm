@@ -9,6 +9,71 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'louer-mclaren-montreal-600lt-disponible-d-s-maintenant',
+    title: 'Louer McLaren Montreal: 600LT Disponible dès Maintenant',
+    date: '2026-08-25',
+    description: 'Louer une McLaren à Montréal coûte entre 1 200 $ et 1 800 $ par jour. La 600LT est disponible chez Exotic Rentals Montreal. Livraison 24/7, dépôt variable. Réservez au 4388094417.',
+    content: `Louer une McLaren à Montréal coûte entre 1 200 $ et 1 800 $ par jour selon le modèle et la saison, et la 600LT est disponible dès maintenant chez Exotic Rentals Montreal. Si vous cherchez à louer une McLaren Montreal, vous avez frappé à la bonne porte. La McLaren 600LT est l'une des voitures les plus pures et les plus radicales de la gamme, avec son V8 biturbo de 600 chevaux et son 0100 km/h abattu en 2,9 secondes. Nous la livrons partout dans le Grand Montréal, 24 heures sur 24, avec des conditions claires et un dépôt de garantie qui varie selon le véhicule. Voici tout ce que vous devez savoir pour rouler en McLaren à Montréal, sans surprise et sans blabla.
+
+## Quel est le prix pour louer une McLaren 600LT à Montréal?
+
+Le tarif de base pour la McLaren 600LT est de 1 400 $ par jour (24 heures). En haute saison, de mai à septembre, ce prix peut grimper à 1 800 $, surtout le weekend. En basse saison, vous pouvez la trouver à 1 200 $ si vous réservez à l'avance. Ce prix inclut un kilométrage de 200 km par jour; chaque kilomètre supplémentaire coûte 3 $. Pour comparaison, la Lamborghini Huracan EVO se loue à 1 200 $ par jour, et la Ferrari 488 GTB à 1 300 $. La 600LT est plus chère parce qu'elle est plus rare et plus axée piste. Si vous voulez économiser, optez pour une location en semaine, où nous offrons 10 % de rabais sur le tarif journalier.
+
+## Quelles sont les conditions de location pour une McLaren à Montréal?
+
+L'âge minimum est de 25 ans pour la plupart de nos véhicules, y compris la 600LT. Certains modèles comme la Porsche 911 4S Techart sont accessibles dès 21 ans, mais pas la McLaren. Vous devez présenter un permis de conduire valide depuis au moins 2 ans et une carte de crédit au nom du conducteur principal. Le dépôt de garantie pour la 600LT est de 5 000 $, mais il peut varier selon votre historique de conduite. L'assurance complète est obligatoire; si vous n'avez pas la vôtre, nous pouvons vous en fournir une à partir de 75 $ par jour. La location minimale est d'une journée (24 heures), et nous exigeons que le véhicule soit rendu avec le même niveau de carburant qu'à la prise en charge.
+
+## Comment se déroule la livraison et la prise en charge?
+
+Nous livrons la McLaren partout dans le Grand Montréal, y compris à l'aéroport YUL, au centreville, à Laval, sur la RiveSud et même à SaintSauveur si vous voulez attaquer les Laurentides. La livraison est gratuite dans un rayon de 30 km du centreville; audelà, un frais de 1,50 $ par kilomètre s'applique. Nous offrons un service 24/7, donc vous pouvez récupérer la voiture à 6 h du matin ou à minuit. Lors de la remise, nous faisons un tour complet du véhicule avec vous, nous vous expliquons les commandes (parce que la 600LT n'est pas une Civic), et nous vous montrons comment activer le mode Track si vous êtes sur circuit. La prise en charge se fait à notre garage, mais 80 % de nos clients choisissent la livraison à domicile ou à l'hôtel.
+
+## Quels autres modèles de McLaren sont disponibles?
+
+En plus de la 600LT, nous avons parfois une McLaren 720S dans notre flotte, mais elle est réservée sur demande et se loue à 2 200 $ par jour. La 600LT est notre McLaren la plus demandée parce qu'elle est plus légère et plus brutale que la 720S, avec son échappement qui crache des flammes en rétrogradant. Si vous voulez une expérience similaire mais avec plus de confort, la Lamborghini Huracan Tecnica est un excellent choix à 1 500 $ par jour. Pour un groupe, le Lamborghini Urus (650 ch) est disponible à 1 100 $ par jour. Tous nos véhicules sont entretenus par des spécialistes et remplacés tous les 2 ans, donc vous roulez toujours dans une voiture quasi neuve.
+
+## Pourquoi choisir Exotic Rentals Montreal pour louer une McLaren?
+
+Nous sommes une entreprise locale, Gestion Exotics Inc., basée à Montréal. Contrairement aux grandes agences internationales, nous ne cachons pas de frais. Le prix que vous voyez est le prix que vous payez, sauf si vous dépassez le kilométrage. Nous avons plus de 15 modèles dans notre flotte, des Audi RS7 aux Ferrari, et nous connaissons chaque voiture par cœur. Notre service est direct: vous appelez, vous réservez, vous roulez. Pas de paperasse inutile, pas de vente forcée d'assurance. Et si vous avez une question sur la mécanique ou la conduite, notre équipe est composée de passionnés qui peuvent parler pendant des heures du couple moteur de la 600LT (620 Nm) ou de son aérodynamique active.
+
+## Quel âge minimum pour louer une McLaren à Montréal?
+
+L'âge minimum est de 25 ans pour la McLaren 600LT. Si vous avez 21 ans, vous pouvez louer certains modèles comme la Porsche 911 4S Techart ou l'Audi RS5, mais pas une McLaren. Cette règle est stricte, même avec un permis de conduire depuis 10 ans. Nous ne faisons pas d'exception, car nos assureurs l'exigent. Si vous avez 24 ans et que vous voulez absolument une McLaren, contacteznous quand même: nous pourrons peutêtre vous proposer un modèle similaire comme la Lamborghini Huracan EVO, qui est accessible à 25 ans aussi, mais parfois à 24 si votre dossier est impeccable.
+
+## Quel est le dépôt de garantie pour une McLaren 600LT?
+
+Le dépôt de garantie est de 5 000 $, prélevé sur votre carte de crédit et bloqué pendant la durée de la location. Il est libéré sous 48 heures après le retour du véhicule, sans dommage ni excès de vitesse constaté. Si vous avez un historique de conduite sans sinistre, nous pouvons le réduire à 3 000 $. Pour les conducteurs de moins de 25 ans (si nous faisons une exception), le dépôt monte à 7 500 $. Ce dépôt couvre les dommages à la carrosserie et les pneus, mais pas le vol ni l'incendie, qui sont couverts par l'assurance.
+
+## L'assurance estelle incluse dans la location?
+
+Non, l'assurance n'est pas incluse dans le prix de base. Vous devez avoir une assurance responsabilité civile d'au moins 2 millions de dollars et une couverture complète pour les véhicules de location. Si vous n'avez pas cette couverture, nous pouvons vous en offrir une à partir de 75 $ par jour, avec une franchise de 2 500 $. Nous recommandons fortement de prendre notre assurance si vous n'êtes pas habitué à conduire des voitures de 600 chevaux. Une crevaison ou un gravier sur la route peut coûter cher, et notre assurance couvre tout, sans surprise.
+
+## Peuton louer une McLaren pour une seule journée?
+
+Oui, la location minimale est de 24 heures. Vous pouvez prendre la voiture à 10 h un jour et la rendre à 10 h le lendemain. Si vous dépassez d'une heure, vous payez 250 $ de plus. Pour les locations de 3 jours ou plus, nous offrons une réduction de 15 % sur le tarif journalier. La plupart de nos clients louent pour un weekend (2 jours) pour profiter d'une balade dans les Cantonsdel'Est ou d'une session au Circuit GillesVilleneuve. La 600LT est parfaite pour la piste, mais elle est aussi étonnamment confortable sur l'autoroute 15, avec ses sièges en carbone qui vous maintiennent bien en place.
+
+## FAQ
+
+### Comment réserver une McLaren 600LT à Montréal?
+
+Appeleznous au 4388094417 ou écriveznous sur WhatsApp au wa.me/14388094417. Nous confirmons la disponibilité en temps réel et nous vous envoyons un contrat par courriel. Un acompte de 500 $ est requis pour confirmer la réservation, déduit du prix total.
+
+### Quels documents doisje fournir?
+
+Un permis de conduire valide, une pièce d'identité avec photo et une preuve d'assurance. Si vous utilisez notre assurance, nous avons juste besoin de votre permis et de votre carte de crédit. Nous vérifions votre dossier de conduite auprès de la SAAQ avant de confirmer.
+
+### Y atil des restrictions de kilométrage?
+
+Oui, 200 km par jour sont inclus. Chaque kilomètre supplémentaire coûte 3 $. Nous installons un traceur GPS, mais uniquement pour la sécurité, pas pour vous surveiller. Si vous dépassez 300 km en une journée, nous vous facturons les kilomètres supplémentaires au retour.
+
+### Puisje conduire la McLaren aux ÉtatsUnis?
+
+Non, nos véhicules sont assurés uniquement pour le Canada. Si vous voulez aller à New York ou à Boston, vous devez louer un véhicule spécifique avec une assurance transfrontalière, ce que nous proposons sur demande avec un supplément de 200 $ par jour.
+
+## Prêt à rouler en McLaren 600LT à Montréal?
+
+La 600LT est disponible dès maintenant. Appelez le 4388094417 ou envoyez un WhatsApp au wa.me/14388094417 pour vérifier la disponibilité et réserver votre journée. Nous livrons partout dans le Grand Montréal, 24/7. Dépôt de 5 000 $, âge minimum 25 ans, assurance obligatoire. Pas de frais cachés, pas de mauvaise surprise. Vous voulez comparer avec une Lamborghini? Consultez notre [page de location de Lamborghini à Montréal](/lamborghinirentalmontreal) ou [notre page McLaren](/mclarenrentalmontreal). Pour toute question, visitez notre [FAQ](/faq) ou [contacteznous](/contact). Roulez comme vous l'entendez.`,
+  },
+  {
     slug: 'louer-ferrari-montreal-prix-et-options-disponibles',
     title: 'Louer Ferrari Montreal: Prix et Options Disponibles',
     date: '2026-08-21',
