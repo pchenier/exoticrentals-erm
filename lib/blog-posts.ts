@@ -8028,24 +8028,45 @@ Quelle que soit la route que vous choisissez, nos véhicules sont livrés à vot
     title: 'Comment Louer une Voiture Exotique à Montréal',
     date: '2025-03-10',
     description: 'Tout ce que vous devez savoir : prix, documents, livraison, paiements acceptés.',
-    content: `Vous avez toujours voulu conduire une supercar à Montréal mais vous ne savez pas par où commencer ? Ce guide répond à toutes vos questions sur la location de voiture exotique avec Exotic Rentals Montreal.
+    content: `Vous avez toujours voulu conduire une supercar à Montréal mais vous ne savez pas par où commencer ? Ce guide répond à toutes vos questions sur la location de voiture exotique avec Exotic Rentals Montreal. Que vous rêviez d'une Lamborghini, d'une Ferrari, d'une McLaren ou d'un SUV de luxe comme l'Urus, on vous explique tout : les documents, les prix, la livraison, les paiements et la réservation. Pas de jargon, pas de surprises. Juste des réponses claires, en français et en anglais.
 
-**Quels documents sont nécessaires ?**
-La location est simple. Vous avez besoin d'un permis de conduire valide (québécois, canadien, ou international), d'un dépôt de sécurité remboursable, et d'être âgé d'au moins 25 ans. Pas de paperasse excessive — nous valorisons votre temps autant que le nôtre. Le processus de réservation se fait entièrement via WhatsApp : rapide, direct, sans friction.
+## Pourquoi louer une voiture exotique à Montréal ?
 
-**La livraison est-elle disponible ?**
-Oui, partout dans le Grand Montréal. Que vous soyez à Laval, Longueuil, Brossard, Westmount, ou dans un hôtel du centre-ville, nous livrons la voiture à votre adresse. Frais de livraison variables selon la distance — contactez-nous pour un devis. Nous récupérons également le véhicule à la fin de votre location.
+Montréal est une ville faite pour les belles voitures. Le Vieux-Port, le Mont-Royal, le boulevard Saint-Laurent, les Laurentides à une heure de route. Chaque trajet devient une expérience quand on est au volant d'une machine d'exception. Louer plutôt qu'acheter, c'est le bon calcul : vous profitez des sensations fortes sans les coûts d'entretien, l'assurance, le stockage ou la dépréciation. Vous payez pour l'expérience, pas pour la possession. Et avec notre livraison 24/7, la voiture vient à vous, où que vous soyez dans le Grand Montréal.
 
-**Quels sont les modes de paiement acceptés ?**
-Nous acceptons une variété de modes de paiement pour votre commodité : argent comptant, virement électronique (Interac), crypto-monnaies (Bitcoin, Ethereum, USDC), et cartes de crédit. Pas d'exclusivité — nous nous adaptons à vous.
+## Quels documents sont nécessaires ?
 
-**Combien ça coûte ?**
-Nos tarifs commencent à partir de 400 $ par jour pour nos Audi RS (RS5, RS6, RS7). Les supercars comme la McLaren 600LT ou l'Audi R8 sont disponibles à partir de 900 $/jour. La Lamborghini Urus et la Mercedes G63 AMG se situent entre les deux. Les prix incluent l'assurance de base et le service concierge 24/7.
+La location est simple. Vous avez besoin d'un permis de conduire valide (québécois, canadien, ou international), d'un dépôt de sécurité remboursable, et d'être âgé d'au moins 25 ans pour la plupart des modèles. Certains véhicules sont disponibles dès 21 ans, alors demandez-nous. Pas de paperasse excessive, nous valorisons votre temps autant que le nôtre. Le processus de réservation se fait entièrement via WhatsApp : rapide, direct, sans friction. Vous présentez votre permis et une pièce d'identité, on fait un tour complet de la voiture ensemble, et vous partez.
 
-**Support et disponibilité**
-Notre équipe est disponible 24 heures sur 24, 7 jours sur 7 via WhatsApp. Que vous ayez une question à 2h du matin ou que vous ayez besoin d'assistance pendant votre location, nous sommes là. Aucun centre d'appel, aucun robot — une vraie personne qui répond à chaque message.
+## Comment choisir le bon véhicule ?
 
-Prêt à vivre l'expérience ? Envoyez-nous un message sur WhatsApp pour vérifier la disponibilité et réserver votre véhicule. La flotte est limitée, les disponibilités partent vite — surtout en saison estivale et pendant le Grand Prix F1.`,
+Tout dépend de votre objectif. Pour une soirée en ville ou un événement, une supercar comme la McLaren 600LT ou la Ferrari 488 GTB attire tous les regards. Pour un week-end en famille ou une sortie entre amis, le Lamborghini Urus ou le Mercedes G63 AMG offrent confort et présence. Pour une conduite plus discrète mais performante, les Audi RS et les BMW M sont parfaites. Notre équipe vous conseille selon votre occasion, votre budget et vos goûts. Chaque voiture est entretenue, propre et prête à rouler.
+
+## Combien ça coûte ?
+
+Nos tarifs commencent à partir de 400 $ par jour pour nos Audi RS (RS5, RS6, RS7). Les supercars comme la McLaren 600LT ou l'Audi R8 sont disponibles à partir de 900 $ par jour. La Lamborghini Urus et la Mercedes G63 AMG se situent entre les deux. Les prix incluent l'assurance de base et le service concierge 24/7. Les tarifs varient selon la saison, la durée et le modèle. Pour un devis précis, contactez-nous directement, on vous répond en quelques minutes. Des tarifs dégressifs sont disponibles pour les locations de plusieurs jours.
+
+## La livraison est-elle disponible ?
+
+Oui, partout dans le Grand Montréal. Que vous soyez à Laval, Longueuil, Brossard, Westmount, ou dans un hôtel du centre-ville, nous livrons la voiture à votre adresse. Frais de livraison variables selon la distance, contactez-nous pour un devis. Nous récupérons également le véhicule à la fin de votre location. Vous n'avez pas à vous déplacer, la voiture vient à vous, à l'heure qui vous arrange, 24 heures sur 24 et 7 jours sur 7. Aéroport, hôtel, domicile, bureau, peu importe.
+
+## Quels sont les modes de paiement acceptés ?
+
+Nous acceptons une variété de modes de paiement pour votre commodité : argent comptant, virement électronique (Interac), crypto-monnaies (Bitcoin, Ethereum, USDC), et cartes de crédit. Pas d'exclusivité, nous nous adaptons à vous. Le dépôt de sécurité est remboursable et varie selon le véhicule. On vous explique tout clairement avant la réservation, sans frais cachés. Vous savez exactement ce que vous payez avant de confirmer.
+
+## L'assurance, comment ça marche ?
+
+Une assurance complète est obligatoire pour louer chez nous. Vous pouvez utiliser la vôtre si elle couvre la location, ou prendre la nôtre à un tarif compétitif. Nous vous aidons à choisir la meilleure option selon votre situation. La tranquillité d'esprit est incluse dans l'expérience, vous conduisez sereinement. En cas de pépin, notre assistance routière est disponible 24/7.
+
+## Support et disponibilité
+
+Notre équipe est disponible 24 heures sur 24, 7 jours sur 7 via WhatsApp. Que vous ayez une question à 2h du matin ou que vous ayez besoin d'assistance pendant votre location, nous sommes là. Aucun centre d'appel, aucun robot, une vraie personne qui répond à chaque message. Nous parlons français et anglais, et nous connaissons Montréal sur le bout des doigts.
+
+## Comment réserver ?
+
+C'est simple. Envoyez-nous un message sur WhatsApp au 438-809-4417 ou via wa.me/14388094417. Dites-nous le modèle, la date et le lieu de livraison. On vous confirme la disponibilité et on vous envoie un devis clair. Une fois accepté, on bloque le véhicule pour vous. Le reste se règle en quelques messages. Pour les périodes populaires comme l'été ou le Grand Prix F1, réservez à l'avance.
+
+Prêt à vivre l'expérience ? Envoyez-nous un message sur WhatsApp pour vérifier la disponibilité et réserver votre véhicule. La flotte est limitée, les disponibilités partent vite, surtout en saison estivale et pendant le Grand Prix F1. Appelez-nous au 438-809-4417 ou écrivez-nous sur WhatsApp, on vous répond rapidement.`,
   },
   {
     slug: "exotic-car-rental-montreal-weekend",
