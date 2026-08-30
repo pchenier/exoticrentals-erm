@@ -933,6 +933,44 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "19",
+      "slug": "new-vehicle-19",
+      "make": "Audi",
+      "model": "RS7",
+      "year": 2021,
+      "category": "PERFORMANCE",
+      "bodyStyle": "SEDAN",
+      "tagline": "",
+      "description": "",
+      "dailyRate": 700,
+      "weekendRate": 750,
+      "weeklyRate": 600,
+      "securityDeposit": 3000,
+      "horsepower": 0,
+      "engine": "",
+      "zeroToSixty": "",
+      "topSpeed": "",
+      "transmission": "Automatic",
+      "drivetrain": "AWD",
+      "seats": 2,
+      "doors": 2,
+      "luggage": 1,
+      "convertible": false,
+      "available": true,
+      "featured": false,
+      "premierVerified": true,
+      "instantConfirm": true,
+      "displayOrder": 19,
+      "images": [],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
