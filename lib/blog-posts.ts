@@ -8407,24 +8407,35 @@ Les disponibilités sont limitées pendant le Grand Prix, et les meilleures date
     title: 'Les 5 Meilleures Routes de Montréal en Supercar',
     date: '2025-04-01',
     description: 'De la route 138 aux Laurentides jusqu\'au Mont-Royal — les routes que vous devez absolument faire en supercar.',
-    content: `Montréal est souvent perçue comme une ville de trafic et de nids-de-poule. Mais si vous savez où aller, la région offre des routes absolument époustouflantes pour profiter d'un supercar. Voici notre sélection des 5 meilleures routes à faire avec une de nos machines.
+    content: `Montréal est souvent perçue comme une ville de trafic et de nids de poule. Mais si vous savez où aller, la région offre des routes absolument époustouflantes pour profiter d'un supercar. Voici notre sélection des 5 meilleures routes à faire avec une de nos machines, avec les conseils pour en tirer le maximum.
 
-**1. La boucle du Mont-Royal**
-Incontournable. La route Remembrance qui fait le tour du mont Royal offre des courbes fluides, un dégagement visuel magnifique sur la ville, et une ambiance unique surtout en soirée. En McLaren ou en Audi R8, chaque virage devient une sculpture sonore. Partez tôt le matin pour éviter les cyclistes et profiter de l'asphalte vide.
+## 1. La boucle du Mont Royal
 
-**2. Route 138 en Lanaudière**
-Direction nord-est depuis Montréal, la route 138 traverse Repentigny et Joliette avec des sections longues et dégagées idéales pour sentir la puissance de votre machine. Les lignes droites entre les champs ouverts vous donnent l'occasion d'apprécier les accélérations franches d'une BMW M5 ou d'une Lamborghini Urus.
+Incontournable. La route Remembrance qui fait le tour du mont Royal offre des courbes fluides, un dégagement visuel magnifique sur la ville, et une ambiance unique surtout en soirée. En McLaren ou en Audi R8, chaque virage devient une sculpture sonore. Partez tôt le matin pour éviter les cyclistes et profiter de l'asphalte vide. Le meilleur moment reste le lever du soleil, quand la lumière dorée frappe le centre ville et que la route est encore à vous. Comptez une vingtaine de minutes pour la boucle complète, mais prévoyez plus de temps pour vous arrêter aux belvédères. La vue sur le stade olympique et le fleuve vaut chaque arrêt.
 
-**3. Autoroute 15 vers les Laurentides**
-La 15 Nord jusqu'à Saint-Sauveur ou Mont-Tremblant est une route que tout propriétaire de supercar connaît. Les courbes douces dans les collines laurentiennes, les vues sur les montagnes, et les petites routes secondaires autour des lacs — c'est le combo parfait pour une journée de conduite mémorable.
+## 2. Route 138 en Lanaudière
 
-**4. Croisière dans le Vieux-Montréal**
-Pas une route rapide, mais une scène. Rouler sur les pavés du Vieux-Port dans une G63 AMG ou une Audi RS7, c'est être au centre de l'attention. En soirée, quand les lumières se reflètent sur les vieilles pierres, l'ambiance est incomparable. Arrêtez sur la Promenade du Vieux-Port pour les photos.
+Direction nord est depuis Montréal, la route 138 traverse Repentigny et Joliette avec des sections longues et dégagées idéales pour sentir la puissance de votre machine. Les lignes droites entre les champs ouverts vous donnent l'occasion d'apprécier les accélérations franches d'une BMW M5 ou d'une Lamborghini Urus. C'est la route parfaite pour tester la reprise sur les dépassements, avec peu de trafic en semaine. En automne, les couleurs des érables transforment le paysage en tableau vivant. Prévoyez un arrêt à Joliette pour un café avant de faire demi tour.
 
-**5. Autoroute 30 — Rive-Sud**
-Peu connue des Montréalais, l'A-30 offre des tronçons fluides et rapides sur la Rive-Sud avec moins de trafic qu'en ville. Idéale pour un circuit rapide depuis Brossard jusqu'à Châteauguay — surtout en soirée ou le dimanche matin.
+## 3. Autoroute 15 vers les Laurentides
 
-Quelle que soit la route que vous choisissez, nos véhicules sont livrés à votre porte — hôtel, résidence, ou aéroport. Contactez-nous via WhatsApp pour planifier votre journée de conduite parfaite à Montréal.`,
+La 15 Nord jusqu'à Saint Sauveur ou Mont Tremblant est une route que tout propriétaire de supercar connaît. Les courbes douces dans les collines laurentiennes, les vues sur les montagnes, et les petites routes secondaires autour des lacs, c'est le combo parfait pour une journée de conduite mémorable. Quittez l'autoroute à Saint Sauveur et prenez la route des Falaises pour des virages plus techniques. La 329 vers Val David offre aussi de belles séquences. C'est l'itinéraire idéal pour une McLaren 600LT ou une Porsche 911, des voitures qui brillent dans les enchaînements rapides.
+
+## 4. Croisière dans le Vieux Montréal
+
+Pas une route rapide, mais une scène. Rouler sur les pavés du Vieux Port dans une G63 AMG ou une Audi RS7, c'est être au centre de l'attention. En soirée, quand les lumières se reflètent sur les vieilles pierres, l'ambiance est incomparable. Arrêtez sur la Promenade du Vieux Port pour les photos. Les rues comme la rue Saint Paul et la place Jacques Cartier offrent des décors parfaits pour immortaliser votre location. Allez y en fin de journée, quand la foule se disperse et que la lumière devient douce. C'est aussi le meilleur endroit pour impressionner avant un souper au restaurant.
+
+## 5. Autoroute 30 sur la Rive Sud
+
+Peu connue des Montréalais, l'A 30 offre des tronçons fluides et rapides sur la Rive Sud avec moins de trafic qu'en ville. Idéale pour un circuit rapide depuis Brossard jusqu'à Châteauguay, surtout en soirée ou le dimanche matin. Les longues lignes droites permettent de déployer la puissance d'une Lamborghini Huracan ou d'une Ferrari 488 GTB en toute sécurité. La section entre Candiac et Salaberry de Valleyfield est particulièrement dégagée. C'est la route à choisir si vous voulez vraiment sentir l'accélération sans les radars du centre ville.
+
+## Nos conseils pour une journée de conduite parfaite
+
+Peu importe la route choisie, quelques règles rendent l'expérience plus agréable. Vérifiez la météo avant de partir, car une pluie soudaine change tout sur les routes secondaires. Faites le plein avant de quitter la ville, les stations se font rares dans les Laurentides. Et surtout, respectez les limites de vitesse. Nos véhicules sont équipés de traceurs GPS, non pas pour vous surveiller, mais pour votre sécurité et celle de la voiture.
+
+## Comment réserver votre supercar
+
+Quelle que soit la route que vous choisissez, nos véhicules sont livrés à votre porte, que ce soit à l'hôtel, à votre résidence ou à l'aéroport. Contactez nous via WhatsApp au wa.me/14388094417 ou appelez le 438 809 4417 pour planifier votre journée de conduite parfaite à Montréal. Notre équipe vous conseille le meilleur itinéraire selon le modèle choisi et la météo. Livraison 24h/24 partout dans le Grand Montréal, âge minimum de 25 ans pour la plupart des modèles, et dépôt de sécurité remboursable. Réservez tôt pour les fins de semaine d'été, les routes partent vite.`,
   },
   {
     slug: 'comment-louer-voiture-exotique-montreal',
