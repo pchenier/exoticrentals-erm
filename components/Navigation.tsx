@@ -10,9 +10,6 @@ const navLinks = [
   { href: "/fleet", label: "FLEET" },
   { href: "/experience", label: "EXPERIENCE" },
   { href: "/about", label: "ABOUT" },
-  { href: "/blog", label: "BLOG" },
-  { href: "/faq", label: "FAQ" },
-  { href: "/contact", label: "CONTACT" },
 ];
 
 export default function Navigation() {
