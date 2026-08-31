@@ -20,6 +20,14 @@ export const metadata: Metadata = {
     url: 'https://www.exoticrentalsmontreal.com/lamborghini-rental-montreal',
     siteName: 'Exotic Rentals Montreal',
     type: 'website',
+    images: [
+      {
+        url: 'https://www.exoticrentalsmontreal.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Exotic Rentals Montreal',
+      },
+    ],
   },
 }
 

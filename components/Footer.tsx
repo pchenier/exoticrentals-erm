@@ -28,6 +28,7 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               {[
                 { label: "Fleet", href: "/fleet" },
+                { label: "Location Voiture de Luxe", href: "/location-voiture-de-luxe-montreal" },
                 { label: "Experience", href: "/experience" },
                 { label: "About", href: "/about" },
                 { label: "FAQ", href: "/faq" },

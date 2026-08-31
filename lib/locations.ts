@@ -428,10 +428,10 @@ export const LOCATIONS: LocationEntry[] = [
     name: 'Lévis',
     type: 'city',
     province: 'QC',
-    h1: 'Exotic Car Rental Lévis',
-    title: 'Exotic Car Rental Lévis QC | Exotic Rentals Montreal',
+    h1: 'Exotic Car Rental Delivered to Lévis',
+    title: 'Exotic Car Rental Delivery to Lévis QC — Lamborghini, Audi R8, G63 | Exotic Rentals Montreal',
     description:
-      'Exotic car rental delivery to Lévis, QC. Luxury and performance vehicles from our Montreal fleet from $299/day. We deliver across Quebec. Book now.',
+      'We deliver exotic and luxury cars to Lévis from our Montreal fleet — Lamborghini, McLaren, Audi RS, G63 AMG. From $299/day, free delivery, book on WhatsApp 24/7.',
     heroText:
       'Lévis sits across the St. Lawrence River from Quebec City, offering some of the most breathtaking views in all of Canada. We deliver our exotic and luxury car rental fleet from Montreal to clients across Quebec including Lévis. Contact us on WhatsApp to arrange your vehicle delivery and explore the region in unparalleled style.',
     areaServed: 'Lévis, QC, Canada',
