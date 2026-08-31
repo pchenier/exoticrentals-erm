@@ -8000,19 +8000,25 @@ Que ce soit pour un anniversaire, une proposition de mariage, un week-end entre 
     title: 'Luxury Car Rental in Westmount',
     date: '2026-06-02',
     description: 'Exotic Rentals Montreal delivers luxury and exotic cars directly to Westmount. Discover our fleet of Lamborghini, Porsche, BMW M Series, and more.',
-    content: `Westmount is one of the most prestigious addresses in Greater Montreal. The tree-lined streets, the elegant stone homes, the proximity to Sherbrooke Street West and the upscale shops of Greene Avenue all create an environment where quality and refinement are the standard. It is only natural that residents and visitors in Westmount expect the same level of excellence from their vehicles. Exotic Rentals Montreal delivers exactly that, bringing our fleet of luxury and exotic cars directly to your Westmount address.
+    content: `Westmount is one of the most prestigious addresses in Greater Montreal. The tree lined streets, the elegant stone homes, the proximity to Sherbrooke Street West and the upscale shops of Greene Avenue all create an environment where quality and refinement are the standard. It is only natural that residents and visitors in Westmount expect the same level of excellence from their vehicles. Exotic Rentals Montreal delivers exactly that, bringing our fleet of luxury and exotic cars directly to your Westmount address, seven days a week, around the clock.
 
 ## Westmount and the Art of Arriving in Style
 
-In a neighbourhood where first impressions carry real weight, the vehicle you drive makes a statement before you say a word. A Lamborghini Huracán Tecnica parked outside a Westmount estate, a Porsche Panamera GTS on Côte-Saint-Antoine Road at dusk, or a Mercedes G63 AMG making its way along Murray Hill Park — these are images that match the character of the neighbourhood perfectly.
+In a neighbourhood where first impressions carry real weight, the vehicle you drive makes a statement before you say a word. A Lamborghini Huracán Tecnica parked outside a Westmount estate, a Porsche Panamera GTS on Côte Saint Antoine Road at dusk, or a Mercedes G63 AMG making its way along Murray Hill Park, these are images that match the character of the neighbourhood perfectly.
 
-Our delivery service is seamless. You choose your vehicle, you provide your Westmount address and preferred time, and we arrive with the car fully detailed, fuelled, and ready to go. There is no need to travel anywhere, no rental lot, no queue. The entire process is designed to be as effortless as the drive itself.
+Our delivery service is seamless. You choose your vehicle, you provide your Westmount address and preferred time, and we arrive with the car fully detailed, fuelled, and ready to go. There is no need to travel anywhere, no rental lot, no queue. The entire process is designed to be as effortless as the drive itself. Whether you live near Summit Park, on the slopes of the mountain, or right on Sherbrooke, we bring the experience to your door.
 
 ## The Luxury Fleet We Bring to Westmount
 
-Exotic Rentals Montreal operates one of the finest exotic car fleets in Montreal. For Westmount deliveries, our most popular choices include the Porsche Panamera GTS, a grand tourer that combines genuine performance with four-door practicality and an interior that feels handcrafted at every touchpoint. The Lamborghini Urus, our high-performance SUV with 650 horsepower, is a favourite among Westmount clients who want presence and practicality in equal measure.
+Exotic Rentals Montreal operates one of the finest exotic car fleets in Montreal. For Westmount deliveries, our most popular choices include the Porsche Panamera GTS, a grand tourer that combines genuine performance with four door practicality and an interior that feels handcrafted at every touchpoint. The Lamborghini Urus, our high performance SUV with 650 horsepower, is a favourite among Westmount clients who want presence and practicality in equal measure.
 
 For those who prefer the pure roadster experience, the Lamborghini Huracán Tecnica delivers 640 naturally aspirated horsepower and a soundtrack unlike anything else on the road. The McLaren 600LT pushes the definition of what a road car can feel like, with carbon bodywork, a focused chassis, and performance that puts it in a category of its own. BMW M Series vehicles including the M5 Competition and X5M are also available for clients who want German precision alongside serious power.
+
+## What Does a Luxury Car Rental in Westmount Cost?
+
+Pricing depends on the model and the season. A BMW M3 Competition starts around 350 dollars per day, while a Porsche 911 4S Techart runs closer to 700 dollars. For the full exotic experience, a Lamborghini Huracán Tecnica starts at 1 500 dollars per day, and a McLaren 600LT at 1 800 dollars. During peak summer months and Grand Prix weekend, rates can climb by 20 to 30 percent, so booking ahead is smart.
+
+The security deposit varies by vehicle, typically from 2 000 dollars for a sport sedan up to 10 000 dollars for a supercar. The deposit is held on your credit card and fully released when the car comes back in the same condition. Full insurance is required, and we can help you arrange coverage if your policy does not already include rental vehicles.
 
 ## Occasions That Call for an Exotic Car in Westmount
 
