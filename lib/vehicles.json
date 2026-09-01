@@ -890,6 +890,75 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "22",
+      "slug": "new-vehicle-22",
+      "make": "Mercedes",
+      "model": "GLC63",
+      "year": 2019,
+      "category": "PERFORMANCE",
+      "bodyStyle": "SUV",
+      "tagline": "german V8 biturbo",
+      "description": "",
+      "dailyRate": 650,
+      "weekendRate": 700,
+      "weeklyRate": 600,
+      "securityDeposit": 3000,
+      "horsepower": 469,
+      "engine": "V8 biturbo",
+      "zeroToSixty": "3.8s",
+      "topSpeed": "",
+      "transmission": "Automatic",
+      "drivetrain": "AWD",
+      "seats": 4,
+      "doors": 4,
+      "luggage": 1,
+      "convertible": false,
+      "available": true,
+      "featured": false,
+      "premierVerified": true,
+      "instantConfirm": true,
+      "displayOrder": 22,
+      "images": [
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/KdknlEP1-anlOc8E-OXEo0MRdEL5T6WNabNxgtRpXCtGg2F.jpg",
+          "alt": "Mercedes GLC63",
+          "isMain": false,
+          "position": "41% 14%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/ChatGPT%20Image%201%20sept.%202026%2C%2000_43_28-eD2D2XZJi5SZ5LQfKNdcxl9e5HnJ12.png",
+          "alt": "Mercedes GLC63",
+          "isMain": true,
+          "position": "50% 42%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/ChatGPT%20Image%201%20sept.%202026%2C%2000_45_12-x7wMEdi9zQSfw1tw3yiinYbJJiTd8H.png",
+          "alt": "Mercedes GLC63",
+          "isMain": false,
+          "position": "50% 36%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/ChatGPT%20Image%201%20sept.%202026%2C%2000_44_08-JlP034GRHX08GaDDgHMIEGyI0jgvUR.png",
+          "alt": "Mercedes GLC63",
+          "isMain": false,
+          "position": "44% 34%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/ChatGPT%20Image%201%20sept.%202026%2C%2000_44_36-6QClEkzcFf3r0enCe7X4KT4Si0h4ZL.png",
+          "alt": "Mercedes GLC63",
+          "isMain": false,
+          "position": "50% 58%"
+        }
+      ],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
