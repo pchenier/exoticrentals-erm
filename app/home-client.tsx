@@ -39,7 +39,7 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
           <div className="absolute inset-0 bg-gradient-to-r from-obsidian via-obsidian/60 to-transparent" />
         </div>
         <div className="relative z-10 px-6 lg:px-10 max-w-2xl">
-          <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.2 }}>
+          <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.1 }} style={{ willChange: "transform, opacity" }}>
             <div className="text-[10px] md:text-xs font-display font-bold tracking-[0.3em] text-champagne mb-3 md:mb-4">MONTREAL · QUEBEC</div>
             <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-[-0.05em] text-warm-white leading-[0.95] mb-4 md:mb-6">
               Exotic Car Rentals<br />in Montreal
@@ -90,7 +90,7 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {reviews.slice(0, 3).map((review, i) => (
-              <motion.div key={review.id} className="bg-obsidian p-6 border border-graphite" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
+              <motion.div key={review.id} className="bg-obsidian p-6 border border-graphite" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-40px" }} transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(i * 0.08, 0.24) }} style={{ willChange: "transform, opacity" }}>
                 <div className="flex gap-1 mb-4">
                   {Array.from({ length: 5 }).map((_, j) => (
                     <Star key={j} size={16} className={j < review.rating ? "text-champagne fill-champagne" : "text-graphite"} />
@@ -123,7 +123,7 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
               { title: "Meticulous Maintenance", desc: "Each vehicle undergoes a multi-point inspection and professional detail before every rental." },
               { title: "Total Discretion", desc: "Your privacy is paramount. Our service is confidential, professional, and tailored to your schedule." },
             ].map((item, i) => (
-              <motion.div key={item.title} className="text-center py-8" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
+              <motion.div key={item.title} className="text-center py-8" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-40px" }} transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(i * 0.08, 0.24) }} style={{ willChange: "transform, opacity" }}>
                 <h3 className="font-display font-bold text-xl tracking-[-0.02em] text-warm-white mb-4">{item.title}</h3>
                 <p className="text-silver text-sm leading-relaxed">{item.desc}</p>
               </motion.div>
@@ -146,7 +146,7 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
               { num: "03", title: "PICKUP", desc: "Pick up your vehicle at our Montreal location, detailed and fueled. Delivery available by special arrangement." },
               { num: "04", title: "THE DRIVE", desc: "Enjoy 24/7 concierge support throughout your entire rental period." },
             ].map((step, i) => (
-              <motion.div key={step.num} className="text-center" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
+              <motion.div key={step.num} className="text-center" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-40px" }} transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(i * 0.08, 0.24) }} style={{ willChange: "transform, opacity" }}>
                 <div className="font-display font-extrabold text-5xl text-champagne mb-4">{step.num}</div>
                 <h3 className="font-display font-semibold text-lg text-warm-white mb-2">{step.title}</h3>
                 <p className="text-silver text-sm">{step.desc}</p>

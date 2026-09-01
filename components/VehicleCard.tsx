@@ -17,8 +17,9 @@ export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; 
         className="group bg-graphite border border-graphite hover:border-silver/20 transition-all overflow-hidden"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ delay: index * 0.05 }}
+        viewport={{ once: true, margin: "-40px" }}
+        transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(index * 0.04, 0.2) }}
+        style={{ willChange: "transform, opacity", backfaceVisibility: "hidden" }}
       >
         {/* Image - links to detail page */}
         <Link href={`/fleet/${vehicle.slug}`} className="block relative aspect-[16/10] overflow-hidden">
