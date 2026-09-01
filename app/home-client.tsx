@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { faqs, reviews, vehicles as staticVehicles } from "@/lib/data";
 import type { Vehicle } from "@/lib/data";
 import Navigation from "@/components/Navigation";
@@ -12,6 +12,13 @@ import { Star, ChevronDown, ArrowRight } from "lucide-react";
 
 export default function HomeClient({ initialVehicles }: { initialVehicles: Vehicle[] }) {
   const [openFaq, setOpenFaq] = useState<string | null>(null);
+  const prefersReducedMotion = useReducedMotion();
+  // iOS: Safari freezes rAF during momentum scroll → scroll-reveal flashes. Static on touch.
+  const isTouch = typeof window !== "undefined" && window.matchMedia("(hover: none)").matches;
+  const reveal = prefersReducedMotion || isTouch
+    ? {}
+    : { initial: { opacity: 0, y: 20 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true, margin: "-40px" } };
+
   const [bookingOpen, setBookingOpen] = useState(false);
   const [allVehicles, setAllVehicles] = useState<Vehicle[]>(initialVehicles.length > 0 ? initialVehicles : staticVehicles);
 
@@ -90,7 +97,7 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {reviews.slice(0, 3).map((review, i) => (
-              <motion.div key={review.id} className="bg-obsidian p-6 border border-graphite" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-40px" }} transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(i * 0.08, 0.24) }} style={{ willChange: "transform, opacity" }}>
+              <motion.div key={review.id} className="bg-obsidian p-6 border border-graphite" {...reveal} transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(i * 0.08, 0.24) }} style={reveal.initial ? { willChange: "transform, opacity" } : undefined}>
                 <div className="flex gap-1 mb-4">
                   {Array.from({ length: 5 }).map((_, j) => (
                     <Star key={j} size={16} className={j < review.rating ? "text-champagne fill-champagne" : "text-graphite"} />
@@ -123,7 +130,7 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
               { title: "Meticulous Maintenance", desc: "Each vehicle undergoes a multi-point inspection and professional detail before every rental." },
               { title: "Total Discretion", desc: "Your privacy is paramount. Our service is confidential, professional, and tailored to your schedule." },
             ].map((item, i) => (
-              <motion.div key={item.title} className="text-center py-8" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-40px" }} transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(i * 0.08, 0.24) }} style={{ willChange: "transform, opacity" }}>
+              <motion.div key={item.title} className="text-center py-8" {...reveal} transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(i * 0.08, 0.24) }} style={reveal.initial ? { willChange: "transform, opacity" } : undefined}>
                 <h3 className="font-display font-bold text-xl tracking-[-0.02em] text-warm-white mb-4">{item.title}</h3>
                 <p className="text-silver text-sm leading-relaxed">{item.desc}</p>
               </motion.div>
@@ -146,7 +153,7 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
               { num: "03", title: "PICKUP", desc: "Pick up your vehicle at our Montreal location, detailed and fueled. Delivery available by special arrangement." },
               { num: "04", title: "THE DRIVE", desc: "Enjoy 24/7 concierge support throughout your entire rental period." },
             ].map((step, i) => (
-              <motion.div key={step.num} className="text-center" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-40px" }} transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(i * 0.08, 0.24) }} style={{ willChange: "transform, opacity" }}>
+              <motion.div key={step.num} className="text-center" {...reveal} transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(i * 0.08, 0.24) }} style={reveal.initial ? { willChange: "transform, opacity" } : undefined}>
                 <div className="font-display font-extrabold text-5xl text-champagne mb-4">{step.num}</div>
                 <h3 className="font-display font-semibold text-lg text-warm-white mb-2">{step.title}</h3>
                 <p className="text-silver text-sm">{step.desc}</p>

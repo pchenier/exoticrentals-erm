@@ -2,6 +2,7 @@
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import Reveal from "@/components/Reveal";
 import { motion } from "framer-motion";
 import { CalendarCheck, ShieldCheck, KeyRound } from "lucide-react";
 
@@ -82,15 +83,14 @@ export default function HowItWorksPage() {
       <section className="px-4 sm:px-6 lg:px-8 pb-24 bg-obsidian">
         <div className="max-w-7xl mx-auto">
           {steps.map((step, index) => (
-            <motion.div
+            <Reveal
               key={step.number}
               className={`relative py-20 md:py-28 ${
                 index !== steps.length - 1 ? "border-b border-graphite" : ""
               }`}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.8, delay: 0.1 }}
+              delay={0.1}
+              duration={0.8}
+              y={40}
             >
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
                 {/* Number */}
@@ -136,7 +136,7 @@ export default function HowItWorksPage() {
                   <div className="w-px h-48 bg-gradient-to-b from-transparent via-champagne/30 to-transparent" />
                 </div>
               </div>
-            </motion.div>
+            </Reveal>
           ))}
         </div>
       </section>
@@ -171,13 +171,10 @@ export default function HowItWorksPage() {
                 description: "Vehicle prepared and ready for pickup at our Montreal location",
               },
             ].map((item, i) => (
-              <motion.div
+              <Reveal
                 key={item.value}
                 className="text-center p-8 border border-graphite bg-obsidian"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
+                delay={i * 0.1}
               >
                 <div className="text-xs font-spec tracking-[0.2em] text-silver mb-2">
                   {item.label}
@@ -186,7 +183,7 @@ export default function HowItWorksPage() {
                   {item.value}
                 </div>
                 <p className="text-sm text-silver">{item.description}</p>
-              </motion.div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -195,12 +192,7 @@ export default function HowItWorksPage() {
       {/* CTA */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-obsidian">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
+          <Reveal duration={0.6}>
             <h2 className="font-display text-3xl md:text-4xl text-warm-white mb-6">
               Ready to Begin?
             </h2>
@@ -222,7 +214,7 @@ export default function HowItWorksPage() {
                 REQUEST A VEHICLE
               </a>
             </div>
-          </motion.div>
+          </Reveal>
         </div>
       </section>
 

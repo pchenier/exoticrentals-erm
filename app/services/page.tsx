@@ -2,6 +2,7 @@
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import Reveal from "@/components/Reveal";
 import { motion } from "framer-motion";
 import {
   MapPin,
@@ -113,12 +114,11 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
             {services.map((service, i) => (
-              <motion.div
+              <Reveal
                 key={service.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.6, delay: i * 0.08 }}
+                delay={i * 0.08}
+                duration={0.6}
+                y={30}
                 className="group relative"
               >
                 <div className="relative h-full bg-graphite border border-graphite p-8 md:p-10 transition-all duration-500 hover:border-champagne/30">
@@ -155,7 +155,7 @@ export default function ServicesPage() {
                     <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-champagne/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   </div>
                 </div>
-              </motion.div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -164,12 +164,7 @@ export default function ServicesPage() {
       {/* Pickup Standard */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-graphite">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
+          <Reveal duration={0.8}>
             <div className="text-xs font-spec tracking-[0.3em] text-champagne mb-4">
               THE PREMIER STANDARD
             </div>
@@ -197,34 +192,26 @@ export default function ServicesPage() {
                   desc: "Pre-pickup inspection & detail",
                 },
               ].map((stat, i) => (
-                <motion.div
+                <Reveal
                   key={stat.label}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: i * 0.1 }}
+                  delay={i * 0.1}
                   className="text-center sm:text-left"
                 >
                   <div className="font-spec text-3xl text-champagne mb-2">
                     {stat.label}
                   </div>
                   <div className="text-sm text-silver">{stat.desc}</div>
-                </motion.div>
+                </Reveal>
               ))}
             </div>
-          </motion.div>
+          </Reveal>
         </div>
       </section>
 
       {/* CTA */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-obsidian">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
+          <Reveal duration={0.8}>
             <h2 className="font-display text-3xl md:text-4xl text-warm-white mb-6">
               Ready to Arrange Your Service?
             </h2>
@@ -246,7 +233,7 @@ export default function ServicesPage() {
                 REQUEST A VEHICLE
               </a>
             </div>
-          </motion.div>
+          </Reveal>
         </div>
       </section>
 

@@ -26,7 +26,7 @@ export default function Navigation() {
   return (
     <>
       <motion.nav
-        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
+        className={`fixed top-0 left-0 right-0 z-40 ${
           scrolled ? "bg-obsidian/90 backdrop-blur-md border-b border-graphite" : "bg-transparent"
         }`}
         initial={{ y: -100 }}

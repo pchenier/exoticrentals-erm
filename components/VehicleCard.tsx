@@ -1,25 +1,36 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 import type { Vehicle } from "@/lib/data";
 import BookingModal from "./BookingModal";
 
 export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; index?: number }) {
   const [bookingOpen, setBookingOpen] = useState(false);
+  const prefersReducedMotion = useReducedMotion();
+  // iOS Safari freezes rAF during momentum scroll → scroll-reveal cards flash.
+  // Show cards statically on touch devices.
+  const isTouch = typeof window !== "undefined" && window.matchMedia("(hover: none)").matches;
+  const animateIn = !prefersReducedMotion && !isTouch;
   const images = vehicle.images.length > 0 ? vehicle.images : [{ url: "/placeholder-car.jpg", alt: `${vehicle.make} ${vehicle.model}`, isMain: true }];
+
+  const articleProps = animateIn
+    ? {
+        initial: { opacity: 0, y: 20 },
+        whileInView: { opacity: 1, y: 0 },
+        viewport: { once: true, margin: "-40px" } as const,
+        transition: { duration: 0.5, ease: "easeOut" as const, delay: Math.min(index * 0.04, 0.2) },
+      }
+    : {};
 
   return (
     <>
       <motion.article
         key={vehicle.id}
-        className="group bg-graphite border border-graphite hover:border-silver/20 transition-all overflow-hidden"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-40px" }}
-        transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(index * 0.04, 0.2) }}
-        style={{ willChange: "transform, opacity", backfaceVisibility: "hidden" }}
+        className="group bg-graphite border border-graphite hover:border-silver/20 overflow-hidden"
+        style={animateIn ? { willChange: "transform, opacity", backfaceVisibility: "hidden" } : undefined}
+        {...articleProps}
       >
         {/* Image - links to detail page */}
         <Link href={`/fleet/${vehicle.slug}`} className="block relative aspect-[16/10] overflow-hidden">
