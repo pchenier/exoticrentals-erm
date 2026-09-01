@@ -865,14 +865,10 @@
       "displayOrder": 21,
       "images": [
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/OlOrF-z9uNklY8HS9OfkZNi1voRfBRZcdzd7.jpg",
-          "alt": "Porsche Panamera GTS",
-          "isMain": true
-        },
-        {
           "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/s-QyVgCPz-7GJueVZEDAd8Lju253u8qikWA1uTYM.jpg",
           "alt": "Porsche Panamera GTS",
-          "isMain": false
+          "isMain": false,
+          "position": "50% 84%"
         },
         {
           "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/ChatGPT%20Image%201%20sept.%202026%2C%2000%20h%2047%20min%2047%20s-u5JcXpQMa4f6I4orwl7P8SDQF1CIEL.png",
@@ -881,6 +877,11 @@
         },
         {
           "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/s-sp1rndT-wwGuibLfo2nzJbKkWLM43ZIey10v2j.jpg",
+          "alt": "Porsche Panamera GTS",
+          "isMain": false
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/AI3A9843-Low-Res-20524-scaled-zEiqhiV8y1RC7cix4IJ8lAEJANmZrr.webp",
           "alt": "Porsche Panamera GTS",
           "isMain": false
         }
