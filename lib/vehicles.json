@@ -140,62 +140,6 @@
       ]
     },
     {
-      "id": "4",
-      "slug": "lamborghini-urus-performante",
-      "make": "Lamborghini",
-      "model": "Urus Performante",
-      "year": 2024,
-      "category": "EXOTIC",
-      "bodyStyle": "SUV",
-      "tagline": "The Urus on steroids.",
-      "description": "Lower, louder, faster. Performante means business and Montreal feels it. The ultimate Super SUV.",
-      "dailyRate": 1399,
-      "weekendRate": 1599,
-      "weeklyRate": 1299,
-      "securityDeposit": 10000,
-      "horsepower": 657,
-      "engine": "4.0L V8 Biturbo",
-      "zeroToSixty": "3.3s",
-      "topSpeed": "190 mph",
-      "transmission": "Automatic",
-      "drivetrain": "AWD",
-      "seats": 5,
-      "doors": 4,
-      "luggage": 4,
-      "convertible": false,
-      "available": true,
-      "featured": true,
-      "premierVerified": false,
-      "instantConfirm": true,
-      "displayOrder": 4,
-      "images": [
-        {
-          "url": "https://www.jswluxurygroup.com/cars/lamborghini-urus-performante/web/24p06299.jpg",
-          "alt": "Lamborghini Urus Performante",
-          "isMain": true,
-          "position": "50% 60%"
-        },
-        {
-          "url": "https://www.jswluxurygroup.com/cars/lamborghini-urus-performante/web/24p06316.jpg",
-          "alt": "Lamborghini Urus Performante",
-          "isMain": false,
-          "position": "50% 66%"
-        },
-        {
-          "url": "https://www.jswluxurygroup.com/cars/lamborghini-urus-performante/web/24p06313.jpg",
-          "alt": "Lamborghini Urus Performante",
-          "isMain": false
-        }
-      ],
-      "badges": [
-        {
-          "name": "verified",
-          "label": "Verified",
-          "icon": "shield-check"
-        }
-      ]
-    },
-    {
       "id": "5",
       "slug": "lamborghini-huracan-evo",
       "make": "Lamborghini",
