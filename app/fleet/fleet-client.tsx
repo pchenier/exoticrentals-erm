@@ -8,8 +8,9 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import VehicleCard from "@/components/VehicleCard";
 
-const makes = [...new Set(["Audi","Bentley","BMW","Cadillac","Lamborghini","McLaren","Mercedes-AMG","Mercedes-Maybach","Porsche","Range Rover"])].sort();
-
+// Brand family: all "Mercedes*" makes (Mercedes, Mercedes-AMG, Mercedes-Maybach)
+// group under one MERCEDES button. Other makes map 1:1. Derived from live data
+// so admin-added vehicles with new makes always get a filter button.
 const makeLogoMap: Record<string, string> = {
   "Audi": "audi",
   "Bentley": "bentley",
@@ -17,14 +18,17 @@ const makeLogoMap: Record<string, string> = {
   "Cadillac": "cadillac",
   "Lamborghini": "lamborghini",
   "McLaren": "mclaren",
-  "Mercedes-AMG": "mercedes",
-  "Mercedes-Maybach": "mercedes",
+  "Mercedes": "mercedes",
   "Porsche": "porsche",
   "Range Rover": "range-rover",
 };
 
-function getMakeLogo(make: string): string | null {
-  return makeLogoMap[make] ? `/brands/${makeLogoMap[make]}.svg` : null;
+function makeFamily(make: string): string {
+  return make.startsWith("Mercedes") ? "Mercedes" : make;
+}
+
+function getMakeLogo(family: string): string | null {
+  return makeLogoMap[family] ? `/brands/${makeLogoMap[family]}.svg` : null;
 }
 
 const priceRanges = [
@@ -51,10 +55,12 @@ function FleetContent({ initialVehicles }: { initialVehicles: Vehicle[] }) {
     }
   }, [initialVehicles.length]);
 
+  const makes = [...new Set(allVehicles.filter(v => v.available).map(v => makeFamily(v.make)))].sort();
+
   let filtered = allVehicles.filter(v => v.available);
 
   if (activeMake !== "ALL") {
-    filtered = filtered.filter(v => v.make === activeMake);
+    filtered = filtered.filter(v => makeFamily(v.make) === activeMake);
   }
 
   if (activePrice !== "ALL") {
