@@ -790,11 +790,42 @@
       "luggage": 1,
       "convertible": false,
       "available": true,
-      "featured": false,
+      "featured": true,
       "premierVerified": true,
       "instantConfirm": true,
       "displayOrder": 20,
-      "images": [],
+      "images": [
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_DSC6840-aZRtHL3Dc1DUKkgbkAuXCWbkKzdUSG.jpg",
+          "alt": "BMW M3 Competition",
+          "isMain": true,
+          "position": "48% 49%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_DSC3516-IehtmG5Qp9pSddMgoWLlilUqlrs5NN.jpg",
+          "alt": "BMW M3 Competition",
+          "isMain": false,
+          "position": "40% 44%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_76A3537-0HSj68bCms92g7KXzJW4UC3vAnJKDL.jpg",
+          "alt": "BMW M3 Competition",
+          "isMain": false,
+          "position": "51% 46%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_DSC6918-aVk4LuzuIPepq8jr8zTmi4JupYnDqv.jpg",
+          "alt": "BMW M3 Competition",
+          "isMain": false,
+          "position": "50% 48%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_76A3527-cJs0jfNH1t0RrhE7bFZ1KFlfTChI5x.jpg",
+          "alt": "BMW M3 Competition",
+          "isMain": false,
+          "position": "32% 46%"
+        }
+      ],
       "badges": [
         {
           "name": "verified",
