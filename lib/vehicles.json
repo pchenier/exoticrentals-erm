@@ -225,7 +225,7 @@
       "luggage": 1,
       "convertible": true,
       "available": true,
-      "featured": true,
+      "featured": false,
       "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 6,
