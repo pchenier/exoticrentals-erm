@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest, NextResponse } from 'next/server';
+import { slugify } from '@/lib/slugify';
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 const REPO_OWNER = 'pchenier';
@@ -20,7 +21,22 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Missing vehicles array' }, { status: 400 });
     }
 
-    const jsonContent = JSON.stringify({ vehicles, faqs: faqs || [], reviews: reviews || [] }, null, 2);
+    // Server-side guard: never commit placeholder slugs.
+    // Regenerates any new-vehicle-XX slug from the actual make/model.
+    const fixedVehicles = vehicles.map((v: any) => {
+      if (
+        typeof v?.slug === 'string' &&
+        /^new-vehicle-\d+$/.test(v.slug) &&
+        v.make &&
+        v.model &&
+        `${v.make} ${v.model}`.trim() !== 'New Vehicle'
+      ) {
+        return { ...v, slug: slugify(`${v.make} ${v.model}`) };
+      }
+      return v;
+    });
+
+    const jsonContent = JSON.stringify({ vehicles: fixedVehicles, faqs: faqs || [], reviews: reviews || [] }, null, 2);
 
     // Get current file SHA (needed for update)
     const fileRes = await fetch(

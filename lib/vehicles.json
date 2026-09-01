@@ -706,7 +706,7 @@
     },
     {
       "id": "19",
-      "slug": "new-vehicle-19",
+      "slug": "audi-rs7",
       "make": "Audi",
       "model": "RS7",
       "year": 2021,
@@ -767,7 +767,7 @@
     },
     {
       "id": "20",
-      "slug": "new-vehicle-20",
+      "slug": "bmw-m3-competition",
       "make": "BMW",
       "model": "M3 Competition",
       "year": 2021,
@@ -828,7 +828,7 @@
     },
     {
       "id": "21",
-      "slug": "new-vehicle-21",
+      "slug": "porsche-panamera-gts",
       "make": "Porsche",
       "model": "Panamera GTS",
       "year": 2020,
@@ -887,7 +887,7 @@
     },
     {
       "id": "22",
-      "slug": "new-vehicle-22",
+      "slug": "mercedes-glc63s",
       "make": "Mercedes",
       "model": "GLC63s AMG",
       "year": 2019,
@@ -949,7 +949,7 @@
     },
     {
       "id": "23",
-      "slug": "new-vehicle-23",
+      "slug": "mercedes-g63",
       "make": "Mercedes",
       "model": "G63 AMG",
       "year": 2024,
