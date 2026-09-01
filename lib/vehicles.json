@@ -655,62 +655,6 @@
       ]
     },
     {
-      "id": "15",
-      "slug": "range-rover-sport-svr",
-      "make": "Range Rover",
-      "model": "Sport SVR",
-      "year": 2024,
-      "category": "LUXURY",
-      "bodyStyle": "SUV",
-      "tagline": "British luxury meets supercar pace.",
-      "description": "The SVR dominates Old Montreal and glides through the Old Port. Supercharged V8 with Range Rover refinement.",
-      "dailyRate": 899,
-      "weekendRate": 999,
-      "weeklyRate": 899,
-      "securityDeposit": 5000,
-      "horsepower": 575,
-      "engine": "5.0L V8 Supercharged",
-      "zeroToSixty": "4.3s",
-      "topSpeed": "176 mph",
-      "transmission": "Automatic",
-      "drivetrain": "AWD",
-      "seats": 5,
-      "doors": 4,
-      "luggage": 4,
-      "convertible": false,
-      "available": true,
-      "featured": false,
-      "premierVerified": true,
-      "instantConfirm": true,
-      "displayOrder": 15,
-      "images": [
-        {
-          "url": "https://www.jswluxurygroup.com/cars/range-rover-svr/web/24p05367.jpg",
-          "alt": "Range Rover Sport SVR",
-          "isMain": true,
-          "position": "50% 60%"
-        },
-        {
-          "url": "https://www.jswluxurygroup.com/cars/range-rover-svr/web/24p05350.jpg",
-          "alt": "Range Rover Sport SVR",
-          "isMain": false,
-          "position": "50% 58%"
-        },
-        {
-          "url": "https://www.jswluxurygroup.com/cars/range-rover-svr/web/24p05359.jpg",
-          "alt": "Range Rover Sport SVR",
-          "isMain": false
-        }
-      ],
-      "badges": [
-        {
-          "name": "verified",
-          "label": "Verified",
-          "icon": "shield-check"
-        }
-      ]
-    },
-    {
       "id": "16",
       "slug": "bmw-m4-competition",
       "make": "BMW",
