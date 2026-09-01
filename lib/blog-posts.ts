@@ -9,6 +9,65 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'lamborghini-huracan-rental-montreal-v10-drama-on-every-street-2026',
+    title: 'Lamborghini Huracan Rental Montreal: V10 Drama on Every Street (2026)',
+    date: '2026-09-01',
+    description: 'Renting a Lamborghini Huracan in Montreal costs $1,400–$1,800/day. Read our 2026 review of the EVO and Tecnica, with specs, pricing, and rental requirements.',
+    content: `Renting a Lamborghini Huracan in Montreal costs between $1,400 and $1,800 per day, depending on the model and season. If you're looking for a Lamborghini Huracan rental Montreal, you're in for a raw, naturally aspirated V10 experience that no turbocharged supercar can match. I've driven both the Huracan EVO and the Tecnica on Montreal's streets, and here's the honest review you need before you hand over your deposit.
+
+## What's It Like to Drive a Huracan in Montreal?
+
+Montreal is a city of potholes, construction detours, and sudden speed cameras. But it's also a city with the 720, the Decarie, and the scenic route along the St. Lawrence. The Huracan handles all of it with a brutality that feels almost illegal. The steering is sharp, the brakes are carbonceramic, and the V10 screams to 8,500 rpm like a race bike on steroids. You'll feel every expansion joint in the asphalt, but that's part of the charm. This is not a luxury GT; it's a track weapon with a license plate.
+
+The EVO and Tecnica share the same 5.2liter V10, but they're tuned differently. The EVO is the allrounder with rearwheel steering and a more forgiving suspension. The Tecnica is the sharper, more focused version with a fixed rear wing and a more aggressive aero package. Both will do 0100 km/h in under 3 seconds, but the Tecnica feels like it's trying to kill you in the best possible way. On a clear Sunday morning on the 138, you'll understand why people pay $1,500 a day for this.
+
+## How Much Does It Cost to Rent a Lamborghini Huracan in Montreal?
+
+Expect to pay $1,400 to $1,800 per day for a Huracan EVO or Tecnica, depending on the season and how far in advance you book. Summer weekends are the most expensive, with July and August often hitting the $1,800 mark. Weekdays in the offseason can drop to $1,200. The security deposit is $5,000 for the EVO and $7,500 for the Tecnica, refundable after the car is returned undamaged. You'll also need full insurance, which we can arrange for an additional $50 to $100 per day if you don't have your own.
+
+That price includes 200 kilometers per day. Extra kilometers are $2 each, and you'll want to plan your route carefully. A loop from downtown to the Laurentians and back is about 180 km, so you can do it without going over. But if you're planning a trip to Quebec City, that's 460 km round trip, so budget for the overage. Delivery anywhere in Greater Montreal is free, and we deliver 24/7. We've dropped cars at the airport, at hotels, and even at a wedding in Old Montreal.
+
+## Which Huracan Should You Choose: EVO or Tecnica?
+
+If you've never driven a supercar before, go with the EVO. It's more forgiving, has a smoother ride, and the rearwheel steering makes it feel smaller than it is. The EVO produces 631 horsepower and hits 100 km/h in 2.9 seconds. It's the one you can dailydrive for a weekend without needing a chiropractor. The Tecnica, on the other hand, is for the purist. It has the same 631 horsepower but a more aggressive suspension, a louder exhaust, and a fixed rear wing that adds downforce. It's 0100 in 3.0 seconds, but it feels faster because the chassis is stiffer. If you're planning to carve up the back roads of the Eastern Townships, the Tecnica is the one.
+
+Both cars have the same V10 soundtrack, which is the main reason you're renting one. The Tecnica's exhaust is slightly more vocal, with a crackle on the overrun that makes people turn their heads from three blocks away. The EVO is more refined, but it still sounds like a Formula 1 car at full throttle. I've driven both, and I'd take the Tecnica for a weekend of pure driving, but the EVO for a date night or a business event where you need to arrive without your ears ringing.
+
+## Where Can You Drive It in Montreal?
+
+Montreal has a few roads that make the Huracan shine. The 720 is a concrete canyon that lets you feel the car's grip, but watch for speed cameras. The 15 North to the Laurentians is a classic run, with sweeping curves and minimal traffic on weekdays. For a shorter blast, the Boulevard de la RiveSud along the St. Lawrence has long straights and a few roundabouts that let you test the launch control. And if you want to show off, cruise down SaintLaurent Boulevard on a Saturday night. You'll get plenty of attention, but be prepared for people to ask for photos at every red light.
+
+One thing to note: Montreal's potholes are no joke. The Huracan has a front lift system that raises the nose by 40 mm, and you'll need it for speed bumps and steep driveways. We'll show you how to use it before you leave, but it's a lifesaver in places like the Plateau or Old Montreal. Also, avoid the underground parking garages downtown—they're tight, and the Huracan is wide. Stick to surface lots or valet parking.
+
+## What Are the Rental Requirements?
+
+You need to be at least 25 years old for the Huracan EVO and Tecnica. We have a few other cars in our fleet with a 21yearold minimum, but the Lamborghini is strictly 25+. You'll need a valid driver's license, a credit card for the security deposit, and proof of full insurance. If you don't have your own, we can sell you a policy for the rental period. The minimum rental is 24 hours, and we can do multiday rentals with a discount—three days gets you 10% off, and a week gets you 20% off.
+
+We also require a $500 refundable fuel deposit, which we return when you bring the car back with a full tank. The car comes with a full tank, and you'll need to return it the same way. We've had people try to return it with a quarter tank and lose the deposit. Don't be that person. We'll also do a walkaround inspection with you before you leave, and we'll take photos and videos to document the condition. It's a standard process, but it protects both of us.
+
+## FAQ
+
+### How Much Is the Security Deposit for a Lamborghini Huracan in Montreal?
+
+The security deposit is $5,000 for the Huracan EVO and $7,500 for the Tecnica. It's held on your credit card and released when the car is returned undamaged. We also require a $500 fuel deposit, which is refunded if you return the car with a full tank.
+
+### Can I Rent a Lamborghini Huracan if I'm Under 25?
+
+No. The minimum age for the Huracan is 25. We have other cars in our fleet, like the Audi RS5 or BMW M3, that you can rent at 21, but the Lamborghini is strictly 25+. This is due to insurance regulations and our own risk assessment.
+
+### How Many Kilometers Are Included in the Rental?
+
+Every Huracan rental includes 200 kilometers per day. Additional kilometers are $2 each. If you're planning a longer trip, we can offer a package with extra kilometers at a discounted rate. Just let us know when you book.
+
+### Do You Deliver the Lamborghini Huracan Anywhere in Montreal?
+
+Yes, we deliver anywhere in Greater Montreal, 24/7. We'll bring the car to your hotel, your home, or even the airport. Delivery is free within the island of Montreal, and there's a small fee for the South Shore or Laval. We also offer pickup at our location if you prefer.
+
+## Ready to Hear the V10 Scream?
+
+If you're serious about renting a Lamborghini Huracan in Montreal, don't wait. Summer weekends book out weeks in advance, and we only have a few Huracans in our fleet. Call us at 4388094417 or message us on WhatsApp at wa.me/14388094417 to check availability. We'll get you behind the wheel of a 631horsepower Italian masterpiece faster than you can say "launch control." Check out our [Lamborghini rental page](/lamborghinirentalmontreal) for more details, or browse our [full fleet](/cars) to see what else we have. And if you have questions, our [FAQ](/faq) covers everything from deposits to delivery. Don't just dream about it—drive it.`,
+  },
+  {
     slug: 'location-ferrari-montreal-488-gtb-et-plus-2026',
     title: 'Location Ferrari Montreal: 488 GTB et Plus (2026)',
     date: '2026-08-31',
