@@ -764,6 +764,44 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "20",
+      "slug": "new-vehicle-20",
+      "make": "BMW",
+      "model": "M3 Competition",
+      "year": 2021,
+      "category": "PERFORMANCE",
+      "bodyStyle": "SEDAN",
+      "tagline": "The best inline 6 sound",
+      "description": "",
+      "dailyRate": 650,
+      "weekendRate": 700,
+      "weeklyRate": 500,
+      "securityDeposit": 4000,
+      "horsepower": 503,
+      "engine": "Inline 6",
+      "zeroToSixty": "308s",
+      "topSpeed": "",
+      "transmission": "Automatic",
+      "drivetrain": "AWD",
+      "seats": 4,
+      "doors": 4,
+      "luggage": 1,
+      "convertible": false,
+      "available": true,
+      "featured": false,
+      "premierVerified": true,
+      "instantConfirm": true,
+      "displayOrder": 20,
+      "images": [],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
