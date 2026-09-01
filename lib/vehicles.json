@@ -730,7 +730,7 @@
       "convertible": false,
       "available": true,
       "featured": true,
-      "premierVerified": true,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 19,
       "images": [
@@ -860,7 +860,7 @@
       "convertible": false,
       "available": true,
       "featured": true,
-      "premierVerified": true,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 21,
       "images": [
@@ -981,7 +981,7 @@
       "convertible": false,
       "available": true,
       "featured": true,
-      "premierVerified": true,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 23,
       "images": [
