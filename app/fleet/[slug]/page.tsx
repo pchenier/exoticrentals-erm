@@ -69,7 +69,7 @@ export default async function VehicleDetailPage({ params }: Props) {
 
               {vehicle.tagline && <p className="text-champagne font-display text-lg mb-4">{vehicle.tagline}</p>}
               {vehicle.description && <p className="text-silver leading-relaxed mb-6">{vehicle.description}</p>}
-              {(vehicle.slug === "audi-r8-spyder" || vehicle.slug === "bmw-m4-competition-kith" || vehicle.slug === "mclaren-600lt-spider" || vehicle.slug === "lamborghini-huracan-evo" || vehicle.slug === "lamborghini-huracan-evo-spyder" || vehicle.slug === "lamborghini-urus-performante") && (
+              {(vehicle.slug === "audi-r8-spyder" || vehicle.slug === "bmw-m4-competition-kith" || vehicle.slug === "mclaren-600lt-spider" || vehicle.slug === "lamborghini-huracan-evo" || vehicle.slug === "lamborghini-huracan-evo-spyder" || vehicle.slug === "lamborghini-urus-performante" || vehicle.slug === "mercedes-glc63s") && (
                 <div className="mb-8">
                   <HearCarButton slug={vehicle.slug} />
                 </div>
