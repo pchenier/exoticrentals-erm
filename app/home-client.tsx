@@ -79,7 +79,7 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
             <h2 className="font-display font-extrabold tracking-[-0.02em] text-3xl md:text-4xl text-warm-white">FEATURED VEHICLES</h2>
             <div className="text-sm text-silver mt-3">{availableCount} vehicles available</div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {featuredVehicles.map((vehicle, i) => (
               <VehicleCard key={vehicle.id} vehicle={vehicle} index={i} />
             ))}

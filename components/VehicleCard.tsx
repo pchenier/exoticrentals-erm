@@ -55,40 +55,40 @@ export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; 
         </Link>
 
         {/* Content */}
-        <div className="p-4 md:p-5">
-          <h3 className="font-display font-bold text-xl tracking-[-0.02em] text-warm-white mb-4">
+        <div className="p-3 sm:p-4 md:p-5">
+          <h3 className="font-display font-bold text-sm sm:text-lg md:text-xl tracking-[-0.02em] text-warm-white mb-3 sm:mb-4">
             {vehicle.make.toUpperCase()} {vehicle.model.toUpperCase()}
           </h3>
 
-          <div className="grid grid-cols-2 gap-x-4 gap-y-3 mb-5 text-sm">
+          <div className="grid grid-cols-2 gap-x-2 sm:gap-x-4 gap-y-2 sm:gap-y-3 mb-4 sm:mb-5 text-[11px] sm:text-sm">
             <div>
-              <div className="text-xs text-silver mb-0.5 tracking-wider uppercase">Power</div>
+              <div className="text-[10px] sm:text-xs text-silver mb-0.5 tracking-wider uppercase">Power</div>
               <div className="text-warm-white">{vehicle.horsepower} BHP</div>
             </div>
             <div>
-              <div className="text-xs text-silver mb-0.5 tracking-wider uppercase">Engine</div>
+              <div className="text-[10px] sm:text-xs text-silver mb-0.5 tracking-wider uppercase">Engine</div>
               <div className="text-warm-white">{vehicle.engine}</div>
             </div>
             <div>
-              <div className="text-xs text-silver mb-0.5 tracking-wider uppercase">Transmission</div>
+              <div className="text-[10px] sm:text-xs text-silver mb-0.5 tracking-wider uppercase">Transmission</div>
               <div className="text-warm-white">{vehicle.transmission}</div>
             </div>
             <div>
-              <div className="text-xs text-silver mb-0.5 tracking-wider uppercase">Daily</div>
-              <div className="text-champagne font-display font-bold text-lg">${vehicle.dailyRate.toLocaleString()}</div>
+              <div className="text-[10px] sm:text-xs text-silver mb-0.5 tracking-wider uppercase">Daily</div>
+              <div className="text-champagne font-display font-bold text-sm sm:text-lg">${vehicle.dailyRate.toLocaleString()}</div>
             </div>
           </div>
 
           <div className="flex gap-2">
             <button
               onClick={() => setBookingOpen(true)}
-              className="flex-1 py-2.5 text-center text-xs font-body font-bold tracking-[0.1em] border border-silver/30 text-silver hover:border-champagne hover:text-champagne transition-colors"
+              className="flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em] border border-silver/30 text-silver hover:border-champagne hover:text-champagne transition-colors"
             >
               BOOK
             </button>
             <Link
               href={`/fleet/${vehicle.slug}`}
-              className="flex-1 py-2.5 text-center text-xs font-body font-bold tracking-[0.1em] bg-champagne text-obsidian hover:bg-champagne/90 transition-colors"
+              className="flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em] bg-champagne text-obsidian hover:bg-champagne/90 transition-colors"
             >
               SPECS →
             </Link>
