@@ -916,7 +916,7 @@
       "luggage": 1,
       "convertible": false,
       "available": true,
-      "featured": false,
+      "featured": true,
       "premierVerified": true,
       "instantConfirm": true,
       "displayOrder": 22,
