@@ -730,7 +730,7 @@
       "convertible": false,
       "available": true,
       "featured": true,
-      "premierVerified": false,
+      "premierVerified": true,
       "instantConfirm": true,
       "displayOrder": 19,
       "images": [
@@ -791,7 +791,7 @@
       "convertible": false,
       "available": true,
       "featured": true,
-      "premierVerified": true,
+      "premierVerified": false,
       "instantConfirm": true,
       "displayOrder": 20,
       "images": [
