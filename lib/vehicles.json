@@ -767,62 +767,6 @@
       ]
     },
     {
-      "id": "17",
-      "slug": "mercedes-amg-c63-cabriolet",
-      "make": "Mercedes-AMG",
-      "model": "C63 Cabriolet",
-      "year": 2024,
-      "category": "PERFORMANCE",
-      "bodyStyle": "CONVERTIBLE",
-      "tagline": "AMG twin-turbo V8 in a four-seat convertible.",
-      "description": "The perfect blend of refinement and raw power. Handcrafted AMG engine with open-air freedom.",
-      "dailyRate": 599,
-      "weekendRate": 699,
-      "weeklyRate": 599,
-      "securityDeposit": 5000,
-      "horsepower": 503,
-      "engine": "4.0L V8 Biturbo",
-      "zeroToSixty": "4.0s",
-      "topSpeed": "174 mph",
-      "transmission": "Automatic",
-      "drivetrain": "RWD",
-      "seats": 4,
-      "doors": 2,
-      "luggage": 2,
-      "convertible": true,
-      "available": true,
-      "featured": false,
-      "premierVerified": true,
-      "instantConfirm": true,
-      "displayOrder": 17,
-      "images": [
-        {
-          "url": "https://www.jswluxurygroup.com/cars/mercedes-c63/web/24p06518.jpg",
-          "alt": "Mercedes-AMG C63 Cabriolet",
-          "isMain": true,
-          "position": "50% 62%"
-        },
-        {
-          "url": "https://www.jswluxurygroup.com/cars/mercedes-c63/web/24p06488.jpg",
-          "alt": "Mercedes-AMG C63 Cabriolet",
-          "isMain": false,
-          "position": "50% 80%"
-        },
-        {
-          "url": "https://www.jswluxurygroup.com/cars/mercedes-c63/web/24p06498.jpg",
-          "alt": "Mercedes-AMG C63 Cabriolet",
-          "isMain": false
-        }
-      ],
-      "badges": [
-        {
-          "name": "verified",
-          "label": "Verified",
-          "icon": "shield-check"
-        }
-      ]
-    },
-    {
       "id": "18",
       "slug": "cadillac-escalade",
       "make": "Cadillac",
