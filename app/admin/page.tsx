@@ -7,6 +7,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { upload } from "@vercel/blob/client";
 import { vehicles as staticVehicles, type Vehicle } from "@/lib/data";
+import { slugify } from "@/lib/slugify";
 
 const ADMIN_PASSWORD = "1666777";
 
@@ -565,11 +566,18 @@ export default function AdminPage() {
   const handleSave = async () => {
     setSaving(true);
     setSaveMsg(null);
+    // Fix: regenerate placeholder slugs (new-vehicle-XX) from the actual make/model
+    const fixedVehicles = vehicles.map((v) =>
+      /^new-vehicle-\d+$/.test(v.slug) && v.make && v.model && `${v.make} ${v.model}`.trim() !== "New Vehicle"
+        ? { ...v, slug: slugify(`${v.make} ${v.model}`) }
+        : v
+    );
+    setVehicles(fixedVehicles);
     try {
       const res = await fetch("/api/admin/save-data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password: ADMIN_PASSWORD, vehicles, faqs: [], reviews: [] }),
+        body: JSON.stringify({ password: ADMIN_PASSWORD, vehicles: fixedVehicles, faqs: [], reviews: [] }),
       });
       const data = await res.json();
       if (data.success) {
