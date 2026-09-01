@@ -833,6 +833,63 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "21",
+      "slug": "new-vehicle-21",
+      "make": "Porsche",
+      "model": "Panamera GTS",
+      "year": 2020,
+      "category": "PERFORMANCE",
+      "bodyStyle": "SEDAN",
+      "tagline": "pure german V8 sound",
+      "description": "",
+      "dailyRate": 650,
+      "weekendRate": 700,
+      "weeklyRate": 500,
+      "securityDeposit": 3000,
+      "horsepower": 473,
+      "engine": "V8 biturbo",
+      "zeroToSixty": "3.2s",
+      "topSpeed": "",
+      "transmission": "Automatic",
+      "drivetrain": "AWD",
+      "seats": 4,
+      "doors": 4,
+      "luggage": 1,
+      "convertible": false,
+      "available": true,
+      "featured": false,
+      "premierVerified": true,
+      "instantConfirm": true,
+      "displayOrder": 21,
+      "images": [
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/panamera-2-GESevvAp8UaXLMn0c1AsjPXPbaYG3V.png",
+          "alt": "Porsche Panamera GTS",
+          "isMain": true,
+          "position": "50% 40%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/panamera-3-C6ct5SLgmw9IRVLAyndSY6uCIT5jc1.png",
+          "alt": "Porsche Panamera GTS",
+          "isMain": false,
+          "position": "48% 35%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/panamera-4-20KL5JTcpWkYMXbOkTh7HsapJyn4gW.png",
+          "alt": "Porsche Panamera GTS",
+          "isMain": false,
+          "position": "45% 50%"
+        }
+      ],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
