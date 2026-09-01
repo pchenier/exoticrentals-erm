@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 import type { Vehicle } from "@/lib/data";
@@ -9,13 +9,19 @@ import BookingModal from "./BookingModal";
 export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; index?: number }) {
   const [bookingOpen, setBookingOpen] = useState(false);
   const prefersReducedMotion = useReducedMotion();
-  // iOS Safari freezes rAF during momentum scroll → scroll-reveal cards flash.
-  // Show cards statically on touch devices.
-  const isTouch = typeof window !== "undefined" && window.matchMedia("(hover: none)").matches;
-  const animateIn = !prefersReducedMotion && !isTouch;
+  // Start with animations DISABLED so SSR renders fully visible cards.
+  // After mount we check the device: desktop hover → enable scroll-reveal;
+  // touch / reduced-motion → keep static (iOS freezes rAF during momentum
+  // scroll, which made whileInView cards flash or stay stuck at opacity:0).
+  const [canAnimate, setCanAnimate] = useState(false);
+  useEffect(() => {
+    const isDesktopHover = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+    setCanAnimate(isDesktopHover && !prefersReducedMotion);
+  }, [prefersReducedMotion]);
+
   const images = vehicle.images.length > 0 ? vehicle.images : [{ url: "/placeholder-car.jpg", alt: `${vehicle.make} ${vehicle.model}`, isMain: true }];
 
-  const articleProps = animateIn
+  const articleProps = canAnimate
     ? {
         initial: { opacity: 0, y: 20 },
         whileInView: { opacity: 1, y: 0 },
@@ -29,7 +35,7 @@ export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; 
       <motion.article
         key={vehicle.id}
         className="group bg-graphite border border-graphite hover:border-silver/20 overflow-hidden"
-        style={animateIn ? { willChange: "transform, opacity", backfaceVisibility: "hidden" } : undefined}
+        style={canAnimate ? { willChange: "transform, opacity", backfaceVisibility: "hidden" } : undefined}
         {...articleProps}
       >
         {/* Image - links to detail page */}

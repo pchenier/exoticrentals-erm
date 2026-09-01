@@ -1,13 +1,15 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
+import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
 
 /**
- * Scroll-reveal wrapper that disables itself on touch devices.
- * iOS Safari pauses requestAnimationFrame during momentum scroll, which makes
- * framer-motion whileInView animations freeze mid-way and "flash" to their final
- * position when scrolling stops. On touch devices we render static content instead.
+ * Scroll-reveal wrapper that is SAFE for SSR: children render fully visible
+ * in the server HTML. After mount, on desktop hover devices we enable the
+ * scroll-reveal animation. Touch devices and prefers-reduced-motion stay
+ * static (iOS Safari freezes rAF during momentum scroll which made
+ * whileInView reveals flash or stick at opacity:0).
  */
 export default function Reveal({
   children,
@@ -23,10 +25,14 @@ export default function Reveal({
   y?: number;
 }) {
   const prefersReducedMotion = useReducedMotion();
-  const isTouch = typeof window !== "undefined" && window.matchMedia("(hover: none)").matches;
-  const disabled = prefersReducedMotion || isTouch;
+  const [canAnimate, setCanAnimate] = useState(false);
 
-  if (disabled) {
+  useEffect(() => {
+    const isDesktopHover = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+    setCanAnimate(isDesktopHover && !prefersReducedMotion);
+  }, [prefersReducedMotion]);
+
+  if (!canAnimate) {
     return <div className={className}>{children}</div>;
   }
 
