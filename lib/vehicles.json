@@ -796,34 +796,26 @@
       "displayOrder": 20,
       "images": [
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_DSC6840-aZRtHL3Dc1DUKkgbkAuXCWbkKzdUSG.jpg",
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/3qXdYYmn-HEjPKaul8x-EFBqsnKv8ljXrFIvOQlloHv6Znfy83.jpg",
           "alt": "BMW M3 Competition",
-          "isMain": true,
-          "position": "48% 49%"
+          "isMain": true
         },
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_DSC3516-IehtmG5Qp9pSddMgoWLlilUqlrs5NN.jpg",
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/ChatGPT%20Image%201%20sept.%202026%2C%2001%20h%2018%20min%2052%20s-tQyy4CCxweX5I8WLpwxgXL6Zw6QejH.png",
           "alt": "BMW M3 Competition",
-          "isMain": false,
-          "position": "40% 44%"
+          "isMain": false
         },
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_76A3537-0HSj68bCms92g7KXzJW4UC3vAnJKDL.jpg",
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/m3list_1689192641_3145498319798048117_50014389707-XjmXit0iK4yOIzrs7q1vqGQfPhAbll.jpg",
           "alt": "BMW M3 Competition",
           "isMain": false,
-          "position": "51% 46%"
+          "position": "50% 100%"
         },
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_DSC6918-aVk4LuzuIPepq8jr8zTmi4JupYnDqv.jpg",
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/m3list_1689192641_3145498319806487958_50014389707-iz45SzQiBiATMRantmwEPeezbSNmoc.jpg",
           "alt": "BMW M3 Competition",
           "isMain": false,
-          "position": "50% 48%"
-        },
-        {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/_76A3527-cJs0jfNH1t0RrhE7bFZ1KFlfTChI5x.jpg",
-          "alt": "BMW M3 Competition",
-          "isMain": false,
-          "position": "32% 46%"
+          "position": "50% 70%"
         }
       ],
       "badges": [
