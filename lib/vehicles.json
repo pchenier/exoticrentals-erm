@@ -482,68 +482,6 @@
       ]
     },
     {
-      "id": "10",
-      "slug": "porsche-911-4s-techart",
-      "make": "Porsche",
-      "model": "911 4S TECHART",
-      "year": 2024,
-      "category": "PERFORMANCE",
-      "bodyStyle": "COUPE",
-      "tagline": "The icon, reimagined.",
-      "description": "TechArt aero, flat-six turbo screaming. Pure driving, zero compromise. The 911 perfected.",
-      "dailyRate": 999,
-      "weekendRate": 1099,
-      "weeklyRate": 999,
-      "securityDeposit": 8000,
-      "horsepower": 443,
-      "engine": "3.0L Flat-6 Biturbo",
-      "zeroToSixty": "3.2s",
-      "topSpeed": "190 mph",
-      "transmission": "PDK",
-      "drivetrain": "AWD",
-      "seats": 4,
-      "doors": 2,
-      "luggage": 2,
-      "convertible": false,
-      "available": true,
-      "featured": false,
-      "premierVerified": false,
-      "instantConfirm": true,
-      "displayOrder": 10,
-      "images": [
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368953926-op8bi5.jpeg",
-          "alt": "Porsche 911 4S TECHART",
-          "isMain": true,
-          "position": "50% 100%"
-        },
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368910188-dokzpj.jpeg",
-          "alt": "Porsche 911 4S TECHART",
-          "isMain": false,
-          "position": "50% 78%"
-        },
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368907398-bxdkfj.jpeg",
-          "alt": "Porsche 911 4S TECHART",
-          "isMain": false,
-          "position": "50% 76%"
-        },
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368830415-lqz2nl.jpeg",
-          "alt": "Porsche 911 4S TECHART",
-          "isMain": false
-        }
-      ],
-      "badges": [
-        {
-          "name": "verified",
-          "label": "Verified",
-          "icon": "shield-check"
-        }
-      ]
-    },
-    {
       "id": "11",
       "slug": "audi-r8-spyder",
       "make": "Audi",
