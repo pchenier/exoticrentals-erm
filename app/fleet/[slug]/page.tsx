@@ -1,4 +1,6 @@
 // @ts-nocheck
+import fs from "fs";
+import * as pathModule from "path";
 import { reviews } from "@/lib/data";
 import { getVehicleBySlug, getAllVehicles } from "@/lib/queries";
 import { notFound } from "next/navigation";
@@ -17,6 +19,17 @@ export const revalidate = 0;
 export const dynamic = "force-dynamic";
 
 interface Props { params: Promise<{ slug: string }>; }
+
+// Show the Hear This Car button whenever a sound file exists for this slug.
+// Survives admin saves that regenerate slugs (was a hardcoded list that broke).
+function hasSound(slug: string): boolean {
+  try {
+    const soundsDir = pathModule.join(process.cwd(), "public", "sounds");
+    return fs.existsSync(pathModule.join(soundsDir, `${slug}.mp3`));
+  } catch {
+    return false;
+  }
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -69,7 +82,7 @@ export default async function VehicleDetailPage({ params }: Props) {
 
               {vehicle.tagline && <p className="text-champagne font-display text-lg mb-4">{vehicle.tagline}</p>}
               {vehicle.description && <p className="text-silver leading-relaxed mb-6">{vehicle.description}</p>}
-              {(vehicle.slug === "audi-r8-spyder" || vehicle.slug === "bmw-m4-competition-kith" || vehicle.slug === "mclaren-600lt-spider" || vehicle.slug === "lamborghini-huracan-evo" || vehicle.slug === "lamborghini-huracan-evo-spyder" || vehicle.slug === "lamborghini-urus-performante" || vehicle.slug === "mercedes-glc63s") && (
+              {hasSound(vehicle.slug) && (
                 <div className="mb-8">
                   <HearCarButton slug={vehicle.slug} />
                 </div>
