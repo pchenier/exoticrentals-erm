@@ -612,6 +612,12 @@ Westmount, c'est le quartier par excellence. Les rues sont larges, les résidenc
 
 Notre parc de véhicules est impressionnant. Vous voulez une [Lamborghini Huracan EVO](/lamborghini-rental-montreal) ou une [McLaren 600LT](/mclaren-rental-montreal)? On les a. Une [Ferrari 488 GTB](/ferrari-rental-montreal) ou une [Porsche 911 4S Techart](/porsche-rental-montreal)? Aussi. Et si vous préférez un SUV, on a le Lamborghini Urus, le Mercedes G63 AMG, ou le BMW X5 M Competition. Chaque voiture est entretenue à la perfection, prête à prendre la route.
 
+## Combien Coûte une Location Voiture Exotique à Westmount?
+
+Les tarifs varient selon le modèle et la saison. Une BMW M3 Competition démarre autour de 350 dollars par jour, tandis qu'une Porsche 911 4S Techart se loue près de 700 dollars. Pour l'expérience exotique complète, une Lamborghini Huracan Tecnica commence à 1 500 dollars par jour, et une McLaren 600LT à 1 800 dollars. Pendant les mois d'été et le week-end du Grand Prix, les prix peuvent grimper de 20 à 30 pour cent, alors réservez tôt pour obtenir le meilleur tarif.
+
+Le dépôt de sécurité varie selon le véhicule, typiquement de 2 000 dollars pour une berline sport jusqu'à 10 000 dollars pour une supercar. Le dépôt est bloqué sur votre carte de crédit et entièrement libéré lorsque la voiture revient dans le même état. Une assurance complète est obligatoire, et nous pouvons vous aider à organiser la couverture si votre police ne couvre pas déjà les véhicules de location.
+
 ## Comment Réserver Votre Location Voiture Exotique Westmount?
 
 La réservation est simple. Appelez-nous au 438-809-4417 ou écrivez-nous sur WhatsApp au wa.me/14388094417. On vous confirme la disponibilité, on vous donne le prix exact, et on vous livre la voiture à l'endroit de votre choix, à Westmount ou ailleurs dans le Grand Montréal. On offre la livraison 24h/24, donc même si vous avez besoin de la voiture à 6h du matin, on est là.
@@ -628,9 +634,27 @@ On a aussi des berlines sportives comme l'Audi RS7, la BMW M5 Competition, et la
 
 Notre service de livraison est l'un des plus fiables à Montréal. On livre partout dans le Grand Montréal, que vous soyez à Westmount, à Outremont, à Mont-Royal, ou à Laval. On s'occupe de tout, vous n'avez qu'à profiter de la voiture. On offre aussi une assistance routière 24h/24, au cas où vous auriez un problème.
 
+## Où Rouler avec une Voiture Exotique à Westmount?
+
+Westmount est un point de départ parfait pour une belle balade. Descendez vers le boulevard René-Lévesque et longez le fleuve jusqu'au Vieux-Port, ou prenez la montée vers le mont Royal pour des vues spectaculaires. Les amateurs de virages apprécieront la route vers les Laurentides, accessible en trente minutes par l'autoroute 15. Pour une soirée chic, le quartier des affaires et le centre-ville sont à quelques minutes seulement.
+
 ## Pourquoi Nous Faire Confiance?
 
 Exotic Rentals Montreal, c'est une équipe de passionnés qui connaît Montréal sur le bout des doigts. On sait que Westmount est un quartier où l'image compte, et on vous offre des voitures impeccables, avec un service client irréprochable. Notre objectif est simple : vous faire vivre une expérience de conduite exceptionnelle, sans complication.
+
+## FAQ
+
+### Quel est l'âge minimum pour louer une voiture exotique à Westmount?
+
+L'âge minimum est de 25 ans pour la plupart de nos modèles, et de 21 ans pour certains comme l'Audi RS5 ou la BMW M3. La McLaren 600LT et la Ferrari 488 GTB exigent 25 ans, sans exception.
+
+### Livrez-vous vraiment partout dans le Grand Montréal?
+
+Oui, nous livrons 24h/24 et 7j/7 partout dans le Grand Montréal, y compris à Westmount, à l'aéroport YUL, à Laval et sur la Rive-Sud. La livraison est gratuite dans un rayon de 30 km du centre-ville.
+
+### Quel est le dépôt de sécurité?
+
+Le dépôt varie de 2 000 à 10 000 dollars selon le véhicule. Il est bloqué sur votre carte de crédit et libéré sous 48 à 72 heures après le retour, si aucun dommage n'est constaté.
 
 ## Prêt à Prendre le Volant?
 
