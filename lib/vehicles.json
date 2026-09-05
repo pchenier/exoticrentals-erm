@@ -1006,6 +1006,65 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "24",
+      "slug": "porsche-macan-gts",
+      "make": "Porsche",
+      "model": "Macan GTS",
+      "year": 2023,
+      "category": "PERFORMANCE",
+      "bodyStyle": "SUV",
+      "tagline": "The GTS sweet spot: 911 soul, everyday SUV.",
+      "description": "The Macan GTS is the driver's SUV. Sport exhaust standard, adaptive air suspension, and a 2.9L biturbo V6 that pulls like a 911. Daily driveable, weekend weapon.",
+      "dailyRate": 600,
+      "weekendRate": 700,
+      "weeklyRate": 550,
+      "securityDeposit": 3000,
+      "horsepower": 440,
+      "engine": "2.9L V6 Biturbo",
+      "zeroToSixty": "4.2s",
+      "topSpeed": "261 km/h",
+      "transmission": "PDK",
+      "drivetrain": "AWD",
+      "seats": 2,
+      "doors": 4,
+      "luggage": 1,
+      "convertible": false,
+      "available": true,
+      "featured": false,
+      "premierVerified": false,
+      "instantConfirm": true,
+      "displayOrder": 24,
+      "images": [
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/macan%20gts%20%284%29-NudjS13CjWkpLpS9f6Mtkz8fyultyd.webp",
+          "alt": "Porsche Macan GTS",
+          "isMain": true
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/macan%20gts%20%282%29-9QelJRof3NI84QPI0FMVXF0EunKAgo.webp",
+          "alt": "Porsche Macan GTS",
+          "isMain": false
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/macan%20gts-cnvSmJzbBCJdcllJepDkkk4g9K0NhZ.webp",
+          "alt": "Porsche Macan GTS",
+          "isMain": false
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/macan%20gts%20%281%29-Bc7RvKdHdKtUKcEa1EPcyjSL3SuHfL.webp",
+          "alt": "Porsche Macan GTS",
+          "isMain": false
+        }
+      ],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
