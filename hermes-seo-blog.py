@@ -174,7 +174,15 @@ Requirements:
     import urllib.request
 
     api_url = os.environ.get("OLLAMA_API_URL", "https://ollama.com/v1/chat/completions")
-    api_key = os.environ.get("OLLAMA_API_KEY", "bd39f0f08b934b58bf69b740267f4c9d.xzl7vzW6hqFKYFMJ4ItvVlMr")
+    api_key = os.environ.get("OLLAMA_API_KEY", "")
+    if not api_key:
+        # Fallback: read from ~/.hermes/.env
+        env_file = Path.home() / ".hermes" / ".env"
+        if env_file.exists():
+            for line in env_file.read_text().splitlines():
+                if line.startswith("OLLAMA_API_KEY="):
+                    api_key = line.split("=", 1)[1].strip()
+                    break
 
     # Retry up to 3 times if JSON parsing fails (GLM-5.1 sometimes outputs reasoning text)
     for attempt in range(1, 4):
