@@ -164,6 +164,58 @@ NEW_TOPICS = [
     {"kw": "location voiture exotique Montreal shooting photo", "title": "Location Voiture Exotique Montreal pour Shooting Photo", "model": None, "angle": "french"},
     {"kw": "louer Ferrari Montreal prix", "title": "Louer Ferrari Montreal: Prix et Options Disponibles", "model": None, "angle": "french"},
 
+    # ─── Batch 3: fleet comparisons ───
+    {"kw": "Lamborghini Huracan Tecnica vs McLaren 600LT rental Montreal", "title": "Lamborghini Huracan Tecnica vs McLaren 600LT: Which Supercar to Rent in Montreal", "model": "lamborghini-huracan-tecnica", "angle": "comparison"},
+    {"kw": "Lamborghini Urus vs BMW X6M rental Montreal", "title": "Lamborghini Urus vs BMW X6M Competition: Luxury SUV Rental Montreal", "model": "lamborghini-urus", "angle": "comparison"},
+    {"kw": "Audi RS7 vs Mercedes E63S rental Montreal", "title": "Audi RS7 vs Mercedes E63S AMG: Montreal's Sleeper Sedan Battle", "model": "audi-rs7", "angle": "comparison"},
+    {"kw": "Porsche Taycan vs Panamera rental Montreal", "title": "Porsche Taycan 4S vs Panamera GTS: Electric vs Gas Porsche in Montreal", "model": "porsche-taycan", "angle": "comparison"},
+    {"kw": "BMW M4 Competition vs Audi RS5 rental Montreal", "title": "BMW M4 Competition vs Audi RS5: Sport Coupe Rental Showdown in Montreal", "model": "bmw-m4", "angle": "comparison"},
+
+    # ─── Batch 3: commercial guides ───
+    {"kw": "exotic car rental near me Montreal", "title": "Exotic Car Rental Near Me in Montreal: Why Delivery Beats a Depot Pickup", "model": None, "angle": "guide"},
+    {"kw": "exotic car rental gift card Montreal", "title": "Exotic Car Rental Gift Cards Montreal: The Gift They Will Actually Use", "model": None, "angle": "occasion"},
+    {"kw": "luxury chauffeur service Montreal", "title": "Luxury Chauffeur Service Montreal: Exotic Cars With Professional Drivers", "model": None, "angle": "guide"},
+    {"kw": "exotic car rental Montreal under 25", "title": "Exotic Car Rental Under 25 in Montreal: Age Rules Explained", "model": None, "angle": "guide"},
+    {"kw": "affordable exotic car rental Montreal", "title": "Affordable Exotic Car Rental Montreal: The Best Value Cars in the Fleet", "model": None, "angle": "guide"},
+    {"kw": "exotic car rental Montreal monthly", "title": "Monthly Exotic Car Rental Montreal: Long-Term Supercar Rentals Explained", "model": None, "angle": "guide"},
+    {"kw": "exotic car rental Montreal foreign license", "title": "Renting an Exotic Car in Montreal With a Foreign Driver's License", "model": None, "angle": "guide"},
+    {"kw": "where to park exotic car Montreal", "title": "Where to Park an Exotic Car in Montreal: Valet, Garages and Safe Spots", "model": None, "angle": "guide"},
+    {"kw": "exotic car rental damage policy Montreal", "title": "Exotic Car Rental Damage Policy Montreal: What Happens if You Scratch It", "model": None, "angle": "guide"},
+    {"kw": "supercar rental pickup checklist", "title": "Supercar Pickup Checklist: Inspect Your Montreal Rental in 5 Minutes", "model": None, "angle": "guide"},
+    {"kw": "drive exotic rental car Montreal to USA", "title": "Can You Take an Exotic Rental From Montreal Into the United States?", "model": None, "angle": "guide"},
+    {"kw": "Quebec winter tire law car rental", "title": "Quebec's Winter Tire Law: What It Means for Exotic Car Rentals in Montreal", "model": None, "angle": "guide"},
+    {"kw": "rent a supercar before buying Montreal", "title": "Rent Before You Buy: Test Supercars in Montreal Before You Purchase", "model": None, "angle": "guide"},
+    {"kw": "limousine alternative Montreal", "title": "Skip the Limo: Why an Exotic Car Beats a Stretch Limousine in Montreal", "model": None, "angle": "comparison"},
+    {"kw": "sports car rental Montreal under 1000", "title": "Sports Car Rentals Under $1000 a Day in Montreal: Real Options", "model": None, "angle": "guide"},
+
+    # ─── Batch 3: experiences and occasions ───
+    {"kw": "drive a Lamborghini in Montreal", "title": "Drive a Lamborghini in Montreal: How to Make It Happen This Weekend", "model": "lamborghini-huracan-evo", "angle": "experience"},
+    {"kw": "drive a Ferrari in Montreal", "title": "Drive a Ferrari in Montreal: The 488 GTB Is Waiting", "model": None, "angle": "experience"},
+    {"kw": "Father's Day exotic car rental Montreal", "title": "Father's Day Exotic Car Rental Montreal: Give Dad the Keys", "model": None, "angle": "occasion"},
+    {"kw": "Mother's Day luxury car rental Montreal", "title": "Mother's Day Luxury Car Rental Montreal: Better Than Flowers", "model": None, "angle": "occasion"},
+    {"kw": "Canadiens game luxury car rental Montreal", "title": "Canadiens Game at the Bell Centre: Arrive in a Luxury Rental", "model": None, "angle": "occasion"},
+    {"kw": "luxury car rental Montreal festival season", "title": "Festival Season Luxury Car Rental Montreal: Jazz Fest, Osheaga and More", "model": None, "angle": "seasonal"},
+    {"kw": "content creator car rental Montreal", "title": "Content Creator Car Rental Montreal: Supercars for TikTok, Reels and YouTube", "model": None, "angle": "occasion"},
+    {"kw": "exotic car road trip Charlevoix", "title": "Montreal to Charlevoix in a Supercar: Quebec's Most Beautiful Drive", "model": None, "angle": "experience"},
+
+    # ─── Batch 3: French SEO ───
+    {"kw": "location BMW M3 Competition Montreal", "title": "Location BMW M3 Competition Montreal: La Berline Sportive Supreme", "model": "bmw-m3", "angle": "french"},
+    {"kw": "location voiture exotique Montreal Noel", "title": "Location Voiture Exotique Montreal pour Noel: Le Cadeau Qui Marque", "model": None, "angle": "french"},
+    {"kw": "meilleurs SUV de luxe a louer Montreal", "title": "Meilleurs SUV de Luxe a Louer a Montreal: Urus, X6M et Plus", "model": None, "angle": "french"},
+    {"kw": "permis de conduire location voiture exotique Montreal", "title": "Permis de Conduire et Location Voiture Exotique Montreal: Les Regles", "model": None, "angle": "french"},
+    {"kw": "location supercar Montreal jour de l'an", "title": "Location Supercar Montreal Jour de l'An: Commencez l'Annee en Style", "model": None, "angle": "french"},
+    {"kw": "location Lamborghini Huracan Tecnica Montreal", "title": "Location Lamborghini Huracan Tecnica Montreal: Le V10 a Son Sommet", "model": "lamborghini-huracan-tecnica", "angle": "french"},
+
+    # ─── Batch 3: locations ───
+    {"kw": "downtown Montreal exotic car rental", "title": "Downtown Montreal Exotic Car Rental: Supercars Delivered to the Core", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Outremont Montreal", "title": "Exotic Car Rental Outremont: Luxury Car Delivery in Montreal's Most Elegant Borough", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Pointe-Claire", "title": "Exotic Car Rental Pointe-Claire: West Island Luxury Car Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Saint-Lambert", "title": "Exotic Car Rental Saint-Lambert: South Shore Luxury Car Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Saint-Jerome", "title": "Exotic Car Rental Saint-Jerome: Luxury Cars in the Lower Laurentians", "model": None, "angle": "location"},
+    {"kw": "luxury car rental Sherbrooke", "title": "Luxury Car Rental Sherbrooke: Supercar Delivery in the Eastern Townships", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Trois-Rivieres", "title": "Exotic Car Rental Trois-Rivieres: Supercar Delivery Between Montreal and Quebec City", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Ottawa", "title": "Exotic Car Rental Ottawa: Montreal's Fleet Delivered to the Capital", "model": None, "angle": "location"},
+
 ]
 
 # ── Helper: Generate slug ───────────────────────────────────────────────────
@@ -240,7 +292,17 @@ Requirements:
     import urllib.request
 
     api_url = os.environ.get("OLLAMA_API_URL", "https://ollama.com/v1/chat/completions")
-    api_key = os.environ.get("OLLAMA_API_KEY", "bd39f0f08b934b58bf69b740267f4c9d.xzl7vzW6hqFKYFMJ4ItvVlMr")
+    api_key = os.environ.get("OLLAMA_API_KEY", "")
+    if not api_key:
+        # Fallback: read from ~/.hermes/.env
+        env_file = Path.home() / ".hermes" / ".env"
+        if env_file.exists():
+            for line in env_file.read_text().splitlines():
+                if line.startswith("OLLAMA_API_KEY="):
+                    api_key = line.split("=", 1)[1].strip()
+                    break
+    if not api_key:
+        api_key = "bd39f0f08b934b58bf69b740267f4c9d.xzl7vzW6hqFKYFMJ4ItvVlMr"
 
     payload = json.dumps({
         "model": "deepseek-v4-flash",
