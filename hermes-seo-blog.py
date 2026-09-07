@@ -37,7 +37,6 @@ TOPICS = [
     {"kw": "Lamborghini Urus rental Montreal", "title": "Lamborghini Urus Rental Montreal: The Super SUV That Rules the Road", "model": "lamborghini-urus", "angle": "review"},
     {"kw": "Mercedes E63S AMG rental Montreal", "title": "Mercedes E63S AMG Rental Montreal: Luxury Meets Raw Power", "model": "mercedes-e63s", "angle": "review"},
     {"kw": "Audi R8 V10 rental Montreal", "title": "Audi R8 V10 Rental Montreal: The Last Naturally Aspirated V10", "model": "audi-r8", "angle": "experience"},
-    {"kw": "BMW X6M Competition rental Montreal", "title": "BMW X6M Competition Rental Montreal: Aggressive SUV Performance", "model": "bmw-x6m", "angle": "review"},
     # Location specific
     {"kw": "exotic car rental Old Montreal", "title": "Exotic Car Rental Old Montreal: Supercars in the Historic Quarter", "model": None, "angle": "location"},
     {"kw": "exotic car rental Laval", "title": "Exotic Car Rental Laval: Supercars Delivered North of Montreal", "model": None, "angle": "location"},
@@ -55,7 +54,7 @@ TOPICS = [
     {"kw": "corporate luxury car rental Montreal", "title": "Corporate Exotic Car Rental Montreal: Impress Clients and Executives", "model": None, "angle": "occasion"},
     # Seasonal / general
     {"kw": "best exotic car rental Montreal 2026", "title": "Best Exotic Car Rental Montreal 2026: The Complete Guide", "model": None, "angle": "guide"},
-    {"kw": "luxury SUV rental Montreal exotic", "title": "Luxury SUV Rental Montreal: Urus, X6M, and More", "model": None, "angle": "guide"},
+    {"kw": "luxury SUV rental Montreal exotic", "title": "Luxury SUV Rental Montreal: Urus, G63, and More", "model": None, "angle": "guide"},
     {"kw": "how much does it cost to rent a Lamborghini in Montreal", "title": "How Much Does It Cost to Rent a Lamborghini in Montreal?", "model": None, "angle": "guide"},
     {"kw": "exotic car rental insurance Quebec", "title": "Exotic Car Rental Insurance Quebec: What You Need to Know", "model": None, "angle": "guide"},
     {"kw": "exotic car rental deposit Montreal", "title": "Exotic Car Rental Deposit Montreal: What to Expect", "model": None, "angle": "guide"},
@@ -102,10 +101,12 @@ def pick_topic(existing_slugs: set) -> dict:
     except Exception:
         pass
 
-    # All topics done — cycle with a date suffix
-    topic = TOPICS[len(existing_slugs) % len(TOPICS)]
-    topic = {**topic, "title": topic["title"].rstrip(" 2026") + f" ({datetime.now().year})"}
-    return topic
+    # All topics done — DO NOT publish a duplicate.
+    # A recycled topic with a date suffix creates near-duplicate content that
+    # Google flags as "Crawled - currently not indexed". Fail loudly so the
+    # Batch Refill cron (Sundays) gets triggered and we get alerted.
+    print("❌ All topics exhausted. Refill NEW_TOPICS in hermes-seo-blog-batch.py — no duplicate will be published.")
+    sys.exit(1)
 
 # ── Step 2: Get existing slugs ───────────────────────────────────────────────
 def get_existing_slugs() -> set:
@@ -134,7 +135,7 @@ Key facts to include naturally:
 - Security deposit varies by vehicle
 - Full insurance required
 
-Available vehicles: McLaren 600LT, Lamborghini Huracan Tecnica, Lamborghini Huracan EVO, Lamborghini Urus, Ferrari 488 GTB, Audi RS7, Audi RS6, Audi R8 V10, BMW M5 Competition, BMW M3 Competition, BMW X6M, Mercedes E63S AMG, Mercedes S63 AMG, Porsche 911 4S Techart, Porsche Panamera GTS, Audi RS5.
+Available vehicles: McLaren 600LT, Lamborghini Huracan Tecnica, Lamborghini Huracan EVO, Lamborghini Urus, Ferrari 488 GTB, Audi RS7, Audi RS6, Audi R8 V10, BMW M5 Competition, BMW M3 Competition, Mercedes E63S AMG, Mercedes S63 AMG, Porsche 911 4S Techart, Porsche Panamera GTS, Audi RS5.
 
 Output ONLY valid JSON with these exact keys:
 {

@@ -100,7 +100,7 @@ NEW_TOPICS = [
 
     # ─── French content (SEO bilingue) ───
     {"kw": "location Porsche 911 Techart Montreal", "title": "Location Porsche 911 Techart Montreal: Le Modifie Qui Fait la Difference", "model": "porsche-911", "angle": "french"},
-    {"kw": "location BMW X6M Competition Montreal", "title": "Location BMW X6M Competition Montreal: SUV Sportif Disponible", "model": "bmw-x6m", "angle": "french"},
+    {"kw": "location SUV de luxe Montreal", "title": "Location SUV de Luxe Montreal: Urus, G63 et Plus", "model": None, "angle": "french"},
     {"kw": "louer Mercedes S63 AMG Montreal", "title": "Louer Mercedes S63 AMG Montreal: Berline de Luxe et Performance", "model": "mercedes-s63", "angle": "french"},
     {"kw": "location Audi R8 Montreal prix", "title": "Location Audi R8 V10 Montreal: Prix, Specs et Reservation", "model": "audi-r8", "angle": "french"},
     {"kw": "location voiture exotique rive-sud Montreal", "title": "Location Voiture Exotique Rive-Sud Montreal: Livraison a Brossard et Longueuil", "model": None, "angle": "french"},
@@ -166,7 +166,7 @@ NEW_TOPICS = [
 
     # ─── Batch 3: fleet comparisons ───
     {"kw": "Lamborghini Huracan Tecnica vs McLaren 600LT rental Montreal", "title": "Lamborghini Huracan Tecnica vs McLaren 600LT: Which Supercar to Rent in Montreal", "model": "lamborghini-huracan-tecnica", "angle": "comparison"},
-    {"kw": "Lamborghini Urus vs BMW X6M rental Montreal", "title": "Lamborghini Urus vs BMW X6M Competition: Luxury SUV Rental Montreal", "model": "lamborghini-urus", "angle": "comparison"},
+    {"kw": "Lamborghini Urus vs Mercedes G63 rental Montreal", "title": "Lamborghini Urus vs Mercedes G63: Luxury SUV Rental Montreal", "model": "lamborghini-urus", "angle": "comparison"},
     {"kw": "Audi RS7 vs Mercedes E63S rental Montreal", "title": "Audi RS7 vs Mercedes E63S AMG: Montreal's Sleeper Sedan Battle", "model": "audi-rs7", "angle": "comparison"},
     {"kw": "Porsche Taycan vs Panamera rental Montreal", "title": "Porsche Taycan 4S vs Panamera GTS: Electric vs Gas Porsche in Montreal", "model": "porsche-taycan", "angle": "comparison"},
     {"kw": "BMW M4 Competition vs Audi RS5 rental Montreal", "title": "BMW M4 Competition vs Audi RS5: Sport Coupe Rental Showdown in Montreal", "model": "bmw-m4", "angle": "comparison"},
@@ -201,7 +201,7 @@ NEW_TOPICS = [
     # ─── Batch 3: French SEO ───
     {"kw": "location BMW M3 Competition Montreal", "title": "Location BMW M3 Competition Montreal: La Berline Sportive Supreme", "model": "bmw-m3", "angle": "french"},
     {"kw": "location voiture exotique Montreal Noel", "title": "Location Voiture Exotique Montreal pour Noel: Le Cadeau Qui Marque", "model": None, "angle": "french"},
-    {"kw": "meilleurs SUV de luxe a louer Montreal", "title": "Meilleurs SUV de Luxe a Louer a Montreal: Urus, X6M et Plus", "model": None, "angle": "french"},
+    {"kw": "meilleurs SUV de luxe a louer Montreal", "title": "Meilleurs SUV de Luxe a Louer a Montreal: Urus, G63 et Plus", "model": None, "angle": "french"},
     {"kw": "permis de conduire location voiture exotique Montreal", "title": "Permis de Conduire et Location Voiture Exotique Montreal: Les Regles", "model": None, "angle": "french"},
     {"kw": "location supercar Montreal jour de l'an", "title": "Location Supercar Montreal Jour de l'An: Commencez l'Annee en Style", "model": None, "angle": "french"},
     {"kw": "location Lamborghini Huracan Tecnica Montreal", "title": "Location Lamborghini Huracan Tecnica Montreal: Le V10 a Son Sommet", "model": "lamborghini-huracan-tecnica", "angle": "french"},
@@ -263,7 +263,7 @@ Key facts to include naturally:
 - Security deposit varies by vehicle
 - Full insurance required
 
-Available vehicles: McLaren 600LT, Lamborghini Huracan Tecnica, Lamborghini Huracan EVO, Lamborghini Urus, Ferrari 488 GTB, Audi RS7, Audi RS6, Audi R8 V10, BMW M5 Competition, BMW M3 Competition, BMW M4 Competition, BMW X6M, BMW X5 M Competition, Mercedes E63S AMG, Mercedes S63 AMG, Mercedes G63 AMG, Porsche 911 4S Techart, Porsche Panamera GTS, Porsche Macan GTS, Porsche Taycan 4S, Audi RS5, Audi RS6 Avant.
+Available vehicles: McLaren 600LT, Lamborghini Huracan Tecnica, Lamborghini Huracan EVO, Lamborghini Urus, Ferrari 488 GTB, Audi RS7, Audi RS6, Audi R8 V10, BMW M5 Competition, BMW M3 Competition, BMW M4 Competition, BMW X5 M Competition, Mercedes E63S AMG, Mercedes S63 AMG, Mercedes G63 AMG, Porsche 911 4S Techart, Porsche Panamera GTS, Porsche Macan GTS, Porsche Taycan 4S, Audi RS5, Audi RS6 Avant.
 
 Output ONLY valid JSON with these exact keys:
 {

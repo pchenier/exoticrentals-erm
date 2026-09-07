@@ -112,6 +112,46 @@ const nextConfig = {
         destination: '/blog',
         permanent: true,
       },
+      {
+        source: '/blog/ferrari-488-gtb-rental-montreal-italian-engineering-at-its-finest-2026',
+        destination: '/blog/ferrari-488-gtb-rental-montreal-italian-engineering-at-its-finest',
+        permanent: true,
+      },
+      {
+        source: '/blog/lamborghini-huracan-rental-montreal-v10-drama-on-every-street-2026',
+        destination: '/blog/lamborghini-huracan-rental-montreal-v10-drama-on-every-street',
+        permanent: true,
+      },
+      {
+        source: '/blog/location-ferrari-montreal-488-gtb-et-plus-2026',
+        destination: '/blog/location-ferrari-montreal-488-gtb-et-plus',
+        permanent: true,
+      },
+      {
+        source: '/blog/mclaren-600lt-rental-montreal-pure-supercar-adrenaline-2026',
+        destination: '/blog/mclaren-600lt-rental-montreal-pure-supercar-adrenaline',
+        permanent: true,
+      },
+      {
+        source: '/blog/meilleurs-suv-de-luxe-a-louer-a-montreal-urus-x6m-et-plus',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/lamborghini-urus-vs-bmw-x6m-competition-luxury-suv-rental-montreal',
+        destination: '/cars/lamborghini-urus-black-on-black',
+        permanent: true,
+      },
+      {
+        source: '/blog/location-bmw-x6m-competition-montreal-suv-sportif-disponible',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/luxury-suv-rental-montreal-urus-x6m-and-more',
+        destination: '/blog',
+        permanent: true,
+      },
     ];
   },
 };
