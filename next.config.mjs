@@ -207,6 +207,111 @@ const nextConfig = {
         destination: '/blog/supercar-rental-mont-tremblant-drive-a-ferrari-through-the-laurentians',
         permanent: true,
       },
+      {
+        source: '/blog/best-exotic-cars-to-rent-montreal-2025',
+        destination: '/blog/best-exotic-car-rental-montreal-2026-the-complete-guide',
+        permanent: true,
+      },
+      {
+        source: '/blog/lamborghini-urus-vs-mercedes-g63-montreal',
+        destination: '/cars/lamborghini-urus-black-on-black',
+        permanent: true,
+      },
+      {
+        source: '/blog/audi-rs6-avant-sleeper-sedan-montreal',
+        destination: '/blog/audi-rs6-avant-sleeper-montreal',
+        permanent: true,
+      },
+      {
+        source: '/blog/lamborghini-huracan-tecnica-photo-shoot-montreal',
+        destination: '/blog/photoshoot-car-rental-montreal-supercars-for-film-and-photo',
+        permanent: true,
+      },
+      {
+        source: '/blog/range-rover-sv-anniversary-montreal',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/mercedes-s63-amg-wedding-montreal',
+        destination: '/mercedes-rental-montreal',
+        permanent: true,
+      },
+      {
+        source: '/blog/mercedes-gt63s-bachelor-party-montreal',
+        destination: '/mercedes-rental-montreal',
+        permanent: true,
+      },
+      {
+        source: '/blog/bmw-m5-competition-rental-montreal-the-ultimate-performance-sedan',
+        destination: '/cars/bmw-m5-competition',
+        permanent: true,
+      },
+      {
+        source: '/blog/bmw-m3-competition-isle-man-green-bal-montreal',
+        destination: '/fleet/bmw-m3-competition',
+        permanent: true,
+      },
+      {
+        source: '/blog/mercedes-c43-amg-graduation-montreal',
+        destination: '/mercedes-rental-montreal',
+        permanent: true,
+      },
+      {
+        source: '/blog/bentley-flying-spur-old-montreal',
+        destination: '/fleet/bentley-bentayga',
+        permanent: true,
+      },
+      {
+        source: '/blog/bmw-x4m-competition-birthday-montreal',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/lamborghini-urus-rental-montreal-the-ultimate-luxury-suv-experience',
+        destination: '/cars/lamborghini-urus-black-on-black',
+        permanent: true,
+      },
+      {
+        source: '/blog/mercedes-e63s-amg-power-sedan-montreal',
+        destination: '/mercedes-rental-montreal',
+        permanent: true,
+      },
+      {
+        source: '/blog/jeep-grand-cherokee-srt-suv-groupe-montreal',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/bmw-x5m-competition-escapade-fin-semaine-montreal',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/mclaren-600lt-rental-montreal-supercar-thrills-on-quebec-roads',
+        destination: '/cars/mclaren-600lt',
+        permanent: true,
+      },
+      {
+        source: '/blog/bmw-x5m-competition-weekend-getaway-montreal',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/cars/mercedes-g63-amg',
+        destination: '/fleet/mercedes-g63-amg',
+        permanent: true,
+      },
+      {
+        source: '/cars/ferrari-488-gtb',
+        destination: '/ferrari-rental-montreal',
+        permanent: true,
+      },
+      {
+        source: '/fr',
+        destination: '/location-voiture-de-luxe-montreal',
+        permanent: true,
+      },
     ];
   },
 };
