@@ -9219,7 +9219,36 @@ Prêt à vivre l'expérience ? Envoyez-nous un message sur WhatsApp pour vérifi
     title: "Make Your Montreal Weekend Unforgettable with an Exotic Car Rental",
     date: '2026-04-29',
     description: "Discover why renting an exotic car for the weekend in Montreal is the ultimate experience — from the Plateau to the Laurentians.",
-    content: "Montreal weekends hit different when you're behind the wheel of something extraordinary. Whether it's a spontaneous Sunday drive up to the Laurentians, a Saturday night cruise through the Vieux-Port, or simply making every errand feel like an event — an exotic car rental turns a regular weekend into something you'll actually talk about.\n\n**Why a Weekend Rental Makes Sense**\n\nThe math is simple: split across two or three days, the cost per experience drops significantly. You get the full thrill — the sound, the stares, the feel — without the insurance, maintenance, and depreciation of ownership. Our weekend rates are available Friday through Sunday, and we deliver directly to your door.\n\n**What to Do with It**\n\nStart Friday night in the Vieux-Port. Park the McLaren or the G63 near the waterfront and let the city come to you. Saturday morning, hit the Mont-Royal loop early — the roads are empty and the light through the trees is something else. Saturday afternoon, blast up the A-15 toward Saint-Sauveur. Sunday, cruise through Westmount and NDG before the return.\n\n**The Fleet**\n\nOur weekend fleet includes the Audi RS5 (starting at $400/day), BMW M5 Competition ($499/day), Lamborghini Urus ($849/day), McLaren 600LT ($1,199/day), and more. Every vehicle is detailed, fueled, and ready at your requested time.\n\n**Booking**\n\nWhatsApp us at 438-809-4417 to check availability for your dates. Weekend slots book fast, especially in summer. We accept cash, crypto, e-transfer, and credit card. No hidden fees, no waiting rooms — just the keys and the road.",
+    content: `<p>Friday, 6 PM, downtown Montreal. The weekend starts the moment you fire up an engine that makes the valet at your restaurant do a double take. That is the whole point of an exotic car rental for the weekend: you are not buying a car, you are buying Friday night, Saturday morning, and Sunday afternoon.</p>
+
+<h2>Why Rent an Exotic Car for the Weekend in Montreal?</h2>
+<p>The math is simple. Split across two or three days, the cost per experience drops hard compared to a single day, and you skip everything that makes ownership a headache: insurance, maintenance, depreciation, winter storage. You get the sound, the stares, and the feel, then hand back the keys Sunday night with zero regrets. It is also the cheapest way to test a bucket list car before you even think about buying one, and the easiest upgrade to a birthday, an anniversary, a graduation, or a first date that needs to land. Nobody remembers the restaurant. Everybody remembers the car. Weekend rates run Friday through Monday morning, and we deliver the car directly to your door anywhere in Greater Montreal.</p>
+
+<h2>The Weekend Playbook</h2>
+<p>Start Friday night in the Old Port. Park near the waterfront, let the city come to you, and let dinner run long. Saturday morning, do the Mont-Royal loop early while the roads are still empty and the light cuts through the trees. Saturday afternoon, point the car up the A-15 toward Saint-Sauveur and let the Laurentians do their thing. Saturday night is Crescent Street or Old Montreal, wherever the night takes you, and the car becomes the best table you never had to wait for. Sunday, slow it down: brunch in Mile End, a cruise through Westmount and NDG, and a relaxed handback before the Sunday scaries hit. Three days, three completely different drives, one car.</p>
+
+<h2>What to Rent for a Montreal Weekend</h2>
+<ul>
+<li><strong>Audi RS5</strong> — from $400/day. The understated coupe that still turns every head on Crescent.</li>
+<li><strong>BMW M5 Competition</strong> — $599/day. 617 hp of sedan that eats the 40 for breakfast.</li>
+<li><strong>McLaren 600LT</strong> — $1,199/day. The weekend flex that no Instagram filter can fake.</li>
+<li><strong>Lamborghini Urus Black on Black</strong> — $1,200/day. 641 hp of SUV for the crew, the gear, and the Laurentians run.</li>
+<li><strong>Toyota Supra</strong> — $400/day. Stage 1 tuned, rear wheel drive, built for the twisties.</li>
+</ul>
+<p>Every vehicle is detailed, fueled, and ready at your requested time. Full insurance is required on all rentals, and delivery anywhere in Greater Montreal is included, 24/7.</p>
+
+<h2>How Weekend Booking Works</h2>
+<p>Text or WhatsApp us at 438-809-4417 with your dates and the car you want. We confirm within the hour, lock your slot, and deliver Friday at the time you choose. A security deposit applies per vehicle and is returned on safe handback. We accept cash, crypto, e-transfer, and credit card. No hidden fees, no waiting rooms — just the keys and the road.</p>
+
+<h2>FAQ</h2>
+<h3>What is the minimum rental period on weekends?</h3>
+<p>The minimum is one full day, 24 hours, but most weekend clients book Friday to Sunday for the best rate per day.</p>
+<h3>Can I drive the car to the Laurentians or Mont-Tremblant?</h3>
+<p>Yes. Unlimited kilometers within Quebec on most vehicles, so the A-15 run and Mont-Tremblant are all yours.</p>
+<h3>How fast do weekend slots book out?</h3>
+<p>Fast, especially June through September and race weekend. If you have dates in mind, lock them early.</p>
+
+<p>📲 <strong><a href="tel:+14388094417">438-809-4417</a></strong> · <a href="https://wa.me/14388094417">WhatsApp</a></p>`,
   },
   {
     slug: "louer-lamborghini-montreal",
