@@ -1,31 +1,21 @@
 import { MetadataRoute } from 'next'
 import { BLOG_POSTS } from '@/lib/blog-posts'
 import { LOCATIONS } from '@/lib/locations'
-import { vehicles } from '@/lib/data'
+import vehicleData from '@/lib/vehicles.json'
 
 const BASE_URL = 'https://www.exoticrentalsmontreal.com'
 
+// Only car pages that resolve against the live /api/fleet database.
+// /cars/[slug] matches slugify(car.name) from the fleet API — keep in sync.
 const CAR_SLUGS = [
   'audi-rs5',
   'audi-rs6',
   'audi-rs7',
   'audi-r8',
-  'bmw-m3-competition-isle-of-man-green',
   'bmw-m5-competition',
-  'bmw-x5-m-competition',
-  'mercedes-benz-e63s-amg',
-  'mercedes-benz-s63-amg',
-  'mercedes-g63-amg',
-  'ferrari-488-gtb',
-  'porsche-911-4s-techart',
   'lamborghini-urus-black-on-black',
-  'lamborghini-urus-blue-on-blue',
-  'lamborghini-urus-grey',
-  'lamborghini-huracan-tecnica',
-  'lamborghini-huracan-evo',
-  'lamborghini-huracan-evo-spyder',
-  'mclaren-570gt',
   'mclaren-600lt',
+  'toyota-supra',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -36,12 +26,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  const fleetPages: MetadataRoute.Sitemap = vehicles.map((vehicle) => ({
-    url: `${BASE_URL}/fleet/${vehicle.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }))
+  const fleetPages: MetadataRoute.Sitemap = vehicleData.vehicles
+    .filter((vehicle) => vehicle.available)
+    .map((vehicle) => ({
+      url: `${BASE_URL}/fleet/${vehicle.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    }))
 
   const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,

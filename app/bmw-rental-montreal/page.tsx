@@ -6,17 +6,17 @@ import FloatingWA from '@/components/FloatingWA'
 import { slugify } from '@/lib/slugify'
 
 export const metadata: Metadata = {
-  title: 'BMW Rental Montreal. M Series, X5M | Exotic Rentals Montreal',
+  title: 'BMW Rental Montreal. M Series | Exotic Rentals Montreal',
   description:
-    'Rent a BMW in Montreal from $399/day. M3 Competition, M5 Competition, X5M. Concierge delivery anywhere in Montreal. Book on WhatsApp.',
+    'Rent a BMW in Montreal from $399/day. M3 Competition, M5 Competition. Concierge delivery anywhere in Montreal. Book on WhatsApp.',
   keywords: 'bmw rental montreal, bmw m3 rental montreal, bmw m5 rental montreal, location bmw montreal',
   alternates: {
     canonical: 'https://www.exoticrentalsmontreal.com/bmw-rental-montreal',
   },
   openGraph: {
-    title: 'BMW Rental Montreal. M Series, X5M | Exotic Rentals Montreal',
+    title: 'BMW Rental Montreal. M Series | Exotic Rentals Montreal',
     description:
-      'Rent a BMW in Montreal from $399/day. M3 Competition, M5 Competition, X5M. Concierge delivery anywhere in Montreal. Book on WhatsApp.',
+      'Rent a BMW in Montreal from $399/day. M3 Competition, M5 Competition. Concierge delivery anywhere in Montreal. Book on WhatsApp.',
     url: 'https://www.exoticrentalsmontreal.com/bmw-rental-montreal',
     siteName: 'Exotic Rentals Montreal',
     type: 'website',
@@ -42,7 +42,7 @@ const serviceSchema = {
     telephone: '+14388094417',
   },
   areaServed: 'Montreal, QC, Canada',
-  description: 'Premium BMW rental service in Montreal with concierge delivery. M3 Competition, M5 Competition, X5M available.',
+  description: 'Premium BMW rental service in Montreal with concierge delivery. M3 Competition and M5 Competition available.',
   offers: {
     '@type': 'Offer',
     priceCurrency: 'CAD',
@@ -135,7 +135,7 @@ export default async function BMWRentalMontreal() {
               style={{ fontFamily: 'var(--font-inter)' }}
             >
               Experience the pinnacle of BMW M-series performance in Montreal. From the
-              legendary M3 Competition and M5 Competition to the commanding X5M,
+              legendary M3 Competition and M5 Competition,
               our BMW fleet delivers raw German power with concierge delivery anywhere in
               Montreal from $399 per day.
             </p>
@@ -198,7 +198,7 @@ export default async function BMWRentalMontreal() {
             <ul className="max-w-2xl mx-auto space-y-5">
               {[
                 'M3 Competition and M5 Competition available from $399 per day',
-                'X5M for those who need SUV power with supercar performance',
+                'Concierge delivery anywhere in Montreal',
                 'Concierge delivery anywhere in Montreal, Laval, and the South Shore',
                 'Available 24/7, 365 days a year. Book any time on WhatsApp.',
               ].map((feature) => (
@@ -224,7 +224,7 @@ export default async function BMWRentalMontreal() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {[
-                { step: '01', title: 'Choose Your BMW', desc: 'Select from our M3, M5, or X5M fleet.' },
+                { step: '01', title: 'Choose Your BMW', desc: 'Select from our M3 or M5 fleet.' },
                 { step: '02', title: 'Book on WhatsApp', desc: 'Message us your date and location. We confirm within the hour.' },
                 { step: '03', title: 'We Deliver to You', desc: 'Your BMW arrives freshly detailed at your address.' },
               ].map((item) => (

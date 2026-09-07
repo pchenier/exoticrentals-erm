@@ -152,6 +152,21 @@ const nextConfig = {
         destination: '/blog',
         permanent: true,
       },
+      {
+        source: '/blog/bmw-x5-m-competition-rental-montreal-family-suv-with-supercar-speed',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/bmw-x5m-weekend-famille-montreal',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/bmw-x5m-competition-family-performance-montreal',
+        destination: '/blog',
+        permanent: true,
+      },
     ];
   },
 };
