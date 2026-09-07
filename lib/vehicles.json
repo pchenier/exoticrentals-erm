@@ -265,62 +265,6 @@
       ]
     },
     {
-      "id": "7",
-      "slug": "mercedes-amg-g63-urban-kit",
-      "make": "Mercedes-AMG",
-      "model": "G63 Urban Kit",
-      "year": 2024,
-      "category": "LUXURY",
-      "bodyStyle": "SUV",
-      "tagline": "The G-Wagon, amplified.",
-      "description": "Urban Kit body kit turns Montreal's favorite SUV into a rolling statement. AMG power with iconic presence.",
-      "dailyRate": 1199,
-      "weekendRate": 1299,
-      "weeklyRate": 1099,
-      "securityDeposit": 5000,
-      "horsepower": 577,
-      "engine": "4.0L V8 Biturbo",
-      "zeroToSixty": "4.4s",
-      "topSpeed": "149 mph",
-      "transmission": "Automatic",
-      "drivetrain": "AWD",
-      "seats": 5,
-      "doors": 4,
-      "luggage": 4,
-      "convertible": false,
-      "available": true,
-      "featured": false,
-      "premierVerified": false,
-      "instantConfirm": true,
-      "displayOrder": 7,
-      "images": [
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368403548-pjzlcd.jpg",
-          "alt": "Mercedes-AMG G63 Urban Kit",
-          "isMain": true,
-          "position": "50% 62%"
-        },
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368406270-tj0a9h.jpg",
-          "alt": "Mercedes-AMG G63 Urban Kit",
-          "isMain": false,
-          "position": "50% 58%"
-        },
-        {
-          "url": "https://tnkb8phzp3j6euwn.public.blob.vercel-storage.com/vehicles/1785368408610-meeumj.jpg",
-          "alt": "Mercedes-AMG G63 Urban Kit",
-          "isMain": false
-        }
-      ],
-      "badges": [
-        {
-          "name": "verified",
-          "label": "Verified",
-          "icon": "shield-check"
-        }
-      ]
-    },
-    {
       "id": "8",
       "slug": "lamborghini-urus",
       "make": "Lamborghini",
