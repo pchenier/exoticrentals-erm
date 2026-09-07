@@ -109,18 +109,6 @@ const jsonLd = {
   "sameAs": [
     "https://www.instagram.com/exoticrentalsmontreal"
   ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Exotic Car Rentals",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Lamborghini Huracan Tecnica Rental" }, "price": "1599", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/lamborghini-huracan-tecnica" },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "McLaren 600LT Spider Rental" }, "price": "1999", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/mclaren-600lt-spider" },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Audi R8 Spyder Rental" }, "price": "1299", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/audi-r8-spyder" },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Porsche 911 4S TECHART Rental" }, "price": "999", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/porsche-911-4s-techart" },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Mercedes-AMG G63 Urban Kit Rental" }, "price": "1199", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/mercedes-amg-g63-urban-kit" },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Lamborghini Urus Performante Rental" }, "price": "1399", "priceCurrency": "CAD", "url": "https://www.exoticrentalsmontreal.com/fleet/lamborghini-urus-performante" },
-    ]
-  },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
