@@ -22,6 +22,44 @@ const DELETED_SLUGS = new Set([
   'bmw-x6m-nuit-montreal',
 ]);
 
+/**
+ * Convert blog post content to HTML for dangerouslySetInnerHTML.
+ * Handles both raw-HTML posts and markdown posts (## headings, lists,
+ * bold, links) written by the legacy and current generators.
+ * Paragraphs are explicitly wrapped in <p> so markdown posts don't
+ * render as one text wall.
+ */
+function markdownToHtml(content: string): string {
+  // Raw HTML posts (modern hand-written + thickener output) pass through
+  if (/<h2>|<h3>|<p>/.test(content)) {
+    return content
+      .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+      .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+      .replace(/^- (.+)$/gm, '<li>$1</li>')
+      .replace(/(<li>.*?<\/li>\n?)+/g, '<ul>$&</ul>')
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  }
+  // Markdown posts: convert, then wrap loose text blocks in <p>
+  const html = content
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/(<li>.*?<\/li>\n?)+/g, '<ul>$&</ul>')
+    .replace(/^(\d+)\. (.+)$/gm, '<li>$2</li>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  return html
+    .split(/\n{2,}/)
+    .map((block) => {
+      const trimmed = block.trim();
+      if (!trimmed) return '';
+      if (/^<(h2|h3|ul|ol|p|div|blockquote)/.test(trimmed)) return trimmed;
+      return `<p>${trimmed.replace(/\n/g, ' ')}</p>`;
+    })
+    .join('\n');
+}
+
 export async function generateStaticParams() {
   return BLOG_POSTS.map((post) => ({ slug: post.slug }));
 }
@@ -120,14 +158,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <div
             className="text-silver leading-relaxed space-y-4 [&_h2]:text-warm-white [&_h2]:font-display [&_h2]:text-xl [&_h2]:font-bold [&_h2]:mt-8 [&_h2]:mb-3 [&_h3]:text-warm-white [&_h3]:font-display [&_h3]:text-lg [&_h3]:font-semibold [&_h3]:mt-6 [&_h3]:mb-2 [&_strong]:text-warm-white [&_a]:text-champagne [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-1 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:space-y-1 [&_p]:mb-4"
             dangerouslySetInnerHTML={{
-              __html: post.content
-                .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-                .replace(/^### (.+)$/gm, '<h3>$1</h3>')
-                .replace(/^- (.+)$/gm, '<li>$1</li>')
-                .replace(/(<li>.*?<\/li>\n?)+/g, '<ul>$&</ul>')
-                .replace(/^(\d+)\. (.+)$/gm, '<li>$2</li>')
-                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>'),
+              __html: markdownToHtml(post.content),
             }}
           />
 

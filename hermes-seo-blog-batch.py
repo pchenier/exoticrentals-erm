@@ -18,6 +18,9 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+import hermes_blog_lib as bloglib
+
 # ── Config ──────────────────────────────────────────────────────────────────
 SITE = "exoticrentalsmontreal.com"
 PHONE = "438-809-4417"
@@ -53,7 +56,6 @@ NEW_TOPICS = [
     {"kw": "Porsche Panamera GTS rental Montreal", "title": "Porsche Panamera GTS Rental Montreal: Four-Door Grand Touring Perfection", "model": "porsche-panamera-gts", "angle": "review"},
     {"kw": "Audi RS5 rental Montreal", "title": "Audi RS5 Rental Montreal: Sharp Design Meets V6 Twin-Turbo Power", "model": "audi-rs5", "angle": "review"},
     {"kw": "Porsche Macan GTS rental Montreal", "title": "Porsche Macan GTS Rental Montreal: The Compact SUV That Drives Like a Sports Car", "model": "porsche-macan-gts", "angle": "review"},
-    {"kw": "BMW X5 M Competition rental Montreal", "title": "BMW X5 M Competition Rental Montreal: Family SUV With Supercar Speed", "model": "bmw-x5m", "angle": "review"},
 
     # ─── Seasonal / event ───
     {"kw": "exotic car rental Montreal F1 Grand Prix 2026", "title": "F1 Grand Prix Montreal 2026: Rent an Exotic Car for Race Weekend", "model": None, "angle": "occasion"},
@@ -302,7 +304,8 @@ Requirements:
                     api_key = line.split("=", 1)[1].strip()
                     break
     if not api_key:
-        api_key = "bd39f0f08b934b58bf69b740267f4c9d.xzl7vzW6hqFKYFMJ4ItvVlMr"
+        print("ERROR: OLLAMA_API_KEY not found")
+        return {}
 
     payload = json.dumps({
         "model": "deepseek-v4-flash",
@@ -439,6 +442,7 @@ def deploy() -> None:
 
     subprocess.run(["git", "add", "-A"], check=True)
     subprocess.run(["git", "commit", "-m", f"Blog: batch add {BATCH_COUNT} SEO posts"], check=True)
+    subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
     subprocess.run(["git", "push", "origin", "main"], check=True)
 
     result = subprocess.run(["vercel", "--prod"], capture_output=True, text=True, timeout=300)
@@ -489,9 +493,11 @@ def main():
     generated = []
     failed = 0
 
+    _ = bloglib.cached_whitelist()  # fetch sitemap once for the whole batch
+
     for i, (topic, slug) in enumerate(topics):
         print(f"\n[{i+1}/{len(topics)}] {topic['title'][:60]}...")
-        post = generate_post(topic)
+        post = bloglib.generate_post(topic, model=bloglib.BATCH_MODEL, fail_hard=False)
 
         if not post:
             print(f"  ❌ Failed, skipping")
@@ -499,7 +505,8 @@ def main():
             time.sleep(2)  # Rate limit
             continue
 
-        insert_post(slug, post["title"], post["description"], post["content"])
+        image = bloglib.pick_image(topic["title"] + " " + topic["kw"])
+        bloglib.insert_post(slug, post["title"], post["description"], post["content"], image=image)
         generated.append(slug)
         print(f"  ✅ Inserted: {slug}")
 
