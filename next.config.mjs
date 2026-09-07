@@ -167,6 +167,46 @@ const nextConfig = {
         destination: '/blog',
         permanent: true,
       },
+      {
+        source: '/blog/audi-rs6-avant-familiale-sleeper-montreal',
+        destination: '/blog/audi-rs6-avant-sleeper-montreal',
+        permanent: true,
+      },
+      {
+        source: '/blog/audi-rs7-sportback-black-nuit-montreal',
+        destination: '/blog/audi-rs7-sportback-rental-montreal-the-ultimate-sleeper-sedan',
+        permanent: true,
+      },
+      {
+        source: '/blog/luxury-car-rental-ahuntsic-north-montreal-supercar-delivery',
+        destination: '/locations/ahuntsic',
+        permanent: true,
+      },
+      {
+        source: '/blog/luxury-car-rental-griffintown-premium-cars-in-montreal-s-hottest-neighbourhood',
+        destination: '/locations/griffintown',
+        permanent: true,
+      },
+      {
+        source: '/blog/range-rover-sv-winter-drive-montreal',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/audi-rs7-rental-montreal-600hp-sleeper-sedan-for-the-discerning-driver',
+        destination: '/cars/audi-rs7',
+        permanent: true,
+      },
+      {
+        source: '/blog/luxury-car-rental-dorval-supercar-delivery-near-yul-airport',
+        destination: '/blog/exotic-car-rental-dorval-supercar-delivery-near-yul-airport',
+        permanent: true,
+      },
+      {
+        source: '/blog/luxury-car-rental-mont-tremblant-drive-a-supercar-through-the-laurentians',
+        destination: '/blog/supercar-rental-mont-tremblant-drive-a-ferrari-through-the-laurentians',
+        permanent: true,
+      },
     ];
   },
 };
