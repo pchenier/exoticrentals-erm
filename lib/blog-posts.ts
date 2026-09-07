@@ -599,7 +599,45 @@ The best dates go fast, especially weekends and summer nights. If you want the 4
     title: 'Drive a Lamborghini in Montreal: How to Make It Happen This Weekend',
     date: '2026-09-06',
     description: 'Want to drive a Lamborghini in Montreal? Here\'s how to rent a Huracan or Urus, the requirements, and the best routes. Call 438-809-4417 today.',
-    content: `If you've ever wanted to drive a Lamborghini in Montreal, you're not alone. ... (full content)`,
+    content: `Let's be real. Saying you want to drive a Lamborghini someday is easy. Making it happen this weekend takes one decision, and it is easier than you think. At Exotic Rentals Montreal we put Huracans and an Urus on the street every week, and most of our weekend bookings come from people who simply picked up the phone on a Wednesday. No membership. No waiting list. No six figure purchase. You book it, we deliver it, you drive it. Here is exactly how to make it happen before Saturday morning.
+
+## Pick Your Lamborghini
+
+We run three Lamborghinis, and each one scratches a different itch.
+
+The **Huracan Tecnica** is the pure one. A 5.2 liter naturally aspirated V10 sitting right behind your shoulders, around 620 horsepower, zero to 100 km/h in about three seconds, and a rear wheel drive chassis that rewards smooth hands. No turbos, no lag, just an engine that climbs all the way to 8,000 rpm and a gearbox that snaps off shifts like it is angry at time itself. If you want the classic Lamborghini experience, this is it.
+
+The **Huracan EVO** is the same legendary V10 with all wheel drive and a layer of technology quietly watching your back. It is the friendlier option if this is your first time behind the wheel of something this powerful. It gives you confidence earlier in the day and lets you lean on it a little more.
+
+The **Urus** is the wildcard. It is a Super SUV with 650 horsepower, four doors, and a real trunk. If your weekend involves passengers, luggage, or a run up to Tremblant, the Urus does everything the coupes cannot, and it still turns every head from Westmount to the Old Port.
+
+Not sure which one fits your weekend? Call us and tell us the plan. We will give you an honest answer, not an upsell.
+
+## What You Need to Qualify
+
+The requirements are simple and we keep them that way. You need a valid driver's license and a few years of real driving history. The minimum age is 25 for the Lamborghinis, and we do have select models in the fleet available to drivers aged 21 and up. The minimum rental is 24 hours, which is the right amount of time anyway. One evening in a Huracan is a tease. A full day lets you drive it in the morning, park it somewhere proud at lunch, and take it back out when the city lights come on.
+
+Full insurance is mandatory on every rental. If you have your own coverage that includes exotics, great. If not, we will walk you through the options and make sure you are properly protected before you turn a wheel. A security deposit is required and it varies by vehicle. It is a hold on your credit card, not a charge, and it is released after the car comes back in the same condition it left in.
+
+## How the Booking Actually Works
+
+This is the part people overthink. Here is the real process.
+
+First, you call us at (438) 809-4417 or message us on WhatsApp at [wa.me/14388094417](https://wa.me/14388094417). Tell us which car you want, which day, and where you want it delivered. We confirm availability on the spot and quote you the rate and the deposit with no surprises. Second, we send you the paperwork electronically. It takes about ten minutes to complete. Third, we deliver the car to your door.
+
+That is it. If you reach out by Thursday, you can absolutely be in a Lamborghini by Saturday morning. For summer weekends we recommend calling earlier because the calendar fills up fast, but last minute requests happen and we are good at those. We answer the phone 24 hours a day, 7 days a week.
+
+## Delivery and Handover
+
+You never have to come to us. We deliver anywhere in Greater Montreal: downtown, the Plateau, Westmount, Laval, Longueuil, the North Shore, the South Shore, and the airport. When we arrive, we spend fifteen minutes walking you through the car. The start sequence, the driving modes, the gearbox, and the launch control, including where it lives and what not to do with it on public roads. You get the full briefing, and our number stays in your pocket for the entire rental in case anything comes up.
+
+## Where to Drive It
+
+A Lamborghini in Montreal earns its keep in a few key spots. Old Montreal for the cobblestones and the cameras. Mount Royal for the view and the run back down. The bridges at sunset when the traffic clears and the St. Lawrence opens up underneath you. If you have the full day, point it north toward the Laurentians and give the V10 a long stretch of open road where it belongs. Then come back through the city at night, hand the keys to a valet, and let the front door handle the parking. That moment never gets old.
+
+## Make the Call
+
+The difference between the people who talk about it and the people who do it is one phone call. Call us at (438) 809-4417 or message us on WhatsApp at [wa.me/14388094417](https://wa.me/14388094417) and we will get you into a Lamborghini this weekend. You can also browse our [Lamborghini rental page](/lamborghini-rental-montreal), read the [FAQ](/faq), or [send us a message](/contact) if you prefer writing over calling. The car is fueled. The calendar is open. The only thing missing is your name on the booking.`,
   },
   {
     slug: 'sports-car-rentals-under-1000-a-day-in-montreal-real-options',
