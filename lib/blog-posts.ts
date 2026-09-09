@@ -8794,29 +8794,65 @@ La location d'une voiture de luxe à Laval n'a jamais été aussi simple. Choisi
     title: 'Exotic Car Rental in Old Montreal',
     date: '2026-05-31',
     description: 'Rent an exotic car delivered to Old Montreal. Lamborghini, McLaren, Porsche, and more from Exotic Rentals Montreal, delivered to your hotel or address in Old Montreal.',
-    content: `Old Montreal is one of the most visually stunning urban environments in North America. The cobblestone streets of Rue Saint-Paul, the soaring stone facades of Notre-Dame Basilica, the waterfront promenade along the Vieux-Port, and the constant hum of one of the city's most vibrant social scenes make Old Montreal a destination that rewards those who arrive in style. Exotic Rentals Montreal delivers its full fleet directly to any address in Old Montreal, making it easy to experience this extraordinary neighbourhood behind the wheel of an extraordinary car.
+    content: `Exotic car rental in Old Montreal starts at $650/day for the Porsche Panamera GTS, with the Lamborghini Huracan Tecnica at $1,599/day and the McLaren 600LT Spider at $1,999/day, and Exotic Rentals Montreal delivers the full fleet directly to your hotel, condo, or restaurant anywhere in the neighborhood, 24 hours a day. Old Montreal is one of the most visually stunning urban environments in North America, and it rewards those who arrive in style.
 
-## The Perfect Setting for an Exotic Car
+## Why Old Montreal Deserves an Exotic Car
 
-There is something uniquely compelling about the contrast between Old Montreal's centuries-old architecture and the clean lines of a modern supercar. A Lamborghini Huracán Tecnica parked on Rue de la Commune against the backdrop of the Saint Lawrence River is a photograph waiting to happen. A McLaren 600LT making its way along the waterfront as the sun sets over the river creates a moment that no other experience can replicate.
+The cobblestone streets of Rue Saint-Paul, the stone facades of Notre-Dame Basilica, and the waterfront promenade along the Vieux-Port make this neighborhood a destination in itself. There is something uniquely compelling about the contrast between architecture that is four centuries old and the clean lines of a modern supercar. A Lamborghini Huracan Tecnica parked on Rue de la Commune against the backdrop of the Saint Lawrence River is a photograph waiting to happen. A McLaren 600LT rolling along the waterfront at sunset creates a moment nothing else in the city can replicate.
 
-Old Montreal is a neighbourhood that is already charged with energy. On a warm evening in June or July, the terraces overflow, musicians fill the squares, and the streets come alive with tourists, locals, and visitors from around the world. Arriving in an exotic car adds another dimension to the evening. You become part of the spectacle rather than just an observer.
+The neighborhood is already charged with energy on a warm evening in June or July. The terraces overflow, musicians fill the squares, and the streets come alive with visitors from around the world. Arriving in an exotic car adds another dimension to the evening. You become part of the spectacle rather than just an observer.
 
-## Our Fleet Available in Old Montreal
+## Which Cars Are Available in Old Montreal?
 
-Exotic Rentals Montreal operates a carefully curated fleet of exotic and luxury vehicles, all available for delivery to Old Montreal. The Lamborghini Huracán Tecnica is one of our most requested vehicles in this neighbourhood. Its mid-engine layout, its naturally aspirated V10, and its race-inspired aerodynamics are perfectly matched to the narrow streets and tight corners of the old city. The sound it makes navigating through the Vieux-Port is genuinely unforgettable.
+The full fleet delivers to Old Montreal, and the favorites here are easy to predict. The Lamborghini Huracan Tecnica, $1,599/day, is our most requested car in this part of the city. Its 631 horsepower V10 sits right behind your shoulders, it covers zero to 100 km/h in 3.2 seconds, and the rear wheel drive chassis is perfectly matched to the narrow streets and tight corners of the old city. The Huracan EVO Spyder at $1,499/day adds an open roof, which is exactly what you want on a summer evening along the piers of the Old Port.
 
-For those who prefer a more discreet but equally powerful experience, the Porsche Panamera GTS offers 473 horsepower in a grand tourer that looks perfectly at home outside any of Old Montreal's finest restaurants. The Mercedes G63 AMG brings authority and unmistakable presence. The BMW M5 Competition offers a combination of power and refinement that suits both a business dinner and a late-night drive along the waterfront. And for the ultimate in open performance, the McLaren 600LT remains the benchmark in our fleet.
+The McLaren 600LT Spider, $1,999/day, is the sharpest machine in the fleet, with 592 horsepower and zero to 100 km/h in 2.8 seconds. If you need seats for the whole group, the Lamborghini Urus at $1,399/day brings 641 horsepower and room for five, while the Mercedes G63 AMG at $1,300/day delivers presence that no other SUV can match. The Audi R8 Spyder ($1,299/day, 602 horsepower), the Porsche Panamera GTS ($650/day, 473 horsepower), the Bentley Bentayga ($699/day), and the Mercedes-Maybach GLS 600 ($999/day) cover every other mood, from open air drama to discreet luxury. Browse the [complete fleet](/fleet) or the [Lamborghini rental page](/lamborghini-rental-montreal) for full specs and photos.
 
-## Delivery and Pickup in Old Montreal
+## How Much Does It Cost to Rent in Old Montreal?
 
-Exotic Rentals Montreal delivers directly to hotels, residences, and any other address in Old Montreal. Popular delivery locations include the Hotel William Gray, the Hôtel Nelligan, Le Germain Montréal, and private apartments throughout the neighbourhood. We bring the vehicle at your scheduled time, fully fuelled and detailed, and we can arrange pickup from the same or a different location at the end of your rental period.
+The minimum rental is 24 hours. A realistic day budget runs from $650/day for the Panamera GTS to $1,999/day for the McLaren, with the Huracan Tecnica at $1,599/day in between. Weekend rates run $50 to $200 higher per car, and weekly bookings drop the Tecnica to $1,499/day. Every rental includes 200 kilometers per day, which is plenty for the old city, a lap of downtown, and a sunset run along the river.
 
-The booking process is designed to be simple. Contact us via WhatsApp at +14388094417, let us know your dates and preferred vehicle, and we take care of the rest. Our team is available seven days a week and responds quickly. For weekend reservations, especially in the summer months, we recommend booking as early as possible, as availability for our most popular vehicles fills up fast.
+Book early for June. Grand Prix weekend fills the calendar weeks in advance, and summer Fridays and Saturdays go fast from May through September. A deposit holds your date, and the balance is settled before delivery.
 
-## Making Your Old Montreal Experience Unforgettable
+The security deposit is a hold on your credit card, not a charge. It ranges from $3,000 on the Panamera GTS to $10,000 on the Huracan Tecnica and the McLaren, and it is released after the car comes back in the same condition it left in.
 
-A visit to Old Montreal already offers some of the best experiences in Canada. Add an exotic car to that equation and the entire trip shifts to a different level. A morning drive along the waterfront, an afternoon exploring the historic streets, a dinner at Toqué or Joe Beef with a supercar waiting outside, this is what Exotic Rentals Montreal makes possible. Reach out today via WhatsApp at +14388094417 and let us put the perfect vehicle in your hands for your time in Old Montreal.`,
+## What Do You Need to Book?
+
+The requirements stay simple. A valid driver's license, a minimum age of 25 for most vehicles with select models available from 21, full insurance coverage, and the security deposit. If your personal policy does not cover exotics, we walk you through the options before you turn a wheel. The details, including mileage and cancellation terms, are all on the [FAQ page](/faq).
+
+## How Does Delivery Work in Old Montreal?
+
+We deliver to any address in the neighborhood: the Hotel William Gray, the Hôtel Nelligan, Le Germain Montréal, short term rentals on Rue de la Commune, and private residences throughout the old city. Delivery in Old Montreal is free, available 24 hours a day, seven days a week, and the car arrives fueled, detailed, and ready to drive. At handover we spend fifteen minutes walking you through the start sequence, the driving modes, and the gearbox, and our number stays in your pocket for the entire rental. Pickup happens wherever suits you at the end of the day, your hotel, a restaurant, or even the airport if you are flying out. The full service area is on the [Old Montreal locations page](/locations/old-montreal).
+
+## Where to Drive, Stop, and Photograph
+
+Early morning is when Old Montreal gives you its best light and its emptiest streets. Rue Saint-Paul and Place Jacques-Cartier are nearly deserted before 9 am, and the low sun on the stone facades is what photographers come here for. The signature shot is the waterfront along the Vieux-Port at sunset, with the river, the piers, and the observation wheel behind the car. Climb up to the Mount Royal lookout at midday for the skyline view, then come back down for dinner at Garde Manger or Club Chasse et Pêche with a Huracan parked out front. Hotel valets in the neighborhood handle exotics every night, and covered public garages just north of Rue Saint-Paul take the overnight worry out of the equation.
+
+## Book Your Car for Old Montreal
+
+A visit to Old Montreal already offers some of the best experiences in Canada. Add an exotic car and the entire trip shifts to a different level: a morning drive along the waterfront, an afternoon exploring the historic streets, a dinner with a supercar waiting outside. Call us at (438) 809-4417 or message us on WhatsApp at [wa.me/14388094417](https://wa.me/14388094417) and we will confirm availability, quote the rate and the deposit, and schedule free delivery anywhere in Old Montreal. You can also browse [McLaren rentals](/mclaren-rental-montreal) or [reach out through the contact page](/contact). Our team answers 24 hours a day, seven days a week.
+
+## FAQ
+
+### Can you deliver a supercar to my hotel in Old Montreal?
+
+Yes. We deliver to every hotel, condo, and private address in Old Montreal, 24 hours a day, free of charge. The car arrives fueled and detailed, and we walk you through everything at handover.
+
+### How much is the security deposit?
+
+It depends on the vehicle: $3,000 for the Porsche Panamera GTS, $5,000 for the Lamborghini Urus, and $10,000 for the Huracan Tecnica or the McLaren 600LT Spider. It is a hold on your credit card, not a charge, and it is released after the return inspection.
+
+### Is there a minimum rental period?
+
+Yes, the minimum is 24 hours. Every rental includes 200 kilometers per day, and extra kilometers can be arranged if you plan a longer run out of the city.
+
+### Do I need to be 25 to rent an exotic car in Old Montreal?
+
+The minimum age is 25 for most of the fleet, and select models are available to drivers aged 21 and up. A valid driver's license and full insurance are required in every case.
+
+### Can I rent the car for a photoshoot or a wedding?
+
+Absolutely. Old Montreal is the most requested backdrop in the city for photoshoots, proposals, and weddings. Tell us the plan and we deliver the car to the exact spot at the exact time.`,
   },
   {
     slug: 'bmw-rental-montreal-m-series',
