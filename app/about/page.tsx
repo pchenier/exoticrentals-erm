@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "About | Exotic Rentals Montreal",
   description: "Exotic Rentals Montreal is an independent, owner-operated exotic car rental house serving Greater Montreal.",
+  alternates: { canonical: 'https://www.exoticrentalsmontreal.com/about' },
 };
 
 export default function AboutPage() {

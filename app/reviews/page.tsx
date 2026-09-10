@@ -8,6 +8,7 @@ import { Star } from "lucide-react";
 export const metadata = {
   title: "Reviews | Exotic Rentals Montreal",
   description: "Read verified reviews from our clients. Every reservation is handled with the same attention to detail.",
+  alternates: { canonical: 'https://www.exoticrentalsmontreal.com/reviews' },
 };
 
 export default function ReviewsPage() {

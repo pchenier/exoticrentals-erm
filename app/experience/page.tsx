@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "The Experience | Exotic Rentals Montreal",
   description: "Your supercar, in four simple steps. Selection, reservation, pickup, the drive.",
+  alternates: { canonical: 'https://www.exoticrentalsmontreal.com/experience' },
 };
 
 export default function ExperiencePage() {

@@ -5,6 +5,7 @@ import { Mail, Phone } from "lucide-react";
 export const metadata = {
   title: "Contact | Exotic Rentals Montreal",
   description: "Get in touch with Exotic Rentals Montreal for reservations, press, or private inquiries.",
+  alternates: { canonical: 'https://www.exoticrentalsmontreal.com/contact' },
 };
 
 export default function ContactPage() {

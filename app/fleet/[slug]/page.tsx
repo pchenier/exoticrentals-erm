@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${vehicle.make} ${vehicle.model} Rental Montreal | Exotic Rentals Montreal`,
     description: `Rent the ${vehicle.year} ${vehicle.make} ${vehicle.model} in Montreal. ${vehicle.horsepower}HP, ${vehicle.engine}. Pick up at our Montreal location or arrange delivery by special request.`,
+    alternates: { canonical: `https://www.exoticrentalsmontreal.com/fleet/${slug}` },
   };
 }
 

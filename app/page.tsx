@@ -17,7 +17,9 @@ export async function generateMetadata({
   if (params.car) {
     return { robots: { index: false, follow: true } };
   }
-  return {};
+  return {
+    alternates: { canonical: 'https://www.exoticrentalsmontreal.com' },
+  };
 }
 
 export default async function HomePage() {

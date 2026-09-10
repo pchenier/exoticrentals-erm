@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/_next/static/', '/_next/image', '/api/'],
+        disallow: ['/_next/image', '/api/'],
       },
     ],
     sitemap: 'https://www.exoticrentalsmontreal.com/sitemap.xml',

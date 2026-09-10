@@ -44,9 +44,10 @@ export const metadata: Metadata = {
   ],
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "16x16", type: "image/x-icon" },
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/erm-logo.svg", type: "image/svg+xml" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: "/apple-touch-icon.png",
   },
@@ -74,7 +75,7 @@ export const metadata: Metadata = {
     images: ['https://www.exoticrentalsmontreal.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://www.exoticrentalsmontreal.com',
+    canonical: './',
   },
 };
 

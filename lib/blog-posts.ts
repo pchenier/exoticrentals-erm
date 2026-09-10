@@ -9,6 +9,87 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'lamborghini-huracan-evo-rental-montreal-v10-drama-on-every-street',
+    title: 'Lamborghini Huracan EVO Rental Montreal: V10 Drama on Every Street',
+    date: '2026-09-10',
+    description: 'Lamborghini Huracan EVO rental Montreal from $1,499/day. 610 hp, 0-100 in 3.3s. Read our hands-on review of the V10, pricing, and how to book.',
+    image: '/cars/huracan_evo1.jpg',
+    content: `A Lamborghini Huracan EVO rental in Montreal costs $1,499 per day for the coupe and $1,499 per day for the Spyder, with 610 hp and 0-100 km/h in 3.3 seconds, delivered anywhere in Greater Montreal. I have driven both versions on Saint-Laurent Boulevard, up Chemin Camilien-Houde, and along the Old Port, and the EVO is the most usable Lamborghini you can put on Quebec pavement. Here is the full review, pricing breakdown, and how to book.
+
+## How Much Does a Lamborghini Huracan EVO Rental in Montreal Cost?
+
+The Lamborghini Huracan EVO rents for $1,499/day at Exotic Rentals Montreal, and the EVO Spyder, the drop-top version, is also $1,499/day. Both carry the same 5.2L naturally aspirated V10, so you are choosing between a fixed roof or open air, not between performance levels.
+
+For context inside our [Lamborghini rental Montreal](/lamborghini-rental-montreal) lineup: the Huracan Tecnica sits above it at $1,599/day with 631 hp, and the Urus SUV sits below at $1,399/day. The EVO is the sweet spot. You get the full V10 experience, rear-wheel steering, and Lamborghini's LDVI vehicle dynamics system for $100 less than the Tecnica.
+
+A 24 hour minimum applies, and delivery to neighborhoods like [Old Montreal](/locations/old-montreal), [Griffintown](/locations/griffintown), or [Laval](/locations/laval) is available. Check [how it works](/how-it-works) for deposit and insurance details before booking.
+
+## What Is It Like to Drive the Huracan EVO in Montreal?
+
+The EVO is the rare supercar that behaves in the city and turns feral the second you floor it. In Strada mode, the 7 speed dual-clutch gearbox shifts early, the exhaust stays quiet-ish, and you can crawl down Sainte-Catherine without feeling like the car is fighting you. The 610 hp V10 makes 600 Nm of torque, and because it is naturally aspirated, the power builds linearly instead of hitting you with turbo lag.
+
+Push the drive mode selector to Sport or Corsa and the character flips completely. The exhaust opens up, downshifts come with hard rev-matched cracks, and 0-100 km/h takes 3.3 seconds. On the on-ramp to the A-15 or the long straight up Chemin Camilien-Houde, the EVO pulls with the kind of violence that makes your peripheral vision blur. Top speed is quoted above 325 km/h, which is irrelevant in Quebec, but the acceleration to highway speeds is not.
+
+The rear-wheel steering is the real Montreal trick. It tightens the turning circle at low speed, so parking in a Plateau garage or doing a U-turn on a narrow street is far less stressful than in an Aventador. It also steadies the car at high speed on the highway to the South Shore.
+
+## Coupe or Spyder: Which Huracan Should You Rent?
+
+The Huracan EVO coupe ($1,499/day, 610 hp, 0-100 in 3.3s) is the sharper tool. It is stiffer, slightly lighter, and the roof keeps the cabin calm enough to hear the V10 properly through the intake behind your head.
+
+The [Huracan EVO Spyder](/fleet/lamborghini-huracan-evo-spyder) ($1,499/day, 631 hp, 0-100 in 3.1s) is the one I recommend for a summer rental in Montreal. The soft top drops in 17 seconds at up to 50 km/h, and a July evening drive down René-Lévesque with the roof open, the V10 bouncing off the office towers, is the single best 30 minutes you can spend in a rental car in this city. The Spyder actually makes slightly more power and hits 100 km/h in 3.1 seconds versus the coupe's 3.3.
+
+Both are 10/10 cars. If your rental window includes rain in the forecast, take the [coupe](/fleet/lamborghini-huracan-evo). If it is clear and above 20 degrees, take the Spyder.
+
+## How Does the Huracan EVO Compare to Other Exotics in the Fleet?
+
+Against the [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) at $1,999/day, the EVO is more comfortable and easier to drive slowly, while the 600LT is more raw and 0.3 seconds faster to 100 km/h at 2.8 seconds. The McLaren is a track weapon with a license plate, the Huracan is a supercar you can actually live with for a full day.
+
+Against the [Audi R8 Spyder](/fleet/audi-r8-spyder) at $1,299/day, the two cars share the same V10 architecture. The R8 makes 602 hp and does 0-100 in 3.5 seconds for $200 less per day. The difference is theatre: the R8 is restrained and German, the Huracan is loud, angular, and impossible to ignore. If you want people to notice the car, the Lamborghini wins every time.
+
+If you need four seats or cargo space for a weekend in the Laurentians, the [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day with 641 hp is the practical sibling, doing 0-100 in 3.6 seconds with SUV usability.
+
+## Where Should You Drive a Huracan EVO in Montreal?
+
+Start downtown, then leave it. The best roads in the region are not in the city core.
+
+- Old Port and Old Montreal: slow speeds, maximum visual impact, best photo backdrop in the city.
+- Chemin Camilien-Houde through Mount Royal: real elevation changes, tight corners where the rear-wheel steering shines, and a view at the top.
+- The Laurentians via Route 117 or Chemin du Village: 45 to 60 minutes out, sweeping bends, elevation, and long straights where the V10 can breathe.
+- The South Shore loop through [Longueuil](/locations/longueuil) and [Brossard](/locations/brossard): wide arterial roads, good for opening the taps legally.
+
+Avoid Rue Sainte-Catherine at peak hours and construction season, which in Montreal is roughly April to November. Low front splitter clearance means parking curbs and steep garage ramps need care. We brief you on all of this at pickup.
+
+## What Do You Need to Book a Lamborghini Huracan EVO Rental in Montreal?
+
+You need a valid driver's license, a credit card for the security deposit, and to meet the age requirement, which our team confirms at booking since it varies by car. A 24 hour minimum rental applies, and delivery to your hotel, home, or office anywhere in Greater Montreal is standard.
+
+The full requirements, insurance options, and mileage terms are on our [FAQ](/faq) page. If you have specific questions about the EVO, call or message us directly through [contact](/contact), and check [reviews](/reviews) from customers who have taken the Huracan out already.
+
+## FAQ
+
+### How much does it cost to rent a Lamborghini Huracan EVO in Montreal?
+
+The Huracan EVO coupe costs $1,499/day and the EVO Spyder also costs $1,499/day, with a 24 hour minimum rental period. Delivery anywhere in Greater Montreal is included in the booking process.
+
+### How fast is the Lamborghini Huracan EVO?
+
+The EVO makes 610 hp from its 5.2L naturally aspirated V10 and accelerates from 0-100 km/h in 3.3 seconds. The Spyder version makes 631 hp and does the same sprint in 3.1 seconds.
+
+### Is the Huracan EVO hard to drive in the city?
+
+No, it is one of the easiest supercars to drive slowly thanks to its Strada mode, dual-clutch gearbox, and rear-wheel steering that tightens low-speed maneuvering. It becomes aggressive only when you select Sport or Corsa mode.
+
+### What is the difference between the Huracan EVO and the Huracan Tecnica?
+
+The Tecnica costs $1,599/day and makes 631 hp with 0-100 km/h in 3.2 seconds, while the EVO costs $1,499/day with 610 hp and 3.3 seconds. The Tecnica is rear-drive only and more track-focused, the EVO is all-wheel drive and more versatile.
+
+### Can the Lamborghini Huracan EVO be delivered to my hotel in Montreal?
+
+Yes, delivery to hotels, residences, and offices anywhere in Greater Montreal, Laval, and the South Shore is available. Book at least a few days ahead in summer, since the Huracan is one of the most requested cars in the fleet.
+
+To book the Huracan EVO for your dates, call 438-809-4417 or message us on WhatsApp at https://wa.me/14388094417 and we will confirm availability and delivery in minutes.`,
+  },
+  {
     slug: 'lamborghini-huracan-tecnica-rental-montreal-the-v10-at-its-peak',
     title: 'Lamborghini Huracan Tecnica Rental Montreal: The V10 at Its Peak',
     date: '2026-09-09',
