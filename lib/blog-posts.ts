@@ -9,6 +9,73 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'mercedes-maybach-s680-rental-montreal-the-virgil-abloh-edition',
+    title: 'Mercedes-Maybach S680 Rental Montreal: The Virgil Abloh Edition',
+    date: '2026-09-11',
+    description: 'Maybach rental Montreal: the Mercedes-Maybach S680 by Virgil Abloh costs $2,399/day, 621 hp, 0-100 in 4.4s. Review of the rarest luxury sedan you can rent in Montreal.',
+    content: `A Maybach rental in Montreal costs $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh, a 621 hp limited-edition luxury sedan that hits 100 km/h in 4.4 seconds, delivered anywhere in Greater Montreal. It is the most expensive car in our fleet and one of the rarest Maybachs ever built, with only 150 units produced worldwide. I have spent real seat time in this car on Montreal streets, and this review covers what it is actually like to rent and drive it.
+
+## How Much Does a Maybach Rental in Montreal Cost?
+
+The Mercedes-Maybach S680 by Virgil Abloh rents for $2,399/day, which is the top of our price range and reflects how rare the car is. Mercedes built just 150 examples of this edition globally, and the ones that trade hands privately sell for well north of half a million dollars. At $2,399/day you are paying for exclusivity that no other rental in the city can match.
+
+For comparison, the next step down in our ultra-luxury lineup is the Mercedes-Maybach GLS 600 at $999/day, a 550 hp SUV with the same rear-seat focus but a completely different character. If your budget is closer to $1,300/day, the Mercedes G63 AMG gives you 500 hp and street presence, but it is not a Maybach. The S680 sits alone at the top, and nothing else in Montreal comes close to it.
+
+## What Makes the Virgil Abloh Edition Different From a Regular S680?
+
+The Virgil Abloh edition is a collaboration between Mercedes-Maybach and the late designer Virgil Abloh, the founder of Off-White and former artistic director at Louis Vuitton. Mercedes took the standard S680, which is already one of the most opulent sedans on the planet, and gave it a two-tone sand and black paint scheme, bespoke 24-inch wheels, and a redesigned rear with a champagne-colored finish that Mercedes calls a rolling piece of art. Only 150 were made, and most went to collectors who never drive them.
+
+Inside, you get the same 621 hp twin-turbo V12 as the standard car, but with unique touches throughout: special logo projections, Virgil Abloh branded champagne flutes, a bespoke interior with sand-colored nappa leather, and Maybach logos embroidered in places the regular car does not have them. It is the kind of car that gets photographed at every red light on Sherbrooke, and people who know cars will recognize exactly what it is.
+
+## How Does the S680 Drive on Montreal Roads?
+
+The S680 is a 621 hp V12 luxury sedan that does 0-100 km/h in 4.4 seconds, which is genuinely fast for a car that weighs over 2,400 kg. But speed is not the point here. The car is engineered to isolate you from the road completely: the air suspension erases potholes on Saint-Laurent Boulevard, the cabin is near silent at 120 km/h on the 40, and the rear seats recline like first-class airplane seats if you choose to be driven instead of drive.
+
+I drove it from Old Montreal up through Westmount and along the plateau, and the car shrinks around you at city speeds despite its size. The steering is light, the 4MATIC all-wheel drive handles wet pavement without drama, and the V12 delivers power in a smooth wave rather than a punch. If you want a raw driving experience, rent the [Lamborghini Huracan Tecnica](/fleet/lamborghini-huracan-tecnica) at $1,599/day instead. The S680 is about arriving, not attacking corners.
+
+## Who Is This Car For?
+
+The S680 by Virgil Abloh is for three kinds of renters in Montreal. First, anyone who needs a statement car for a wedding, a gala, a music video, or a corporate event where the car itself is part of the story. Second, collectors and car enthusiasts who want to experience a limited edition they will likely never own, since 150 units means most people will never even see one in person. Third, executives or visitors who want the most comfortable possible way to move through the city, whether in the driver seat or the rear.
+
+If you are planning a wedding party, pairing the S680 with the [Bentley Bentayga](/fleet/bentley-bentayga) at $699/day or the [Cadillac Escalade](/fleet/cadillac-escalade) at $599/day for the rest of the bridal party is a common setup. The S680 carries the couple, the others follow in style, and the photos look like a magazine spread.
+
+## What Are the Requirements to Rent the Maybach S680?
+
+Because this is the flagship of the fleet, requirements are stricter than for our standard cars. You need to be at least 25 years old with a valid driver's license, and the security deposit is higher than our entry-level cars like the [Toyota GR Supra](/cars/toyota-supra) at $400/day. Full insurance coverage is required, and we walk you through the exact deposit and coverage details before you sign anything.
+
+Delivery is available anywhere in Greater Montreal, including Laval, Longueuil, and the West Island, and we can also arrange delivery to surrounding areas. The minimum rental period is 24 hours, and weekend bookings for this car should be made well in advance because there is exactly one of them and demand is concentrated on Saturdays. You can see the full process on our [how it works](/how-it-works) page.
+
+## Maybach Rental Montreal: Is the S680 Worth $2,399/day?
+
+Honest answer: if you measure cars by performance per dollar, no. The [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) at $1,999/day does 0-100 km/h in 2.8 seconds and will thrill you in ways the S680 never attempts. But that comparison misses the point entirely.
+
+The S680 by Virgil Abloh is worth $2,399/day if what you want is rarity and presence. There are McLaren 600LTs in most major cities. There are maybe a handful of Virgil Abloh S680s in all of Canada, and this is the one you can rent in Montreal. For a wedding entrance, a brand launch, a music video, or simply a day of experiencing what a $500,000 limited edition feels like from the inside, the price is easy to justify. Check our [reviews](/reviews) to see what past clients said about their rentals.
+
+## FAQ
+
+### How much does it cost to rent a Maybach in Montreal?
+
+The Mercedes-Maybach S680 by Virgil Abloh costs $2,399/day, making it the most expensive rental in Montreal's exotic car market. The Mercedes-Maybach GLS 600, the SUV alternative, rents for $999/day. Both include delivery anywhere in Greater Montreal.
+
+### How fast is the Mercedes-Maybach S680?
+
+The S680 produces 621 hp from its twin-turbo V12 and accelerates from 0 to 100 km/h in 4.4 seconds. Those are serious numbers for a sedan that weighs over 2,400 kg. The car prioritizes comfort and silence over outright aggression.
+
+### How many Virgil Abloh Maybachs were made?
+
+Mercedes built only 150 units of the S680 by Virgil Abloh worldwide. Most are held by collectors and rarely driven. Renting the one in Montreal is likely the only way most people will ever sit in one.
+
+### Can the Maybach S680 be delivered to my location?
+
+Yes, delivery is available anywhere in Greater Montreal, including Laval, Longueuil, Brossard, and the West Island. Delivery to surrounding regions can also be arranged. The minimum rental period is 24 hours.
+
+### What do I need to rent the Maybach S680?
+
+You need to be at least 25 years old with a valid driver's license, plus full insurance coverage and a security deposit that is higher than our standard fleet cars. Our team confirms all requirements with you before booking. Details are on our [FAQ](/faq) page.
+
+To book the Mercedes-Maybach S680 by Virgil Abloh, call us at [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm availability for your dates on the spot.`,
+  },
+  {
     slug: 'lamborghini-huracan-evo-rental-montreal-v10-drama-on-every-street',
     title: 'Lamborghini Huracan EVO Rental Montreal: V10 Drama on Every Street',
     date: '2026-09-10',
