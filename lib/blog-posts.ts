@@ -9192,32 +9192,79 @@ Exotic Rentals Montreal is proud to offer these vehicles as part of a fleet that
     slug: 'location-lamborghini-montreal',
     title: 'Louer une Lamborghini à Montréal',
     date: '2026-05-29',
-    description: 'Louez une Lamborghini à Montréal. Urus, Huracán EVO, Tecnica disponibles chez Exotic Rentals Montreal avec livraison à domicile. Prix par jour sur WhatsApp.',
-    content: `Lamborghini est la marque de supercar la plus reconnue au monde. Ce triangle jaune sur fond noir représente cinquante ans d'excès calculé, de design extrême, et de performances qui défient ce que l'on croit possible sur une route publique. À Montréal, Exotic Rentals Montreal met cette expérience à votre portée avec une flotte Lamborghini complète et un service de livraison direct à votre adresse. Urus, Huracán EVO, Huracán Tecnica, chaque modèle est disponible à la location avec une disponibilité variable selon la saison.
+    description: 'Louer une Lamborghini à Montréal : Urus à 1 399 $, Huracán EVO et Spyder à 1 499 $, Tecnica à 1 599 $ par jour. Livraison partout dans le Grand Montréal, guide complet des prix et réservation.',
+    content: `Louer une Lamborghini à Montréal coûte entre 1 399 $ et 1 599 $ par jour selon le modèle : l'Urus se loue 1 399 $ par jour, la Huracán EVO et la Huracán EVO Spyder se louent 1 499 $ par jour, et la Huracán Tecnica culmine à 1 599 $ par jour, livraison incluse partout dans le Grand Montréal. Lamborghini est la marque de supercar la plus reconnue au monde, et ce triangle jaune sur fond noir représente plus de cinquante ans d'excès calculé, de design extrême et de performances qui défient ce que l'on croit possible sur une route publique. Chez Exotic Rentals Montreal, nous mettons quatre Lamborghini à votre portée, du Super SUV familial au V10 pur et dur, avec un service de livraison direct à votre adresse, 24 heures sur 24. Voici le guide complet : les modèles, les prix exacts, les conditions et les meilleures routes de la région.
 
-## Les Modèles Lamborghini Disponibles à Montréal
+## La Flotte Lamborghini Disponible à Montréal
 
-**L'Urus** est le SUV le plus vendu de l'histoire de Lamborghini. Motorisé par un V8 biturbo de 4,0 litres développant 650 chevaux, il abat le 0 à 100 en 3,6 secondes tout en offrant cinq places et un coffre utilisable. C'est la Lamborghini de tous les jours, celle que l'on peut conduire à l'épicerie le matin et sur l'autoroute 15 vers les Laurentides l'après-midi. Sa silhouette haute et musclée, ses sorties d'échappement sport et ses flancs sculptés en font l'un des véhicules les plus photographiés sur les routes de Montréal.
+**L'Urus** est le SUV le plus vendu de l'histoire de Lamborghini et le véhicule le plus polyvalent de notre flotte. Motorisé par un V8 biturbo de 4,0 litres développant 641 chevaux et 850 Nm de couple, il abat le zéro à 100 km/h en 3,6 secondes tout en offrant cinq places, un coffre utilisable et la traction intégrale. C'est la Lamborghini de tous les jours, celle que l'on peut conduire à l'épicerie le matin et sur l'autoroute 15 vers les Laurentides l'après midi. Sa silhouette haute et musclée et ses flancs sculptés en font l'un des véhicules les plus photographiés sur les routes de Montréal. La [fiche complète de l'Urus](/fleet/lamborghini-urus) détaille la disponibilité en temps réel.
 
-**La Huracán EVO** incarne le supercar Lamborghini dans sa forme la plus accessible. Avec son V10 atmosphérique de 5,2 litres et ses 640 chevaux en version EVO, elle offre une expérience de conduite complète en propulsion arrière ou en traction intégrale selon la version choisie. L'EVO est une Lamborghini qui récompense à la fois le conducteur novice en supercar et le pilote expérimenté.
+**La Huracán EVO** incarne la supercar Lamborghini dans sa forme la plus accessible. Avec son V10 atmosphérique de 5,2 litres et ses 610 chevaux, elle abat le zéro à 100 km/h en 3,3 secondes. La traction intégrale et la direction des roues arrière la rendent étonnamment facile à conduire en ville, et elle récompense à la fois le conducteur novice en supercar et le pilote expérimenté. Toute la mécanique est décrite sur la [page de la Huracán EVO](/fleet/lamborghini-huracan-evo).
 
-**La Huracán Tecnica** est la version la plus radicale de la gamme Huracán pour la route. Propulsion arrière exclusive, suspension et réglages recalibrés, aérodynamique optimisée avec un aileron arrière actif, et le même V10 de 640 chevaux avec une cartographie spécifique Tecnica. C'est la Lamborghini pour ceux qui savent vraiment conduire et qui veulent être récompensés pour chaque entrée de virage.
+**La Huracán EVO Spyder** offre exactement la même mécanique V10, mais avec le ciel ouvert. Le toit souple se replie en 17 secondes, jusqu'à 50 km/h en roulant, et un soir d'été dans les rues du centre ville, toit baissé, le V10 qui rebondit sur les tours de verre, vous comprenez immédiatement pourquoi la Spyder est notre Lamborghini la plus demandée de juin à septembre.
 
-## Le Prix de Location d'une Lamborghini à Montréal
+**La Huracán Tecnica** est la version la plus radicale de la gamme pour la route. Propulsion arrière exclusive, châssis recalibré, aérodynamique optimisée, et le V10 de 631 chevaux qui monte à 8 500 tr/min. Le zéro à 100 km/h tombe en 3,2 secondes. C'est la Lamborghini pour ceux qui savent vraiment conduire et qui veulent être récompensés à chaque entrée de virage.
 
-Les tarifs chez Exotic Rentals Montreal varient selon le modèle et la période. Pour obtenir le prix par jour le plus récent pour l'Urus, la Huracán EVO ou la Tecnica, contactez-nous directement sur WhatsApp au +14388094417. Nous vous confirmons la disponibilité et le tarif en vigueur dans les plus brefs délais. Les disponibilités en été sont limitées et les week-ends du Grand Prix et de la Fête Nationale partent en premier.
+## Combien Coûte une Location Lamborghini à Montréal?
 
-Le tarif inclut la livraison sur l'île de Montréal et à Laval. Pour les livraisons sur la Rive-Sud, à Brossard ou à Longueuil, un supplément peut s'appliquer selon la distance. Toutes nos voitures sont livrées avec le plein fait, lavées et vérifiées mécaniquement. Il n'y a aucuns frais cachés.
+Voici les tarifs en vigueur chez Exotic Rentals Montreal, minimum 24 heures :
+
+- Urus : 1 399 $ par jour
+- Huracán EVO : 1 499 $ par jour
+- Huracán EVO Spyder : 1 499 $ par jour
+- Huracán Tecnica : 1 599 $ par jour
+
+Chaque tarif inclut la livraison partout dans le Grand Montréal, de Laval à Longueuil jusqu'à l'Ouest de l'île, le plein fait à la livraison et un véhicule lavé et vérifié mécaniquement. Pas de frais cachés : le prix qu'on vous cite est le prix que vous payez. L'allocation standard est de 200 km par jour, ce qui couvre confortablement une journée complète en ville plus une montée dans les Laurentides et le retour. Pour un itinéraire plus ambitieux, mentionnez vos besoins kilométriques au moment de la réservation et on les intègre au devis.
+
+Le dépôt de sécurité varie entre 5 000 $ et 15 000 $ selon le modèle. C'est une préautorisation bloquée sur votre carte de crédit, pas un frais : le montant est libéré sous 48 à 72 heures après la restitution du véhicule en bon état. Les cartes de débit ne sont pas acceptées pour le dépôt.
+
+Les disponibilités en été sont limitées et les week ends du Grand Prix et de la fête nationale partent en premier. Pour ces dates, réservez plusieurs semaines à l'avance.
+
+## Les Exigences pour Louer une Lamborghini à Montréal
+
+Les conditions sont les suivantes : 25 ans minimum pour tous les modèles Lamborghini, permis de conduire valide détenu depuis au moins deux ans, couverture d'assurance complète pour un véhicule de haute valeur, et une carte de crédit majeure au nom du conducteur pour le dépôt de sécurité.
+
+La majorité des polices personnelles au Québec ne couvrent pas les locations de véhicules exotiques. Si c'est votre cas, nous offrons une assurance complémentaire sur place, et notre équipe vous explique exactement ce qui est couvert avant que vous signiez quoi que ce soit. Tous les détails se trouvent sur notre page [FAQ](/faq).
+
+## Quelle Lamborghini Choisir pour Votre Location?
+
+Le choix dépend de ce que vous voulez faire. Pour un groupe, une famille ou une escapade dans les Laurentides, l'Urus est la réponse : cinq places, coffre réel et traction intégrale en toute saison. Pour un premier contact avec une supercar, la Huracán EVO est la plus confiante grâce à sa traction intégrale. Pour un soir d'été en ville ou une arrivée de mariage spectaculaire, la Spyder à ciel ouvert est imbattable. Et pour les puristes qui veulent sentir chaque virage, la Tecnica est la plus affûtée des quatre. La [page Lamborghini](/lamborghini-rental-montreal) présente la gamme au complet.
+
+## Où Conduire une Lamborghini à Montréal
+
+Conduire une Lamborghini à Montréal est une expérience qui se distingue de toutes les autres. Le V10 qui monte en régime dans le tunnel sous le centre ville, les regards sur le boulevard Saint Laurent, la remontée sur la route 117 avec les collines des Laurentides qui s'ouvrent devant vous : ce sont des moments que l'on n'oublie pas.
+
+Quelques suggestions éprouvées : le Vieux Montréal et le Vieux Port pour les photos et le maximum d'impact visuel au ralenti; le mont Royal pour les vraies courbes et la vue au sommet; l'autoroute 15 vers le nord jusqu'à Tremblant pour le grand périple d'une journée; et un passage au coucher du soleil sur le pont vers Longueuil, le spot photo classique des supercars à Montréal.
 
 ## Comment Réserver Votre Lamborghini à Montréal
 
-La réservation se fait en quelques étapes simples. Écrivez-nous sur WhatsApp au +14388094417 avec vos dates, le modèle que vous souhaitez, et votre adresse de livraison. Nous vérifions la disponibilité et vous confirmons le tout dans les heures qui suivent. Un acompte de réservation sécurise votre créneau, et le solde est réglé à la livraison.
+La réservation se fait en quelques étapes simples. Écrivez nous sur WhatsApp au +1 438 809 4417 avec vos dates, le modèle souhaité et votre adresse de livraison. Nous vérifions la disponibilité et vous confirmons le tout dans l'heure. Un acompte de réservation sécurise votre créneau, et le solde est réglé à la livraison. Le processus complet est expliqué sur notre page [comment ça marche](/how-it-works), et les retours d'expérience de nos clients sont sur notre page [avis](/reviews).
 
-Les conditions sont les suivantes : permis de conduire valide depuis au moins deux ans, âge minimum de 25 ans, couverture d'assurance adéquate pour un véhicule de haute valeur. Notre équipe vous remet le véhicule en personne, vous explique les commandes et les systèmes, et répond à toutes vos questions avant que vous partiez.
+Notre équipe vous remet le véhicule en personne, vous explique les modes de conduite, les commandes et les systèmes, et répond à toutes vos questions avant que vous partiez. Le retour fonctionne de la même façon : nous venons chercher la voiture où vous êtes, donc pas de détour vers un comptoir.
 
-## Une Expérience Lamborghini à Montréal
+## FAQ
 
-Conduire une Lamborghini à Montréal est une expérience qui se distingue de toutes les autres. Le V10 qui monte en régime dans le tunnel sous le centre-ville, les regards sur le boulevard Saint-Laurent, la remontée sur la route 117 avec les collines des Laurentides qui s'ouvrent devant vous, ce sont des moments que l'on n'oublie pas. Exotic Rentals Montreal est là pour rendre ces moments accessibles. Contactez-nous aujourd'hui sur WhatsApp au +14388094417 et réservez votre Lamborghini à Montréal.`,
+### Combien coûte la location d'une Lamborghini à Montréal?
+
+Entre 1 399 $ et 1 599 $ par jour selon le modèle, minimum 24 heures, livraison incluse partout dans le Grand Montréal. L'Urus est à 1 399 $, la Huracán EVO et la Spyder à 1 499 $, et la Tecnica à 1 599 $.
+
+### Quel est l'âge minimum pour louer une Lamborghini?
+
+25 ans, avec un permis de conduire valide détenu depuis au moins deux ans. Certains modèles de notre flotte sont accessibles dès 21 ans, mais toutes les Lamborghini sont réservées aux conducteurs de 25 ans et plus.
+
+### Peut on conduire une Lamborghini en hiver à Montréal?
+
+L'Urus, avec sa traction intégrale et son gabarit de SUV, est tout à fait utilisable de décembre à mars. Les Huracán sont des voitures basses, et la Tecnica pousse sur les roues arrière : elles passent l'hiver au garage et reviennent au printemps.
+
+### Livrez vous la Lamborghini à mon adresse?
+
+Oui, la livraison est incluse partout dans le Grand Montréal : Laval, Longueuil, Brossard, la Rive Sud, l'Ouest de l'île et l'aéroport. Le service fonctionne 24 heures sur 24, 7 jours sur 7.
+
+### Quelle Lamborghini choisir pour un mariage?
+
+L'Urus pour transporter toute la famille dans une seule voiture, ou la Huracán EVO Spyder pour une arrivée à ciel ouvert dont on se souvient. Les deux sont très demandées, et les samedis de l'été partent en premier.
+
+Pour louer votre Lamborghini à Montréal, écrivez nous sur [WhatsApp](https://wa.me/14388094417) ou appelez au [(438) 809 4417](tel:+14388094417). Nous confirmons la disponibilité et le tarif en vigueur dans les heures qui suivent, et la voiture arrive à votre porte, prête à rouler.`,
   },
   {
     slug: 'exotic-car-rental-griffintown',
