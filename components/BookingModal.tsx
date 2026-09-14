@@ -321,7 +321,7 @@ export default function BookingModal({
               <button
                 type="submit"
                 disabled={!isFormValid || submitting}
-                className="flex items-center justify-center gap-2 w-full py-3.5 bg-champagne text-obsidian font-display tracking-[0.12em] text-sm uppercase rounded-lg hover:bg-champagne/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                className="btn-gold-3d flex items-center justify-center gap-2 w-full py-3.5 font-display tracking-[0.12em] text-sm uppercase rounded-lg disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 {submitting ? "Sending..." : "Send Booking Request"}
               </button>

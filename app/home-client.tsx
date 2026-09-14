@@ -197,8 +197,8 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
           <h2 className="font-display font-extrabold tracking-[-0.02em] text-3xl md:text-4xl text-warm-white mb-6">Your Montreal Ride Is One Call Away</h2>
           <p className="text-silver mb-8">Contact our concierge team for availability, custom requests, or special delivery arrangements.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:14388094417" className="px-8 py-4 bg-champagne text-obsidian font-body font-bold tracking-[0.1em] text-xs hover:bg-champagne/90 transition-colors">CALL 438-809-4417</a>
-            <button onClick={() => setBookingOpen(true)} className="px-8 py-4 border border-silver text-silver font-body font-bold tracking-[0.1em] text-xs hover:border-champagne hover:text-champagne transition-colors">BOOK ONLINE</button>
+            <a href="tel:14388094417" className="px-8 py-4 border border-silver text-silver font-body font-bold tracking-[0.1em] text-xs hover:border-champagne hover:text-champagne transition-colors">CALL 438-809-4417</a>
+            <button onClick={() => setBookingOpen(true)} className="btn-gold-3d px-8 py-4 font-body font-bold tracking-[0.1em] text-xs">BOOK ONLINE</button>
           </div>
           <BookingModal open={bookingOpen} onClose={() => setBookingOpen(false)} />
         </div>

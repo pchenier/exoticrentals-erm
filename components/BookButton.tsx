@@ -16,7 +16,7 @@ export default function BookButton({
     <>
       <button
         onClick={() => setOpen(true)}
-        className="flex-1 py-4 bg-champagne text-obsidian text-center font-display tracking-[0.15em] hover:bg-champagne/90 transition-colors"
+        className="btn-gold-3d flex-1 py-4 text-center font-display tracking-[0.15em]"
       >
         BOOK THIS VEHICLE
       </button>

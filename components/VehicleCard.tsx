@@ -82,7 +82,7 @@ export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; 
           <div className="flex gap-2">
             <button
               onClick={() => setBookingOpen(true)}
-              className="flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em] border border-silver/30 text-silver hover:border-champagne hover:text-champagne transition-colors"
+              className="btn-gold-3d flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em]"
             >
               BOOK
             </button>

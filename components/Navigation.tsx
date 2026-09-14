@@ -47,7 +47,7 @@ export default function Navigation() {
               ))}
               <button
                 onClick={() => setBookingOpen(true)}
-                className="px-5 py-2 bg-champagne text-obsidian text-xs font-body font-bold tracking-[0.1em] hover:bg-champagne/90 transition-colors"
+                className="btn-gold-3d px-5 py-2 text-xs font-body font-bold tracking-[0.1em]"
               >
                 BOOK
               </button>
@@ -90,7 +90,7 @@ export default function Navigation() {
               ))}
               <motion.button
                 onClick={() => { setMobileOpen(false); setBookingOpen(true); }}
-                className="mt-8 px-8 py-3 bg-champagne text-obsidian font-display tracking-[0.15em] text-center"
+                className="btn-gold-3d mt-8 px-8 py-3 font-display tracking-[0.15em] text-center"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
@@ -105,7 +105,7 @@ export default function Navigation() {
       <div className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-obsidian/95 backdrop-blur-md border-t border-graphite px-4 py-3">
         <button
           onClick={() => setBookingOpen(true)}
-          className="block w-full py-3 bg-champagne text-obsidian text-center font-display tracking-[0.15em] text-sm"
+          className="btn-gold-3d block w-full py-3 text-center font-display tracking-[0.15em] text-sm"
         >
           BOOK
         </button>
