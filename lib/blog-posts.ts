@@ -9,6 +9,90 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-westmount-premium-cars-for-montreal-s-best-neighbourhood',
+    title: 'Exotic Car Rental Westmount: Premium Cars for Montreal\'s Best Neighbourhood',
+    date: '2026-09-17',
+    description: 'Exotic car rental Westmount: rent Lamborghini, McLaren, Maybach and more from $400/day, delivered to your door in Westmount and Greater Montreal.',
+    content: `## What Does Exotic Car Rental in Westmount Cost?
+
+Exotic car rental Westmount starts at $400/day for an Audi RS5 or a Toyota GR Supra and runs up to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh, with free delivery anywhere in Greater Montreal and a 24 hour minimum rental period. Westmount is one of the neighbourhoods we deliver to most often, and our fleet covers everything from daily supercar rentals to weekend luxury SUV packages. You do not need to come to us: the car arrives at your door in Westmount, detailed and fuelled, ready to drive.
+
+## Why Is Westmount the Best Neighbourhood in Montreal for Exotic Cars?
+
+Westmount is the wealthiest enclave on the island of Montreal, and it shows in the cars parked on its streets. Between the mansions around Summit Circle, the boutiques near Sherbrooke Street, and the quiet tree-lined avenues climbing Westmount Mountain, this is a neighbourhood where a Lamborghini or a Bentley fits right in.
+
+If you live in Westmount, exotic car rental means skipping the dealership entirely. A lease on a new Huracán runs well into six figures per year, while a weekend in the [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder) at $1,499/day gives you the same 631 hp and open-air experience without the long-term commitment. That is why so many Westmount clients rotate through our fleet instead of owning one car.
+
+Visitors staying in Westmount love the neighbourhood for the same reasons residents do. It is five minutes from downtown, ten from Old Montreal, and close to the on-ramps for routes that lead out of the city. You can read more about how our delivery and pickup process works on the [how it works](/how-it-works) page.
+
+## Which Exotic Cars Can You Rent in Westmount?
+
+Our full fleet is available for delivery to Westmount, but a few cars get booked more than others in this neighbourhood. Here is what Westmount clients typically choose.
+
+- Mercedes-Maybach S680 by Virgil Abloh: $2,399/day, 621 hp, 0-100 km/h in 4.4 seconds. The flagship of the fleet and a genuine collector piece.
+- Lamborghini Urus: $1,399/day, 641 hp, 0-100 km/h in 3.6 seconds. The super SUV Westmount families actually use, with room for five and winter capability.
+- Bentley Bentayga: $699/day, 542 hp, 0-100 km/h in 4.4 seconds. The understated luxury SUV that blends into Westmount streets better than anything else.
+- McLaren 600LT Spider: $1,999/day, 592 hp, 0-100 km/h in 2.8 seconds. The fastest open-top experience in the fleet.
+- Mercedes-Maybach GLS 600: $999/day, 550 hp, 0-100 km/h in 4.8 seconds. The chauffeur-grade SUV for weddings and events.
+- Porsche Panamera GTS: $650/day, 473 hp, 0-100 km/h in 3.2 seconds. A daily-driver sports sedan that handles Quebec winters.
+
+If you want to browse the complete lineup, the full [fleet](/fleet) page lists every car with its rate and specifications. For Lamborghini specifically, our [Lamborghini rental Montreal](/lamborghini-rental-montreal) page covers all four models currently in the fleet.
+
+## How Does Delivery to Westmount Work?
+
+We deliver the car directly to your address in Westmount, whether that is a private residence, a hotel, or an office. Delivery within Greater Montreal is included in the rental rate, and the car arrives washed, fuelled, and inspected. At the end of the rental, you leave the car where you received it and we pick it up.
+
+The process is deliberately simple. You choose your dates, confirm the car, send your licence and insurance information, and we handle the rest. Most Westmount bookings are finalized within a few hours. The [FAQ](/faq) page answers the common questions about age requirements, deposits, and insurance, and our [reviews](/reviews) page shows what past clients say about the delivery experience.
+
+One practical note for Westmount residents: street parking a supercar overnight is legal but not ideal. If you have a garage or driveway, use it. If not, ask us about hotels and private lots in the area where clients typically store exotic rentals overnight.
+
+## Where Should You Drive an Exotic Car From Westmount?
+
+Westmount sits at the western edge of downtown, which puts you minutes from the best driving in the metro area. Here are the routes our Westmount clients drive most.
+
+- Chemin du Sommet and Westmount Summit: a five minute loop from anywhere in the neighbourhood, with the best view of the city from the lookout. Perfect for photos with the Maybach or the Bentayga.
+- Chemin de la Côte-des-Neiges toward Mount Royal: a quick scenic run that connects Westmount to Outremont and the [Plateau Mont-Royal](/locations/plateau-mont-royal).
+- Highway 15 north toward the Laurentians: the classic weekend run. Leave Westmount, and within 45 minutes you are on sweeping two-lane roads where the [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) earns its 2.8 second 0-100 time.
+- Highway 20 west: flat, straight, and fast. This is the route to take the [Lamborghini Huracán Tecnica](/fleet/lamborghini-huracan-tecnica) if you want to stretch its 631 hp.
+- Old Montreal at night: 12 minutes from Westmount, and the cobblestone streets around Place Jacques-Cartier are where the Huracán Spyder looks its best. See our [Old Montreal](/locations/old-montreal) guide for parking and route tips.
+
+## Do You Need Insurance or a Special Licence to Rent in Westmount?
+
+You need a valid driver's licence, nothing more. No special licence or racing certification is required for any car in our fleet, including the McLarens and Lamborghinis. A full briefing on the car's controls takes ten minutes at delivery, and every car has an automatic gearbox.
+
+Insurance is the other common question. Our rentals include the mandatory Quebec civil liability coverage, and optional damage reduction packages are available at booking. The security deposit varies by car: expect a higher hold on the Maybach S680 than on the Toyota GR Supra at $400/day. Drivers must be 25 or older for the top-tier exotics, with some models available at 21. Full details are on the [FAQ](/faq) page.
+
+## How Far in Advance Should You Book an Exotic Car in Westmount?
+
+Book two to three weeks ahead for weekends between May and September, which is peak season for exotic car rental in Westmount and across Montreal. The Huracán Spyder and the Urus sell out most summer weekends. For weekday rentals, 48 to 72 hours notice is usually enough, and we regularly accommodate same-day requests when a car is available.
+
+Winter bookings are easier to get and surprisingly popular. The Urus, the Bentayga, and the Cadillac Escalade at $599/day are all equipped for Quebec winter driving, and Westmount clients book them for ski weekends in the Laurentians. If your dates are fixed, contact us early through the [contact](/contact) page and we will confirm availability within hours.
+
+## FAQ
+
+### How much does it cost to rent an exotic car in Westmount?
+
+Rates run from $400/day for an Audi RS5 to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh. Mid-range exotics like the Audi R8 V10 at $899/day and the Lamborghini Urus at $1,399/day sit between those extremes. Every rate includes delivery to Westmount and a 24 hour minimum rental.
+
+### Is delivery to Westmount included in the rental price?
+
+Yes, delivery anywhere in Greater Montreal is included, including all addresses in Westmount. The car arrives fuelled, cleaned, and inspected, and pickup at the end of the rental is also included. You never have to visit an office to complete the rental.
+
+### Can you rent a Lamborghini in Westmount without owning one?
+
+Yes, and that is the most common way Westmount residents drive one. The Huracán EVO, EVO Spyder, and Tecnica range from $1,499/day to $1,599/day, and the Urus is $1,399/day. Renting for a weekend costs a fraction of what a single year of ownership would run.
+
+### What is the minimum age to rent an exotic car in Westmount?
+
+The minimum age is 21 for most of the fleet and 25 for the top-tier exotics, including the Maybach S680 and the McLaren 600LT Spider. A valid driver's licence is the only certification required. All cars have automatic transmissions, so no manual driving experience is needed.
+
+### Can an exotic rental handle Montreal winters from Westmount?
+
+Yes, if you pick the right car. The Lamborghini Urus, Bentley Bentayga, and Mercedes-Maybach GLS 600 all handle Quebec winters with proper winter tires. Low supercars like the McLaren 600LT are better reserved for dry pavement between April and October.
+
+To book your car for delivery in Westmount, call us at [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm your dates the same day.`,
+  },
+  {
     slug: 'exotic-car-rental-laval-supercars-delivered-north-of-montreal',
     title: 'Exotic Car Rental Laval: Supercars Delivered North of Montreal',
     date: '2026-09-16',
