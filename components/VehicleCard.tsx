@@ -88,7 +88,7 @@ export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; 
             </button>
             <Link
               href={`/fleet/${vehicle.slug}`}
-              className="flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em] bg-champagne text-obsidian hover:bg-champagne/90 transition-colors"
+              className="btn-spec-silver flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em]"
             >
               SPECS →
             </Link>
