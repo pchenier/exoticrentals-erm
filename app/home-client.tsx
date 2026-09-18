@@ -60,7 +60,7 @@ export default function HomeClient({ initialVehicles }: { initialVehicles: Vehic
               Drive the world's most iconic supercars with a seamless online reservation process. Pick up at our Montreal location, ready and detailed.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
-              <a href="/fleet" className="px-6 md:px-8 py-3 md:py-4 bg-champagne text-obsidian font-body font-bold tracking-[0.1em] text-xs md:text-sm hover:bg-champagne/90 transition-colors text-center">
+              <a href="/fleet" className="btn-gold-3d px-6 md:px-8 py-3 md:py-4 font-body font-bold tracking-[0.1em] text-xs md:text-sm text-center">
                 VIEW THE FLEET
               </a>
               <a href="#fleet" className="px-6 md:px-8 py-3 md:py-4 border border-warm-white/30 text-warm-white font-body font-bold tracking-[0.1em] text-xs md:text-sm hover:border-champagne hover:text-champagne transition-colors text-center">

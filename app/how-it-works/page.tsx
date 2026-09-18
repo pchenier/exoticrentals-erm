@@ -203,7 +203,7 @@ export default function HowItWorksPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/fleet"
-                className="px-8 py-4 bg-burgundy text-warm-white font-spec tracking-[0.15em] hover:bg-burgundy-light transition-colors"
+                className="btn-gold-3d px-8 py-4 font-body font-bold tracking-[0.15em]"
               >
                 EXPLORE THE FLEET
               </a>

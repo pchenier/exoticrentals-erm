@@ -69,7 +69,7 @@ export default function ExperiencePage() {
           <section className="text-center py-16 border-t border-graphite">
             <h2 className="font-display font-bold tracking-[-0.02em] text-2xl md:text-3xl text-warm-white mb-6">Ready to Drive?</h2>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/fleet" className="px-8 py-4 bg-champagne text-obsidian font-body font-bold tracking-[0.1em] text-xs hover:bg-champagne/90 transition-colors">VIEW THE FLEET</a>
+              <a href="/fleet" className="btn-gold-3d px-8 py-4 font-body font-bold tracking-[0.1em] text-xs">VIEW THE FLEET</a>
               <a href="tel:14388094417" className="px-8 py-4 border border-silver text-silver font-body font-bold tracking-[0.1em] text-xs hover:border-champagne hover:text-champagne transition-colors">438-809-4417</a>
             </div>
           </section>
