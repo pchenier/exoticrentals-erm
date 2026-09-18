@@ -953,6 +953,69 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "25",
+      "slug": "audi-r8",
+      "make": "Audi",
+      "model": "R8",
+      "year": 2020,
+      "category": "EXOTIC",
+      "bodyStyle": "COUPE",
+      "tagline": "V10 Performance",
+      "description": "2020 Audi R8 V10 Performance\nExperience the V10\n\nGet behind the wheel of the 2020 Audi R8 V10 Performance, a supercar that combines breathtaking performance, sound, and precision. Its naturally aspirated 5.2L V10, quattro all-wheel drive and 7-speed S tronic transmission deliver an unforgettable driving experience.\n\nThis R8 is further enhanced with a valved titanium exhaust, Vorsteiner rear diffuser, and carbon-fiber side skirts, giving it an even more aggressive presence and exhilarating V10 soundtrack.\n\nInside, the driver-focused cockpit features Audi Virtual Cockpit, Apple CarPlay, sport seats and premium finishes.\n\nKey Specifications\n\nEngine: 5.2L Naturally Aspirated V10\nTransmission: 7-Speed S tronic\nDrivetrain: quattro AWD\nConfiguration: 2-Seat Coupe\nExhaust: Valved Titanium Exhaust\nExterior: Vorsteiner Rear Diffuser & Carbon-Fiber Side Skirts\nTechnology: Audi Virtual Cockpit & Apple CarPlay\nYear: 2020\n\nExperience the V10. Book your Audi R8 today.",
+      "dailyRate": 1099,
+      "weekendRate": 1199,
+      "weeklyRate": 450,
+      "securityDeposit": 5000,
+      "horsepower": 640,
+      "engine": "V10 N/A",
+      "zeroToSixty": "",
+      "topSpeed": "",
+      "transmission": "Automatic",
+      "drivetrain": "AWD",
+      "seats": 2,
+      "doors": 2,
+      "luggage": 1,
+      "convertible": false,
+      "available": true,
+      "featured": false,
+      "premierVerified": true,
+      "instantConfirm": true,
+      "displayOrder": 25,
+      "images": [
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/image-DOQ0XDhcj8xgQTJnNtmthQDOtkxIdx.png",
+          "alt": "Audi R8",
+          "isMain": true,
+          "position": "40% 58%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/sdfsdf-uYMK1hWrjSK40udbHcPEUDSvVdYkff.png",
+          "alt": "Audi R8",
+          "isMain": false,
+          "position": "40% 40%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/adsada-Y1ILOBwQ41bFGp1SRCKXeaWrwQXGNk.png",
+          "alt": "Audi R8",
+          "isMain": false,
+          "position": "50% 19%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/jtyj-HASGMTqVoJH8UoQ4WgfFDdl5igFxOm.png",
+          "alt": "Audi R8",
+          "isMain": false,
+          "position": "50% 77%"
+        }
+      ],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
