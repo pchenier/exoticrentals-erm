@@ -9,6 +9,79 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-longueuil-south-shore-luxury-delivery',
+    title: 'Exotic Car Rental Longueuil: South Shore Luxury Delivery',
+    date: '2026-09-18',
+    description: 'Exotic car rental Longueuil: Lamborghini, McLaren, Bentley and more from $400/day, delivered to your door on the South Shore. Book in minutes, call 438-809-4417.',
+    content: `Exotic car rental Longueuil costs between $400 and $2,399 per day depending on the car, with free delivery anywhere on the South Shore including Longueuil, Brossard and Saint-Lambert, and a minimum rental of 24 hours. You do not need to drive to downtown Montreal: Exotic Rentals Montreal brings the car to your home, hotel or office, handles the paperwork on the spot, and picks the car back up when you are done. That is the entire model, and it is why most South Shore clients never set foot in a rental office again.
+
+## What Does Exotic Car Rental in Longueuil Actually Cost?
+
+Expect $400 to $2,399 per day, with most bookings landing between $599 and $1,599. The entry point is the Audi RS5 at $400/day with 450 hp and a 0-100 time of 3.9 seconds, which is already faster than a base Porsche 911. From there the ladder climbs fast: the BMW M4 Competition x KITH runs $599/day with 503 hp, the Lamborghini Urus sits at $1,399/day with 641 hp, and the Mercedes-Maybach S680 by Virgil Abloh tops the fleet at $2,399/day with 621 hp.
+
+The price includes delivery to Longueuil, insurance coordination, and a full tank. Kilometre allowances and security deposits vary by car, so confirm the deposit when you book. Multi-day rentals get better daily rates, which matters if you are planning a weekend rather than a single evening.
+
+## Which Cars Can I Get Delivered to Longueuil?
+
+The full fleet is available for South Shore delivery, from a Toyota GR Supra at $400/day to a McLaren 600LT Spider at $1,999/day. Here are the cars Longueuil clients book most:
+
+- Lamborghini Huracán EVO Spyder: $1,499/day, 631 hp, 0-100 in 3.1 seconds, and the roof drops in 17 seconds for summer runs along the riverside
+- Lamborghini Urus: $1,399/day, 641 hp, 0-100 in 3.6 seconds, the default choice for families who still want supercar pace
+- Audi R8 Spyder: $1,299/day, 640 hp, 0-100 in 3.5 seconds, a V10 that fits Quebec plates without drama
+- Bentley Bentayga: $699/day, 542 hp, 0-100 in 4.4 seconds, the quiet flex for business trips
+- Cadillac Escalade: $599/day, 420 hp, the wedding and group-event workhorse
+
+Browse the complete [fleet](/fleet) to see current availability, or check the [Lamborghini rental Montreal page](/lamborghini-rental-montreal) if Raging Bulls are your priority. If you want the full picture on how delivery, deposits and licences work, read [how it works](/how-it-works) before booking.
+
+## How Does Delivery to the South Shore Work?
+
+Delivery is free within Greater Montreal, including every Longueuil borough, and the car arrives detailed, fueled and ready to drive. A team member meets you at your address, walks you through the car's controls, checks your licence, and completes the contract on site. For a Huracán or an Urus, plan 20 to 30 minutes for the handover because there is real geometry to learn: carbon sills, launch control, the start sequence on a V10.
+
+For the return, the process reverses. You leave the car where you received it, the team inspects it, and you are done. Clients in [Longueuil](/locations/longueuil), [Brossard](/locations/brossard) and [Saint-Jérôme](/locations/saint-jerome) use the same service, so nothing about being on the South Shore slows anything down. If you are coming from further out, [Sherbrooke](/locations/sherbrooke) and [Trois-Rivières](/locations/trois-rivieres) are also covered.
+
+## Do I Need a Special Licence to Rent an Exotic Car in Longueuil?
+
+No, a valid Quebec Class 5 passenger vehicle licence is enough for every car in the fleet, including the 621 hp Maybach and the 592 hp McLaren 600LT. There is no motorcycle-style endorsement for supercars in Quebec. What matters is age and record: drivers typically need to be 25 or older for the top-tier cars, with a clean driving record over the last few years. Drivers under 25 can still rent, usually on the lower tiers like the Audi RS5 or Toyota GR Supra, subject to approval and a higher deposit.
+
+International visitors can rent with a valid licence from their home country plus a passport, though an International Driving Permit is recommended. If your situation is unusual, whether it is a G1 equivalent, a recent licence, or a corporate booking, contact the team directly and they will tell you straight away what is possible. The [FAQ page](/faq) covers the common edge cases.
+
+## When Do People in Longueuil Book Exotic Cars?
+
+The peak season runs May through September, and the peak reasons are weddings, birthdays, proms, film shoots and corporate events. June and September are the heaviest months for weddings, and the cars booked first are the Huracán EVO Spyder at $1,499/day and the Cadillac Escalade at $599/day, one for the couple, one for the party. Winter bookings exist but skew toward the SUVs: the Urus, the Escalade and the Bentayga handle Quebec winter better than any low-slung supercar, and honestly, a Maybach GLS 600 at $999/day with 550 hp is the correct winter answer.
+
+Corporate clients book year-round, often for client entertainment or executive transport, and the Maybach S680 by Virgil Abloh at $2,399/day is the flagship they reach for. Whatever the occasion, book early: summer weekends in Longueuil are claimed 2 to 3 weeks out, sometimes more for the Lamborghinis.
+
+## Is Renting Worth It Compared to Buying?
+
+Run the numbers and renting wins for anything under a few weeks of driving per year. A new Huracán Tecnica costs roughly $400,000 in Canada, plus insurance that can exceed $10,000 per year, plus depreciation, storage, tires and maintenance. Renting the same car at $1,599/day means you would need to drive it well over 200 days a year to break even, and you would still be eating the depreciation. For a wedding weekend, a milestone birthday, or a week of pure enjoyment, exotic car rental in Longueuil delivers the experience at roughly 0.4 percent of the purchase price per day.
+
+There is also the variety argument. Owning one supercar means driving one supercar. Renting means a Porsche Panamera GTS at $650/day one month, a McLaren 600LT at $1,199/day the next. Check the [reviews](/reviews) to see how other South Shore clients used their rentals, from photo shoots in Old Longueuil to runs up through the Eastern Townships.
+
+## FAQ
+
+### How much does it cost to rent an exotic car in Longueuil?
+
+Prices range from $400/day for an Audi RS5 or Toyota GR Supra up to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh. Mid-tier supercars like the Audi R8 Spyder and Lamborghini Urus run between $1,299 and $1,399/day. Delivery to Longueuil is included.
+
+### How old do I need to be to rent a Lamborghini in Longueuil?
+
+Most top-tier cars require drivers to be 25 or older with a clean driving record. Drivers under 25 can often rent lower-tier cars such as the Audi RS5 at $400/day, subject to approval and a higher security deposit. Quebec Class 5 licence holders qualify for everything in the fleet.
+
+### Do you deliver exotic cars to Longueuil and the South Shore?
+
+Yes, delivery is free anywhere in Greater Montreal, including Longueuil, Brossard, Greenfield Park and Saint-Lambert. The car arrives fueled, detailed and ready, and the team completes the contract at your address. Pickup at the end of the rental works the same way.
+
+### What is the minimum rental period?
+
+The minimum is 24 hours for most cars in the fleet. High-demand weekends in summer often require a 2-day minimum on Lamborghini and McLaren models. Multi-day bookings get discounted daily rates, so a weekend often costs less per day than a single day.
+
+### Can I rent an exotic car for a wedding in Longueuil?
+
+Yes, weddings are one of the most common bookings on the South Shore. Popular choices include the Lamborghini Huracán EVO Spyder at $1,499/day for the couple and the Cadillac Escalade at $599/day for the bridal party. Book 2 to 3 weeks ahead for summer dates.
+
+Ready to book? Call [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm availability and delivery to your Longueuil address today.`,
+  },
+  {
     slug: 'exotic-car-rental-westmount-premium-cars-for-montreal-s-best-neighbourhood',
     title: 'Exotic Car Rental Westmount: Premium Cars for Montreal\'s Best Neighbourhood',
     date: '2026-09-17',
