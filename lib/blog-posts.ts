@@ -9,6 +9,99 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-brossard-luxury-cars-on-the-south-shore',
+    title: 'Exotic Car Rental Brossard: Luxury Cars on the South Shore',
+    date: '2026-09-19',
+    description: 'Exotic car rental in Brossard from $599/day. Lamborghini, McLaren, Bentley and more delivered to the South Shore. Call 438-809-4417 to book today.',
+    content: `Exotic car rental in Brossard costs between $599 and $2,399 per day depending on the model, with delivery straight to your address on the South Shore and a minimum rental of 24 hours. Whether you want a Lamborghini Huracán EVO at $1,499/day or a BMW M4 Competition x KITH at $599/day, the car arrives detailed, fueled, and ready to drive on Quartier DIX30 boulevards or the Taschereau corridor.
+
+At Exotic Rentals Montreal, we deliver throughout Greater Montreal, and Brossard is one of our most active South Shore markets. You do not need to cross the bridge to pick anything up. This guide covers pricing, the best cars for Brossard roads, how delivery works, and what you need to qualify.
+
+## How Much Does Exotic Car Rental in Brossard Cost?
+
+Exotic car rental in Brossard runs from $599/day for an entry performance car up to $2,399/day for the flagship Mercedes-Maybach S680 by Virgil Abloh. Most renters land between $1,099 and $1,599/day, which covers the full supercar tier including Lamborghini and McLaren.
+
+Here is what the tiers look like with current rates:
+
+- Toyota GR Supra: $400/day, 420 hp, 0-100 in 3.9s
+- Cadillac Escalade: $599/day, 420 hp, 0-100 in 5.8s
+- BMW M4 Competition x KITH: $599/day, 503 hp, 0-100 in 3.8s
+- Bentley Bentayga: $699/day, 542 hp, 0-100 in 4.4s
+- Audi R8 V10: $899/day, 562 hp, 0-100 in 3.2s
+- Mercedes-Maybach GLS 600: $999/day, 550 hp, 0-100 in 4.8s
+- Lamborghini Urus: $1,399/day, 641 hp, 0-100 in 3.6s
+- Lamborghini Huracán EVO Spyder: $1,499/day, 631 hp, 0-100 in 3.1s
+- McLaren 600LT Spider: $1,999/day, 592 hp, 0-100 in 2.8s
+- Mercedes-Maybach S680 by Virgil Abloh: $2,399/day, 621 hp, 0-100 in 4.4s
+
+Rates include delivery to Brossard and the surrounding South Shore. Multi-day bookings get better effective pricing, so a weekend rental costs less per day than a single Saturday. You can see the complete lineup on our [fleet page](/fleet).
+
+## Which Exotic Cars Work Best in Brossard?
+
+Brossard is a mix of wide boulevards, highway ramps onto the A-10 and A-30, and the dense Quartier DIX30 retail zone, so the best rental depends on how you plan to use the car. For pure drama around DIX30 or pulling up to a restaurant on Taschereau, the Lamborghini Huracán EVO Spyder at $1,499/day is the pick: 631 hp, 0-100 in 3.1 seconds, and a drop-top that turns every red light into a show.
+
+If you want supercar pace with more practicality for a group, the Lamborghini Urus at $1,399/day is the answer. It seats five, hauls 641 hp, hits 100 km/h in 3.6 seconds, and swallows shopping runs or airport pickups without compromise. For a chauffeur-style arrival at an event, the Mercedes-Maybach GLS 600 at $999/day gives you 550 hp and a rear cabin that feels like a private lounge.
+
+Drivers who want the sharpest handling on South Shore back roads should look at the McLaren 600LT Spider at $1,999/day. It does 0-100 in 2.8 seconds, the fastest figure in our fleet, and its carbon-fiber body and dihedral doors make the strongest visual statement of anything we deliver to Brossard. We cover the full range on our [luxury car rental Montreal page](/luxury-car-rental-montreal).
+
+## How Does Delivery to Brossard Work?
+
+We deliver every rental directly to your home, hotel, or workplace in Brossard, usually within the same day for standard bookings. There is no branch to visit and no counter queue. The car arrives washed, fueled, and photographed, and a team member walks you through the controls, because a Huracán or 600LT has start procedures and drive modes that deserve five minutes of explanation.
+
+The process is simple:
+
+- Choose your car and dates, then confirm by phone or WhatsApp
+- Send your license, insurance, and deposit information
+- We deliver the car to your Brossard address at the agreed time
+- You drive, we collect the car at the end of the rental window
+
+Delivery windows are flexible, including evenings and weekends, which matters when most Brossard rentals are for Friday-to-Sunday stretches. Our [how it works page](/how-it-works) breaks down every step, and our [FAQ](/faq) answers the common questions about deposits, mileage, and insurance.
+
+## What Are the Requirements to Rent an Exotic Car in Brossard?
+
+You need to be at least 25 years old for most supercars, hold a valid Quebec or international license, and provide a security deposit that varies by car, typically $2,000 to $10,000 on a credit card in the renter's name. Full insurance is required, either through your own policy or our coverage options, and the deposit is released after the car comes back in its delivered condition.
+
+For drivers aged 21 to 24, select models are available, generally the performance sedans and SUVs rather than the Lamborghini and McLaren tier. If you are unsure whether you qualify for a specific car, call us at 438-809-4417 before booking and we will tell you straight. Our [reviews page](/reviews) shows what past renters say about the paperwork and delivery experience.
+
+## Why Rent an Exotic Car in Brossard Instead of Downtown Montreal?
+
+Renting on the South Shore saves you the bridge commute and the downtown parking headache, two things that eat into a rental day fast. If you live in Brossard, Longueuil, or Greenfield Park, having the car delivered to your door means you spend your hours driving, not sitting on the Champlain Bridge with a supercar idling in traffic.
+
+Brossard also gives you better access to open roads than the island. Within twenty minutes you can be on the A-10 heading toward the Eastern Townships, or on the A-30 looping around the South Shore with long straights and sweepers where a 592 hp McLaren 600LT at $1,199/day actually makes sense. The 600LT hits 100 km/h in 2.9 seconds and it deserves road space that downtown Montreal simply does not offer.
+
+For events at Quartier DIX30, weddings at South Shore venues, or client dinners where the arrival matters, exotic car rental in Brossard puts the car where you are. We also serve the neighboring areas, so check our [Brossard location page](/locations/brossard) for delivery details specific to your sector.
+
+## What Are the Most Popular Rentals for Brossard Customers?
+
+South Shore renters gravitate toward three cars more than any others. The Lamborghini Urus at $1,399/day leads the list because it combines supercar speed with daily usability, 641 hp and 0-100 in 3.6 seconds with room for the family. The Audi R8 Spyder at $1,299/day is second, offering 640 hp and open-air driving that suits summer evenings on Taschereau. The BMW M4 Competition x KITH at $599/day rounds out the top three as the value play, with 503 hp and one of the most distinctive interiors in our fleet.
+
+For wedding season and prom weekends, the Bentley Bentayga at $699/day and the Mercedes-Maybach GLS 600 at $999/day see heavy demand, so book those at least two weeks ahead. Supercars like the Huracán Tecnica at $1,599/day, with 631 hp and 0-100 in 3.2 seconds, should be reserved early for summer weekends, as our Lamborghini inventory books out first. Browse the full Lamborghini range on our [Lamborghini rental Montreal page](/lamborghini-rental-montreal).
+
+## FAQ
+
+### How much does it cost to rent an exotic car in Brossard?
+
+Prices start at $400/day for a Toyota GR Supra and go up to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh. Most supercars, including the Lamborghini Huracán EVO at $1,499/day, sit in the $1,099 to $1,599 range. Delivery to Brossard is included in the rate.
+
+### Do you deliver exotic cars to Brossard?
+
+Yes, we deliver every rental directly to your Brossard address, home or hotel, with flexible time slots including evenings and weekends. There is no pickup location you need to visit. The car arrives fueled, detailed, and ready to drive.
+
+### How old do I need to be to rent a Lamborghini in Brossard?
+
+You must be at least 25 to rent the Lamborghini and McLaren models, with a valid license and a credit-card security deposit. Drivers aged 21 to 24 can access select performance sedans and SUVs, such as the BMW M3 Competition at $650/day. Call us to confirm eligibility for a specific car.
+
+### Can I rent an exotic car in Brossard for a single day?
+
+Yes, the minimum rental is 24 hours, so a single-day rental works fine for an event or a photo shoot. Multi-day bookings get a lower effective daily rate. Weekend rentals from Friday to Sunday are the most common format we deliver to Brossard.
+
+### Which car is best for a group arriving at an event in Brossard?
+
+The Lamborghini Urus at $1,399/day seats five while delivering 641 hp and 0-100 in 3.6 seconds. The Mercedes-Maybach GLS 600 at $999/day is the more luxurious option with a rear cabin built for passengers. Both are in high demand for event season, so reserve early.
+
+To book your exotic car rental in Brossard, call us at [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm availability and delivery in minutes.`,
+  },
+  {
     slug: 'exotic-car-rental-longueuil-south-shore-luxury-delivery',
     title: 'Exotic Car Rental Longueuil: South Shore Luxury Delivery',
     date: '2026-09-18',
