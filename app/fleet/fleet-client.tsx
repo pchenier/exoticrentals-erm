@@ -81,7 +81,7 @@ function FleetContent({ initialVehicles }: { initialVehicles: Vehicle[] }) {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <div className="text-xs font-display font-bold tracking-[0.3em] text-champagne mb-4">THE FLEET</div>
-          <h1 className="font-display font-extrabold tracking-[-0.02em] text-3xl md:text-4xl text-warm-white mb-4">The Premier Collection</h1>
+          <h1 className="font-display font-extrabold tracking-[-0.02em] text-3xl md:text-4xl text-warm-white mb-4">Handpicked Exotics &amp; Luxury</h1>
           <p className="text-silver max-w-2xl mx-auto">A carefully selected collection of exotic cars, refined luxury vehicles, and performance SUVs. Pick up at our Montreal location or arrange delivery by special request.</p>
         </div>
 
