@@ -9,6 +9,98 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'location-lamborghini-montreal-huracan-tecnica-et-urus-disponibles',
+    title: 'Location Lamborghini Montreal: Huracan Tecnica et Urus Disponibles',
+    date: '2026-09-21',
+    description: 'Location Lamborghini Montreal: louez le Huracan Tecnica a 1,599$/jour ou l\'Urus a 1,399$/jour. Livraison partout dans le Grand Montreal, reservation rapide par WhatsApp.',
+    image: '/cars/huracan_tecnica1.jpg',
+    content: `Une location Lamborghini a Montreal coute entre 1,399$ et 1,599$ par jour selon le modele, avec livraison partout dans le Grand Montreal et une duree minimale de 24 heures. Chez Exotic Rentals Montreal, deux modeles sont disponibles en ce moment: le Huracan Tecnica a 1,599$/jour et l'Urus a 1,399$/jour. C'est du vrai matos, livre a votre porte, pret a rouler des votre premiere journee.
+
+## Combien coute une location Lamborghini a Montreal?
+
+Le tarif journalier pour un Lamborghini a Montreal se situe entre 1,399$ et 1,599$ par jour. Le prix depend du modele choisi, de la duree de location et de la saison, mais il n'y a pas de frais caches quand vous reservez directement avec nous.
+
+Voici les deux modeles disponibles en location Lamborghini Montreal en ce moment:
+
+- Lamborghini Huracan Tecnica: 1,599$/jour, 631 chevaux, 0-100 km/h en 3.2 secondes
+- Lamborghini Urus: 1,399$/jour, 641 chevaux, 0-100 km/h en 3.6 secondes
+
+Pour une location de plusieurs jours, on offre des tarifs decroissants. Un week-end complet avec l'Urus revient moins cher par jour que 48 heures separees. Contactez-nous pour un prix exact selon vos dates.
+
+## Quelles sont les conditions pour louer un Lamborghini a Montreal?
+
+Il faut avoir 25 ans et plus, un permis de conduire valide depuis au moins 5 ans, et une carte de credit au nom du conducteur pour la caution. C'est le standard pour les voitures exotiques au Quebec, et on ne fait pas d'exception sur l'age minimum.
+
+La caution varie selon le modele. Pour l'Urus, comptez quelques milliers de dollars bloques sur votre carte de credit pendant la duree de la location. Le kilometrage est illimite sur les locations de plus de 3 jours, sinon un quota journalier s'applique. Tous les details sont expliques clairement avant la signature, et notre page [FAQ](/faq) repond aux questions les plus frequentes.
+
+L'assurance de votre vehicule personnel ne couvre generalement pas les exotiques. On vous proposera une option d'assurance degats pendant la reservation. Prenez le temps de la lire, ca vaut la peine pour rouler l'esprit tranquille.
+
+## Huracan Tecnica ou Urus: lequel choisir?
+
+Le Huracan Tecnica est la voiture de piste habillee pour la route: 631 chevaux, un V10 qui crie jusqu'a 8,500 tours, et un 0-100 km/h en 3.2 secondes. C'est le choix si vous voulez la vraie experience Lamborghini, celle qui vous donne des frissons a chaque acceleration sur l'autoroute 20 ou dans les courbes de la route 138 vers l'ouest.
+
+L'Urus, c'est different. 641 chevaux dans un SUV de 2.2 tonnes qui fait le 0-100 km/h en 3.6 secondes, c'est de la folie utile. Vous mettez vos bagages, vos amis, et vous roulez confortablement jusqu'a Mont-Tremblant ou Quebec. C'est le seul Lamborghini qu'on peut conduire 12 mois par an au Quebec, hiver compris avec les bons pneus.
+
+Mon conseil honnete: si c'est votre premiere fois avec un Lamborghini, prenez le Tecnica pour une journee de conduite pure. Si vous avez des courses a faire ou un voyage de fin de semaine, l'Urus gagne haut la main. Les deux pages ont tous les details: [Huracan Tecnica](/fleet/lamborghini-huracan-tecnica) et [Urus](/fleet/lamborghini-urus).
+
+## Ou rouler avec un Lamborghini loue a Montreal?
+
+Les belles routes autour de Montreal sont nombreuses, mais quelques itineraires se demarquent clairement. Sortez de la ville tot le matin pour eviter le traffic et vous aurez les routes pour vous seuls.
+
+Voici mes trois itineraires preferes avec un Lamborghini:
+
+- La route 138 vers l'ouest, vers Hudson et Rigaud: route plate mais panoramas sur le fleuve, parfaite pour une journee detendue avec l'Urus
+- Les Laurentides via la route 117 vers Saint-Sauveur et Val-David: courbes relevees, surtout spectaculaires en saison couleur
+- Le pont Champlain au coucher du soleil, puis Old Montreal pour rouler lent et savourer le moment
+
+Un avertissement de conducteur a un autre: les nids-de-poule de Montreal ne pardonnent pas les jantes du Tecnica. Restez attentif sur Sainte-Catherine et dans [Ville-Marie et les environs du centre-ville](/locations/old-montreal). Les rues pavees du Vieux-Montreal sont belles en photo, mais passez-les a basse vitesse pour proteger la suspension.
+
+## Comment fonctionne la reservation chez Exotic Rentals Montreal?
+
+La reservation prend environ 10 minutes, et on gere tout par message ou par telephone. Vous choisissez votre modele, vos dates, votre adresse de livraison dans le Grand Montreal, et on confirme le reste.
+
+Le processus est simple:
+
+- Vous nous ecrivez sur WhatsApp avec vos dates et le modele voulu
+- On confirme la disponibilite et on vous envoie le contrat
+- Vous fournissez votre permis et votre carte de credit
+- On livre la voiture a votre adresse, a l'heure convenue, plein d'essence
+
+La livraison est incluse dans le Grand Montreal, incluant Laval, la Rive-Sud et l'ouest de l'ile. Pour les livraison hors region, comme Quebec ou Sherbrooke, des frais de transport s'appliquent. Notre page [comment ca marche](/how-it-works) explique chaque etape en detail, et vous pouvez consulter les [temoignages de clients](/reviews) avant de reserver.
+
+## Est-ce qu'on peut louer un Lamborghini pour un evenement special?
+
+Oui, et c'est probablement notre demande la plus frequente. Mariage, anniversaire, tournage photo ou video, entree a une galerie, chaque evenement a sa demande. Le Tecnica en blanc ou l'Urus en noir attirent les regards partout ou vous vous arretez.
+
+Pour les mariages, on offre une livraison matin pour que la voiture soit propre et prete pour les photos. Pour les tournages, on facture au tarif journalier standard, sans frais de production supplementaires. Certains clients combinent deux voitures, par exemple le Tecnica pour le marie et l'Urus pour le reste de la famille. Consultez notre [flotte complete](/fleet) pour voir toutes les combinaisons possibles.
+
+Petit rappel honnete: on ne loue pas de Ferrari en ce moment. Si vous cherchiez une Ferrari, le Huracan Tecnica est la voiture la plus proche en sensation dans notre flotte, avec son V10 atmo et sa tenue de route de piste. C'est une excellente alternative, et plusieurs clients Ferrari deviennent des clients Lamborghini apres une journee avec le Tecnica.
+
+## FAQ
+
+### Quel est le prix d'une location Lamborghini a Montreal?
+
+Le Huracan Tecnica se loue 1,599$/jour et l'Urus 1,399$/jour. Les locations de plusieurs jours beneficient d'un tarif decroissant par jour. Le prix final depend aussi de la saison et de la duree.
+
+### Quel age faut-il pour louer un Lamborghini?
+
+Le conducteur doit avoir 25 ans et plus, avec un permis valide depuis au moins 5 ans. Une carte de credit au nom du conducteur est requise pour la caution. Aucune exception n'est possible sur ces conditions.
+
+### Peut-on conduire un Lamborghini loue en hiver au Quebec?
+
+L'Urus se conduit 12 mois par an avec des pneus d'hiver installes, c'est un SUV concu pour ca. Le Tecnica reste au garage de novembre a avril, ses pneus ete et son bas de caisse ne pardonnent pas la neige. Planifiez votre location Tecnica entre mai et octobre.
+
+### La livraison est-elle incluse dans le prix?
+
+Oui, la livraison est incluse partout dans le Grand Montreal, incluant Laval, Longueuil et la Rive-Sud. Pour une livraison a Quebec, Sherbrooke ou Trois-Rivieres, des frais de transport s'appliquent selon la distance.
+
+### Peut-on louer un Lamborghini pour quelques heures seulement?
+
+La duree minimale est de 24 heures, et le tarif journalier s'applique. Pour une sortie de quelques heures seulement, comme un tournage, on evalue cas par cas selon la disponibilite. Ecrivez-nous avec vos besoins exacts.
+
+Pour reserver votre Lamborghini a Montreal, appelez le [438-809-4417](tel:438-809-4417) ou ecrivez-nous directement sur [WhatsApp](https://wa.me/14388094417), on confirme la disponibilite en quelques minutes.`,
+  },
+  {
     slug: 'location-voiture-exotique-montreal-supercars-livrees-a-votre-porte',
     title: 'Location Voiture Exotique Montreal: Supercars Livrees a Votre Porte',
     date: '2026-09-20',
