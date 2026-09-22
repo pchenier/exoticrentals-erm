@@ -7,17 +7,17 @@ import { slugify } from '@/lib/slugify'
 import { getAllVehiclesLive } from '@/lib/vehicle-store'
 
 export const metadata: Metadata = {
-  title: 'Ferrari Rental Montreal. 488 GTB | Exotic Rentals Montreal',
+  title: 'Ferrari Rental Montreal | Exotic Rentals Montreal',
   description:
-    'Rent a Ferrari 488 GTB in Montreal from $999/day. Concierge delivery anywhere in Greater Montreal. Available 24/7 on WhatsApp.',
-  keywords: 'ferrari rental montreal, ferrari 488 gtb rental montreal, location ferrari montreal',
+    'Looking for a Ferrari rental in Montreal? Our current exotic lineup: Lamborghini Huracán, McLaren 600LT Spider, Urus. Same-tier supercars, concierge delivery across Greater Montreal.',
+  keywords: 'ferrari rental montreal, exotic car rental montreal, lamborghini rental montreal, mclaren rental montreal',
   alternates: {
     canonical: 'https://www.exoticrentalsmontreal.com/ferrari-rental-montreal',
   },
   openGraph: {
-    title: 'Ferrari Rental Montreal. 488 GTB | Exotic Rentals Montreal',
+    title: 'Ferrari Rental Montreal | Exotic Rentals Montreal',
     description:
-      'Rent a Ferrari 488 GTB in Montreal from $999/day. Concierge delivery anywhere in Greater Montreal. Available 24/7 on WhatsApp.',
+      'Looking for a Ferrari rental in Montreal? Our current exotic lineup: Lamborghini Huracán, McLaren 600LT Spider, Urus. Same-tier supercars, concierge delivery across Greater Montreal.',
     url: 'https://www.exoticrentalsmontreal.com/ferrari-rental-montreal',
     siteName: 'Exotic Rentals Montreal',
     type: 'website',
@@ -43,11 +43,11 @@ const serviceSchema = {
     telephone: '+14388094417',
   },
   areaServed: 'Montreal, QC, Canada',
-  description: 'Premium Ferrari 488 GTB rental in Montreal with concierge delivery anywhere in Greater Montreal.',
+  description: 'Exotic car rental in Montreal — Lamborghini Huracán, McLaren 600LT Spider and more, with concierge delivery anywhere in Greater Montreal.',
   offers: {
     '@type': 'Offer',
     priceCurrency: 'CAD',
-    price: '999',
+    price: '1499',
   },
 }
 
@@ -83,7 +83,7 @@ interface CarItem {
 async function getFleet(): Promise<CarItem[]> {
   try {
     const all: CarItem[] = await getAllVehiclesLive()
-    return all.filter((v) => v.make.toLowerCase().includes('ferrari'))
+    return all.filter((v) => ['lamborghini', 'mclaren'].includes(v.make.toLowerCase()))
   } catch {
     return []
   }
@@ -133,10 +133,10 @@ export default async function FerrariRentalMontreal() {
               className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed"
               style={{ fontFamily: 'var(--font-inter)' }}
             >
-              Nothing commands the streets of Montreal quite like a Ferrari. The iconic
-              488 GTB with its 660hp twin-turbocharged V8 delivers an experience that is
-              impossible to replicate. Available from $999 per day with concierge delivery
-              anywhere in Greater Montreal.
+              Ferrari-level excitement, available today. While there is no Ferrari in our
+              current lineup, our Huracán Tecnica and McLaren 600LT Spider deliver the same
+              naturally-aspirated V10 drama and supercar theatre — from $1,199 per day with
+              concierge delivery anywhere in Greater Montreal.
             </p>
           </section>
 
@@ -146,7 +146,7 @@ export default async function FerrariRentalMontreal() {
               className="text-4xl md:text-5xl mb-10 text-center uppercase tracking-wide"
               style={{ fontFamily: 'var(--font-display)' }}
             >
-              Our Ferrari Fleet
+              Supercars Available Now
             </h2>
 
             {fleet.length > 0 ? (
@@ -201,7 +201,7 @@ export default async function FerrariRentalMontreal() {
               </div>
             ) : (
               <p className="text-center text-gray-400" style={{ fontFamily: 'var(--font-inter)' }}>
-                Browse our Ferrari fleet — contact us for availability.
+                Browse our full exotic fleet — contact us for availability.
               </p>
             )}
           </section>
@@ -212,13 +212,13 @@ export default async function FerrariRentalMontreal() {
               className="text-4xl md:text-5xl mb-10 text-center uppercase tracking-wide"
               style={{ fontFamily: 'var(--font-display)' }}
             >
-              Why Rent a Ferrari in Montreal
+              Why Rent a Supercar in Montreal
             </h2>
             <ul className="max-w-2xl mx-auto space-y-5">
               {[
-                'Ferrari 488 GTB. 660hp twin-turbo V8. The prancing horse in the city.',
+                'Lamborghini Huracán Tecnica. 631hp naturally-aspirated V10. The sharpest tool in the city.',
                 'Concierge delivery anywhere in Greater Montreal. Available 24/7.',
-                'The most iconic supercar on the planet. Every drive becomes an event.',
+                'McLaren 600LT Spider. 592hp twin-turbo V8, carbon everything, roof down.',
                 'Book on WhatsApp. We confirm same day.',
               ].map((feature) => (
                 <li
@@ -243,9 +243,9 @@ export default async function FerrariRentalMontreal() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {[
-                { step: '01', title: 'Select the Ferrari', desc: 'The 488 GTB. One of the most sought-after supercars on the planet.' },
+                { step: '01', title: 'Select Your Supercar', desc: 'Huracán Tecnica, Huracán EVO Spyder or McLaren 600LT Spider.' },
                 { step: '02', title: 'Book on WhatsApp', desc: 'Message us your date and address. Confirmed within the hour.' },
-                { step: '03', title: 'We Deliver to You', desc: 'Your Ferrari arrives freshly detailed at your location.' },
+                { step: '03', title: 'We Deliver to You', desc: 'Your supercar arrives freshly detailed at your location.' },
               ].map((item) => (
                 <div key={item.step} className="text-center">
                   <div
@@ -274,7 +274,7 @@ export default async function FerrariRentalMontreal() {
               className="text-4xl md:text-5xl mb-8 uppercase tracking-wide"
               style={{ fontFamily: 'var(--font-display)' }}
             >
-              Book Your Ferrari Rental
+              Book Your Supercar
             </h2>
             <p
               className="text-gray-400 mb-8 text-lg"
