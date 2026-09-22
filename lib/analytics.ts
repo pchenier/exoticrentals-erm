@@ -62,7 +62,7 @@ export function trackGenerateLead(params: GtagParams = {}) {
 
 const GOOGLE_ADS_CONVERSION_ID =
   process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_ID ||
-  "AW-18142334755/dhMBCK618akcEKOe-MpD";
+  "AW-18142334755/ed45CJ_V1IEdEKOe-MpD";
 
 export async function trackBookingConversion(payload?: {
   car?: string;
@@ -132,21 +132,25 @@ export async function trackBookingConversion(payload?: {
   }
 }
 
-export function trackPhoneClick(label = "phone_438_533_9053") {
+const CONTACT_CONVERSION_SEND_TO =
+  process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_ID ||
+  "AW-18142334755/ed45CJ_V1IEdEKOe-MpD";
+
+export function trackPhoneClick(label = "phone_438_809_4417") {
   safeGtag("phone_click", {
     event_category: "contact",
     event_label: label,
   });
 }
 
-export function trackWhatsAppClick(label = "whatsapp_438_533_9053") {
+export function trackWhatsAppClick(label = "whatsapp_438_809_4417") {
   safeGtag("whatsapp_click", {
     event_category: "contact",
     event_label: label,
   });
 }
 
-export function trackSmsClick(label = "sms_438_533_9053") {
+export function trackSmsClick(label = "sms_438_809_4417") {
   safeGtag("phone_click", {
     event_category: "contact",
     event_label: label,

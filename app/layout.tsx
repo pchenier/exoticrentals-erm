@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Outfit, Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import ContactClickTracker from "@/components/ContactClickTracker";
 
 const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || "G-J3DCXV066G";
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18142334755";
@@ -158,6 +159,7 @@ export default function RootLayout({
             'allow_enhanced_conversions': true
           });
         `}</Script>
+        <ContactClickTracker />
         {children}
       </body>
     </html>
