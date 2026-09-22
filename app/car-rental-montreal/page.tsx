@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import FloatingWA from '@/components/FloatingWA'
 import { slugify } from '@/lib/slugify'
+import { getAllVehiclesLive } from '@/lib/vehicle-store'
 
 export const metadata: Metadata = {
   title: 'Car Rental Montreal — Exotic & Luxury Fleet | Exotic Rentals Montreal',
@@ -71,20 +72,18 @@ const breadcrumbSchema = {
 }
 
 interface CarItem {
-  name: string
-  rate?: number
-  pricePerDay?: number
-  price?: number
-  slug?: string
+  name?: string
+  slug: string
+  make: string
+  model: string
+  dailyRate: number
+  images: { url: string; alt: string; isMain: boolean }[]
+  available: boolean
 }
 
 async function getFleet(): Promise<CarItem[]> {
   try {
-    const res = await fetch('https://www.exoticrentalsmontreal.com/api/fleet', {
-      next: { revalidate: 3600 },
-    })
-    if (!res.ok) return []
-    return res.json()
+    return await getAllVehiclesLive()
   } catch {
     return []
   }
@@ -157,33 +156,50 @@ export default async function CarRentalMontreal() {
 
             {fleet.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {fleet.map((car: CarItem) => {
-                  const carSlug = car.slug ?? slugify(car.name)
-                  const rate = car.rate ?? car.pricePerDay ?? car.price
+                                {fleet.map((car: CarItem) => {
+                  const main = car.images?.find((i) => i.isMain) ?? car.images?.[0]
+                  const href = `/fleet/${car.slug}`
 
                   return (
                     <Link
-                      key={carSlug}
-                      href={`/cars/${carSlug}`}
-                      className="group block bg-[#111111] border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-all duration-300"
+                      key={car.slug}
+                      href={href}
+                      className="group block relative overflow-hidden rounded-xl border border-white/10 bg-[#111] hover:border-white/30 transition-all duration-200"
                     >
-                      <h3
-                        className="text-xl mb-2 uppercase tracking-wide group-hover:text-gray-200 transition-colors"
-                        style={{ fontFamily: 'var(--font-display)' }}
-                      >
-                        {car.name}
-                      </h3>
-                      {rate && (
-                        <p className="text-gray-400 text-sm" style={{ fontFamily: 'var(--font-inter)' }}>
-                          From ${rate}/day
-                        </p>
-                      )}
-                      <span
-                        className="inline-block mt-4 text-xs text-gray-500 uppercase tracking-widest"
-                        style={{ fontFamily: 'var(--font-inter)' }}
-                      >
-                        View Details →
-                      </span>
+                      <div className="relative h-56 w-full overflow-hidden bg-[#0a0a0a]">
+                        {main ? (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img
+                            src={main.url}
+                            alt={main.alt || `${car.make} ${car.model}`}
+                            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                          />
+                        ) : (
+                          <div className="flex h-full items-center justify-center text-4xl opacity-10" style={{ fontFamily: 'var(--font-display)' }}>
+                            {car.make}
+                          </div>
+                        )}
+                        <div
+                          className="pointer-events-none absolute inset-x-0 bottom-0 h-2/3"
+                          style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.5) 50%, transparent 100%)' }}
+                        />
+                        <div className="absolute bottom-3 left-4 right-4">
+                          <h3
+                            className="text-lg font-medium text-white drop-shadow-lg"
+                            style={{ fontFamily: 'var(--font-inter)' }}
+                          >
+                            {car.name ?? `${car.make} ${car.model}`}
+                          </h3>
+                          <div className="flex items-baseline justify-between">
+                            <span className="text-[#c9a96e] text-sm" style={{ fontFamily: 'var(--font-inter)' }}>
+                              From ${car.dailyRate}/day
+                            </span>
+                            <span className="text-xs text-gray-400 group-hover:text-white transition-colors" style={{ fontFamily: 'var(--font-inter)' }}>
+                              View Details →
+                            </span>
+                          </div>
+                        </div>
+                      </div>
                     </Link>
                   )
                 })}
