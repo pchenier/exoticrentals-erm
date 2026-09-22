@@ -36,13 +36,21 @@ export default function ContactClickTracker() {
         page_location: window.location.pathname,
       });
 
-      // Google Ads Contact conversion — once per channel per session
+      // Google Ads Contact conversion — once per channel per session.
+      // If gtag isn\'t ready yet (afterInteractive delay), retry briefly via dataLayer.
       if (!fired.has(channel)) {
         fired.add(channel);
-        window.gtag?.("event", "conversion", {
-          send_to: CONTACT_CONVERSION_SEND_TO,
-          event_label: channel,
-        });
+        const send = (attempt: number) => {
+          if (typeof window.gtag === "function") {
+            window.gtag("event", "conversion", {
+              send_to: CONTACT_CONVERSION_SEND_TO,
+              event_label: channel,
+            });
+          } else if (attempt < 20) {
+            window.setTimeout(() => send(attempt + 1), 150);
+          }
+        };
+        send(0);
       }
     };
 
