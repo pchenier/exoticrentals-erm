@@ -5,6 +5,8 @@ import Footer from '@/components/Footer'
 import FloatingWA from '@/components/FloatingWA'
 import { slugify } from '@/lib/slugify'
 import { getAllVehiclesLive } from '@/lib/vehicle-store'
+import type { Vehicle } from '@/lib/data'
+import VehicleCard from '@/components/VehicleCard'
 
 export const metadata: Metadata = {
   title: 'Audi Rental Montreal — RS5, RS6, RS7, R8 | Exotic Rentals Montreal',
@@ -70,19 +72,11 @@ const breadcrumbSchema = {
   ],
 }
 
-interface CarItem {
-  name?: string
-  slug: string
-  make: string
-  model: string
-  dailyRate: number
-  images: { url: string; alt: string; isMain: boolean }[]
-  available: boolean
-}
+type CarItem = Vehicle
 
 async function getFleet(): Promise<CarItem[]> {
   try {
-    const all: CarItem[] = await getAllVehiclesLive()
+    const all = await getAllVehiclesLive()
     return all.filter((v) => v.make.toLowerCase().includes('audi'))
   } catch {
     return []
@@ -150,54 +144,10 @@ export default async function AudiRentalMontreal() {
             </h2>
 
             {fleet.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                                {fleet.map((car: CarItem) => {
-                  const main = car.images?.find((i) => i.isMain) ?? car.images?.[0]
-                  const href = `/fleet/${car.slug}`
-
-                  return (
-                    <Link
-                      key={car.slug}
-                      href={href}
-                      className="group block relative overflow-hidden rounded-xl border border-white/10 bg-[#111] hover:border-white/30 transition-all duration-200"
-                    >
-                      <div className="relative h-56 w-full overflow-hidden bg-[#0a0a0a]">
-                        {main ? (
-                          // eslint-disable-next-line @next/next/no-img-element
-                          <img
-                            src={main.url}
-                            alt={main.alt || `${car.make} ${car.model}`}
-                            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                          />
-                        ) : (
-                          <div className="flex h-full items-center justify-center text-4xl opacity-10" style={{ fontFamily: 'var(--font-display)' }}>
-                            {car.make}
-                          </div>
-                        )}
-                        <div
-                          className="pointer-events-none absolute inset-x-0 bottom-0 h-2/3"
-                          style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.5) 50%, transparent 100%)' }}
-                        />
-                        <div className="absolute bottom-3 left-4 right-4">
-                          <h3
-                            className="text-lg font-medium text-white drop-shadow-lg"
-                            style={{ fontFamily: 'var(--font-inter)' }}
-                          >
-                            {car.name ?? `${car.make} ${car.model}`}
-                          </h3>
-                          <div className="flex items-baseline justify-between">
-                            <span className="text-[#c9a96e] text-sm" style={{ fontFamily: 'var(--font-inter)' }}>
-                              From ${car.dailyRate}/day
-                            </span>
-                            <span className="text-xs text-gray-400 group-hover:text-white transition-colors" style={{ fontFamily: 'var(--font-inter)' }}>
-                              View Details →
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  )
-                })}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                {fleet.map((car: CarItem) => (
+                  <VehicleCard key={car.slug} vehicle={car} />
+                ))}
               </div>
             ) : (
               <p className="text-center text-gray-400" style={{ fontFamily: 'var(--font-inter)' }}>
