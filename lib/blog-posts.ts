@@ -9,6 +9,86 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'louer-mclaren-montreal-le-600lt-vous-attend',
+    title: 'Louer McLaren Montreal: Le 600LT Vous Attend',
+    date: '2026-09-22',
+    description: 'Envie de louer un McLaren Montreal? Le 600LT et le 600LT Spider sont disponibles des $1,199/jour. Puissance, 0-100 en 2,8s et livraison partout a Montreal.',
+    image: '/cars/mclaren.jpg',
+    content: `Louer McLaren Montreal, ca commence a $1,199 par jour pour le McLaren 600LT, et monte a $1,999 par jour pour le 600LT Spider decapotable. Les deux voitures sont livrees partout dans le Grand Montreal, avec un minimum de 24 heures et une prise en charge simple qu'on vous explique au telephone avant meme que vous arriviez.
+
+## Combien Ca Coute de Louer McLaren Montreal?
+
+Le McLaren 600LT se loue $1,199 par jour, tandis que le 600LT Spider, la version toit ouvrant retractable, coute $1,999 par jour. C'est la fourchette complete chez nous: il n'y a pas d'autres modeles McLaren caches dans l'inventaire, donc pas de surprises quand vous appelez.
+
+Le 600LT developpe 592 chevaux et fait le 0 a 100 km/h en 2,9 secondes. Le Spider pousse la logique encore plus loin avec le meme 592 chevaux, mais un 0 a 100 en 2,8 secondes. Vous payez la difference pour le toit ouvert, point final.
+
+Pour comparer rapidement avec le reste de la flotte, un [Lamborghini Huracan EVO](/fleet/lamborghini-huracan-evo) se loue $1,499 par jour avec 610 chevaux. Le McLaren reste la voiture la plus radicale du groupe, celle qui donne l'impression d'etre sur une piste meme sur l'autoroute 10.
+
+## Quel McLaren Peut-On Louer a Montreal?
+
+Deux options, et elles sont toutes les deux des Longtail. Le [McLaren 600LT](/cars/mclaren-600lt) est la version coupee: plus leger, plus rigide, plus pure. Le [600LT Spider](/fleet/mclaren-600lt-spider) ajoute le toit rigide retractable qui s'ouvre en quelques secondes, parfait pour une croisiere sur le chemin du Mont-Tremblant en ete.
+
+Le nom LT veut dire Longtail, un heritage qui remonte aux McLaren F1 GTR des annees 90. Concretement, ca veut dire plus d'appui aerodynamique, des echappements montes haut qui crachent juste derriere vos oreilles, et un châssis affute qui pardonne moins mais rend plus. Le 600LT n'est pas une voiture pour faire joli devant un resto sur Saint-Laurent, meme si ca marche tres bien aussi.
+
+Si vous hesitez entre les deux, voici la regle simple: vous voulez la sensation de piste pure, vous prenez la coupee. Vous voulez sentir le V8 biturbo avec le vent dans la cabine, vous prenez le Spider.
+
+## Quelles Sont les Conditions pour Louer McLaren Montreal?
+
+Il faut avoir 25 ans et plus, un permis de conduire valide depuis au moins 5 ans, et une carte de credit au nom du conducteur. Le depot de securite se fait par pre-authorization sur la carte, et il est remis integralement apres le retour de la voiture sans dommage.
+
+L'assurance de votre voiture personnelle ne couvre presque jamais une exotique de location, c'est pour ca qu'on vous propose une couverture sur place. Le kilometrage est genereux, mais si vous depassez ce qui est inclus dans votre contrat, chaque kilometre supplementaire est facture selon un taux clair ecrit noir sur blanc. Aucune carte cachee.
+
+Pour tous les details sur les documents, le depot et le processus complet, consultez notre page [FAQ](/faq) ou notre guide sur [comment ca marche](/how-it-works).
+
+## Ou Peut-On Conduire un McLaren a Montreal?
+
+Partout dans le Grand Montreal, incluant Laval, la Rive-Sud et les Laurentides. Les clients qui louent McLaren Montreal prennent souvent la route des Laurentides tôt le matin: la 117 vers Saint-Sauveur avant 9h, c'est du asphalte qui ondule avec des courbes que le châssis du 600LT avale sans broncher.
+
+Dans la ville meme, une promenade dans le [Vieux-Montreal](/locations/old-montreal) ou sur la rue Sherbrooke attire les regards, c'est certain. Le son des echappements hauts du 600LT dans un stationnement souterrain, c'est une experience que personne oublie. Mais le vrai plaisir, c'est en dehors de la ville, quand vous avez de la place pour laisser les 592 chevaux s'exprimer legalement.
+
+On livre aussi dans plusieurs villes de la banlieue, incluant [Laval](/locations/laval), [Longueuil](/locations/longueuil) et [Brossard](/locations/brossard). Vous n'avez pas a venir chercher la voiture, elle arrive a votre adresse a l'heure convenue.
+
+## McLaren 600LT vs Lamborghini Huracan: Lequel Choisir?
+
+C'est la question qu'on recoit le plus. Le [Lamborghini Huracan Tecnica](/fleet/lamborghini-huracan-tecnica) se loue $1,599 par jour avec 631 chevaux et un 0 a 100 en 3,2 secondes. Le McLaren 600LT coute $1,199 par jour avec 592 chevaux et un 0 a 100 en 2,9 secondes.
+
+Sur le papier, le Lamborghini a plus de puissance. Sur la route, le McLaren est plus rapide et surtout plus engageant: il pese moins, le châssis communique tout, et les freins carbo-ceramiques de serie ralentissent la voiture comme si vous aviez ouvert un parachute. Le Huracan est plus spectaculaire visuellement et plus confortable pour un long trajet. Le 600LT est plus brut et plus recompensant pour le conducteur.
+
+Notre verdict honnete: premiere fois dans une supercar, prenez le Huracan. Vous avez deja de l'experience avec des voitures rapides, le 600LT vous collera un sourire que rien d'autre ne peut reproduire.
+
+## Comment Se Passe la Reservation?
+
+Vous appelez ou vous nous ecrivez sur WhatsApp, on confirme la disponibilite pour vos dates, et on prend un depot pour bloquer la voiture. Le solde se regle a la livraison. Comptez 24 heures de minimum, mais la plupart de nos clients prennent 48 heures pour vraiment profiter de la voiture sans courir.
+
+On vous donne un briefing complet a la livraison: modes de conduite, hauteur du splitter avant qui ne pardonne pas les nids-de-poule, et le fonctionnement du toit si vous prenez le Spider. Le [McLaren 600LT](/cars/mclaren-600lt) se conduit avec deux pedales, la boite sequentielle se gere aux palettes au volant, donc meme si vous n'avez jamais conduit une voiture de ce calibre, vous serez a l'aise en dix minutes.
+
+Les fins de semaine de l'ete partent vite, surtout les longues fins de semaine. Si vous avez des dates fixes en tete, reservez le plus tot possible.
+
+## Questions frequentes
+
+### Quel est le prix pour louer McLaren Montreal?
+
+Le McLaren 600LT se loue $1,199 par jour et le 600LT Spider coute $1,999 par jour. Les deux modeles sont livres partout dans le Grand Montreal avec un minimum de 24 heures.
+
+### Faut-il avoir 25 ans pour louer un McLaren?
+
+Oui, l'age minimum est de 25 ans avec un permis valide depuis au moins 5 ans. Une carte de credit au nom du conducteur est requise pour le depot de securite.
+
+### Le McLaren 600LT est-il rapide?
+
+Le 600LT developpe 592 chevaux et fait le 0 a 100 km/h en 2,9 secondes. Le 600LT Spider fait la meme distance en 2,8 secondes grace a son rapport final legerement different.
+
+### Peut-on conduire le McLaren en dehors de Montreal?
+
+Oui, vous pouvez conduire dans les Laurentides, vers Quebec ou dans l'Estrie selon les conditions de votre contrat. Le kilometrage inclus est genereux, et les kilometres supplementaires sont factures a un taux clair specifie d'avance.
+
+### Lequel choisir entre le 600LT et le 600LT Spider?
+
+Le 600LT coupee est plus leger et plus pur pour la conduite sportive. Le Spider ajoute le toit rigide retractable pour rouler a ciel ouvert, ideal pour les sorties en ete.
+
+Pour reserver votre McLaren 600LT, appelez-nous au [438-809-4417](tel:4388094417) ou ecrivez-nous sur [WhatsApp](https://wa.me/14388094417).`,
+  },
+  {
     slug: 'location-lamborghini-montreal-huracan-tecnica-et-urus-disponibles',
     title: 'Location Lamborghini Montreal: Huracan Tecnica et Urus Disponibles',
     date: '2026-09-21',
