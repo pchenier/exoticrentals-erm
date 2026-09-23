@@ -485,6 +485,109 @@ function VehicleCard({
   );
 }
 
+// ── Bookings Tab ───────────────────────────────────────────────────────
+
+type BookingRequest = {
+  id: string;
+  name: string;
+  phone: string;
+  email: string | null;
+  vehicle: string | null;
+  start_date: string;
+  end_date: string;
+  estimate: string | null;
+  message: string | null;
+  sms_status: string;
+  sms_error: string | null;
+  created_at: string;
+};
+
+function BookingsTab({ password }: { password: string }) {
+  const [bookings, setBookings] = useState<BookingRequest[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [err, setErr] = useState("");
+
+  const load = () => {
+    setLoading(true);
+    fetch(`/api/booking-requests?password=${encodeURIComponent(password)}`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+      .then((data) => {
+        if (Array.isArray(data)) setBookings(data);
+        else setErr("Réponse inattendue du serveur");
+      })
+      .catch((e) => setErr(e.message))
+      .finally(() => setLoading(false));
+  };
+
+  useEffect(() => { load(); }, []);
+
+  const del = async (id: string) => {
+    if (!confirm("Supprimer cette demande ?")) return;
+    await fetch(`/api/booking-requests?password=${encodeURIComponent(password)}&id=${id}`, { method: "DELETE" });
+    load();
+  };
+
+  // SMS failed badge = the June outage pattern: request saved, SMS never
+  // arrived. These are the ones the admin would otherwise never see.
+  const smsFailed = bookings.filter((b) => b.sms_status === "failed").length;
+
+  if (loading) return <div className="max-w-5xl mx-auto p-4 text-white/40 text-xs">Chargement…</div>;
+
+  return (
+    <div className="max-w-5xl mx-auto p-4 flex flex-col gap-3">
+      {err && <div className="text-red-400 text-xs px-4 py-2 border border-red-400/20">{err}</div>}
+      <div className="flex items-center justify-between">
+        <span className="text-[10px] text-white/30 tracking-widest uppercase">
+          {bookings.length} demande{bookings.length > 1 ? "s" : ""}
+          {smsFailed > 0 && <span className="text-red-400"> · {smsFailed} SMS échoué{smsFailed > 1 ? "s" : ""}</span>}
+        </span>
+        <button
+          onClick={load}
+          className="text-[10px] tracking-widest uppercase border border-white/10 hover:border-[#c9a96e]/40 text-white/60 hover:text-[#c9a96e] px-3 py-1.5 transition-colors"
+        >
+          Rafraîchir
+        </button>
+      </div>
+
+      {bookings.length === 0 && (
+        <div className="text-white/40 text-xs border border-white/10 px-4 py-8 text-center">
+          Aucune demande pour le moment. Les soumissions du formulaire apparaissent ici en sécurité, même si l&apos;SMS échoue.
+        </div>
+      )}
+
+      {bookings.map((b) => (
+        <div key={b.id} className="border border-white/10 bg-[#0d0d0d] p-4 flex flex-col gap-2">
+          <div className="flex items-start justify-between gap-4">
+            <div className="flex flex-col gap-0.5">
+              <span className="text-sm text-white">{b.name}</span>
+              <span className="text-[11px] text-white/50">{b.phone}{b.email ? ` · ${b.email}` : ""}</span>
+            </div>
+            <div className="flex items-center gap-2 shrink-0">
+              {b.sms_status === "sent" && <span className="text-[9px] tracking-widest uppercase text-green-400 border border-green-400/30 px-2 py-1">SMS OK</span>}
+              {b.sms_status === "failed" && (
+                <span className="text-[9px] tracking-widest uppercase text-red-400 border border-red-400/30 px-2 py-1" title={b.sms_error ?? ""}>
+                  SMS échec
+                </span>
+              )}
+              <button onClick={() => del(b.id)} className="text-[9px] tracking-widest uppercase text-white/30 hover:text-red-400 transition-colors">
+                Supprimer
+              </button>
+            </div>
+          </div>
+          <div className="flex flex-wrap gap-x-6 gap-y-1 text-[11px] text-white/60">
+            <span><span className="text-white/30 uppercase tracking-wider text-[9px]">Véhicule </span>{b.vehicle || "—"}</span>
+            <span><span className="text-white/30 uppercase tracking-wider text-[9px]">Pickup </span>{b.start_date}</span>
+            <span><span className="text-white/30 uppercase tracking-wider text-[9px]">Retour </span>{b.end_date}</span>
+            {b.estimate && <span><span className="text-white/30 uppercase tracking-wider text-[9px]">Estimation </span>{b.estimate}</span>}
+          </div>
+          {b.message && <div className="text-[11px] text-white/60 border-t border-white/5 pt-2">{b.message}</div>}
+          <div className="text-[9px] text-white/25">{new Date(b.created_at).toLocaleString("fr-CA")}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 // ── Main Admin Page ────────────────────────────────────────────────────
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false);
@@ -493,6 +596,7 @@ export default function AdminPage() {
   const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState<string | null>(null);
   const [search, setSearch] = useState("");
+  const [tab, setTab] = useState<"fleet" | "bookings">("fleet");
 
   // Load vehicles from live API on auth
   useEffect(() => {
@@ -630,29 +734,45 @@ export default function AdminPage() {
       <div className="sticky top-0 z-50 bg-[#0d0d0d] border-b border-white/10 px-4 py-3 flex items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <h1 className="text-[10px] tracking-[0.3em] uppercase text-[#c9a96e]">Fleet Admin</h1>
-          <span className="text-[10px] text-white/30">{vehicles.length} vehicles</span>
+          {/* Tab switcher: Fleet / Bookings */}
+          <div className="flex border border-white/10">
+            <button
+              onClick={() => setTab("fleet")}
+              className={`text-[10px] tracking-widest uppercase px-3 py-1.5 transition-colors ${tab === "fleet" ? "bg-[#c9a96e] text-black font-medium" : "text-white/50 hover:text-[#c9a96e]"}`}
+            >
+              Fleet
+            </button>
+            <button
+              onClick={() => setTab("bookings")}
+              className={`text-[10px] tracking-widest uppercase px-3 py-1.5 transition-colors ${tab === "bookings" ? "bg-[#c9a96e] text-black font-medium" : "text-white/50 hover:text-[#c9a96e]"}`}
+            >
+              Bookings
+            </button>
+          </div>
         </div>
-        <div className="flex items-center gap-3">
-          <input
-            placeholder="Search..."
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="bg-[#111] border border-white/10 focus:border-[#c9a96e]/50 outline-none px-3 py-1.5 text-white text-xs w-32 sm:w-48"
-          />
-          <button
-            onClick={addVehicle}
-            className="text-[10px] tracking-widest uppercase border border-white/10 hover:border-[#c9a96e]/40 text-white/60 hover:text-[#c9a96e] px-3 py-1.5 transition-colors"
-          >
-            + Add
-          </button>
-          <button
-            onClick={handleSave}
-            disabled={saving}
-            className="bg-[#c9a96e] text-black text-[10px] tracking-widest uppercase font-medium px-4 py-1.5 hover:bg-[#c9a96e]/80 transition-colors disabled:opacity-40"
-          >
-            {saving ? "Saving..." : "Save All"}
-          </button>
-        </div>
+        {tab === "fleet" && (
+          <div className="flex items-center gap-3">
+            <input
+              placeholder="Search..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="bg-[#111] border border-white/10 focus:border-[#c9a96e]/50 outline-none px-3 py-1.5 text-white text-xs w-32 sm:w-48"
+            />
+            <button
+              onClick={addVehicle}
+              className="text-[10px] tracking-widest uppercase border border-white/10 hover:border-[#c9a96e]/40 text-white/60 hover:text-[#c9a96e] px-3 py-1.5 transition-colors"
+            >
+              + Add
+            </button>
+            <button
+              onClick={handleSave}
+              disabled={saving}
+              className="bg-[#c9a96e] text-black text-[10px] tracking-widest uppercase font-medium px-4 py-1.5 hover:bg-[#c9a96e]/80 transition-colors disabled:opacity-40"
+            >
+              {saving ? "Saving..." : "Save All"}
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Save message */}
@@ -662,20 +782,24 @@ export default function AdminPage() {
         </div>
       )}
 
-      {/* Vehicle list */}
-      <div className="max-w-5xl mx-auto p-4 flex flex-col gap-2">
-        {filtered.map((v) => {
-          const originalIndex = vehicles.indexOf(v);
-          return (
-            <VehicleCard
-              key={v.id}
-              vehicle={v}
-              onChange={(nv) => updateVehicle(originalIndex, nv)}
-              onDelete={() => deleteVehicle(originalIndex)}
-            />
-          );
-        })}
-      </div>
+      {/* Bookings tab */}
+      {tab === "bookings" ? (
+        <BookingsTab password={ADMIN_PASSWORD} />
+      ) : (
+        <div className="max-w-5xl mx-auto p-4 flex flex-col gap-2">
+          {filtered.map((v) => {
+            const originalIndex = vehicles.indexOf(v);
+            return (
+              <VehicleCard
+                key={v.id}
+                vehicle={v}
+                onChange={(nv) => updateVehicle(originalIndex, nv)}
+                onDelete={() => deleteVehicle(originalIndex)}
+              />
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
