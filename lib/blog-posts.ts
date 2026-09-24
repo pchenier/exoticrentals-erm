@@ -9,6 +9,93 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-griffintown-luxury-cars-in-montreal-s-hottest-neighbourhood',
+    title: 'Exotic Car Rental Griffintown: Luxury Cars in Montreal\'s Hottest Neighbourhood',
+    date: '2026-09-24',
+    description: 'Exotic car rental Griffintown Montreal from $400/day. Lamborghini, McLaren, Audi R8 and more delivered to your door. Book 438-809-4417.',
+    content: `Exotic car rental Griffintown Montreal starts at $400/day for a Toyota GR Supra and runs up to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh, with every car in our fleet delivered directly to your Griffintown address, hotel, or condo tower with a 24 hour minimum rental. No need to leave the neighbourhood to pick up keys. The cars come to you.
+
+Griffintown has become one of the densest concentrations of new luxury condos in Canada, sitting between Old Montreal and the Lachine Canal. If you live on Rue de la Montagne extension, near the Wellington village strip, or in one of the towers by the canal, you are minutes from the best driving roads in the city. An exotic car rental Griffintown Montreal booking puts a Lamborghini or McLaren in your parking spot faster than most people finish their morning coffee.
+
+## How Much Does Exotic Car Rental in Griffintown Cost?
+
+Expect to pay between $400/day and $2,399/day depending on the car you choose. The Toyota GR Supra at $400/day with 420 hp is the entry point, while the Mercedes-Maybach S680 by Virgil Abloh at $2,399/day with 621 hp sits at the top of the range.
+
+Here is what the middle of the fleet looks like:
+
+- Lamborghini Huracán Tecnica: $1,599/day, 631 hp, 0-100 km/h in 3.2 seconds
+- Lamborghini Huracán EVO Spyder: $1,499/day, 631 hp, 0-100 in 3.1 seconds
+- McLaren 600LT Spider: $1,999/day, 592 hp, 0-100 in 2.8 seconds
+- Audi R8 Spyder: $1,299/day, 640 hp, 0-100 in 3.5 seconds
+- BMW M4 Competition x KITH: $599/day, 503 hp, 0-100 in 3.8 seconds
+
+If you want the full list with photos and specs, browse the [complete fleet](/fleet). Delivery within Griffintown is included, and the minimum rental is 24 hours.
+
+## Which Exotic Cars Should You Rent in Griffintown?
+
+The best car depends on what you are doing. For a night out on Wellington or Notre-Dame, a drop-top like the [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder) at $1,499/day is the move: 631 hp, the roof down, and the V10 soundtrack echoing off the condo towers.
+
+For pure driver engagement, the [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) at $1,999/day is hard to beat. It hits 100 km/h in 2.8 seconds, which is the quickest drop-top in the fleet, and the carbon fibre construction makes it feel like a race car with plates. If you need space for passengers or luggage, the [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day offers 641 hp and 0-100 in 3.6 seconds with genuine SUV practicality, useful if you are heading to Tremblant or the Eastern Townships.
+
+For a business trip or a wedding, the [Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600) at $999/day delivers 550 hp and a rear cabin that rivals first class air travel.
+
+## How Does Delivery Work in Griffintown?
+
+We deliver the car to you, wherever you are in Griffintown. Condo underground garages, hotel valet stands, office buildings on Rue Ottawa, it all works. The minimum rental is 24 hours, and the delivery and pickup within Griffintown are handled by our team so you never have to drive across the city to sign paperwork.
+
+The process is simple. You book by phone or WhatsApp, we confirm the car and the time, and a team member arrives with the car, walks you through the controls, and hands over the keys. Insurance requirements, deposits, and driver licence rules are all covered in detail on our [FAQ page](/faq) and our [how it works page](/how-it-works). Most Griffintown deliveries happen within a few hours of booking confirmation.
+
+## What Are the Best Drives from Griffintown in an Exotic Car?
+
+Griffintown is one of the best launch points in Montreal for a proper drive. Within ten minutes you are on the streets of [Old Montreal](/locations/old-montreal), which is where most clients take their photos before heading out.
+
+Three routes worth planning around:
+
+- The Lachine Canal and Rue Saint-Patrick westbound, then up through [Saint-Henri](/locations/saint-henri) and onto the highways toward the West Island
+- The South Shore run: cross the Pont Jacques-Cartier, then open it up toward [Longueuil](/locations/longueuil) and Brossard
+- The classic Laurentians run: Highway 15 north toward Saint-Sauveur, about 45 minutes from Griffintown, with the [Lamborghini Huracán Tecnica](/fleet/lamborghini-huracan-tecnica) hitting 100 km/h in 3.2 seconds before you clear the Turcot interchange
+
+If you are staying local, Wellington Street on a summer evening in the Audi R8 Spyder at $1,299/day is its own kind of event. The 640 hp V10 does not need a highway to make an impression.
+
+## Who Can Rent an Exotic Car in Griffintown?
+
+You need a valid driver's licence, you must meet the minimum age requirement for the car category, and you need a credit card for the security deposit. Deposit amounts vary by car: the higher performance the machine, the higher the hold. Everything is confirmed in writing before delivery so there are no surprises.
+
+International visitors renting in Griffintown are welcome, and we regularly deliver to hotels and short-term rentals in the area. If you have questions about licences, insurance, or age limits for a specific car, check the [FAQ](/faq) or contact us directly. You can also read what other Montreal clients have said on our [reviews page](/reviews).
+
+## Why Rent an Exotic Car in Griffintown Specifically?
+
+Griffintown has the highest concentration of luxury condo towers in Montreal, and most of our downtown deliveries land within a few blocks of Rue Notre-Dame Ouest. An exotic car rental Griffintown Montreal booking means zero commute to the pickup point, which matters when you are paying by the day.
+
+The neighbourhood is also the fastest route out of the city. From a Griffintown parking garage you are on the A-15 or A-20 in under five minutes, which is quicker than starting from [Outremont](/locations/outremont) or the Plateau. For clients booking a [Lamborghini rental in Montreal](/lamborghini-rental-montreal), that access is a real advantage: less traffic, more time with the throttle open.
+
+We also serve the surrounding areas, including [Verdun](/locations/verdun), [Pointe-Saint-Charles adjacent streets](/locations/saint-henri), and [Laval](/locations/laval) for clients coming from the North Shore.
+
+## FAQ
+
+### How much does it cost to rent an exotic car in Griffintown?
+
+Prices range from $400/day for the Toyota GR Supra to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh. Popular mid-range options include the Lamborghini Huracán EVO at $1,499/day and the McLaren 600LT at $1,199/day.
+
+### Is delivery included for Griffintown rentals?
+
+Yes, delivery to any Griffintown address, condo, or hotel is included with your rental. The minimum rental period is 24 hours, and pickup at the end of your booking is handled by our team.
+
+### What is the fastest car available for rent in Griffintown?
+
+The McLaren 600LT Spider hits 100 km/h in 2.8 seconds, making it the quickest convertible in the fleet. The McLaren 600LT coupe is nearly as fast at 2.9 seconds and rents for $1,199/day.
+
+### Can I rent a Lamborghini in Griffintown for a day?
+
+Yes, the Lamborghini Huracán Tecnica rents for $1,599/day with 631 hp and a 0-100 km/h time of 3.2 seconds. The Huracán EVO and EVO Spyder are both available at $1,499/day.
+
+### Do I need insurance to rent an exotic car in Griffintown?
+
+Yes, valid insurance coverage is required, and options are confirmed at booking. A refundable security deposit is held on a credit card, with the amount depending on the car you choose.
+
+To book your exotic car rental in Griffintown, call us at [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm your car and delivery time today.`,
+  },
+  {
     slug: 'location-suv-de-luxe-montreal-urus-g63-et-maybach',
     title: 'Location SUV de Luxe Montreal: Urus, G63 et Maybach',
     date: '2026-09-23',
