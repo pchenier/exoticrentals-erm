@@ -11564,7 +11564,47 @@ Pour réserver votre Porsche 911 4S TechArt à Montréal, écrivez nous sur [Wha
     date: "2026-06-20",
     image: "/cars/mclaren.jpg",
     description: "592hp V8 twin-turbo. Longtail. RWD. La McLaren 600LT est la voiture de la flotte qui demande le plus et qui donne le plus en retour.",
-    content: "<h2>McLaren 600LT, Le Supercar le Plus Exigeant et le Plus Gratifiant de la Flotte</h2><p>La McLaren 600LT est la voiture de la flotte qui demande le plus à son conducteur. Le LT, pour Longtail, est une désignation que McLaren réserve à ses créations les plus radicales dérivées de la compétition. Pour la 600LT, ça signifie 96 kilogrammes de poids en moins par rapport à la 570S, obtenus par des panneaux de carrosserie en fibre de carbone, des vitres plus fines, et la suppression de tout ce qui n'était pas fonctionnel. Les 592 chevaux du V8 twin-turbo agissent sur un poids beaucoup plus faible. Le résultat est une voiture qui communique tout et pardonne peu.</p><p>Les sorties d'échappement sur le toit de la 600LT, derrière les vitres latérales, sont la signature visuelle la plus distinctive de la voiture. Elles produisent un son à mi-chemin entre un supercar de route et une voiture de circuit. Les tuyaux d'échappement relevés signifient également que le centre de gravité reste bas, que le plancher est dégagé, et que l'aérodynamique peut travailler sans obstruction. Chaque détail de cette voiture a une raison d'être.</p><p>1599 dollars par jour. La McLaren pour les conducteurs qui veulent être challengés. La récompense est proportionnelle à l'engagement.</p><p>Pour réserver, écrivez-nous sur <a href=\"https://wa.me/14388094417\">WhatsApp</a> ou appelez le <strong>438-809-4417</strong>. Livraison incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>",
+    content: `<h2>McLaren 600LT, Le Supercar le Plus Exigeant et le Plus Gratifiant de la Flotte</h2>
+<p>La McLaren 600LT se loue 1599 dollars par jour chez Exotic Rentals Montreal, un tarif qui inclut la livraison sur l'île de Montréal, à Laval et sur la Rive-Sud, et qui donne accès à un V8 twin-turbo de 592 chevaux dans un châssis allégé de 96 kilogrammes par rapport à la 570S. C'est la voiture de la flotte qui demande le plus à son conducteur, et celle qui donne le plus en retour.</p>
+<h2>Combien coûte la location d'une McLaren 600LT à Montréal?</h2>
+<p>La McLaren 600LT se loue 1599 dollars par jour chez Exotic Rentals Montreal. Ce tarif correspond au statut de la voiture: c'est la McLaren pour les conducteurs qui veulent être challengés, celle dont la récompense est proportionnelle à l'engagement.</p>
+<p>Le prix inclut la livraison sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, le plein fait, prête à partir. Pour réserver, deux canaux directs sont disponibles: un message sur WhatsApp ou un appel au 438-809-4417.</p>
+<h2>Que signifie le LT dans McLaren 600LT?</h2>
+<p>LT signifie Longtail. C'est une désignation que McLaren réserve à ses créations les plus radicales, dérivées de la compétition. Une LT n'est pas une simple variante plus puissante d'un modèle existant: c'est une réinterprétation complète, pensée pour offrir des sensations plus proches de la piste que de la route.</p>
+<p>Le programme Longtail impose des choix extrêmes: allègement systématique, aérodynamique travaillée et priorité absolue à la sensation de conduite. Pour la 600LT, cette philosophie donne une voiture qui communique tout et pardonne peu. Chaque détail a une raison d'être, du choix des matériaux jusqu'à la position des sorties d'échappement. Le conducteur qui accepte ce niveau d'exigence reçoit en retour une expérience de pilotage que les versions moins radicales ne peuvent pas offrir.</p>
+<h2>Pourquoi la McLaren 600LT est-elle plus légère que la 570S?</h2>
+<p>La McLaren 600LT pèse 96 kilogrammes de moins que la 570S. Cette perte de poids a été obtenue par trois mesures précises:</p>
+<ul><li>des panneaux de carrosserie en fibre de carbone</li>
+<li>des vitres plus fines</li>
+<li>la suppression de tout ce qui n'était pas fonctionnel</li>
+</ul>
+Ces 96 kilogrammes changent le caractère de la voiture, car les 592 chevaux du V8 twin-turbo agissent sur un poids beaucoup plus faible. Le rapport poids-puissance s'en trouve amélioré, tout comme les réactions de la voiture en virage, au freinage et à l'accélération. La fibre de carbone réduit la masse, les vitres fines allègent l'habitacle, et la suppression du superflu retire chaque gramme qui ne sert pas à la performance. Le résultat est une machine où chaque cheval travaille sur moins de matière.
+<h2>Pourquoi les échappements de la McLaren 600LT sortent-ils sur le toit?</h2>
+<p>Les sorties d'échappement de la 600LT sont placées sur le toit, derrière les vitres latérales. C'est la signature visuelle la plus distinctive de la voiture. On reconnaît une 600LT de loin rien qu'à cette ligne d'échappement relevée.</p>
+<p>Cette position n'est pas qu'esthétique. Les tuyaux d'échappement relevés permettent au centre de gravité de rester bas, dégagent le plancher, et laissent l'aérodynamique travailler sans obstruction. Côté son, le résultat se situe à mi-chemin entre un supercar de route et une voiture de circuit. Chaque montée en régime rappelle que cette voiture descend d'une philosophie de compétition, et les 592 chevaux du V8 twin-turbo s'expriment avec une voix réservée aux LT.</p>
+<h2>À qui s'adresse la McLaren 600LT?</h2>
+<p>La 600LT s'adresse aux conducteurs qui veulent être challengés. C'est la voiture de la flotte qui demande le plus à son conducteur: elle communique tout et pardonne peu.</p>
+<p>Concrètement, la voiture informe en permanence le conducteur de ce qui se passe au niveau de la route, de la direction et du châssis. Elle répond avec précision à chaque entrée, mais laisse peu de place à l'imprécision. Le conducteur attentif est récompensé au-delà de ce qu'une voiture plus permissive peut offrir. Celui qui cherche une conduite isolée et passive devrait plutôt se tourner vers une autre voiture de la flotte. Celui qui veut ressentir chaque détail choisira la 600LT.</p>
+<h2>Comment réserver la McLaren 600LT à Montréal?</h2>
+<p>Pour réserver la McLaren 600LT, écrivez-nous sur WhatsApp ou appelez le 438-809-4417. Ces deux canaux permettent de parler directement avec l'équipe de location.</p>
+<p>La livraison est incluse dans trois zones:</p>
+<ul><li>l'île de Montréal</li>
+<li>Laval</li>
+<li>la Rive-Sud</li>
+</ul>
+La voiture arrive détaillée, le plein fait, prête à partir. Le tarif est de 1599 dollars par jour pour cette 600LT: 592 chevaux, 96 kilogrammes de moins qu'une 570S, échappements sur le toit.
+<h2>Questions frequentes</h2>
+<h3>Combien coûte la location de la McLaren 600LT?</h3>
+<p>La McLaren 600LT se loue 1599 dollars par jour. Ce tarif inclut la livraison sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, le plein fait, prête à partir.</p>
+<h3>Quelle est la puissance de la McLaren 600LT?</h3>
+<p>La 600LT développe 592 chevaux grâce à son V8 twin-turbo. Ces chevaux agissent sur un poids réduit de 96 kilogrammes par rapport à la 570S. C'est cette combinaison qui donne à la voiture son caractère radical.</p>
+<h3>Que signifie LT chez McLaren?</h3>
+<p>LT signifie Longtail, une désignation que McLaren réserve à ses créations les plus radicales dérivées de la compétition. La 600LT applique cette philosophie avec ses panneaux en fibre de carbone, ses vitres plus fines et ses échappements sur le toit. Chaque détail de la voiture a une raison d'être.</p>
+<h3>Où la McLaren 600LT peut-elle être livrée?</h3>
+<p>La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, le plein fait, prête à partir. Il suffit de réserver par WhatsApp ou par téléphone au 438-809-4417.</p>
+<h3>La McLaren 600LT est-elle facile à conduire?</h3>
+<p>La McLaren 600LT est la voiture de la flotte qui demande le plus à son conducteur. Elle communique tout et pardonne peu. La récompense est proportionnelle à l'engagement.</p>
+<p>Pour réserver la McLaren 600LT, écrivez-nous sur <a href="https://wa.me/14388094417">WhatsApp</a> ou appelez le 438-809-4417. Livraison incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>`,
   },
   {
     slug: "porsche-718-boxster-convertible-summer-montreal",
