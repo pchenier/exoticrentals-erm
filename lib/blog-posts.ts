@@ -9,6 +9,87 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-ahuntsic-north-montreal-supercar-delivery',
+    title: 'Exotic Car Rental Ahuntsic: North Montreal Supercar Delivery',
+    date: '2026-09-25',
+    description: 'Exotic car rental Ahuntsic Montreal from $400/day. Lamborghini, McLaren, Audi R8 and more, delivered to Ahuntsic with free drop-off and pickup across North Montreal.',
+    content: `## How Much Does an Exotic Car Rental in Ahuntsic Montreal Cost?
+
+An exotic car rental Ahuntsic Montreal costs between $400 and $2,399 per day depending on the model, with free delivery anywhere in Ahuntsic and the surrounding North Montreal boroughs. Our fleet runs from the Toyota GR Supra at $400/day with 420 hp all the way up to the Mercedes-Maybach S680 by Virgil Abloh at $2,399/day with 621 hp. Every rental includes delivery to your address, whether that is a condo near Sauvé station or a house in the northern part of the borough.
+
+Ahuntsic is one of our most active delivery zones because it sits right on our North Montreal route. We bring the car to you, you drive it, and we pick it up at the end of the rental. No depot visit, no shuttle, no wasted afternoon. If you want to see the full lineup before you commit, browse the [complete fleet](/fleet).
+
+## Which Exotic Cars Can Be Delivered to Ahuntsic?
+
+Every car in our fleet can be delivered to Ahuntsic, from entry-level performance sedans to full supercars. Delivery within Montreal is included in the rental price, and most bookings in Ahuntsic are scheduled within 24 to 48 hours of confirmation.
+
+Here are the cars Ahuntsic clients request most:
+
+- Lamborghini Huracán EVO Spyder: $1,499/day, 631 hp, 0-100 km/h in 3.1 seconds, top down on Gouin Boulevard
+- Lamborghini Urus: $1,399/day, 641 hp, 0-100 km/h in 3.6 seconds, the SUV that handles a Montreal winter
+- Audi R8 Spyder: $1,299/day, 640 hp, 0-100 km/h in 3.5 seconds
+- McLaren 600LT Spider: $1,999/day, 592 hp, 0-100 km/h in 2.8 seconds
+- BMW M4 Competition x KITH: $599/day, 503 hp, 0-100 km/h in 3.8 seconds
+
+The Huracán EVO Spyder is the single most requested car in North Montreal, and it makes sense. The convertible roof, the V10 screaming under your right foot, and a run along the Rivière des Prairies at sunset is the whole point of renting an exotic in this city. You can see the full spec sheet on the [Huracán EVO Spyder page](/fleet/lamborghini-huracan-evo-spyder).
+
+## How Does Delivery to Ahuntsic Actually Work?
+
+We deliver the car to your door in Ahuntsic, hand you the keys after a walkthrough, and pick the car up at the end of the rental window. Delivery is free for Montreal addresses, and the minimum rental is 24 hours.
+
+The process is simple. You book by phone or WhatsApp, we confirm the car, the date, and the delivery address, then a driver brings the car to you in Ahuntsic. Plan a 15 minute walkthrough: we cover the controls, the driving modes, the delivery and return fuel level, and the insurance details. If you have never rented an exotic before, read [how it works](/how-it-works) first, it answers 90 percent of the questions we get on delivery day.
+
+For clients outside the borough, we also cover the rest of the North Shore and Greater Montreal, including [Laval](/locations/laval), [Ahuntsic's neighbor Saint-Laurent](/locations/saint-laurent), and [Terrebonne](/locations/terrebonne).
+
+## What Are the Requirements to Rent an Exotic Car in Ahuntsic?
+
+You need to be at least 25 years old for most supercars, hold a valid driver's license, and provide full coverage insurance or accept our damage deposit. The deposit varies by car, from $2,000 on entry-level models up to $10,000 on the Lamborghini and McLaren lineup.
+
+Some cars are available to drivers 21 and older, typically the BMW M3 Competition at $650/day and the Toyota GR Supra at $400/day. The full breakdown of age rules, deposits, mileage caps, and insurance options is on our [FAQ page](/faq). One detail worth knowing: mileage is capped per rental, usually 150 to 200 km per day, and extra kilometers are billed at a published rate, so check the number before you plan a run out to Saint-Jérôme.
+
+## What Are the Best Roads to Drive an Exotic Car Around Ahuntsic?
+
+Boulevard Gouin Ouest along the Rivière des Prairies is the best driving road in Ahuntsic, with long straights, mature trees, and river views. From there, the bridges to Laval give you quick access to open highway, and a 20 minute drive south puts you in Old Montreal for dinner.
+
+A route we recommend to clients: start on Gouin near Ahuntsic Park, cross into Laval via the Pont Viau, open the car up on Highway 15 north toward Saint-Jérôme, then come back through [Griffintown](/locations/griffintown) or [Old Montreal](/locations/old-montreal) in the evening. The Huracán EVO at $1,499/day with 610 hp is the perfect car for this loop, and the [Audi R8](/cars/audi-r8) at $1,099/day with 640 hp is the smarter pick if you want daily usability with the same V10 drama.
+
+## Is an Exotic Car Rental in Ahuntsic Worth It for a Special Event?
+
+Yes, an exotic car rental Ahuntsic Montreal is one of the most effective ways to mark a wedding, an anniversary, a birthday, or a business arrival. Delivery to your home or venue means the car is there when the photos happen, not two boroughs away.
+
+For weddings, the two most booked cars in Ahuntsic are the Bentley Bentayga at $699/day with 542 hp and the Mercedes-Maybach GLS 600 at $999/day with 550 hp. Both seat four adults in comfort, both photograph beautifully, and both reach 100 km/h in under 5 seconds if the schedule runs tight. For a bachelor party or a birthday, the [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day seats five and still hits 100 km/h in 3.6 seconds. Read what other Montreal clients said about their rentals on our [reviews page](/reviews).
+
+## Can You Rent an Exotic Car in Ahuntsic for a Week or a Month?
+
+Yes, weekly and monthly rates are available on every car in the fleet, with discounts that scale with the length of the rental. A week in the Audi RS6 at $549/day with 591 hp drops meaningfully on a monthly contract, and long-term clients get priority delivery windows in Ahuntsic.
+
+Long rentals are popular with film productions and business travelers flying into YUL. If you are landing at the airport and heading north, delivery can be arranged directly to your Ahuntsic address so the car is waiting when you arrive. For corporate accounts and repeat clients, we handle multi-car bookings, so a production can grab the [Cadillac Escalade](/fleet/cadillac-escalade) at $599/day for crew and the [McLaren 600LT](/cars/mclaren-600lt) at $1,199/day for the hero shots in the same booking.
+
+## FAQ
+
+### How much does it cost to rent a Lamborghini in Ahuntsic?
+
+Renting a Lamborghini in Ahuntsic costs between $1,399 and $1,599 per day. The Urus SUV starts at $1,399/day with 641 hp, and the Huracán Tecnica tops the range at $1,599/day with 631 hp and a 0-100 km/h time of 3.2 seconds. Delivery to Ahuntsic is included.
+
+### Do you deliver exotic cars to Ahuntsic for free?
+
+Yes, delivery and pickup anywhere in Ahuntsic and Greater Montreal is included in the rental price. A driver brings the car to your address, completes a 15 minute walkthrough with you, and picks the car up at the end of the rental. There is no depot you need to visit.
+
+### How old do you need to be to rent an exotic car in Ahuntsic?
+
+Most supercars require drivers to be 25 or older with a valid license and full coverage insurance. Some performance cars, including the BMW M3 Competition at $650/day and the Toyota GR Supra at $400/day, are available to drivers 21 and older. Deposits range from $2,000 to $10,000 depending on the model.
+
+### Can I rent an exotic car in Ahuntsic for just one day?
+
+Yes, the minimum rental is 24 hours, and most Ahuntsic bookings are exactly one day. Mileage is typically capped at 150 to 200 km per day, with extra kilometers billed at a published rate. Weekly and monthly rentals are also available at reduced daily rates.
+
+### Which exotic car is best for a Montreal winter rental in Ahuntsic?
+
+The Lamborghini Urus at $1,399/day is the strongest winter exotic in the fleet, with 641 hp, all-wheel drive, and winter tire packages available in season. The Mercedes-Maybach GLS 600 at $999/day and the Cadillac Escalade at $599/day are the other all-weather picks. Low supercars like the McLaren 600LT Spider stay on our dry-pavement list.
+
+To book an exotic car rental Ahuntsic Montreal, call us at [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm your car and delivery time.`,
+  },
+  {
     slug: 'exotic-car-rental-griffintown-luxury-cars-in-montreal-s-hottest-neighbourhood',
     title: 'Exotic Car Rental Griffintown: Luxury Cars in Montreal\'s Hottest Neighbourhood',
     date: '2026-09-24',
