@@ -3080,6 +3080,13 @@ La 600LT est disponible dès maintenant. Appelez le 4388094417 ou envoyez un Wha
 
 Notre flotte Ferrari est réduite mais exclusive. La Ferrari 488 GTB est la star de notre collection. Avec son V8 biturbo de 670 chevaux, elle passe de 0 à 100 km/h en 3 secondes. La location se fait à la journée, avec un minimum de 24 heures. Le prix pour louer une Ferrari à Montréal varie selon la saison et la durée. En basse saison, comptez à partir de 1 200 $ par jour. En haute saison (mai à septembre), les tarifs augmentent de 20 à 30 %. Pour un devis précis, contactez-nous directement.
 
+Voici comment les tarifs se découpent concrètement :
+
+- Semaine hors saison : à partir de 1 200 $ par jour pour la 488 GTB
+- Fin de semaine : environ 1 500 $ par jour
+- Haute saison : jusqu'à 1 800 $ par jour selon la disponibilité
+- Locations de 3 jours et plus : tarifs dégressifs calculés selon vos dates
+
 Nous avons aussi des modèles comme la Lamborghini Huracan et la McLaren 600LT, si vous voulez comparer. Découvrez notre [page de location Ferrari à Montréal](/ferrari-rental-montreal) pour plus de détails.
 
 ## Les conditions de location pour une Ferrari
@@ -3087,6 +3094,18 @@ Nous avons aussi des modèles comme la Lamborghini Huracan et la McLaren 600LT, 
 Pour louer une Ferrari chez Exotic Rentals Montreal, vous devez avoir au moins 25 ans. Pour certains modèles, 21 ans suffisent. Le permis de conduire doit être valide depuis au moins 2 ans. Une caution est exigée, elle varie selon le modèle (généralement entre 5 000 $ et 10 000 $). Une assurance complète est obligatoire. Nous offrons une assurance au tiers, mais pour une Ferrari, nous recommandons une couverture tous risques. Vous pouvez ajouter une assurance supplémentaire pour réduire la franchise.
 
 La livraison est gratuite partout dans le Grand Montréal, 24h/24 et 7j/7. Nous pouvons vous amener la voiture à l'aéroport, à votre hôtel ou à votre domicile. Pour les locations plus longues, des tarifs dégressifs sont disponibles.
+
+Le processus à la livraison est simple et rapide. Notre agent arrive avec la voiture, vous fait le tour du véhicule, prend les photos de l'état, et vous explique les modes de conduite, les précautions à prendre avec le bas de caisse et le fonctionnement des commandes. Comptez une quinzaine de minutes, pas plus. Au retour, nous venons chercher la voiture à l'adresse de votre choix, que ce soit votre domicile, votre hôtel ou même un autre endroit dans le Grand Montréal. Consultez notre page [comment ça marche](/how-it-works) pour le déroulé complet.
+
+## Où conduire votre Ferrari à Montréal ?
+
+Une Ferrari se conduit partout, mais certains itinéraires autour de Montréal méritent vraiment le détour. Voici nos trois coups de cœur pour une journée au volant de la 488 GTB :
+
+- Le Vieux-Montréal et le port : parfait pour les photos et une balade lente où le V8 biturbo fait son effet sur les rues pavées
+- Les Laurentides par la route 117 vers Saint-Sauveur et Val-David : les courbes en montée sont l'endroit idéal pour entendre le moteur monter dans les tours
+- La rive sud vers Chambly par les routes secondaires : moins de trafic et de belles lignes droites pour ouvrir un peu
+
+Un conseil de conducteur à un autre : sortez tôt le matin. Les routes des Laurentides sont magnifiques avant 9h, et vous aurez le son du V8 pour vous seuls. Évitez aussi les rues pavées à haute vitesse, la suspension de la 488 GTB est conçue pour la piste et ne pardonne pas les nids-de-poule.
 
 ## Pourquoi choisir Exotic Rentals Montreal ?
 
