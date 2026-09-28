@@ -9,6 +9,95 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'location-suv-de-luxe-montreal-urus-g63-et-plus',
+    title: 'Location SUV de Luxe Montreal: Urus, G63 et Plus',
+    date: '2026-09-28',
+    description: 'Location SUV de luxe à Montreal: Urus à $1,399/jour, G63 AMG à $1,300/jour et plus. Prix, specs et réservation en 5 minutes avec Exotic Rentals Montreal.',
+    image: '/cars/urus_black1.jpg',
+    content: `Une location SUV de luxe Montreal coûte entre $599 et $1,399 par jour selon le modèle, avec le Lamborghini Urus à $1,399/day au sommet et le Cadillac Escalade à $599/day comme option la plus accessible, livré partout dans le Grand Montréal avec un minimum de 24 heures.
+
+Chez Exotic Rentals Montreal, on roule avec ces véhicules à chaque semaine. On connaît leur son, leur tenue de route sur le Décarie et leur comportement dans un stationnement du centre-ville. Voici ce que ça coûte vraiment, ce que chaque SUV vaut sur la route, et comment réserver le bon modèle pour ton besoin.
+
+## Combien Coûte une Location SUV de Luxe Montreal?
+
+Le prix varie de $599 à $1,399 par jour selon le modèle choisi. Le Lamborghini Urus domine à $1,399/day avec ses 641 hp et son 0-100 en 3.6 s, tandis que le Cadillac Escalade reste l'option la plus abordable à $599/day avec 420 hp.
+
+Voici la liste complète des SUV de luxe disponibles:
+
+- Lamborghini Urus: $1,399/day, 641 hp, 0-100 en 3.6 s
+- Lamborghini Urus Black on Black: $1,200/day, 641 hp, 0-100 en 3.5 s
+- Mercedes G63 AMG: $1,300/day, 500 hp
+- Mercedes-Maybach GLS 600: $999/day, 550 hp, 0-100 en 4.8 s
+- Bentley Bentayga: $699/day, 542 hp, 0-100 en 4.4 s
+- Porsche Macan GTS: $600/day, 440 hp, 0-100 en 4.2 s
+- Cadillac Escalade: $599/day, 420 hp, 0-100 en 5.8 s
+- Mercedes GLC63s AMG: $650/day, 510 hp, 0-100 en 3.8 s
+
+Pour un weekend de trois jours, calcule le tarif quotidien multiplié par le nombre de jours, avec des rabais possibles sur les locations plus longues. Tu peux voir tous les détails sur notre [flotte complète](/fleet).
+
+## Quel SUV de Luxe Choisir Selon Ton Besoin?
+
+Ça dépend de ce que tu cherches: performance brute, présence visuelle ou confort pour des invités. Le Urus et le G63 sont les deux stars, mais ils ne jouent pas dans la même catégorie.
+
+Le [Lamborghini Urus](/fleet/lamborghini-urus) est le SUV le plus rapide de notre flotte. Avec 641 hp et un 0-100 en 3.6 s, c'est essentiellement une supercar déguisée en utilitaire. Le [Mercedes G63 AMG](/fleet/mercedes-g63-amg), avec ses 500 hp et son look carré iconique, attire plus de regards sur Saint-Laurent que n'importe quel autre véhicule. Pour transporter des clients ou de la famille dans le confort absolu, le [Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600) à $999/day offre un intérieur que plusieurs comparent à un jet privé, avec 550 hp sous le capot.
+
+Si ton budget est plus serré mais que tu veux quand même du punch, le [Bentley Bentayga](/fleet/bentley-bentayga) à $699/day avec 542 hp et le [Porsche Macan GTS](/fleet/porsche-macan-gts) à $600/day avec 440 hp sont d'excellents compromis entre luxe et performance.
+
+## Pourquoi le Lamborghini Urus est-il le SUV le Plus Populaire?
+
+Parce qu'il combine la performance d'une Huracán avec l'utilité d'un vrai SUV. Le Urus affiche 641 hp, un 0-100 en 3.6 s et un son V8 qui retourne les têtes dans le Vieux-Montréal.
+
+On le recommande pour les occasions où tu veux marquer le coup: anniversaire, tournage, entrée à un événement au Centre Bell. La version Black on Black à $1,200/day, avec son look noir complet, est particulièrement demandée pour les photos et les clips. Si tu aimes le style Lamborghini mais que tu veux un deux portes plus pur, regarde aussi notre [location Lamborghini à Montreal](/lamborghini-rental-montreal) qui inclut les Huracán EVO et Tecnica.
+
+Le Urus reste quand même le choix logique si tu as des passagers, des bagages ou si tu prévois conduire en hiver: les pneus d'hiver et la transmission intégrale en font un véhicule utilisable 12 mois par année.
+
+## Peut-on Louer un SUV de Luxe pour un Mariage ou un Événement?
+
+Oui, et c'est une de nos demandes les plus fréquentes. Le Cadillac Escalade à $599/day est notre best-seller pour les mariages, avec son look massif et son intérieur spacieux qui laisse place aux robes de mariée.
+
+Pour les enterrements de vie de garçon et les sorties en groupe, plusieurs clients combinent un Urus Black on Black et un Escalade pour transporter tout le monde. Le [Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600) est un autre choix populaire pour les mariages: les portes arrière et les sièges massants offrent aux mariés une arrivée relaxante.
+
+On livre partout dans le Grand Montréal, incluant Laval, Longueuil et la Rive-Sud. Pour les détails sur la livraison et les documents requis, consulte notre page [comment ça marche](/how-it-works).
+
+## Quelles Sont les Exigences pour une Location SUV de Luxe Montreal?
+
+Il faut avoir 21 ans ou plus, un permis de conduire valide et une carte de crédit au nom du conducteur. Un dépôt est requis à la prise du véhicule et il est remboursé au retour.
+
+L'assurance de base est incluse dans le tarif, mais tu peux ajouter des protections réductions de franchise pour rouler plus tranquille. Le kilométrage est limité par jour, avec des forfaits kilométriques supplémentaires disponibles si tu prévois un road trip vers les Laurentides ou Québec. Toutes les réponses détaillées sont sur notre [FAQ](/faq).
+
+Pour la conduite hivernale, tous nos SUV sont livrés avec pneus d'hiver obligatoires du 1er décembre au 15 mars, comme la loi l'exige au Québec. Le Urus et le G63 sont d'excellents véhicules d'hiver grâce à leurs transmissions intégrales.
+
+## Livre-t-on dans les Quartiers de Montréal?
+
+Oui, on livre dans tous les quartiers de Montréal et en banlieue. Que tu sois au [Vieux-Montréal](/locations/old-montreal), à [Westmount](/locations/westmount), à [Laval](/locations/laval) ou à [Longueuil](/locations/longueuil), on t'apporte le SUV à l'adresse de ton choix.
+
+On couvre aussi [Brossard](/locations/brossard), [Saint-Jérôme](/locations/saint-jerome), [Terrebonne](/locations/terrebonne) et même [Québec](/locations/quebec-city) pour certaines locations. Le service de livraison coûte selon la distance, et on peut aussi organiser un ramassage à notre bureau si tu préfères venir chercher le véhicule toi-même.
+
+## FAQ
+
+### Quel est le SUV de luxe le moins cher à louer à Montréal?
+
+Le Cadillac Escalade à $599/day est le SUV de luxe le plus abordable de notre flotte, avec 420 hp et un 0-100 en 5.8 s. Le Porsche Macan GTS à $600/day suit de près avec 440 hp et un 0-100 en 4.2 s.
+
+### Quel est le SUV de luxe le plus puissant disponible?
+
+Le Lamborghini Urus et sa version Black on Black sont les plus puissants avec 641 hp chacun. Le Urus standard accélère de 0 à 100 en 3.6 s, tandis que le Black on Black le fait en 3.5 s.
+
+### Faut-il avoir 25 ans pour louer un SUV de luxe à Montréal?
+
+Non, l'âge minimum est de 21 ans avec un permis valide et une carte de crédit au nom du conducteur. Les conducteurs de moins de 25 ans peuvent faire l'objet de frais supplémentaires selon le modèle choisi.
+
+### Peut-on conduire un SUV de luxe loué en hiver au Québec?
+
+Oui, tous nos SUV sont équipés de pneus d'hiver conformes à la loi québécoise du 1er décembre au 15 mars. Les transmissions intégrales du Urus, du G63 et du GLS 600 en font d'excellents véhicules pour la conduite hivernale.
+
+### Combien de temps peut-on louer un SUV de luxe?
+
+Le minimum est de 24 heures et il n'y a pas de maximum. Plusieurs clients louent pour un weekend, mais on offre aussi des locations hebdomadaires et mensuelles avec des tarifs réduits pour les longues durées.
+
+Pour réserver ton SUV de luxe, appelle-nous au [438-809-4417](tel:438-809-4417) ou écris-nous sur [WhatsApp](https://wa.me/14388094417), on confirme ta réservation en quelques minutes.`,
+  },
+  {
     slug: 'exotic-car-rental-ahuntsic-north-montreal-supercar-delivery',
     title: 'Exotic Car Rental Ahuntsic: North Montreal Supercar Delivery',
     date: '2026-09-25',
