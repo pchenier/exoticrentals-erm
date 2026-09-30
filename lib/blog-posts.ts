@@ -9,6 +9,77 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-mount-royal-supercar-delivery-on-the-mountain',
+    title: 'Exotic Car Rental Mount Royal: Supercar Delivery on the Mountain',
+    date: '2026-09-30',
+    description: 'Exotic car rental Mount Royal Montreal from $400/day. Lamborghini, McLaren, Audi R8 and more, delivered to your door on the mountain. Book at 438-809-4417.',
+    content: `Exotic car rental Mount Royal Montreal starts at $400 per day for an Audi RS5 and runs up to $2,399 per day for a Mercedes-Maybach S680, with free delivery to addresses around Mount Royal, Outremont, and the Plateau. The minimum rental is 24 hours, drivers need to be 25 or older for most supercars, and every car arrives detailed, fueled, and ready to drive within roughly an hour of downtown.
+
+We run the largest exotic fleet in the city, so if you live near the mountain or you are staying in one of the hotels and short-term rentals around Pine Avenue or du Parc, your car comes to you. No shuttle to an industrial lot in the suburbs. Here is exactly how it works, what it costs, and which cars make the most sense for the streets around Mount Royal.
+
+## How Much Does Exotic Car Rental Mount Royal Montreal Cost?
+
+You will pay between $400 and $2,399 per day depending on the car. The entry point is the Toyota GR Supra at $400/day with 420 hp and a 0-100 time of 3.9 seconds, which is genuinely quick for the price. From there the ladder climbs fast: the [Audi R8 V10 at $899/day](/cars/audi-r8) with 562 hp, the Lamborghini Urus Black on Black at $1,200/day with 641 hp, and the Lamborghini Huracán Tecnica at $1,599/day with 631 hp and a 0-100 time of 3.2 seconds.
+
+At the top of the fleet sits the Mercedes-Maybach S680 by Virgil Abloh at $2,399/day, 621 hp, 0-100 in 4.4 seconds, which is less about speed and more about arriving. If you want the full supercar experience for a weekend around the mountain, the sweet spot is $1,199 to $1,599, where the [McLaren 600LT](/cars/mclaren-600lt) and both Huracán variants live. You can see the full range on the [fleet page](/fleet).
+
+## Can You Get a Supercar Delivered to Mount Royal?
+
+Yes, delivery to Mount Royal, Outremont, Mile End, and the Plateau is included with your rental. We deliver anywhere in Greater Montreal, and the addresses around the mountain are among the easiest because they sit minutes from our base. The car arrives fueled, cleaned, and inspected, and our driver walks you through the controls, the camera locations, and the driving modes before handing over the keys.
+
+The whole handover takes about 15 minutes. For supercars like the Huracán EVO Spyder at $1,499/day, that walkthrough matters: the steering is quick, the visibility over your shoulder is limited, and knowing where the front lift button is before you crest Camillien-Houde Parkway saves you a scraped lip on a speed bump. If you have questions about delivery windows or documentation, the [contact page](/contact) has the fastest answers.
+
+## Which Cars Work Best on the Streets Around the Mountain?
+
+The roads around Mount Royal reward two very different kinds of cars, and we rent both.
+
+For the drive up Chemin Camillien-Houde and Olmsted Road, you want something low, loud, and sharp. The [McLaren 600LT at $1,199/day](/cars/mclaren-600lt), 592 hp, 0-100 in 2.9 seconds, is the purest option in the fleet. The Lamborghini Huracán EVO Spyder at $1,499/day adds a drop-top so you hear the V10 echo off the trees. The Audi R8 Spyder at $1,299/day with 640 hp does the same thing with a more livable ride.
+
+For cruising Outremont Avenue or pulling up to a restaurant on Laurier, the statement cars win. The Mercedes G63 AMG at $1,300/day with 500 hp is the vehicle people photograph on Bernard Street. The Bentley Bentayga at $699/day, 542 hp, 0-100 in 4.4 seconds, is the quiet flex. And the Cadillac Escalade at $599/day seats the whole group when the plan involves more than two people. Browse the [full luxury fleet](/luxury-car-rental-montreal) if the SUV route is your style.
+
+## What Are the Requirements to Rent an Exotic Car in Montreal?
+
+You need to be at least 25 years old for the supercars, hold a valid driver's license, and provide full coverage insurance that we verify before delivery. For the performance sedans and SUVs like the BMW M3 Competition at $650/day or the Porsche Macan GTS at $600/day, the age requirement can drop to 21 with the right insurance profile. A security deposit is taken on a credit card at handover and released after the vehicle comes back clean, typically within a few business days.
+
+International visitors can rent with a passport plus a license from their home country, though we recommend an International Driving Permit if your license is not in French or English. The full breakdown of documents, deposits, and mileage policies is on the [how it works page](/how-it-works), and the [FAQ](/faq) covers the edge cases like additional drivers and one-way rentals.
+
+## Where Should You Actually Drive the Car Around Mount Royal?
+
+Start early. Camillien-Houde Parkway and Remembrance Road open to car traffic and the climb to the Kondiaronk Belvedere lookout is the best 10 minutes of driving inside city limits, period. The view over downtown with a Huracán parked at the belvedere is the photo, and everyone who rents a supercar from us ends up taking it. Go before 9 a.m. in summer because the bike traffic picks up and the park gets busy.
+
+After the mountain, the classic loop is Outremont to Westmount: Laurier Avenue, Bernard, Cote Saint-Antoine, then down through [Westmount](/locations/westmount) and along Sherbrooke. If you are staying in the area, our [Outremont](/locations/outremont) and [Plateau Mont-Royal](/locations/plateau-mont-royal) location pages cover delivery specifics for those neighbourhoods. Just respect the 30 and 40 km/h zones in the residential streets, because the tickets are expensive and the cars are loud enough that they attract exactly the wrong kind of attention if you drive like an idiot.
+
+## How Far in Advance Should You Book?
+
+For weekends from May to October, book 1 to 2 weeks ahead minimum, because the supercars go first. The Huracán variants and the McLaren 600LT Spider at $1,999/day are the first to sell out on summer Fridays, and the Urus at $1,399/day disappears quickly on event weekends. Weekday rentals are much easier to secure on short notice, sometimes with same-day availability if you call before noon.
+
+Exotic car rental Mount Royal Montreal bookings are confirmed the moment your deposit and documents clear, and delivery slots are first-come, first-served. If your dates are fixed around a wedding, a photo shoot, or a festival weekend, lock the car early. Our [reviews page](/reviews) shows what past clients said about the delivery process around the mountain neighbourhoods.
+
+## FAQ
+
+### How much does it cost to rent an exotic car around Mount Royal?
+
+Prices run from $400/day for a Toyota GR Supra to $2,399/day for the Mercedes-Maybach S680. Most supercars sit between $1,199 and $1,599 per day. Delivery to addresses around the mountain is included.
+
+### Do you deliver the car to my address near Mount Royal?
+
+Yes, we deliver to Mount Royal, Outremont, Mile End, the Plateau, and everywhere else in Greater Montreal. The car arrives fueled and detailed, and the handover takes about 15 minutes.
+
+### What is the minimum age to rent a Lamborghini in Montreal?
+
+The minimum age for supercars like the Lamborghini Huracán and McLaren 600LT is 25 with valid full-coverage insurance. Performance sedans and SUVs such as the BMW M3 Competition can be available to drivers 21 and up. A refundable security deposit is taken on a credit card at delivery.
+
+### Can I drive the supercar up Mount Royal Park?
+
+Yes, Camillien-Houde Parkway and Remembrance Road are open to cars, and the Kondiaronk Belvedere lookout is the classic photo stop. Go early in the morning in summer to avoid heavy bike and pedestrian traffic. Use the car's front lift system on speed bumps if it has one.
+
+### Is there a mileage limit on exotic car rentals?
+
+Daily rentals include a set mileage allowance with extra kilometers available at a per-km rate. Most clients driving around Montreal and the mountain use well under the included distance. Long-distance trips to the Laurentians or Quebec City can be arranged in advance.
+
+To book your exotic car rental Mount Royal Montreal, call us at [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and we will lock in your car and delivery time.`,
+  },
+  {
     slug: 'exotic-car-rental-westmount-luxury-supercar-delivery-in-west-montreal',
     title: 'Exotic Car Rental Westmount: Luxury Supercar Delivery in West Montreal',
     date: '2026-09-29',
