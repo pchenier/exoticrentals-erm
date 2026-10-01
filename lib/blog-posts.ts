@@ -11806,7 +11806,38 @@ Pour réserver votre Porsche 911 4S TechArt à Montréal, écrivez nous sur [Wha
     date: "2026-06-18",
     image: "/cars/urus_black1.jpg",
     description: "641hp V8 twin-turbo. Black on black. The Lamborghini Urus is the most aggressive luxury SUV in Montreal, and the most practical Lamborghini ever built.",
-    content: "<h2>Lamborghini Urus Black on Black, The Luxury SUV That Means Business</h2><p>The Lamborghini Urus Black on Black makes a very clear statement. No contrast, no colour, no subtlety, every surface is black, the wheels are black, the interior is black, and the only thing that breaks the visual logic is the Lamborghini badge on the grille. 641 horsepower from a twin-turbo V8. AWD with torque vectoring. Adaptive air suspension. A 0 to 100 time of 3.6 seconds. In a vehicle this size, that number doesn't feel real until you experience it for the first time.</p><p>The Urus is the Lamborghini that makes daily life possible. You can park it in a normal structure. You can seat four adults properly. You can handle the airport run and the corporate dinner and the Saturday morning grocery run, and every one of those mundane activities becomes an event because the car is a Lamborghini and it never lets you forget it. The exhaust note at cold start echoes off buildings. People photograph it at traffic lights. It's impossible to be anonymous in this car.</p><p>At 1499 dollars per day, the Urus Black on Black is the most practical way to access the Lamborghini experience. Black spec, full power, full attention.</p><p>Ready to book? Text or call us at <strong>438-809-4417</strong> or message us on <a href=\"https://wa.me/14388094417\">WhatsApp</a>. We deliver to your hotel, home, or any Montreal landmark. Fully detailed, full tank, ready to go.</p>",
+    content: `<h2>Lamborghini Urus Black on Black, The Luxury SUV That Means Business</h2>
+<p>Renting the Lamborghini Urus Black on Black in Montreal costs 1499 dollars per day, and the SUV delivers 641 horsepower from a twin-turbo V8 with a 0 to 100 time of 3.6 seconds, which makes it the most practical way to access the Lamborghini experience in the city.</p>
+<h2>How Much Does It Cost to Rent a Lamborghini Urus in Montreal?</h2>
+<p>The Lamborghini Urus Black on Black rents for 1499 dollars per day at Exotic Rentals Montreal. That price puts the full Lamborghini experience within reach in a package that still works for daily life. Black spec, full power, full attention.</p>
+<p>The Urus is the Lamborghini that makes daily life possible, and the daily rate reflects what you get: 641 horsepower, AWD with torque vectoring, and adaptive air suspension in a vehicle you can actually use for the airport run, the corporate dinner, and the Saturday morning grocery run. Every one of those mundane activities becomes an event because the car is a Lamborghini and it never lets you forget it.</p>
+<h2>What Are the Performance Specs of the Urus Black on Black?</h2>
+<p>The Urus Black on Black produces 641 horsepower from a twin-turbo V8. The drivetrain is AWD with torque vectoring, and the chassis rides on adaptive air suspension, so the power stays usable in every condition Montreal can offer.</p>
+<p>The 0 to 100 time is 3.6 seconds. In a vehicle this size, that number does not feel real until you experience it for the first time. The twin-turbo V8 delivers its power in a way that shrinks the SUV around you, and the torque vectoring keeps the delivery clean when you ask for everything at once.</p>
+<h2>What Does Black on Black Actually Mean?</h2>
+<p>Black on Black means no contrast, no colour, no subtlety. Every surface is black, the wheels are black, and the interior is black. The only thing that breaks the visual logic is the Lamborghini badge on the grille.</p>
+<p>The result is a vehicle that makes a very clear statement without saying a word. The monochrome spec turns the Urus into something closer to a business decision than a fashion choice, which is exactly why it works for corporate dinners and client meetings as well as it works for a night out.</p>
+<h2>Is the Urus Practical for Daily Driving in Montreal?</h2>
+<p>Yes. The Urus is the Lamborghini that works for daily life: you can park it in a normal structure, which is not something you can say about every exotic car, and you can seat four adults properly. That combination covers the airport run, the corporate dinner, and the Saturday morning grocery run.</p>
+<p>The practicality never turns the Urus into a normal SUV. At 1499 dollars per day, you are renting the statement as much as the vehicle, and the car refuses to let you forget it.</p>
+<h2>What Is It Like to Drive the Urus in the City?</h2>
+<p>The Urus announces itself everywhere it goes: the exhaust note at cold start echoes off buildings, and people photograph it at traffic lights. It is impossible to be anonymous in this car, and the all black spec makes the attention feel earned rather than loud.</p>
+<p>The adaptive air suspension absorbs Montreal streets that would shake a lower supercar, and the AWD system with torque vectoring gives you confidence in rain or on cold pavement. The 3.6 second 0 to 100 time is always available when a clear on-ramp or an empty stretch of road appears.</p>
+<h2>How Do You Book the Urus and Where Is It Delivered?</h2>
+<p>Booking is done by text or call at 438-809-4417, or by message on WhatsApp. Delivery is available to your hotel, your home, or any Montreal landmark.</p>
+<p>Every Urus Black on Black leaves fully detailed with a full tank, ready to go. The 1499 dollar daily rate covers the complete package: black spec, 641 horsepower, and a vehicle that seats four adults properly.</p>
+<h2>FAQ</h2>
+<h3>How much does it cost to rent the Lamborghini Urus Black on Black?</h3>
+<p>The Urus Black on Black rents for 1499 dollars per day. That rate covers a fully detailed vehicle delivered with a full tank.</p>
+<h3>How fast is the Lamborghini Urus Black on Black?</h3>
+<p>The Urus reaches 100 from a standstill in 3.6 seconds. The twin-turbo V8 produces 641 horsepower, and the AWD system with torque vectoring puts the power to the ground.</p>
+<h3>How many people can the Lamborghini Urus seat?</h3>
+<p>The Urus seats four adults properly. It also parks in a normal structure, which makes it usable for airport runs and daily errands.</p>
+<h3>Where can the Lamborghini Urus be delivered in Montreal?</h3>
+<p>Delivery is available to your hotel, your home, or any Montreal landmark. The vehicle arrives fully detailed with a full tank, ready to go.</p>
+<h3>Is the Urus Black on Black a good choice for business use?</h3>
+<p>The all black spec, the four adult seating capacity, and the 641 horsepower twin-turbo V8 make the Urus suitable for corporate dinners and client transportation. It is the most practical way to access the Lamborghini experience. The monochrome look reads as a business decision rather than a fashion choice.</p>
+<p>Ready to book? Text or call us at 438-809-4417 or message us on <a href="https://wa.me/14388094417">WhatsApp</a>. We deliver to your hotel, home, or any Montreal landmark. Fully detailed, full tank, ready to go.</p>`,
   },
   {
     slug: "lamborghini-huracan-spyder-convertible-montreal",
