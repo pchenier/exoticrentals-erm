@@ -9,6 +9,74 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-laval-supercar-delivery-on-the-north-shore',
+    title: 'Exotic Car Rental Laval: Supercar Delivery on the North Shore',
+    date: '2026-10-02',
+    description: 'Exotic car rental Laval Quebec: supercars from $400/day delivered to your door on the North Shore. Lamborghini, McLaren, Audi R8 and more. Book at 438-809-4417.',
+    content: `Exotic car rental in Laval, Quebec starts at $400/day for an Audi RS5 or Toyota GR Supra and runs up to $2,399/day for a Mercedes-Maybach S680, with free delivery anywhere in Laval and the North Shore. Every car in the fleet comes to you, whether you are at a hotel on Boulevard Saint-Martin, a restaurant on Sainte-Rose, or a residence in Duvernay or Chomedey. There is no need to cross a bridge into Montreal to pick up a supercar: the car arrives at your address, fueled and detailed, with a minimum rental of 24 hours.
+
+## What Does Exotic Car Rental in Laval Quebec Cost?
+
+Expect to pay between $400 and $2,399 per day depending on the car you choose, with most supercars sitting between $1,099 and $1,999/day. The rate includes delivery in Laval, insurance options, and a full tank of fuel. You can see every car and every rate on the [fleet page](/fleet).
+
+Here is a quick breakdown of the most popular choices for Laval clients. The Audi RS5 at $400/day with 450 hp is the entry point, and the [Audi RS6](/cars/audi-rs6) at $549/day with 591 hp is the sweet spot for a daily driver that still hits 0-100 km/h in 3.6 seconds. From there, the [Audi R8](/cars/audi-r8) at $1,099/day with 640 hp and the Lamborghini Huracán EVO at $1,499/day with 610 hp cover the supercar tier, while the Lamborghini Huracán Tecnica at $1,599/day with 631 hp and the McLaren 600LT Spider at $1,999/day with 592 hp sit at the top of the performance range. The Mercedes-Maybach S680 by Virgil Abloh at $2,399/day is the flagship for clients who want 621 hp wrapped in the most exclusive luxury sedan on the market.
+
+## Which Supercars Can I Get Delivered in Laval?
+
+The full fleet is available for delivery in Laval, from the $400/day Toyota GR Supra to the $1,999/day McLaren 600LT Spider. Delivery is included for Laval addresses, and the same service covers surrounding North Shore areas like Saint-Jérôme, Terrebonne, and Blainville. You can read the full delivery process on [how it works](/how-it-works).
+
+For a weekend in Laval, three cars come up again and again. The [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder) at $1,499/day with 631 hp and a 0-100 time of 3.1 seconds is the classic open-top choice for cruising up Boulevard Sainte-Rose or heading to the waterfront in Sainte-Rose. The [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day with 641 hp is the answer if you need space for four people and their luggage, and it still runs 0-100 in 3.6 seconds. And the [Audi R8 Spyder](/fleet/audi-r8-spyder) at $1,299/day with 640 hp delivers supercar pace with a more understated presence, which matters if you are parking it at a restaurant in Laval-sur-le-Rapide or a hotel downtown.
+
+## Where Exactly Do You Deliver on the North Shore?
+
+Delivery covers all of Laval, from Sainte-Dorothée to Saint-François, plus the surrounding North Shore suburbs. That includes Terrebonne, Blainville, Saint-Jérôme, Repentigny, and Mascouche, with delivery also available across Greater Montreal. There is no extra charge for standard delivery in Laval, and same-day delivery is often possible when the car is available.
+
+If you are outside Laval, the [Laval location page](/locations/laval) lists the specific neighbourhoods covered, and the [Terrebonne](/locations/terrebonne) and [Blainville](/locations/blainville) pages cover the Laurentides corridor. For clients in Saint-Jérôme, delivery typically takes under an hour from the Montreal depot. The point is simple: exotic car rental in Laval Quebec works exactly like it does in downtown Montreal, because the cars come to you instead of the other way around.
+
+## What Are the Requirements to Rent an Exotic Car in Laval?
+
+You need to be at least 25 years old with a valid driver's license and a credit card in your name for the security deposit. Drivers between 21 and 24 can sometimes be approved for lower-tier cars like the Audi RS5 or BMW M3 Competition, depending on driving record, but supercars like the Lamborghini Huracán or McLaren 600LT require the 25-plus age bracket. Full details are on the [FAQ page](/faq).
+
+The security deposit varies by car: expect roughly $1,000 to $2,000 for performance sedans and coupes, and $5,000 to $10,000 for Lamborghini and McLaren models. The deposit is a pre-authorization on your credit card, not a charge, and it is released after the rental if the car comes back in the agreed condition. Insurance options are available through the rental agreement, and the minimum rental period is 24 hours, with discounts available on multi-day bookings.
+
+## Is It Worth Renting an Exotic Car in Laval Versus Montreal?
+
+Yes, and the reason is logistics: renting from a Laval delivery service means zero bridge traffic and zero depot trips. The car shows up at your door, you drive it for your booked period, and the team collects it from the same address. This is a real advantage when the Champlain and De la Concorde bridges are jammed, which on summer weekends is most of the day.
+
+The driving roads on the North Shore are also underrated. Route 148 along the Rivière des Mille Îles, the winding stretches through Sainte-Rose, and the run north toward Saint-Jérôme on Route 117 give you far more open road than downtown Montreal ever will. A McLaren 600LT with 592 hp and a 0-100 time of 2.9 seconds deserves road space, and Laval is a better starting point for that than Griffintown or Old Montreal. That said, if your plans include a night out downtown, the [luxury car rental Montreal page](/luxury-car-rental-montreal) covers delivery to hotels, restaurants, and event venues across the island.
+
+## What Are the Most Popular Exotic Rentals for Laval Events?
+
+Weddings, corporate events, and photo shoots drive most of the Laval bookings, and the right car depends on the occasion. For weddings at venues like the Château du Vieux Saint-Eustache or along the Mille Îles, the Bentley Bentayga at $699/day with 542 hp and the Mercedes-Maybach GLS 600 at $999/day with 550 hp are the two most requested cars, because they seat four comfortably and photograph beautifully. For corporate events and client entertainment, the [Cadillac Escalade](/fleet/cadillac-escalade) at $599/day with 420 hp handles groups, while the [Porsche Panamera GTS](/fleet/porsche-panamera-gts) at $700/day with 473 hp strikes the balance between executive presence and real performance, running 0-100 in 3.2 seconds.
+
+For photo shoots and content creation, the low, wide cars win: the [Lamborghini Huracán Tecnica](/fleet/lamborghini-huracan-tecnica) at $1,599/day with 631 hp is the most photographed car in the fleet, and the [BMW M4 Competition x KITH](/fleet/bmw-m4-competition-kith) at $599/day with 503 hp brings a streetwear aesthetic that no other rental in the city offers. If you are planning a specific event, the [contact page](/contact) is the fastest way to confirm availability for your date.
+
+## FAQ
+
+### How much does it cost to rent a Lamborghini in Laval?
+
+The Lamborghini Huracán EVO and EVO Spyder both cost $1,499/day, while the Huracán Tecnica costs $1,599/day. The Lamborghini Urus SUV costs $1,399/day, and all three models are delivered directly to your Laval address.
+
+### Do you deliver exotic cars to Laval for free?
+
+Yes, standard delivery to any address in Laval is included in the rental rate. Delivery also covers Terrebonne, Blainville, Saint-Jérôme, and Repentigny, with same-day delivery often available when the car is free.
+
+### How old do I have to be to rent a supercar in Laval?
+
+You must be 25 or older with a valid license and a credit card for the deposit to rent supercars like the Lamborghini Huracán, Audi R8, or McLaren 600LT. Drivers 21 to 24 may qualify for lower-tier performance cars like the Audi RS5 at $400/day depending on their driving record.
+
+### What is the minimum rental period?
+
+The minimum rental period is 24 hours. Multi-day bookings get discounted rates, which is worth knowing for weekend trips up the North Shore.
+
+### Can I rent an exotic car in Laval for a wedding or photo shoot?
+
+Yes, and event bookings are among the most common requests for exotic car rental in Laval Quebec. The Bentley Bentayga at $699/day and the Mercedes-Maybach GLS 600 at $999/day are the top wedding choices, while the Huracán Tecnica at $1,599/day is the most requested car for photo shoots.
+
+To book an exotic car delivered anywhere in Laval, call [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm availability for your dates on the spot.
+`,
+  },
+  {
     slug: 'exotic-car-rental-vieux-montreal-supercars-in-the-old-port-district',
     title: 'Exotic Car Rental Vieux-Montreal: Supercars in the Old Port District',
     date: '2026-10-01',
