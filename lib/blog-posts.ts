@@ -10939,7 +10939,53 @@ Prêt à vivre l'expérience ? Envoyez-nous un message sur WhatsApp pour vérifi
     title: "Louer une Audi R8 V10 à Montréal, La Supercar Accessible",
     date: "2026-05-10",
     description: "L'Audi R8 V10 disponible à Montréal dès 899$/jour. Moteur V10 atmosphérique, livraison incluse, réservation via WhatsApp.",
-    content: "L'Audi R8 V10 est l'une des dernières voitures au monde avec un moteur V10 atmosphérique, pas de turbo, juste dix cylindres qui hurlent vers les 8 500 tours. Ce son est une espèce en voie de disparition. Montez dedans avant qu'il disparaisse.\n\n**Pourquoi la R8 est Spéciale**\n\nContrairement à la McLaren qui demande un peu d'adaptation, la R8 se conduit immédiatement comme une voiture normale, mais avec une intensité sensorielle hors du commun. La position de conduite est parfaite, la visibilité est bonne, et la transmission S tronic est une des meilleures du monde. C'est la supercar la plus accessible de notre flotte.\n\n**599 chevaux, Moteur Central**\n\nLe moteur V10 de 5.2L est positionné au centre du véhicule, derrière vous. Vous l'entendez, vous le sentez, vous vivez avec lui. Chaque coup d'accélérateur sur une rampe d'autoroute vide est un moment pur.\n\n**À Montréal**\n\nLa R8 est parfaite pour le Vieux-Port en soirée, pour une journée dans les Cantons-de-l'Est, ou simplement pour transformer votre samedi matin en quelque chose d'exceptionnel. Elle attire les regards sans être aussi intimidante que la McLaren pour les non-initiés.\n\n**Réservation**\n\n899$/jour, livraison partout dans le Grand Montréal. WhatsApp : 438-809-4417. Email : contact@exoticrentalsmontreal.com. Disponible 7j/7.",
+    content: `L'Audi R8 V10 est l'une des dernières voitures au monde avec un moteur V10 atmosphérique : pas de turbo, pas de compresseur, juste dix cylindres qui montent vers 8 500 tours avec un son de plus en plus rare. Chez Exotic Rentals Montreal, la R8 se loue 899 $ par jour avec livraison partout dans le Grand Montréal, et c'est la supercar la plus accessible de la flotte, le vrai point d'entrée dans le monde des voitures à moteur central. Voici tout ce qu'il faut savoir avant de réserver : les prix, les specs, les trajets qui valent la peine et les conditions.
+
+## Combien coûte la location d'une Audi R8 à Montréal ?
+
+La R8 se loue 899 $ par jour, livraison incluse, avec un minimum de 24 heures. Les locations de deux jours et plus bénéficient d'un tarif journalier dégressif, et la version Spyder découvrable est également disponible : la liste complète est sur la page [flotte](/fleet). Pour situer la R8 dans la gamme, la [McLaren 600LT](/cars/mclaren-600lt) se loue 1 199 $ par jour et la Lamborghini Urus Black on Black 1 200 $ par jour. La R8 reste la façon la moins chère de goûter au V10 atmosphérique à Montréal.
+
+Un dépôt de sécurité est préautorisé sur votre carte de crédit à la livraison, puis libéré après la location. Le paiement se fait comptant, par Interac, par carte de crédit ou en crypto, et la réservation se confirme par téléphone ou sur [WhatsApp](https://wa.me/14388094417). Tous les détails administratifs sont sur la page [comment ça marche](/how-it-works).
+
+## Pourquoi le V10 atmosphérique de la R8 est spécial
+
+Le moteur 5.2L est positionné au centre du véhicule, derrière vos épaules. Vous l'entendez au démarrage, vous le sentez dans le dossier du siège, vous vivez avec lui. 562 chevaux, zéro turbo, un 0 à 100 km/h en 3,2 secondes et une montée en régime linéaire jusqu'à la zone rouge. Contrairement aux moteurs suralimentés qui poussent fort dès le bas régime puis s'essoufflent, la R8 gagne en intensité à chaque tranche de 1 000 tours : le moteur se réveille progressivement et culmine juste avant le rupteur.
+
+Ce son est une espèce en voie de disparition. Les normes antipollution ont pratiquement sonné le glas du moteur atmosphérique, et Audi a arrêté la production de la R8 sans prévoir de remplaçante à moteur thermique pur. Louer une R8 à Montréal aujourd'hui, c'est conduire la fin d'une époque avant qu'elle disparaisse, et honnêtement, c'est une des meilleures sensations de conduite au catalogue.
+
+## La R8 ou la McLaren 600LT : laquelle choisir ?
+
+Les deux voitures se conduivent très différemment. La R8 se conduit immédiatement comme une voiture normale, mais avec une intensité sensorielle hors du commun : position de conduite parfaite, bonne visibilité, transmission S tronic parmi les plus rapides au monde et un châssis qui pardonne les petites erreurs. La [McLaren 600LT](/cars/mclaren-600lt), c'est l'inverse : plus radicale, plus ferme, plus bruyante, avec 592 chevaux et un 0 à 100 km/h en 2,9 secondes. Elle demande une adaptation, la R8 non.
+
+En pratique, la R8 est la voiture idéale pour un premier contact avec les supercars, pour une sortie en ville ou pour un voyage à deux. La McLaren est la voiture de celui qui a déjà conduit une supercar et qui veut la version sans compromis. Et si vous hésitez entre les deux, un message WhatsApp suffit : on vous orientera selon votre expérience et le trajet que vous prévoyez.
+
+## Les meilleurs trajets pour profiter de la R8 à Montréal
+
+La R8 est basse mais vivable au quotidien, ce qui la rend parfaite pour la ville comme pour la route. Trois trajets reviennent sans cesse chez nos clients. Le premier : un départ tôt le matin sur les pentes du Mont Royal, quand les routes sont vides et que le V10 résonne entre les arbres. Le deuxième : une soirée au Vieux Montréal, la voiture garée devant le restaurant, parce que la R8 attire les regards sans être aussi intimidante qu'une McLaren pour les passants. Le troisième : une journée dans les Cantons de l'Est ou vers les Laurentides, où le moteur central et la propulsion prennent tout leur sens dans les courbes.
+
+Peu importe le trajet, la R8 transforme un simple déplacement en quelque chose d'exceptionnel. C'est exactement pour ça qu'on la surnomme la supercar accessible : elle ne demande rien, elle donne tout.
+
+## FAQ
+
+### Quel est le prix pour louer une Audi R8 à Montréal ?
+
+899 $ par jour, livraison incluse partout dans le Grand Montréal, avec un minimum de 24 heures.
+
+### Quel est le dépôt de sécurité ?
+
+Un montant est préautorisé sur votre carte de crédit à la livraison et libéré après la location. Le montant exact est confirmé à la réservation selon la durée et le véhicule.
+
+### Quel âge est requis pour louer la R8 ?
+
+25 ans et plus, avec un permis de conduire valide et une carte de crédit au nom du conducteur. Les détails complets sont sur la page [FAQ](/faq).
+
+### Quels sont les territoires de livraison ?
+
+Montréal, Laval, la Rive Nord, la Rive Sud et tout le Grand Montréal. La livraison est incluse dans le tarif.
+
+### Comment réserver la R8 ?
+
+Appelez le [438 809 4417](tel:4388094417) ou envoyez un message sur [WhatsApp](https://wa.me/14388094417) avec vos dates et votre adresse. On confirme la disponibilité sur le champ, et la voiture arrive propre, avec le plein, prête à partir.`,
   },
   {
     slug: "location-mercedes-g63-montreal",
