@@ -11028,7 +11028,69 @@ Prêt à vivre l'expérience ? Envoyez-nous un message sur WhatsApp pour vérifi
     title: "Montreal Airport Luxury Car Rental, Delivery to YUL & YMX",
     date: "2026-05-10",
     description: "Land in Montreal and drive off in a supercar. We deliver to YUL (Trudeau) and YMX (Mirabel) airports. Book before you fly.",
-    content: "You've just landed at Montréal-Trudeau. Instead of joining the taxi line or waiting for a rideshare, your McLaren 600LT is sitting in the arrivals area, keys in hand. That's not a fantasy, that's a booking with Exotic Rentals Montreal.\n\n**Airport Delivery Service**\n\nWe deliver to both Montreal airports: YUL (Pierre Elliott Trudeau International) and YMX (Mirabel). Tell us your flight number and arrival time, and we time the delivery so the car is there when you walk out. No waiting, no delays.\n\n**For Business Travelers**\n\nArriving in Montreal for a conference or client meeting? Pull up in an RS7 or G63 AMG and you've already made an impression before saying a word. Our vehicles are immaculately maintained and presented, they reflect well on you.\n\n**For Leisure Travelers**\n\nYou're visiting Montreal and you want to experience the city properly. Rent the RS5 for the whole trip, it handles downtown, day trips, airport runs, and everything in between with equal competence.\n\n**The Process**\n\n1. WhatsApp us at 438-809-4417 with your flight details and car preference\n2. We confirm availability and send payment info\n3. Land, walk out, drive away\n\nThat's it. No offices, no queues, no forms to fill out on a plastic counter. Just the car.",
+    content: `You have just landed at YUL. Instead of joining the taxi line or watching the rideshare map, your car is waiting in the arrivals area, keys in hand and tank full. That is not a fantasy, that is a booking with Exotic Rentals Montreal. We deliver to both Montreal airports, YUL officially Pierre Elliott Trudeau International and YMX at Mirabel, and we track your flight so the car is there when you walk out whether you land on time or three hours late. This guide covers what airport delivery costs, which cars make the most sense straight off a plane, and exactly how the handover works.
+
+## How Much Does a Luxury Car Rental at the Airport Cost?
+
+Airport delivery is included in the standard rental rate. You pay the daily rate of the car you choose, and the airport handover costs nothing extra, the same policy we apply to delivery at any address in Greater Montreal. The minimum rental is 24 hours, and bookings of two days or more get a better effective daily rate, which is why most airport clients book a full weekend starting the moment they land.
+
+Here is what the most requested airport cars cost per day:
+
+- Toyota GR Supra: $400/day, 420 hp
+- Audi RS5: $400/day, 450 hp, zero to 100 km/h in 3.9 seconds
+- BMW M5 Competition: $599/day, 617 hp
+- Audi RS7: $599/day, 591 hp
+- Audi R8 V10: $899/day, 562 hp
+- McLaren 600LT: $1,199/day, 592 hp, zero to 100 km/h in 2.9 seconds
+- Lamborghini Urus Black on Black: $1,200/day, 641 hp
+
+The full lineup with photos and specs is on the [fleet page](/fleet), and the security deposit per model is confirmed at booking before anything is charged.
+
+## Which Cars Work Best Straight Off a Plane?
+
+If you are arriving for a conference or a client meeting, the [Audi RS7](/cars/audi-rs7) at $599/day and the [BMW M5 Competition](/cars/bmw-m5-competition) at $599/day are the two most booked choices. Both deliver around 600 hp with four doors and a real trunk, which means the impression is made before you say a word, and the car still works for the drive to dinner. If you are collecting clients or a whole group, the Cadillac Escalade at $599/day seats seven and swallows the luggage without a roof bag.
+
+If the trip itself is the point, start it at the arrivals curb. The [McLaren 600LT](/cars/mclaren-600lt) at $1,199/day is the most radical car in the fleet, 592 hp and a carbon fibre chassis that turns the drive downtown into the best part of the day. The [Audi R8](/cars/audi-r8) at $899/day gives you the same naturally aspirated V10 soundtrack with a ride that forgives Quebec pavement. And if you are landing with family or skis in season, the Lamborghini Urus at $1,399/day seats five, hauls everything, and still sprints to 100 km/h in 3.6 seconds.
+
+## How Does the YUL Handover Actually Work?
+
+You send us your flight number and arrival time on WhatsApp before you fly. We track the flight, so if you are delayed we simply move the delivery, and if you clear customs early we are already there. Our driver meets you at the arrivals level with the car, washed, fueled, and photographed for the condition report.
+
+The walkthrough takes about 15 minutes: controls, driving modes, where the front lift button lives if the car has one, and the deposit preauthorization on your credit card. You sign on the hood, not at a rental counter, and you drive away. The full process is on our [how it works](/how-it-works) page, and every question about documents, deposits, and insurance is answered on the [FAQ](/faq) page.
+
+At the end of the rental, the reverse happens. Most clients fly out of the same airport, so we collect the car at the departures level while you check your bags, and the rental closes on the spot.
+
+## Do You Deliver to YMX and Private Aviation?
+
+Yes. YMX at Mirabel serves private aviation and cargo, and it is the easiest handover in the region because the field is quiet at any hour. If you are arriving on a private flight, tell us the operator and the arrival window and the car will be parked beside the private terminal when you step off. YMX is also the closest airport to the Laurentians, which makes it the ideal landing point if the plan is a weekend toward Tremblant: you can be in the mountains within 40 minutes of touchdown.
+
+## What Do International Visitors Need?
+
+A valid license from your home country and a passport are enough to rent. We recommend an International Driving Permit if your license is not in French or English. The minimum age is 25 for the supercars and 21 for select performance models like the Audi RS5, and the security deposit is a preauthorization on a credit card in the driver's name, released after the car comes back clean. Requirements are confirmed in writing before you fly, so nothing surprises you at the curb.
+
+## FAQ
+
+### Do you charge extra for airport delivery at YUL?
+
+No. Delivery to YUL, YMX, and any address in Greater Montreal is included in the rental rate. You pay the daily rate of the car, nothing more for the handover.
+
+### What happens if my flight is delayed?
+
+We track your flight number, so a delay just moves the delivery window. There is no waiting fee and no stranded scenario: the car arrives when you do. Send us the flight details when you book and we handle the rest.
+
+### Which cars can I get delivered at the airport?
+
+The entire fleet, from the Toyota GR Supra at $400/day to the McLaren 600LT at $1,199/day and the Maybach S680 at $2,399/day. Availability for your dates is confirmed on WhatsApp before you fly.
+
+### Can I return the car at the airport before my departure flight?
+
+Yes. We collect the car at the departures level while you check your bags, close the contract on the spot, and release the deposit after the final inspection. The rental ends where your trip ends.
+
+### Do I need a Quebec license to rent at the airport?
+
+No. International visitors rent with a valid home license and a passport. An International Driving Permit is recommended if your license is not in French or English.
+
+Airport delivery is the difference between starting your trip in a taxi line and starting it in the right car. Call us at [438 809 4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) with your flight details, and the car you booked will be waiting when you land.`,
   },
   {
     slug: "louer-audi-r8-montreal",
