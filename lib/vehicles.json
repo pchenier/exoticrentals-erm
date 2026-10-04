@@ -593,67 +593,6 @@
       ]
     },
     {
-      "id": "19",
-      "slug": "audi-rs7",
-      "make": "Audi",
-      "model": "RS7",
-      "year": 2021,
-      "category": "PERFORMANCE",
-      "bodyStyle": "SEDAN",
-      "tagline": "The four door sleeper",
-      "description": "591 hp V8 biturbo in a four door coupe shell. The RS7 makes highway 15 feel like a runway ;)",
-      "dailyRate": 699,
-      "weekendRate": 749,
-      "weeklyRate": 599,
-      "securityDeposit": 3000,
-      "horsepower": 591,
-      "engine": "Twin-Turbo 4.0L V8",
-      "zeroToSixty": "3.6s",
-      "topSpeed": "250",
-      "transmission": "Automatic",
-      "drivetrain": "Quattro",
-      "seats": 5,
-      "doors": 4,
-      "luggage": 1,
-      "convertible": false,
-      "available": true,
-      "featured": true,
-      "premierVerified": true,
-      "instantConfirm": true,
-      "displayOrder": 19,
-      "images": [
-        {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/rs7%20peter%20%283%29-b8RZOsYOe7OAQXlhCvVGEacE3NGuwr.png",
-          "alt": "Audi RS7",
-          "isMain": true,
-          "position": "1% 55%"
-        },
-        {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/rs7%20peter%20%284%29-o1wglgh8sBsqe0dQxMflOvcGM12WGG.png",
-          "alt": "Audi RS7",
-          "isMain": false,
-          "position": "100% 50%"
-        },
-        {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/rs7%20peter%20%281%29-e9KgBDjbQwBXBK8nlXTy8bfYfkNaGv.png",
-          "alt": "Audi RS7",
-          "isMain": false
-        },
-        {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/rs7%20peter%20%281%29-0MmC1fGrkR0cfdOf2xOIqIKxHFysgc.jpg",
-          "alt": "Audi RS7",
-          "isMain": false
-        }
-      ],
-      "badges": [
-        {
-          "name": "verified",
-          "label": "Verified",
-          "icon": "shield-check"
-        }
-      ]
-    },
-    {
       "id": "20",
       "slug": "bmw-m3-competition",
       "make": "BMW",
