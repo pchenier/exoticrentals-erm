@@ -11063,10 +11063,66 @@ Prêt à vivre l'expérience ? Envoyez-nous un message sur WhatsApp pour vérifi
   },
   {
     slug: "louer-lamborghini-montreal",
-    title: "Louer une Lamborghini à Montréal : Urus disponible dès 849$/jour",
+    title: "Louer une Lamborghini à Montréal : Urus dès 1200 $ par jour",
     date: '2026-04-29',
     description: "Envie de conduire une Lamborghini Urus à Montréal ? Découvrez nos tarifs, la livraison et comment réserver en quelques minutes.",
-    content: "La Lamborghini Urus est l'un des véhicules les plus impressionnants que vous puissiez conduire sur les routes de Montréal. SUV de luxe à l'ADN de supercar, elle combine la praticité d'un véhicule haut-de-gamme avec une puissance de 650 chevaux qui rend chaque accélération mémorable.\n\n**Pourquoi l'Urus à Montréal ?**\n\nMontréal, c'est des pavés, des côtes, des nids-de-poule, et des routes express. L'Urus gère tout ça avec une facilité déconcertante. Contrairement à une supercar basse, elle est haute, confortable pour les passagers, et assez polyvalente pour survivre à nos routes sans sourciller. C'est la Lamborghini pour tous les jours, ou pour le week-end parfait.\n\n**Ce que vous obtenez**\n\nNotre Urus est disponible à 849$/jour avec livraison partout dans le Grand Montréal, Laval, Longueuil, Brossard, centre-ville, hôtels, aéroport. Le véhicule arrive propre, plein, et prêt. Vous n'avez rien à signer dans un bureau, tout se règle via WhatsApp, simplement et rapidement.\n\n**Pour quelle occasion ?**\n\nAnniversaire, mariage, séjour d'affaires, simplement parce que vous en avez envie, l'Urus s'adapte à tout. Plusieurs clients la réservent pour des week-ends en famille dans les Laurentides ou pour épater des clients lors de sorties corporatives.\n\n**Réservation**\n\nDisponibilités limitées. Envoyez-nous un message sur WhatsApp au 438-809-4417 ou par courriel à contact@exoticrentalsmontreal.com. Paiements acceptés : comptant, virement Interac, crypto, carte de crédit.",
+    content: `Louer une Lamborghini à Montréal coûte 1 200 $ par jour pour l'Urus Black on Black, le modèle disponible dans notre flotte : 641 chevaux, un V8 biturbo de 4.0L, un 0 à 100 km/h en 3,5 secondes, et la livraison incluse partout dans le Grand Montréal avec un minimum de 24 heures. Chez Exotic Rentals Montreal, l'Urus est la Lamborghini qu'on réserve aujourd'hui, qu'on conduit en ville ce soir et qu'on rend demain sans compromis. Voici les prix, les specs, les conditions et les trajets qui valent la peine.
+
+## Combien coûte la location d'une Lamborghini à Montréal ?
+
+L'Urus Black on Black se loue 1 200 $ par jour, livraison incluse. Le tarif couvre la remise des clés à votre adresse, le véhicule nettoyé, le plein d'essence et un minimum de 24 heures. Les locations de deux jours et plus bénéficient d'un tarif journalier dégressif, et la liste complète des modèles avec les prix est sur la page [flotte](/fleet).
+
+Pour situer l'Urus dans la gamme : la [McLaren 600LT](/cars/mclaren-600lt) se loue 1 199 $ par jour avec 592 chevaux, l'[Audi R8](/cars/audi-r8) 899 $ par jour avec son V10 atmosphérique de 562 chevaux, et la [BMW M5 Competition](/cars/bmw-m5-competition) 599 $ par jour avec 617 chevaux. L'Urus reste la seule Lamborghini de la flotte et la façon la plus directe de conduire une voiture au taureau à Montréal.
+
+Un dépôt de sécurité est préautorisé sur votre carte de crédit à la livraison et libéré après la location. Le paiement se fait comptant, par virement Interac, par carte de crédit ou en crypto. Tous les détails administratifs sont sur la page [comment ça marche](/how-it-works).
+
+## Pourquoi l'Urus est la Lamborghini parfaite pour Montréal
+
+Montréal, ce sont des pavés, des côtes, des rues étroites et des hivers sérieux. Une supercar basse vit ces réalités comme des obstacles. L'Urus les traverse sans rien remarquer. La garde au sol est celle d'un SUV, les quatre roues motrices gèrent le macadam humide ou la neige fraîche, et les quatre places accueillent des adultes pour de vrai. Le coffre avale les valises d'une escapade de trois jours.
+
+L'Urus se gare aussi devant le restaurant, devant l'hôtel, devant la salle de réception. Elle attire les regards sans créer d'inquiétude. C'est la Lamborghini pour tous les jours, et la plus demandée de la flotte.
+
+## Urus Black on Black : ce que vous conduisez
+
+Le moteur est un V8 biturbo de 4.0L développant 641 chevaux, avec un 0 à 100 km/h en 3,5 secondes et une vitesse de pointe qui dépasse les 300 km/h. La transmission intégrale à répartition active du couple et la suspension pneumatique adaptative transforment le SUV en supercar d'une pression sur un bouton. Les modes de conduite couvrent tout : Strada pour la ville, Sport pour les autoroutes, Corsa quand la route se libère, Neve pour la neige et Terra pour les chemins.
+
+La livrée Black on Black est la spécification la plus demandée : carrosserie noire, jantes noires, intérieur noir avec surpiqûres ton sur ton. À 1 200 $ par jour, c'est la voiture la plus photographiée de la flotte. La fiche complète avec les photos est sur la page de l'[Urus Black on Black](/cars/lamborghini-urus-black-on-black).
+
+## Quelles sont les conditions pour louer une Lamborghini ?
+
+L'âge minimum est de 25 ans, avec un permis de conduire valide et une carte de crédit au nom du conducteur pour le dépôt de sécurité. Les visiteurs internationaux louent avec un passeport et un permis du pays d'origine ; un permis international est recommandé si le permis n'est ni en français ni en anglais. La livraison est incluse partout dans le Grand Montréal : le centre de Montréal, le Vieux Montréal, Laval, la Rive Sud, Longueuil, Brossard, les hôtels et l'aéroport. Le retour se fait à la même adresse. Les cas particuliers sont couverts sur la page [FAQ](/faq).
+
+## Pour quelles occasions réserver l'Urus ?
+
+Trois occasions reviennent chaque semaine. La première : un mariage, où l'Urus remplace la limousine et transforme l'arrivée des mariés en moment de photo. La deuxième : une sortie d'affaires, où récupérer un client à l'aéroport dans une Lamborghini installe le ton avant la première poignée de main. La troisième : l'anniversaire ou la surprise, où la voiture arrive devant la maison le matin, propre, silencieuse et prête.
+
+Pour une expérience purement sportive à deux places, la [McLaren 600LT](/cars/mclaren-600lt) à 1 199 $ par jour est le choix le plus radical de la flotte. Pour comparer tous les modèles Lamborghini avec les tarifs, la page [location Lamborghini Montréal](/lamborghini-rental-montreal) liste chaque modèle.
+
+## Les meilleurs trajets pour l'Urus autour de Montréal
+
+L'Urus aime trois trajets. Le premier : les rues du centre de Montréal le soir, de la rue Sherbrooke au Vieux Montréal, où la hauteur d'assise et le son du V8 font tourner les têtes. Le deuxième : la montée vers les Laurentides sur l'autoroute 15, où les 641 chevaux transforment les dépassements en formalités et les courbes en plaisir. Le troisième : une journée dans les Cantons de l'Est, quatre adultes à bord, coffre plein, avec le mode Sport pour les longues lignes droites.
+
+## FAQ
+
+### Quel est le prix pour louer une Lamborghini Urus à Montréal ?
+
+1 200 $ par jour pour l'Urus Black on Black, livraison incluse partout dans le Grand Montréal, avec un minimum de 24 heures. Les tarifs dégressifs s'appliquent à partir de deux jours.
+
+### Quelles sont les specs de l'Urus ?
+
+641 chevaux, V8 biturbo de 4.0L, transmission intégrale, 0 à 100 km/h en 3,5 secondes, cinq places et un vrai coffre. La fiche complète est sur la page de l'[Urus Black on Black](/cars/lamborghini-urus-black-on-black).
+
+### Livraison de l'Urus à Laval et sur la Rive Sud incluse ?
+
+Oui, la livraison est incluse partout dans le Grand Montréal, y compris Laval, Longueuil, Brossard, la Rive Nord et l'aéroport. La voiture arrive nettoyée, avec le plein, et le retour se fait à la même adresse.
+
+### Quel âge est requis pour conduire une Lamborghini ?
+
+25 ans et plus, avec un permis valide et une carte de crédit au nom du conducteur pour le dépôt de sécurité.
+
+### Comment réserver l'Urus ?
+
+Appelez le [438 809 4417](tel:4388094417) ou écrivez sur [WhatsApp](https://wa.me/14388094417) avec vos dates et votre adresse de livraison. On confirme la disponibilité sur le champ et la voiture arrive à l'heure convenue.`,
   },
   {
     slug: "rent-mclaren-montreal",
