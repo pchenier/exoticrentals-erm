@@ -314,6 +314,16 @@ const nextConfig = {
       },
     ];
   },
+  async headers() {
+    return [
+      {
+        // Belt-and-suspenders with robots.ts: even if a /_next/static/* URL gets
+        // fetched (query-string variants included), tell crawlers to drop it.
+        source: '/_next/static/:path*',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex' }],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
