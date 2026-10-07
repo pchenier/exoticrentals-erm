@@ -9,6 +9,80 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'location-supercar-montreal-jour-de-l-an-commencez-l-annee-en-style',
+    title: 'Location Supercar Montreal Jour de l\'An: Commencez l\'Annee en Style',
+    date: '2026-10-07',
+    description: 'Location supercar Montreal jour de l\'an: louez une Lamborghini, McLaren ou Maybach entre $999 et $2,399 par jour. Livraison a Montreal, reservation rapide.',
+    content: `## Combien Coûte une Location Supercar Montreal Jour de l'An?
+
+Une location supercar Montreal jour de l'an coûte entre $999 et $2,399 par jour selon le modèle, avec la Lamborghini Huracán Tecnica à $1,599/day et la Mercedes-Maybach S680 by Virgil Abloh à $2,399/day en haut de gamme. La période du 31 décembre au 1er janvier est une des plus demandées de l'année, donc réserver deux à trois semaines d'avance est fortement recommandé. Voici ce qu'il faut savoir pour commencer 2025 avec le bon pied, derrière le volant d'une vraie machine.
+
+## Quelles Supercars Peut-on Louer pour le Jour de l'An à Montréal?
+
+Le choix dépend du style de soirée que vous visez. Pour un party en centre-ville ou un souper chic dans le Vieux-Montréal, un SUV comme le [Lamborghini Urus](/fleet/lamborghini-urus) à $1,399/day, 641 hp et 0-100 en 3,6 secondes, combine l'effet wow avec la praticité en hiver. Si vous voulez le vrai feeling de supercar italienne, la [Lamborghini Huracán Tecnica](/fleet/lamborghini-huracan-tecnica) à $1,599/day, 631 hp et 0-100 en 3,2 secondes, reste la référence.
+
+Côté luxe pur, la [Mercedes-Maybach S680 by Virgil Abloh](/fleet/mercedes-maybach-s680-virgil-abloh) à $2,399/day avec ses 621 hp est parfaite pour arriver à un gala ou au Casino de Montréal. Pour un budget un peu plus serré après les dépenses des Fêtes, l'[Audi R8 Spyder](/fleet/audi-r8-spyder) à $1,299/day, 640 hp et 0-100 en 3,5 secondes, offre 90 pour cent du plaisir pour moins cher.
+
+## Pourquoi le Jour de l'An est-il le Meilleur Moment pour une Location Supercar à Montréal?
+
+Le 31 décembre, Montréal s'illumine littéralement. Le Vieux-Montréal, le Plateau et les rues autour du centre-ville sont remplis de monde qui célèbre, et une supercar qui passe attire tous les regards. Une location supercar Montreal jour de l'an transforme une soirée ordinaire en une arrivée dont tout le monde se souviendra.
+
+Il y a aussi un côté pratique: plusieurs de nos clients louent pour le réveillon du 31, puis gardent la voiture pour le brunch du 1er janvier ou pour une promenade sur les rives du fleuve. Un minimum de 24 heures s'applique, ce qui donne amplement le temps de profiter. Le [Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600) à $999/day, 550 hp et 0-100 en 4,8 secondes, est d'ailleurs un choix populaire pour le réveillon en famille, avec quatre vraies places et un confort de première classe.
+
+## Comment Fonctionne la Réservation pour le 31 Décembre?
+
+Le processus est simple et rapide, mais la date demande de planifier. Vous choisissez votre modèle sur la page [flotte](/fleet), vous confirmez la disponibilité par téléphone ou WhatsApp, et on organise la livraison où vous voulez dans le Grand Montréal, incluant Laval, Longueuil et la Rive-Sud. Le paiement et le dépôt se règlent à la réservation, et vous recevez toutes les informations d'assurance et de conduite avant la prise possession.
+
+Pour les conditions: âge minimum de 25 ans, permis de conduire valide depuis au moins 5 ans, et preuve d'assurance responsabilité civile. Un kilométrage quotidien est inclus selon le modèle, et le dépôt de sécurité varie selon la valeur de la voiture. Tous les détails sont expliqués sur la page [comment ça fonctionne](/how-it-works).
+
+## Quelles Voitures Choisir Selon Votre Budget?
+
+Voici un aperçu rapide des gammes de prix pour une location supercar Montreal jour de l'an:
+
+- Moins de $600/day: [BMW M4 Competition x KITH](/fleet/bmw-m4-competition-kith) à $599/day, 503 hp, 0-100 en 3,8 secondes, et [Toyota GR Supra](/cars/toyota-supra) à $400/day, 420 hp.
+- Entre $600 et $1,000/day: [Bentley Bentayga](/fleet/bentley-bentayga) à $699/day, 542 hp, et Porsche Panamera GTS à $700/day, 473 hp et 0-100 en 3,2 secondes.
+- Entre $1,000 et $1,500/day: [Audi R8 Spyder](/fleet/audi-r8-spyder) à $1,299/day, [Lamborghini Urus](/fleet/lamborghini-urus) à $1,399/day, et [Lamborghini Huracán EVO](/fleet/lamborghini-huracan-evo) à $1,499/day, 610 hp et 0-100 en 3,3 secondes.
+- Plus de $1,500/day: [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) à $1,999/day, 592 hp et 0-100 en 2,8 secondes, et la Maybach S680 à $2,399/day.
+
+Le McLaren 600LT Spider est le choix des puristes: 0-100 en 2,8 secondes, c'est la voiture la plus rapide du fleet sur papier, et le toit rétractable rend l'expérience encore plus intense, même en hiver avec les chauffages de siège à fond.
+
+## Est-ce que Conduire une Supercar en Hiver à Montréal est une Bonne Idée?
+
+Oui, à condition de bien choisir le modèle. Les supercars modernes comme l'Urus, avec ses 641 hp et ses modes de conduite adaptatifs, sont conçues pour rouler toute l'année. Les pneus d'hiver sont installés sur les véhicules qui roulent en saison froide, et nos équipes vous briefent sur les particularités de chaque voiture avant de vous laisser partir.
+
+Pour le 31 décembre, un conseil de gens qui roulent ces voitures eux-mêmes: évitez de planifier un long trajet entre 22h et 2h du matin, c'est le pic des conducteurs imprudents. Une balade vers le Vieux-Port avant le souper, puis une arrivée à la soirée en supercar, c'est la formule gagnante. Et si les routes sont vraiment mauvaises, le [Cadillac Escalade](/fleet/cadillac-escalade) à $599/day, 420 hp, reste une option de style qui ne vous fera pas stresser.
+
+## Peut-on Faire Livrer la Supercar à Domicile pour le Jour de l'An?
+
+Oui, la livraison à domicile ou à l'hôtel fait partie du service partout dans le Grand Montréal. Que vous soyez dans le [Vieux-Montréal](/locations/old-montreal), à [Laval](/locations/laval), à [Longueuil](/locations/longueuil) ou même à [Brossard](/locations/brossard), la voiture arrive propre, pleine et prête à rouler à l'heure convenue. Pour le 31 décembre, on suggère une livraison en avant-midi pour éviter le trafic et avoir le temps de vous familiariser avec la voiture avant la soirée.
+
+Les frais de livraison dépendent de la distance, et le retour se fait de la même façon: on récupère la voiture où vous voulez, quand vous voulez dans la fenêtre convenue. C'est le gros avantage d'une location supercar Montreal jour de l'an avec un service local plutôt qu'un comptoir d'aéroport.
+
+## FAQ
+
+### Quel est le prix moyen d'une location supercar pour le jour de l'an à Montréal?
+
+Le prix moyen se situe entre $1,299 et $1,599 par jour pour une supercar italienne comme l'Audi R8 Spyder ou la Lamborghini Huracán EVO. Les modèles exceptionnels comme la McLaren 600LT Spider montent à $1,999/day, tandis que le Maybach GLS 600 descend à $999/day pour un luxe plus familial.
+
+### Combien de temps à l'avance faut-il réserver pour le 31 décembre?
+
+Il faut réserver au moins deux à trois semaines à l'avance, car la période des Fêtes est la plus achalandée de l'année. Les modèles comme la Huracán Tecnica et l'Urus partent souvent dès la mi-décembre.
+
+### Quel est l'âge minimum pour louer une supercar à Montréal?
+
+L'âge minimum est de 25 ans, avec un permis de conduire valide depuis au moins 5 ans. Une preuve d'assurance responsabilité civile est également exigée à la prise du véhicule.
+
+### Peut-on conduire une Lamborghini en hiver au Québec?
+
+Oui, avec les bons pneus et les bons modes de conduite, une Lamborghini Urus ou une Huracán se conduisent très bien en hiver. Nos équipes briefent chaque client sur les particularités du modèle avant la remise des clés.
+
+### Est-ce que le kilométrage est inclus dans la location?
+
+Un kilométrage quotidien est inclus selon le modèle loué, et les détails exacts figurent dans votre contrat de réservation. Les dépassements sont facturés au kilomètre supplémentaire, calculé à l'avance pour éviter les surprises.
+
+Pour réserver votre supercar pour le jour de l'an, appelez-nous au [438-809-4417](tel:4388094417) ou écrivez-nous sur [WhatsApp](https://wa.me/14388094417), et on vous confirme la disponibilité sur-le-champ.`,
+  },
+  {
     slug: 'meilleurs-suv-de-luxe-a-louer-a-montreal-urus-g63-et-plus',
     title: 'Meilleurs SUV de Luxe a Louer a Montreal: Urus, G63 et Plus',
     date: '2026-10-06',
