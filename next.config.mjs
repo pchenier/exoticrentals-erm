@@ -312,6 +312,18 @@ const nextConfig = {
         destination: '/location-voiture-de-luxe-montreal',
         permanent: true,
       },
+      // Deleted posts still linked externally (GSC 404s, 2026-10-06) — send link
+      // equity to the closest live pages instead of soft-404ing.
+      {
+        source: '/blog/exotic-car-rental-montreal-corporate-events',
+        destination: '/blog/corporate-event-exotic-car-rental-montreal-impress-clients-and-teams',
+        permanent: true,
+      },
+      {
+        source: '/blog/bmw-x5m-competition-escapade-fin-de-semaine-montreal',
+        destination: '/blog',
+        permanent: true,
+      },
     ];
   },
   async headers() {
