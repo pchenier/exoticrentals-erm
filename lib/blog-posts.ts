@@ -11425,8 +11425,65 @@ Appelez le [438 809 4417](tel:4388094417) ou écrivez sur [WhatsApp](https://wa.
     slug: "luxury-car-rental-montreal-birthday",
     title: "Luxury Car Rental for Your Birthday in Montreal, Make It Epic",
     date: '2026-05-01',
-    description: "Celebrate your birthday in Montreal behind the wheel of a supercar. Same-day booking available. From $400/day.",
-    content: "Forget the restaurant reservation. Forget the bar crawl. This year, start your birthday with something that actually matches the occasion, the keys to a supercar, delivered to your door before noon.\n\n**The Birthday Rental**\n\nThere's no better gift you can give yourself (or someone else) than a day behind the wheel of a machine that costs more than most people's annual salary. The Audi RS5 starts at $400/day, that's less than many birthday dinners for a group, and significantly more memorable.\n\n**Pick Your Machine**\n\n- **Audi RS5** ($400/day), The sleeper. Nardo grey, brutal off the line, nobody sees it coming.\n- **BMW M5 Competition** ($499/day), The all-rounder. Four doors, 625hp, sounds like it means business.\n- **Lamborghini Urus** ($849/day), The attention magnet. Walk out of a restaurant to this and your night is made.\n- **McLaren 600LT** ($1,199/day), The once-in-a-lifetime car. For the birthday you won't forget.\n\n**How It Works**\n\nMessage us on WhatsApp at 438-809-4417 the morning of your birthday (or the night before). Tell us which car, where to deliver, and what time. We handle the rest. Cash, crypto, e-transfer, or credit card, your call.\n\n**The Best Part**\n\nYou don't have to own it. You don't insure it. You don't maintain it. For one day, it's yours completely, and that's exactly how it should feel.",
+    description: "Celebrate your birthday in Montreal with a supercar delivered to your door. Same day booking, delivery included, from $599 per day.",
+    content: `A luxury car rental for your birthday in Montreal starts at $599 per day with delivery included to your door anywhere in Greater Montreal, and it turns the whole day into the gift. You pick the car, we bring it clean and fueled at the hour you choose, and the plan writes itself: 641 horsepower in the driveway at breakfast, photos in Old Montreal at noon, and a dinner arrival nobody forgets. Here is exactly what it costs, which car fits which birthday, and how a same day booking works.
+
+## What Does a Birthday Supercar Rental in Montreal Cost?
+
+The fleet covers every budget tier, from a $599 limited edition sedan to a $2,399 Maybach that turns the evening into an event. Every rate includes delivery and pickup across Greater Montreal with a 24 hour minimum.
+
+- BMW M4 Competition x KITH: $599/day, 503 hp, zero to 100 km/h in 3.8 seconds. The limited KITH edition, so the surprise starts before anyone can name the model.
+- BMW M3 Competition: $650/day, 503 hp, all wheel drive. The driver's sedan for the person who wants to steer.
+- Mercedes GLC63s AMG: $650/day, 510 hp, zero to 100 in 3.8 seconds. The sleeper SUV nobody sees coming.
+- Bentley Bentayga: $699/day, 542 hp. British presence without the Italian drama.
+- Maybach GLS 600: $999/day, 550 hp. First class silence for a quiet milestone.
+- Audi R8: $1,099/day, 640 hp V10. The classic mid engine birthday.
+- Lamborghini Urus: $1,399/day, 641 hp, zero to 100 in 3.6 seconds. The crowd magnet.
+- McLaren 600LT Spider: $1,999/day, 592 hp, zero to 100 in 2.8 seconds. The milestone machine.
+
+Two day and weekend rates drop the daily price, which matters when the birthday lands on a Friday. The full list with live availability is on the [fleet page](/fleet).
+
+## Which Car Fits Which Birthday?
+
+The 25th calls for a different car than the 50th. The BMW M4 Competition x KITH is the driveway surprise: rare in this city, loud in the right way, and it starts every conversation at the party. The [Audi R8 Spyder](/fleet/audi-r8-spyder) at $1,299/day is the summer birthday under an open sky, V10 behind your head, terrasses on Saint Laurent.
+
+If the birthday is a group thing, the [Urus](/fleet/lamborghini-urus) and the [Escalade](/fleet/cadillac-escalade) both seat the whole crew and the luggage, and the Urus is the one strangers photograph. For a landmark year, the [Maybach GLS 600](/fleet/mercedes-maybach-gls-600) is the calm choice: rear seats that massage, doors that close themselves, and the silence after a decade of real life.
+
+The [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) is the big one. The 30th, the 40th, the birthday where the gift has to land harder than a watch. It is the most extreme car we carry and the one people book months ahead of the date.
+
+## How Does Birthday Delivery Work?
+
+You call or message the day before, sometimes the same morning. Pick the car, the address, and the hour. A driver arrives with the car washed, fueled, and warmed up in winter, walks you through the controls in about 15 minutes, takes the preauthorization on your credit card, and leaves. The car is yours for at least 24 hours.
+
+At the end we collect it from the same address, so nobody spends their birthday in a rental office. Delivery is included across the island, [Laval](/locations/laval), Longueuil, and the South Shore. Every step is detailed on [how it works](/how-it-works).
+
+## Where Do You Drive It on the Big Day?
+
+Old Montreal for the morning photos: stone walls, the river, and the car. Mount Royal for the viewpoint over the city. If the group wants a run, the highway north toward Saint Sauveur is 45 minutes of open road that shows what 641 hp actually means. Then the arrival: park the Urus or the G63 in front of the restaurant and let the evening handle itself.
+
+## What Are the Requirements?
+
+A valid driver's license and a credit card in your name for the deposit. The performance tier starts at 25, while the M4 and the M3 open at 21 with the right insurance profile. Security deposits run from $2,000 on the entry cars to $10,000 on the McLaren tier, released after the rental when the car comes back as delivered. The full rules are on the [FAQ page](/faq).
+
+## Can You Gift the Rental Instead?
+
+Yes, and it is the most booked gift in the fleet. Reserve under the driver's name, choose the delivery address, and the car simply appears on the morning. Add a card on the windshield and the job is done. For something to physically hand over at the party, we issue gift cards for any amount and any car, redeemable whenever the birthday person books. What people do after that is up to them, and real client stories are on our [reviews page](/reviews).
+
+## FAQ
+
+### Can I get a supercar delivered the same day as my birthday?
+
+Often yes. The fleet is local and delivery is included, so same morning bookings happen every week. The closer you are to a weekend, the earlier you should message: Friday and Saturday mornings fill first.
+
+### Is there a minimum rental period?
+
+Yes, 24 hours minimum on every car. Most birthday bookings are exactly one day, delivered before noon and collected the next morning.
+
+### What if the driver is turning 21 or 22?
+
+The BMW M4 Competition x KITH, the M3 Competition, and the Cadillac Escalade are the accessible options on price. The supercar tier, Lamborghini, McLaren, and the R8, stays at 25 plus.
+
+For your birthday in Montreal, call [(438) 809 4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and the car is at your door before the cake.`,
   },
   {
     slug: "location-audi-rs7-montreal",
