@@ -4871,42 +4871,95 @@ If you want to rent a [BMW M5 Competition](/bmw-rental-montreal) or a [Mercedes 
     title: 'St-Jean Baptiste Exotic Car Rental Montreal: Celebrate Quebec in Style',
     date: '2026-08-21',
     description: 'Looking for an exotic car rental Montreal St-Jean Baptiste? Rent a Lamborghini, Ferrari, or McLaren for the holiday. 24/7 delivery. Call 438-809-4417.',
-    content: `St-Jean-Baptiste is the day Quebec lets loose. The streets of Montreal fill with music, parades, and a sense of pride that's unmistakable. If you're planning to celebrate in the Plateau, Old Port, or anywhere else, you need a car that matches the energy. That's exactly what an exotic car rental Montreal St-Jean Baptiste delivers. We're Exotic Rentals Montreal, and we put you behind the wheel of the most powerful machines on the road, so you can celebrate the way you want.
+    content: `St-Jean-Baptiste is the day Quebec lets loose. June 24 is the one date on the calendar when the whole province clocks out, turns up the music, and celebrates out loud, and Montreal is where the energy peaks. The streets fill with flags, parades, free concerts, and fireworks, and if you're planning to celebrate in the Plateau, the Old Port, or anywhere else, you need a car that matches the energy. That's exactly what an exotic car rental Montreal St-Jean Baptiste delivers. We're Exotic Rentals Montreal, operated by Gestion Exotics Inc., and we put you behind the wheel of the most powerful machines on the road, delivered to your door anywhere in Greater Montreal.
 
 ## Why an Exotic Car for St-Jean-Baptiste?
 
 This isn't just another holiday. St-Jean-Baptiste is a statement. You're not there to blend in; you're there to be seen. A Lamborghini Huracan Tecnica or a Ferrari 488 GTB turns heads before you even hit the first red light. The roar of the engine, the stares from the crowd, it's all part of the day. When you think about an exotic car rental Montreal St-Jean Baptiste, you're already on the right track. We don't just hand you keys; we hand you an experience.
 
+There's a practical side too. The real holiday arc runs from the evening of June 23, with bonfires and backyard parties across the province, straight through June 24 with the parades and the shows downtown. Our 24 hour minimum rental covers the whole arc. Take delivery on the morning of the 23rd, drive to the party, wake up to the parade, catch the fireworks, and hand the car back the next day. One booking, two full days of holiday.
+
+## How Much Does an Exotic Car Rental for St-Jean Baptiste Cost?
+
+Rates run from $400/day at the entry point to $2,399/day at the top of the fleet. Here's the price ladder our St-Jean clients actually book:
+
+- Toyota GR Supra: $400/day, 420 hp, 0-100 km/h in 3.9 seconds
+- Cadillac Escalade: $599/day, 420 hp, seats seven for the whole crew
+- BMW M5 Competition: $599/day, 617 hp, 0-100 in 3.4 seconds
+- Bentley Bentayga: $699/day, 542 hp, the quiet flex
+- Audi R8 V10: $899/day, 562 hp, 0-100 in 3.2 seconds
+- Mercedes-Maybach GLS 600: $999/day, 550 hp, a first class cabin for VIPs
+- McLaren 600LT: $1,199/day, 592 hp, 0-100 in 2.9 seconds
+- Lamborghini Urus: $1,399/day, 641 hp, 0-100 in 3.6 seconds
+- Lamborghini Huracan EVO: $1,499/day, 610 hp, 0-100 in 3.3 seconds
+- Lamborghini Huracan Tecnica: $1,599/day, 631 hp, 0-100 in 3.2 seconds
+
+The sweet spot for a St-Jean weekend is $899 to $1,599, where the Audi R8, the McLaren 600LT, and both Huracan variants live. The full list with photos and specs is on the [fleet page](/fleet), and delivery anywhere in Greater Montreal is included in the rate.
+
 ## The Fleet for the Celebration
 
 We've got a fleet built for every kind of celebration. If you want Italian drama, check out our [Lamborghini rental Montreal](/lamborghini-rental-montreal) options: the Huracan EVO, the Huracan Tecnica, and the Urus SUV. For British precision, our [McLaren rental Montreal](/mclaren-rental-montreal) page features the 600LT, a track weapon that's fully street legal. And for the classic allure, we have [Ferrari rental Montreal](/ferrari-rental-montreal) with the 488 GTB.
 
-But we don't stop there. Our lineup includes the Audi RS7 and RS6, BMW M5 Competition and M3 Competition, Mercedes E63S AMG and S63 AMG, Porsche 911 4S Techart and Panamera GTS, plus the Taycan 4S if you want to go electric. Every car is maintained to perfection and ready for the road. No matter which model you pick, you're getting a machine that turns a simple drive into a headline.
+But we don't stop there. Our lineup includes the Audi RS7 and RS6, the BMW M5 Competition, the Mercedes E63S AMG and S63 AMG, the Porsche 911 4S Techart and Panamera GTS, plus the Taycan 4S if you want to go electric. Every car is maintained to perfection and arrives clean, fueled, and inspected. No matter which model you pick, you're getting a machine that turns a simple drive into a headline.
+
+## Which Car Fits Your St-Jean Plans?
+
+The right car depends on the shape of your holiday. Heading to a backyard party in the Plateau with a crew? The Lamborghini Urus at $1,399/day is the ultimate group machine, with 641 hp, room for five, and cargo space for the cooler. The Mercedes G63 AMG at $1,300/day plays the same role with more attitude and a silhouette everyone recognizes from three blocks away. And if the whole family is coming, the Cadillac Escalade at $599/day seats seven and absorbs the chaos.
+
+Riding solo or as a couple? The McLaren 600LT at $1,199/day is the purest driver's car in the fleet, and the Huracan Tecnica at $1,599/day is the one that photographs best at the fireworks. For arrivals at a private party in Westmount or dinner in the Old Port, the Bentley Bentayga at $699/day makes the statement without shouting.
 
 ## Booking Your Exotic Car Rental Montreal St-Jean Baptiste
 
-The process is straightforward. Call us at 438-809-4417 or message us on WhatsApp at wa.me/14388094417. We'll confirm availability, set the time, and arrange delivery anywhere in Greater Montreal, 24 hours a day, 7 days a week. Need the car at your hotel at 2 AM? Done. Returning it at midnight? No problem.
+The process is straightforward. Call us at [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417). We'll confirm availability, set the time, and arrange delivery anywhere in Greater Montreal, 24 hours a day, 7 days a week. Need the car at your hotel at 2 PM on the 23rd? Done. Returning it at midnight after the fireworks? No problem.
 
 Here's what you need to know before you book:
 
 - **Minimum age** is 25 for most vehicles, but we have select models for drivers 21 and older.
 - **Minimum rental** is 24 hours, a full day to enjoy the holiday.
-- **Security deposit** varies by vehicle. We'll explain it clearly upfront.
+- **Security deposit** varies by vehicle, roughly $1,000 to $2,000 on performance sedans and $5,000 to $10,000 on the Lamborghini and McLaren tier. It's a preauthorization on your credit card, not a charge, and it's released after the rental.
 - **Full insurance** is required. If you don't have it, we can help you arrange it.
 
-We don't hide fees. We give you a transparent quote and stick to it. That's how we operate.
+We don't hide fees. We give you a transparent quote and stick to it. That's how we operate. The full process is spelled out on the [how it works](/how-it-works) page, and the most common questions are answered on our [FAQ](/faq).
 
 ## What to Expect on the Road
 
 St-Jean-Baptiste means road closures, crowds, and a festive mess. But that's part of the fun. With a car like the Audi R8 V10 or the Mercedes G63 AMG, you'll handle the city with confidence. The traffic doesn't matter when you're in a machine that responds to every touch. We know Montreal's streets, and we'll make sure you get to the parade route or the Quartier des Spectacles without a hitch.
 
-For the best experience, we recommend a car with presence. The G63 is a boxy statement that can't be missed. The Urus is the ultimate SUV for a crew. If you're riding solo, the McLaren 600LT is the way to go. We've delivered to the Old Port, the Plateau, and everywhere in between. Our team knows the city, and we'll get you there on time.
+Plan around the closures and you'll have the best seat in the province. A route our clients love: an early evening run up Camillien-Houde Parkway while the sun is still up, down through [Westmount](/locations/westmount) as the flags come out, then park near the [Old Port](/locations/old-montreal) for the fireworks and let the car do the talking. If your party is in the Quartier des Spectacles, arrive early, because the streets fill fast once the shows start.
+
+One honest tip from people who drive these cars every week: keep the revs for the open stretches and stay patient in the crowds. A supercar crawling down a packed festival street at 20 km/h still gets more attention than anything else on the road, and police presence on the 24th is real. Enjoy the attention, respect the limits, and the day delivers.
+
+## How Far Ahead Should You Book for June 24?
+
+St-Jean-Baptiste is one of the busiest rental days of our summer, right in the thick of wedding season and festival season. The Huracan variants and the McLaren 600LT go first, often two to three weeks out. If your heart is set on a specific car for the 23rd or the 24th, lock it in early. Deliveries earlier in that week are easier to arrange on short notice, but the holiday itself is first come, first served, and once a car is booked for June 24, it's gone.
 
 ## Make It Count
 
-This is a once-a-year moment. Don't waste it in a boring sedan. An exotic car rental Montreal St-Jean Baptiste from Exotic Rentals Montreal changes the entire vibe. You'll feel it the second you get behind the wheel, the power, the attention, the style. It's not just a rental; it's your ride for the day.
+This is a once a year moment. Don't waste it in a boring sedan. An exotic car rental Montreal St-Jean Baptiste from Exotic Rentals Montreal changes the entire vibe. You'll feel it the second you get behind the wheel, the power, the attention, the style. It's not just a rental; it's your ride for the biggest party of the Quebec summer.
 
-So, are you ready to celebrate in style? Call us at 438-809-4417 or send a WhatsApp message to wa.me/14388094417. We'll get you set up with the car of your choice. Let's make this St-Jean-Baptiste one you'll actually remember.`,
+## FAQ
+
+### How much does it cost to rent an exotic car for St-Jean Baptiste in Montreal?
+
+Rates start at $400/day for the Toyota GR Supra and climb to $2,399/day for the Mercedes-Maybach S680 at the very top, with most supercars sitting between $899 and $1,599 per day. Delivery anywhere in Greater Montreal is included in the rate.
+
+### Do you deliver the car on June 23 and June 24?
+
+Yes. We deliver 24 hours a day, 7 days a week, anywhere in Greater Montreal, holiday included. Most St-Jean clients take delivery on the morning of the 23rd so the car covers both the bonfires and the fireworks, and the 24 hour minimum makes that easy.
+
+### What are the age and license requirements?
+
+The minimum age is 25 for most supercars, with select models available to drivers 21 and older. You need a valid driver's license, full insurance coverage, and a credit card in your name for the security deposit.
+
+### Which car is best for a group on St-Jean Baptiste?
+
+The Lamborghini Urus at $1,399/day seats five with 641 hp, the Mercedes G63 AMG at $1,300/day brings the icon factor, and the Cadillac Escalade at $599/day seats seven. All three handle holiday crowds and look right in the photos.
+
+### How far in advance should I book for June 24?
+
+Book two to three weeks ahead minimum. St-Jean-Baptiste is one of the busiest rental days of the summer, and the Huracan and McLaren models are usually the first to go.
+
+To book your exotic car rental Montreal St-Jean Baptiste, call us at [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417), and we'll confirm your car and delivery time for June 24 on the spot.`,
   },
   {
     slug: 'new-year-s-eve-exotic-car-rental-montreal-ring-in-the-year-in-a-supercar',
