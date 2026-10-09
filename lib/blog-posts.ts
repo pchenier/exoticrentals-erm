@@ -9,6 +9,98 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'downtown-montreal-exotic-car-rental-supercars-delivered-to-the-core',
+    title: 'Downtown Montreal Exotic Car Rental: Supercars Delivered to the Core',
+    date: '2026-10-09',
+    description: 'Downtown Montreal exotic car rental from $400 to $2,399 per day. Lamborghini, McLaren, Audi R8 and more, delivered to your hotel or condo in the core. Book 438-809-4417.',
+    content: `A downtown Montreal exotic car rental costs between $400 and $2,399 per day depending on the car, with free delivery to hotels, condos, and offices anywhere in the core, from Old Montreal to the Golden Square Mile. The minimum rental is 24 hours, insurance is included, and you can be behind the wheel of a Lamborghini Huracán EVO at $1,499/day within hours of calling.
+
+## What Does a Downtown Montreal Exotic Car Rental Cost?
+
+Expect to pay between $400 and $2,399 per day for a downtown Montreal exotic car rental. The entry point is the Audi RS5 at $400/day with 450 hp and a 0-100 time of 3.9 seconds, while the top of the fleet is the Mercedes-Maybach S680 by Virgil Abloh at $2,399/day with 621 hp.
+
+In between, you get real supercar territory. The [Lamborghini Huracán EVO](/fleet/lamborghini-huracan-evo) runs $1,499/day with 610 hp and a 0-100 time of 3.3 seconds. The [Audi R8](/cars/audi-r8) sits at $1,099/day with 640 hp, and the [McLaren 600LT](/cars/mclaren-600lt) hits $1,199/day with 592 hp and a 0-100 sprint of 2.9 seconds. If you want the drop-top version, the [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder) is $1,499/day and hits 100 km/h in 3.1 seconds.
+
+Here is a quick pricing breakdown by tier:
+
+- Entry performance, $400 to $700/day: Audi RS5 ($400/day), Toyota GR Supra ($400/day), BMW M5 Competition ($599/day), Porsche Panamera GTS ($700/day)
+- Mid-range exotics, $900 to $1,300/day: Audi R8 V10 ($899/day), Audi R8 ($1,099/day), Mercedes G63 AMG ($1,300/day), Audi R8 Spyder ($1,299/day)
+- Full supercars, $1,400 to $2,399/day: Lamborghini Huracán EVO ($1,499/day), McLaren 600LT Spider ($1,999/day), Lamborghini Huracán Tecnica ($1,599/day), Mercedes-Maybach S680 by Virgil Abloh ($2,399/day)
+
+## Which Exotic Cars Can Be Delivered Downtown?
+
+The entire fleet can be delivered anywhere in downtown Montreal, including Old Montreal, Griffintown, the Plateau, Westmount, and Golden Square Mile hotels. Delivery is handled by our own team, so the car arrives detailed, fueled, and ready to drive, and someone walks you through the controls on the spot.
+
+The most requested downtown deliveries are the Lamborghini Huracán EVO Spyder at $1,499/day and the [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day, which makes sense given Montreal's winter reality and pothole season. The Urus packs 641 hp and still hits 100 km/h in 3.6 seconds, so you lose nothing in straight-line speed while gaining ground clearance. For summer weekends, the [Audi R8 Spyder](/fleet/audi-r8-spyder) at $1,299/day with 640 hp is the convertible most people picture when they think of cruising Saint-Laurent Boulevard.
+
+If your trip is more about arriving than driving, the [Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600) at $999/day with 550 hp and the [Bentley Bentayga](/fleet/bentley-bentayga) at $699/day with 542 hp are the two SUVs that get the most attention pulling up to a hotel entrance on Sherbrooke.
+
+## How Does Delivery Work for a Downtown Rental?
+
+Delivery to downtown Montreal is free and typically arranged within a few hours of booking, subject to availability. You tell us the address, whether that is a hotel on Rue Sherbrooke, a condo tower in Griffintown, or an office on Saint-Catherine, and the car arrives at the time you set.
+
+The process is straightforward:
+
+- Choose your car and dates, then confirm by phone, WhatsApp, or through the [booking process](/how-it-works)
+- Provide your driver's license and insurance details for verification
+- We deliver the car, hand over the keys, and walk you through the vehicle
+- You drive for your rental period, then we collect the car at the same address or wherever suits you
+
+The minimum rental is 24 hours, which matters if you were planning a two-hour joyride. Most downtown clients book one to three days. If you have questions about deposits, mileage caps, or age requirements, the [FAQ page](/faq) covers the details, and the short version is that you need a valid license, insurance, and a credit card for the security hold.
+
+## Where Should You Drive an Exotic Car in Downtown Montreal?
+
+The classic downtown loop is Saint-Laurent Boulevard south toward [Old Montreal](/locations/old-montreal), then west along the Old Port to Square Victoria, then up Saint-Denis or through [Griffintown](/locations/griffintown) toward the bridges. Do it early on a Sunday morning and you get clean asphalt, empty streets, and the full sound of a naturally aspirated V10 from the Audi R8 echoing off the old stone buildings.
+
+A few practical notes from someone who has driven these streets hundreds of times:
+
+- Avoid René-Lévesque during rush hour, the lights are long and traffic is heavy between 4 and 6 pm
+- Sainte-Catherine is pedestrian-heavy, fine for arriving somewhere, bad for actually driving
+- The best supercar roads start once you leave the core, especially Chemin du Roi toward the West Island or the 132 along the South Shore
+- Pothole season, roughly March through May, argues strongly for the Lamborghini Urus or the [Cadillac Escalade](/fleet/cadillac-escalade) at $599/day over a low-slung supercar
+
+For a weekend route, take the Huracán EVO Spyder over the Jacques-Cartier Bridge toward [Longueuil](/locations/longueuil) and run the riverside roads, then come back through the tunnel at night when the skyline is lit up. That loop is the single best answer to why anyone rents an exotic car in this city.
+
+## Do You Need a Special License to Rent an Exotic Car Downtown?
+
+No special license is required, a standard Quebec or international driver's license is enough for every car in the fleet. The real requirements are age, insurance, and the security deposit, which varies by car and is refunded after the rental period ends without incident.
+
+For the high-end cars, expect a higher deposit and possibly a short driving-record check. The Lamborghini Huracán Tecnica at $1,599/day with 631 hp and a 0-100 time of 3.2 seconds is the most powerful car most clients will ever touch, so we spend a few extra minutes on the handover covering the launch control and the carbon-ceramic brakes. If you want to see how other clients handled the same cars, the [reviews page](/reviews) has unfiltered feedback from downtown and Greater Montreal renters.
+
+## Is It Worth Renting an Exotic Car in Downtown Montreal Versus the Airport?
+
+Yes, downtown delivery is the better option in almost every case. Renting at the airport means transit time, counter lines, and a shuttle to an off-site lot, while downtown delivery puts the car at your door at the exact hour you want it.
+
+There is also the practical point that most exotic rentals in Montreal are for experiences, not transportation. You are renting the Huracán for the drive down Saint-Laurent and the photos in front of the Notre-Dame Basilica, not for a commute to Laval. Downtown delivery matches how people actually use these cars. If you are staying outside the core, we also cover areas like [Laval](/locations/laval), [Saint-Laurent](/locations/saint-laurent), and [Brossard](/locations/brossard), so the same service applies across Greater Montreal.
+
+One more thing worth knowing: the fleet rotates. If you call asking for a specific car on a specific weekend, especially June through September, book early. The McLaren 600LT Spider at $1,999/day with a 0-100 time of 2.8 seconds is usually the first car gone on a summer Saturday.
+
+## FAQ
+
+### How much does a downtown Montreal exotic car rental cost?
+
+Prices run from $400/day for the Audi RS5 up to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh. Most supercars, including the Lamborghini Huracán EVO and the Audi R8 Spyder, sit between $1,099 and $1,599 per day.
+
+### Is delivery to my downtown hotel free?
+
+Yes, delivery anywhere in downtown Montreal, including Old Montreal, Griffintown, and the Golden Square Mile, is included with your rental. The car arrives detailed and fueled, and the handover takes about fifteen minutes.
+
+### What is the minimum rental period?
+
+The minimum is 24 hours regardless of the car. Most downtown clients book one to three days, which is enough time for a proper drive plus an evening out without rushing the return.
+
+### Can I rent a Lamborghini in downtown Montreal with a regular license?
+
+Yes, a standard valid driver's license is all you need for the Lamborghini Huracán EVO at $1,499/day or any other car in the fleet. No special certification or racing license is required.
+
+### Which car is best for Montreal's potholes?
+
+The Lamborghini Urus at $1,399/day with 641 hp is the smart pick, since it clears rough pavement that would punish a supercar's front lip. The Bentley Bentayga at $699/day is the comfort-focused alternative with 542 hp.
+
+Ready to book? Call [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm your car and delivery time on the spot.
+`,
+  },
+  {
     slug: 'location-lamborghini-huracan-tecnica-montreal-le-v10-a-son-sommet',
     title: 'Location Lamborghini Huracan Tecnica Montreal: Le V10 a Son Sommet',
     date: '2026-10-08',
