@@ -11546,6 +11546,15 @@ Prêt à vivre l'expérience ? Envoyez-nous un message sur WhatsApp pour vérifi
 <h2>Why Rent an Exotic Car for the Weekend in Montreal?</h2>
 <p>The math is simple. Split across two or three days, the cost per experience drops hard compared to a single day, and you skip everything that makes ownership a headache: insurance, maintenance, depreciation, winter storage. You get the sound, the stares, and the feel, then hand back the keys Sunday night with zero regrets. It is also the cheapest way to test a bucket list car before you even think about buying one, and the easiest upgrade to a birthday, an anniversary, a graduation, or a first date that needs to land. Nobody remembers the restaurant. Everybody remembers the car. Weekend rates run Friday through Monday morning, and we deliver the car directly to your door anywhere in Greater Montreal.</p>
 
+<h2>How Much Does a Weekend Exotic Car Rental in Montreal Cost?</h2>
+<p>Weekend rates run from $400/day for the Toyota GR Supra and the Audi RS5 up to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh, and most clients land between $599 and $1,599 per day. Book Friday to Sunday and the per day math beats a single day rental, because the fixed costs stay flat while your hours behind the wheel triple. Here is how the fleet sorts by budget:</p>
+<ul>
+<li><strong>Entry performance, $400 to $600 per day</strong>: Audi RS5 at $400/day, Toyota GR Supra at $400/day, BMW M5 Competition at $599/day, Cadillac Escalade at $599/day.</li>
+<li><strong>Mid range exotics, $899 to $1,300 per day</strong>: Audi R8 V10 at $899/day, McLaren 600LT at $1,199/day, Urus Black on Black at $1,200/day, Audi R8 Spyder at $1,299/day.</li>
+<li><strong>Full supercars, $1,400 and up per day</strong>: Lamborghini Huracán EVO at $1,499/day, Huracán Tecnica at $1,599/day, McLaren 600LT Spider at $1,999/day, Maybach S680 at $2,399/day.</li>
+</ul>
+<p>Multi day weekend packages come with better per day rates than stacking single days, and weekly rates drop further if you want the car through Thursday. Every rental includes delivery, and there are no surprise fees at handback.</p>
+
 <h2>The Weekend Playbook</h2>
 <p>Start Friday night in the Old Port. Park near the waterfront, let the city come to you, and let dinner run long. Saturday morning, do the Mont-Royal loop early while the roads are still empty and the light cuts through the trees. Saturday afternoon, point the car up the A-15 toward Saint-Sauveur and let the Laurentians do their thing. Saturday night is Crescent Street or Old Montreal, wherever the night takes you, and the car becomes the best table you never had to wait for. Sunday, slow it down: brunch in Mile End, a cruise through Westmount and NDG, and a relaxed handback before the Sunday scaries hit. Three days, three completely different drives, one car.</p>
 
@@ -11559,6 +11568,10 @@ Prêt à vivre l'expérience ? Envoyez-nous un message sur WhatsApp pour vérifi
 </ul>
 <p>Every vehicle is detailed, fueled, and ready at your requested time. Full insurance is required on all rentals, and delivery anywhere in Greater Montreal is included, 24/7.</p>
 
+<h2>Requirements and Delivery for Your Weekend Rental</h2>
+<p>The requirements are the same whether you book one day or three. You need to be 25 or older for the supercars like the Huracán and the 600LT, with a valid driver's license, full coverage insurance, and a credit card in your name for the security deposit, which runs from roughly $1,000 on the performance sedans up to $10,000 on the Lamborghini and McLaren tier. Drivers 21 to 24 can be approved for select vehicles like the Audi RS5 or the Cadillac Escalade depending on their profile. The deposit is a hold on your card, not a charge, and it is released after the car comes back in the agreed condition.</p>
+<p>Delivery is included anywhere in Greater Montreal: your condo downtown, a hotel in Old Montreal, a house in Laval or Longueuil, even curbside at YUL if you are flying in for the weekend. The handover takes about 15 minutes and covers the driving modes, the cameras, the front lift button on the low cars, and the fuel and return terms. At the end of the weekend we collect the car from the same address or wherever suits you. The full process is spelled out on our how it works page, and the FAQ covers deposits, mileage, and insurance edge cases.</p>
+
 <h2>How Weekend Booking Works</h2>
 <p>Text or WhatsApp us at 438-809-4417 with your dates and the car you want. We confirm within the hour, lock your slot, and deliver Friday at the time you choose. A security deposit applies per vehicle and is returned on safe handback. We accept cash, crypto, e-transfer, and credit card. No hidden fees, no waiting rooms, just the keys and the road.</p>
 
@@ -11569,6 +11582,10 @@ Prêt à vivre l'expérience ? Envoyez-nous un message sur WhatsApp pour vérifi
 <p>Yes. Unlimited kilometers within Quebec on most vehicles, so the A-15 run and Mont-Tremblant are all yours.</p>
 <h3>How fast do weekend slots book out?</h3>
 <p>Fast, especially June through September and race weekend. If you have dates in mind, lock them early.</p>
+<h3>Is delivery really included for a weekend rental?</h3>
+<p>Yes. Delivery and pickup anywhere in Greater Montreal is included with every weekend rental, including downtown, Laval, Longueuil, Brossard, and the North Shore. The car arrives detailed and fueled, and we collect it from the same address Sunday evening or Monday morning.</p>
+<h3>Which car is the best weekend pick if it might rain?</h3>
+<p>The Lamborghini Urus Black on Black at $1,200/day is the safest all weather pick, with all wheel drive and room for the whole crew. If you want the roof down experience, the Audi R8 Spyder at $1,299/day handles a summer shower better than you would think, and the top goes back up in seconds.</p>
 
 <p>📲 <strong><a href="tel:+14388094417">438-809-4417</a></strong> · <a href="https://wa.me/14388094417">WhatsApp</a></p>`,
   },
