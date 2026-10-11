@@ -1014,6 +1014,65 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "27",
+      "slug": "mercedes-gt53-amg",
+      "make": "Mercedes",
+      "model": "GT53 AMG",
+      "year": 2022,
+      "category": "EXOTIC",
+      "bodyStyle": "SEDAN",
+      "tagline": "",
+      "description": "",
+      "dailyRate": 600,
+      "weekendRate": 650,
+      "weeklyRate": 550,
+      "securityDeposit": 5000,
+      "horsepower": 420,
+      "engine": "turbo charged inline six",
+      "zeroToSixty": "",
+      "topSpeed": "",
+      "transmission": "Automatic",
+      "drivetrain": "AWD",
+      "seats": 2,
+      "doors": 2,
+      "luggage": 1,
+      "convertible": false,
+      "available": true,
+      "featured": true,
+      "premierVerified": true,
+      "instantConfirm": true,
+      "displayOrder": 26,
+      "images": [
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/dgfdgfdg-sFN2VvE3BmZIr1bGq37dab3hvgzezE.png",
+          "alt": "Mercedes GT53 AMG",
+          "isMain": true
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/sfdsf-UdlgxmbC95pTdjNnBni2f0Wl3qkRqn.png",
+          "alt": "Mercedes GT53 AMG",
+          "isMain": false
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/imageghjg-9J2CsI0tWNeBvqeNkb2oLSRPLCSlrk.png",
+          "alt": "Mercedes GT53 AMG",
+          "isMain": false
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/hgjg-MYPZq3MUMq44A156XzttFYhaXXHmrx.png",
+          "alt": "Mercedes GT53 AMG",
+          "isMain": false
+        }
+      ],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
