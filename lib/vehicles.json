@@ -955,6 +955,65 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "26",
+      "slug": "porsche-911-carrera-4",
+      "make": "Porsche",
+      "model": "911 Carrera 4",
+      "year": 2018,
+      "category": "EXOTIC",
+      "bodyStyle": "COUPE",
+      "tagline": "",
+      "description": "",
+      "dailyRate": 650,
+      "weekendRate": 680,
+      "weeklyRate": 500,
+      "securityDeposit": 5000,
+      "horsepower": 370,
+      "engine": "twin turbo flat six",
+      "zeroToSixty": "",
+      "topSpeed": "",
+      "transmission": "Automatic",
+      "drivetrain": "AWD",
+      "seats": 2,
+      "doors": 2,
+      "luggage": 1,
+      "convertible": false,
+      "available": true,
+      "featured": false,
+      "premierVerified": true,
+      "instantConfirm": true,
+      "displayOrder": 25,
+      "images": [
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/sfd-Jl3mlLHGkIDAavuVej7cqORVB4r156.png",
+          "alt": "Porsche 911 Carrera 4",
+          "isMain": true
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/sfsdfs-sKy601z7w27lUHGw3ri5fpHtd79afH.png",
+          "alt": "Porsche 911 Carrera 4",
+          "isMain": false
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/sdfdsfdsf-ReJO9uhOy9SBQu2ItnkaQknP934whT.png",
+          "alt": "Porsche 911 Carrera 4",
+          "isMain": false
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/fsd-GIdC77jAf9219HjpRNMn4wxpojphRa.png",
+          "alt": "Porsche 911 Carrera 4",
+          "isMain": false
+        }
+      ],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
