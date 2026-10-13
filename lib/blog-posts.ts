@@ -11740,7 +11740,70 @@ Appelez le [438 809 4417](tel:4388094417) ou écrivez sur [WhatsApp](https://wa.
     title: "Location Voiture de Luxe pour Mariage à Montréal",
     date: '2026-04-30',
     description: "Arrivez en supercar le jour de votre mariage à Montréal. McLaren, G63, Lamborghini, découvrez nos forfaits pour mariages.",
-    content: "Votre mariage mérite une arrivée inoubliable. Pas une limousine blanche comme tout le monde, une vraie machine, un vrai impact. Chez Exotic Rentals Montreal, nous avons habillé des mariages avec notre McLaren 600LT, notre Lamborghini Urus et notre Mercedes-AMG G63. Le résultat ? Des photos époustouflantes et des invités qui s'en souviennent des années plus tard.\n\n**Quel véhicule choisir pour votre mariage ?**\n\nLa McLaren 600LT (1 199$/jour) est le choix cinématographique, spectaculaire, sexy, inoubliable. Pour une arrivée élégante et imposante, la G63 AMG (999$/jour) ou l'Urus (849$/jour) s'imposent, surtout si vous êtes à deux. Pour les couples qui veulent le wow factor absolu, la R8 V10 (899$/jour) reste un classique indémodable.\n\n**Livraison à votre lieu de réception**\n\nPeu importe où se tient votre mariage, hôtel du centre-ville, domaine en banlieue, salle en Rive-Sud, nous livrons le véhicule à l'heure convenue, impeccablement propre. Vous n'avez qu'à monter dedans.\n\n**Coordination avec votre photographe**\n\nOn le sait : les voitures font partie des photos de mariage. On vous livre le véhicule à l'avance pour la séance photo si nécessaire. Coordonnez avec nous par WhatsApp, on s'adapte à votre timeline.\n\n**Réservez tôt**\n\nLes dates de mariage partent vite, surtout en juin, juillet et août. Contactez-nous dès maintenant au 438-809-4417 pour bloquer votre date. Dépôt remboursable à la réservation.",
+    content: `Votre mariage mérite une arrivée inoubliable. Pas une limousine blanche comme tout le monde, une vraie machine, un vrai impact. Chez Exotic Rentals Montreal, opéré par Gestion Exotics Inc, nous avons habillé des mariages avec notre McLaren 600LT, notre Lamborghini Urus et notre Mercedes G63 AMG. Le résultat ? Des photos époustouflantes et des invités qui s'en souviennent des années plus tard.
+
+La location de voiture de luxe pour un mariage à Montréal est plus simple que vous ne le pensez. Vous choisissez le véhicule, nous le livrons à votre lieu de réception, propre et avec le plein, prêt pour les photos. Voici le guide complet pour choisir la bonne voiture, comprendre les prix et bloquer votre date sans stress.
+
+## Quel véhicule choisir pour votre mariage ?
+
+Le choix dépend du style de votre mariage et de l'effet recherché. Voici les favoris des couples :
+
+- [McLaren 600LT Spider](/fleet/mclaren-600lt-spider), $1,999 par jour : 592 chevaux, un 0-100 en 2,8 secondes et des portes dièdres qui s'ouvrent vers le ciel. Le choix cinématographique, la voiture qui vole la vedette à tout le monde sur les photos.
+- [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder), $1,499 par jour : 631 chevaux et le toit ouvert pour une arrivée au son du V10.
+- [Lamborghini Urus](/fleet/lamborghini-urus), $1,399 par jour : 641 chevaux, quatre vraies places et un coffre pour la robe et les bagages.
+- Mercedes G63 AMG, $1,300 par jour : la présence pure, l'icône carrée que tout le monde reconnaît en une seconde.
+- [Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600), $999 par jour : le confort de première classe pour les parents et les invités d'honneur.
+- [Bentley Bentayga](/fleet/bentley-bentayga), $699 par jour : le prestige britannique, discret et élégant.
+- [Cadillac Escalade](/fleet/cadillac-escalade), $599 par jour : sept passagers, parfait pour le cortège et la fête.
+
+Pour la majorité des couples, le duo gagnant est simple : une supercar pour les mariés et un Escalade ou un Maybach GLS 600 pour la famille et les témoins. Comparez chaque modèle sur la [flotte complète](/fleet).
+
+## Combien coûte une location de voiture de luxe pour un mariage à Montréal ?
+
+Les tarifs vont de $599 par jour pour le Cadillac Escalade jusqu'à $2,399 par jour pour le Mercedes-Maybach S680 by Virgil Abloh, la pièce la plus exclusive de la flotte. La majorité des mariages se règlent entre $999 et $1,499 par jour.
+
+Ce qu'il faut savoir sur les prix :
+
+- La durée minimale est de 24 heures, donc vous gardez la voiture pour la réception et le brunch des mariés le lendemain matin.
+- Les locations de plusieurs jours bénéficient de tarifs préférentiels. La formule du vendredi au dimanche est la plus demandée.
+- Le dépôt de sécurité se préautorise sur votre carte de crédit et se libère après le retour du véhicule sans dommage.
+- Le kilométrage journalier est inclus et couvre largement église, séance photo, réception et retour à l'hôtel.
+
+Un conseil honnête de gens qui voient passer beaucoup de budgets mariage : la voiture est souvent le poste le moins cher pour l'effet qu'il produit. La salle et le photographe coûtent plus cher et personne ne s'en souvient. La supercar, elle, finit sur le montage photo, dans les vidéos et dans les souvenirs de tous vos invités.
+
+## Livraison à votre lieu de réception
+
+Peu importe où se tient votre mariage, hôtel du centre-ville, domaine en banlieue, salle sur la Rive-Sud ou lieu de réception à Laval, nous livrons le véhicule à l'heure convenue, impeccablement propre. Vous n'avez qu'à monter dedans.
+
+La livraison est incluse partout dans le Grand Montréal, incluant [Longueuil](/locations/longueuil), [Brossard](/locations/brossard) et la Rive-Nord. Nous livrons aussi les hôtels du [Vieux-Montréal](/locations/old-montreal), les domaines des Laurentides et les vignobles de l'Estrie. Le retour se fait au même endroit ou ailleurs selon votre plan de fin de soirée, on s'adapte.
+
+## Coordination avec votre photographe
+
+On le sait : les voitures font partie des photos de mariage. On vous livre le véhicule à l'avance pour la séance photo si nécessaire. Coordonnez avec nous par WhatsApp, on s'adapte à votre timeline.
+
+Les plans photo qui fonctionnent le mieux à Montréal :
+
+- Les rues pavées du Vieux-Montréal tôt le matin, avant la foule
+- Le belvédère Kondiaronk sur le Mont-Royal, avec le skyline en fond
+- Le Vieux-Port au coucher du soleil, lumière dorée garantie sur la carrosserie
+- L'entrée du domaine ou de la salle, pour les photos de sortie
+
+Dites-nous où et quand, et nous alignons la livraison sur le plan de votre photographe. Si la météo menace, un Urus ou un G63 absorbe un petit crachin qu'un cabriolet ne pardonne pas : prévoyez un plan B avec nous et on le règle en une minute.
+
+## Les conditions à connaître avant de réserver
+
+- L'âge minimum est de 25 ans pour les supercars, avec un permis de conduire valide et une assurance complète.
+- Un membre de votre famille ou un témoin peut conduire s'il respecte ces conditions : nous vérifions le dossier avant la livraison.
+- Un deuxième conducteur s'ajoute au contrat au moment de la réservation, sans surprise à la remise des clés.
+- Le dépôt se bloque sur votre carte au moment de la réservation et se libère après le retour du véhicule.
+
+Tous les détails pratiques sont sur la page [comment ça fonctionne](/how-it-works), et notre [FAQ](/faq) répond aux questions les plus courantes sur l'assurance, les dépôts et le kilométrage. Pour voir ce que disent d'autres couples, notre page [avis clients](/reviews) rassemble les retours de mariages et d'événements dans le Grand Montréal.
+
+## Réservez tôt
+
+Les dates de mariage partent vite, surtout en juin, juillet et août. Les samedis de mai à septembre partent les premiers : le 600LT et l'Urus sont réservés des semaines, parfois des mois d'avance. Comptez deux à trois semaines minimum, un mois complet pour un samedi d'été.
+
+Contactez-nous dès maintenant au [438-809-4417](tel:4388094417) ou sur [WhatsApp](https://wa.me/14388094417) pour bloquer votre date. Dites-nous la date, le lieu et le véhicule, et on s'occupe du reste. Votre arrivée, elle, sera inoubliable.`,
   },
   {
     slug: "luxury-car-rental-montreal-birthday",
