@@ -13002,7 +13002,41 @@ Pour réserver votre Porsche 911 4S TechArt à Montréal, écrivez nous sur [Wha
     date: "2026-06-15",
     image: "/cars/huracan_evo1.jpg",
     description: "630hp V10 atmosphérique. AWD. La Huracán EVO est la Lamborghini à quatre roues motrices pour ceux qui veulent la pleine puissance sans la rigueur du RWD.",
-    content: "<h2>Lamborghini Huracán EVO, 630hp de V10 dans les Rues de Montréal</h2><p>La Lamborghini Huracán EVO représente l'évolution la plus complète de la plateforme Huracán. Par rapport à la génération précédente, Lamborghini a revu l'aérodynamique active, recalibré l'LDVI (Lamborghini Dinamica Veicolo Integrata), et affiné la répartition du couple entre les deux essieux pour offrir un comportement plus intuitif à hautes sollicitations. Le résultat est un supercar avec 630 chevaux de V10 atmosphérique qui est, paradoxalement, plus facile à exploiter pleinement que ses prédécesseurs.</p><p>Dans la circulation de Montréal, la Huracán EVO est théâtrale par nature. À chaque démarrage, le V10 exprime sa présence sonore. À chaque accélération franche, les 630 chevaux se manifestent d'une façon que les moteurs turbocompressés reproduisent difficilement. Les gens sortent leurs téléphones. Les autres conducteurs vous regardent. C'est une voiture qui créé de l'animation à chaque coin de rue, pas parce qu'elle essaie d'impressionner, mais simplement parce qu'elle est ce qu'elle est.</p><p>1599 dollars par jour. Le V10 atmosphérique dans sa version AWD la plus capable. La Lamborghini pour ceux qui veulent toute la puissance avec la gestion intelligente des quatre roues.</p><p>Pour réserver, écrivez-nous sur <a href=\"https://wa.me/14388094417\">WhatsApp</a> ou appelez le <strong>438-809-4417</strong>. Livraison incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>",
+    content: `<p>La location de la Lamborghini Huracán EVO à Montréal coûte 1599 dollars par jour pour un supercar de 630 chevaux propulsé par un V10 atmosphérique, avec livraison incluse sur l'île de Montréal, à Laval et sur la Rive-Sud, la voiture arrivant détaillée, le plein fait et prête à partir.</p>
+<h2>Combien coûte la location d'une Lamborghini Huracán EVO à Montréal?</h2>
+<p>La location de la Lamborghini Huracán EVO est affichée à 1599 dollars par jour. Ce tarif correspond à la version AWD la plus capable, animée par le V10 atmosphérique de 630 chevaux. C'est la Lamborghini pour ceux qui veulent toute la puissance avec la gestion intelligente des quatre roues.</p>
+<p>Le prix inclut la livraison sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, le plein fait, prête à partir. Elle est donc livrée plutôt que récupérée, ce qui simplifie le début comme la fin de la location.</p>
+<h2>Quelles sont les caractéristiques de la Lamborghini Huracán EVO?</h2>
+<p>La Huracán EVO développe 630 chevaux grâce à un V10 atmosphérique. Elle représente l'évolution la plus complète de la plateforme Huracán, avec une transmission intégrale dont la gestion du couple entre les deux essieux a été affinée. Le moteur atmosphérique se distingue des moteurs turbocompressés par la manière dont il délivre sa puissance.</p>
+<p>À chaque accélération franche, les 630 chevaux se manifestent d'une façon que les moteurs turbocompressés reproduisent difficilement. Le V10 exprime sa présence sonore à chaque démarrage. Cette voix fait partie de l'expérience de location, autant que la performance elle-même.</p>
+<h2>Qu'est-ce qui différencie la Huracán EVO de la génération précédente?</h2>
+<p>Par rapport à la génération précédente, Lamborghini a revu trois éléments:</p>
+<ul><li>l'aérodynamique active</li>
+<li>le LDVI (Lamborghini Dinamica Veicolo Integrata)</li>
+<li>la répartition du couple entre les deux essieux</li>
+</ul>
+Ces modifications visent un comportement plus intuitif à hautes sollicitations. Le résultat est un supercar de 630 chevaux paradoxalement plus facile à exploiter pleinement que ses prédécesseurs. L'EVO n'ajoute pas seulement de la puissance: elle rend cette puissance plus accessible au conducteur.
+<h2>Qu'est-ce que le système LDVI de la Huracán EVO?</h2>
+<p>LDVI signifie Lamborghini Dinamica Veicolo Integrata. C'est le système de dynamique véhicule intégré de la Huracán EVO, et il a été recalibré sur cette évolution pour offrir un comportement plus intuitif à hautes sollicitations. Il intervient notamment dans la répartition du couple entre les deux essieux.</p>
+<p>Sur une voiture de 630 chevaux, cette gestion électronique change la nature de l'expérience. Elle accompagne le conducteur dans les phases de forte charge. C'est une des raisons pour lesquelles l'EVO est plus facile à exploiter pleinement que ses prédécesseurs.</p>
+<h2>Comment se comporte la Huracán EVO dans la circulation de Montréal?</h2>
+<p>Dans la circulation de Montréal, la Huracán EVO est théâtrale par nature. À chaque démarrage, le V10 exprime sa présence sonore. À chaque accélération franche, les 630 chevaux se manifestent d'une façon que les moteurs turbocompressés reproduisent difficilement.</p>
+<p>Les gens sortent leurs téléphones. Les autres conducteurs vous regardent. C'est une voiture qui crée de l'animation à chaque coin de rue, pas parce qu'elle essaie d'impressionner, mais simplement parce qu'elle est ce qu'elle est. Une journée à 1599 dollars achète ce spectacle autant que la performance.</p>
+<h2>Comment réserver la Huracán EVO et où est-elle livrée?</h2>
+<p>Pour réserver, écrivez-nous sur <a href="https://wa.me/14388094417">WhatsApp</a> ou appelez le 438-809-4417. La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>
+<p>La version proposée est la AWD la plus capable, avec le V10 atmosphérique de 630 chevaux. Le tarif est de 1599 dollars par jour.</p>
+<h2>Questions frequentes</h2>
+<h3>Combien coûte la location de la Lamborghini Huracán EVO?</h3>
+<p>La location coûte 1599 dollars par jour. Ce tarif correspond à la version AWD animée par le V10 atmosphérique de 630 chevaux. La livraison sur l'île de Montréal, à Laval et sur la Rive-Sud est incluse.</p>
+<h3>La Huracán EVO est-elle offerte avec la transmission intégrale?</h3>
+<p>Oui, la version offerte est la AWD, la plus capable de la plateforme Huracán. La répartition du couple entre les deux essieux a été affinée par rapport à la génération précédente. C'est toute la puissance avec la gestion intelligente des quatre roues.</p>
+<h3>Le moteur de la Huracán EVO est-il atmosphérique?</h3>
+<p>Oui, le V10 de 630 chevaux est atmosphérique. À chaque accélération franche, il se manifeste d'une façon que les moteurs turbocompressés reproduisent difficilement. Sa présence sonore s'exprime à chaque démarrage.</p>
+<h3>Qu'est-ce que le LDVI?</h3>
+<p>LDVI signifie Lamborghini Dinamica Veicolo Integrata. C'est le système de dynamique véhicule intégré de la Huracán EVO. Il a été recalibré sur l'EVO pour un comportement plus intuitif à hautes sollicitations.</p>
+<h3>Faut-il aller chercher la voiture pour commencer la location?</h3>
+<p>Non, la livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, le plein fait, prête à partir. La réservation se fait sur WhatsApp ou par téléphone au 438-809-4417.</p>
+<p>Pour réserver, écrivez-nous sur <a href="https://wa.me/14388094417">WhatsApp</a> ou appelez le 438-809-4417. Livraison incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>`,
   },
   {
     slug: "mclaren-570gt-grand-tourisme-montreal",
