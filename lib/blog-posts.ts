@@ -494,7 +494,7 @@ C'est simple: vous choisissez le modele, vous confirmez les dates, et on livre l
 
 Les documents requis sont standards: permis de conduire valide, preuve d'assurance, et une caution par carte de credit. L'age minimum est de 25 ans pour les vehicules haute performance, avec des exceptions possibles selon le modele. Pour toutes les questions sur les depots, le kilometrage et l'assurance, notre [FAQ](/faq) repond aux questions les plus courantes, et nos [avis clients](/reviews) vous donnent un apercu de l'experience reelle.
 
-## Questions frequentes
+## Questions fréquentes
 
 ### Quel est le SUV de luxe le moins cher a louer a Montreal?
 
@@ -1269,7 +1269,7 @@ Oui, et souvent plus qu'une berline. Un SUV de luxe regle plusieurs problemes lo
 
 Le Cadillac Escalade a $599/day est un classique pour les mariages dans les communautés de Montreal, surtout a Ahuntsic et Villeray. Pour un look plus haut de gamme, le [Bentley Bentayga](/fleet/bentley-bentayga) a $699/day avec 542 hp donne un resultat complètement different sur les photos.
 
-## Questions frequentes
+## Questions fréquentes
 
 ### Quel est le SUV de luxe le moins cher a louer a Montreal?
 
@@ -1349,7 +1349,7 @@ On vous donne un briefing complet a la livraison: modes de conduite, hauteur du 
 
 Les fins de semaine de l'ete partent vite, surtout les longues fins de semaine. Si vous avez des dates fixes en tete, reservez le plus tot possible.
 
-## Questions frequentes
+## Questions fréquentes
 
 ### Quel est le prix pour louer McLaren Montreal?
 
@@ -1516,7 +1516,7 @@ Parce qu'on livre, point. Pas de bureau a rejoindre, pas de file d'attente au co
 
 On couvre aussi les grandes marques avec des pages dediees: [location Lamborghini a Montreal](/lamborghini-rental-montreal), [location McLaren a Montreal](/mclaren-rental-montreal) et [location Audi a Montreal](/audi-rental-montreal). Si vous cherchez une voiture exotique pour un mariage, un tournage, un cadeau ou juste pour le plaisir d'un week-end, on a le vehicule et la logistique en place.
 
-## Questions frequentes
+## Questions fréquentes
 
 ### Quel est le prix minimum pour louer une voiture exotique a Montreal?
 
@@ -13025,7 +13025,7 @@ Ces modifications visent un comportement plus intuitif à hautes sollicitations.
 <h2>Comment réserver la Huracán EVO et où est-elle livrée?</h2>
 <p>Pour réserver, écrivez-nous sur <a href="https://wa.me/14388094417">WhatsApp</a> ou appelez le 438-809-4417. La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>
 <p>La version proposée est la AWD la plus capable, avec le V10 atmosphérique de 630 chevaux. Le tarif est de 1599 dollars par jour.</p>
-<h2>Questions frequentes</h2>
+<h2>Questions fréquentes</h2>
 <h3>Combien coûte la location de la Lamborghini Huracán EVO?</h3>
 <p>La location coûte 1599 dollars par jour. Ce tarif correspond à la version AWD animée par le V10 atmosphérique de 630 chevaux. La livraison sur l'île de Montréal, à Laval et sur la Rive-Sud est incluse.</p>
 <h3>La Huracán EVO est-elle offerte avec la transmission intégrale?</h3>
@@ -13061,7 +13061,7 @@ Ces modifications visent un comportement plus intuitif à hautes sollicitations.
 <h2>Comment réserver la McLaren 570GT et où est-elle livrée?</h2>
 <p>Pour réserver la McLaren 570GT, il faut écrire sur WhatsApp ou appeler le 438-809-4417. La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>
 <p>Exotic Rentals Montreal, opéré par Gestion Exotics Inc, couvre ainsi les trois principales zones de la région métropolitaine. Le supercar se présente au point de rendez-vous préparé: nettoyé, plein fait, prêt à partir. À 1499 dollars par jour, ce service de livraison inclus simplifie la logistique d'une journée ou d'un week-end de location.</p>
-<h2>Questions frequentes</h2>
+<h2>Questions fréquentes</h2>
 <h3>Combien coûte la location de la McLaren 570GT à Montréal?</h3>
 <p>La McLaren 570GT se loue 1499 dollars par jour chez Exotic Rentals Montreal. La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, avec le plein fait, prête à partir.</p>
 <h3>Quelle est la puissance de la McLaren 570GT?</h3>
@@ -13139,7 +13139,7 @@ Ces modifications visent un comportement plus intuitif à hautes sollicitations.
 <h2>Comment réserver le G63 AMG et comment fonctionne la livraison?</h2>
 <p>Deux options permettent de réserver: écrire sur WhatsApp ou appeler le 438-809-4417. La disponibilité se confirme rapidement, puis la livraison s'organise à l'adresse choisie.</p>
 <p>La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir. Le client monte à bord et prend la route, sans étape intermédiaire. Le tarif de 999 dollars par jour comprend ce service, sans frais de livraison à prévoir dans les zones couvertes.</p>
-<h2>Questions frequentes</h2>
+<h2>Questions fréquentes</h2>
 <h3>Combien coûte une journée de location du Mercedes G63 AMG?</h3>
 <p>Une journée de location coûte 999 dollars. Ce tarif inclut la livraison sur l'île de Montréal, à Laval et sur la Rive-Sud.</p>
 <h3>Quel moteur équipe le Mercedes G63 AMG?</h3>
@@ -13212,7 +13212,7 @@ Ces modifications visent un comportement plus intuitif à hautes sollicitations.
 <h2>Comment réserver la S63 AMG et comment se passe la livraison?</h2>
 <p>Pour réserver la Mercedes S63 AMG, écrivez-nous sur <a href="https://wa.me/14388094417">WhatsApp</a> ou appelez le 438-809-4417. La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>
 <p>Le processus est simple. Vous contactez l'équipe par WhatsApp ou par téléphone au 438-809-4417, vous confirmez vos dates, et la S63 AMG est livrée à l'adresse de votre choix sur l'île de Montréal, à Laval ou sur la Rive-Sud. La livraison fait partie du service. Le jour de la location, la voiture arrive détaillée, avec le plein fait, prête à partir. Il ne reste qu'à s'installer, à activer le mode AMG si le cœur vous en dit, et à profiter des 802 chevaux.</p>
-<h2>Questions frequentes</h2>
+<h2>Questions fréquentes</h2>
 <h3>Combien coûte la location de la Mercedes S63 AMG à Montréal?</h3>
 <p>La Mercedes S63 AMG se loue 849 dollars par jour à Montréal. Ce tarif correspond à la berline la plus puissante de la flotte, avec 802 chevaux. C'est aussi l'expérience la plus complète offerte par Exotic Rentals Montreal.</p>
 <h3>Quelle est la puissance de la Mercedes S63 AMG?</h3>
@@ -13286,7 +13286,7 @@ Ces modifications visent un comportement plus intuitif à hautes sollicitations.
 <h2>Comment réserver la Porsche 911 4S TechArt et où est-elle livrée?</h2>
 <p>Pour réserver, écrivez-nous sur <a href="https://wa.me/14388094417">WhatsApp</a> ou appelez le 438-809-4417. La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>
 <p>Le processus est simple: vous nous contactez par WhatsApp ou par téléphone au 438-809-4417, nous confirmons la date et l'adresse, et la 911 4S TechArt arrive à l'heure convenue. Le tarif de 999 dollars par jour s'applique à cette formule, avec la livraison incluse dans les trois zones couvertes: l'île de Montréal, Laval et la Rive-Sud.</p>
-<h2>Questions frequentes</h2>
+<h2>Questions fréquentes</h2>
 <h3>Combien coûte la location de la Porsche 911 4S TechArt à Montréal?</h3>
 <p>La location coûte 999 dollars par jour. Ce tarif inclut le kit TechArt, le flat-six biturbo 4S et la transmission intégrale Carrera 4S. C'est la 911 dans sa version la plus complète disponible à Montréal.</p>
 <h3>Qu'est-ce qui distingue la 911 4S TechArt d'une 911 de série?</h3>
@@ -13360,7 +13360,7 @@ Ces modifications visent un comportement plus intuitif à hautes sollicitations.
 <h2>Comment réserver la BMW M3 Compétition Isle of Man Green?</h2>
 <p>Pour réserver la M3 Compétition Isle of Man Green, écrivez-nous sur WhatsApp ou appelez le 438-809-4417. La réservation se fait directement par message ou par appel, et l'équipe confirme votre location.</p>
 <p>La livraison est incluse dans trois zones: <ul><li>L'île de Montréal</li> <li>Laval</li> <li>La Rive-Sud</li> </ul> La voiture arrive détaillée, plein fait, prête à partir. Au tarif de 649 dollars par jour, vous avez la meilleure voiture de conducteur de la flotte en dessous de 1000 dollars par jour, livrée où vous vous trouvez.</p>
-<h2>Questions frequentes</h2>
+<h2>Questions fréquentes</h2>
 <h3>Combien coûte la location de la BMW M3 Compétition Isle of Man Green?</h3>
 <p>La location coûte 649 dollars par jour. C'est la meilleure voiture de conducteur de la flotte en dessous de 1000 dollars par jour. La livraison sur l'île de Montréal, à Laval et sur la Rive-Sud est incluse dans ce tarif.</p>
 <h3>Quelle est la puissance du moteur de la M3 Compétition?</h3>
@@ -13472,7 +13472,7 @@ Ces modifications visent un comportement plus intuitif à hautes sollicitations.
 <p>Pour 400 dollars par jour, le service comprend donc la voiture livrée à l'adresse de votre choix dans ces trois zones. C'est le même standard de préparation pour la RS5 que pour le reste de la flotte d'Exotic Rentals Montreal.</p>
 <h2>Comment réserver une Audi RS5 à Montréal?</h2>
 <p>Pour réserver la RS5, écrivez-nous sur <a href="https://wa.me/14388094417">WhatsApp</a> ou appelez le 438-809-4417. La réservation se confirme directement avec l'équipe, et la livraison s'organise sur l'île de Montréal, à Laval ou sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>
-<h2>Questions frequentes</h2>
+<h2>Questions fréquentes</h2>
 <h3>Quel est le tarif de location de l'Audi RS5?</h3>
 <p>La location de l'Audi RS5 coûte 400 dollars par jour. C'est la voiture sport la plus accessible et la plus polyvalente de la flotte d'Exotic Rentals Montreal. Ce tarif en fait le point d'entrée idéal pour découvrir la conduite sport au quotidien.</p>
 <h3>Quelle est la puissance de l'Audi RS5?</h3>
@@ -13546,7 +13546,7 @@ Ces modifications visent un comportement plus intuitif à hautes sollicitations.
 <h2>Comment fonctionne la livraison du Lamborghini Urus Gris?</h2>
 <p>La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir. Vous réservez, le Urus vient à vous, vous montez et vous conduisez.</p>
 <p>Le tarif de 1499 dollars par jour comprend donc ce service sur les trois zones de livraison. Aucun déplacement de votre côté n'est nécessaire pour prendre possession du Urus: il se présente chez vous dans son état de sortie de détail, réservoir plein. Le Urus Gris arrive exactement comme les autres Urus de la flotte, avec ses 641 chevaux et sa livrée grise mate prête pour la route.</p>
-<h2>Questions frequentes</h2>
+<h2>Questions fréquentes</h2>
 <h3>Combien coûte la location du Lamborghini Urus Gris par jour?</h3>
 <p>Le Urus Gris se loue 1499 dollars par jour à Montréal. Ce tarif inclut la livraison sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>
 <h3>Le Urus Gris offre-t-il les mêmes performances que le Urus Bleu?</h3>
@@ -13631,7 +13631,7 @@ Ces 96 kilogrammes changent le caractère de la voiture, car les 592 chevaux du 
 <li>la Rive-Sud</li>
 </ul>
 La voiture arrive détaillée, le plein fait, prête à partir. Le tarif est de 1599 dollars par jour pour cette 600LT: 592 chevaux, 96 kilogrammes de moins qu'une 570S, échappements sur le toit.
-<h2>Questions frequentes</h2>
+<h2>Questions fréquentes</h2>
 <h3>Combien coûte la location de la McLaren 600LT?</h3>
 <p>La McLaren 600LT se loue 1599 dollars par jour. Ce tarif inclut la livraison sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, le plein fait, prête à partir.</p>
 <h3>Quelle est la puissance de la McLaren 600LT?</h3>
