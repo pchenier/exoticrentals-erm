@@ -11381,23 +11381,34 @@ C'est cette simplicité, combinée à la qualité de notre flotte et à la trans
     image: 'https://k4y2brl4jcindz84.public.blob.vercel-storage.com/vehicles/panamera-gts-1-NUqZCKjJUrpnpp7DEQq2Ubp8tcPnYA.jpg',
     description: "La Panamera GTS c'est la version que Porsche a conçue pour ceux qui veulent vraiment conduire. 473 chevaux, cuir bordeaux intégral, et une présence impossible à ignorer.",
     content: `<h2>La Nuit Tombe sur le Pont Jacques Cartier</h2>
-<p>Les lumières de la ville se reflètent dans le lac Saint Louis quand vous appuyez sur le démarreur. Le V8 biturbo de la Panamera GTS s'éveille avec un grondement sourd qui ne laisse aucun doute sur ce qui se cache sous le capot. Personne dans les voitures voisines ne regarde ailleurs. La carrosserie noire jais absorbe la lumière des lampadaires, les jantes centrales Spyder brillent doucement, et l'intérieur bordeaux intégral vous accueille comme un salon privé sur roues. Vous êtes à Montréal, il est 22 heures, et vous venez de devenir la personne la plus intéressante sur la route.</p>
+<p>Les lumières de la ville se reflètent dans le fleuve quand vous appuyez sur le démarreur. Le V8 biturbo de la Panamera GTS s'éveille avec un grondement sourd qui ne laisse aucun doute sur ce qui se cache sous le capot. Personne dans les voitures voisines ne regarde ailleurs. La carrosserie noire jais absorbe la lumière des lampadaires, les jantes Spyder brillent doucement, et l'intérieur cuir bordeaux intégral vous accueille comme un salon privé sur roues. Vous êtes à Montréal, il est 22 heures, et vous venez de devenir la personne la plus intéressante sur la route.</p>
 
-<h2>La Porsche Panamera GTS</h2>
-<p>Certaines berlines sportives essaient de cacher leur nature. La Panamera GTS l'affiche. Porsche a pris la plateforme de grand tourisme la plus aboutie de son catalogue, y a greffé un V8 biturbo de 4,0 litres produisant 480 chevaux, et a ajouté le Sport Chrono en série pour que chaque relance soit instantanée. Le résultat, c'est une voiture de 3,9 secondes de 0 à 100 km/h qui reste parfaitement civilisée sur l'autoroute et devastatrice sur les routes sinueuses.</p>
+<h2>La Porsche Panamera GTS, une Berline qui Assume Tout</h2>
+<p>Certaines berlines sportives essaient de cacher leur nature. La Panamera GTS l'affiche. Porsche a pris la plateforme de grand tourisme la plus aboutie de son catalogue, y a greffé un V8 biturbo de 4,0 litres produisant 473 chevaux, et a ajouté le Sport Chrono en série pour que chaque relance soit instantanée. Le résultat, c'est une voiture qui abat le 0 à 100 km/h en 3,9 secondes, qui reste parfaitement civilisée sur l'autoroute, et qui devient redoutable dès que la route tourne.</p>
 <ul>
 <li><strong>Moteur :</strong> V8 biturbo 4,0 litres</li>
-<li><strong>Puissance :</strong> 480 chevaux</li>
+<li><strong>Puissance :</strong> 473 chevaux</li>
 <li><strong>0 à 100 km/h :</strong> 3,9 secondes</li>
 <li><strong>Transmission :</strong> PDK à 8 rapports à double embrayage</li>
-<li><strong>Traction :</strong> PTM à roues motrices intégrales</li>
+<li><strong>Traction :</strong> intégrale PTM, Porsche Traction Management</li>
 </ul>
 <p>Le GTS Exhaust System modifie la signature sonore. Ce n'est pas la discrétion d'une berline ordinaire. Aux accélérations franches, le V8 exprime une linéarité, une montée en régime qui semble naturelle et sans artifice. Le Sport Chrono optimise les temps de passage et le moteur répond avec une précision chirurgicale. En mode Sport Plus, la Panamera GTS se révèle pleinement, chaque correction de trajectoire instantanée, chaque freinage puissant et progressif.</p>
+<p>Le badge GTS a une histoire chez Porsche. La 924 GTS, la 928 GTS, puis les Cayenne et Macan GTS : trois lettres qui signifient toujours la même chose, un châssis recalibré, un moteur qui chante, des sièges sport, et aucun compromis sur la polyvalence quotidienne. La Panamera GTS est l'aboutissement de cette philosophie dans une carrosserie à quatre portes. Elle est abaissée de 10 mm par rapport à la Panamera S, sa suspension pneumatique est raffermie, et son différentiel arrière verrouillable l'aide à sortir des virages comme une vraie sportive.</p>
+
+<h2>Combien Coûte la Location de la Panamera GTS à Montréal ?</h2>
+<p>La Panamera GTS se loue 700 dollars par jour chez Exotic Rentals Montreal. Le tarif week end, du vendredi au dimanche, est de 800 dollars. Pour une semaine complète, le prix journalier descend à 600 dollars, ce qui en fait l'une des meilleures valeurs de la flotte pour un long voyage. Le dépôt de sécurité est de 5 000 dollars, bloqué en préautorisation sur votre carte de crédit et libéré au retour du véhicule en bon état. La durée minimale de location est de 24 heures.</p>
+<p>Pour situer la GTS dans la flotte, comparez. La BMW M3 Competition se loue 650 dollars par jour avec 503 chevaux, c'est l'option la plus proche en philosophie. La Mercedes GT53 AMG à 600 dollars par jour offre 429 chevaux dans un costume plus discret. Au sommet, la Mercedes Maybach S680 by Virgil Abloh à 2 399 dollars par jour joue dans une autre ligue, celle de l'arrivée en majesté. La Panamera GTS se place entre les deux mondes : plus exclusive qu'une berline ordinaire, plus sportive qu'une limousine, et livrée avec le pedigree Porsche.</p>
 
 <h2>Pourquoi Montréal</h2>
-<p>Montréal et la Panamera GTS partagent quelque chose en commun : elles ne font jamais les choses à moitié. Cette ville exige une voiture qui peut tout faire. Le matin, vous descendez la rue Sherbrooke en mode Normal, la suspension pneumatique absorbe chaque nid de poule, le V8 ronronne sous les immeubles du centre ville. Le soir, vous prenez l'A15 vers les Laurentides en mode Sport Plus, et la Panamera se transforme en missile de grand tourisme.</p>
-<p>Les routes secondaires au nord de Sainte Adèle sont faites pour le châssis GTS. Les virages en épingle, les montées soudaines, les descentes qui débouchent sur le fleuve. La PTM à traction intégrale colle la voiture à l'asphalte, et les freins céramiques en option donnent une confiance totale dans les zones techniques. De retour en ville, roulez sur le boulevard Saint Laurent un vendredi soir. Les lumières des restaurants se reflètent dans la peinture noire jais, le bordeaux de l'intérieur visible à travers les vitres, et vous comprenez pourquoi cette voiture existe.</p>
+<p>Montréal et la Panamera GTS ont quelque chose en commun : aucune des deux ne fait les choses à moitié. Cette ville exige une voiture qui peut tout faire. Le matin, vous descendez la rue Sherbrooke en mode Normal, la suspension pneumatique absorbe chaque nid de poule, le V8 ronronne sous les immeubles du centre ville. Le soir, vous prenez l'A15 vers les Laurentides en mode Sport Plus, et la Panamera se transforme en missile de grand tourisme.</p>
+<p>Les routes secondaires au nord de Sainte Adèle sont faites pour le châssis GTS. Les virages en épingle, les montées soudaines, les descentes qui débouchent sur le fleuve. La traction intégrale PTM colle la voiture à l'asphalte, et les freins donnent une confiance totale dans les zones techniques. De retour en ville, roulez sur le boulevard Saint Laurent un vendredi soir. Les lumières des restaurants se reflètent dans la peinture noire jais, le bordeaux de l'intérieur visible à travers les vitres, et vous comprenez pourquoi cette voiture existe.</p>
 <p>Les week ends d'été à Mont Tremblant, les escapades vers Charlevoix sur la 138, les soirées au Vieux Montréal. La Panamera GTS a quatre places confortables et un coffre qui avale les bagages pour un long week end. C'est la voiture que vous choisissez quand vous voulez conduire sans sacrifier le confort de vos passagers.</p>
+
+<h2>Les Meilleures Routes pour la Panamera GTS Près de Montréal</h2>
+<p>La GTS mérite mieux que le Décarie aux heures de pointe. Trois itinéraires sortent du lot.</p>
+<p>La route 329 au nord de Saint Sauveur est la classique des Laurentides. Les virages s'enchaînent, le lac Rond scintille à votre gauche, et la Panamera colle à l'asphalte avec une précision de métronome. Comptez 75 minutes depuis le centre ville, et prévoyez une pause au village, la voiture attire les regards partout où elle s'arrête.</p>
+<p>Le chemin du Bord du Lac à Sainte Anne de Bellevue longe le lac Saint Louis avec des courbes techniques et des vues dégagées sur l'eau. C'est un tracé plus court mais plus pointu, parfait pour exploiter la direction communicative de la GTS au coucher du soleil.</p>
+<p>La route 138 vers l'est, en direction de Charlevoix, est le grand voyage. Deux heures de fleuve, de montagnes et de villages pêcheurs, avec de longues courbes qui laissent le V8 respirer. C'est l'itinéraire idéal pour la formule semaine à 600 dollars par jour.</p>
 
 <h2>Parfait Pour</h2>
 <ul>
@@ -11405,12 +11416,38 @@ C'est cette simplicité, combinée à la qualité de notre flotte et à la trans
 <li>Arriver au Vieux Port pour un souper chic, le V8 en mode discret</li>
 <li>Une virée sur la route 138 vers Charlevoix, fenêtres ouvertes</li>
 <li>Transporter des clients ou des collaborateurs avec style et impact</li>
-<li>Un shoot photo à la maison de la Culture ou au Château Ramezay</li>
+<li>Un shoot photo à la Maison de la Culture ou au Château Ramezay</li>
 <li>Un road trip aux Laurentides en mode Sport Plus sur les routes secondaires</li>
+<li>Une surprise d'anniversaire ou de remise de diplôme qui laisse un souvenir</li>
 </ul>
 
+<h2>Les Conditions pour Louer la Panamera GTS</h2>
+<p>Vous devez avoir au moins 25 ans, détenir un permis de conduire valide et disposer d'une assurance complète qui couvre les véhicules de location. Les visiteurs internationaux peuvent louer avec un permis valide de leur pays d'origine et un passeport pour la vérification. Le dépôt de sécurité de 5 000 dollars est une préautorisation sur carte de crédit, pas une charge, et il est libéré après la location si le véhicule revient dans son état livré.</p>
+<p>Le kilométrage est plafonné, généralement entre 150 et 200 km par jour selon la formule, et les kilomètres supplémentaires sont facturés à un tarif publié d'avance. Consultez le total avant de planifier une virée vers Québec. Tout est expliqué clairement au moment de la réservation, sans surprise à la livraison.</p>
+
+<h2>La Panamera GTS en Hiver</h2>
+<p>Oui, elle se loue en hiver, et c'est une des raisons pour lesquelles elle est plus intelligente qu'un supercar bas. La traction intégrale PTM de Porsche est l'un des meilleurs systèmes du marché sur asphalte mouillé ou enneigé, et la suspension pneumatique adapte l'assiette aux conditions. La voiture reste stable, prévisible et rassurante, le matin d'une tempête comme sur l'asphalte sec d'un dimanche de juillet.</p>
+<p>Le V8 biturbo adore l'air froid, plus dense et plus riche en oxygène. Un départ matinal sur les rues gelées du centre ville, le ralenti sourd du V8 dans le froid sec, c'est une expérience que les propriétaires de GTS connaissent bien. Ajoutez les quatre places et le coffre généreux, et vous obtenez la voiture idéale pour un week end de ski à Mont Tremblant, les skis dans le coffre et le sourire au volant.</p>
+
 <h2>Ce Qui Est Inclus</h2>
-<p>La Panamera GTS est livrée avec assurance complète, le plein fait, et détaillée de l'intérieur comme de l'extérieur. Nous livrons gratuitement sur l'île de Montréal et à Laval. Pas de frais cachés, pas de surprimes, pas de conditions en petits caractères. La voiture est prête à rouler dès que vous recevez les clés.</p>
+<p>La Panamera GTS est livrée avec assurance complète, le plein fait, et détaillée de l'intérieur comme de l'extérieur. Nous livrons gratuitement sur l'île de Montréal et à Laval. Pas de frais cachés, pas de surprimes, pas de conditions en petits caractères. La voiture est prête à rouler dès que vous recevez les clés, et notre équipe vous explique les modes de conduite, les caméras et les commandes avant de vous laisser partir.</p>
+
+<h2>Questions Fréquentes</h2>
+
+<h3>Quelle est la différence entre la GTS et la Panamera 4S ?</h3>
+<p>La 4S est une berline V6 très rapide. La GTS est une autre voiture. Elle gagne le V8 biturbo de 4,0 litres, 473 chevaux, l'échappement sport GTS, le châssis abaissé et les sièges sport. La GTS est la version que Porsche a conçue pour ceux qui veulent vraiment conduire, pas seulement arriver.</p>
+
+<h3>La GTS ou la BMW M3 Competition ?</h3>
+<p>Les deux se louent entre 650 et 700 dollars par jour. La M3 Competition est plus brute, avec 503 chevaux et un caractère de piste. La Panamera GTS est plus civilisée en ville et plus apaisante sur longue distance grâce à sa suspension pneumatique et à sa transmission PDK. C'est le confort d'un grand tourisme avec l'âme d'une sportive.</p>
+
+<h3>Un permis étranger suffit ?</h3>
+<p>Oui. Un permis valide de votre pays d'origine suffit, avec un passeport pour la vérification. La voiture est automatique, aucune adaptation n'est nécessaire, et notre équipe vous explique tout avant le départ.</p>
+
+<h3>La livraison en dehors de Montréal ?</h3>
+<p>La livraison est gratuite sur l'île de Montréal et à Laval. Pour les autres secteurs comme les Laurentides, Longueuil ou la Rive Sud, contactez nous pour confirmer les modalités, c'est souvent possible avec un supplément raisonnable.</p>
+
+<h3>Combien de kilomètres par jour ?</h3>
+<p>Entre 150 et 200 km par jour selon la formule, avec des kilomètres supplémentaires facturés à un tarif publié. Pour un voyage vers Charlevoix ou Québec, la formule semaine élargit l'allocation kilométrique et fait baisser le prix journalier à 600 dollars.</p>
 
 <h2>Comment Réserver</h2>
 <p>Les disponibilités de la Panamera GTS sont limitées, surtout les fins de semaine de juin à septembre. Contactez nous par texto ou WhatsApp, nous confirmons votre créneau dans l'heure, vous laissez un dépôt, et nous livrons la voiture à l'endroit de votre choix à Montréal. Simple, rapide, sans complication.</p>
