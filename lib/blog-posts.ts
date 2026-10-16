@@ -9,6 +9,88 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'luxury-car-rental-sherbrooke-supercar-delivery-in-the-eastern-townships',
+    title: 'Luxury Car Rental Sherbrooke: Supercar Delivery in the Eastern Townships',
+    date: '2026-10-16',
+    description: 'Luxury car rental Sherbrooke from $400/day. Exotic Rentals Montreal delivers Lamborghini, McLaren and Maybach to the Eastern Townships. Book at 438-809-4417.',
+    content: `Luxury car rental Sherbrooke starts at $400 per day for an Audi RS5 and runs up to $2,399/day for a Mercedes-Maybach S680 by Virgil Abloh, with the car delivered directly to your address in the Eastern Townships. Exotic Rentals Montreal, operated by Gestion Exotics Inc, brings the full fleet to Sherbrooke, so you never have to drive to Montreal to pick up a supercar.
+
+## What Does Luxury Car Rental in Sherbrooke Cost?
+
+Expect between $400 and $2,399 per day depending on the car, with a minimum rental period that varies by model. The entry point is the [Audi RS5](/cars/audi-rs5) at $400/day with 450 hp and a 0-100 km/h time of 3.9 seconds. From there the ladder climbs through the [BMW M5 Competition](/cars/bmw-m5-competition) at $599/day with 617 hp, the [Audi R8 V10](/cars/audi-r8) at $899/day, and the Lamborghini Huracán Tecnica at $1,599/day with 631 hp.
+
+At the top sits the [Mercedes-Maybach S680 by Virgil Abloh](/fleet/mercedes-maybach-s680-virgil-abloh) at $2,399/day, a 621 hp limousine that hits 100 km/h in 4.4 seconds. Delivery to Sherbrooke is arranged at booking, and the team confirms the exact drop-off window when you reserve.
+
+## Which Supercars Can I Have Delivered to Sherbrooke?
+
+The full fleet is available for delivery, from German performance sedans to Italian supercars and British track weapons. The most requested cars for Eastern Townships trips are the Lamborghini Huracán EVO Spyder at $1,499/day, the McLaren 600LT Spider at $1,999/day, and the [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day.
+
+A few standouts worth knowing:
+
+- Lamborghini Huracán Tecnica: $1,599/day, 631 hp, 0-100 in 3.2s
+- McLaren 600LT Spider: $1,999/day, 592 hp, 0-100 in 2.8s
+- Audi R8 Spyder: $1,299/day, 640 hp, 0-100 in 3.5s
+- Bentley Bentayga: $699/day, 542 hp, 0-100 in 4.4s
+- Mercedes G63 AMG: $1,300/day, 500 hp
+
+The full list with live availability is on the [fleet page](/fleet). If you want the convertible experience on Route 108 or around Lac Memphrémagog, the Huracán EVO Spyder and the Audi R8 Spyder are the two drop-tops in the lineup.
+
+## How Does Delivery to the Eastern Townships Work?
+
+You book the car, we drive it to your door in Sherbrooke, and you take possession without ever leaving the region. Delivery covers Sherbrooke and surrounding areas, and the process is explained in detail on the [how it works](/how-it-works) page.
+
+The sequence is simple. You confirm the car, the dates, and the delivery address by phone or WhatsApp. A team member brings the car, walks you through the controls, handles the paperwork on site, and hands over the keys. At the end of the rental, the car is picked up at the same address. This is the whole reason luxury car rental Sherbrooke exists as a service: people in the Eastern Townships get the same fleet and the same conditions as customers in downtown Montreal.
+
+## Where Should I Drive a Supercar Around Sherbrooke?
+
+The Eastern Townships roads are some of the best driving roads in Quebec, and a 592 hp McLaren deserves better than Wellington Street traffic. Head south toward Magog and Lac Memphrémagog on Route 112 or Route 108, where the sweepers and elevation changes let a car like the [McLaren 600LT](/cars/mclaren-600lt), $1,199/day with a 0-100 time of 2.9 seconds, actually breathe.
+
+Further out, the roads toward North Hatley and the hills around Mont-Orford give you long visibility and tight second-gear corners. If you prefer a grand tourer for the run to Knowlton or Bromont, the Porsche Panamera GTS at $700/day with 473 hp and a 0-100 time of 3.2 seconds is the comfortable choice. For winter or family duty, the Cadillac Escalade at $599/day with 420 hp and the Mercedes-Maybach GLS 600 at $999/day with 550 hp are the two SUVs people book most in the region.
+
+## What Are the Requirements to Rent a Luxury Car in Sherbrooke?
+
+You need a valid driver's license, proof of insurance, and a security deposit held on a credit card, with age requirements that vary by car. The specific deposit amount and age minimum for each model are confirmed at booking, and the full details are on the [FAQ](/faq) page.
+
+In practice, here is what to have ready:
+
+- A valid driver's license, typically held for a minimum number of years depending on the car
+- A credit card in your own name for the security deposit
+- Full coverage insurance or the option to add coverage through us
+- A clean driving record for the high-performance models
+
+The Maybach S680 and the McLaren 600LT Spider carry stricter conditions than an Audi RS5 or a Toyota GR Supra at $400/day with 420 hp. When you call to book, the team tells you exactly what applies to the car you chose.
+
+## Is Luxury Car Rental Sherbrooke Worth It for a Weekend?
+
+Yes, a weekend rental is the most common booking from Sherbrooke, and the math works in your favor compared to driving to Montreal twice. A Friday to Sunday rental of the [Lamborghini Urus Black on Black](/cars/lamborghini-urus-black-on-black) at $1,200/day with 641 hp and a 0-100 time of 3.5 seconds gives you two full days of Eastern Townships driving without a single wasted hour on the A-10.
+
+Customers from the region consistently rate the delivery service highly, and you can read the feedback on the [reviews](/reviews) page. Wedding parties in Sherbrooke, anniversaries in Magog, and corporate events in Bromont are the three most common reasons people book. For weddings, the Maybach S680 and the Bentley Bentayga are the two cars that get reserved first.
+
+## FAQ
+
+### How much does luxury car rental in Sherbrooke cost per day?
+
+Rates run from $400/day for an Audi RS5 to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh. Most supercars, like the Lamborghini Huracán EVO at $1,499/day with 610 hp, sit in the $1,000 to $1,600 range.
+
+### Do you deliver cars directly to Sherbrooke?
+
+Yes, delivery to Sherbrooke and the surrounding Eastern Townships is arranged at the time of booking. The car is dropped off at your address and picked up at the end of the rental period.
+
+### What is the fastest car available for delivery to Sherbrooke?
+
+The McLaren 600LT Spider at $1,999/day reaches 100 km/h in 2.8 seconds, making it the quickest car in the fleet. The McLaren 600LT coupe at $1,199/day is nearly as fast at 2.9 seconds.
+
+### Can I rent an SUV instead of a supercar in Sherbrooke?
+
+Yes, the fleet includes the Lamborghini Urus at $1,399/day with 641 hp, the Bentley Bentayga at $699/day, the Cadillac Escalade at $599/day, and the Mercedes-Maybach GLS 600 at $999/day. SUVs are popular for winter rentals in the Eastern Townships.
+
+### What documents do I need to rent a luxury car in Sherbrooke?
+
+You need a valid driver's license, a credit card for the security deposit, and proof of insurance. Age and driving record requirements vary by model and are confirmed when you book.
+
+To book a luxury car delivered to Sherbrooke, call [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417).`,
+  },
+  {
     slug: 'exotic-car-rental-saint-jerome-luxury-cars-in-the-lower-laurentians',
     title: 'Exotic Car Rental Saint-Jerome: Luxury Cars in the Lower Laurentians',
     date: '2026-10-15',
