@@ -46,7 +46,7 @@ BACKUP_FILE = REPO / "lib" / "blog-posts.ts.bak-geo"
 
 API_URL = "https://ollama.com/v1/chat/completions"
 
-FAQ_RE = re.compile(r"(FAQ|Foire [Aa]ux [Qq]uestions|Questions [Ff]requentes)", re.IGNORECASE)
+FAQ_RE = re.compile(r"(FAQ|Foire [Aa]ux [Qq]uestions|Questions [Ff]r[e\u00e9]quentes)", re.IGNORECASE)
 Q_HEADINGS_RE = re.compile(r"(##|<h2>?)\s*(How|What|Where|Can|Is|Do|Why|When|Which|Pourquoi|Comment|Combien|Quels?|Est-ce|Peut-on|Y a)", re.IGNORECASE)
 EMDASH_RE = re.compile(r"\u2014|\u2013")  # em dash / en dash — banned in published text
 
@@ -160,7 +160,7 @@ GEO STRUCTURE (follow exactly):
 1. First sentence: a direct 40 to 60 word answer to the main search query, containing one hard number from the original post. No preamble, no hook.
 2. 4 to 6 sections with ## question-based headings that mirror real search queries (example: "## How Much Does It Cost to Rent a Lamborghini in Montreal?"). Answer first in 2 to 3 sentences after each heading, then the supporting detail.
 3. One specific data point (price, HP, 0-100 time, deposit, age rule) roughly every 150 words.
-4. End with "## FAQ" (French: "## Questions frequentes") with 4 to 5 questions as ### headings, each answered in 2 to 3 standalone sentences that make sense without the question.
+4. End with "## FAQ" (French: "## Questions fr\u00e9quentes") with 4 to 5 questions as ### headings, each answered in 2 to 3 standalone sentences that make sense without the question.
 5. Keep the final booking CTA paragraph (phone, WhatsApp) if the original has one, as the last paragraph.
 
 LENGTH: 800 to 1400 words. The original's key facts must all survive.

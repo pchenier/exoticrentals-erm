@@ -332,7 +332,7 @@ STRUCTURE (follow exactly, this format is what AI Overviews and Google cite):
 1. First sentence: a direct 40 to 60 word answer to the main search query. No preamble, no scene setting, no hook. State the concrete answer (price range, requirement, verdict) immediately, including one hard number.
 2. Then 4 to 6 sections with ## question-based headings that mirror real search queries (for example "## How Much Does It Cost to Rent a Lamborghini in Montreal?"). After each heading: give the 2 to 3 sentence answer first, then the supporting detail.
 3. Include one specific data point (price, HP, 0-100 time, deposit, age rule) roughly every 150 words. AI engines cite passages with verifiable stats.
-4. End with a FAQ section: "## FAQ" (French posts: "## Questions frequentes") containing 4 to 5 questions as ### headings, each answered in 2 to 3 standalone sentences that make sense without the question.
+4. End with a FAQ section: "## FAQ" (French posts: "## Questions fr\u00e9quentes") containing 4 to 5 questions as ### headings, each answered in 2 to 3 standalone sentences that make sense without the question.
 5. Final paragraph: booking CTA with phone {PHONE} (tel link) and WhatsApp {WHATSAPP}. Plain, one sentence, no pressure tactics.
 
 LENGTH: 1000 to 1400 words.
