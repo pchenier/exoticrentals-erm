@@ -12306,10 +12306,50 @@ Appelez le [438 809 4417](tel:4388094417) ou envoyez un message sur [WhatsApp](h
   },
   {
     slug: "rent-lamborghini-urus-montreal",
-    title: "Rent a Lamborghini Urus in Montreal, $849/Day, Delivery Included",
+    title: "Rent a Lamborghini Urus in Montreal, $1,399/Day, Delivery Included",
     date: "2026-05-15",
-    description: "The Lamborghini Urus is available to rent in Montreal from $849/day. 650hp, all-wheel drive, delivered to your address.",
-    content: "The Lamborghini Urus is the world's most successful SUV in terms of pure want. Not need, want. People who will never track a car, never push it past 80%, buy it because the Lamborghini badge and those aggressive angular lines represent something to them. Renting one means you get all of that without the $300,000 price tag and the depreciation that follows.\n\n**650 Horsepower in an SUV**\n\nThe numbers remain absurd no matter how many times you read them. 4.0L twin-turbo V8. 650hp. 0-100 km/h in 3.6 seconds. In a vehicle that seats five adults with luggage room for a ski trip. Lamborghini managed to make the impossible practical.\n\n**Montreal Is Perfect for the Urus**\n\nThe Urus is comfortable in traffic (unlike the McLaren), handles Montreal's variable road conditions without drama (unlike the R8), and commands attention wherever it parks (unlike everything else). It's the supercar for people who want to use their rental car, not just look at it.\n\n**A Day in the Urus**\n\nMorning coffee pickup in the Plateau. Midday meeting in Westmount. Afternoon drive up to Saint-Sauveur. Evening dinner in the Old Port. The Urus handles all of this while making each leg of the day feel like an event.\n\n**Rent It**\n\n$849/day, delivery anywhere in Greater Montreal. WhatsApp 438-809-4417 or email contact@exoticrentalsmontreal.com. Available 7 days a week.",
+    description: "The Lamborghini Urus is available to rent in Montreal from $1,399 per day. 641 hp, all wheel drive, five seats, delivery included anywhere in Greater Montreal.",
+    content: `<h2>Rent a Lamborghini Urus in Montreal, the Super SUV That Does Everything</h2>
+<p>The Lamborghini Urus is the most requested SUV in our fleet and one of the most booked Lamborghinis in Montreal, full stop. It is a genuine Lamborghini with a 4.0L twin turbo V8 and 641 hp, wrapped in a body that seats five adults, swallows luggage for a weekend in the Laurentians, and handles a Quebec winter without drama. Renting one gives you the full supercar experience for a day, a weekend, or a full week, without the $300,000 purchase price and the depreciation that follows. The <a href="/fleet/lamborghini-urus">Urus</a> rents for $1,399 per day with delivery included anywhere in Greater Montreal.</p>
+<h2>Urus Rental Price and What Is Included</h2>
+<p>The Lamborghini Urus rents for $1,399 per day with a 24 hour minimum. Weekend bookings run $1,499 per day, and full week rentals keep the standard daily rate, which is why the Urus is one of our most booked cars for multi day trips. The price includes delivery to your home, hotel, or office anywhere in Greater Montreal, from Laval to Longueuil to the West Island, plus pickup at the end of the rental. The car arrives detailed, fueled, and ready to drive.</p>
+<p>The security deposit on the Urus is $5,000, held as a preauthorization on your credit card at delivery and released after the car comes back in its delivered condition. Daily mileage is agreed at booking, typically 150 to 200 km per day, with extra kilometers available at a published rate. If you are planning a longer route, tell us at booking and we build the mileage into the quote so nothing surprises you at return. The full breakdown of deposits and mileage is on our <a href="/faq">FAQ page</a>.</p>
+<h2>Lamborghini Urus Specs</h2>
+<ul>
+<li>Engine: 4.0L V8 twin turbo</li>
+<li>Output: 641 hp</li>
+<li>0 to 100 km/h: 3.6 seconds</li>
+<li>Top speed: 305 km/h</li>
+<li>Transmission: automatic with paddle shifters</li>
+<li>Drive: all wheel drive with torque vectoring</li>
+<li>Seats: 5 adults</li>
+<li>Luggage: 4 large bags</li>
+<li>Security deposit: $5,000</li>
+</ul>
+<h2>What 641 hp Feels Like in an SUV</h2>
+<p>The numbers stay absurd no matter how many times you read them. 641 hp in a five seat family sized SUV, zero to 100 km/h in 3.6 seconds, quicker to highway speed than most sports cars on the road. You press the throttle on the on ramp to Highway 15 and the Urus lunges forward with a V8 growl that rolls off every building on Saint Laurent. It is not the screaming high rev noise of the Huracan. It is deeper and more muscular, and it turns every head within a block.</p>
+<p>The Urus ships with driving modes for every situation. CORSA sharpens the gearbox and the suspension for back road runs. STRADA keeps everything comfortable for city driving and daily errands. The ride height adjusts for snow, speed bumps, and steep parking entrances. In Montreal that range matters: the same SUV that flattens Highway 15 on a Friday night handles a February grocery run on Saturday without breaking a sweat.</p>
+<h2>Urus vs the Other Luxury SUVs in the Fleet</h2>
+<p>If you are comparing SUVs, here is the honest breakdown. The <a href="/fleet/mercedes-g63-amg">Mercedes G63 AMG</a> at $1,300 per day with 500 hp is the other icon of the class, boxier, louder in a different way, and more of a pure status statement. The <a href="/fleet/bentley-bentayga">Bentley Bentayga</a> at $699 per day with 542 hp is the most refined of the group, whisper quiet inside, and a favorite for weddings and client dinners. The <a href="/fleet/mercedes-maybach-gls-600">Maybach GLS 600</a> at $999 per day with 550 hp is the comfort pick, with massaging seats and a cabin that turns traffic into a lounge. The <a href="/fleet/cadillac-escalade">Cadillac Escalade</a> at $599 per day seats seven and suits group outings and airport runs.</p>
+<p>The Urus is the one that drives like a supercar. If the driving itself is the point, plus the badge that comes with it, the Urus wins every comparison in this class. If comfort or budget leads your decision, the Bentayga and the Escalade are excellent choices. The full lineup is on the <a href="/fleet">fleet page</a>.</p>
+<h2>Why the Urus Works Year Round in Quebec</h2>
+<p>Most exotics have a season in Montreal. The Urus does not. With all wheel drive, adjustable ride height, and winter tires during the mandatory Quebec season, the Urus is one of the few cars we deliver in all twelve months of the year. It holds the road through October rain, shrugs off the first snowfalls, and still does the Tremblant trip, the dinner downtown, and the drive home in the same weekend. That practicality is exactly why it is the SUV our clients book most for multi day rentals, and why it sells out first among the Lamborghinis from June through September.</p>
+<h2>Requirements to Rent the Urus in Montreal</h2>
+<p>The requirements match the rest of the fleet. You need to be at least 25 years old with a valid driver's license, a credit card in your name for the $5,000 deposit, and full coverage insurance, either through your own policy or the coverage options we can arrange. Drivers 21 and older can rent select cars from the lower tiers, but the Urus sits in the top tier alongside the Huracan and the McLaren 600LT, so 25 is the floor. The details are on the <a href="/how-it-works">how it works</a> page.</p>
+<h2>How Delivery Works</h2>
+<p>You never visit a depot and you never wait at a counter. You message us with the car, the dates, and your address, we confirm availability, the deposit, and the mileage, and a driver brings the Urus to you anywhere in Greater Montreal. The handover takes about 15 minutes: we walk you through the driving modes, confirm the condition report, and hand over the keys. At the end of the rental we collect the car from the same address, or wherever suits you that day.</p>
+<h2>FAQ</h2>
+<h3>How much does it cost to rent a Lamborghini Urus in Montreal?</h3>
+<p>The Urus rents for $1,399 per day with a 24 hour minimum, $1,499 per day on weekends, and $1,399 per day for full week rentals. Delivery anywhere in Greater Montreal is included in the rate.</p>
+<h3>Do I need to be 25 to rent the Urus?</h3>
+<p>Yes. The Urus requires drivers 25 and older with a valid license and a credit card for the $5,000 security deposit. Select cars from the lower tiers are available to drivers 21 and older.</p>
+<h3>Is the Urus available in winter?</h3>
+<p>Yes. All wheel drive and winter tires during the mandatory Quebec season make the Urus one of the few exotics we deliver year round. It is a popular pick for Tremblant trips from December through March.</p>
+<h3>Can I take the Urus to Mont Tremblant or the Laurentians?</h3>
+<p>Absolutely. The run up Highway 15 toward Sainte Agathe and Tremblant is one of the best uses of the Urus, and mileage can be structured at booking for a full Laurentians loop. Tell us your route when you book and we build the package around it.</p>
+<h3>How far ahead should I book the Urus?</h3>
+<p>Book one to two weeks ahead for summer weekends, when the Urus is usually the first Lamborghini to sell out. Weekday rentals can often be arranged with a day or two of notice. Message us for current availability.</p>
+<p>Ready to rent the Lamborghini Urus in Montreal? Message us on <a href="https://wa.me/14388094417">WhatsApp</a> or call <a href="tel:4388094417">438 809 4417</a>, tell us your dates and delivery address, and we confirm availability in minutes.</p>`,
   },
   {
     slug: "location-voiture-luxe-saint-jean-sur-richelieu",
