@@ -12472,8 +12472,53 @@ Appelez le [438 809 4417](tel:4388094417) ou envoyez un message sur [WhatsApp](h
     slug: "exotic-car-photography-montreal",
     title: "Exotic Car Photography in Montreal, Rent for Content & Photoshoots",
     date: "2026-05-18",
-    description: "Content creators and photographers: rent an exotic car in Montreal for your next shoot. Flexible scheduling, multiple locations.",
-    content: "Montreal has some of the most photogenic backdrops on the continent, the Old Port warehouses, the glass towers of downtown, the industrial textures of Griffintown, the mountain silhouette at dusk. Put any car from our fleet in front of any of these and you have content that performs.\n\n**Content Creators & Influencers**\n\nOur vehicles are regularly rented for Instagram content, YouTube videos, TikTok productions, and personal brand photoshoots. The McLaren 600LT and Lamborghini Urus are the most popular choices for visual impact. The Audi RS7 and R8 photograph exceptionally well for their clean, purposeful lines.\n\n**Flexible Scheduling**\n\nWe understand that golden hour is at 6:30am and that your shoot might run 12 hours. We can arrange early morning deliveries, extended rentals, and multi-day bookings for complex productions. Let us know what you need and we'll make it work.\n\n**Commercial Productions**\n\nIf you're producing commercial content for a brand or agency, we can accommodate larger productions with proper invoicing and coordination. Email contact@exoticrentalsmontreal.com with your production brief.\n\n**Suggested Montreal Photo Locations**\n\nOld Port / Bonsecours Market · Griffintown industrial district · Mount Royal lookout (night shots) · Atwater Market exterior · Crescent Street at night · Île Notre-Dame (F1 circuit)\n\n**Pricing**\n\nSame as standard rental rates. Half-day rates available for shoots that don't require full-day use. WhatsApp 438-809-4417 to discuss your project.",
+    description: "Exotic car photography Montreal: rent a supercar for your photo or video shoot. McLaren, Lamborghini, Audi R8 delivered to your location. Half day rates, flexible scheduling.",
+    content: `<h2>Exotic Car Photography in Montreal: Backdrops That Match the Car</h2>
+<p>Montreal has some of the most photogenic backdrops on the continent, the Old Port warehouses, the glass towers of downtown, the industrial textures of Griffintown, the mountain silhouette at dusk. Put any car from our fleet in front of any of these and you have content that performs. Every month our cars are rented for Instagram feeds, YouTube videos, TikTok productions, music videos, engagement shoots, and full commercial campaigns, and we built our rental process around how productions actually run: early call times, moving locations, and narrow light windows.</p>
+<p>The city gives you four distinct looks within twenty minutes of driving, which is why production teams keep coming back. Cobblestones and old stone in <a href="/locations/old-montreal">Old Montreal</a>, raw industrial brick in <a href="/locations/griffintown">Griffintown</a>, murals and exterior staircases in the <a href="/locations/plateau-mont-royal">Plateau</a>, and the skyline and river views from the Mount Royal lookout. One rental day can cover a full campaign of settings without a wasted hour between setups.</p>
+<h2>Which Cars From Our Fleet Photograph Best</h2>
+<p>The entire fleet is available for photo and video work, but a few cars earn their rate on camera harder than the rest:</p>
+<ul>
+<li>The <a href="/fleet/mclaren-600lt-spider">McLaren 600LT Spider</a> at $1,999 per day, 592 hp, with dihedral doors that open straight into your hero shot. The single most requested car in the fleet for automotive content.</li>
+<li>The <a href="/fleet/lamborghini-huracan-evo-spyder">Lamborghini Huracán EVO Spyder</a> at $1,499 per day, 631 hp, roof down for drive by shots along the river.</li>
+<li>The <a href="/fleet/audi-r8-spyder">Audi R8 Spyder</a> at $1,299 per day, 640 hp, clean purposeful lines that read perfectly in brand work that wants performance without the flash.</li>
+<li>The <a href="/fleet/lamborghini-urus">Lamborghini Urus</a> at $1,399 per day, 641 hp, the SUV every lifestyle brand asks for by name.</li>
+<li>The <a href="/fleet/bentley-bentayga">Bentley Bentayga</a> at $699 per day, 542 hp, quiet understated luxury for fashion and hospitality campaigns.</li>
+<li>The <a href="/fleet/mercedes-maybach-s680-virgil-abloh">Maybach S680 by Virgil Abloh</a> at $2,399 per day, 621 hp, one of a handful in Canada and the rarest car you can put in a Montreal campaign.</li>
+</ul>
+<p>A spec note from experience: dark cars read best against stone, murals, and brick, while bright colors pop against glass towers and open water. If your shoot leans lifestyle over automotive, the <a href="/fleet/cadillac-escalade">Cadillac Escalade</a> at $599 per day seats seven and leaves room for the crew between setups.</p>
+<h2>What a Photoshoot Rental Costs in Montreal</h2>
+<p>Shoot bookings use the same rates as standard rentals, from $599 per day for the Escalade to $2,399 per day for the Maybach S680, and half day rates are available for productions that only need the car for a morning or an afternoon. The minimum rental is 24 hours, which covers a full shoot day plus reshoots the next morning if the light fails you. Mileage is set at booking, and a static shoot that keeps the car parked at one location barely touches it, so tell us the plan and we price the package around the production, not the other way around.</p>
+<p>Multi day productions get better per day rates, and weekly content contracts, where a car rotates through a brand calendar for a full week, are something we quote regularly. Send your dates and the cars you want and you get a number the same day.</p>
+<h2>Flexible Scheduling Built Around Shoot Days</h2>
+<p>Golden hour in Montreal lands early and a call sheet does not care about business hours. We arrange early morning deliveries, late night pickups, extended rentals, and multi day bookings for complex productions. The car can be delivered straight to your first location, sit on set for the day, and be collected at your last setup, so nobody on the crew has to play chauffeur or park a supercar in their garage overnight. If the production moves between locations during the day, say so at booking and we build the timing into the schedule.</p>
+<h2>Commercial Productions, Music Videos, and Agency Work</h2>
+<p>For commercial content we work with brands, agencies, and production companies regularly, with proper invoicing under Gestion Exotics Inc, coordination around your shooting schedule, and the paperwork your producer needs before the car rolls. Production insurance can cover the rental, and we will walk your insurance broker through the vehicle details ahead of the shoot. For moving shots, a professional driver can be arranged on request. Email contact@exoticrentalsmontreal.com with your production brief and we reply the same day.</p>
+<h2>Suggested Montreal Shoot Locations</h2>
+<ul>
+<li>Old Port and Bonsecours Market for stone, cobblestones, and morning light off the water</li>
+<li>Griffintown industrial district for raw brick, new glass, and texture contrast</li>
+<li>Mount Royal lookout for night shots with the skyline behind the car</li>
+<li>Atwater Market exterior for a slice of Montreal daily life</li>
+<li>Crescent Street at night for neon and nightlife energy</li>
+<li>The old F1 circuit on the island across from the Old Port for motion work and long clean tarmac</li>
+</ul>
+<p>One practical note: film permits for public streets are handled on your side with the city, and we handle everything car related on ours. For private venues, rooftops, and parking garages, we coordinate access with your location manager when the car is part of the booking.</p>
+<h2>Requirements and How to Book</h2>
+<p>The requirements match the rest of the fleet. Anyone driving the car needs to be at least 25 for the supercar tier, with a valid driver's license, a credit card for the security deposit, and full insurance coverage. If the car is only used as a static prop with nobody behind the wheel, the conditions get simpler, and we confirm exactly what applies to your setup at booking. The full process is on the <a href="/how-it-works">how it works</a> page, and common questions about deposits, mileage, and insurance are on our <a href="/faq">FAQ page</a>.</p>
+<p>Booking is fast because it has to be. Message us on WhatsApp or call with the car, the dates, and the shoot plan, and we confirm availability, the deposit, and the delivery window in one conversation. Most production bookings are locked in under an hour.</p>
+<h2>FAQ</h2>
+<h3>How much does it cost to rent an exotic car for a photoshoot in Montreal?</h3>
+<p>Rates match standard rentals, from $599 per day for the Cadillac Escalade to $2,399 per day for the Maybach S680 by Virgil Abloh. Half day rates exist for shoots that do not need a full day, and multi day productions get better per day pricing.</p>
+<h3>Can you deliver the car directly to my shoot location?</h3>
+<p>Yes. We deliver to any address in Greater Montreal, including studios, rooftops, garages, and streets you have arranged access for. The car arrives detailed and fueled, and we collect it from your last setup when the shoot wraps.</p>
+<h3>Do you offer early morning delivery for golden hour?</h3>
+<p>Yes. Early deliveries are a routine part of photoshoot bookings and we schedule them regularly for call times before sunrise. Tell us the call time and we work backwards from it.</p>
+<h3>Can a professional driver be provided for motion shots?</h3>
+<p>Yes. A driver can be arranged for tracking shots, beauty passes, and any sequence where the car needs to move under controlled conditions. Driver service is quoted per production.</p>
+<h3>How far ahead should I book a car for a production?</h3>
+<p>Book one to two weeks ahead for a specific car on a specific date, and earlier for summer weekends when the same cars are rented out for drives and events. For weekday shoots we can often confirm availability within a day.</p>
+<p>Ready to book a car for your shoot? Call <a href="tel:4388094417">438 809 4417</a> or message us on <a href="https://wa.me/14388094417">WhatsApp</a> with your dates and your production brief, and we lock in the car, the delivery, and the timing in one message.</p>`,
   },
   {
     slug: "louer-audi-rs5-montreal",
