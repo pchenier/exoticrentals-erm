@@ -9,6 +9,83 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-trois-rivieres-supercar-delivery-between-montreal-and-quebec-city',
+    title: 'Exotic Car Rental Trois-Rivieres: Supercar Delivery Between Montreal and Quebec City',
+    date: '2026-10-17',
+    description: 'Exotic car rental Trois-Rivieres: supercars and luxury SUVs delivered from Montreal, from $400/day. Lamborghini, McLaren, Audi R8 and more. Book at 438-809-4417.',
+    content: `Exotic car rental Trois-Rivieres gives you access to a full supercar fleet delivered directly to your door, with rates running from $400/day for an Audi RS5 up to $2,399/day for a Mercedes-Maybach S680, and a 24 hour minimum rental period. Trois-Rivieres sits exactly halfway between Montreal and Quebec City, which makes it one of the easiest delivery points we cover on the north shore of the Saint Lawrence. You do not need to drive to Montreal to pick up a Lamborghini or a McLaren: we bring the car to you, whether you are staying in the Cap-de-la-Madeleine area, downtown on Rue des Forges, or out in Pointe-du-Lac.
+
+## How Does Exotic Car Rental Trois-Rivieres Work?
+
+The process is simple: you choose your car, we deliver it to your address in Trois-Rivieres, and you drive it for the duration of your rental. Delivery between Montreal and Trois-Rivieres takes about 90 minutes along Autoroute 40, and we handle the handover at your home, hotel, or event venue. The minimum rental is 24 hours, and most clients book 1 to 3 days for a weekend on the 40 or a special occasion.
+
+You can see the full breakdown of the process on our [how it works](/how-it-works) page. Insurance requirements, the security deposit, and the driver age rule are all confirmed at booking, and our [FAQ](/faq) covers the details most people ask about before reserving.
+
+## What Cars Can You Rent in Trois-Rivieres?
+
+Our entire Montreal fleet is available for delivery to Trois-Rivieres, from entry-level performance sedans to full supercars. The full list lives on our [fleet](/fleet) page, but here are the categories that get requested most from Trois-Rivieres clients.
+
+- Lamborghini Huracán Tecnica: $1,599/day, 631 hp, 0-100 in 3.2s
+- Lamborghini Huracán EVO Spyder: $1,499/day, 631 hp, 0-100 in 3.1s
+- McLaren 600LT Spider: $1,999/day, 592 hp, 0-100 in 2.8s
+- Audi R8 Spyder: $1,299/day, 640 hp, 0-100 in 3.5s
+- Lamborghini Urus: $1,399/day, 641 hp, 0-100 in 3.6s
+- Bentley Bentayga: $699/day, 542 hp, 0-100 in 4.4s
+- BMW M5 Competition: $599/day, 617 hp, 0-100 in 3.4s
+- Toyota GR Supra: $400/day, 420 hp, 0-100 in 3.9s
+
+The Huracán EVO Spyder is a favorite for summer runs along Chemin du Roy, the historic route that follows the river from Trois-Rivieres toward Maskinongé. If you want the open-top experience without the Lamborghini price, the [Audi R8 Spyder](/fleet/audi-r8-spyder) delivers 640 hp for $1,299/day.
+
+## How Much Does an Exotic Car Rental in Trois-Rivieres Cost?
+
+Daily rates depend entirely on the car, and the spread is wide: $400/day at the low end, $2,399/day at the top. A BMW M5 Competition at $599/day gives you 617 hp and a 0-100 time of 3.4 seconds, which is genuine supercar acceleration for a fraction of the price. Step up to the [Lamborghini Huracán Tecnica](/fleet/lamborghini-huracan-tecnica) at $1,599/day and you get 631 hp and one of the sharpest V10s on the market.
+
+For group events, weddings, or corporate bookings, SUVs are often the practical call. The [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day seats five and still hits 100 km/h in 3.6 seconds, while the [Cadillac Escalade](/fleet/cadillac-escalade) at $599/day handles passenger duty with 420 hp. Delivery fees to Trois-Rivieres are quoted at booking based on your exact address.
+
+## Can You Drive a Supercar Between Trois-Rivieres and Quebec City or Montreal?
+
+Yes, and that is exactly why Trois-Rivieres is such a strong base for an exotic rental. The city sits at the midpoint of the Montreal to Quebec City corridor, roughly 130 km from each. That puts the Chemin du Roy, the Charlevoix approach, and the Laurentians all within a half-day drive.
+
+A popular one-day loop: leave Trois-Rivieres westbound on the 138 toward Louiseville, cut north through Saint-Tite, and come back through Shawinigan. In a [McLaren 600LT Spider](/fleet/mclaren-600lt-spider), 592 hp and a 2.8 second 0-100 time make those rolling roads genuinely memorable. We also deliver to [Trois-Rivieres](/locations/trois-rivieres) and surrounding areas like [Drummondville](/locations/drummondville), [Shawinigan area pickup via Trois-Rivieres](/locations/trois-rivieres), and [Quebec City](/locations/quebec-city) itself.
+
+## What Are the Requirements to Rent an Exotic Car in Trois-Rivieres?
+
+You need a valid driver's license, you must meet the minimum age requirement for the car category, and a security deposit is held for the duration of the rental. High-output cars like the Huracán and the McLaren carry higher deposit requirements than the BMW M5 or the GR Supra, and the exact amount is confirmed at booking. Full insurance details, mileage caps, and the delivery window are all laid out before you sign anything.
+
+If you have questions about cross-city delivery, one-way rentals, or extending your rental mid-trip, our [contact](/contact) page gets you a direct answer, usually the same day.
+
+## Which Car Should You Choose for a Weekend in Trois-Rivieres?
+
+It depends on the occasion. For a wedding or anniversary, the [Bentley Bentayga](/fleet/bentley-bentayga) at $699/day or the [Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600) at $999/day gives you presence and comfort without sacrificing pace: the Maybach runs 550 hp and hits 100 km/h in 4.8 seconds. For a pure driving weekend, the [Porsche Panamera GTS](/fleet/porsche-panamera-gts) at $700/day offers 473 hp and a 3.2 second 0-100 time in a package you can drive all day.
+
+First-time supercar renters from Trois-Rivieres often start with the [Audi R8](/cars/audi-r8) at $1,099/day with 640 hp, or the R8 V10 at $899/day with 562 hp and a 3.2 second 0-100 time. Both are approachable, reliable, and fast enough that you will not regret skipping the bigger nameplates. You can read what previous clients said on our [reviews](/reviews) page before you commit.
+
+## FAQ
+
+### Is there a minimum rental period for exotic car rental Trois-Rivieres?
+
+Yes, the minimum is 24 hours. Most deliveries to Trois-Rivieres are booked for 1 to 3 days, and longer rentals can be arranged for special events or extended trips along the Saint Lawrence.
+
+### Do you deliver to Trois-Rivieres, or do I have to pick up in Montreal?
+
+We deliver directly to your address in Trois-Rivieres, whether that is a home, hotel, or venue. Delivery from Montreal takes about 90 minutes via Autoroute 40, and the handover happens wherever you are staying.
+
+### What is the cheapest exotic car available for delivery to Trois-Rivieres?
+
+The Audi RS5 at $400/day and the Toyota GR Supra at $400/day are the most affordable options, and both deliver real performance: the Supra runs 420 hp with a 0-100 time of 3.9 seconds. The BMW M5 Competition at $599/day with 617 hp is the next step up.
+
+### Can I rent a Lamborghini in Trois-Rivieres for a single day?
+
+Yes, a single day is the standard booking. The Lamborghini Huracán EVO rents for $1,499/day with 610 hp, and the Huracán EVO Spyder runs $1,499/day with the top down. The Huracán Tecnica sits at the top at $1,599/day with 631 hp.
+
+### Is it worth renting a supercar in Trois-Rivieres rather than Montreal?
+
+Yes, because Trois-Rivieres puts you at the midpoint of the Montreal to Quebec City corridor with immediate access to the Chemin du Roy and the Mauricie region. You save the return drive to Montreal and you start your rental day on some of the best roads in the province.
+
+To book your exotic car rental Trois-Rivieres, call us at [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm availability, delivery time, and your exact rate in minutes.
+`,
+  },
+  {
     slug: 'luxury-car-rental-sherbrooke-supercar-delivery-in-the-eastern-townships',
     title: 'Luxury Car Rental Sherbrooke: Supercar Delivery in the Eastern Townships',
     date: '2026-10-16',
