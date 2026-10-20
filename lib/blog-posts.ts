@@ -12461,7 +12461,68 @@ Appelez le [438 809 4417](tel:4388094417) ou envoyez un message sur [WhatsApp](h
     title: "Location Supercar pour Anniversaire à Montréal, Surprise Inoubliable",
     date: "2026-05-14",
     description: "Offrez une location de supercar pour un anniversaire à Montréal. Livraison surprise disponible. Dès 400$/jour.",
-    content: "Vous cherchez un cadeau d'anniversaire qui sorte vraiment de l'ordinaire ? Pas une bouteille de scotch, pas une montre, pas un spa, les clés d'une supercar livrée à l'adresse de la personne concernée, le matin de son anniversaire. C'est le cadeau dont on parle encore dix ans plus tard.\n\n**La Livraison Surprise**\n\nNotre service de livraison surprise fonctionne simplement : vous réservez et payez à l'avance, vous nous donnez l'adresse et l'heure, et on se présente avec le véhicule choisi au moment convenu. La personne ouvre la porte, et là, sa journée change complètement.\n\n**Quel Véhicule Choisir ?**\n\nPour quelqu'un qui aime les voitures : la McLaren 600LT ou l'Audi R8 V10, des expériences de conduite pures et inimitables. Pour quelqu'un qui aime l'impact visuel : la Lamborghini Urus ou la G63 AMG. Pour une première expérience en supercar accessible : l'Audi RS5 ou le BMW M5. On peut vous conseiller selon le profil de la personne, envoyez-nous un message.\n\n**Occasions Populaires**\n\n30 ans, 40 ans, 50 ans, les grandes décennies méritent quelque chose de grand. Mais on a aussi fait des livraisons pour des 25 ans, des diplômes, des promotions, des retours de voyage. Toute bonne raison est la bonne raison.\n\n**Réservation Cadeau**\n\nWhatsApp : 438-809-4417. Dites-nous la date, l'adresse, l'heure souhaitée, et le véhicule. On s'occupe du reste. Paiement à l'avance par n'importe quel mode accepté.",
+    content: `Vous cherchez un cadeau d'anniversaire qui sorte vraiment de l'ordinaire ? Pas une bouteille de scotch, pas une montre, pas un bon pour un spa. Les clés d'une supercar livrées à la porte de la personne concernée, le matin de son anniversaire. C'est le cadeau dont on parle encore dans dix ans, celui qui déclenche un merci ému à 22h le soir même et des photos partagées à toute la famille.
+
+Chez Exotic Rentals Montreal, opéré par Gestion Exotics Inc, les locations cadeaux font partie de nos livraisons préférées. On a garé des McLaren devant des duplex du Plateau, des Urus dans des entrées de Laval et des G63 devant des tours de Griffintown, toujours avec la même réaction : un silence, puis un cri. Voici comment organiser la surprise et comment choisir la bonne voiture pour la bonne personne.
+
+## La livraison surprise, comment ça marche
+
+Le principe est simple : vous réservez et vous payez à l'avance, vous nous donnez l'adresse et l'heure, et on se présente avec le véhicule au moment convenu, propre, avec le plein, prêt à rouler. Trois formules reviennent le plus souvent :
+
+- Le dépôt matinal : la voiture stationnée devant la porte entre 7h et 9h, ruban autour du capot, carte avec votre message sur le pare brise. La personne ouvre la porte et sa journée change complètement.
+- La livraison au bureau : on arrive devant son lieu de travail en fin de journée, dans le stationnement ou devant l'entrée. Les collègues en témoins, garanti.
+- Le relais au restaurant : vous dînez au centre ville, on livre la voiture à l'heure du dessert et le personnel vous remet les clés à table. Le format le plus théâtral.
+
+Le contrat peut être au nom du destinataire ou au vôtre, comme vous préférez. Le conducteur doit être présent au moment de la livraison avec son permis valide. On fait ensemble le tour du véhicule, on explique les commandes en dix minutes et on répond à toutes les questions. Vingt minutes après notre départ, la route est à lui.
+
+## Quel supercar pour quel profil
+
+Le bon cadeau dépend de la personne. Voici nos recommandations les plus fiables après des centaines de livraisons.
+
+- Le puriste qui rêve de piste : le [McLaren 600LT Spider](/fleet/mclaren-600lt-spider), $1,999 par jour, 592 chevaux, 0 à 100 km/h en 2,8 secondes. La voiture la plus radicale de la flotte, celle qui laisse le plus grand souvenir de conduite.
+- L'impact visuel maximal : le [Lamborghini Urus](/fleet/lamborghini-urus), $1,399 par jour, 641 chevaux, cinq vraies places. Le SUV le plus rapide de la flotte et le plus spectaculaire dans une entrée de maison.
+- Le classique intemporel : l'[Audi R8 Spyder](/fleet/audi-r8-spyder), $1,299 par jour, 640 chevaux et un V10 à ciel ouvert. Spectaculaire sans être intimidante, parfaite pour une première supercar.
+- L'icône de présence : le [Mercedes G63 AMG](/fleet/mercedes-g63-amg), $1,300 par jour, 500 chevaux et un gabarit qui remplit un rétroviseur. Le cadeau préféré des 40 ans.
+- Le confort avant tout : le [Maybach GLS 600](/fleet/mercedes-maybach-gls-600), $999 par jour, 550 chevaux, cinq places et un intérieur de jet privé. Pour celui ou celle qui préfère être choyé.
+- La première fois à petit budget : la [BMW M4 Competition x KITH](/fleet/bmw-m4-competition-kith), $599 par jour, 503 chevaux. L'entrée dans le monde des voitures sérieuses sans la facture à quatre chiffres.
+
+Pour un groupe ou une famille, le [Cadillac Escalade](/fleet/cadillac-escalade) à $599 par jour avec sept places et le [Bentley Bentayga](/fleet/bentley-bentayga) à $699 par jour restent deux valeurs sûres. Décrivez la personne en un message et on vous répond avec deux ou trois options adaptées, c'est littéralement notre métier.
+
+## Combien ça coûte, vraiment
+
+La livraison à l'adresse de votre choix dans le Grand Montréal est incluse dans le tarif, tout comme la reprise au même endroit. Comptez le prix du véhicule par jour avec un minimum de 24 heures, plus le dépôt de sécurité bloqué puis libéré au retour. Le dépôt varie selon la voiture : $2,000 pour le Maybach GLS 600, $5,000 pour l'Urus, jusqu'à $10,000 pour le 600LT. Le kilométrage standard tourne autour de 150 à 200 km par jour, largement assez pour une journée de découverte autour de l'île. Tous les détails sont sur notre page [FAQ](/faq) et le déroulé complet de la location est expliqué sur [comment ça fonctionne](/how-it-works).
+
+Petit repère de budget : $599 par jour pour la M4 ou l'Escalade, $999 pour le Maybach GLS 600, $1,399 pour l'Urus, $1,999 pour le 600LT Spider. La différence entre un bon cadeau et un cadeau parfait se joue sur le bon modèle, pas sur la plus grosse facture.
+
+## Les conditions à connaître avant de réserver
+
+Le conducteur doit avoir 25 ans et plus et un permis valide pour les voitures les plus puissantes : le 600LT, l'Urus, les Huracán et les R8. Entre 21 et 24 ans, la BMW M4 Competition, le [Porsche Macan GTS](/fleet/porsche-macan-gts) et l'Escalade sont les meilleurs choix, et ce sont déjà des voitures dont on se souvient. L'assurance complète est obligatoire, la vôtre peut couvrir, sinon la nôtre est disponible en supplément par jour. Tout est confirmé au moment de la réservation : documents, dépôt, kilométrage, fenêtre de livraison. Aucune surprise à la livraison, c'est justement le contraire du concept.
+
+## Les occasions qui reviennent le plus
+
+Les grandes décennies dominent : 30 ans, 40 ans, 50 ans. Le 40 ans est de loin le plus populaire, souvent commandé par la conjointe, le conjoint ou les enfants qui mettent au pot. Viennent ensuite les demandes en mariage, les promotions, les départs à la retraite, les fin d'études, les retrouvailles entre amis. Toute bonne raison est la bonne raison. On a déjà livré un Urus un dimanche matin juste parce qu'un fils voulait voir son père sourire comme à vingt ans, et c'était possiblement la meilleure réservation de la saison.
+
+## FAQ
+
+### Est-ce que je peux garder l'anonymat jusqu'à la livraison ?
+
+Oui. On s'entend sur l'heure exacte avec vous par message, on vous prévient quand on arrive, et le destinataire découvre la voiture au moment que vous avez choisi. Une carte personnalisée peut accompagner les clés.
+
+### Et si la personne n'est pas sur place au moment venu ?
+
+On vous appelle dès qu'on est en route, vous trouvez un prétexte pour la faire sortir, et on prend le relais. S'il faut décaler l'heure le matin même, on s'adapte. La journée lui appartient.
+
+### Combien de temps à l'avance faut-il réserver ?
+
+Deux semaines pour un modèle précis un samedi, un mois pour le 600LT ou l'Urus en haute saison. En dernière minute on fait des miracles, surtout en semaine. Appelez et on vous dit en direct ce qui part encore.
+
+### Vous livrez partout à Montréal ?
+
+Partout dans le Grand Montréal : centre ville, Plateau, Westmount, Laval, Longueuil et Brossard sur la rive sud, West Island. Les livraisons plus éloignées, Laurentides ou l'Estrie, se confirment au moment de la réservation.
+
+## Réservez le cadeau
+
+Appelez le [438-809-4417](tel:4388094417) ou écrivez sur [WhatsApp](https://wa.me/14388094417). Indiquez la date, l'adresse, l'heure et le véhicule qui vous fait de l'œil. On confirme la disponibilité en quelques minutes et on s'occupe du reste. Dix ans plus tard, on reparlera encore de ce matin.`,
   },
   {
     slug: "rent-lamborghini-urus-montreal",
