@@ -13489,7 +13489,82 @@ Pour réserver votre Porsche 911 4S TechArt à Montréal, écrivez nous sur [Wha
     date: "2026-06-14",
     image: "/cars/rs7_2.jpg",
     description: "591hp V8 twin-turbo. Berline fastback. La RS7 est la voiture de grand tourisme qui ne fait aucun compromis entre luxe et performance.",
-    content: "<h2>Audi RS7, Le Grand Tourisme Parfait pour les Routes du Québec</h2><p>L'Audi RS7 est le compromis parfait entre une berline de représentation et un supercar. La carrosserie fastback à quatre portes accueille quatre adultes dans le confort intégral. Le V8 twin-turbo de 4,0 litres développe 591 chevaux et expédie ce poids de 2000 kilogrammes à 100 km/h en 3,6 secondes. Le système quattro AWD répartit la puissance avec une précision chirurgicale à travers les quatre roues. C'est la voiture pour les gens qui font Montréal-Québec et qui veulent arriver décontractés et reposés, tout en ayant passé deux heures à pousser la voiture sur des sections ouvertes.</p><p>Le design de la RS7 est une réussite complète. Le toit qui plonge vers l'arrière, les épaules larges, les jantes RS de grande dimension, les sorties d'échappement ovales intégrées au diffuseur noir. C'est une voiture qui a l'air compétente sans avoir besoin de crier. Les gens qui la reconnaissent savent exactement ce qu'elle représente. Les autres voient simplement une très belle berline bien plus rapide qu'elle n'en a l'air.</p><p>599 dollars par jour. Si vous cherchez la voiture parfaite pour un long week-end au Québec, la RS7 est la réponse.</p><p>Pour réserver, écrivez-nous sur <a href=\"https://wa.me/14388094417\">WhatsApp</a> ou appelez le <strong>438-809-4417</strong>. Livraison incluse sur l'île de Montréal, à Laval et sur la Rive-Sud. La voiture arrive détaillée, plein fait, prête à partir.</p>",
+    content: `L'Audi RS7 se loue 599 dollars par jour chez Exotic Rentals Montreal, et c'est la berline que nous recommandons à chaque client qui décrit sa journée idéale de cette façon : deux heures de route le matin, un déjeuner dans les Laurentides, un retour détendu vers la ville le soir, et zéro compromis entre le confort et la performance. Le V8 biturbo de 4,0 litres développe 591 chevaux et envoie les 2 000 kilos de la voiture de 0 à 100 km/h en 3,6 secondes. La transmission quattro répartit la puissance aux quatre roues avec une précision chirurgicale. C'est la machine qui avale les distances du Québec sans jamais fatiguer son conducteur.
+
+Le concept de la RS7 tient en une phrase : une berline de représentation qui se comporte comme un supercar quand vous appuyez, et comme une grande routière raffinée le reste du temps. Voici pourquoi elle règne sur le grand tourisme au Québec, quelles routes lui vont le mieux, combien elle coûte et comment la réserver.
+
+## Pourquoi la RS7 domine le grand tourisme au Québec
+
+Le Québec se conduit en longues distances. Montréal vers Québec, la ville vers Tremblant, l'île vers les Cantons de l'Est : les trajets se mesurent en heures, pas en minutes. Sur ce terrain, une Huracán est un feu d'artifice et la RS7 est un instrument. Même plaisir au kilomètre, mais avec quatre vraies places, un coffre de fastback qui avale deux valises, et une sonorité V8 qui reste vivable après trois heures de route.
+
+La suspension adaptative absorbe les nids de poule des rues du Plateau et des entrées d'autoroute, puis se ferme en mode Sport quand la route commence à se tordre. La direction est précise sans être nerveuse, les freins mordent dès le premier millimètre de pédale, et les sièges maintiennent sans jamais écraser sur les longs trajets. Le résultat concret : vous descendez de la voiture aussi frais que vous y êtes monté, même après 250 kilomètres.
+
+C'est aussi une voiture qui n'a pas besoin de crier. Le toit fastback qui plonge vers l'arrière, les épaules larges, les sorties d'échappement ovales intégrées au diffuseur noir : les gens qui la reconnaissent savent exactement ce qu'elle représente. Les autres voient simplement une très belle berline, bien plus rapide qu'elle n'en a l'air. Cette discrétion assumée est exactement ce que recherchent nos clients d'affaires, et la raison pour laquelle la RS7 revient chaque saison.
+
+## 591 chevaux sous le pied droit
+
+Le chiffre à retenir : 591 chevaux, un V8 de 4,0 litres gavé par deux turbos, et un 0 à 100 km/h en 3,6 secondes. La poussée est linéaire dès les bas régimes, sans le coup de pied brutal d'une préparation radicale, et la boîte enchaîne les rapports en douceur quelle que soit l'allure. En ville, la RS7 roule comme une grande routière : douce, posée, presque silencieuse. Sur la rampe d'accès de l'autoroute, un simple appui et elle se retrouve dix longueurs devant le trafic.
+
+Le quatre roues motrices fait toute la différence au Québec. Sous la pluie, sur le pavé humide du Vieux Montréal ou sur les routes de campagne un peu granuleuses, la RS7 met ses 591 chevaux au sol sans jamais demander au conducteur de gérer la météo. C'est une voiture qui pardonne, ce qui n'est pas le cas de tout dans cette catégorie de performance.
+
+## Les routes qui vont le mieux à la RS7
+
+Trois terrains de jeu dominent les réservations de RS7.
+
+La sortie Laurentides : l'autoroute 15 nord vers Saint-Sauveur et Mont-Tremblant, puis les chemins de campagne entre les villages. Des virages relevés, du dénivelé, des routes lisses que la suspension avale à bonne allure.
+
+La sortie Cantons de l'Est : l'autoroute 10 vers Bromont et Magog, avec le lac Memphrémagog en récompense finale. Le plus beau trajet en fin de journée, quand le soleil tombe derrière les collines.
+
+Le grand classique vers Québec : deux heures et demie sur la 20, la mission exacte pour laquelle la RS7 a été dessinée. Arriver vite, arriver reposé, sans avoir rien sacrifié en route.
+
+## RS7 ou RS6 : comment choisir
+
+Les deux partagent le même V8 biturbo de 591 chevaux, la transmission quattro et le 0 à 100 km/h en 3,6 secondes. La différence tient à la carrosserie et au prix : la [RS6 Avant](/cars/audi-rs6) se loue 549 dollars par jour et offre le coffre d'un break, soit 565 litres derrière les sièges arrière. La RS7 coûte 50 dollars de plus et offre la silhouette fastback la plus élégante du catalogue.
+
+En pratique : la RS6 pour les familles et les bagages, la RS7 pour l'arrivée au restaurant. Nous avons écrit un [guide complet de la RS6 Avant](/blog/audi-rs6-avant-sleeper-montreal) si vous hésitez entre les deux, et notre page [location Audi à Montréal](/audi-rental-montreal) présente chaque modèle de la marque dans la flotte.
+
+## Face aux autres berlines de la flotte
+
+La RS7 n'a pas beaucoup de rivales directes, mais voici comment elle se place :
+
+- [BMW M5 Competition](/cars/bmw-m5-competition) : 599 dollars, 617 chevaux, 0 à 100 en 3,4 secondes. Plus tranchante, un cran moins confortable sur les longues distances.
+- [Porsche Panamera GTS](/fleet/porsche-panamera-gts) : 700 dollars, 473 chevaux, 0 à 100 en 3,2 secondes. Le châssis le plus sportif, l'habitacle le plus raffiné.
+- Mercedes GT53 AMG : 600 dollars, 429 chevaux. La silhouette d'un coupé quatre portes, le tempérament le plus calme du groupe.
+- Bentley Bentayga : 699 dollars, 542 chevaux. Le choix prestige si vous préférez la position de conduite haute.
+
+Et si vous voulez monter d'un cran en intensité pure, l'[Audi R8 V10](/cars/audi-r8) à 899 dollars par jour offre 562 chevaux et un V10 atmosphérique qui hurle, mais vous perdez les places arrière. La RS7 reste la seule qui fait tout.
+
+## Combien coûte la location de la RS7 à Montréal
+
+599 dollars par jour, minimum 24 heures. La livraison est incluse sur l'île de Montréal, à Laval et sur la Rive-Sud : la voiture arrive à votre adresse, détaillée, le plein fait, prête à partir, et nous la reprenons au même endroit à la fin de la location. Un dépôt de sécurité est bloqué sur votre carte au moment de la remise puis libéré après l'inspection de retour. Le kilométrage standard se situe entre 150 et 200 kilomètres par jour, largement assez pour une boucle dans les Laurentides ou un aller retour vers Tremblant.
+
+Les locations de plusieurs jours bénéficient de tarifs préférentiels, et la formule du vendredi au dimanche est de loin la plus demandée pour la RS7. Tous les détails sur les dépôts, l'assurance et le kilométrage sont sur notre page [FAQ](/faq), et le déroulé complet de la location est expliqué sur [comment ça fonctionne](/how-it-works). Pour comparer chaque voiture côte à côte, la page [flotte](/fleet) liste tout.
+
+## FAQ
+
+### Quel est le tarif de la location de l'Audi RS7 à Montréal ?
+
+599 dollars par jour, avec un minimum de 24 heures et la livraison incluse sur l'île, à Laval et sur la Rive-Sud. Les réservations de plusieurs jours obtiennent un tarif préférentiel.
+
+### Quel âge faut-il pour conduire la RS7 ?
+
+25 ans et un permis valide, comme pour la majorité des voitures de plus de 500 chevaux de la flotte. Entre 21 et 24 ans, la BMW M4 Competition et la Toyota GR Supra sont les options pensées pour vous.
+
+### Est-ce que la RS7 est disponible pour plusieurs jours ?
+
+Oui, et c'est la façon idéale de la louer. La formule du vendredi au dimanche est la plus populaire, et en haute saison les fins de semaine de juin à septembre partent plusieurs semaines à l'avance.
+
+### La RS7 consomme beaucoup ?
+
+Un V8 biturbo de 591 chevaux a soif quand on l'exploite, c'est la physique. La voiture arrive avec le plein et se rend avec le plein, c'est tout ce que vous avez à gérer.
+
+### Livrez-vous la RS7 en dehors de Montréal ?
+
+Laval et la Rive-Sud sont inclus dans la livraison standard. Pour Québec, Tremblant ou l'Estrie, la livraison se confirme au moment de la réservation selon la distance et la durée.
+
+## Réservez votre RS7
+
+Appelez le [438-809-4417](tel:4388094417) ou écrivez sur [WhatsApp](https://wa.me/14388094417) avec vos dates et votre adresse de livraison. On confirme la disponibilité sur le champ et on bloque votre créneau. La RS7 est la voiture des longs trajets élégants, celle qui rend chaque kilomètre du Québec plus agréable que le précédent. Il ne reste qu'à choisir la route.`,
   },
   {
     slug: "bmw-m3-isle-of-man-green-montreal",
