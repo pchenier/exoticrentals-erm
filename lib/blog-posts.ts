@@ -9,6 +9,73 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'bmw-m4-competition-x-kith-rental-montreal-streetwear-style-with-m-power',
+    title: 'BMW M4 Competition x KITH Rental Montreal: Streetwear Style With M Power',
+    date: '2026-10-22',
+    description: 'BMW M4 KITH rental Montreal: the 503 hp collaboration coupe from $599/day. Specs, driving review, requirements, and how to book with Exotic Rentals Montreal.',
+    content: `Renting the BMW M4 Competition x KITH in Montreal costs $599/day, and it is the only streetwear collaboration M car in the city, with 503 hp, a 0-100 time of 3.8 seconds, and KITH livery inside and out. A BMW M4 KITH rental Montreal booking includes delivery anywhere in Greater Montreal with a 24 hour minimum. This is the car for anyone who wants M Division performance wrapped in a design project you cannot order from a dealership catalogue anymore.
+
+## What Is the BMW M4 Competition x KITH?
+
+It is a limited production collaboration between BMW M and Ronnie Fieg's New York streetwear label KITH, built on the M4 Competition xDrive coupe. BMW only made a small number of these cars, and each one carries KITH branding on the seats, dashboard, wheels, and exterior details, plus a bespoke colour and trim combination put together by Fieg himself.
+
+The mechanical package is straight M4 Competition: a 3.0 liter twin-turbo inline six producing 503 hp and 479 lb-ft of torque, an 8 speed automatic, and xDrive all wheel drive that launches the car to 100 km/h in 3.8 seconds. What makes it special is that you get a collectible, not just a fast coupe. When you rent it, you are driving a car that BMW collectors pay serious premiums to own, at a rate that undercuts most of the exotic metal in the city.
+
+## How Does the BMW M4 KITH Drive on Montreal Roads?
+
+It drives like an M4 Competition with the dials turned up, which is to say it is fast, planted, and loud when you want it to be. The 503 hp inline six pulls hard from 2,500 rpm and the xDrive system puts the power down without drama, even on cold April pavement or a damp October morning on the highway to Tremblant.
+
+In Comfort mode it is civilized enough for Saint Laurent traffic and the decarie is tolerable with the exhaust in its quiet setting. Switch to Sport Plus and the exhaust opens up, the throttle sharpens, and the 0-100 sprint of 3.8 seconds feels entirely honest. The steering is heavy and communicative, the brakes are strong, and the chassis feels tighter than a stock M4 thanks to the M Driver's package calibration. On the on ramps around the Turcot interchange or a clean run up Chemin du Village, this car earns its badge.
+
+## How Much Does a BMW M4 KITH Rental in Montreal Cost Per Day?
+
+The BMW M4 Competition x KITH rents for $599/day at Exotic Rentals Montreal. That price puts it below the Porsche Panamera GTS at $700/day, the Bentley Bentayga at $699/day, and well below the Lamborghini Huracán EVO at $1,499/day, while giving you more horsepower than the Panamera and nearly the same straight line pace.
+
+For context within the M family, the M3 Competition sits at $650/day with identical output, and the M5 Competition runs $599/day with 617 hp. The KITH car is the one to pick if the design story matters to you as much as the performance. You can see the full lineup and compare on the [fleet page](/fleet), and the [BMW rental Montreal page](/bmw-rental-montreal) covers the other M cars available.
+
+## What Are the Requirements to Rent the BMW M4 KITH in Montreal?
+
+You need to be at least 25 years old with a full license held for a minimum of two years, and you need full coverage insurance that extends to rental vehicles or you purchase the optional protection plan. A security deposit is held on a credit card in your name for the duration of the rental.
+
+The 24 hour minimum applies, and delivery to Laval, Longueuil, Brossard, or downtown Montreal is included in the standard rate. If you have questions about international licenses, additional drivers, or insurance details, the [FAQ page](/faq) answers the common ones, and the [contact page](/contact) gets you a direct answer within the hour during business hours. The process is explained step by step on the [how it works page](/how-it-works).
+
+## Why Choose the M4 KITH Over Other M Cars in Montreal?
+
+Because it is the rarest BMW you can rent in the city, full stop. The standard M4 Competition is everywhere in Montreal. The KITH car is a numbered collaboration with a specific colourway, KITH co-branded seats, and details that BMW never offered on the regular configurator. People at red lights and parking lots in Old Montreal notice this one.
+
+On pure numbers it matches the M3 Competition: 503 hp, 3.8 seconds to 100 km/h, xDrive grip. But a BMW M4 KITH rental Montreal booking gets you a conversation piece on top of the performance. If you want the four door for practicality, the [M3 Competition](/fleet/bmw-m3-competition) is there. If you want maximum M firepower, the [M5 Competition](/cars/bmw-m5-competition) brings 617 hp and a 3.4 second sprint for the same $599/day rate. The KITH sits in the middle as the style pick of the lineup.
+
+## Is the BMW M4 KITH a Good Car for Photos and Content?
+
+Yes, and honestly it is one of the best content cars in the fleet for the money. The KITH branding, the unique interior stitching, and the limited production story give photographers and content creators something specific to shoot instead of just another grey coupe.
+
+The car photographs well in Griffintown against raw concrete, in Old Montreal against cobblestone, or on the Plateau with murals behind it. If you are shooting in a specific neighbourhood, the [Griffintown](/locations/griffintown) and [Old Montreal](/locations/old-montreal) location pages cover delivery logistics in those areas. At $599/day, the cost per usable photo or video clip is lower than nearly anything else in this performance bracket.
+
+## FAQ
+
+### How much does it cost to rent the BMW M4 Competition x KITH in Montreal?
+
+The rate is $599/day with a 24 hour minimum, delivery included anywhere in Greater Montreal. A refundable security deposit is held on a credit card for the rental period. That makes it one of the best value performance cars in the city at over 500 hp.
+
+### How fast is the BMW M4 Competition x KITH?
+
+It produces 503 hp and 479 lb-ft of torque from a twin-turbo 3.0 liter inline six. The 0-100 km/h time is 3.8 seconds thanks to xDrive traction. Top speed is electronically limited in line with the standard M4 Competition package.
+
+### How old do I need to be to rent the M4 KITH?
+
+The minimum age is 25 with a full license held for at least two years. Drivers under 25 with an exceptional record can sometimes be approved case by case. Contact the team directly before booking if this applies to you.
+
+### Is the BMW M4 KITH limited production?
+
+Yes, BMW and KITH built the car in very small numbers as a collaboration with designer Ronnie Fieg. Each car carries KITH branding on the seats, dash, wheels, and exterior. This is not a package you can order on a new M4 today.
+
+### Can the M4 KITH be delivered to Laval or the South Shore?
+
+Delivery to Laval, Longueuil, Brossard, and downtown Montreal is included in the daily rate. Other areas in Greater Montreal are covered as well. Ask about delivery outside the metro area when you book.
+
+To book the BMW M4 Competition x KITH, call [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm your dates within the hour.`,
+  },
+  {
     slug: 'mercedes-maybach-gls-600-rental-montreal-first-class-travel-on-four-wheels',
     title: 'Mercedes-Maybach GLS 600 Rental Montreal: First Class Travel on Four Wheels',
     date: '2026-10-21',
