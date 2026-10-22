@@ -4726,6 +4726,8 @@ N'hésitez pas à consulter notre blog pour plus d'inspiration, et à nous suivr
 
 Un anniversaire mérite bien plus qu'un dîner ou un bijou. Offrir une supercar, c'est offrir des sensations pures, une dose d'adrénaline et un souvenir que la personne n'oubliera jamais. Montréal est un terrain de jeu idéal : le Mont-Royal, le Vieux-Port, le boulevard Saint-Laurent, chaque trajet devient une scène. De plus, notre service de location supercar Montréal anniversaire vous permet de choisir le modèle qui correspond parfaitement à la personnalité de la personne célébrée : sportive, élégante, audacieuse ou même électrique avec une Porsche Taycan.
 
+Il y a aussi l'effet de surprise, qui vaut à lui seul le détour. Un parfum se devine, un billet de spectacle s'oublie, mais personne n'oublie le moment où une Lamborghini apparaît devant la porte avec un gros nœud sur le capot. Nos clients nous racontent souvent la scène : les mains sur le visage, le rire nerveux, la phrase qu'on répète toute la journée. C'est exactement ce genre de réaction que vous cherchez quand vous voulez marquer un anniversaire pour de bon.
+
 ## Quelles supercars sont disponibles pour votre anniversaire ?
 
 Notre flotte compte des icônes de l'automobile. Pour une location supercar Montréal anniversaire, la Lamborghini Huracan Tecnica est un choix spectaculaire : 640 chevaux, un V10 atmosphérique, et un design qui ne passe pas inaperçu. La Ferrari 488 GTB, avec son V8 bi-turbo, incarne l'élégance italienne. La McLaren 600LT, plus radicale, ravira les puristes. Si vous préférez un SUV, le Lamborghini Urus ou le Mercedes G63 AMG combinent performance et confort pour une sortie en groupe.
@@ -4740,15 +4742,21 @@ Voici des prix indicatifs par jour, avec assurance complète incluse :
 
 Ces tarifs peuvent varier selon la saison. Nous proposons aussi des forfaits spéciaux pour les anniversaires : décoration de la voiture, bouteille de champagne, ou même un chauffeur si vous préférez être passager.
 
+Comment choisir le bon modèle selon la personne ? Pour un 30e anniversaire, on mise souvent sur l'effet spectaculaire : Huracan Tecnica ou McLaren 600LT, des voitures qui crient la fête du matin au soir. Pour un 50e, la préférence va généralement au confort et à l'élégance : une Aston Martin DB11 ou une Mercedes-Maybach, où l'on arrive chic sans se plier en deux pour sortir du siège. Et pour un anniversaire de couple, le duo classique reste la décapotable : le vent dans les cheveux sur le boulevard René-Lévesque au coucher du soleil, ça n'a pas besoin d'explication. Si vous hésitez entre deux modèles, appelez-nous, on organise ça avec vous en cinq minutes.
+
 ## Location supercar Montréal anniversaire : comment ça marche ?
 
 C'est simple. Appelez-nous au 438-809-4417 ou envoyez un message WhatsApp au wa.me/14388094417. Nous discutons de vos besoins, du modèle, de la durée (minimum 24 heures) et du lieu de livraison. Nous livrons partout dans le Grand Montréal, y compris Laval, la Rive-Sud et la Rive-Nord. Vous n'avez pas à vous déplacer : nous apportons la voiture à votre porte.
 
 Ensuite, quelques formalités s'imposent : être âgé d'au moins 25 ans pour la plupart des modèles (21 ans pour certains), avoir un permis de conduire valide et une assurance complète. Nous exigeons un dépôt de sécurité qui varie selon le véhicule, mais il est remboursable après la location. Notre équipe vous guide à chaque étape pour que vous profitiez pleinement de votre journée spéciale.
 
+Un mot sur l'organisation de la surprise, parce que c'est souvent là que le plan se complique. Astuce numéro un : c'est la personne qui reçoit le volant qui doit avoir les papiers en règle, donc si vous offrez la journée à votre partenaire, vérifiez discrètement son permis et son âge avant de réserver. Astuce numéro deux : prévoyez un prétexte crédible pour la sortie du jour J, un brunch, une randonnée, une course de last minute, sinon la personne devine tout. Astuce numéro trois : confirmez-nous l'adresse et l'heure de livraison au moins 48 heures à l'avance, et on gère le reste avec vous. On a livré des surprises à 7h du matin devant un café sur Laurier et à 22h devant une salle de spectacle, on a l'habitude des horaires créatifs.
+
 ## Les meilleurs itinéraires à Montréal pour une supercar
 
 Pour une expérience optimale, empruntez le chemin du Mont-Royal pour une vue panoramique, ou longez le fleuve sur la route de la Pointe-aux-Trembles. Le Vieux-Montréal offre un décor historique parfait pour des photos, mais restez vigilant aux radars. Si vous voulez vraiment tester les performances, la route 132 vers la Vallée du Richelieu est plus dégagée. Respectez toujours le code de la route.
+
+Envie d'une journée complète plutôt qu'une simple balade ? Voici notre formule préférée : livraison à la maison en avant-midi, montée au chalet du Mont-Royal vers 11h quand la lumière est parfaite pour les photos, déjeuner dans le Vieux-Montréal avec la voiture garée à deux pas, puis une virée vers l'est sur la route 132 en après-midi pour laisser le moteur chanter. Retour au coucher du soleil, dîner de fête, et retour de la voiture le lendemain matin. Une journée entière, zéro stress, un maximum de souvenirs.
 
 ## Réservez votre location supercar Montréal anniversaire
 
