@@ -12172,33 +12172,73 @@ Les disponibilités sont limitées pendant le Grand Prix, et les meilleures date
     description: 'De la route 138 aux Laurentides jusqu\'au Mont-Royal, les routes que vous devez absolument faire en supercar.',
     content: `Montréal est souvent perçue comme une ville de trafic et de nids de poule. Mais si vous savez où aller, la région offre des routes absolument époustouflantes pour profiter d'un supercar. Voici notre sélection des 5 meilleures routes à faire avec une de nos machines, avec les conseils pour en tirer le maximum.
 
+On parcourt ces routes chaque semaine pour des livraisons, des séances photo et des retours de location. Ce guide reflète ce qu'on recommande vraiment aux clients, pas une liste touristique recyclée. Pour chaque itinéraire, on indique le meilleur moment pour y aller, le modèle qui convient le mieux selon le budget, et les détails qui séparent une belle balade d'une journée parfaite.
+
 ## 1. La boucle du Mont Royal
 
 Incontournable. La route Remembrance qui fait le tour du mont Royal offre des courbes fluides, un dégagement visuel magnifique sur la ville, et une ambiance unique surtout en soirée. En McLaren ou en Audi R8, chaque virage devient une sculpture sonore. Partez tôt le matin pour éviter les cyclistes et profiter de l'asphalte vide. Le meilleur moment reste le lever du soleil, quand la lumière dorée frappe le centre ville et que la route est encore à vous. Comptez une vingtaine de minutes pour la boucle complète, mais prévoyez plus de temps pour vous arrêter aux belvédères. La vue sur le stade olympique et le fleuve vaut chaque arrêt.
+
+Le modèle parfait ici, c'est une voiture vive mais docile à bas régime. La BMW M3 Competition à 650 $ par jour et ses 503 chevaux est notre recommandation classique pour la montagne, et l'Audi R8 V10 à 899 $ par jour ajoute le son du V10 atmosphérique qui rebondit entre les arbres. Si le gel de la veille a laissé ses traces sur la chaussée, gardez les modes de suspension les plus confortables pour cette boucle.
 
 ## 2. Route 138 en Lanaudière
 
 Direction nord est depuis Montréal, la route 138 traverse Repentigny et Joliette avec des sections longues et dégagées idéales pour sentir la puissance de votre machine. Les lignes droites entre les champs ouverts vous donnent l'occasion d'apprécier les accélérations franches d'une BMW M5 ou d'une Lamborghini Urus. C'est la route parfaite pour tester la reprise sur les dépassements, avec peu de trafic en semaine. En automne, les couleurs des érables transforment le paysage en tableau vivant. Prévoyez un arrêt à Joliette pour un café avant de faire demi tour.
 
+Pour les longues lignes droites, la BMW M5 Competition à 599 $ par jour et ses 617 chevaux transforme chaque dépassement en formalité. Le Lamborghini Urus à 1 399 $ par jour fait la même démonstration avec cinq places à bord, parfait si vous partez en groupe pour une randonnée avant le retour.
+
 ## 3. Autoroute 15 vers les Laurentides
 
 La 15 Nord jusqu'à Saint Sauveur ou Mont Tremblant est une route que tout propriétaire de supercar connaît. Les courbes douces dans les collines laurentiennes, les vues sur les montagnes, et les petites routes secondaires autour des lacs, c'est le combo parfait pour une journée de conduite mémorable. Quittez l'autoroute à Saint Sauveur et prenez la route des Falaises pour des virages plus techniques. La 329 vers Val David offre aussi de belles séquences. C'est l'itinéraire idéal pour une McLaren 600LT ou une Porsche 911, des voitures qui brillent dans les enchaînements rapides.
+
+La McLaren 600LT à 1 199 $ par jour reste notre arme favorite pour ce secteur : 592 chevaux, 0 à 100 km/h en 2,9 secondes, et un châssis qui adore les enchaînements gauche droite autour de Val David. Si vous préférez rouler détendu, la Porsche 911 Carrera 4 à 650 $ par jour couvre le même itinéraire avec le confort d'une vraie GT. On livre aussi directement à [Mont Tremblant](/locations/mont-tremblant) si vous voulez garder la voiture au chalet pour la fin de semaine.
 
 ## 4. Croisière dans le Vieux Montréal
 
 Pas une route rapide, mais une scène. Rouler sur les pavés du Vieux Port dans une G63 AMG ou une Audi RS7, c'est être au centre de l'attention. En soirée, quand les lumières se reflètent sur les vieilles pierres, l'ambiance est incomparable. Arrêtez sur la Promenade du Vieux Port pour les photos. Les rues comme la rue Saint Paul et la place Jacques Cartier offrent des décors parfaits pour immortaliser votre location. Allez y en fin de journée, quand la foule se disperse et que la lumière devient douce. C'est aussi le meilleur endroit pour impressionner avant un souper au restaurant.
 
+Pour cette boucle urbaine, le Mercedes G63 AMG à 1 300 $ par jour reste la machine à photos par excellence, et la Bentley Bentayga à 699 $ par jour joue dans la même cour avec plus de discrétion. Détail pratique : les pavés et les nids de poule du secteur pardonnent beaucoup mieux à une hauteur de caisse de SUV qu'à un splitter en fibre de carbone.
+
 ## 5. Autoroute 30 sur la Rive Sud
 
 Peu connue des Montréalais, l'A 30 offre des tronçons fluides et rapides sur la Rive Sud avec moins de trafic qu'en ville. Idéale pour un circuit rapide depuis Brossard jusqu'à Châteauguay, surtout en soirée ou le dimanche matin. Les longues lignes droites permettent de déployer la puissance d'une Lamborghini Huracan ou d'une Ferrari 488 GTB en toute sécurité. La section entre Candiac et Salaberry de Valleyfield est particulièrement dégagée. C'est la route à choisir si vous voulez vraiment sentir l'accélération sans les radars du centre ville.
+
+La Lamborghini Huracan EVO à 1 499 $ par jour et ses 610 chevaux est la reine de cette artère, et l'Audi R8 V10 à 899 $ par jour offre l'essentiel du plaisir avec le même V10 atmosphérique pour 60 pour cent du tarif. C'est aussi notre suggestion quand un client veut le son italien complet sans monter au palier supérieur du dépôt de sécurité.
+
+## Quelle voiture choisir selon votre itinéraire
+
+En résumé, voici nos paires gagnantes. Mont Royal le matin : BMW M3 Competition à 650 $ ou Audi R8 V10 à 899 $. Lanaudière et les longues lignes droites : BMW M5 Competition à 599 $ ou Lamborghini Urus à 1 399 $. Laurentides et les virages : McLaren 600LT à 1 199 $ ou Porsche 911 Carrera 4 à 650 $. Vieux Montréal en mode scène : Mercedes G63 AMG à 1 300 $ ou Bentley Bentayga à 699 $. A 30 et les accélérations franches : Lamborghini Huracan EVO à 1 499 $ ou Audi R8 V10 à 899 $. Chaque voiture est livrée à votre porte, nettoyée et prête à rouler, le jour de votre location. La [page de la flotte](/fleet) présente chaque modèle disponible avec ses spécifications complètes.
+
+## Le kilométrage, le détail qui change tout
+
+La plupart de nos locations incluent entre 150 et 200 kilomètres par jour selon le modèle, et les kilomètres supplémentaires sont facturés à un taux publié. Une boucle Mont Royal plus Vieux Montréal consomme à peine 40 kilomètres, mais une virée jusqu'à Saint Sauveur et retour dépasse 150 kilomètres, et Mont Tremblant aller retour, c'est près de 300. Dites nous votre itinéraire à la réservation et on bâtit le forfait avec le bon kilométrage, ou on vous prépare une allocation sur mesure pour un plus long road trip. Aucun client ne devrait découvrir les limites de son forfait en regardant le compteur au milieu des Laurentides.
+
+## Une journée parfaite en supercar à Montréal
+
+Si vous ne savez pas par où commencer, voici notre formule préférée pour une journée complète. Livraison à la maison en matinée, montée au Mont Royal vers 11h quand la lumière est idéale pour les photos, puis direction les Laurentides pour l'après midi sur la 329 autour de Val David. Pause café à Saint Sauveur, retour par la 15 Sud au coucher du soleil, et remise de la voiture le lendemain matin après une dernière balade dans le Vieux Montréal. Une journée entière, zéro stress, et environ 250 kilomètres de conduite réelle qui donnent raison à chaque dollar de la location.
 
 ## Nos conseils pour une journée de conduite parfaite
 
 Peu importe la route choisie, quelques règles rendent l'expérience plus agréable. Vérifiez la météo avant de partir, car une pluie soudaine change tout sur les routes secondaires. Faites le plein avant de quitter la ville, les stations se font rares dans les Laurentides. Et surtout, respectez les limites de vitesse. Nos véhicules sont équipés de traceurs GPS, non pas pour vous surveiller, mais pour votre sécurité et celle de la voiture.
 
+Ajoutez à cela quelques réflexes montréalais. Les nids de poule apparaissent après chaque gel, gardez vos distances avec la voiture devant vous. Les radars photo sont fréquents sur les sorties d'autoroute, un dépassement trop optimiste coûte plus cher que la location. Les cyclistes partagent la route Remembrance dès avril, restez patient autour de la montagne. Et en hiver, les pneus d'hiver sont obligatoires du 1er décembre au 15 mars, notre [guide sur la loi québécoise](/blog/quebec-s-winter-tire-law-what-it-means-for-exotic-car-rentals-in-montreal) explique tout en détail.
+
+## FAQ
+
+### Kilométrage inclus par jour
+
+La plupart des modèles incluent entre 150 et 200 kilomètres par jour, avec les kilomètres supplémentaires facturés à un taux publié. Les locations de plusieurs jours sont aussi disponibles à tarif réduit, utiles pour un road trip vers Tremblant ou les Cantons de l'Est.
+
+### Sortir de Montréal avec la voiture
+
+Oui, vous pouvez conduire partout au Québec, y compris Mont Tremblant, Québec et les Cantons de l'Est. Pour les trajets qui dépassent le Grand Montréal, mentionnez simplement votre itinéraire à la réservation et on ajuste le forfait. Nos guides sur [Montréal vers Charlevoix](/blog/montreal-to-charlevoix-in-a-supercar-quebec-s-most-beautiful-drive) et le [road trip vers les Cantons de l'Est](/blog/supercar-road-trip-montreal-to-eastern-townships) couvrent les grandes sorties en détail.
+
+### Âge minimum et dépôt de sécurité
+
+L'âge minimum est de 25 ans pour la plupart des modèles, et 21 ans pour certaines voitures comme la BMW M3 Competition ou la Toyota GR Supra. Le dépôt de sécurité est une préautorisation sur votre carte de crédit, libérée au retour du véhicule dans son état livré. La [FAQ](/faq) détaille les exigences pour chaque modèle.
+
 ## Comment réserver votre supercar
 
-Quelle que soit la route que vous choisissez, nos véhicules sont livrés à votre porte, que ce soit à l'hôtel, à votre résidence ou à l'aéroport. Contactez nous via WhatsApp au wa.me/14388094417 ou appelez le 438 809 4417 pour planifier votre journée de conduite parfaite à Montréal. Notre équipe vous conseille le meilleur itinéraire selon le modèle choisi et la météo. Livraison 24h/24 partout dans le Grand Montréal, âge minimum de 25 ans pour la plupart des modèles, et dépôt de sécurité remboursable. Réservez tôt pour les fins de semaine d'été, les routes partent vite.`,
+Quelle que soit la route que vous choisissez, nos véhicules sont livrés à votre porte, que ce soit à l'hôtel, à votre résidence ou à l'aéroport. Appelez le (438) 809-4417 ou écrivez sur [WhatsApp](https://wa.me/14388094417) pour planifier votre journée de conduite parfaite à Montréal. Notre équipe vous conseille le meilleur itinéraire selon le modèle choisi et la météo, et confirme vos dates rapidement pendant les heures d'ouverture. Livraison 24h/24 partout dans le Grand Montréal, âge minimum de 25 ans pour la plupart des modèles, et dépôt de sécurité remboursable. Réservez tôt pour les fins de semaine d'été, les routes partent vite.`,
   },
   {
     slug: 'comment-louer-voiture-exotique-montreal',
