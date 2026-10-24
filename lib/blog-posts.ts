@@ -9,6 +9,101 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'porsche-911-carrera-4-rental-montreal-the-icon-is-bookable-today',
+    title: 'Porsche 911 Carrera 4 Rental Montreal: The Icon Is Bookable Today',
+    date: '2026-10-24',
+    description: 'Porsche 911 Carrera 4 rental Montreal: $650/day, 370 hp, all-wheel drive, delivered anywhere in Greater Montreal. Full review, specs and booking info inside.',
+    content: `A Porsche 911 Carrera 4 rental in Montreal costs $650/day, gets you a 370 hp flat-six with all-wheel drive, and can be delivered anywhere in Greater Montreal with a simple phone call. At that price it is one of the most accessible ways to drive a real 911 in the city, and after spending time with the car, I can say it earns its place in our fleet on merit, not just on the badge.
+
+I want to be upfront about one thing before the review proper: if you searched for a specific 911 variant like a Turbo or GT3, we do not carry those. The closest car in our fleet is this Porsche 911 Carrera 4, and honestly, for Montreal roads, it is the version I would pick anyway. The all-wheel-drive system is exactly what you want from October through April, and the rest of the year it simply makes the car faster point to point than a rear-drive 911 on imperfect pavement.
+
+## How Much Does a Porsche 911 Carrera 4 Rental in Montreal Cost?
+
+The Porsche 911 Carrera 4 rents for $650/day in Montreal, which puts it in the same price bracket as the [BMW M3 Competition](/fleet/bmw-m3-competition) and the Mercedes GLC63s AMG. That is the number, no hidden asterisks. The rate includes delivery options across Greater Montreal, and you can see the full [process here](/how-it-works).
+
+For context within our own fleet, that makes the 911 significantly cheaper than the Audi R8 at $1,099/day or the McLaren 600LT at $1,199/day, while remaining a genuine sports car rather than a warmed-up sedan. If you are cross-shopping, the [Porsche Macan GTS](/fleet/porsche-macan-gts) at $600/day is the SUV alternative, but it is not the same experience. The 911 is the driver's choice in this price range.
+
+## What Is It Like to Drive the 911 Carrera 4 in Montreal?
+
+The short answer: it is the most usable exotic-feeling car in our lineup. The 370 hp flat-six sits behind the rear axle, the all-wheel-drive system puts the power down without drama, and the steering communicates everything the front tires are doing. On a ramp onto the 40 or the 720, you merge with total confidence because the chassis never feels like it is waiting for you to catch up.
+
+What surprised me most is how well it handles Montreal's actual road conditions. Saint-Laurent boulevard is not a racetrack, and the Carrera 4 does not pretend otherwise. The ride is firm but never punishing, the cabin is quiet enough for a conversation at highway speed, and the driving position is close to perfect, low with clear sightlines over the iconic round fenders. This is a car you could genuinely use for a weekend without feeling exhausted, which is not something I would say about every car in the [fleet](/fleet).
+
+## Why Is All-Wheel Drive a Big Deal for a Montreal Rental?
+
+Because Montreal weather does not cooperate with your booking window. The Carrera 4's all-wheel-drive system sends most power to the rear wheels in normal driving, then shifts grip forward the instant traction gets questionable. Rain on the Champlain Bridge, gravel on a back road in the Laurentians, cool mornings after a warm evening, the system covers all of it without you thinking about it.
+
+A rear-drive 911 in these conditions demands respect and a careful right foot. The Carrera 4 lets you use more of the car, more of the time. That is why, for a Porsche 911 Carrera 4 rental in Montreal specifically, I would argue this is the correct 911 to rent rather than a compromise. If your dates land between November and March, all-wheel drive is not a nice-to-have, it is the whole point.
+
+## How Does the 911 Carrera 4 Compare to Other Cars at the Same Price?
+
+At $650/day, the 911 competes directly with the BMW M3 Competition ($650/day, 503 hp) and the Mercedes GLC63s AMG ($650/day, 510 hp). On paper, both Germans out-muscle it with roughly 130 more horsepower. On the road, the Porsche still feels like the more special machine.
+
+Here is the honest breakdown:
+
+- The M3 Competition is faster in a straight line and more practical with four doors, but it is a sedan first and a performance car second.
+- The GLC63s is a superb SUV, but it is an SUV. You sit high, and the body rolls.
+- The 911 Carrera 4 is the only one of the three that is a purpose-built sports car with the engine in the back, the heritage on the badge, and the silhouette everyone recognizes.
+
+If you want raw numbers, the [BMW M5 Competition](/cars/bmw-m5-competition) at $599/day offers 617 hp and 0-100 in 3.4 seconds for less money. But a Porsche 911 Carrera 4 rental in Montreal is not about winning a spec sheet argument. It is about the shape, the sound of the flat-six, and the fact that this car has been continuously refined for over 60 years.
+
+## What Are the Specs of the Porsche 911 Carrera 4?
+
+The numbers that matter:
+
+- Engine: 3.0L twin-turbo flat-six
+- Power: 370 hp
+- Drivetrain: all-wheel drive
+- Layout: rear-engine, 2+2 seating
+- Rental rate: $650/day
+
+The 370 hp figure undersells the experience. Turbo torque arrives early and stays flat across the rev range, so the car feels quick everywhere, not just at redline. And the rear-engine layout gives it a traction advantage off the line that the horsepower number does not reveal.
+
+## Where Can You Drive It? Good Roads Near Montreal
+
+If you are renting the 911 for more than an airport run, plan at least half a day for real roads. My recommendations after driving these routes myself:
+
+- Chemin du Nord up toward Saint-Sauveur, tight corners, good pavement, about an hour from downtown.
+- The roads around [Blainville](/locations/blainville) and [Saint-Jérôme](/locations/saint-jerome) heading into the Laurentians, the classic Montreal car route.
+- The circuit around [Longueuil](/locations/longueuil) and the South Shore riverside roads for a calmer cruise with skyline views.
+
+Deliveries are available across Greater Montreal, so whether you are staying in [Old Montreal](/locations/old-montreal) or out in [Laval](/locations/laval), the car comes to you. Check the [FAQ](/faq) for insurance and license requirements before booking.
+
+## Who Should Rent the 911 Carrera 4?
+
+Three groups of renters, in my experience:
+
+- First-time exotic renters who want a car that is thrilling but forgiving. The all-wheel drive and predictable handling make it the best entry point in our fleet.
+- Porsche loyalists between cars, or people testing a 911 before buying one. A day with the Carrera 4 tells you more than any test drive at a dealership.
+- Anyone renting for an occasion where the car itself matters: a wedding, an anniversary, a photo shoot, a business arrival. The 911 silhouette carries weight in every one of those situations.
+
+If none of that sounds like you and you want maximum drama instead, the [Lamborghini Huracán EVO](/fleet/lamborghini-huracan-evo) at $1,499/day is the louder answer. But for the money, the 911 is the most complete package we offer.
+
+## FAQ
+
+### How much does it cost to rent a Porsche 911 Carrera 4 in Montreal?
+
+The Porsche 911 Carrera 4 rents for $650/day through Exotic Rentals Montreal. That rate puts it in the mid-range of our fleet, below the Audi R8 at $1,099/day and well below the Lamborghini Huracán Tecnica at $1,599/day.
+
+### Can the 911 Carrera 4 be driven in winter conditions?
+
+Yes, and that is one of its strongest arguments. The all-wheel-drive system and 370 hp engine handle rain, cold pavement, and light winter conditions far better than a rear-drive sports car. For late-fall and winter bookings, it is the sports car I recommend most.
+
+### Do I need a special license to rent the Porsche 911 Carrera 4?
+
+A valid driver's license meeting our standard rental requirements is all you need. The 911 is a mainstream sports car with an automatic transmission, so no motorcycle-style restrictions or special endorsements apply. Full details are on our [FAQ page](/faq).
+
+### Is the 911 Carrera 4 a good first exotic car rental?
+
+It is the best first exotic rental in our fleet, in my opinion. The all-wheel drive, progressive throttle, and forgiving chassis let you build confidence quickly, unlike something like the McLaren 600LT Spider at $1,999/day, which demands far more from the driver.
+
+### Can the car be delivered to my location in Montreal?
+
+Yes, delivery is available across Greater Montreal, including Old Montreal, Laval, Longueuil, and the West Island. You can also arrange pickup directly with our team depending on your schedule.
+
+To book the Porsche 911 Carrera 4 for your dates, call us at [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and we will confirm availability on the spot.`,
+  },
+  {
     slug: 'mercedes-amg-gt53-4-door-rental-montreal-coupe-looks-with-sedan-comfort',
     title: 'Mercedes-AMG GT53 4-Door Rental Montreal: Coupe Looks With Sedan Comfort',
     date: '2026-10-23',
