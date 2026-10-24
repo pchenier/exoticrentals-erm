@@ -11565,31 +11565,58 @@ Whether you are celebrating a birthday, planning a special anniversary evening, 
 
 In a neighbourhood where first impressions carry real weight, the vehicle you drive makes a statement before you say a word. A Lamborghini Huracán Tecnica parked outside a Westmount estate, a Porsche Panamera GTS on Côte Saint Antoine Road at dusk, or a Mercedes G63 AMG making its way along Murray Hill Park, these are images that match the character of the neighbourhood perfectly.
 
-Our delivery service is seamless. You choose your vehicle, you provide your Westmount address and preferred time, and we arrive with the car fully detailed, fuelled, and ready to go. There is no need to travel anywhere, no rental lot, no queue. The entire process is designed to be as effortless as the drive itself. Whether you live near Summit Park, on the slopes of the mountain, or right on Sherbrooke, we bring the experience to your door.
+Our delivery service is seamless. You choose your vehicle, you provide your Westmount address and preferred time, and we arrive with the car fully detailed, fuelled, and ready to go. There is no need to travel anywhere, no rental lot, no queue. The entire process is designed to be as effortless as the drive itself. Whether you live near Summit Park, on the slopes of the mountain, or right on Sherbrooke, we bring the experience to your door. Deliveries typically take fifteen minutes at handoff: our agent walks you around the car, sets the seat and mirrors, explains the drive modes, and goes over the contract details with you. When the rental ends we collect the car at the same address, or anywhere else in Greater Montreal that suits you better.
 
 ## The Luxury Fleet We Bring to Westmount
 
-Exotic Rentals Montreal operates one of the finest exotic car fleets in Montreal. For Westmount deliveries, our most popular choices include the Porsche Panamera GTS, a grand tourer that combines genuine performance with four door practicality and an interior that feels handcrafted at every touchpoint. The Lamborghini Urus, our high performance SUV with 650 horsepower, is a favourite among Westmount clients who want presence and practicality in equal measure.
+Exotic Rentals Montreal operates one of the finest exotic car fleets in Montreal. For Westmount deliveries, our most popular choices include the Porsche Panamera GTS, a grand tourer that combines genuine performance with four door practicality and an interior that feels handcrafted at every touchpoint. The Lamborghini Urus, our high performance SUV with 641 horsepower, is a favourite among Westmount clients who want presence and practicality in equal measure, and its 5 seats mean the whole family comes along.
 
-For those who prefer the pure roadster experience, the Lamborghini Huracán Tecnica delivers 640 naturally aspirated horsepower and a soundtrack unlike anything else on the road. The McLaren 600LT pushes the definition of what a road car can feel like, with carbon bodywork, a focused chassis, and performance that puts it in a category of its own. BMW M Series vehicles including the M5 Competition are also available for clients who want German precision alongside serious power.
+For those who prefer the pure roadster experience, the Lamborghini Huracán Tecnica delivers 631 naturally aspirated horsepower and a soundtrack unlike anything else on the road. The McLaren 600LT Spider pushes the definition of what a road car can feel like, with carbon bodywork, a focused chassis, and performance that puts it in a category of its own. The Mercedes G63 AMG remains the statement SUV of the neighbourhood, equally at home on Greene Avenue and at the chalet.
+
+Beyond the exotics, our luxury tier suits Westmount perfectly. The Mercedes-Maybach S680 by Virgil Abloh is the rarest car we operate, a V12 limousine with reclining rear seats that turns a drive to the Ritz into an occasion. The Mercedes-Maybach GLS 600 and the Bentley Bentayga cover the same ground in SUV form, and the Cadillac Escalade at 7 seats handles group logistics in genuine comfort. The full list with photos and complete specs is on our [fleet page](/fleet).
 
 ## What Does a Luxury Car Rental in Westmount Cost?
 
-Pricing depends on the model and the season. A BMW M3 Competition starts around 350 dollars per day, while a Porsche 911 4S Techart runs closer to 700 dollars. For the full exotic experience, a Lamborghini Huracán Tecnica starts at 1 500 dollars per day, and a McLaren 600LT at 1 800 dollars. During peak summer months and Grand Prix weekend, rates can climb by 20 to 30 percent, so booking ahead is smart.
+Here are our current daily rates for the models Westmount clients book most, with the weekend rate in parentheses when it differs:
 
-The security deposit varies by vehicle, typically from 2 000 dollars for a sport sedan up to 10 000 dollars for a supercar. The deposit is held on your credit card and fully released when the car comes back in the same condition. Full insurance is required, and we can help you arrange coverage if your policy does not already include rental vehicles.
+- BMW M3 Competition: $650 per day ($700 weekend), 503 horsepower
+- Porsche 911 Carrera 4: $650 per day ($680 weekend)
+- Mercedes GLC63s AMG: $650 per day ($700 weekend)
+- Porsche Macan GTS: $600 per day ($700 weekend)
+- Mercedes GT53 AMG: $600 per day ($650 weekend)
+- Cadillac Escalade: $599 per day, 7 seats
+- Porsche Panamera GTS: $700 per day ($800 weekend)
+- Bentley Bentayga: $699 per day ($799 weekend)
+- Mercedes G63 AMG: $1,300 per day ($1,350 weekend)
+- Audi R8 Spyder: $1,299 per day ($1,399 weekend)
+- Lamborghini Urus: $1,399 per day ($1,499 weekend)
+- Lamborghini Huracán Tecnica: $1,599 per day ($1,799 weekend)
+- McLaren 600LT Spider: $1,999 per day ($2,099 weekend)
+- Mercedes-Maybach S680 by Virgil Abloh: $2,399 per day ($2,599 weekend)
+
+Two day and three day bookings get better per day pricing than stacking single days, and weekly rates drop further still, which matters if you are hosting family for a bar mitzvah, a graduation, or a wedding week. During Grand Prix weekend rates climb by 20 to 30 percent and availability tightens fast, so book early for that one.
+
+The security deposit varies by vehicle, typically from $2,000 for the Maybach GLS 600 and the Escalade up to $10,000 for the supercars and the Maybach S680. The deposit is a preauthorization on your credit card, not a charge, and it is released after the rental once the car comes back in its delivered condition. Full insurance is required, and we can help you arrange coverage if your policy does not already include rental vehicles. The complete breakdown of requirements, deposits, and mileage is on our [FAQ page](/faq).
 
 ## Occasions That Call for an Exotic Car in Westmount
 
 Westmount residents and guests rent exotic cars for a wide variety of occasions. Corporate entertaining, celebrating a major milestone, a romantic anniversary evening, or simply the desire to experience something exceptional on a clear summer afternoon. Whatever the reason, Exotic Rentals Montreal provides the vehicle that elevates the moment.
 
-We also serve visitors staying at properties along Sherbrooke Street West or guests of Westmount families looking to make a special occasion unforgettable. Our team is available seven days a week and responds quickly via WhatsApp at +14388094417.
+Weddings are the classic. We deliver to ceremonies at the churches on Greene Avenue, to receptions in the gardens, and to private homes, and we schedule the handoff around the photographer so the car is on site for the portraits. The Urus and the G63 are the two most requested wedding vehicles here because they photograph beautifully and seat the full bridal party between them. Anniversaries and milestone birthdays come next: there is a particular look on someone's face when a Lamborghini appears in the driveway with a bow on the hood, and we have seen it enough times to plan the logistics down to the minute.
+
+We also serve visitors staying at properties along Sherbrooke Street West or guests of Westmount families looking to make a special occasion unforgettable. Our team is available seven days a week and responds quickly via WhatsApp at [wa.me/14388094417](https://wa.me/14388094417) or by phone at [(438) 809 4417](tel:4388094417).
+
+## Where to Drive a Luxury Rental from Westmount
+
+Westmount sits in one of the best positions in the city for a proper drive. Twenty minutes east and you are in Old Montreal for dinner and photos along the waterfront. Ten minutes north puts you on the Camillien Houde lookout road up the mountain, the single best photo stop on the island with the skyline behind you. Cross the bridge and the South Shore opens toward the wine routes, or take the 15 North and you are in the Laurentians before the coffee gets cold.
+
+A favourite local loop: leave Westmount via Côte Saint Antoine, climb through Westmount Summit Park for the view, descend on the other side of the mountain, run along the river on Route 132 toward the east, and circle back through the Plateau before dusk. It is about 60 km, it fits comfortably inside a daily mileage allowance, and it hits every postcard angle the city has.
 
 ## Booking Your Westmount Luxury Car Rental
 
-Reserving a vehicle through Exotic Rentals Montreal is simple. Send us a message on WhatsApp at +14388094417 with your preferred date, vehicle, and delivery address. We confirm availability immediately and walk you through the next steps. A deposit holds your reservation, and the balance is settled at delivery.
+Reserving a vehicle through Exotic Rentals Montreal is simple. Send us a message on WhatsApp at [wa.me/14388094417](https://wa.me/14388094417) with your preferred date, vehicle, and delivery address, or call [(438) 809 4417](tel:4388094417). We confirm availability immediately and walk you through the next steps. A deposit holds your reservation, and the balance is settled at delivery.
 
-Our standard requirements apply: a full driving licence held for at least two years, minimum age of 25, and appropriate insurance. We handle all the logistics so you can focus entirely on the experience. Whether you are a Westmount resident or a guest discovering the neighbourhood, we are here to make your time exceptional. Contact us today and let us bring the perfect vehicle to your door.`,
+Our standard requirements apply: a valid driver's licence held for at least two years, minimum age of 25 for the supercar tier (21 for select models like the BMW M3 Competition and the Cadillac Escalade), and appropriate insurance. Mileage is agreed at booking, typically 150 to 200 km per day, with extra kilometres available at the published rate, and daily minimum rental is 24 hours. We handle all the logistics so you can focus entirely on the experience. Whether you are a Westmount resident or a guest discovering the neighbourhood, we are here to make your time exceptional. Contact us today and let us bring the perfect vehicle to your door.`,
   },
   {
     slug: 'location-voiture-luxe-laval',
