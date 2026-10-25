@@ -9,6 +9,81 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'toyota-gr-supra-rental-montreal-the-2jz-legend-lives-on',
+    title: 'Toyota GR Supra Rental Montreal: The 2JZ Legend Lives On',
+    date: '2026-10-25',
+    description: 'Toyota GR Supra rental Montreal: $400/day, 420 hp, 0-100 in 3.9s. Read our full review of the Supra on Montreal roads and book yours today.',
+    content: `A Toyota GR Supra rental in Montreal costs $400/day, gets you 420 hp and a 0-100 km/h sprint in 3.9 seconds, and can be delivered anywhere in Greater Montreal with a 24 hour minimum. It is the most affordable way to get behind the wheel of a genuine sports coupe in our fleet, and it carries one of the most famous names in Japanese performance history. After putting real kilometers on the GR Supra around Montreal, here is our honest review of what the car does well, where it shows its limits, and why the 2JZ legend still matters.
+
+## Why Is the Toyota GR Supra Called a 2JZ Legend?
+
+Because the Supra name was built on the A80 generation of the 1990s and its 2JZ-GTE engine, a 3.0 liter inline-six that tuners famously pushed past 1,000 hp on stock internals. The fourth-generation Supra became a cult car through drag racing, tuning culture, and its starring role in the Fast and Furious franchise. Toyota brought the name back in 2019 with the fifth-generation GR Supra, and while the new car does not use the 2JZ, it keeps the formula that made the original great: a 3.0 liter turbocharged inline-six, rear-wheel drive, and a compact two-seat body.
+
+The connection is real enough that the GR Supra is often called the spiritual successor to the 2JZ era. The B58 engine in the current car is already proving itself just as tuner-friendly, with bolt-on builds regularly clearing 500 hp. When you rent the GR Supra from us, you are driving the modern chapter of a story that started in the 1990s.
+
+## How Much Does a Toyota GR Supra Rental in Montreal Cost?
+
+Toyota GR Supra rental in Montreal runs $400/day, which makes it the entry point of our entire fleet. For comparison, that is the same rate as our Audi RS5 at $400/day, and it sits well below the BMW M3 Competition at $650/day or the Porsche 911 Carrera 4 at $650/day. The price includes the car, delivery options across the Greater Montreal area, and our standard support throughout your rental period.
+
+At 420 hp and 0-100 km/h in 3.9 seconds, the Supra delivers supercar-adjacent acceleration for the price of a premium SUV rental elsewhere. That is the core argument for this car: performance per dollar. If you want the full breakdown of rates, requirements, and delivery zones, our [FAQ page](/faq) covers everything, and [how it works](/how-it-works) walks you through the booking process step by step.
+
+## What Is It Like to Drive the GR Supra in Montreal?
+
+The first thing you notice is how small the car feels. The GR Supra is shorter than a BMW M4 and has one of the lowest seating positions of anything in our fleet, which makes it feel more like a McLaren than a Toyota when you drop into the driver's seat. The 3.0 liter turbocharged inline-six sends 420 hp to the rear wheels through an 8-speed automatic, and the delivery is immediate. There is no lag worth mentioning, and the exhaust note in Sport mode has a proper growl that gets attention on Saint-Laurent without being obnoxious in residential areas.
+
+On Montreal roads specifically, the suspension is the biggest surprise. The Supra handles our potholes and frost heaves far better than its aggressive stance suggests. The adaptive dampers soak up the rough stuff on the Champlain Bridge approach and through the Turcot interchange, then firm up nicely once you hit the curves around the West Island or the long sweepers on Highway 30. The electric steering is quick and accurate, and the chassis balance is genuinely excellent: this is a car that rotates when you ask it to and settles immediately when you do not.
+
+The 0-100 km/h time of 3.9 seconds is not just a brochure number. On a clean on-ramp pull, the car hits it easily, and the traction control lets you have a bit of fun before it intervenes. Turn everything off and the rear end will step out predictably, which makes it a great car for drivers who want to feel the machine working rather than being insulated from it.
+
+## How Does the GR Supra Compare to Other Sports Cars in Your Fleet?
+
+Against its closest rivals, the GR Supra holds its own on value but gives up ground on outright space and practicality. Here is how we see it after driving everything back to back:
+
+- Toyota GR Supra, $400/day, 420 hp, 0-100 in 3.9s: the best pure-driving value in the fleet.
+- Audi RS5, $400/day, 450 hp, 0-100 in 3.9s: same price, more practical, but heavier and less communicative.
+- BMW M3 Competition, $650/day, 503 hp, 0-100 in 3.8s: faster and roomier, but a different budget.
+- Porsche 911 Carrera 4, $650/day, 370 hp: the icon, but slower to 100 and pricier.
+- Audi R8 V10, $899/day, 562 hp, 0-100 in 3.2s: a true supercar, at more than double the Supra's rate.
+
+If your priority is the driving experience itself, the connection between you, the engine, and the rear axle, the Supra wins on feel per dollar. If you need a back seat or trunk space for a weekend up to Tremblant, the RS5 or the M3 Competition make more sense. You can see the full lineup on our [fleet page](/fleet).
+
+## Who Should Rent the Toyota GR Supra?
+
+The GR Supra is the right car for three kinds of renters. First, the enthusiast who has wanted a Supra since the 1990s and wants to finally drive one without buying it. Second, the driver who wants a genuine sports car for a weekend but does not want to spend $1,000+ per day on a Lamborghini or McLaren. Third, anyone shopping for a Supra to buy who wants real seat time before committing to a purchase, since a 15 minute test drive at a dealer tells you almost nothing about how this car lives with Montreal roads.
+
+It is also a strong choice for photo and video shoots. The GR Supra's proportions photograph beautifully, the wide rear haunches look aggressive from every angle, and the car reads as exotic to most people even at a fraction of the price. Clients in [Griffintown](/locations/griffintown) and [Old Montreal](/locations/old-montreal) regularly book it for exactly this reason.
+
+## What Are the Requirements to Rent the GR Supra in Montreal?
+
+You need to be at least 21 years old with a valid driver's license and a credit card in your name, and the minimum rental is 24 hours. A security deposit is held on the card at pickup and released after the car comes back in the agreed condition. Full details on deposits, insurance, and mileage allowances are on our [FAQ page](/faq), and if you have a specific situation, our team answers fast through the [contact page](/contact).
+
+One practical note: the Supra is a two-seater with limited trunk space, so plan luggage accordingly if you are heading out of the city. For groups or families, the [Cadillac Escalade](/fleet/cadillac-escalade) at $599/day or the [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day are the practical picks, but for a solo drive or a couple's weekend, the Supra is hard to beat.
+
+## FAQ
+
+### How much does it cost to rent a Toyota GR Supra in Montreal?
+
+The Toyota GR Supra rents for $400/day in Montreal with a 24 hour minimum. That makes it one of the most affordable performance cars in the city at 420 hp and 0-100 km/h in 3.9 seconds.
+
+### Is the GR Supra fast enough to justify a rental?
+
+Yes. The 3.9 second 0-100 km/h time puts it within a tenth of a second of the BMW M3 Competition, which costs $650/day. For highway pulls and backroad driving around Montreal, the Supra delivers everything most drivers will ever use.
+
+### Does the modern GR Supra actually have a 2JZ engine?
+
+No, the current GR Supra uses a BMW-sourced B58 3.0 liter turbocharged inline-six producing 420 hp. The 2JZ was the engine in the fourth-generation Supra of the 1990s, but the B58 is widely seen as its modern spiritual successor and is already a favorite among tuners.
+
+### Can the GR Supra handle Montreal potholes?
+
+Surprisingly well. The adaptive dampers absorb broken pavement far better than the car's stance suggests, and the short wheelbase makes it easy to place around obstacles. It is more livable on Montreal streets than several cars costing twice as much.
+
+### Is the GR Supra a good first exotic rental?
+
+It is the best first exotic rental in our fleet. At $400/day you get real sports car character, rear-wheel drive balance, and a legendary nameplate without the pressure of a six-figure supercar.
+
+Ready to drive it? Call us at [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) to book the Toyota GR Supra for your dates.`,
+  },
+  {
     slug: 'porsche-911-carrera-4-rental-montreal-the-icon-is-bookable-today',
     title: 'Porsche 911 Carrera 4 Rental Montreal: The Icon Is Bookable Today',
     date: '2026-10-24',
