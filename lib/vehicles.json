@@ -1132,6 +1132,57 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "29",
+      "slug": "audi-s5-2020",
+      "make": "Audi",
+      "model": "S5",
+      "year": 2020,
+      "category": "PERFORMANCE",
+      "bodyStyle": "SEDAN",
+      "tagline": "Sleeper sedan with a supercharged heart.",
+      "description": "The 2020 Audi S5 Sportback in daytona gray with red sport interior. A twin-turbo 3.0L V6 with quattro all-wheel drive, discreet styling, and serious pace. The sleeper of the fleet.",
+      "dailyRate": 349,
+      "weekendRate": 399,
+      "weeklyRate": 299,
+      "securityDeposit": 3000,
+      "horsepower": 349,
+      "engine": "Twin-Turbo 3.0L V6",
+      "zeroToSixty": "4.5s",
+      "topSpeed": "",
+      "transmission": "Automatic",
+      "drivetrain": "AWD",
+      "seats": 4,
+      "doors": 4,
+      "luggage": 3,
+      "convertible": false,
+      "available": true,
+      "featured": false,
+      "premierVerified": false,
+      "instantConfirm": true,
+      "displayOrder": 29,
+      "images": [
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/audi-s5-2020/audi-s5-2020-exterior.jpg",
+          "alt": "Audi S5 2020",
+          "isMain": true,
+          "position": "50% 60%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/audi-s5-2020/audi-s5-2020-interior.jpg",
+          "alt": "Audi S5 2020 interior",
+          "isMain": false,
+          "position": "50% 55%"
+        }
+      ],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
