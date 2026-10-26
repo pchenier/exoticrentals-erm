@@ -1073,6 +1073,57 @@
           "icon": "shield-check"
         }
       ]
+    },
+    {
+      "id": "28",
+      "slug": "bmw-m4-competition-2023",
+      "make": "BMW",
+      "model": "M4 Competition",
+      "year": 2023,
+      "category": "PERFORMANCE",
+      "bodyStyle": "COUPE",
+      "tagline": "The benchmark M coupe.",
+      "description": "The 2023 BMW M4 Competition in silver with red Merino leather interior. 503 hp from the twin-turbo S58 straight-six, aggressive M styling, and a carbon-fiber trimmed cockpit built for the drive.",
+      "dailyRate": 600,
+      "weekendRate": 650,
+      "weeklyRate": 500,
+      "securityDeposit": 4000,
+      "horsepower": 503,
+      "engine": "Twin-Turbo 3.0L I6",
+      "zeroToSixty": "3.8s",
+      "topSpeed": "",
+      "transmission": "Automatic",
+      "drivetrain": "RWD",
+      "seats": 4,
+      "doors": 2,
+      "luggage": 2,
+      "convertible": false,
+      "available": true,
+      "featured": false,
+      "premierVerified": false,
+      "instantConfirm": true,
+      "displayOrder": 28,
+      "images": [
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/bmw-m4-2023/bmw-m4-2023-exterior.jpg",
+          "alt": "BMW M4 Competition 2023",
+          "isMain": true,
+          "position": "50% 65%"
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/bmw-m4-2023/bmw-m4-2023-interior.jpg",
+          "alt": "BMW M4 Competition 2023 interior",
+          "isMain": false,
+          "position": "50% 60%"
+        }
+      ],
+      "badges": [
+        {
+          "name": "verified",
+          "label": "Verified",
+          "icon": "shield-check"
+        }
+      ]
     }
   ],
   "faqs": [],
