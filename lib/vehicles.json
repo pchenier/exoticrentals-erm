@@ -1105,16 +1105,24 @@
       "displayOrder": 28,
       "images": [
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/bmw-m4-2023/bmw-m4-2023-exterior.jpg",
-          "alt": "BMW M4 Competition 2023",
-          "isMain": true,
-          "position": "50% 65%"
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/6XM1X-Ow4eSctvsPOY6XKjxwaWHmMZv6nzKj.jpg",
+          "alt": "BMW M4 Competition",
+          "isMain": true
         },
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/bmw-m4-2023/bmw-m4-2023-interior.jpg",
-          "alt": "BMW M4 Competition 2023 interior",
-          "isMain": false,
-          "position": "50% 60%"
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/9nV0lX0p-v3w7ir2-3tH88oO4Ec2smB75BPU0lMgU9xkAXg.jpeg",
+          "alt": "BMW M4 Competition",
+          "isMain": false
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/BMW%20gris%20m%C3%A9tallis%C3%A9%20dans%20un%20quartier%20r%C3%A9sidentiel-mRa2HCJC0ltSzGlQIEXcRFf9MHJZCV.png",
+          "alt": "BMW M4 Competition",
+          "isMain": false
+        },
+        {
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/KYbabbm5-JYx60Ey3hA-9IyzU3rRJIsPPveEHugxWK2nmmeKHq.jpg",
+          "alt": "BMW M4 Competition",
+          "isMain": false
         }
       ],
       "badges": [
