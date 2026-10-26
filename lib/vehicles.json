@@ -924,28 +924,19 @@
       "displayOrder": 12,
       "images": [
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/image-DOQ0XDhcj8xgQTJnNtmthQDOtkxIdx.png",
-          "alt": "Audi R8",
-          "isMain": true,
-          "position": "40% 58%"
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/16539232926294dddc737ce_img-2777-large-iiEMvuMecXC2jDwnN0p8UYudZFrJJm.jpg",
+          "alt": "Audi R8 V10 PLUS",
+          "isMain": true
         },
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/sdfsdf-uYMK1hWrjSK40udbHcPEUDSvVdYkff.png",
-          "alt": "Audi R8",
-          "isMain": false,
-          "position": "40% 40%"
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/16539232916294dddb8c301_img-2769-large-sjBdIvCh7eQAEVoAv6X6XcJ5ZxPSvy.jpg",
+          "alt": "Audi R8 V10 PLUS",
+          "isMain": false
         },
         {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/adsada-Y1ILOBwQ41bFGp1SRCKXeaWrwQXGNk.png",
-          "alt": "Audi R8",
-          "isMain": false,
-          "position": "50% 19%"
-        },
-        {
-          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/jtyj-HASGMTqVoJH8UoQ4WgfFDdl5igFxOm.png",
-          "alt": "Audi R8",
-          "isMain": false,
-          "position": "50% 77%"
+          "url": "https://k4y2brl4jcindz84.public.blob.vercel-storage.com/Used-2017-Audi-R8-52-quattro-V10-Spyder-Convertible-HOT-Spec%21-BOTH-Carbon-Packs%21-LOADED-1669830903%20%281%29-ixYMfrxONK6EfIVn6aPEITtErwHdKr.jpg",
+          "alt": "Audi R8 V10 PLUS",
+          "isMain": false
         }
       ],
       "badges": [
