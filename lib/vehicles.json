@@ -492,57 +492,6 @@
       ]
     },
     {
-      "id": "14",
-      "slug": "bentley-bentayga",
-      "make": "Bentley",
-      "model": "Bentayga",
-      "year": 2024,
-      "category": "LUXURY",
-      "bodyStyle": "SUV",
-      "tagline": "British luxury meets SUV capability.",
-      "description": "The Bentayga glides over Montreal like nothing else on the road. Handcrafted luxury with go-anywhere ability.",
-      "dailyRate": 699,
-      "weekendRate": 799,
-      "weeklyRate": 699,
-      "securityDeposit": 4000,
-      "horsepower": 542,
-      "engine": "4.0L V8 Biturbo",
-      "zeroToSixty": "4.4s",
-      "topSpeed": "180 mph",
-      "transmission": "Automatic",
-      "drivetrain": "AWD",
-      "seats": 5,
-      "doors": 4,
-      "luggage": 5,
-      "convertible": false,
-      "available": true,
-      "featured": false,
-      "premierVerified": false,
-      "instantConfirm": true,
-      "displayOrder": 14,
-      "images": [
-        {
-          "url": "https://www.jswluxurygroup.com/cars/bentley-bentayga/web/24p06605.jpg",
-          "alt": "Bentley Bentayga",
-          "isMain": true,
-          "position": "50% 60%"
-        },
-        {
-          "url": "https://www.jswluxurygroup.com/cars/bentley-bentayga/web/24p06573.jpg",
-          "alt": "Bentley Bentayga",
-          "isMain": false,
-          "position": "50% 60%"
-        }
-      ],
-      "badges": [
-        {
-          "name": "verified",
-          "label": "Verified",
-          "icon": "shield-check"
-        }
-      ]
-    },
-    {
       "id": "18",
       "slug": "cadillac-escalade",
       "make": "Cadillac",
