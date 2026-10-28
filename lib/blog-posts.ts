@@ -9,6 +9,74 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'bmw-m3-competition-vs-m4-kith-which-m-car-for-your-montreal-weekend',
+    title: 'BMW M3 Competition vs M4 KITH: Which M Car for Your Montreal Weekend',
+    date: '2026-10-28',
+    description: 'BMW M3 vs M4 rental Montreal compared: M3 Competition at $649/day vs M4 Competition x KITH at $649/day. Specs, pricing and which M car fits your weekend.',
+    image: '/cars/m3_isle1.jpg',
+    content: `For a BMW M3 vs M4 rental Montreal decision, both cars cost $649/day, so your choice comes down to body style and character: the M3 Competition is a 503 hp four-door sedan, while the M4 Competition x KITH is a 503 hp two-door coupe with a limited-edition fashion collaboration interior. Both hit 0-100 km/h in 3.8 seconds, both run the S58 twin-turbo inline-six, and both are available for delivery anywhere in Greater Montreal with a 24 hour minimum.
+
+## What Is the Difference Between the BMW M3 and M4?
+
+The mechanical core is nearly identical. Both the [BMW M3 Competition](/fleet/bmw-m3-competition) and the [BMW M4 Competition x KITH](/fleet/bmw-m4-competition-kith) use the same 3.0L twin-turbocharged S58 inline-six producing 503 hp and 650 Nm of torque, with an 8-speed automatic and rear-wheel drive. The 0-100 km/h sprint takes 3.8 seconds in either car.
+
+The real differences are practical. The M3 has four doors and a usable rear seat, which matters if you are bringing friends to Old Montreal or luggage for a weekend in the Laurentians. The M4 KITH has two doors and a lower, more aggressive stance, but rear seat access is a squeeze. The KITH edition also adds a unique interior treatment and exterior details from the New York streetwear brand, which makes it one of the rarest M cars on the road in Quebec.
+
+## How Much Does a BMW M3 vs M4 Rental in Montreal Cost?
+
+Both cars rent for $649/day at Exotic Rentals Montreal. There is no price gap between them, which is unusual for a BMW M3 vs M4 rental Montreal comparison since most rental markets charge more for limited editions.
+
+For context, that puts both M cars in the middle of our BMW range. The standard [BMW M4 Competition](/fleet/bmw-m4-competition-2023) sits at $599/day, and the M5 Competition at $599/day with 617 hp. If you want the KITH interior or the four-door practicality, the extra $50 over the base M4 is the only premium you pay. Weekend rates and multi-day discounts are available, and every rental includes delivery within Greater Montreal.
+
+## Which M Car Is Better for Driving in Montreal?
+
+Downtown, the M3 Competition is the smarter pick. Four doors mean you can drop the car with a valet at a hotel on Sherbrooke without a door-swinging struggle in tight parking spots, and the rear seat actually fits adults. The sedan also rides slightly better over Montreal's pothole season, since the M3 carries a touch more compliance in its suspension tune.
+
+On open roads, the two cars are inseparable. Route 138 toward the Eastern Townships, Chemin du Village in Saint-Sauveur, or the 132 along the South Shore all deliver the same experience in either car: 503 hp, instant mid-range torque, and an exhaust note that makes tunnels on the Ville-Marie worth the toll. If your weekend involves a passenger and a duffel bag each, take the M3. If it is you plus one and you want the rarer car, take the M4 KITH.
+
+## Is the M4 KITH Edition Worth It Over a Regular M4?
+
+The KITH collaboration is not just a sticker package. BMW built the M4 Competition x KITH with a dedicated interior featuring KITH-branded details, unique trim, and a spec you will not see on another M4 in Quebec. Production numbers were limited globally, so the odds of parking next to an identical car on Saint-Laurent Boulevard are close to zero.
+
+At $649/day versus $599/day for the standard M4 Competition, you are paying $50 for a collector-grade car. For a photo weekend, a birthday, or content creation, the KITH car photographs differently and draws attention that a regular M4 does not. If you just want the driving experience with no interest in the collaboration, the standard M4 or the M3 Competition delivers the identical 503 hp and 3.8 second 0-100 time for less or equal money.
+
+## What Are the Requirements to Rent a BMW M3 or M4 in Montreal?
+
+You need a valid driver's license held for at least two years, full insurance coverage, and you must be at least 25 years old for the M cars. Drivers between 21 and 24 may qualify for select vehicles in the fleet with an additional young-driver fee, but the M3 and M4 typically require the 25-plus bracket.
+
+A security deposit is held on a credit card in your name at pickup, and the car comes with a full tank to be returned full. Kilometre allowance is generous for a weekend, with unlimited-km options available on request. Delivery is available to Laval, Longueuil, the West Island, downtown, and [YUL airport](/how-it-works), or you can pick up at our location. The whole process takes about 15 minutes once documents are verified, and everything is spelled out on our [FAQ page](/faq).
+
+## BMW M3 vs M4 Rental Montreal: Which Should You Book?
+
+Book the M3 Competition if you need four seats in real use, if you are doing downtown-heavy driving, or if you want the more understated look. Book the M4 KITH if you want the rarest spec, two-door lines, and a car nobody else on the island is driving that weekend.
+
+Since both cost $649/day, here is the honest verdict from behind the wheel: the M3 is the better car to live with for 48 hours in the city, and the M4 KITH is the better car to be seen in. If you are still torn, the [BMW rental Montreal page](/bmw-rental-montreal) lists every M car in the fleet with live availability, and our [reviews](/reviews) show what past renters chose and why.
+
+## FAQ
+
+### How much does it cost to rent a BMW M3 or M4 in Montreal?
+
+The BMW M3 Competition and the M4 Competition x KITH both rent for $649/day, with a 24 hour minimum and delivery included in Greater Montreal. The standard M4 Competition is $599/day. Multi-day weekend bookings qualify for discounted rates.
+
+### Which is faster, the M3 Competition or the M4 KITH?
+
+Neither. Both cars share the 503 hp S58 twin-turbo inline-six and both accelerate from 0-100 km/h in 3.8 seconds. The choice between them is about body style and rarity, not performance.
+
+### Can the M4 KITH seat four people comfortably?
+
+It seats four technically, but the two-door layout makes rear seat access awkward and the rear bench is tight for adults. If you regularly carry rear passengers, the M3 Competition is the better rental choice.
+
+### Do I need to be 25 to rent a BMW M car in Montreal?
+
+Yes, the M3 and M4 generally require drivers to be 25 or older with at least two years of licensed driving experience. A refundable security deposit is held on a major credit card at pickup.
+
+### Can the BMW M3 or M4 be delivered to my hotel or YUL airport?
+
+Yes, both cars can be delivered anywhere in Greater Montreal including downtown hotels, Laval, Longueuil, and the airport. Delivery is included in the rental rate and pickup at our location is also available.
+
+Ready to lock in your M car for the weekend? Call us at [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) and we will have the keys ready.`,
+  },
+  {
     slug: 'maybach-s680-vs-gls-600-sedan-or-suv-for-vip-travel-in-montreal',
     title: 'Maybach S680 vs GLS 600: Sedan or SUV for VIP Travel in Montreal',
     date: '2026-10-27',
