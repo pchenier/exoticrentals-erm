@@ -9,6 +9,88 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'audi-r8-vs-huracan-evo-two-ways-to-rent-a-v10-in-montreal',
+    title: 'Audi R8 vs Huracan EVO: Two Ways to Rent a V10 in Montreal',
+    date: '2026-10-30',
+    description: 'Audi R8 vs Lamborghini Huracan EVO rental Montreal: compare prices, specs and driving feel to pick the right V10 for your Montreal rental.',
+    image: '/cars/huracan_evo1.jpg',
+    content: `If you search Audi R8 vs Lamborghini Huracan EVO rental Montreal, the short answer is price and drama: the Huracán EVO runs $1,499/day with 610 hp and a 0-100 time of 3.3 seconds, while the Audi R8 V10 sits at $899/day with 562 hp and 0-100 in 3.2 seconds. Both cars share the same naturally aspirated 5.2L V10, both are available from our Montreal fleet, and both get delivered anywhere in Greater Montreal with a 24 hour minimum. The real difference is how loud you want the experience to be, literally and figuratively.
+
+## Which Is Cheaper to Rent: Audi R8 or Lamborghini Huracan EVO in Montreal?
+
+The Audi R8 V10 is the cheaper entry into V10 ownership, at $899/day versus $1,499/day for the Huracán EVO. That is a $600 per day gap, which buys you a lot of gas and a second day in the Audi if you stretch the budget.
+
+If you want the open-top version of the Audi, the [Audi R8 Spyder](/fleet/audi-r8-spyder) is $1,299/day with 562 hp and 0-100 in 3.5 seconds. And if you want more power from the Audi side, the [Audi R8 V10 PLUS](/fleet/audi-r8) at $1,099/day delivers 640 hp, which actually outguns the standard Huracán EVO's 610 hp. So the price ladder in our fleet looks like this:
+
+- Audi R8 V10: $899/day, 562 hp, 0-100 in 3.2s
+- Audi R8 V10 PLUS: $1,099/day, 640 hp
+- Audi R8 Spyder: $1,299/day, 562 hp, 0-100 in 3.5s
+- Lamborghini Huracán EVO: $1,499/day, 610 hp, 0-100 in 3.3s
+- Lamborghini Huracán EVO Spyder: $1,499/day, 631 hp, 0-100 in 3.1s
+
+## How Do the Specs Compare Between the R8 and Huracán EVO?
+
+On paper, the two cars are closer than the badges suggest. Both use the same 5.2L naturally aspirated V10, and the performance numbers overlap almost completely.
+
+The R8 V10 makes 562 hp and hits 100 km/h in 3.2 seconds. The Huracán EVO makes 610 hp and hits 100 km/h in 3.3 seconds. In real Montreal driving, on Saint-Laurent Boulevard or up Camillien-Houde, you will never feel that tenth of a second. What you will feel is the character: the Huracán is angrier, louder, and more theatrical, while the R8 is surgical, balanced, and easier to drive at eight tenths.
+
+## Which Car Is Better to Actually Drive in Montreal?
+
+For city driving and Montreal's broken pavement, the R8 is the more livable tool. It has better sightlines, a calmer cockpit, and a ride that tolerates the potholes on Sherbrooke without making you wince every ten seconds.
+
+The Huracán EVO demands more attention. The seating position is lower, the visibility out the back is a slit, and every tunnel on Ville-Marie becomes a personal sound system with that V10 screaming behind your head. That is exactly the point. If your rental is about the event, the photos in Old Montreal, and the drive up to the Laurentians, the Huracán wins on theatre. If your rental is about logging real kilometres and enjoying the drive without fatigue, the R8 is the smarter pick.
+
+Both cars are surprisingly usable daily. You can park the R8 at the Bell Centre without a panic attack, and the Huracán's front-lift system handles speed bumps in Griffintown. Neither will feel like a chore.
+
+## Which One Should You Pick for Photos and Presence?
+
+The Huracán EVO, no contest. Lamborghini's design language is loud from every angle: scissor-inspired lines, a full-width rear light bar, and air intakes that look like they bite. Park either car on Saint-Paul Street and the Huracán will draw the crowd first.
+
+The R8 has its own presence, especially the V10 PLUS, but it reads as a refined supercar rather than an exotic. Some clients specifically rent the Audi because it flies under the radar, then others rent the Lamborghini precisely because it cannot. For a wedding arrival in [Old Montreal](/locations/old-montreal) or a night out, the Huracán is the statement piece.
+
+## What Are the Requirements to Rent Either Car?
+
+Both cars follow the same rental rules at Exotic Rentals Montreal. You need to be at least 25 years old with a valid license and full insurance coverage, and a security deposit is held on the rental.
+
+The booking process is the same for both cars: pick your dates, confirm insurance, and we deliver the car to your address anywhere in Greater Montreal, including Laval, Longueuil, and Brossard. Delivery and pickup are handled by our team, and you keep the car for a 24 hour minimum. If you have questions about deposits or insurance details, our [FAQ](/faq) covers the specifics, and [how it works](/how-it-works) walks through the full process step by step.
+
+## Are There Other V10 Options in the Fleet?
+
+Yes, and one of them might be the best value of the group. The [Audi R8 Spyder](/fleet/audi-r8-spyder) at $1,299/day gives you the V10 with the roof down, which is the single best way to experience that engine note.
+
+On the Lamborghini side, the [Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder) is also $1,499/day with 631 hp and 0-100 in 3.1 seconds, making it quicker than the coupe. And if you want the sharpest Huracán of all, the [Huracán Tecnica](/fleet/lamborghini-huracan-tecnica) at $1,599/day makes 631 hp and hits 100 km/h in 3.2 seconds with a more track-focused setup. Anyone comparing Audi R8 vs Lamborghini Huracan EVO rental Montreal options should also glance at the McLaren 600LT at $1,199/day, 592 hp and 0-100 in 2.9 seconds, if raw speed per dollar is the metric.
+
+## What Do Clients Say About Each Car?
+
+The pattern in our [reviews](/reviews) is consistent. R8 clients describe the car as precise, fast, and confidence-inspiring, and several have said it is the car they would own. Huracán clients describe the sound, the stares, and the feeling that the day was an event.
+
+Neither review pattern is wrong. It just depends on what you want out of the 24 hours. Some clients book the R8 for a business trip and the Huracán for a birthday. A few have booked both on consecutive weekends to settle the debate themselves.
+
+## FAQ
+
+### How much does it cost to rent an Audi R8 in Montreal?
+
+The Audi R8 V10 rents for $899/day with 562 hp and 0-100 km/h in 3.2 seconds. The R8 Spyder is $1,299/day, and the R8 V10 PLUS with 640 hp is $1,099/day. All include delivery anywhere in Greater Montreal with a 24 hour minimum.
+
+### How much does it cost to rent a Lamborghini Huracán EVO in Montreal?
+
+The Lamborghini Huracán EVO rents for $1,499/day with 610 hp and 0-100 km/h in 3.3 seconds. The Huracán EVO Spyder is also $1,499/day but makes 631 hp and hits 100 km/h in 3.1 seconds. The Huracán Tecnica tops the range at $1,599/day.
+
+### Which is faster, the Audi R8 or the Huracán EVO?
+
+They are nearly identical in acceleration: the R8 V10 does 0-100 in 3.2 seconds and the Huracán EVO in 3.3 seconds. The Huracán has more horsepower at 610 versus 562, but the difference is not something you will feel on Montreal streets. The R8 V10 PLUS, with 640 hp, is actually the most powerful of the three.
+
+### Can the Audi R8 and Huracán EVO be delivered to my address in Montreal?
+
+Yes, both cars are delivered to your home, hotel, or office anywhere in Greater Montreal, including Laval, Longueuil, Brossard, and the South Shore. Pickup is handled the same way at the end of your rental. A 24 hour minimum applies.
+
+### Which car should a first-time exotic renter choose?
+
+The Audi R8 is the easier car to drive fast with confidence, thanks to its more forgiving chassis and better visibility. The Huracán EVO is more demanding but more rewarding as an event. If it is your first time, start with the R8, and you will appreciate the Huracán even more the second time.
+
+Ready to book your V10? Call us at [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and we will have the R8 or Huracán EVO delivered to your door.`,
+  },
+  {
     slug: 'gt53-vs-panamera-gts-the-executive-express-showdown-in-montreal',
     title: 'GT53 vs Panamera GTS: The Executive Express Showdown in Montreal',
     date: '2026-10-29',
