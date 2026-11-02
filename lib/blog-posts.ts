@@ -9,6 +9,92 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'spyder-vs-spyder-the-convertible-supercar-duel-in-montreal',
+    title: 'Spyder vs Spyder: The Convertible Supercar Duel in Montreal',
+    date: '2026-11-02',
+    description: 'Convertible supercar rental Montreal compared: Lamborghini Huracán EVO Spyder at $1,499/day vs Audi R8 Spyder at $1,299/day. Specs, prices and which one to pick.',
+    content: `Convertible supercar rental in Montreal costs between $1,299 and $1,999 per day, with the two main Spyder options being the Audi R8 Spyder at $1,299/day and the Lamborghini Huracán EVO Spyder at $1,499/day, both bookable with a 24 hour minimum and delivery anywhere in Greater Montreal. If you want a third open-top option, the McLaren 600LT Spider sits at $1,999/day. This duel comes down to the two Spyders, and the gap between them is smaller than the price suggests.
+
+## What Does Convertible Supercar Rental in Montreal Actually Cost?
+
+You are looking at $1,299/day for the [Audi R8 Spyder](/fleet/audi-r8-spyder) and $1,499/day for the [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder), a $200 per day difference. Both are V10 convertibles, both drop their roofs in under 20 seconds, and both are delivered to your door anywhere in Greater Montreal. The McLaren 600LT Spider at $1,999/day is the third open-top in the fleet, but it is a track-bred machine with a much stiffer ride than the two Spyders.
+
+The real question is not price. It is what kind of open-top experience you want, because the R8 Spyder and the Huracán EVO Spyder share an engine family but deliver completely different days.
+
+## Which Spyder Is Faster: Huracán EVO Spyder or Audi R8 Spyder?
+
+On paper, the Lamborghini wins, but barely. The Huracán EVO Spyder puts out 631 hp and hits 0-100 km/h in 3.1 seconds, while the Audi R8 Spyder delivers 562 hp and reaches 100 km/h in 3.5 seconds. That is a 0.4 second gap, which you will feel on an on-ramp but never notice in city traffic.
+
+Where the difference shows up is in character:
+
+- The Huracán EVO Spyder revs harder and the V10 sits right behind your head with the top down, so every downshift is a small event.
+- The R8 Spyder is calmer at partial throttle, which makes it the better daily driver for a full day around Montreal.
+- Both cars launch hard, but the Huracán's LDVI system rotates the rear more aggressively when you push it.
+
+If your plan is a morning run up Chemin du Sommet or a spirited loop through the Eastern Townships, the Huracán EVO Spyder is the sharper tool. If you are splitting the day between Old Montreal, a lunch stop and an evening drive, the R8 Spyder asks less of you.
+
+## Which One Sounds Better With the Roof Down?
+
+This is where the Huracán EVO Spyder justifies its $1,499/day price for a lot of renters. The 5.2L V10 is tuned louder and more angular, and with the Spyder roof stowed, the intake noise behind the cockpit is constant. The R8 Spyder has the same basic engine architecture at 562 hp, but Audi tunes it with more low-end smoothness and less theatrics.
+
+Practically:
+
+- Huracán EVO Spyder: sharp, metallic, high-rev V10 wail, the classic Lamborghini sound.
+- R8 Spyder: deep, rounded V10 growl, more civilized at idle and cruise.
+
+Tunnels under Ville-Marie are the unofficial test track for convertible supercar rental in Montreal, and both cars fill them completely. The Huracán just fills them a bit more.
+
+## Which Spyder Is More Comfortable for a Montreal Day?
+
+The Audi R8 Spyder takes this one clearly. Its magnetic dampers are more forgiving over Montreal's patched asphalt, the seats are less aggressive, and visibility with the roof up is better. At 562 hp it is still genuinely fast, 0-100 km/h in 3.5 seconds, but it does not demand your full attention every minute.
+
+The Huracán EVO Spyder is livable by Lamborghini standards, but it is still a Lamborghini. The ride is firmer, the steering heavier at low speed, and the carbon-ceramic brakes bite hard in traffic. None of that is a dealbreaker, and plenty of renters prefer exactly that intensity. But if your day includes a stop on Saint-Denis, parking in Griffintown and a slow crawl through construction season, the R8 Spyder is the easier companion.
+
+Both cars fit two weekend bags in the front trunk, enough for an overnight trip. Neither is a grocery car, so plan your stops accordingly.
+
+## Which Spyder Gets More Attention in Montreal?
+
+The Huracán EVO Spyder, and it is not close. Lamborghini's angular design language, the scissor-sharp lines and the badge pull phones out of pockets on Sainte-Catherine. The R8 Spyder is a beautiful car, but Audi's design is restrained enough that plenty of people read it as a very fast Audi rather than an exotic.
+
+For some renters that is the whole point. If you want to arrive at a wedding, a photoshoot or a night out in Old Montreal with maximum impact, the Huracán EVO Spyder at $1,499/day is the pick. If you want to enjoy a supercar without being the center of every parking lot conversation, the R8 Spyder at $1,299/day gives you 90 percent of the experience with half the spotlight.
+
+## Should You Consider the McLaren 600LT Spider Instead?
+
+At $1,999/day, the [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) is the wildcard in this duel. It is the fastest of the three, 592 hp and 0-100 km/h in 2.8 seconds, and the lightest. But the 600LT is a longtail: carbon everywhere, a race-inspired cabin, a ride that punishes bad pavement. Montreal's frost-heaved spring roads are not its natural habitat.
+
+Rent the 600LT Spider if you have already driven the Spyders and want the next step. For a first convertible supercar rental in Montreal, the R8 Spyder or the Huracán EVO Spyder is the smarter day out.
+
+## How Do You Book a Spyder in Montreal?
+
+Booking is straightforward. You reserve through the site or by phone, the car is delivered to your address anywhere in Greater Montreal, and the minimum rental is 24 hours. Drivers need to be 25 or older with a valid license and full insurance coverage, and a security deposit is held on pickup. Full details on requirements and delivery are on the [how it works](/how-it-works) page.
+
+If you are torn between the two Spyders, call and tell us what your day looks like. We rent both constantly and we will tell you straight which one fits your route, your passengers and your budget. You can also browse the full [fleet](/fleet) or check [reviews](/reviews) from renters who took these exact cars out.
+
+## FAQ
+
+### How much does it cost to rent a convertible supercar in Montreal?
+
+The Audi R8 Spyder starts at $1,299/day and the Lamborghini Huracán EVO Spyder at $1,499/day, with a 24 hour minimum. The McLaren 600LT Spider, also a convertible, runs $1,999/day.
+
+### Which is better for a first-time exotic renter, the R8 Spyder or the Huracán EVO Spyder?
+
+The R8 Spyder is the easier car to live with, with softer damping and a more forgiving cockpit. The Huracán EVO Spyder is more intense and more dramatic, better suited to renters who already know what they are signing up for.
+
+### Can the Spyders be delivered outside downtown Montreal?
+
+Yes, both convertibles are delivered anywhere in Greater Montreal, including Laval, Longueuil and the West Island. Delivery details and timing are confirmed at booking.
+
+### Do the convertibles have a roof for bad weather?
+
+Yes, both the R8 Spyder and the Huracán EVO Spyder have fully powered soft tops that close in under 20 seconds. You can drive top-down on a clear afternoon and button up if the sky turns.
+
+### Is there an age or license requirement to rent a Spyder?
+
+Drivers must be 25 or older with a valid license and full insurance coverage. A security deposit is held on pickup and returned after the rental, provided the car comes back in the same condition.
+
+Ready to pick your Spyder? Call us at [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and we will get the R8 Spyder or the Huracán EVO Spyder delivered to your door.`,
+  },
+  {
     slug: 'audi-r8-vs-huracan-evo-two-ways-to-rent-a-v10-in-montreal',
     title: 'Audi R8 vs Huracan EVO: Two Ways to Rent a V10 in Montreal',
     date: '2026-10-30',
