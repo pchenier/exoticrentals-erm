@@ -5732,37 +5732,100 @@ La location Ferrari F8 Tributo Montreal est plus qu'un simple service de locatio
     title: 'Location Lamborghini Urus Montreal: SUV Luxe et Performance',
     date: '2026-08-21',
     description: 'Location Lamborghini Urus Montreal : louez le SUV sportif italien à Montréal. Performances premium, livraison 24/7. Réservez au 438-809-4417.',
-    content: `La location Lamborghini Urus Montreal est la solution idéale pour ceux qui veulent allier le confort d'un SUV au caractère d'une supercar. Chez Exotic Rentals Montreal, nous mettons à votre disposition ce bolide italien pour une journée ou plus, avec une livraison partout dans le Grand Montréal, 24h/24. Que vous ayez besoin d'un véhicule pour un événement d'affaires, une occasion spéciale ou simplement pour le plaisir de conduire, l'Urus ne laisse personne indifférent.
+    content: `La location Lamborghini Urus Montréal, c'est simple : 1 399 $ par jour pour 641 chevaux, un 0 à 100 km/h en 3,6 secondes, et la livraison incluse partout dans le Grand Montréal, 24 heures sur 24. L'Urus est le seul SUV de notre flotte qui se conduit comme une supercar et se vit comme un SUV : cinq vraies places, un vrai coffre, et un V8 biturbo italien qui réveille tout le quartier. Et si vous préférez le look furtif, l'Urus Black on Black se loue 1 200 $ par jour avec les mêmes 641 chevaux.
 
-## Pourquoi choisir le Lamborghini Urus à Montréal
+Ce guide donne les vrais prix, les specs qui comptent, le dépôt de sécurité exact, et les conditions pour conduire un Urus à Montréal, que ce soit pour une journée d'affaires, un mariage, ou une virée dans les Laurentides.
 
-Montréal est une ville qui vit à l'heure du luxe et de la performance. Avec ses rues animées, ses autoroutes qui mènent aux Laurentides ou encore aux Cantons-de-l'Est, le Lamborghini Urus est le compagnon parfait pour explorer la métropole et ses environs. Sa position de conduite surélevée, son habitacle raffiné et son moteur V8 biturbo de 650 chevaux offrent une expérience unique. Contrairement aux supercars traditionnelles, l'Urus est pratique au quotidien tout en conservant l'ADN Lamborghini.
+## Pourquoi le Lamborghini Urus est le SUV parfait pour Montréal
 
-Notre service de location Lamborghini Urus Montreal inclut une livraison à votre hôtel, au bureau ou même à l'aéroport, à toute heure. Nous comprenons que votre temps est précieux, c'est pourquoi nous nous déplaçons pour vous remettre les clés de ce monstre de la route. Que vous souhaitiez impressionner des clients ou simplement vivre un moment mémorable, l'Urus est un choix qui ne passe pas inaperçu.
+Montréal n'est pas une ville facile pour les supercars. Nids de poule sur Sherbrooke, chantiers tout l'été, neige tout l'hiver, et des stationnements pensés pour des voitures compactes. C'est exactement là que l'Urus écrase la concurrence : position de conduite surélevée, garde au sol de SUV, transmission intégrale, et 641 chevaux quand vous en avez envie.
 
-## Caractéristiques et performances de l'Urus
+Concrètement : vous traversez les rues pavées du Vieux Montréal sans grimacer, vous grimpez vers Westmount ou filez vers les Laurentides sans ralentir, et vous roulez un lundi de février en toute confiance parce que les quatre roues motrices encaissent la neige fraîche. C'est la Lamborghini qu'on peut conduire 365 jours par année à Montréal, et c'est pour ça qu'elle est le modèle le plus demandé de notre flotte.
 
-Le Lamborghini Urus est équipé d'un moteur V8 biturbo de 4,0 litres, développant 650 chevaux et un couple de 850 Nm. Il passe de 0 à 100 km/h en seulement 3,6 secondes, pour une vitesse de pointe de 305 km/h. Ces chiffres en font l'un des SUV les plus rapides au monde, mais ce qui le distingue, c'est sa polyvalence. Avec ses modes de conduite adaptatifs, il peut passer d'un confort royal à une agressivité digne d'une piste en un instant.
+À l'intérieur, l'Urus reste fidèle à la maison : cuir italien, écrans tactiles, cockpit numérique, et un habitacle raffiné qui met la technologie au service du conducteur. On se croit dans un salon sur roues en mode Strada, et dans une voiture de piste en mode Corsa. Peu de véhicules au monde jonglent aussi bien entre les deux.
 
-À Montréal, où les saisons varient, l'Urus est équipé de la transmission intégrale et d'une suspension pneumatique qui s'adapte aux conditions routières. Vous pouvez le conduire en toute confiance sous la pluie, la neige ou le soleil. Son design agressif, avec ses lignes acérées et sa calandre imposante, attire les regards partout où vous allez. L'intérieur est tout aussi impressionnant : cuir de haute qualité, écrans tactiles, et un cockpit numérique qui met la technologie au service du conducteur.
+## Les specs qui comptent vraiment
 
-## Nos conditions de location à Montréal
+Sous le capot : un V8 biturbo de 4.0L développant 641 chevaux et 850 Nm de couple. Le 0 à 100 km/h tombe en 3,6 secondes et la vitesse de pointe frôle les 305 km/h. C'est l'un des SUV les plus rapides au monde, période.
 
-Chez Exotic Rentals Montreal, nous offrons la location Lamborghini Urus Montreal avec des conditions claires et transparentes. L'âge minimum pour conduire ce véhicule est de 25 ans, et un permis de conduire valide est bien sûr requis. La location minimale est de 24 heures, et nous proposons des tarifs dégressifs pour les locations plus longues. Le dépôt de sécurité varie selon le modèle et est généralement compris entre 5 000 et 10 000 $, mais il est entièrement remboursable à la restitution du véhicule.
+Ce qui distingue vraiment l'Urus en ville, c'est sa polyvalence :
 
-L'assurance est obligatoire, et nous exigeons une couverture complète. Si vous avez votre propre assurance, nous devons la vérifier au préalable. Dans le cas contraire, nous pouvons vous fournir une assurance temporaire à un tarif compétitif. La livraison est gratuite dans tout le Grand Montréal, y compris les villes comme Laval, Longueuil, et même la Rive-Sud. Nous opérons 24h/24, 7j/7, pour répondre à tous vos besoins.
+- cinq places réelles, donc des passagers confortables
+- un coffre qui avale les valises d'une fin de semaine complète
+- des modes de conduite qui passent d'un confort de berline à une agressivité de piste en un tour de molette
+- une suspension pneumatique qui absorbe les rues les plus rugueuses de la métropole
+- une transmission intégrale qui inspire confiance sous la pluie, la neige ou le soleil
 
-## Comment réserver votre Lamborghini Urus
+La fiche complète avec les photos se trouve sur la page du [Lamborghini Urus](/fleet/lamborghini-urus).
 
-Pour réserver votre location Lamborghini Urus Montreal, il vous suffit de nous appeler ou de nous envoyer un message WhatsApp. Notre équipe est disponible à tout moment pour discuter de vos besoins, vous donner un devis exact et planifier la livraison. Vous pouvez également consulter notre [page de location Lamborghini](/lamborghini-rental-montreal) pour plus de détails sur nos autres modèles, comme le Huracan EVO ou le Urus. Si vous avez des questions sur les conditions, consultez notre [FAQ](/faq) ou contactez-nous directement.
+## Combien coûte la location d'un Lamborghini Urus à Montréal ?
 
-Nous avons aussi d'autres supercars dans notre flotte, telles que la [McLaren 600LT](/mclaren-rental-montreal) ou la [Ferrari 488 GTB](/ferrari-rental-montreal), mais l'Urus est souvent le premier choix pour ceux qui veulent allier praticité et performance. Que vous soyez résident de Montréal ou visiteur, cette location est une opportunité de vivre une expérience unique au volant d'un véhicule d'exception.
+Les tarifs actuels, sans surprise :
 
-## Prêt à rouler en Urus à Montréal ?
+- [Lamborghini Urus](/fleet/lamborghini-urus) : 1 399 $ par jour, dépôt de sécurité de 5 000 $
+- [Urus Black on Black](/cars/lamborghini-urus-black-on-black) : 1 200 $ par jour, les mêmes 641 chevaux, habillage noir furtif
+- [Urus Performante](/fleet/lamborghini-urus-performante) : 1 399 $ par jour, 657 chevaux, 0 à 100 km/h en 3,3 secondes
 
-N'attendez plus pour réserver votre Lamborghini Urus. Que ce soit pour un mariage, un anniversaire, ou simplement pour le plaisir, nous sommes là pour vous offrir un service impeccable. Appelez-nous dès maintenant au 438-809-4417 ou envoyez un message sur WhatsApp via [wa.me/14388094417](https://wa.me/14388094417). Notre équipe se fera un plaisir de vous aider à organiser votre location et à vous faire découvrir Montréal au volant de ce SUV exceptionnel.
+Le minimum de location est de 24 heures, et les locations de deux jours et plus bénéficient d'un tarif journalier dégressif. Le dépôt de sécurité est une préautorisation sur votre carte de crédit, pas un débit : la somme est libérée après le retour du véhicule dans son état de remise. Le kilométrage est convenu au contrat, généralement entre 150 et 200 km par jour, avec des kilomètres supplémentaires disponibles au tarif affiché. Le tarif total, le dépôt et le kilométrage sont confirmés par écrit avant tout paiement.
 
-La location Lamborghini Urus Montreal n'a jamais été aussi simple. Avec notre service de livraison 24/7 et notre flotte de véhicules haut de gamme, vous êtes assuré de vivre un moment mémorable. Ne tardez plus, contactez-nous et laissez le moteur V8 rugir sur les routes de la métropole.`,
+Un conseil honnête : l'Urus est le SUV le plus demandé de notre flotte et les fins de semaine d'été se réservent souvent des semaines à l'avance. Si vous visez une date précise, bloquez la tôt.
+
+## L'Urus contre les autres SUV de luxe de la flotte
+
+Si vous comparez les SUV de luxe à louer à Montréal, voici le portrait réel de notre gamme :
+
+- Lamborghini Urus : 1 399 $ par jour, 641 chevaux, 0 à 100 km/h en 3,6 s. La performance pure.
+- [Bentley Bentayga](/fleet/bentley-bentayga) : 699 $ par jour, 542 chevaux. Le raffinement d'abord.
+- [Mercedes Maybach GLS 600](/fleet/mercedes-maybach-gls-600) : 999 $ par jour, 550 chevaux. Le salon qui flotte.
+- [Cadillac Escalade](/fleet/cadillac-escalade) : 599 $ par jour, 420 chevaux. L'espace roi pour les groupes.
+
+La vraie question n'est pas le prix, c'est l'usage. Vous voulez transporter quatre clients en silence : la Maybach. Vous voulez que le SUV fasse tourner les têtes dans le Vieux Montréal : l'Urus, sans hésiter. Vous voulez un compromis à moindre coût : la Bentayga. Chaque modèle est détaillé sur la page [flotte](/fleet), et l'ensemble de la gamme premium vit sur la page [location de voiture de luxe à Montréal](/luxury-car-rental-montreal).
+
+## Les conditions pour louer un Urus à Montréal
+
+Trois exigences, sans jargon. D'abord, 25 ans minimum et un permis de conduire valide détenu depuis au moins deux ans : non négociable sur la gamme Lamborghini. Ensuite, une assurance complète, soit par votre propre police, soit via les options que nous coordonnons pour vous. Enfin, le dépôt de sécurité de 5 000 $ en préautorisation sur la carte de crédit du conducteur.
+
+Le minimum de location est de 24 heures. Le déroulé complet est expliqué sur [comment ça marche](/how-it-works), et toutes les réponses sur les dépôts, le kilométrage et l'assurance vivent sur la page [FAQ](/faq).
+
+## La livraison partout dans le Grand Montréal
+
+Chaque location Urus inclut la livraison et la reprise : Montréal, Laval, Longueuil, la Rive Sud, l'Ouest de l'île, et directement à l'aéroport YUL. L'Urus arrive lavé, avec le plein, prêt à partir, à l'heure convenue devant votre hôtel, votre condo ou votre bureau. La remise des clés prend une quinzaine de minutes : on vous montre les modes de conduite, les caméras, l'état du véhicule, et on vérifie le permis. À la fin de la location, on vient chercher le SUV à l'adresse de votre choix.
+
+Nous opérons jour et nuit pour répondre à tous vos besoins, et une réservation de dernière minute reste souvent possible en semaine. Messagez nous, on vous dit en deux minutes si l'Urus est libre sur vos dates.
+
+## Pour quelles occasions réserver un Urus
+
+- Affaires : impressionner un client en arrivant dans un vrai SUV Lamborghini, puis transporter l'équipe
+- Mariage : cinq places pour les mariés et la suite, un design qui photographie parfaitement
+- Anniversaire ou cadeau surprise : le SUV que personne n'oublie
+- Fin de semaine dans les Laurentides ou les Cantons de l'Est : vrai coffre, transmission intégrale, routes superbes
+- Shooting photo : lignes acérées et calandre imposante, l'Urus attire les regards partout où il passe
+
+Si vous voulez compléter l'expérience, d'autres Lamborghini sont disponibles : la [Huracán EVO](/fleet/lamborghini-huracan-evo) à 1 499 $ par jour pour le V10 atmosphérique, ou la page complète [location Lamborghini Montréal](/lamborghini-rental-montreal) pour comparer chaque modèle. Les retours de nos clients sont sur la page [avis](/reviews).
+
+## FAQ
+
+### Combien coûte la location d'un Lamborghini Urus à Montréal ?
+
+1 399 $ par jour pour l'Urus, 1 200 $ pour l'Urus Black on Black, et 1 399 $ pour l'Urus Performante. Minimum 24 heures, livraison incluse partout dans le Grand Montréal, tarifs dégressifs dès deux jours.
+
+### Quel est le dépôt de sécurité pour un Urus ?
+
+5 000 $, en préautorisation sur votre carte de crédit. Ce n'est pas un débit : la somme est libérée après le retour du véhicule dans son état de remise.
+
+### Peut on conduire un Urus en hiver à Montréal ?
+
+Oui, et c'est même notre recommandation hivernale numéro un. La loi québécoise impose les pneus d'hiver du 1er décembre au 15 mars et notre flotte est équipée en conséquence. Avec la transmission intégrale, l'Urus encaisse la neige fraîche avec une assurance qu'aucune propulsion ne peut égaler.
+
+### Quel âge faut il pour louer un Urus ?
+
+25 ans minimum, un permis valide détenu depuis au moins deux ans, et une assurance complète. Aucune exception sur la gamme Lamborghini.
+
+### Livrez vous l'Urus à mon hôtel ou à l'aéroport YUL ?
+
+Oui, la livraison partout dans le Grand Montréal est incluse : hôtel, condo, bureau, résidence ou aéroport, à toute heure. Le SUV arrive préparé, avec le plein, et on vient le chercher à la fin de la location.
+
+Prêt à conduire le super SUV ? Appelez le [(438) 809 4417](tel:4388094417) ou écrivez nous sur [WhatsApp](https://wa.me/14388094417) avec vos dates et votre adresse de livraison. Nous confirmons la disponibilité rapidement, et l'Urus arrive à votre porte, prêt à rugir.`,
   },
   {
     slug: 'exotic-car-rental-for-montreal-nightlife-stand-out-in-the-club-district',
