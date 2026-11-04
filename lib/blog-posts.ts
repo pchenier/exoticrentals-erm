@@ -9,6 +9,84 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'fathers-day-exotic-car-rental-montreal-give-dad-the-keys',
+    title: 'Fathers Day Exotic Car Rental Montreal: Give Dad the Keys',
+    date: '2026-11-04',
+    description: 'Fathers Day exotic car rental Montreal: rent a Lamborghini, McLaren or Maybach from $599/day. Delivery across Montreal, 24h minimum, book at 438-809-4417.',
+    content: `A Fathers Day exotic car rental Montreal booking costs between $599 and $2,399 per day depending on the car, with free delivery anywhere in Greater Montreal and a 24 hour minimum rental. That range covers everything from a BMW M4 Competition at $599/day to the Mercedes-Maybach S680 by Virgil Abloh at $2,399/day, so there is a serious machine for every budget and every kind of dad.
+
+Fathers Day is the one weekend a year where a tie and a brunch reservation feel like a cop-out. If your dad has a garage poster of a Countach from 1988, or he just watches every Supercar Blondie video twice, the move is obvious: put him behind the wheel of the real thing. Here is how to plan it properly.
+
+## What Are the Best Exotic Cars to Rent for Fathers Day in Montreal?
+
+The best Fathers Day picks are cars most dads grew up dreaming about: a Lamborghini, a McLaren, or a Porsche 911. For the full poster-on-the-wall effect, the [Lamborghini Huracán Tecnica](/fleet/lamborghini-huracan-tecnica) at $1,599/day is the flagship choice, with 631 hp and a 0-100 km/h time of 3.2 seconds. It is the car that makes the whole street turn around on Saint-Laurent Boulevard.
+
+If your dad prefers open air, the [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder) at $1,499/day drops its top in 17 seconds and hits 100 km/h in 3.1 seconds. And for the dad who quotes Le Mans at the dinner table, the [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) at $1,999/day does 0-100 km/h in 2.8 seconds, the fastest launch in our entire fleet.
+
+## How Much Does a Fathers Day Exotic Car Rental in Montreal Cost?
+
+Expect to pay between $299 and $2,399 per day. The sweet spot for most Fathers Day gifts sits in the $599 to $1,499 range, where you get genuine supercar performance without the flagship price. Here is how the tiers break down:
+
+- Entry performance, $299 to $450/day: the Audi S5 at $299/day, the [Audi RS5](/cars/audi-rs5) at $400/day, and the Toyota GR Supra at $400/day.
+- The sweet spot, $549 to $799/day: the [Audi RS6](/cars/audi-rs6) at $549/day with 591 hp, the BMW M3 Competition at $649/day, the Porsche Panamera GTS at $699/day, and the Porsche 911 Carrera 4 at $649/day.
+- True exotics, $899 to $1,599/day: the Audi R8 V10 at $899/day with 562 hp, the [McLaren 600LT](/cars/mclaren-600lt) at $1,199/day, the Lamborghini Urus at $1,399/day, and the Huracán EVO at $1,499/day.
+- The top shelf, $1,999 to $2,399/day: the McLaren 600LT Spider and the Maybach S680 by Virgil Abloh.
+
+Split between siblings, a $1,499 Huracán day works out to $500 or less per person, which is less than most people spend on a weekend at Tremblant.
+
+## Which Car Should I Pick for a Dad Who Loves Driving Versus a Dad Who Loves Comfort?
+
+For a driving dad, pick the McLaren 600LT or the Huracán Tecnica. The 600LT is a track-focused machine with 592 hp and a 0-100 km/h time of 2.9 seconds, built for someone who cares about apexes and carbon fibre. The Tecnica is the sharper, rear-wheel-drive Huracán, and at 631 hp it is the most powerful Lamborghini we run.
+
+For a comfort dad, the answer is different. The [Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600) at $999/day is a 550 hp first-class lounge on wheels, perfect if he wants to arrive at the restaurant in Old Montreal feeling like a diplomat. If he wants the full statement, the Mercedes-Maybach S680 by Virgil Abloh at $2,399/day is the rarest car in our fleet, 621 hp and a genuine collector piece designed with Virgil Abloh before his passing.
+
+For the dad who wants an SUV that behaves like a supercar, the [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day delivers 641 hp and 0-100 km/h in 3.6 seconds, with room for the whole family. The [Lamborghini Urus Black on Black](/cars/lamborghini-urus-black-on-black) at $1,200/day is the stealth version if he prefers not to announce himself.
+
+## How Does Fathers Day Car Rental Delivery Work in Montreal?
+
+We deliver the car to your door, anywhere in Greater Montreal, at no extra charge. That means you can have the Huracán parked in the driveway in Laval, Westmount, or Longueuil on Sunday morning with a bow on the hood if you want one. The minimum rental is 24 hours, so dad gets a full day, not a two-hour tease.
+
+If you live outside the core, we also serve surrounding areas. Our [Laval](/locations/laval), [Longueuil](/locations/longueuil), and [Laval-adjacent Terrebonne](/locations/terrebonne) coverage means most of the North Shore and South Shore is within easy delivery range. For full details on documents and pickup, read [how it works](/how-it-works).
+
+Book early. Fathers Day weekend is one of our busiest of the year, and the Huracáns and the McLaren are typically the first to go, usually two to three weeks ahead.
+
+## What Are the Best Montreal Routes for Dad to Actually Drive the Car?
+
+A supercar rental is wasted on a parking lot, so plan a route. The classic Montreal run is Chemin du Roy along the river toward Repentigny, smooth pavement, long straights, and almost no traffic on a Sunday morning. Another favourite is the run out to [Chambly and the South Shore](/locations/longueuil) wine region, roughly 45 minutes of open road each way.
+
+For a shorter loop, send him up Camillien-Houde through Mount Royal Park at sunrise. It is the road every Montreal car enthusiast knows, and in a [Porsche 911 Carrera 4](/fleet/porsche-911-carrera-4) at $649/day it is the closest thing this city has to an alpine pass. If he is more of a city cruiser, a loop through [Old Montreal](/locations/old-montreal) and along the Old Port at dusk in the [Audi R8 Spyder](/fleet/audi-r8-spyder) at $1,299/day is hard to beat.
+
+## Can I Rent an Exotic Car for My Dad If He Is Over 60 or 70?
+
+Yes, and we do it every Fathers Day. There is no upper age limit, only a lower one: drivers must be 25 or older with a valid license and full insurance coverage. Some of our happiest Fathers Day customers are dads in their 60s and 70s finally crossing off the car they taped to their bedroom wall in 1979.
+
+The cars are also easier to drive than most people expect. The Huracán EVO has a lifting system for speed bumps, the Urus drives like a normal SUV in Strada mode, and the Maybach GLS 600 is literally designed to be driven by someone who wants zero effort. If your dad has any specific concerns, call us and we will walk him through the controls before he rolls out.
+
+## FAQ
+
+### How much does a Fathers Day exotic car rental in Montreal cost?
+
+Prices run from $299/day for an Audi S5 up to $2,399/day for the Maybach S680 by Virgil Abloh. Most Fathers Day bookings land between $599 and $1,499 per day, which covers everything from a BMW M4 Competition to a Lamborghini Huracán EVO.
+
+### How far in advance should I book for Fathers Day?
+
+Book two to three weeks ahead minimum. The Lamborghinis and McLarens are always the first reserved for Fathers Day weekend, and last-minute availability is usually limited to the lower tiers by the week itself.
+
+### Is there a minimum rental period for Fathers Day weekend?
+
+Yes, the minimum is 24 hours. That gives dad a full day with the car instead of a quick spin, and many clients book 48 hours so he can do a Sunday drive and a Monday morning commute in the Huracán.
+
+### Do you deliver the car to my dad's home?
+
+Yes, delivery anywhere in Greater Montreal is included in the rental price. We regularly deliver to homes in Laval, Brossard, the West Island, and everywhere on the island, and we can arrange a morning drop-off so the car is there when he wakes up.
+
+### What does dad need to bring to drive the car?
+
+He needs a valid driver's license, proof of full insurance coverage, and a security deposit on a credit card in his name. The minimum age is 25, and our team walks every first-time renter through the car's controls before handing over the keys.
+
+Ready to give dad the keys? Call us at [438-809-4417](tel:438-809-4417) or message us on [WhatsApp](https://wa.me/14388094417) and we will have the car of his choice in the driveway on Fathers Day morning.`,
+  },
+  {
     slug: 'halloween-2026-exotic-car-rental-for-montreal-costume-parties',
     title: 'Halloween 2026: Exotic Car Rental for Montreal Costume Parties',
     date: '2026-11-03',
