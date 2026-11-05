@@ -9,6 +9,73 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'exotic-car-rental-for-a-casino-de-montreal-night-vip-from-the-curb',
+    title: 'Exotic Car Rental for a Casino de Montreal Night: VIP From the Curb',
+    date: '2026-11-05',
+    description: 'Exotic car rental Casino de Montreal: rates from $599/day, door-to-door delivery, and the best cars to arrive in style at Casino de Montreal on Notre-Dame Island.',
+    content: `Exotic car rental Casino de Montreal costs between $599 and $2,399 per day depending on the car, with free delivery anywhere in Greater Montreal and a 24 hour minimum rental. A Casino de Montreal night is one of the few occasions in this city where the car you arrive in genuinely matters, and the valet line at the Pavillon du Casino sees more exotics per square metre than any other curb in Quebec.
+
+## Why Book an Exotic Car Rental Casino de Montreal for a Night Out?
+
+Because the casino experience starts before you walk through the doors. Casino de Montreal sits on Notre-Dame Island, a 10 minute drive from Old Montreal, and the approach across the bridge at night with the city skyline behind you is exactly the kind of moment a supercar was built for.
+
+The casino draws over three million visitors a year, runs gaming floors 24 hours a day, and hosts high-limit rooms where the dress code alone signals the tone of the night. Arriving in a Lamborghini Huracán EVO Spyder at $1,499/day with 610 hp sets the tone before you hand over the keys. If you want the full VIP treatment at a fraction of the supercar price, the Porsche Panamera GTS at $699/day with 473 hp and a 0-100 time of 3.2s delivers four-door comfort with real performance.
+
+## How Much Does an Exotic Car Rental for a Casino Night Cost?
+
+Expect to pay between $599 and $2,399 per day for a genuine exotic or luxury performance car in Montreal. The entry point is the BMW M4 Competition at $599/day with 503 hp and a 0-100 time of 3.8 seconds, which is more than enough car for a casino night.
+
+From there, the ladder climbs fast. The Audi R8 Spyder runs $1,299/day with 562 hp, the Lamborghini Urus sits at $1,399/day with 641 hp, and the Huracán EVO and EVO Spyder both list at $1,499/day. At the top end, the McLaren 600LT Spider at $1,999/day hits 100 km/h in 2.8 seconds, and the Mercedes-Maybach S680 by Virgil Abloh at $2,399/day with 621 hp is the loudest quiet flex in the fleet. Every rental includes a 24 hour minimum, so you can pick the car up in the afternoon, do dinner in [Old Montreal](/locations/old-montreal), hit the casino, and still have the car for the morning after.
+
+## Which Cars Work Best for a Casino de Montreal Arrival?
+
+For pure arrival impact, the answer is a convertible or a Lamborghini. The [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder) at $1,499/day with 631 hp and a 0-100 time of 3.1s is the strongest single choice: scissor-adjacent lines, a drop top for the summer drive over the bridge, and a naturally aspirated V10 that announces you before the valet even sees you.
+
+If you are coming with a group, the calculus changes. The [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day seats five in genuine supercar pace, 0-100 in 3.6s, while the Cadillac Escalade at $599/day and the Mercedes-Maybach GLS 600 at $999/day handle a bigger crew with 550 hp in the Maybach's case. For a couple's night, the [Audi R8 Spyder](/fleet/audi-r8-spyder) at $1,299/day is the sleeper pick: understated compared to a Lamborghini, but the 562 hp V10 behind your head does the talking.
+
+## What Are the Requirements to Rent an Exotic Car in Montreal?
+
+You need to be at least 25 years old for most of the fleet, hold a valid driver's licence, and provide a credit card for the security deposit. Drivers between 21 and 24 can access select cars, typically the lower-tier performance models, with an additional young-driver fee and stricter insurance conditions.
+
+Full insurance is mandatory, either through your own policy if it covers rental exotics or through the coverage we provide. The deposit varies by car, from a few thousand dollars on something like the Audi S5 at $299/day up to a significantly higher hold on the Maybach S680. Everything is handled at delivery, which brings us to the next point: we deliver the car to you.
+
+## How Does Delivery Work for a Casino Night?
+
+We deliver and pick up anywhere in Greater Montreal at no extra charge. That means the car can be waiting at your hotel, your condo, or your dinner reservation, and you drive it to the casino yourself. Most casino clients book a delivery slot in the late afternoon so the car is on the curb before dinner.
+
+The process takes about 15 minutes: licence verification, walk-around, deposit hold, and a quick briefing on the car's specifics. If you are staying downtown, in [Griffintown](/locations/griffintown), or anywhere along the route to Notre-Dame Island, timing is easy to plan. Full details on the process are on our [how it works](/how-it-works) page, and common questions about deposits, insurance, and mileage are covered in the [FAQ](/faq).
+
+## What Should You Plan Around the Casino Night?
+
+Casino de Montreal is open 24 hours a day, every day, so the schedule is yours to build. The smart play is a three-part night: dinner in Old Montreal or [Saint-Henri](/locations/saint-henri), the casino floor from late evening, and the drive home with the city to yourself after midnight. That last stretch is where cars like the [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) at $1,999/day, 592 hp and 0-100 in 2.8s, earn their price tag.
+
+Two practical notes. First, the casino has its own parking and valet, but the valet line on weekend nights gets long, so arriving before 10 pm avoids the wait. Second, plan your fuel stop before the bridge, since there are limited stations on Notre-Dame Island itself. If you want to compare cars side by side before booking, the full [fleet](/fleet) page has current rates and availability, and our [reviews](/reviews) page shows what past clients said about their casino-night rentals.
+
+## FAQ
+
+### How much does it cost to rent an exotic car for a night at Casino de Montreal?
+
+Rates run from $599/day for a BMW M4 Competition up to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh. The most popular casino-night choices, the Lamborghini Huracán EVO Spyder and the Huracán EVO, both sit at $1,499/day. Every rental has a 24 hour minimum, so you get the car for the full day around your night out.
+
+### Can the car be delivered to my hotel before the casino?
+
+Yes, delivery and pickup anywhere in Greater Montreal is included at no extra charge. The car can be waiting at your hotel, residence, or restaurant before dinner. Most clients book a late afternoon slot so the handover is done well before the evening starts.
+
+### Do I need special insurance to rent a Lamborghini or McLaren in Montreal?
+
+Yes, full insurance coverage is mandatory on every exotic rental. You can use your own policy if it extends to rental exotics, or purchase coverage through us at booking. The security deposit is placed on a credit card at delivery and released after the car comes back clean.
+
+### What is the minimum age to rent an exotic car for a casino night?
+
+The standard minimum age is 25 for the supercar tier, including Lamborghini, McLaren, and Maybach models. Drivers aged 21 to 24 can rent select performance cars such as the Audi S5 at $299/day or the BMW M3 Competition at $649/day, subject to an additional fee. A valid driver's licence and credit card are required in all cases.
+
+### Which car is best if I am going to the casino with friends?
+
+The Lamborghini Urus at $1,399/day is the top group option, seating five with 641 hp and a 0-100 time of 3.6 seconds. The Cadillac Escalade at $599/day handles larger groups in comfort. For a group that wants maximum performance per seat, the Mercedes-Maybach GLS 600 at $999/day with 550 hp splits the difference perfectly.
+
+Ready to lock in your Casino de Montreal night? Call us at [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and we will have the car on your curb before dinner.`,
+  },
+  {
     slug: 'fathers-day-exotic-car-rental-montreal-give-dad-the-keys',
     title: 'Fathers Day Exotic Car Rental Montreal: Give Dad the Keys',
     date: '2026-11-04',
