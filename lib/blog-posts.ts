@@ -9,6 +9,90 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'louer-toyota-supra-a-montreal-le-coupe-japonais-iconique',
+    title: 'Louer Toyota Supra a Montreal: Le Coupe Japonais Iconique',
+    date: '2026-11-11',
+    description: 'Envie de louer Toyota Supra Montreal? La GR Supra est dispo a partir de $400/jour, 420 hp, 0-100 en 3.9s. Reservation simple, livraison partout a Montreal.',
+    content: `## Combien ca coute de louer une Toyota Supra a Montreal?
+
+Louer Toyota Supra Montreal coute $400/day chez Exotic Rentals Montreal, avec un minimum de 24 heures et la possibilite de livraison partout dans le Grand Montreal. La GR Supra developpe 420 chevaux, fait le 0 a 100 km/h en 3.9 secondes et reste un des meilleurs rapports performance/prix de notre flotte. C'est le coupe japonais iconique, dispo aujourd'hui sur notre page [Toyota GR Supra](/cars/toyota-supra).
+
+## Pourquoi la Toyota GR Supra est-elle un choix si populaire a Montreal?
+
+Parce qu'elle offre la performance d'une sportive europeenne a une fraction du prix. A $400/day, tu as entre les mains un moteur BMW turbo de 420 chevaux monte dans un chassis Toyota affine sur circuit. Le 0 a 100 km/h tombe en 3.9 secondes, ce qui place la Supra dans le meme club que des voitures deux fois plus cheres.
+
+La Supra a aussi un heritage que les autres n'ont pas. Les fans de la MK4 des annees 90 connaissent la reputation de cette auto, et la GR Supra moderne la respecte: propulsion, empattement court, centre de gravite bas. Sur les rues pavees du Plateau ou les lignes droites de la 40, elle reste joueuse et previsible, meme pour un conducteur qui debute avec les sportives.
+
+Si tu compares avec le reste de la flotte, la Supra est la porte d'entree parfaite avant de monter vers une [Audi RS5](/cars/audi-rs5) a $400/day ou une BMW M5 Competition a $599/day.
+
+## Quelles sont les specifications de la Toyota GR Supra?
+
+La GR Supra pousse 420 chevaux et 500 lb-pi de couple grace a son six cylindres en ligne turbo de 3.0 litres. Le 0 a 100 km/h est expédie en 3.9 secondes, avec une boite automatique a 8 rapides qui descend les rapports aussi vite que tu penses. Voici ce qu'il faut retenir:
+
+- Puissance: 420 chevaux
+- Couple: 500 lb-pi
+- 0 a 100 km/h: 3.9 secondes
+- Tarif: $400/day
+- Minimum de location: 24 heures
+
+C'est une voiture qui se conduit aussi bien en ville que sur route secondaire. Le mode Sport raffermi la suspension et le echappement devient plus present, exactement ce qu'il faut pour impressionner sur Saint-Laurent un vendredi soir.
+
+## Quels sont les conditions pour louer une Toyota Supra a Montreal?
+
+Il faut avoir 25 ans et plus, un permis de conduire valide depuis au moins 5 ans, et une carte de credit au nom du conducteur pour la caution. Les conducteurs de 21 a 24 ans peuvent parfois etre acceptes avec des conditions supplementaires, ca se discute avec notre equipe.
+
+Le kilometrage est inclus jusqu'a 150 km par jour, avec possibilite d'acheter des kilometres supplementaires. L'assurance de votre carte de credit ou de votre assureur personnel peut couvrir la location, sinon nous offrons une option de rachat partiel de franchise. Tous les details pratiques sont expliques sur notre page [comment ca marche](/how-it-works) et dans notre [FAQ](/faq).
+
+On livre la Supra partout dans le Grand Montreal: Laval, Longueuil, Brossard, la [Rive-Nord](/locations/laval) et meme Quebec. Tu peux aussi venir la chercher directement a notre garage si tu prefers.
+
+## Pourquoi louer une Supra plutot qu'une autre sportive?
+
+Parce que c'est la meilleure valeur performance/dollar de la flotte. A $400/day, la Supra te donne 420 chevaux, soit environ un dollar par cheval. Compare ca a une Lamborghini Huracan EVO a $1,499/day pour 610 chevaux: environ deux dollars et demi par cheval. La Supra n'est pas une Lamborghini, mais elle offre 80 pour cent du plaisir pour 27 pour cent du prix.
+
+C'est aussi la voiture ideale pour un premier essai de sportive. La direction est communicative, le chassis pardonne les erreurs, et la position de conduite est parfaite pour les longues sorties. Beaucoup de nos clients testent la Supra un week-end, reviennent le mois suivant pour une [Audi R8 V10](/cars/audi-r8) a $899/day ou une McLaren 600LT a $1,199/day.
+
+Et pour ceux qui veulent du bruit et du spectacle, la Supra avec son echappement sport fait tourner les tetes dans le [Vieux-Montreal](/locations/old-montreal) autant qu'une exotique italienne.
+
+## Est-ce que la Supra est une bonne voiture pour un road trip au Quebec?
+
+Oui, et c'est meme une de ses forces. La Supra a un vrai coffre sous le hayon, assez pour deux valises, et une suspension confortable en mode Normal. Le moteur six cylindres est heureux sur l'autoroute, et la consommation reste raisonnable si tu ne marches pas dedans a chaque sortie.
+
+Un trajet classique: Montreal vers les Laurentides par la 15, arret a Saint-Sauveur, puis les routes sinueuses vers Val-David. La Supra est dans son element sur ces routes, avec assez de couple pour sortir de chaque virage proprement. Pour un week-end complet, plusieurs clients combinent la location avec un sejour a [Saint-Jerome](/locations/saint-jerome) ou vers [Sherbrooke](/locations/sherbrooke).
+
+Le minimum de 24 heures te laisse le temps de vraiment profiter de l'auto au lieu de juste poser pour des photos. Et honnetement, a $400/day, une sortie de 48 heures coute moins cher qu'une seule journee dans plusieurs exotiques de la flotte.
+
+## Comment reserver une Toyota Supra a Montreal?
+
+La reservation se fait en quelques minutes. Tu choisis tes dates, tu nous envoies tes documents (permis et carte de credit), et on confirme la disponibilite. En haute saison, l'ete et les fins de semaine de Grand Prix, la Supra part vite, donc reserve au moins une semaine d'avance si tu peux.
+
+Tu peux voir les avis de nos clients sur notre page [temoignages](/reviews), ou parcourir la [flotte complete](/fleet) si tu veux comparer la Supra avec d'autres modeles. Notre equipe repond a toutes les questions sur la [page contact](/contact).
+
+## Questions frequentes
+
+### Quel est le prix pour louer une Toyota Supra a Montreal?
+
+La Toyota GR Supra se loue $400/day chez Exotic Rentals Montreal, avec un minimum de 24 heures. Le tarif inclus 150 km par jour et la livraison est disponible dans le Grand Montreal. C'est un des tarifs les plus accessibles de notre flotte de sportives.
+
+### Quels documents faut-il pour louer la Supra?
+
+Il faut un permis de conduire valide depuis au moins 5 ans et une carte de credit au nom du conducteur pour la caution. L'age minimum est de 25 ans, avec des exceptions possibles de 21 a 24 ans selon le dossier. Tous les details sont sur notre page [FAQ](/faq).
+
+### La Toyota Supra est-elle rapide?
+
+Oui, tres. Elle developpe 420 chevaux et 500 lb-pi de couple, avec un 0 a 100 km/h en 3.9 secondes. C'est plus rapide qu'une Audi S5 a $299/day et comparable a une BMW M3 Competition a $649/day sur le papier.
+
+### Peut-on conduire la Supra hors de Montreal?
+
+Oui, tu peux conduire partout au Quebec avec la Supra, dans la limite de 150 km par jour incluse. Des kilometres supplementaires sont disponibles si tu planifies un road trip vers les Laurentides, Quebec ou l'Estrie. On livre aussi la voiture dans plusieurs villes comme [Gatineau](/locations/gatineau) et [Trois-Rivieres](/locations/trois-rivieres).
+
+### Faut-il une experience particuliere pour conduire une Supra?
+
+Non, la Supra est une des sportives les plus accessibles de la flotte. La direction est douce a basse vitesse, la boite automatique est douce, et le mode Normal rend la conduite en ville facile. C'est la voiture parfaite pour une premiere experience de sportive japonaise.
+
+Pour reserver la Toyota GR Supra, appelle-nous au [438-809-4417](tel:438-809-4417) ou ecris-nous sur [WhatsApp](https://wa.me/14388094417), on confirme ta reservation en quelques minutes.
+`,
+  },
+  {
     slug: 'location-maybach-gls-600-montreal-le-suv-vip-par-excellence',
     title: 'Location Maybach GLS 600 Montreal: Le SUV VIP Par Excellence',
     date: '2026-11-10',
