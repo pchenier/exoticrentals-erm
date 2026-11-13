@@ -9,6 +9,100 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'louer-bentley-bentayga-a-montreal-le-suv-britannique-de-prestige',
+    title: 'Louer Bentley Bentayga a Montreal: Le SUV Britannique de Prestige',
+    date: '2026-11-13',
+    description: 'Le Bentley Bentayga n\'est pas dans notre flotte, mais voici les SUV de luxe comparables a louer a Montreal, du Lamborghini Urus au Maybach GLS 600, avec prix et specs.',
+    content: `## Peut-on vraiment louer un Bentley Bentayga a Montreal?
+
+Non, Exotic Rentals Montreal n'a pas de Bentley Bentayga dans sa flotte, mais on a deux SUV de prestige qui jouent dans la meme cour: le Lamborghini Urus a $1,399/day et le Mercedes-Maybach GLS 600 a $999/day, tous deux livrables partout dans le Grand Montreal avec un minimum de 24 heures. Si vous cherchez a louer Bentley Bentayga Montreal, c'est probablement parce que vous voulez un SUV qui combine performance brutale et luxe a bord. Nos deux candidats font exactement ca, et ils sont disponibles immediatement, sans liste d'attente.
+
+On va etre directs avec vous: le Bentayga est un superbe vehicule, mais il se fait rare en location au Quebec. Plutot que de vous faire perdre du temps, on vous presente les alternatives que nos clients choisissent quand ils veulent ce type de vehicule, avec les vrais chiffres et les vraies specs.
+
+## Pourquoi le Lamborghini Urus est notre alternative principale au Bentayga?
+
+Parce que le Urus offre le meme genre de promesse que le Bentayga: un SUV surpuissant capable d'epater dans le centre-ville et de pousser fort sur l'autoroute. Le Urus developpe 641 chevaux et fait le 0 a 100 km/h en 3,6 secondes, ce qui place sa fiche technique au-dessus du Bentley.
+
+A $1,399/day, c'est evidemment plus cher que le Maybach, mais vous avez le V8 biturbo Lamborghini, le son italien et une presence visuelle que rien d'autre sur la route ne peut egaler. Si votre objectif en cherchant a louer Bentley Bentayga Montreal etait de frapper fort visuellement, le Urus est le choix logique. On a aussi une version Black on Black a $1,200/day, meme moteur, 641 chevaux, 0 a 100 en 3,5 secondes, avec un look plus discret et plus agressif a la fois.
+
+Le Urus est particulierement en demande pour les evenements au centre-ville, les arrivees a Old Montreal et les tournages. Reservez tot, surtout de juin a septembre.
+
+- Lamborghini Urus: $1,399/day, 641 ch, 0-100 en 3,6 s
+- Lamborghini Urus Black on Black: $1,200/day, 641 ch, 0-100 en 3,5 s
+
+Vous pouvez consulter la [fiche complete du Lamborghini Urus](/fleet/lamborghini-urus) ou notre page [location Lamborghini a Montreal](/lamborghini-rental-montreal) pour les details de reservation.
+
+## Quel est le meilleur choix si vous priorisez le confort de luxe?
+
+Si ce qui vous attire dans le Bentayga, c'est le cote salon roulant plutot que la performance pure, le Mercedes-Maybach GLS 600 est votre vehicule. A $999/day, vous avez 550 chevaux, un 0-100 en 4,8 secondes, et surtout un interieur qui rivalise avec n'importe quelle berline de luxe au monde: sieges massants a l'arriere, systeme audio haut de gamme, et une suspension qui absorbe les nids-de-poule de Saint-Laurent comme si ils n'existaient pas.
+
+Le Maybach GLS 600, c'est le SUV qu'on recommande pour les mariages, les transports VIP et les soirees ou l'arrivee compte plus que la vitesse. C'est aussi notre option la plus economique dans la categorie des SUV ultra-premium, a moitie moins cher que certaines locations exotiques.
+
+- Mercedes-Maybach GLS 600: $999/day, 550 ch, 0-100 en 4,8 s
+
+Voir la [fiche du Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600) pour les photos et les disponibilites, ou notre page [location Mercedes a Montreal](/mercedes-rental-montreal).
+
+## Combien coute la location d'un SUV de prestige a Montreal?
+
+Les SUV de prestige dans notre flotte se situent entre $599 et $1,399 par jour, selon le niveau de performance et de luxe. En bas de l'echelle, le Cadillac Escalade a $599/day avec 420 chevaux reste une valeur sure pour le transport de groupe et le look classique. Au milieu, le Porsche Macan GTS a $599/day (440 ch, 0-100 en 4,2 s) et le Mercedes G63 AMG a $1,299/day (500 ch) couvrent des besoins tres differents.
+
+Voici un apercu rapide de la gamme SUV et crossover de notre flotte:
+
+- Cadillac Escalade: $599/day, 420 ch
+- Porsche Macan GTS: $599/day, 440 ch, 0-100 en 4,2 s
+- Mercedes GLC63s AMG: $649/day, 510 ch, 0-100 en 3,8 s
+- Mercedes G63 AMG: $1,299/day, 500 ch
+- Lamborghini Urus Black on Black: $1,200/day, 641 ch
+- Lamborghini Urus: $1,399/day, 641 ch, 0-100 en 3,6 s
+- Mercedes-Maybach GLS 600: $999/day, 550 ch, 0-100 en 4,8 s
+
+La location inclut un kilometrage genereux et l'assurance est expliquee clairement avant la signature. Nos [avis clients](/reviews) vous donneront une bonne idee de l'experience complete, et la page [comment ca fonctionne](/how-it-works) detaille chaque etape.
+
+## Quelles sont les conditions pour louer un SUV exotique a Montreal?
+
+Il faut avoir 25 ans et plus, un permis de conduire valide depuis au moins 5 ans, et une carte de credit au nom du conducteur pour la caution. Un dossier d'assurance ou une verification peut etre exigee selon le vehicule, surtout pour le Urus et le Maybach.
+
+La livraison est disponible partout dans le Grand Montreal: Laval, Longueuil, Brossard, la Rive-Nord et meme Quebec. Le minimum de location est de 24 heures, et plusieurs clients combinent une journee de semaine avec un retour le lendemain matin pour maximiser le rapport qualite-prix. Pour les details precis sur les documents et les depots, consultez notre [FAQ](/faq).
+
+Petit conseil d'initie: si vous voulez le Urus pour un samedi d'ete, reservez au moins trois a quatre semaines d'avance. Les fins de semaine de juin a septembre partent tres vite, surtout pour les evenements a [Old Montreal](/locations/old-montreal) et a [Griffintown](/locations/griffintown).
+
+## Urus ou Maybach: lequel choisir selon votre occasion?
+
+C'est simple: pour frapper, prenez le Urus. Pour etre choye, prenez le Maybach.
+
+Le Urus, c'est le vehicule pour la journee ou vous voulez qu'on vous regarde au feu rouge sur Saint-Laurent. 641 chevaux, un son de V8 qui reveille tout le quartier, et un design qui coupe le souffle meme stationne. C'est aussi le choix des gens qui veulent conduire, pas juste se faire conduire.
+
+Le Maybach GLS 600, c'est l'inverse: c'est le SUV ou l'arriere est plus agreable que l'avant, ou les sieges massants font le travail pendant que vous calez votre soiree. A $999/day, c'est aussi le meilleur rapport luxe-prix de la categorie. Plusieurs clients le prennent pour l'arrivee au mariage et repartent avec le Urus le lendemain pour la lune de miel. On ne juge pas, c'est une bonne strategie.
+
+Et si le budget est un peu plus serre mais que vous voulez quand meme du caractere, le Mercedes G63 AMG a $1,299/day avec ses 500 chevaux et son look de cube indestructible reste une des locations les plus photogeniques de la ville. Voir la [fiche du Mercedes G63 AMG](/fleet/mercedes-g63-amg).
+
+Pour voir l'ensemble des vehicules disponibles, consultez notre [flotte complete](/fleet).
+
+## Questions frequentes
+
+### Le Bentley Bentayga est-il disponible chez Exotic Rentals Montreal?
+
+Non, le Bentayga ne fait pas partie de notre flotte actuelle. Les alternatives que nous offrons sont le Lamborghini Urus a $1,399/day et le Mercedes-Maybach GLS 600 a $999/day, deux SUV qui couvrent les memes besoins de prestige et de performance.
+
+### Quel est le SUV le plus puissant disponible en location a Montreal?
+
+Le Lamborghini Urus et sa version Black on Black sont les plus puissants, avec 641 chevaux chacun. Le Urus standard fait le 0 a 100 km/h en 3,6 secondes, ce qui est plus rapide que la grande majorite des sportives pures.
+
+### Quel est le SUV de luxe le plus abordable chez Exotic Rentals Montreal?
+
+Le Cadillac Escalade a $599/day avec 420 chevaux est le point d'entree de la categorie SUV. Pour un luxe plus haut de gamme, le Mercedes-Maybach GLS 600 a $999/day reste sous la barre du millier avec un interieur de niveau limousine.
+
+### Quel age faut-il avoir pour louer un SUV exotique?
+
+Il faut avoir au moins 25 ans, detenir un permis valide depuis 5 ans minimum et presenter une carte de credit au nom du conducteur. La livraison est disponible partout dans le Grand Montreal avec un minimum de location de 24 heures.
+
+### Peut-on se faire livrer le vehicule a Laval ou a Longueuil?
+
+Oui, on livre partout dans le Grand Montreal, incluant Laval, Longueuil, Brossard et la Rive-Nord. Les frais et les horaires de livraison sont confirmes au moment de la reservation.
+
+Pour reserver le Urus, le Maybach GLS 600 ou tout autre vehicule de la flotte, appelez-nous au [438-809-4417](tel:4388094417) ou ecrivez-nous sur [WhatsApp](https://wa.me/14388094417).`,
+  },
+  {
     slug: 'location-mercedes-gt53-montreal-le-sportif-quotidien',
     title: 'Location Mercedes GT53 Montreal: Le Sportif Quotidien',
     date: '2026-11-12',
