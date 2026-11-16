@@ -9,6 +9,90 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'location-porsche-911-carrera-montreal-la-legende-est-disponible',
+    title: 'Location Porsche 911 Carrera Montreal: La Legende Est Disponible',
+    date: '2026-11-16',
+    description: 'Location Porsche 911 Carrera Montreal: louez la 911 Carrera 4 a partir de $649/jour. 370 hp, livraison a Montreal, reservation rapide par telephone ou WhatsApp.',
+    content: `La location Porsche 911 Carrera Montreal vous coute $649/day pour la Porsche 911 Carrera 4, avec 370 hp sous le capot, livraison possible partout dans le Grand Montreal et une duree minimum de 24 heures. C'est la facon la plus simple de conduire la legende allemande sans hypothquer votre maison pour l'acheter.
+
+## Combien coute une location Porsche 911 Carrera Montreal?
+
+Le tarif est de $649/day pour la Porsche 911 Carrera 4, un prix fixe qui inclut le kilometrage selon les conditions de location standard. C'est le point d'entree parfait dans l'univers Porsche chez nous, bien moins cher qu'une Huracan a $1,499/day, mais avec le meme pedigree de legende.
+
+La Carrera 4 developpe 370 hp et embarque la transmission integrale, ce qui change tout au Quebec. Sur une chaussee mouillee sur l'autoroute 40 ou dans une bordée de neige tardive, les quatre roues motrices vous gardent solide la ou une propulsion pure vous ferait suer.
+
+## Pourquoi la Porsche 911 Carrera est-elle une legende?
+
+Parce que ca fait plus de 60 ans que Porsche perfectionne la meme recette: un moteur flat-six a l'arriere, une balance quasi parfaite et un chassiss qui repond comme aucun autre auto au monde. La 911 Carrera 4 continue cette lignée avec 370 hp et une fiabilite legendaire.
+
+C'est aussi l'auto sportive que tu peux conduire tous les jours. Le coffre avant avale une valise, la suspension absorbe les nids-de-poule de la rue Saint-Denis mieux que n'importe quelle supercar italienne, et la position de conduite est parfaite apres 30 secondes. C'est pour ca que la 911 est la seule sportive que les journalistes appellent « la voiture parfaite » sans rire.
+
+## Comment fonctionne la location chez Exotic Rentals Montreal?
+
+Le processus est simple: vous choisissez vos dates, vous reservez par telephone ou WhatsApp, on prepare l'auto et on vous la livre ou vous voulez dans le Grand Montreal. Le minimum est de 24 heures, et vous pouvez etendre si vous voulez garder la 911 pour un weekend complet.
+
+Pour les details sur les documents requis, l'assurance et le depot, consultez notre page [comment ca marche](/how-it-works) et notre [FAQ](/faq). En regle generale, il faut avoir l'age legal du permis complet et une carte de credit au nom du conducteur. Toutes les conditions sont ecrites noir sur blanc avant la signature, pas de surprise.
+
+## Est-ce que la Carrera 4 est un bon choix au Quebec?
+
+Oui, et franchement, c'est le meilleur choix 911 pour notre climat. La transmission integrale de la Carrera 4 transforme la conduite sur nos routes, surtout d'octobre a avril quand le temps change toutes les trois heures.
+
+Avec 370 hp envoyes aux quatre roues, vous sortez des virages comme sur des rails. Sur la route des Pays-d'en-Haut ou dans les Laurentides, la Carrera 4 colle a la route la ou une Carrera 2 demande plus de doigte. Et en ville, le format compact de la 911 se faufile dans le trafic du centre-ville mieux qu'un gros SUV.
+
+## Quelles autres Porsche pouvez-vous louer a Montreal?
+
+Au-dela de la location Porsche 911 Carrera Montreal, on a deux autres Porsche dans la flotte, chacune avec son propre caractere.
+
+- Porsche Panamera GTS: $699/day, 473 hp, 0-100 km/h en 3.2s. La berline sportive parfaite si vous voulez du plaisir avec quatre portes et de l'espace reel.
+- Porsche Macan GTS: $599/day, 440 hp, 0-100 km/h en 4.2s. Le SUV sportif pour le quotidien et les voyages avec bagages.
+
+Vous pouvez voir toutes ces modeles sur notre page [location Porsche a Montreal](/porsche-rental-montreal) et comparer avec la [flotte complete](/fleet). Si la 911 est prise pour vos dates, la Panamera GTS est le plan B le plus proche en termes de sensations, avec 473 hp et un 0-100 km/h en 3.2 secondes, plus rapide que la Carrera.
+
+## Ou conduire la 911 Carrera autour de Montreal?
+
+Le vrai plaisir de la 911 se vit hors du centre-ville. Prenez le pont vers Laval, montez vers Saint-Jerome et continuez dans les Laurentides: c'est la que le flat-six chante vraiment et que les virages s'enchainent.
+
+Voici trois itineraires que nos clients preferent:
+
+- Le tour des Laurentides via la 117, avec un arret a Val-David pour un cafe.
+- La route 138 vers Chateauguay et la rive sud, parfaite pour une journee detendue.
+- Un tour dans le Vieux-Montreal et le Plateau le soir, la ou la 911 attire les regards sur Saint-Laurent.
+
+Si vous etes de la rive sud, on livre aussi a [Longueuil](/locations/longueuil) et a [Brossard](/locations/brossard), et pour la couronne nord, on couvre [Laval](/locations/laval) et [Terrebonne](/locations/terrebonne).
+
+## Pourquoi louer plutot qu'acheter une 911?
+
+Une Porsche 911 neuve coute facilement plus de 130 000 $ avant taxes, et l'assurance annuelle au Quebec depasse souvent les 3 000 $. A $649/day, la location Porsche 911 Carrera Montreal vous donne acces a la legende pour une fraction de ca, sans financement, sans depreciation et sans soucis d'entretien.
+
+C'est aussi le meilleur moyen d'essayer avant d'acheter. Plusieurs de nos clients sont des passionnes qui pensent serieusement a l'achat d'une 911 et qui veulent passer un vrai weekend derriere le volant avant de signer chez le concessionnaire. Une journee dans la Carrera 4 vous en apprend plus que dix essais routiers de 15 minutes.
+
+Et pour les occasions speciales, un mariage, un anniversaire, une surprise pour un proche, la 911 est le choix classique qui ne decoit jamais. C'est une auto que tout le monde reconnait, peu importe l'age ou le milieu.
+
+## Questions frequentes
+
+### Quel est le prix pour louer une Porsche 911 Carrera a Montreal?
+
+La Porsche 911 Carrera 4 se loue a $649/day chez Exotic Rentals Montreal. Le tarif inclut le kilometrage selon les conditions standard et la duree minimum est de 24 heures.
+
+### Quelles sont les performances de la Porsche 911 Carrera 4?
+
+La Carrera 4 developpe 370 hp grace a son flat-six et envoye la puissance aux quatre roues. C'est la version integrale, donc ideal pour les routes quebecoises en toute saison.
+
+### Faut-il un permis special pour louer une 911?
+
+Non, un permis de conduire valide de classe 5 suffit. Il faut egalement une carte de credit au nom du conducteur et respecter les conditions d'age decrites dans notre [FAQ](/faq).
+
+### Livrez-vous la Porsche 911 partout a Montreal?
+
+Oui, on livre partout dans le Grand Montreal, incluant Laval, Longueuil, Brossard et la couronne nord. Des frais de livraison peuvent s'appliquer selon la distance, confirmez avec nous au moment de la reservation.
+
+### Puis-je louer la 911 Carrera pour un weekend complet?
+
+Oui, plusieurs clients la reservent pour deux ou trois jours, surtout pour monter dans les Laurentides. Contactez-nous pour les disponibilites et les tarifs pour les locations de longue duree.
+
+Pour reserver votre Porsche 911 Carrera 4 a $649/day, appelez-nous au [438-809-4417](tel:4388094417) ou ecrivez-nous sur [WhatsApp](https://wa.me/14388094417).`,
+  },
+  {
     slug: 'louer-bentley-bentayga-a-montreal-le-suv-britannique-de-prestige',
     title: 'Louer Bentley Bentayga a Montreal: Le SUV Britannique de Prestige',
     date: '2026-11-13',
