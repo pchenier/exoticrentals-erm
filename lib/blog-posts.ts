@@ -9,6 +9,101 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'mothers-day-luxury-car-rental-montreal-mom-deserves-the-maybach',
+    title: 'Mothers Day Luxury Car Rental Montreal: Mom Deserves the Maybach',
+    date: '2026-11-17',
+    description: 'Luxury car rental Montreal Mothers Day: chauffeured Maybach S680 from $2,399/day, Maybach GLS 600 from $999/day. Book early, spots are limited.',
+    content: `## What Does a Luxury Car Rental in Montreal for Mothers Day Cost?
+
+A luxury car rental Montreal Mothers Day booking runs from $599 to $2,399 per day depending on the car, with the Mercedes-Maybach S680 by Virgil Abloh at $2,399/day sitting at the top of the fleet. Most clients booking for Mom choose the Maybach GLS 600 at $999/day or the Cadillac Escalade at $599/day, delivered anywhere in Greater Montreal. The minimum rental is 24 hours, and Mothers Day weekend is one of our busiest weekends of the year, so early booking matters.
+
+This is not the weekend to decide on Thursday. The Maybachs, the Urus, and the Huracáns get reserved weeks ahead for the second Sunday of May. Here is exactly how to plan it, what to book, and what it costs.
+
+## Why Is the Maybach the Right Mothers Day Car?
+
+Because Mothers Day is about comfort, not lap times. The Mercedes-Maybach S680 by Virgil Abloh is the most luxurious car in our fleet: 621 hp, 0-100 km/h in 4.4 seconds, rear seats that recline like a private jet, and a cabin so quiet you can hold a conversation at highway speed without raising your voice.
+
+At $2,399/day it is a statement. The Virgil Abloh edition is a collector car, one of a limited run, and pulling up to the restaurant in Old Montreal with Mom in the back seat is the kind of gift she will talk about for years. You can see the full spec sheet on the [Maybach S680 page](/fleet/mercedes-maybach-s680-virgil-abloh).
+
+If the S680 is above your budget, the Mercedes-Maybach GLS 600 at $999/day is the smarter play. It is an SUV, so it handles Montreal's spring potholes without drama, it seats five comfortably, and it still carries the Maybach name and the reclining rear seats. 550 hp, 0-100 in 4.8 seconds, and enough presence to turn heads on Sherbrooke.
+
+## Should You Drive Mom or Hire a Chauffeur?
+
+Both work, and the answer depends on what she wants. If the gift is the car itself, drive her: hand her the keys for the afternoon if she drives, or take the wheel and make her the passenger in the Maybach's rear cabin with the champagne flutes out.
+
+If the gift is being treated like a queen, add a chauffeur. We arrange professional drivers for Mothers Day bookings regularly, and the GLS 600 is the most requested chauffeur car in the fleet. A chauffeured afternoon usually looks like this:
+
+- Pickup at her place in the late morning
+- Lunch in Old Montreal or Westmount
+- Shopping on Sainte-Catherine with the car waiting
+- Dinner drop-off in the evening
+
+The chauffeur service is quoted on top of the daily rate. Ask us directly for pricing when you book, since it depends on hours and itinerary. Full details on how rentals and delivery work are on our [how it works page](/how-it-works).
+
+## What Are the Best Cars in the Fleet for Mothers Day?
+
+The Maybachs are the headline cars, but they are not the only good options. Here is the honest breakdown by budget.
+
+- Mercedes-Maybach S680 by Virgil Abloh: $2,399/day. The maximum gift. 621 hp, rear lounge seating, the rarest car we carry.
+- Mercedes-Maybach GLS 600: $999/day. The sweet spot. Maybach luxury, SUV practicality, 550 hp.
+- Mercedes G63 AMG: $1,299/day. 500 hp, and the G-Wagon is the car Montreal mothers ask about by name. Boxy, loud, iconic.
+- Cadillac Escalade: $599/day. The family option. Seats everyone, 420 hp, and it makes brunch with the whole family easy.
+- Porsche Macan GTS: $599/day. 440 hp, 0-100 in 4.2 seconds, sporty without being impractical.
+- Porsche Panamera GTS: $699/day. 473 hp and a cabin that feels expensive from the first touch.
+
+The full list with photos and availability is on the [fleet page](/fleet).
+
+## How Does a Mothers Day Rental Actually Work?
+
+Same process as any rental, with one difference: timing. You reserve the car, we deliver it to your address anywhere in Greater Montreal, and you keep it for a minimum of 24 hours. Delivery to Laval, Longueuil, the West Island, and downtown is included in the booking process.
+
+For Mothers Day specifically, most clients book a Saturday pickup so Mom has the car for the whole weekend, not just Sunday. That gives her Saturday for a drive and Sunday for the restaurant run. The requirements are simple: valid driver's license, and if you want to drive it yourself, the standard age and license conditions apply. Everything is covered in detail on our [FAQ page](/faq).
+
+One practical note: Mothers Day falls in mid-May, which is when Montreal finally thaws out. A convertible is a real option. The Lamborghini Huracán EVO Spyder at $1,499/day, 631 hp, 0-100 in 3.1 seconds, with the roof down on a sunny May Sunday, is a legitimate Mothers Day gift for a mom who loves to drive. If she is more of a grand-tourer type, the Audi R8 Spyder at $1,299/day, 562 hp, is the softer, more relaxed version of the same idea.
+
+## How Far in Advance Should You Book?
+
+Book two to three weeks out, minimum. The Maybach S680 is a single car, not a fleet of them, and Mothers Day competes with graduation season and early wedding season for the same dates. Last year the Maybachs were locked up more than a week before the weekend.
+
+The G63 AMG at $1,299/day goes almost as fast, because the G-Wagon is the default Montreal flex. If you are flexible on the exact car, the Escalade and the Macan GTS at $599/day usually have some availability closer to the date, but I would not bet on it.
+
+A luxury car rental Montreal Mothers Day booking also needs a small buffer for the itinerary. If you want a chauffeur, a specific restaurant pickup time, or a Saturday morning delivery, those details take a day or two to coordinate. Calling early gets you the car and the schedule you actually want.
+
+## Is a Car Rental a Weird Mothers Day Gift?
+
+Not anymore. Flowers die, brunch is forgotten by Tuesday, and a spa gift card sits in a drawer. A day or a weekend in a Maybach is a story, and mothers remember stories. We see three kinds of Mothers Day clients every year:
+
+- Adult children surprising their mother with a chauffeured Maybach afternoon
+- Husbands booking the weekend for the mother of their kids
+- Mothers booking the car for themselves, which is honestly the best version of the whole thing
+
+If your mom falls into that third category, tell her we said respect. And if you are still weighing options, our [reviews page](/reviews) has plenty of stories from clients who did exactly this.
+
+## FAQ
+
+### How much does the Maybach S680 cost per day in Montreal?
+
+The Mercedes-Maybach S680 by Virgil Abloh rents for $2,399/day, with a 24 hour minimum. It is the most expensive car in the fleet at 621 hp and 0-100 km/h in 4.4 seconds.
+
+### What is the cheapest luxury car rental for Mothers Day in Montreal?
+
+The Cadillac Escalade and the Porsche Macan GTS both rent at $599/day, making them the most affordable luxury options for the weekend. The Escalade is the better pick if the whole family is riding along.
+
+### Can I hire a chauffeur for a Mothers Day rental?
+
+Yes, we arrange professional chauffeurs for Mothers Day bookings, most often on the Maybach GLS 600 at $999/day. Chauffeur pricing is quoted separately based on hours and itinerary, so call ahead to plan the day.
+
+### Do you deliver the car to my address in Montreal?
+
+Yes, delivery anywhere in Greater Montreal is part of the booking, including Laval, Longueuil, Brossard, and the West Island. Most Mothers Day clients book a Saturday delivery to keep the car for the full weekend.
+
+### Can my mom drive the car herself?
+
+Yes, if she has a valid driver's license and meets the rental conditions, she can take the wheel herself. For the Maybachs, most clients prefer to keep Mom in the back seat where the reclining seats and the quiet cabin actually live.
+
+Ready to lock in the Maybach for Mothers Day? Call us at [438-809-4417](tel:4388094417) or message us on [WhatsApp](https://wa.me/14388094417) and we will set up the car, the delivery, and the chauffeur if you want one.`,
+  },
+  {
     slug: 'location-porsche-911-carrera-montreal-la-legende-est-disponible',
     title: 'Location Porsche 911 Carrera Montreal: La Legende Est Disponible',
     date: '2026-11-16',
