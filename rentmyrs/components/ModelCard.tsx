@@ -29,13 +29,18 @@ export function StatusTag({ model, locale }: { model: RsModel; locale: Locale })
   );
 }
 
-/** Photo entière, jamais rognée : la photo complète au centre, et la même photo floutée pour remplir les côtés. */
+/** Photo bord à bord (pas de bandes floues), cadrée sur le point choisi dans /admin (X/Y), sinon un peu sous le centre où se trouve l'auto. */
 export function WholeImage({ src, alt, sizes, priority = false, focus }: { src: string; alt: string; sizes: string; priority?: boolean; focus?: string }) {
   return (
-    <>
-      <Image src={src} alt="" aria-hidden fill sizes="25vw" quality={75} style={focus ? { objectPosition: focus } : undefined} className="scale-110 object-cover opacity-60 blur-2xl" />
-      <Image src={src} alt={alt} fill priority={priority} sizes={sizes} className="object-contain transition duration-700 group-hover:scale-[1.02]" />
-    </>
+    <Image
+      src={src}
+      alt={alt}
+      fill
+      priority={priority}
+      sizes={sizes}
+      style={{ objectPosition: focus ?? '50% 60%' }}
+      className="object-cover transition duration-700 group-hover:scale-[1.03]"
+    />
   );
 }
 
