@@ -89,22 +89,6 @@ export default async function HomeView({ locale }: { locale: Locale }) {
           ))}
         </section>
 
-        {/* Comment ça marche */}
-        <section className="border-t border-line">
-          <div className={`${wrap} py-24`}>
-            <h2 className={h2}>{d.how.title}</h2>
-            <ol className="mt-14 grid gap-10 sm:grid-cols-3 sm:gap-0">
-              {d.how.steps.map(([title, text], i) => (
-                <li key={title} className="border-t border-line pt-6 sm:pr-10">
-                  <span className="wide text-5xl font-extralight text-rs">0{i + 1}</span>
-                  <h3 className="label mt-6">{title}</h3>
-                  <p className="mt-3 font-light leading-relaxed text-mute">{text}</p>
-                </li>
-              ))}
-            </ol>
-          </div>
-        </section>
-
         {/* Lamborghini en arrière-plan */}
         <section id="lamborghini" className="scroll-mt-16 border-t border-line">
           <div className={`${wrap} flex flex-col gap-8 pb-12 pt-24 lg:flex-row lg:items-end lg:justify-between`}>
