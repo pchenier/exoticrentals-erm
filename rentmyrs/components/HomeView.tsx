@@ -4,7 +4,7 @@ import { t } from '@/lib/dict';
 import { getFleet } from '@/lib/fleet-store';
 import Header from './Header';
 import Footer from './Footer';
-import ModelRow, { money, modelHref } from './ModelCard';
+import { ModelTile, money, modelHref } from './ModelCard';
 import BookingModal from './BookingModal';
 import ContactFloat from './ContactFloat';
 import Snow from './Snow';
@@ -78,14 +78,16 @@ export default async function HomeView({ locale }: { locale: Locale }) {
 
         {/* Gamme RS */}
         <section id="rs" className="scroll-mt-16">
-          <div className={`${wrap} pb-16 pt-24`}>
+          <div className={`${wrap} pb-10 pt-24`}>
             <p className="label text-rs">RentMyRS</p>
             <h2 className={`${h2} mt-4`}>{d.fleet.title}</h2>
             <p className="mt-5 max-w-xl font-light text-mute">{d.fleet.sub}</p>
           </div>
-          {RS_MODELS.map((m, i) => (
-            <ModelRow key={m.id} model={m} locale={locale} flip={i % 2 === 1} />
-          ))}
+          <div className={`${wrap} grid gap-5 pb-24 sm:grid-cols-2 lg:grid-cols-3`}>
+            {RS_MODELS.map((m) => (
+              <ModelTile key={m.id} model={m} locale={locale} />
+            ))}
+          </div>
         </section>
 
         {/* Lamborghini en arrière-plan */}
@@ -96,9 +98,13 @@ export default async function HomeView({ locale }: { locale: Locale }) {
               <h2 className={`${h2} mt-4`}>{d.lambo.title}</h2>
               <p className="mt-5 max-w-xl font-light text-mute">{d.lambo.sub}</p>
             </div>
-            <Btn href={locale === 'fr' ? SITE.sister.lamborghiniFr : SITE.sister.lamborghiniEn} variant="ghost">
-              {d.lambo.cta}
-            </Btn>
+            <a
+              href={locale === 'fr' ? SITE.sister.lamborghiniFr : SITE.sister.lamborghiniEn}
+              className="group inline-flex shrink-0 items-center gap-3 border border-paper/30 px-6 py-4 text-sm font-medium tracking-wide transition hover:border-paper hover:bg-paper hover:text-ink"
+            >
+              {locale === 'fr' ? 'Voir sur exoticrentalsmontreal.com' : 'Visit exoticrentalsmontreal.com'}
+              <span aria-hidden className="transition-transform group-hover:translate-x-1">↗</span>
+            </a>
           </div>
         </section>
 
