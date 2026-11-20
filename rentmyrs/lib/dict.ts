@@ -16,7 +16,7 @@ export const DICT = {
       cta: 'Faire une demande',
       cta2: 'Voir les RS',
     },
-    fleet: { title: 'La gamme RS', sub: 'Quatre caractères, une seule philosophie : la performance au quotidien.', from: 'Dès', perDay: '/jour', onRequest: 'Prix sur demande', details: 'Voir la fiche', hp: 'ch', seats: 'places', photoSoon: 'Photos à venir' },
+    fleet: { title: 'La gamme RS', sub: 'Quatre caractères, une seule philosophie : la performance au quotidien.', from: 'Dès', perDay: '/jour', onRequest: 'Prix sur demande', details: 'Voir la fiche', hp: 'ch', seats: 'places', photoSoon: 'Photos à venir', deposit: 'Dépôt remboursable' },
     lambo: {
       kicker: 'Envie de plus ?',
       title: 'Les Lamborghini sont aussi disponibles',
@@ -54,7 +54,7 @@ export const DICT = {
     },
     footer: { tagline: 'Location d’Audi RS à Montréal.', sister: 'Une flotte sœur de', rights: 'Tous droits réservés.', disclaimer: 'Audi, RS et les noms de modèles sont des marques de leurs propriétaires. RentMyRS est un service de location indépendant, non affilié à Audi AG.' },
     model: {
-      back: 'Toutes les RS', specs: 'Fiche technique', power: 'Puissance', engine: 'Moteur', accel: '0-100 km/h', seats: 'Places', drive: 'Traction',
+      back: 'Toutes les RS', specs: 'Fiche technique', power: 'Puissance (origine)', engine: 'Moteur', accel: '0-100 km/h', seats: 'Places', drive: 'Traction',
       bookThis: 'Réserver cette RS', others: 'Les autres RS',
       metaTitle: (n: string) => `Location ${n} Montréal | RentMyRS`,
       metaDesc: (n: string, hp: number) => `Loue une ${n} (${hp} ch) à Montréal. Livraison à Montréal, Laval et Rive-Sud. Demande de réservation rapide, confirmée par texto.`,
@@ -75,7 +75,7 @@ export const DICT = {
       cta: 'Request a car',
       cta2: 'See the RS lineup',
     },
-    fleet: { title: 'The RS lineup', sub: 'Four characters, one idea: everyday performance.', from: 'From', perDay: '/day', onRequest: 'Price on request', details: 'View details', hp: 'hp', seats: 'seats', photoSoon: 'Photos coming soon' },
+    fleet: { title: 'The RS lineup', sub: 'Four characters, one idea: everyday performance.', from: 'From', perDay: '/day', onRequest: 'Price on request', details: 'View details', hp: 'hp', seats: 'seats', photoSoon: 'Photos coming soon', deposit: 'Refundable deposit' },
     lambo: {
       kicker: 'Want more?',
       title: 'Lamborghinis are available too',
@@ -113,7 +113,7 @@ export const DICT = {
     },
     footer: { tagline: 'Audi RS rental in Montreal.', sister: 'A sister fleet of', rights: 'All rights reserved.', disclaimer: 'Audi, RS and model names are trademarks of their respective owners. RentMyRS is an independent rental service, not affiliated with Audi AG.' },
     model: {
-      back: 'All RS models', specs: 'Specifications', power: 'Power', engine: 'Engine', accel: '0-100 km/h', seats: 'Seats', drive: 'Drivetrain',
+      back: 'All RS models', specs: 'Specifications', power: 'Power (stock)', engine: 'Engine', accel: '0-100 km/h', seats: 'Seats', drive: 'Drivetrain',
       bookThis: 'Book this RS', others: 'Other RS models',
       metaTitle: (n: string) => `${n} Rental Montreal | RentMyRS`,
       metaDesc: (n: string, hp: number) => `Rent an ${n} (${hp} hp) in Montreal. Delivery across Montreal, Laval and the South Shore. Quick booking request, confirmed by text.`,

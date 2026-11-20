@@ -4,6 +4,14 @@ import type { Locale } from '@/lib/site';
 import type { RsModel } from '@/lib/fleet';
 import { t } from '@/lib/dict';
 
+export function Deposit({ model, locale }: { model: RsModel; locale: Locale }) {
+  return (
+    <span className="text-sm text-mute">
+      {t(locale).fleet.deposit} : {model.deposit.toLocaleString(locale === 'fr' ? 'fr-CA' : 'en-CA')} $
+    </span>
+  );
+}
+
 export function Price({ model, locale }: { model: RsModel; locale: Locale }) {
   const d = t(locale).fleet;
   if (model.dailyRate == null) return <span className="text-sm text-mute">{d.onRequest}</span>;
@@ -25,6 +33,7 @@ export function ModelVisual({ model, priority = false, sizes }: { model: RsModel
         fill
         priority={priority}
         sizes={sizes}
+        style={model.focus ? { objectPosition: model.focus } : undefined}
         className="object-cover transition duration-500 group-hover:scale-105"
       />
     );
@@ -50,6 +59,11 @@ export default function ModelCard({ model, locale }: { model: RsModel; locale: L
         <span className="absolute left-4 top-4 rounded-full bg-ink/80 px-3 py-1 text-xs text-mute backdrop-blur">
           {model.body[locale]}
         </span>
+        {model.badge && (
+          <span className="absolute right-4 top-4 rounded-full bg-rs px-3 py-1 text-xs font-bold italic text-white">
+            {model.badge[locale]}
+          </span>
+        )}
       </div>
       <div className="p-5">
         <div className="flex items-baseline justify-between gap-3">

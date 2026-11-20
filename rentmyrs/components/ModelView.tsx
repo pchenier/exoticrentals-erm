@@ -5,7 +5,7 @@ import { t } from '@/lib/dict';
 import { RS_MODELS, type RsModel } from '@/lib/fleet';
 import Header from './Header';
 import Footer from './Footer';
-import ModelCard, { ModelVisual, Price } from './ModelCard';
+import ModelCard, { Deposit, ModelVisual, Price } from './ModelCard';
 import BookingForm from './BookingForm';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
@@ -69,7 +69,10 @@ export default function ModelView({ locale, model }: { locale: Locale; model: Rs
             {model.images.length === 0 && <p className="mt-3 text-xs text-mute">{d.fleet.photoSoon}</p>}
           </div>
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-rs">{model.body[locale]}</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-rs">
+              {model.body[locale]}
+              {model.badge && ` · ${model.badge[locale]}`}
+            </p>
             <h1 className="mt-2 text-4xl font-bold tracking-tight">
               {locale === 'fr' ? `Location ${model.name} à Montréal` : `${model.name} rental in Montreal`}
             </h1>
@@ -80,7 +83,10 @@ export default function ModelView({ locale, model }: { locale: Locale; model: Rs
                 <li key={h} className="flex gap-2"><span className="text-rs">▸</span>{h}</li>
               ))}
             </ul>
-            <div className="mt-6"><Price model={model} locale={locale} /></div>
+            <div className="mt-6 flex flex-col gap-1">
+              <Price model={model} locale={locale} />
+              <Deposit model={model} locale={locale} />
+            </div>
             <a href="#reserver" className="mt-6 inline-block rounded-full bg-rs px-6 py-3 text-sm font-semibold text-white hover:bg-rs/90">
               {d.model.bookThis}
             </a>

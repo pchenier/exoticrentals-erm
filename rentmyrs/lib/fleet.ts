@@ -14,10 +14,16 @@ export type RsModel = {
   specs: { hp: number; engine: string; zeroTo100: string; seats: number; drivetrain: string };
   /** Prix par jour en CAD. null = « sur demande » tant que le prix n'est pas fixé. */
   dailyRate: number | null;
+  /** Dépôt de sécurité remboursable, en CAD. */
+  deposit: number;
+  /** Badge optionnel affiché sur la carte et la fiche (ex. Stage 2). */
+  badge?: L;
   images: string[];
+  /** Cadrage CSS (object-position) de la photo principale. */
+  focus?: string;
 };
 
-// TODO(pan) : confirmer les prix, années et photos de RS3 et RSQ8.
+// Prix et dépôts confirmés par pan le 2026-11-20. TODO : photos RSQ8 et autres photos RS3.
 export const RS_MODELS: RsModel[] = [
   {
     id: 'rs3',
@@ -35,8 +41,10 @@ export const RS_MODELS: RsModel[] = [
       en: ['2.5L turbo five-cylinder', 'quattro with RS Torque Splitter', 'The ideal first RS rental'],
     },
     specs: { hp: 401, engine: '2.5L TFSI 5 cyl.', zeroTo100: '3.8 s', seats: 5, drivetrain: 'quattro' },
-    dailyRate: null,
-    images: [],
+    dailyRate: 400,
+    deposit: 3000,
+    images: ['/cars/rs3-1.jpg'],
+    focus: '50% 72%',
   },
   {
     id: 'rs5',
@@ -54,7 +62,8 @@ export const RS_MODELS: RsModel[] = [
       en: ['2.9L twin-turbo V6', 'RS honeycomb sport seats', 'Five doors, real trunk'],
     },
     specs: { hp: 444, engine: '2.9L V6 biturbo', zeroTo100: '3.9 s', seats: 5, drivetrain: 'quattro' },
-    dailyRate: null,
+    dailyRate: 500,
+    deposit: 5000,
     images: ['/cars/rs5-1.jpg', '/cars/rs5-2.jpg', '/cars/rs5-interieur.jpg'],
   },
   {
@@ -63,17 +72,19 @@ export const RS_MODELS: RsModel[] = [
     short: 'RS7',
     slug: { fr: 'location-audi-rs7-montreal', en: 'audi-rs7-rental-montreal' },
     body: { fr: 'Sportback', en: 'Sportback' },
-    tagline: { fr: 'Le V8 biturbo qui fait tourner les têtes.', en: 'The twin-turbo V8 that turns heads.' },
+    badge: { fr: 'Stage 2', en: 'Stage 2' },
+    tagline: { fr: 'Stage 2, pops and bangs : on l’entend avant de la voir.', en: 'Stage 2 with pops and bangs: you hear it before you see it.' },
     intro: {
-      fr: "La RS7 Sportback, c'est 591 ch, un V8 biturbo de 4,0 L et une silhouette qu'on reconnaît de loin. Le choix pour un mariage, un événement corporatif ou simplement la plus belle fin de semaine de l'année.",
-      en: 'The RS7 Sportback brings 591 hp from a 4.0L twin-turbo V8 and a silhouette you spot from a block away. The pick for a wedding, a corporate event, or simply the best weekend of the year.',
+      fr: "La RS7 Sportback, c'est 591 ch d'origine (et bien plus en Stage 2), un V8 biturbo de 4,0 L et une silhouette qu'on reconnaît de loin. Le choix pour un mariage, un événement corporatif ou simplement la plus belle fin de semaine de l'année.",
+      en: 'The RS7 Sportback brings 591 stock hp (and much more in Stage 2) from a 4.0L twin-turbo V8 and a silhouette you spot from a block away. The pick for a wedding, a corporate event, or simply the best weekend of the year.',
     },
     highlights: {
-      fr: ['V8 biturbo 4,0 L', 'Direction aux 4 roues', 'Confort de grande routière'],
-      en: ['4.0L twin-turbo V8', 'All-wheel steering', 'Grand-touring comfort'],
+      fr: ['V8 biturbo 4,0 L, reprogrammé Stage 2', 'Échappement pops and bangs', 'Direction aux 4 roues'],
+      en: ['4.0L twin-turbo V8, Stage 2 tune', 'Pops and bangs exhaust', 'All-wheel steering'],
     },
     specs: { hp: 591, engine: '4.0L V8 biturbo', zeroTo100: '3.6 s', seats: 5, drivetrain: 'quattro' },
-    dailyRate: null,
+    dailyRate: 900,
+    deposit: 5000,
     images: ['/cars/rs7-1.jpg', '/cars/rs7-2.jpg', '/cars/rs7-route.jpg', '/cars/rs7-3.jpg'],
   },
   {
@@ -92,7 +103,8 @@ export const RS_MODELS: RsModel[] = [
       en: ['4.0L twin-turbo V8', 'Five seats, big trunk', 'Built for Quebec winters'],
     },
     specs: { hp: 591, engine: '4.0L V8 biturbo', zeroTo100: '3.8 s', seats: 5, drivetrain: 'quattro' },
-    dailyRate: null,
+    dailyRate: 800,
+    deposit: 5000,
     images: [],
   },
 ];

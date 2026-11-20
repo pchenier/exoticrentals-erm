@@ -20,7 +20,7 @@ export default function HomeView({ locale }: { locale: Locale }) {
     name: SITE.name,
     url: home,
     telephone: SITE.phone,
-    image: `${SITE.url}/cars/rs7-1.jpg`,
+    image: `${SITE.url}/cars/rs3-1.jpg`,
     areaServed: ['Montréal', 'Laval', 'Longueuil', 'Brossard'],
     address: { '@type': 'PostalAddress', addressLocality: 'Montréal', addressRegion: 'QC', addressCountry: 'CA' },
     sameAs: [SITE.sister.url],
@@ -43,20 +43,27 @@ export default function HomeView({ locale }: { locale: Locale }) {
       <main>
         {/* Hero */}
         <section className="relative isolate overflow-hidden">
-          <Image src="/cars/rs7-1.jpg" alt="Audi RS7 Sportback" fill priority sizes="100vw" className="-z-10 object-cover object-center opacity-55" />
-          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/60 to-ink/20" />
-          <div className="mx-auto flex min-h-[78vh] max-w-6xl flex-col justify-end px-4 pb-16 pt-32">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-rs">{d.hero.kicker}</p>
-            <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl">{d.hero.title}</h1>
-            <p className="mt-5 max-w-xl text-base text-paper/80 sm:text-lg">{d.hero.sub}</p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <a href="#reserver" className="rounded-full bg-rs px-6 py-3 text-sm font-semibold text-white hover:bg-rs/90">{d.hero.cta}</a>
-              <a href="#rs" className="rounded-full border border-paper/30 px-6 py-3 text-sm font-semibold hover:border-paper">{d.hero.cta2}</a>
+          {/* Mobile : photo plein écran. Desktop : texte à gauche, photo verticale à droite. */}
+          <Image src="/cars/rs3-1.jpg" alt={locale === 'fr' ? 'Audi RS3 dans la neige' : 'Audi RS3 in the snow'} fill priority sizes="100vw" className="-z-10 object-cover object-[50%_70%] opacity-60 lg:hidden" />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/55 to-ink/10 lg:hidden" />
+          <div className="mx-auto grid min-h-[80vh] max-w-6xl items-center gap-12 px-4 pb-16 pt-32 lg:min-h-0 lg:grid-cols-[1.15fr_1fr] lg:py-16">
+            <div className="self-end lg:self-center">
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-rs">{d.hero.kicker}</p>
+              <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl">{d.hero.title}</h1>
+              <p className="mt-5 max-w-xl text-base text-paper/80 sm:text-lg">{d.hero.sub}</p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a href="#reserver" className="rounded-full bg-rs px-6 py-3 text-sm font-semibold text-white hover:bg-rs/90">{d.hero.cta}</a>
+                <a href="#rs" className="rounded-full border border-paper/30 px-6 py-3 text-sm font-semibold hover:border-paper">{d.hero.cta2}</a>
+              </div>
+              <div className="mt-12 flex flex-wrap gap-x-8 gap-y-2 text-sm text-mute">
+                {RS_MODELS.map((m) => (
+                  <span key={m.id}><span className="font-semibold text-paper">{m.short}</span> · {money(m.dailyRate ?? 0)} ${d.fleet.perDay}</span>
+                ))}
+              </div>
             </div>
-            <div className="mt-12 flex flex-wrap gap-x-8 gap-y-2 text-sm text-mute">
-              {RS_MODELS.map((m) => (
-                <span key={m.id}><span className="font-semibold text-paper">{m.short}</span> · {m.specs.hp} {d.fleet.hp}</span>
-              ))}
+            <div className="relative hidden aspect-[2/3] max-h-[78vh] w-full justify-self-end overflow-hidden rounded-3xl border border-line lg:block">
+              <Image src="/cars/rs3-1.jpg" alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'} fill priority sizes="40vw" className="object-cover" />
+              <div className="rs-stripe absolute bottom-0 left-0 h-1.5 w-full" />
             </div>
           </div>
         </section>
