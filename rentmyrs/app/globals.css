@@ -43,5 +43,5 @@ h1, h2, h3, .label, .wide { font-stretch: 125%; }
 }
 @keyframes snowfall {
   from { transform: translate3d(0, -10px, 0); }
-  to { transform: translate3d(var(--drift, 0px), 105svh, 0); }
+  to { transform: translate3d(var(--drift, 0px), 80svh, 0); }
 }
