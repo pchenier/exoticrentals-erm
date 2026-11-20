@@ -39,11 +39,17 @@ export async function PUT(req: Request) {
   const images = Array.isArray(body.images)
     ? body.images.filter((u): u is string => typeof u === 'string' && /^(https:\/\/|\/cars\/)/.test(u)).slice(0, 12)
     : null;
+  const txt = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice(0, max) : '');
+  const t = (body.texts ?? {}) as Record<string, Record<string, unknown> | undefined>;
+  const texts = {
+    tagline: { fr: txt(t.tagline?.fr, 160), en: txt(t.tagline?.en, 160) },
+    intro: { fr: txt(t.intro?.fr, 2000), en: txt(t.intro?.en, 2000) },
+  };
   if (!model || Number.isNaN(dailyRate) || Number.isNaN(deposit) || !isStatus(body.status)) {
     return NextResponse.json({ error: 'Champs invalides' }, { status: 400 });
   }
   try {
-    await writeOverride({ id: model.id, daily_rate: dailyRate, deposit, status: body.status, images });
+    await writeOverride({ id: model.id, daily_rate: dailyRate, deposit, status: body.status, images, texts });
   } catch (e) {
     return NextResponse.json({ error: e instanceof Error ? e.message : 'Erreur base de données' }, { status: 503 });
   }
