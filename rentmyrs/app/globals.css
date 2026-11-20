@@ -28,3 +28,20 @@ input, select, textarea { color-scheme: dark; border-radius: 0; }
 
 /* Titres et étiquettes en version large, comme les sites RS. */
 h1, h2, h3, .label, .wide { font-stretch: 125%; }
+
+/* Flocons de l'accueil */
+.snowflake {
+  position: absolute;
+  top: -10px;
+  border-radius: 9999px;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.35);
+  will-change: transform;
+  animation-name: snowfall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes snowfall {
+  from { transform: translate3d(0, -10px, 0); }
+  to { transform: translate3d(var(--drift, 0px), 105svh, 0); }
+}
