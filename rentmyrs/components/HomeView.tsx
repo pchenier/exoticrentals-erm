@@ -8,6 +8,7 @@ import Footer from './Footer';
 import ModelRow, { money, modelHref } from './ModelCard';
 import BookingForm from './BookingForm';
 import ContactFloat from './ContactFloat';
+import Snow from './Snow';
 import JsonLd from './JsonLd';
 import { Btn } from './ui';
 
@@ -46,29 +47,39 @@ export default async function HomeView({ locale }: { locale: Locale }) {
       <JsonLd data={faq} />
       <Header locale={locale} />
       <main>
-        {/* Hero : photo plein écran sur cellulaire, moitié droite pleine hauteur sur ordi. */}
-        <section className="relative isolate grid min-h-[100svh] lg:grid-cols-2">
-          <div className="absolute inset-0 -z-10 lg:relative lg:order-2 lg:z-0 lg:min-h-[100svh]">
-            <Image
-              src="/cars/rs3-1.jpg"
-              alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'}
-              fill
-              priority
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover object-[50%_70%]"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/30 lg:bg-gradient-to-r lg:from-black lg:via-black/0 lg:to-black/0" />
-          </div>
-          <div className="flex flex-col justify-end px-4 pb-24 pt-32 sm:px-8 lg:justify-center lg:px-16 lg:pb-16">
-            <p className="label text-paper/70">{d.hero.kicker}</p>
-            <h1 className="mt-6 text-[2.6rem] font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
-              {d.hero.title}
-            </h1>
-            <div className="rule mt-8" />
-            <p className="mt-6 max-w-md text-base font-light leading-relaxed text-paper/80 sm:text-lg">{d.hero.sub}</p>
-            <div className="mt-10 flex flex-wrap gap-3">
-              <Btn href="#reserver">{d.hero.cta}</Btn>
-              <Btn href="#rs" variant="ghost">{d.hero.cta2}</Btn>
+        {/* Hero : seulement la photo, plein écran, recadrée (jamais étirée) autour de l'auto, avec des flocons. */}
+        <section className="relative isolate h-[100svh] min-h-[520px] overflow-hidden">
+          <Image
+            src="/cars/rs3-1.jpg"
+            alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'}
+            fill
+            priority
+            sizes="100vw"
+            className="-z-10 object-cover object-[50%_72%]"
+          />
+          <div className="absolute inset-x-0 top-0 -z-10 h-32 bg-gradient-to-b from-black/60 to-transparent" />
+          <Snow />
+          <a href="#intro" aria-label={locale === 'fr' ? 'Défiler' : 'Scroll'} className="absolute bottom-8 left-1/2 -translate-x-1/2 text-2xl text-paper/80 transition hover:text-paper">
+            ↓
+          </a>
+        </section>
+
+        {/* Titre et appel à l'action, sous la photo */}
+        <section id="intro" className="scroll-mt-16">
+          <div className="mx-auto grid max-w-[1440px] gap-10 px-4 py-20 sm:px-8 lg:grid-cols-[1.3fr_1fr] lg:items-end lg:px-16">
+            <div>
+              <p className="label text-paper/70">{d.hero.kicker}</p>
+              <h1 className="mt-6 text-[2.6rem] font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
+                {d.hero.title}
+              </h1>
+              <div className="rule mt-8" />
+            </div>
+            <div>
+              <p className="max-w-md text-base font-light leading-relaxed text-paper/80 sm:text-lg">{d.hero.sub}</p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Btn href="#reserver">{d.hero.cta}</Btn>
+                <Btn href="#rs" variant="ghost">{d.hero.cta2}</Btn>
+              </div>
             </div>
           </div>
         </section>
