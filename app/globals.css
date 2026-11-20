@@ -164,7 +164,3 @@ img { max-width: 100%; display: block; }
     inset 0 -2px 6px rgba(0, 0, 0, 0.7),
     0 6px 16px rgba(0, 0, 0, 0.45);
 }
-/* Winter theme — holiday light twinkle (see lib/seasonal.ts to turn off) */
-@keyframes erm-twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
-.erm-twinkle { animation: erm-twinkle 2.4s ease-in-out infinite; }
-@media (prefers-reduced-motion: reduce) { .erm-twinkle { animation: none; } }

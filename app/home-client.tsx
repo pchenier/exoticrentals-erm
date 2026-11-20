@@ -10,7 +10,6 @@ import VehicleCard from "@/components/VehicleCard";
 import BookingModal from "@/components/BookingModal";
 import { Star, ChevronDown, ArrowRight } from "lucide-react";
 import Snowfall from "@/components/winter/Snowfall";
-import Garland from "@/components/winter/Garland";
 
 export default function HomeClient({ initialVehicles, winter = false }: { initialVehicles: Vehicle[]; winter?: boolean }) {
   const [openFaq, setOpenFaq] = useState<string | null>(null);
@@ -52,12 +51,7 @@ export default function HomeClient({ initialVehicles, winter = false }: { initia
           <img src="/hero-bg.jpg" alt="Montreal exotic cars" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-obsidian via-obsidian/60 to-transparent" />
         </div>
-        {winter && (
-          <>
-            <Snowfall className="absolute inset-0 w-full h-full z-[1]" />
-            <Garland className="absolute top-16 md:top-20 inset-x-0 z-[2]" />
-          </>
-        )}
+        {winter && <Snowfall className="absolute inset-0 w-full h-full z-[1]" />}
         <div className="relative z-10 px-6 lg:px-10 max-w-2xl">
           <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.1 }} style={{ willChange: "transform, opacity" }}>
             <div className="text-[10px] md:text-xs font-display font-bold tracking-[0.3em] text-champagne mb-3 md:mb-4">MONTREAL · QUEBEC</div>
