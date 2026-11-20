@@ -148,6 +148,8 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
   const [deposit, setDeposit] = useState(model.deposit.toString());
   const [status, setStatus] = useState<VehicleStatus>(model.status ?? 'available');
   const [images, setImages] = useState<string[]>(model.images);
+  const [videos, setVideos] = useState<string[]>(model.videos ?? []);
+  const [progress, setProgress] = useState<number | null>(null);
   const [texts, setTexts] = useState({ tagline: { ...model.tagline }, intro: { ...model.intro } });
   const setText = (k: 'tagline' | 'intro', l: 'fr' | 'en', v: string) => setTexts((c) => ({ ...c, [k]: { ...c[k], [l]: v } }));
   const [busy, setBusy] = useState(false);
@@ -172,13 +174,45 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
     if (added.length) await savePhotos([...images, ...added]);
   }
 
-  async function save(nextImages = images) {
+  async function uploadVideos(files: FileList | null) {
+    if (!files?.length) return;
+    setBusy(true);
+    setMsg('');
+    const added: string[] = [];
+    const { upload: blobUpload } = await import('@vercel/blob/client');
+    for (const f of Array.from(files)) {
+      try {
+        setProgress(0);
+        const b = await blobUpload(`rentmyrs/videos/${model.id}/${f.name.replace(/[^a-zA-Z0-9._-]/g, '_')}`, f, {
+          access: 'public',
+          handleUploadUrl: '/api/admin/upload-video',
+          multipart: f.size > 20 * 1024 * 1024,
+          onUploadProgress: (e) => setProgress(Math.round(e.percentage)),
+        });
+        added.push(b.url);
+      } catch (e) {
+        setMsg(`Échec de la vidéo : ${e instanceof Error ? e.message : 'erreur'} (MP4, MOV ou WebM, 500 Mo max)`);
+      }
+    }
+    setProgress(null);
+    setBusy(false);
+    if (added.length) await saveVideos([...videos, ...added]);
+  }
+
+  async function saveVideos(next: string[]) {
+    const prev = videos;
+    setVideos(next);
+    if (!canSave) return;
+    if (!(await save(images, next))) setVideos(prev);
+  }
+
+  async function save(nextImages = images, nextVideos = videos) {
     setBusy(true);
     setMsg('');
     const r = await fetch('/api/admin/fleet', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images: nextImages, texts }),
+      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images: nextImages, videos: nextVideos, texts }),
     });
     const d = await r.json().catch(() => ({}));
     setBusy(false);
@@ -263,6 +297,24 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
           <label className="flex aspect-[4/3] cursor-pointer items-center justify-center border border-dashed border-line text-sm text-mute hover:border-paper hover:text-paper">
             {busy ? '…' : '+ Ajouter'}
             <input type="file" accept="image/jpeg,image/png,image/webp,image/avif" multiple hidden onChange={(e) => upload(e.target.files)} />
+          </label>
+        </div>
+      </div>
+
+      <div className="mt-5">
+        <p className="label text-mute">Vidéos (MP4, MOV ou WebM, 500 Mo max)</p>
+        <div className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
+          {videos.map((src) => (
+            <div key={src} className="relative aspect-video overflow-hidden border border-line bg-black">
+              <video src={src} muted playsInline preload="metadata" className="h-full w-full object-cover" />
+              <div className="absolute inset-x-0 bottom-0 flex justify-center bg-black/70 p-1 text-xs">
+                <button type="button" onClick={() => saveVideos(videos.filter((x) => x !== src))} className="px-2 hover:text-rs">Retirer</button>
+              </div>
+            </div>
+          ))}
+          <label className="flex aspect-video cursor-pointer items-center justify-center border border-dashed border-line text-sm text-mute hover:border-paper hover:text-paper">
+            {progress != null ? `${progress} %` : busy ? '…' : '+ Ajouter une vidéo'}
+            <input type="file" accept="video/mp4,video/quicktime,video/webm" multiple hidden onChange={(e) => uploadVideos(e.target.files)} />
           </label>
         </div>
       </div>

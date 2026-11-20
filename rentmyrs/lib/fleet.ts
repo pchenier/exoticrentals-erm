@@ -19,6 +19,8 @@ export type RsModel = {
   /** Badge optionnel affiché sur la carte et la fiche (ex. Stage 2). */
   badge?: L;
   images: string[];
+  /** Vidéos (URLs Vercel Blob), ajoutées dans /admin. */
+  videos?: string[];
   /** Cadrage CSS (object-position) de la photo principale. */
   focus?: string;
   /** Disponibilité, modifiable dans /admin. */

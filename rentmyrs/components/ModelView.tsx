@@ -116,6 +116,15 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
           </section>
         )}
 
+        {/* Vidéos ajoutées dans /admin */}
+        {model.videos && model.videos.length > 0 && (
+          <section className={`grid gap-px bg-line ${model.videos.length > 1 ? 'sm:grid-cols-2' : ''}`}>
+            {model.videos.map((src) => (
+              <video key={src} src={src} controls playsInline preload="metadata" className="aspect-video w-full bg-black object-cover" />
+            ))}
+          </section>
+        )}
+
         {/* Fiche technique */}
         <section className={`${wrap} py-24`}>
           <h2 className="label text-mute">{d.model.specs}</h2>
