@@ -87,3 +87,49 @@ export default function ModelRow({ model, locale, flip = false }: { model: RsMod
     </article>
   );
 }
+
+/** Carte compacte pour la grille de l'accueil : photo entière en haut, infos en dessous. */
+export function ModelTile({ model, locale }: { model: RsModel; locale: Locale }) {
+  const d = t(locale);
+  const href = modelHref(model, locale);
+  return (
+    <article className="group flex flex-col border border-line bg-ink transition duration-300 hover:-translate-y-1 hover:border-paper/30">
+      <Link href={href} className="relative block aspect-[3/2] overflow-hidden bg-black">
+        <ModelVisual model={model} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" />
+        <div className="absolute left-3 top-3 flex gap-2">
+          <Badge model={model} locale={locale} />
+          <StatusTag model={model} locale={locale} />
+        </div>
+      </Link>
+      <div className="flex flex-1 flex-col p-5 sm:p-6">
+        <p className="label text-mute">{model.body[locale]}</p>
+        <h3 className="mt-2 wide text-3xl font-bold leading-none tracking-tight">
+          <Link href={href}><RsMark name={model.short} /></Link>
+        </h3>
+        <p className="mt-3 text-sm font-light text-paper/75">{model.tagline[locale]}</p>
+        <dl className="mt-5 grid grid-cols-2 gap-4 border-t border-line pt-4 text-sm">
+          <div>
+            <dt className="label text-[10px] text-mute">{d.model.power.split(' (')[0]}</dt>
+            <dd className="mt-1 font-light">{model.specs.hp} {d.fleet.hp}</dd>
+          </div>
+          <div>
+            <dt className="label text-[10px] text-mute">0-100 km/h</dt>
+            <dd className="mt-1 font-light">{accel(model, locale)} s</dd>
+          </div>
+        </dl>
+        <div className="mt-auto flex items-end justify-between gap-4 pt-6">
+          <p>
+            <span className="text-2xl font-light tracking-tight">
+              {model.dailyRate != null ? `${money(model.dailyRate, locale)} $` : '—'}
+            </span>
+            <span className="label ml-1 text-[10px] text-mute">{model.dailyRate != null ? d.fleet.perDay : d.fleet.onRequest}</span>
+          </p>
+          <Link href={href} className="label inline-flex items-center gap-2 text-paper transition group-hover:text-rs">
+            {d.fleet.details}
+            <span aria-hidden className="transition-transform group-hover:translate-x-1">→</span>
+          </Link>
+        </div>
+      </div>
+    </article>
+  );
+}
