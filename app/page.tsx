@@ -1,5 +1,6 @@
 import { getAllVehiclesLive } from "@/lib/vehicle-store";
 import HomeClient from "./home-client";
+import { isWinterThemeActive } from "@/lib/seasonal";
 import { unstable_noStore as noStore } from "next/cache";
 import type { Metadata } from "next";
 
@@ -25,5 +26,5 @@ export async function generateMetadata({
 export default async function HomePage() {
   noStore();
   const liveVehicles = await getAllVehiclesLive();
-  return <HomeClient initialVehicles={liveVehicles} />;
+  return <HomeClient initialVehicles={liveVehicles} winter={isWinterThemeActive()} />;
 }
