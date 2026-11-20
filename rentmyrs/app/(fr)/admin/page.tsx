@@ -77,7 +77,7 @@ export default function AdminPage() {
   return (
     <Shell
       right={
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           {(['fleet', 'bookings'] as const).map((k) => (
             <button key={k} onClick={() => setTab(k)} className={tab === k ? btnSolid : btn}>
               {k === 'fleet' ? 'Flotte' : 'Réservations'}
@@ -87,6 +87,7 @@ export default function AdminPage() {
         </div>
       }
     >
+      <PushPanel />
       {tab === 'fleet' ? <FleetTab /> : <BookingsTab />}
     </Shell>
   );
@@ -260,6 +261,7 @@ type Booking = {
   vehicle: string | null;
   start_date: string;
   end_date: string;
+  estimate: string | null;
   message: string | null;
   created_at: string;
 };
@@ -311,11 +313,132 @@ function BookingsTab() {
             <span><span className="label text-mute">Véhicule </span>{(b.vehicle || '—').replace('[RentMyRS] ', '')}</span>
             <span><span className="label text-mute">Début </span>{day(b.start_date)}</span>
             <span><span className="label text-mute">Retour </span>{day(b.end_date)}</span>
+            {b.estimate && <span><span className="label text-mute">Estimé </span>{Number(b.estimate).toLocaleString('fr-CA')} $</span>}
           </div>
           {b.message && <p className="mt-3 border-t border-line pt-3 text-sm text-mute">{b.message}</p>}
           <p className="mt-2 text-xs text-mute/60">Reçue le {new Date(b.created_at).toLocaleString('fr-CA')}</p>
         </article>
       ))}
     </div>
+  );
+}
+
+// ── Notifications push ─────────────────────────────────────────────────
+
+function urlB64ToUint8Array(b64: string) {
+  const pad = '='.repeat((4 - (b64.length % 4)) % 4);
+  const raw = atob((b64 + pad).replace(/-/g, '+').replace(/_/g, '/'));
+  return Uint8Array.from(raw, (c) => c.charCodeAt(0));
+}
+
+function PushPanel() {
+  const [info, setInfo] = useState<{ publicKey: string | null; devices: number; dbConfigured: boolean } | null>(null);
+  const [support, setSupport] = useState<'ok' | 'ios-browser' | 'none'>('ok');
+  const [subscribed, setSubscribed] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [msg, setMsg] = useState('');
+
+  const load = useCallback(async () => {
+    const r = await fetch('/api/admin/push', { cache: 'no-store' });
+    if (r.ok) setInfo(await r.json());
+    if ('serviceWorker' in navigator) {
+      const reg = await navigator.serviceWorker.getRegistration('/');
+      const sub = await reg?.pushManager?.getSubscription();
+      setSubscribed(!!sub && Notification.permission === 'granted');
+    }
+  }, []);
+
+  useEffect(() => {
+    const ios = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    const standalone = window.matchMedia('(display-mode: standalone)').matches || (navigator as { standalone?: boolean }).standalone;
+    if (!('serviceWorker' in navigator) || !('PushManager' in window) || !('Notification' in window)) {
+      setSupport(ios && !standalone ? 'ios-browser' : 'none');
+    }
+    load();
+  }, [load]);
+
+  async function enable() {
+    if (!info?.publicKey) return;
+    setBusy(true);
+    setMsg('');
+    try {
+      const perm = await Notification.requestPermission();
+      if (perm !== 'granted') throw new Error('Notifications refusées dans les réglages du téléphone.');
+      const reg = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+      await navigator.serviceWorker.ready;
+      const sub =
+        (await reg.pushManager.getSubscription()) ??
+        (await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: urlB64ToUint8Array(info.publicKey) }));
+      const label = /iPhone/.test(navigator.userAgent) ? 'iPhone' : /Android/.test(navigator.userAgent) ? 'Android' : 'Ordinateur';
+      const r = await fetch('/api/admin/push', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ subscription: sub.toJSON(), label }),
+      });
+      if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || `HTTP ${r.status}`);
+      setMsg('Activé sur cet appareil.');
+      await load();
+    } catch (e) {
+      setMsg(e instanceof Error ? e.message : 'Erreur');
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function disable() {
+    setBusy(true);
+    const reg = await navigator.serviceWorker.getRegistration('/');
+    const sub = await reg?.pushManager.getSubscription();
+    if (sub) {
+      await fetch('/api/admin/push', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ endpoint: sub.endpoint }) });
+      await sub.unsubscribe();
+    }
+    setMsg('Désactivé sur cet appareil.');
+    await load();
+    setBusy(false);
+  }
+
+  async function test() {
+    setBusy(true);
+    const r = await fetch('/api/admin/push', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ test: true }) });
+    const d = await r.json().catch(() => ({}));
+    setMsg(d.sent ? `Test envoyé à ${d.sent} appareil${d.sent > 1 ? 's' : ''}.` : 'Aucun appareil n’a reçu le test.');
+    setBusy(false);
+  }
+
+  if (!info) return null;
+
+  return (
+    <section className="mb-8 flex flex-col gap-3 border border-line bg-panel p-4 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <p className="label">Notifications sur ton téléphone</p>
+        <p className="mt-1 text-sm text-mute">
+          {!info.dbConfigured
+            ? 'Ajoute POSTGRES_URL dans Vercel pour activer les notifications.'
+            : !info.publicKey
+              ? 'Notifications indisponibles pour le moment (voir les logs Vercel).'
+              : support === 'ios-browser'
+                ? 'Sur iPhone : touche Partager, puis « Sur l’écran d’accueil ». Ouvre l’admin depuis l’icône et reviens ici.'
+                : support === 'none'
+                  ? 'Ce navigateur ne gère pas les notifications.'
+                  : subscribed
+                    ? `Actif sur cet appareil · ${info.devices} appareil${info.devices > 1 ? 's' : ''} inscrit${info.devices > 1 ? 's' : ''}.`
+                    : `Une alerte à chaque nouvelle demande · ${info.devices} appareil${info.devices > 1 ? 's' : ''} inscrit${info.devices > 1 ? 's' : ''}.`}
+        </p>
+        {msg && <p className="mt-1 text-sm text-paper">{msg}</p>}
+      </div>
+      {info.publicKey && info.dbConfigured && support === 'ok' && (
+        <div className="flex gap-2">
+          {subscribed ? (
+            <>
+              <button onClick={test} disabled={busy} className={btn}>Tester</button>
+              <button onClick={disable} disabled={busy} className={`${btn} text-mute`}>Désactiver</button>
+            </>
+          ) : (
+            <button onClick={enable} disabled={busy} className={btnSolid}>Activer</button>
+          )}
+        </div>
+      )}
+    </section>
   );
 }

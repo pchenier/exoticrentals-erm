@@ -11,7 +11,7 @@ export async function GET(req: Request) {
   const sql = db();
   if (!sql) return NextResponse.json({ error: 'POSTGRES_URL non configurée' }, { status: 503 });
   const rows = await sql`
-    SELECT id, name, phone, email, vehicle, start_date, end_date, message, created_at
+    SELECT id, name, phone, email, vehicle, start_date, end_date, estimate, message, created_at
     FROM booking_requests
     WHERE vehicle LIKE '[RentMyRS]%'
     ORDER BY created_at DESC
