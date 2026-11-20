@@ -130,7 +130,7 @@ export default async function VehicleDetailPage({ params }: Props) {
 
               {/* CTA */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <BookButton vehicleName={`${vehicle.make} ${vehicle.model}`} vehicleId={vehicle.id} />
+                <BookButton vehicleName={`${vehicle.make} ${vehicle.model}`} vehicleId={vehicle.id} status={vehicle.status} />
                 <a href={"https://wa.me/14388094417?text=" + encodeURIComponent("Hi, I'm interested in the " + vehicle.make + " " + vehicle.model)} target="_blank" rel="noopener noreferrer" className="flex-1 py-4 border border-silver text-silver text-center font-display tracking-[0.15em] hover:border-champagne hover:text-champagne transition-colors">
                   WHATSAPP CONCIERGE
                 </a>
@@ -189,7 +189,7 @@ export default async function VehicleDetailPage({ params }: Props) {
               "@type": "Offer",
               price: vehicle.dailyRate,
               priceCurrency: "CAD",
-              availability: vehicle.available
+              availability: vehicle.available && (!vehicle.status || vehicle.status === "available")
                 ? "https://schema.org/InStock"
                 : "https://schema.org/OutOfStock",
               url: `https://www.exoticrentalsmontreal.com/fleet/${vehicle.slug}`,

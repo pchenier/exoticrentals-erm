@@ -1,18 +1,14 @@
 import { sql } from '@/lib/db';
 import { NextResponse } from 'next/server';
+import { isAdmin } from '@/lib/admin-auth';
 
 export const dynamic = 'force-dynamic';
 
-// ADMIN_PASSWORD env var is EMPTY on this project (Vercel) — the admin page
-// hardcodes the fallback "1666777", so this route must accept the same value.
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '1666777';
 
 // Admin Bookings tab: lists booking_requests (web form submissions, save-first
-// pipeline since Sept 26). Password-gated like the rest of the admin routes.
+// pipeline since Sept 26). Session-cookie-gated like the rest of the admin routes.
 export async function GET(req: Request) {
-  const url = new URL(req.url);
-  const password = url.searchParams.get('password') || '';
-  if (password !== ADMIN_PASSWORD) {
+  if (!(await isAdmin(req))) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
   const { rows } = await sql`
@@ -26,9 +22,8 @@ export async function GET(req: Request) {
 
 export async function DELETE(req: Request) {
   const url = new URL(req.url);
-  const password = url.searchParams.get('password') || '';
   const id = url.searchParams.get('id') || '';
-  if (password !== ADMIN_PASSWORD || !id) {
+  if (!(await isAdmin(req)) || !id) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
   const result = await sql`

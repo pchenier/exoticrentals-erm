@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { list, del } from '@vercel/blob';
+import { requireAdmin } from '@/lib/admin-auth';
 
 export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
@@ -28,6 +29,9 @@ const STATIC_ROOT_PHOTOS = [
 const STATIC_PHOTOS = [...STATIC_CARS_PHOTOS, ...STATIC_ROOT_PHOTOS];
 
 export async function DELETE(request: Request) {
+  const denied = await requireAdmin(request);
+  if (denied) return denied;
+
   try {
     const { url } = await request.json() as { url: string };
     if (!url || !url.startsWith('https://')) {
