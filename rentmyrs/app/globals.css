@@ -88,3 +88,11 @@ h1, h2, h3, .label, .wide { font-stretch: 125%; }
   background: var(--color-rs);
   clip-path: polygon(28% 0, 100% 0, 72% 100%, 0 100%);
 }
+
+/* Hero de l'accueil sur grand écran : bords de la photo fondus dans le fond flouté. */
+@media (min-width: 1024px) {
+  .hero-fade {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 14%, #000 86%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 14%, #000 86%, transparent);
+  }
+}

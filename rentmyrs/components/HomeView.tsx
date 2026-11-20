@@ -35,21 +35,25 @@ export default async function HomeView({ locale }: { locale: Locale }) {
         {/* Hero : RS3 de face plein écran (même mise en page que la page RS3), titre et boutons par-dessus, flocons. */}
         <section className="relative isolate flex min-h-[88svh] items-end overflow-hidden">
           <div className="absolute inset-0 -z-10">
-            <Image
-              src="/cars/rs3-front.jpg"
-              alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'}
-              fill
-              priority
-              sizes="100vw"
-              quality={90}
-              className="object-cover object-[50%_40%]"
-            />
+            {/* Grand écran : la photo entière (dézoomée), la même photo floutée remplit les côtés. */}
+            <Image src="/cars/rs3-front.jpg" alt="" aria-hidden fill sizes="30vw" quality={75} className="hidden scale-110 object-cover opacity-50 blur-2xl lg:block" />
+            <div className="hero-fade absolute inset-0 lg:left-1/2 lg:right-auto lg:aspect-[3/2] lg:-translate-x-1/2">
+              <Image
+                src="/cars/rs3-front.jpg"
+                alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'}
+                fill
+                priority
+                sizes="100vw"
+                quality={90}
+                className="object-cover object-[50%_40%]"
+              />
+            </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/40" />
             <Snow />
           </div>
           <div className="w-full px-4 pb-14 pt-32 sm:px-6 lg:px-8">
             <p className="label text-paper/80">{d.hero.kicker}</p>
-            <h1 className="mt-4 max-w-4xl text-[2.6rem] font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
+            <h1 className="mt-4 max-w-4xl text-[1.9rem] font-bold min-[400px]:text-[2.2rem] uppercase leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
               {d.hero.title}
             </h1>
             <p className="mt-6 max-w-xl text-base font-light leading-relaxed text-paper/85 sm:text-lg">{d.hero.sub}</p>
