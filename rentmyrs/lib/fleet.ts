@@ -21,6 +21,8 @@ export type RsModel = {
   images: string[];
   /** Vidéos (URLs Vercel Blob), ajoutées dans /admin. */
   videos?: string[];
+  /** Cadrage par photo (URL → "x% y%"), réglé dans /admin. */
+  focuses?: Record<string, string>;
   /** Cadrage CSS (object-position) de la photo principale. */
   focus?: string;
   /** Disponibilité, modifiable dans /admin. */
