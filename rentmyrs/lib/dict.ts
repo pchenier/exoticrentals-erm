@@ -56,8 +56,8 @@ export const DICT = {
     model: {
       back: 'Toutes les RS', specs: 'Fiche technique', power: 'Puissance (origine)', engine: 'Moteur', accel: '0-100 km/h', seats: 'Places', drive: 'Traction',
       bookThis: 'Réserver cette RS', others: 'Les autres RS',
-      metaTitle: (n: string) => `Location ${n} Montréal | RentMyRS`,
-      metaDesc: (n: string, hp: number) => `Loue une ${n} (${hp} ch) à Montréal. Livraison à Montréal, Laval et Rive-Sud. Demande de réservation rapide, confirmée par texto.`,
+      metaTitle: (n: string, price?: number | null) => `Location ${n} Montréal${price ? ` dès ${price} $/jour` : ''} | RentMyRS`,
+      metaDesc: (n: string, hp: number, price?: number | null, deposit?: number) => `Loue une ${n} (${hp} ch) à Montréal${price ? ` pour ${price} $/jour` : ''}${deposit ? `, dépôt remboursable ${deposit.toLocaleString('fr-CA')} $` : ''}. Livraison à Montréal, Laval, Rive-Sud et YUL. Demande rapide, confirmée par texto.`,
     },
   },
   en: {
@@ -115,8 +115,8 @@ export const DICT = {
     model: {
       back: 'All RS models', specs: 'Specifications', power: 'Power (stock)', engine: 'Engine', accel: '0-100 km/h', seats: 'Seats', drive: 'Drivetrain',
       bookThis: 'Book this RS', others: 'Other RS models',
-      metaTitle: (n: string) => `${n} Rental Montreal | RentMyRS`,
-      metaDesc: (n: string, hp: number) => `Rent an ${n} (${hp} hp) in Montreal. Delivery across Montreal, Laval and the South Shore. Quick booking request, confirmed by text.`,
+      metaTitle: (n: string, price?: number | null) => `${n} Rental Montreal${price ? ` from $${price}/day` : ''} | RentMyRS`,
+      metaDesc: (n: string, hp: number, price?: number | null, deposit?: number) => `Rent an ${n} (${hp} hp) in Montreal${price ? ` for $${price}/day` : ''}${deposit ? `, $${deposit.toLocaleString('en-CA')} refundable deposit` : ''}. Delivery across Montreal, Laval, the South Shore and YUL. Quick request, confirmed by text.`,
     },
   },
 } as const;

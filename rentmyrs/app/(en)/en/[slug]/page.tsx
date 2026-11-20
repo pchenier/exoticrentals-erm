@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props) {
   const d = t('en').model;
   return pageMeta({
     locale: 'en',
-    title: d.metaTitle(m.name),
-    description: d.metaDesc(m.name, m.specs.hp),
+    title: d.metaTitle(m.name, m.dailyRate),
+    description: d.metaDesc(m.name, m.specs.hp, m.dailyRate, m.deposit),
     path: { fr: `/${m.slug.fr}`, en: `/en/${m.slug.en}` },
     image: m.images[0],
   });
