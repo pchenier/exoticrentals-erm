@@ -6,6 +6,7 @@ import { SITE, waUrl, type Locale } from '@/lib/site';
 import type { RsModel } from '@/lib/fleet';
 import { t } from '@/lib/dict';
 import { HazardBand, RsMark } from './ui';
+import DateRangeCalendar from './DateRangeCalendar';
 
 const field =
   'w-full border-0 border-b border-line bg-transparent px-0 py-3 text-base font-light normal-case tracking-normal text-paper [font-stretch:100%] outline-none transition focus:border-paper';
@@ -17,7 +18,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
   const d = t(locale).booking;
   const f = t(locale).fleet;
   const [state, setState] = useState<'idle' | 'sending' | 'ok' | 'err'>('idle');
-  const today = new Date().toISOString().slice(0, 10);
+  const [dateErr, setDateErr] = useState(false);
   const [vehicle, setVehicle] = useState(defaultModel ?? '');
   const [start, setStart] = useState('');
   const [end, setEnd] = useState('');
@@ -32,6 +33,10 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (!start || !end) {
+      setDateErr(true);
+      return;
+    }
     setState('sending');
     const data = Object.fromEntries(new FormData(e.currentTarget).entries());
     try {
@@ -109,16 +114,12 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
       </fieldset>
 
       {/* 2. Dates */}
-      <fieldset className="grid gap-x-8 gap-y-6 sm:grid-cols-2">
-        <legend className="label mb-4 text-mute">02 · {locale === 'fr' ? 'Dates' : 'Dates'}</legend>
-        <label className="label grid gap-1 text-mute">
-          {d.start}
-          <input name="startDate" type="date" required min={today} value={start} onChange={(e) => setStart(e.target.value)} className={field} />
-        </label>
-        <label className="label grid gap-1 text-mute">
-          {d.end}
-          <input name="endDate" type="date" required min={start || today} value={end} onChange={(e) => setEnd(e.target.value)} className={field} />
-        </label>
+      <fieldset>
+        <legend className="label mb-4 text-mute">02 · Dates</legend>
+        <DateRangeCalendar locale={locale} start={start} end={end} onChange={(a, b) => { setStart(a); setEnd(b); setDateErr(false); }} />
+        <input type="hidden" name="startDate" value={start} />
+        <input type="hidden" name="endDate" value={end} />
+        {dateErr && <p className="mt-2 text-sm text-rs">{locale === 'fr' ? 'Choisis tes dates de départ et de retour.' : 'Pick your start and return dates.'}</p>}
       </fieldset>
 
       {/* Récapitulatif */}
