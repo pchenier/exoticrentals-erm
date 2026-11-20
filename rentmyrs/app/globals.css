@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0a0a0b;
+  --color-panel: #141416;
+  --color-line: #26262a;
+  --color-mute: #9a9aa3;
+  --color-paper: #f4f4f5;
+  --color-rs: #e4002b;
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-ink); color: var(--color-paper); }
+
+/* Bande diagonale signature, utilisée comme séparateur. */
+.rs-stripe {
+  background: repeating-linear-gradient(-60deg, var(--color-rs) 0 6px, transparent 6px 12px);
+}
+
+input, select, textarea { color-scheme: dark; }
