@@ -28,6 +28,7 @@ export async function GET() {
     '- Contact: phone / text / WhatsApp +1 438-809-4417, contact@exoticrentalsmontreal.com.',
     '- Requirements: minimum age 25 for most vehicles, valid driver’s licence, proof of insurance, major credit card in the renter’s name, refundable security deposit (amount varies by vehicle).',
     '- Booking: request on the website, by phone or WhatsApp; each booking is validated manually by the team.',
+    '- Mileage: 200 km per day included on every rental; extra kilometres billed per km.',
     '- Prices are in CAD, before taxes and fees. Final pricing is confirmed before the reservation.',
     '- Sister fleet for Audi RS models: RentMyRS (https://www.rentmyrs.com) rents the Audi RS3, RS5, RS7 (Stage 2) and RSQ8 in Montreal from $400/day.',
     '',

@@ -98,25 +98,6 @@ export default async function CarPage({
     image: car.gallery?.[0]
       ? `https://www.exoticrentalsmontreal.com${car.gallery[0]}`
       : undefined,
-    review: {
-      '@type': 'Review',
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: '5',
-        bestRating: '5',
-      },
-      author: {
-        '@type': 'Person',
-        name: 'Exotic Rentals Montreal Client',
-      },
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '5',
-      reviewCount: '1',
-      bestRating: '5',
-      worstRating: '1',
-    },
     offers: {
       '@type': 'Offer',
       priceCurrency: 'CAD',

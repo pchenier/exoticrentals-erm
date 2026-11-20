@@ -110,12 +110,7 @@ const jsonLd = {
   "areaServed": ["Montreal", "Laval", "Longueuil", "Brossard", "Westmount", "Downtown Montreal", "Mont-Tremblant", "Quebec City"],
   "sameAs": [
     "https://www.instagram.com/exoticrentalsmontreal"
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "6"
-  }
+  ]
 };
 
 export default function RootLayout({

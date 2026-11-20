@@ -32,7 +32,6 @@ export default function Footer() {
                 { label: "Experience", href: "/experience" },
                 { label: "About", href: "/about" },
                 { label: "FAQ", href: "/faq" },
-                { label: "Reviews", href: "/reviews" },
                 { label: "Blog", href: "/blog" },
                 { label: "Contact", href: "/contact" },
                 { label: "Audi RS Rental (RentMyRS)", href: "https://www.rentmyrs.com/en" },

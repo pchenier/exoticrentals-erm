@@ -7,8 +7,9 @@ import { Star } from "lucide-react";
 
 export const metadata = {
   title: "Reviews | Exotic Rentals Montreal",
-  description: "Read verified reviews from our clients. Every reservation is handled with the same attention to detail.",
+  description: "Client reviews for Exotic Rentals Montreal, exotic and luxury car rental in Montreal.",
   alternates: { canonical: 'https://www.exoticrentalsmontreal.com/reviews' },
+  robots: reviews.length > 0 ? undefined : { index: false, follow: true },
 };
 
 export default function ReviewsPage() {
@@ -28,20 +29,6 @@ export default function ReviewsPage() {
             <h1 className="font-display text-4xl md:text-5xl text-warm-white mb-4">
               What Our Clients Say
             </h1>
-            <div className="flex flex-col items-center gap-3">
-              <div className="flex gap-1">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star
-                    key={i}
-                    size={20}
-                    className="text-champagne fill-champagne"
-                  />
-                ))}
-              </div>
-              <p className="text-sm text-silver">
-                5.0 / 5. Based on verified reviews
-              </p>
-            </div>
           </div>
 
           {/* Reviews Grid */}
@@ -112,7 +99,7 @@ export default function ReviewsPage() {
             </div>
           ) : (
             <div className="text-center py-12">
-              <p className="text-silver">No reviews yet.</p>
+              <p className="text-silver">Client reviews are coming soon. Follow us on <a href="https://www.instagram.com/exoticrentalsmontreal" className="text-champagne underline">Instagram</a> to see our cars and clients on the road.</p>
             </div>
           )}
         </div>
