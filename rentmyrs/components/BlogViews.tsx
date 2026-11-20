@@ -109,7 +109,7 @@ export async function BlogArticle({ post }: { post: BlogPost }) {
     url,
     mainEntityOfPage: url,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.updated ?? post.date,
     image: `${SITE.url}${post.image ?? '/og.jpg'}`,
     author: { '@type': 'Organization', name: SITE.name, url: SITE.url },
     publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: `${SITE.url}/logo.png` } },
@@ -136,7 +136,10 @@ export async function BlogArticle({ post }: { post: BlogPost }) {
           <header className={`${wrap} pb-12`}>
             <Link href={BLOG[locale]} className="label text-paper/70 hover:text-paper">← Blog</Link>
             <h1 className="mt-8 max-w-5xl text-4xl font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl">{post.title}</h1>
-            <p className="label mt-6 text-mute">{fmtDate(post.date, locale)} · {SITE.name}</p>
+            <p className="label mt-6 text-mute">
+              {fmtDate(post.date, locale)}
+              {post.updated && post.updated !== post.date && ` · ${fr ? 'mis à jour le' : 'updated'} ${fmtDate(post.updated, locale)}`} · {SITE.name}
+            </p>
             <div className="rule mt-8" />
             <p className="mt-8 max-w-3xl text-lg font-light leading-relaxed text-paper/90"><Rich text={post.answer} /></p>
           </header>

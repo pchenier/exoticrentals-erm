@@ -28,6 +28,7 @@ for (const { f, p } of posts) {
   seen.add(`${p.locale}/${p.slug}`);
   for (const k of ['title', 'description', 'date', 'answer']) if (!p[k]) e(`champ manquant: ${k}`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(p.date ?? '')) e('date au format AAAA-MM-JJ');
+  if (p.updated && !/^\d{4}-\d{2}-\d{2}$/.test(p.updated)) e('updated au format AAAA-MM-JJ');
   if (!Array.isArray(p.sections) || p.sections.length < 3) e('au moins 3 sections');
   if (p.image && !fs.existsSync(path.join(root, 'public', p.image))) e(`image introuvable: ${p.image}`);
   if (p.alt && !posts.some(({ p: q }) => q.slug === p.alt && q.locale !== p.locale)) e(`traduction alt introuvable: ${p.alt}`);
