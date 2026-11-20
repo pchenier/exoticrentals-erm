@@ -11,7 +11,7 @@ export const DICT = {
     },
     hero: {
       kicker: 'Location Audi RS · Montréal',
-      title: 'Conduis une RS. Pas juste une Audi.',
+      title: 'La performance RS, à Montréal.',
       sub: 'RS3, RS5, RS7 et RSQ8 bien entretenues, prêtes à rouler à Montréal, avec livraison sur demande à Laval et sur la Rive-Sud. Tu fais ta demande, on te confirme rapidement par texto.',
       cta: 'Faire une demande',
       cta2: 'Voir les RS',
@@ -70,7 +70,7 @@ export const DICT = {
     },
     hero: {
       kicker: 'Audi RS rental · Montreal',
-      title: 'Drive an RS. Not just an Audi.',
+      title: 'RS performance, in Montreal.',
       sub: 'Well-kept RS3, RS5, RS7 and RSQ8, ready to drive in Montreal, with delivery on request to Laval and the South Shore. Send a request and we confirm by text.',
       cta: 'Request a car',
       cta2: 'See the RS lineup',
