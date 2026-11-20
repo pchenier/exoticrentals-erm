@@ -47,23 +47,23 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
       <Header locale={locale} otherHref={otherHref} />
       <main>
         {/* Hero pleine largeur, nom du modèle en très grand. */}
-        <section className="relative isolate flex min-h-[88svh] items-end">
+        <section className="relative isolate flex min-h-[68svh] items-end">
           <div className="absolute inset-0 -z-10">
             <ModelVisual model={model} priority sizes="100vw" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/40" />
           </div>
-          <div className={`${wrap} w-full pb-14`}>
+          <div className={`${wrap} w-full pb-10`}>
             <Link href={`${prefix || '/'}#rs`} className="label text-paper/70 hover:text-paper">← {d.model.back}</Link>
-            <div className="mt-8 flex items-center gap-4">
+            <div className="mt-6 flex items-center gap-4">
               <p className="label text-paper/80">{model.body[locale]}</p>
               <Badge model={model} locale={locale} />
               <StatusTag model={model} locale={locale} />
             </div>
-            <h1 className="mt-3 text-[18vw] font-bold uppercase leading-[0.85] tracking-tight sm:text-[9rem]">
+            <h1 className="mt-3 text-[15vw] font-bold uppercase leading-[0.9] tracking-tight sm:text-7xl lg:text-8xl">
               <RsMark name={model.short} />
               <span className="sr-only"> {locale === 'fr' ? `– location ${model.name} à Montréal` : `– ${model.name} rental in Montreal`}</span>
             </h1>
-            <p className="mt-6 max-w-xl text-lg font-light text-paper/85">{model.tagline[locale]}</p>
+            <p className="mt-4 max-w-xl font-light text-paper/85">{model.tagline[locale]}</p>
           </div>
         </section>
 
@@ -82,15 +82,15 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
         </section>
 
         {/* Présentation */}
-        <section className={`${wrap} grid gap-12 py-24 lg:grid-cols-2`}>
+        <section className={`${wrap} grid gap-12 py-16 lg:grid-cols-2`}>
           <div>
-            <h2 className="text-3xl font-bold uppercase leading-tight tracking-tight sm:text-4xl">
+            <h2 className="text-2xl font-bold uppercase leading-tight tracking-tight sm:text-3xl">
               {locale === 'fr' ? `Location ${model.name} à Montréal` : `${model.name} rental in Montreal`}
             </h2>
             <div className="rule mt-8" />
           </div>
           <div>
-            <p className="whitespace-pre-line text-lg font-light leading-relaxed text-paper/85">{model.intro[locale]}</p>
+            <p className="whitespace-pre-line font-light leading-relaxed text-paper/85">{model.intro[locale]}</p>
             <ul className="mt-8 border-b border-line">
               {model.highlights[locale].map((h) => (
                 <li key={h} className="flex items-center gap-4 border-t border-line py-4 font-light">
@@ -126,7 +126,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
         )}
 
         {/* Fiche technique */}
-        <section className={`${wrap} py-24`}>
+        <section className={`${wrap} py-16`}>
           <h2 className="label text-mute">{d.model.specs}</h2>
           <dl className="mt-8 border-b border-line">
             {specs.map(([k, v]) => (
@@ -140,7 +140,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
 
         {/* Réservation */}
         <section id="reserver" className="scroll-mt-16 border-t border-line bg-panel">
-          <div className={`${wrap} grid gap-12 py-24 lg:grid-cols-[1fr_1.4fr]`}>
+          <div className={`${wrap} grid gap-12 py-16 lg:grid-cols-[1fr_1.4fr]`}>
             <div>
               <h2 className="text-4xl font-bold uppercase leading-none tracking-tight sm:text-5xl">{d.booking.title}</h2>
               <div className="rule mt-8" />
@@ -152,9 +152,9 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
 
         {/* FAQ du modèle */}
         <section className="border-t border-line">
-          <div className={`${wrap} grid gap-12 py-24 lg:grid-cols-[1fr_1.4fr]`}>
+          <div className={`${wrap} grid gap-12 py-16 lg:grid-cols-[1fr_1.4fr]`}>
             <div>
-              <h2 className="text-3xl font-bold uppercase leading-tight tracking-tight sm:text-4xl">
+              <h2 className="text-2xl font-bold uppercase leading-tight tracking-tight sm:text-3xl">
                 {locale === 'fr' ? `Louer la ${model.short} : questions fréquentes` : `Renting the ${model.short}: FAQ`}
               </h2>
               <Link href={GUIDE[locale]} className="label mt-8 inline-block text-mute underline decoration-rs underline-offset-4 hover:text-paper">
@@ -172,11 +172,11 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
           </div>
           <div className="grid sm:grid-cols-3">
             {models.filter((m) => m.id !== model.id).map((m) => (
-              <Link key={m.id} href={modelHref(m, locale)} className="group relative block aspect-[4/5] overflow-hidden border-line sm:border-r">
+              <Link key={m.id} href={modelHref(m, locale)} className="group relative block aspect-[16/10] overflow-hidden border-line sm:border-r">
                 <ModelVisual model={m} sizes="(min-width: 640px) 33vw, 100vw" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-6">
-                  <p className="wide text-4xl font-bold tracking-tight transition group-hover:text-rs"><RsMark name={m.short} /></p>
+                  <p className="wide text-3xl font-bold tracking-tight transition group-hover:text-rs"><RsMark name={m.short} /></p>
                   <p className="label mt-2 text-paper/70">
                     {m.specs.hp} {d.fleet.hp}
                     {m.dailyRate != null && ` · ${money(m.dailyRate, locale)} $${d.fleet.perDay}`}
