@@ -15,7 +15,6 @@ import { Btn } from './ui';
 export default async function HomeView({ locale }: { locale: Locale }) {
   const d = t(locale);
   const RS_MODELS = await getFleet();
-  const heroModel = RS_MODELS.find((m) => m.id === 'rs3') ?? RS_MODELS[0];
   const home = locale === 'fr' ? SITE.url : `${SITE.url}/en`;
 
   const business = {
@@ -48,42 +47,30 @@ export default async function HomeView({ locale }: { locale: Locale }) {
       <JsonLd data={faq} />
       <Header locale={locale} />
       <main>
-        {/* Hero : même photo et même cadrage que la page RS3 (suit la photo principale réglée dans /admin), avec des flocons. */}
-        <section className="relative isolate min-h-[88svh] overflow-hidden">
+        {/* Hero : RS3 de face plein écran (même mise en page que la page RS3), titre et boutons par-dessus, flocons. */}
+        <section className="relative isolate flex min-h-[88svh] items-end overflow-hidden">
           <div className="absolute inset-0 -z-10">
             <Image
-              src={heroModel.images[0] ?? '/cars/rs3-1.jpg'}
+              src="/cars/rs3-front.jpg"
               alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'}
               fill
               priority
               sizes="100vw"
-              style={{ objectPosition: heroModel.focus ?? '50% 72%' }}
-              className="object-cover"
+              quality={90}
+              className="object-cover object-[50%_40%]"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/40" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/40" />
+            <Snow />
           </div>
-          <Snow />
-          <a href="#intro" aria-label={locale === 'fr' ? 'Défiler' : 'Scroll'} className="absolute bottom-8 left-1/2 -translate-x-1/2 text-2xl text-paper/80 transition hover:text-paper">
-            ↓
-          </a>
-        </section>
-
-        {/* Titre et appel à l'action, sous la photo */}
-        <section id="intro" className="scroll-mt-16">
-          <div className="mx-auto grid max-w-[1440px] gap-10 px-4 py-20 sm:px-8 lg:grid-cols-[1.3fr_1fr] lg:items-end lg:px-16">
-            <div>
-              <p className="label text-paper/70">{d.hero.kicker}</p>
-              <h1 className="mt-6 text-[2.6rem] font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
-                {d.hero.title}
-              </h1>
-              <div className="rule mt-8" />
-            </div>
-            <div>
-              <p className="max-w-md text-base font-light leading-relaxed text-paper/80 sm:text-lg">{d.hero.sub}</p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <Btn href="#reserver">{d.hero.cta}</Btn>
-                <Btn href="#rs" variant="ghost">{d.hero.cta2}</Btn>
-              </div>
+          <div className="mx-auto w-full max-w-[1440px] px-4 pb-14 pt-32 sm:px-8 lg:px-16">
+            <p className="label text-paper/80">{d.hero.kicker}</p>
+            <h1 className="mt-4 max-w-4xl text-[2.6rem] font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
+              {d.hero.title}
+            </h1>
+            <p className="mt-6 max-w-xl text-base font-light leading-relaxed text-paper/85 sm:text-lg">{d.hero.sub}</p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Btn href="#reserver">{d.hero.cta}</Btn>
+              <Btn href="#rs" variant="ghost">{d.hero.cta2}</Btn>
             </div>
           </div>
         </section>
