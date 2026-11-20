@@ -3,12 +3,13 @@
 import { useState, useEffect } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
-import type { Vehicle } from "@/lib/data";
+import { isBookable, vehicleStatus, STATUS_LABEL, type Vehicle } from "@/lib/data";
 import BookingModal from "./BookingModal";
 
 export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; index?: number }) {
   const [bookingOpen, setBookingOpen] = useState(false);
   const prefersReducedMotion = useReducedMotion();
+  const bookable = isBookable(vehicle);
   // Start with animations DISABLED so SSR renders fully visible cards.
   // After mount we check the device: desktop hover → enable scroll-reveal;
   // touch / reduced-motion → keep static (iOS freezes rAF during momentum
@@ -52,6 +53,13 @@ export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; 
               <span className="text-[9px] font-bold uppercase tracking-widest text-obsidian">Verified</span>
             </div>
           )}
+          {!bookable && (
+            <div className="absolute top-3 right-3 bg-obsidian/90 border border-champagne/40 px-2.5 py-1.5 z-10">
+              <span className="text-[9px] font-bold uppercase tracking-widest text-champagne">
+                {STATUS_LABEL[vehicleStatus(vehicle)]}
+              </span>
+            </div>
+          )}
         </Link>
 
         {/* Content */}
@@ -80,12 +88,21 @@ export default function VehicleCard({ vehicle, index = 0 }: { vehicle: Vehicle; 
           </div>
 
           <div className="flex gap-2">
-            <button
-              onClick={() => setBookingOpen(true)}
-              className="btn-gold-3d flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em]"
-            >
-              BOOK
-            </button>
+            {bookable ? (
+              <button
+                onClick={() => setBookingOpen(true)}
+                className="btn-gold-3d flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em]"
+              >
+                BOOK
+              </button>
+            ) : (
+              <button
+                disabled
+                className="flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em] border border-silver/20 text-silver/60 cursor-not-allowed"
+              >
+                {STATUS_LABEL[vehicleStatus(vehicle)].toUpperCase()}
+              </button>
+            )}
             <Link
               href={`/fleet/${vehicle.slug}`}
               className="btn-spec-silver flex-1 py-2 sm:py-2.5 text-center text-[10px] sm:text-xs font-body font-bold tracking-[0.08em] sm:tracking-[0.1em]"
