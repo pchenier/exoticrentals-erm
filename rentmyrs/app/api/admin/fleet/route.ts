@@ -39,6 +39,9 @@ export async function PUT(req: Request) {
   const images = Array.isArray(body.images)
     ? body.images.filter((u): u is string => typeof u === 'string' && /^(https:\/\/|\/cars\/)/.test(u)).slice(0, 12)
     : null;
+  const videos = Array.isArray(body.videos)
+    ? body.videos.filter((u): u is string => typeof u === 'string' && /^https:\/\/[a-z0-9]+\.public\.blob\.vercel-storage\.com\//.test(u)).slice(0, 12)
+    : null;
   const txt = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice(0, max) : '');
   const t = (body.texts ?? {}) as Record<string, Record<string, unknown> | undefined>;
   const texts = {
@@ -49,7 +52,7 @@ export async function PUT(req: Request) {
     return NextResponse.json({ error: 'Champs invalides' }, { status: 400 });
   }
   try {
-    await writeOverride({ id: model.id, daily_rate: dailyRate, deposit, status: body.status, images, texts });
+    await writeOverride({ id: model.id, daily_rate: dailyRate, deposit, status: body.status, images, texts, videos });
   } catch (e) {
     return NextResponse.json({ error: e instanceof Error ? e.message : 'Erreur base de données' }, { status: 503 });
   }
