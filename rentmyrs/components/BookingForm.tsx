@@ -55,7 +55,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
   }
 
   const options: { key: string; label: string; sub: string; img?: string; off: boolean; wide?: boolean }[] = [
-    ...models.map((m) => {
+    ...models.map((m, i) => {
       const off = !!m.status && m.status !== 'available';
       return {
         key: m.name,
@@ -63,9 +63,10 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
         sub: off ? f.notAvail : m.dailyRate != null ? `${fmt(m.dailyRate, locale)} $${f.perDay}` : f.onRequest,
         img: m.images[0],
         off,
+        // Nombre impair : la dernière tuile prend toute la largeur sur mobile.
+        wide: i === models.length - 1 && models.length % 2 === 1,
       };
     }),
-    { key: 'Lamborghini', label: 'Lambo', sub: 'Huracán · Urus', off: false, wide: models.length % 2 === 0 },
   ];
 
   return (
@@ -80,7 +81,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
       {/* 1. Modèle */}
       <fieldset>
         <legend className="label mb-4 text-mute">01 · {d.model}</legend>
-        <div className="grid grid-cols-2 gap-px bg-line sm:grid-cols-6">
+        <div className="grid grid-cols-2 gap-px bg-line sm:grid-cols-5">
           {options.map((o) => {
             const on = vehicle === o.key;
             return (

@@ -5,8 +5,8 @@ import { t } from '@/lib/dict';
 import type { RsModel } from '@/lib/fleet';
 import Header from './Header';
 import Footer from './Footer';
-import { Badge, ModelVisual, StatusTag, accel, money, modelHref } from './ModelCard';
-import BookingForm from './BookingForm';
+import { Badge, ModelVisual, StatusTag, WholeImage, accel, money, modelHref } from './ModelCard';
+import BookingModal from './BookingModal';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
 import FaqList from './FaqList';
@@ -47,7 +47,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
       <Header locale={locale} otherHref={otherHref} />
       <main>
         {/* Hero pleine largeur, nom du modèle en très grand. */}
-        <section className="relative isolate flex min-h-[68svh] items-end">
+        <section className="relative isolate flex min-h-[68svh] items-end overflow-hidden">
           <div className="absolute inset-0 -z-10">
             <ModelVisual model={model} priority sizes="100vw" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/40" />
@@ -110,7 +110,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
           <section className="grid sm:grid-cols-3">
             {model.images.slice(1).map((src, i) => (
               <div key={src} className="relative aspect-[4/3] overflow-hidden">
-                <Image src={src} alt={`${model.name} ${i + 2}`} fill sizes="(min-width: 640px) 33vw, 100vw" style={model.focuses?.[src] ? { objectPosition: model.focuses[src] } : undefined} className="object-cover" />
+                <WholeImage src={src} alt={`${model.name} ${i + 2}`} sizes="(min-width: 640px) 33vw, 100vw" focus={model.focuses?.[src]} />
               </div>
             ))}
           </section>
@@ -138,17 +138,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
           </dl>
         </section>
 
-        {/* Réservation */}
-        <section id="reserver" className="scroll-mt-16 border-t border-line bg-panel">
-          <div className={`${wrap} grid gap-12 py-16 lg:grid-cols-[1fr_1.4fr]`}>
-            <div>
-              <h2 className="text-4xl font-bold uppercase leading-none tracking-tight sm:text-5xl">{d.booking.title}</h2>
-              <div className="rule mt-8" />
-              <p className="mt-6 max-w-sm font-light text-mute">{d.booking.sub}</p>
-            </div>
-            <BookingForm locale={locale} models={models} defaultModel={model.status && model.status !== 'available' ? undefined : model.name} />
-          </div>
-        </section>
+        <BookingModal locale={locale} models={models} defaultModel={model.status && model.status !== 'available' ? undefined : model.name} />
 
         {/* FAQ du modèle */}
         <section className="border-t border-line">
