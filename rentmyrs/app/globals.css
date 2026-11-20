@@ -1,21 +1,30 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #0a0a0b;
-  --color-panel: #141416;
-  --color-line: #26262a;
-  --color-mute: #9a9aa3;
-  --color-paper: #f4f4f5;
-  --color-rs: #e4002b;
-  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #000000;
+  --color-panel: #0e0e0f;
+  --color-line: #2a2a2c;
+  --color-mute: #8e8e93;
+  --color-paper: #ffffff;
+  --color-rs: #f50537;
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: 0; --radius: 0; --radius-md: 0; --radius-lg: 0; --radius-xl: 0; --radius-2xl: 0; --radius-3xl: 0;
 }
 
 html { scroll-behavior: smooth; }
 body { background: var(--color-ink); color: var(--color-paper); }
 
-/* Bande diagonale signature, utilisée comme séparateur. */
-.rs-stripe {
-  background: repeating-linear-gradient(-60deg, var(--color-rs) 0 6px, transparent 6px 12px);
-}
+/* Étiquette : petites capitales très espacées. */
+.label { font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 500; }
 
-input, select, textarea { color-scheme: dark; }
+/* Badge incliné rouge (ex. Stage 2, logo). */
+.slant { display: inline-block; background: var(--color-rs); color: #fff; transform: skewX(-14deg); }
+.slant > * { display: inline-block; transform: skewX(14deg); }
+
+/* Fine ligne rouge sous un titre. */
+.rule { width: 48px; height: 2px; background: var(--color-rs); }
+
+input, select, textarea { color-scheme: dark; border-radius: 0; }
+
+/* Titres et étiquettes en version large, comme les sites RS. */
+h1, h2, h3, .label, .wide { font-stretch: 125%; }

@@ -4,15 +4,15 @@ import { t } from '@/lib/dict';
 import { RS_MODELS, LAMBOS } from '@/lib/fleet';
 import Header from './Header';
 import Footer from './Footer';
-import ModelCard from './ModelCard';
+import ModelRow, { money, modelHref } from './ModelCard';
 import BookingForm from './BookingForm';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
+import { Btn } from './ui';
 
 export default function HomeView({ locale }: { locale: Locale }) {
   const d = t(locale);
   const home = locale === 'fr' ? SITE.url : `${SITE.url}/en`;
-  const money = (n: number) => n.toLocaleString(locale === 'fr' ? 'fr-CA' : 'en-CA');
 
   const business = {
     '@context': 'https://schema.org',
@@ -35,59 +35,80 @@ export default function HomeView({ locale }: { locale: Locale }) {
     mainEntity: d.faq.items.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
   };
 
+  const wrap = 'mx-auto max-w-[1440px] px-4 sm:px-8 lg:px-16';
+  const h2 = 'text-4xl font-bold uppercase leading-none tracking-tight sm:text-6xl';
+
   return (
     <>
       <JsonLd data={business} />
       <JsonLd data={faq} />
       <Header locale={locale} />
       <main>
-        {/* Hero */}
-        <section className="relative isolate overflow-hidden">
-          {/* Mobile : photo plein écran. Desktop : texte à gauche, photo verticale à droite. */}
-          <Image src="/cars/rs3-1.jpg" alt={locale === 'fr' ? 'Audi RS3 dans la neige' : 'Audi RS3 in the snow'} fill priority sizes="100vw" className="-z-10 object-cover object-[50%_70%] opacity-60 lg:hidden" />
-          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/55 to-ink/10 lg:hidden" />
-          <div className="mx-auto grid min-h-[80vh] max-w-6xl items-center gap-12 px-4 pb-16 pt-32 lg:min-h-0 lg:grid-cols-[1.15fr_1fr] lg:py-16">
-            <div className="self-end lg:self-center">
-              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-rs">{d.hero.kicker}</p>
-              <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl">{d.hero.title}</h1>
-              <p className="mt-5 max-w-xl text-base text-paper/80 sm:text-lg">{d.hero.sub}</p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <a href="#reserver" className="rounded-full bg-rs px-6 py-3 text-sm font-semibold text-white hover:bg-rs/90">{d.hero.cta}</a>
-                <a href="#rs" className="rounded-full border border-paper/30 px-6 py-3 text-sm font-semibold hover:border-paper">{d.hero.cta2}</a>
-              </div>
-              <div className="mt-12 flex flex-wrap gap-x-8 gap-y-2 text-sm text-mute">
-                {RS_MODELS.map((m) => (
-                  <span key={m.id}><span className="font-semibold text-paper">{m.short}</span> · {money(m.dailyRate ?? 0)} ${d.fleet.perDay}</span>
-                ))}
-              </div>
-            </div>
-            <div className="relative hidden aspect-[2/3] max-h-[78vh] w-full justify-self-end overflow-hidden rounded-3xl border border-line lg:block">
-              <Image src="/cars/rs3-1.jpg" alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'} fill priority sizes="40vw" className="object-cover" />
-              <div className="rs-stripe absolute bottom-0 left-0 h-1.5 w-full" />
+        {/* Hero : photo plein écran sur cellulaire, moitié droite pleine hauteur sur ordi. */}
+        <section className="relative isolate grid min-h-[100svh] lg:grid-cols-2">
+          <div className="absolute inset-0 -z-10 lg:relative lg:order-2 lg:z-0 lg:min-h-[100svh]">
+            <Image
+              src="/cars/rs3-1.jpg"
+              alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'}
+              fill
+              priority
+              sizes="(min-width: 1024px) 50vw, 100vw"
+              className="object-cover object-[50%_70%]"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/30 lg:bg-gradient-to-r lg:from-black lg:via-black/0 lg:to-black/0" />
+          </div>
+          <div className="flex flex-col justify-end px-4 pb-24 pt-32 sm:px-8 lg:justify-center lg:px-16 lg:pb-16">
+            <p className="label text-paper/70">{d.hero.kicker}</p>
+            <h1 className="mt-6 text-[2.6rem] font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
+              {d.hero.title}
+            </h1>
+            <div className="rule mt-8" />
+            <p className="mt-6 max-w-md text-base font-light leading-relaxed text-paper/80 sm:text-lg">{d.hero.sub}</p>
+            <div className="mt-10 flex flex-wrap gap-3">
+              <Btn href="#reserver">{d.hero.cta}</Btn>
+              <Btn href="#rs" variant="ghost">{d.hero.cta2}</Btn>
             </div>
           </div>
         </section>
-        <div className="rs-stripe h-1.5" />
+
+        {/* Bande de modèles */}
+        <nav aria-label="RS" className="grid grid-cols-2 border-y border-line sm:grid-cols-4">
+          {RS_MODELS.map((m, i) => (
+            <a
+              key={m.id}
+              href={modelHref(m, locale)}
+              className={`group border-line px-4 py-6 transition hover:bg-panel sm:px-8 ${i % 2 === 0 ? 'border-r' : ''} ${i < 2 ? 'border-b sm:border-b-0' : ''} ${i === 1 ? 'sm:border-r' : ''} ${i === 2 ? 'sm:border-r' : ''}`}
+            >
+              <p className="wide text-2xl font-bold tracking-tight transition group-hover:text-rs sm:text-3xl">{m.short}</p>
+              <p className="label mt-2 text-mute">
+                {m.dailyRate != null ? `${money(m.dailyRate, locale)} $${d.fleet.perDay}` : d.fleet.onRequest}
+              </p>
+            </a>
+          ))}
+        </nav>
 
         {/* Gamme RS */}
-        <section id="rs" className="mx-auto max-w-6xl scroll-mt-20 px-4 py-20">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">{d.fleet.title}</h2>
-          <p className="mt-2 text-mute">{d.fleet.sub}</p>
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
-            {RS_MODELS.map((m) => <ModelCard key={m.id} model={m} locale={locale} />)}
+        <section id="rs" className="scroll-mt-16">
+          <div className={`${wrap} pb-16 pt-24`}>
+            <p className="label text-rs">RentMyRS</p>
+            <h2 className={`${h2} mt-4`}>{d.fleet.title}</h2>
+            <p className="mt-5 max-w-xl font-light text-mute">{d.fleet.sub}</p>
           </div>
+          {RS_MODELS.map((m, i) => (
+            <ModelRow key={m.id} model={m} locale={locale} flip={i % 2 === 1} />
+          ))}
         </section>
 
         {/* Comment ça marche */}
-        <section className="border-y border-line bg-panel">
-          <div className="mx-auto max-w-6xl px-4 py-16">
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">{d.how.title}</h2>
-            <ol className="mt-8 grid gap-6 sm:grid-cols-3">
+        <section className="border-t border-line">
+          <div className={`${wrap} py-24`}>
+            <h2 className={h2}>{d.how.title}</h2>
+            <ol className="mt-14 grid gap-10 sm:grid-cols-3 sm:gap-0">
               {d.how.steps.map(([title, text], i) => (
-                <li key={title} className="rounded-2xl border border-line bg-ink p-6">
-                  <span className="text-sm font-bold italic text-rs">0{i + 1}</span>
-                  <h3 className="mt-2 font-semibold">{title}</h3>
-                  <p className="mt-1 text-sm text-mute">{text}</p>
+                <li key={title} className="border-t border-line pt-6 sm:pr-10">
+                  <span className="wide text-5xl font-extralight text-rs">0{i + 1}</span>
+                  <h3 className="label mt-6">{title}</h3>
+                  <p className="mt-3 font-light leading-relaxed text-mute">{text}</p>
                 </li>
               ))}
             </ol>
@@ -95,53 +116,66 @@ export default function HomeView({ locale }: { locale: Locale }) {
         </section>
 
         {/* Lamborghini en arrière-plan */}
-        <section id="lamborghini" className="mx-auto max-w-6xl scroll-mt-20 px-4 py-20">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-mute">{d.lambo.kicker}</p>
-          <h2 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">{d.lambo.title}</h2>
-          <p className="mt-2 max-w-2xl text-mute">{d.lambo.sub}</p>
-          <div className="mt-8 grid gap-4 sm:grid-cols-3">
+        <section id="lamborghini" className="scroll-mt-16 border-t border-line">
+          <div className={`${wrap} flex flex-col gap-8 pb-12 pt-24 lg:flex-row lg:items-end lg:justify-between`}>
+            <div>
+              <p className="label text-mute">{d.lambo.kicker}</p>
+              <h2 className={`${h2} mt-4`}>{d.lambo.title}</h2>
+              <p className="mt-5 max-w-xl font-light text-mute">{d.lambo.sub}</p>
+            </div>
+            <Btn href={locale === 'fr' ? SITE.sister.lamborghiniFr : SITE.sister.lamborghiniEn} variant="ghost">
+              {d.lambo.cta}
+            </Btn>
+          </div>
+          <div className="grid sm:grid-cols-3">
             {LAMBOS.map((l) => (
-              <figure key={l.name} className="overflow-hidden rounded-xl border border-line bg-panel">
-                <div className="relative aspect-[4/3]">
-                  <Image src={l.image} alt={`${l.name} ${locale === 'fr' ? 'à louer à Montréal' : 'rental Montreal'}`} fill sizes="(min-width: 640px) 33vw, 100vw" className="object-cover" />
-                </div>
-                <figcaption className="flex items-baseline justify-between gap-2 p-4 text-sm">
-                  <span className="font-medium">{l.name.replace('Lamborghini ', '')}</span>
-                  <span className="text-mute">{d.lambo.from} {money(l.dailyRate)} ${locale === 'fr' ? '/jour' : '/day'}</span>
+              <figure key={l.name} className="group relative aspect-[4/5] overflow-hidden">
+                <Image
+                  src={l.image}
+                  alt={`${l.name} ${locale === 'fr' ? 'à louer à Montréal' : 'rental Montreal'}`}
+                  fill
+                  sizes="(min-width: 640px) 33vw, 100vw"
+                  className="object-cover grayscale-[40%] transition duration-700 group-hover:scale-[1.03] group-hover:grayscale-0"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent" />
+                <figcaption className="absolute inset-x-0 bottom-0 p-6">
+                  <p className="wide text-xl font-bold uppercase tracking-tight">{l.name.replace('Lamborghini ', '')}</p>
+                  <p className="label mt-2 text-paper/70">
+                    {l.hp} {d.fleet.hp} · {d.lambo.from} {money(l.dailyRate, locale)} ${d.fleet.perDay}
+                  </p>
                 </figcaption>
               </figure>
             ))}
           </div>
-          <a
-            href={locale === 'fr' ? SITE.sister.lamborghiniFr : SITE.sister.lamborghiniEn}
-            className="mt-6 inline-block text-sm font-semibold underline decoration-rs underline-offset-4 hover:text-rs"
-          >
-            {d.lambo.cta} →
-          </a>
         </section>
 
         {/* Réservation */}
-        <section id="reserver" className="scroll-mt-20 border-t border-line bg-panel/40">
-          <div className="mx-auto max-w-3xl px-4 py-20">
-            <h2 className="text-3xl font-bold tracking-tight">{d.booking.title}</h2>
-            <p className="mb-8 mt-2 text-mute">{d.booking.sub}</p>
+        <section id="reserver" className="scroll-mt-16 border-t border-line bg-panel">
+          <div className={`${wrap} grid gap-12 py-24 lg:grid-cols-[1fr_1.4fr]`}>
+            <div>
+              <h2 className={h2}>{d.booking.title}</h2>
+              <div className="rule mt-8" />
+              <p className="mt-6 max-w-sm font-light text-mute">{d.booking.sub}</p>
+            </div>
             <BookingForm locale={locale} />
           </div>
         </section>
 
         {/* FAQ */}
-        <section id="faq" className="mx-auto max-w-3xl scroll-mt-20 px-4 py-20">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">{d.faq.title}</h2>
-          <div className="mt-8 divide-y divide-line border-y border-line">
-            {d.faq.items.map(([q, a]) => (
-              <details key={q} className="group py-4">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-medium">
-                  {q}
-                  <span className="text-rs transition group-open:rotate-45">+</span>
-                </summary>
-                <p className="mt-3 text-sm leading-relaxed text-mute">{a}</p>
-              </details>
-            ))}
+        <section id="faq" className="scroll-mt-16 border-t border-line">
+          <div className={`${wrap} grid gap-12 py-24 lg:grid-cols-[1fr_1.4fr]`}>
+            <h2 className={h2}>{d.faq.title}</h2>
+            <div className="border-b border-line">
+              {d.faq.items.map(([q, a]) => (
+                <details key={q} className="group border-t border-line py-6">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-lg font-light">
+                    {q}
+                    <span className="text-2xl font-light text-rs transition group-open:rotate-45">+</span>
+                  </summary>
+                  <p className="mt-4 max-w-2xl font-light leading-relaxed text-mute">{a}</p>
+                </details>
+              ))}
+            </div>
           </div>
         </section>
       </main>

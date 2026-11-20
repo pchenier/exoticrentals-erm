@@ -6,7 +6,7 @@ import { RS_MODELS } from '@/lib/fleet';
 import { t } from '@/lib/dict';
 
 const field =
-  'w-full rounded-lg border border-line bg-ink px-3 py-2.5 text-sm outline-none transition focus:border-rs';
+  'w-full border-0 border-b border-line bg-transparent px-0 py-3 text-base font-light normal-case tracking-normal text-paper [font-stretch:100%] outline-none transition focus:border-paper';
 
 export default function BookingForm({ locale, defaultModel }: { locale: Locale; defaultModel?: string }) {
   const d = t(locale).booking;
@@ -32,35 +32,35 @@ export default function BookingForm({ locale, defaultModel }: { locale: Locale; 
 
   if (state === 'ok') {
     return (
-      <div role="status" className="rounded-2xl border border-rs/50 bg-panel p-8 text-center">
-        <p className="text-lg font-semibold">{d.ok}</p>
+      <div role="status" className="border-l-2 border-rs py-6 pl-6">
+        <p className="text-xl font-light">{d.ok}</p>
       </div>
     );
   }
 
   return (
-    <form onSubmit={onSubmit} className="grid gap-4 rounded-2xl border border-line bg-panel p-5 sm:grid-cols-2 sm:p-7">
+    <form onSubmit={onSubmit} className="grid gap-x-8 gap-y-6 sm:grid-cols-2">
       {/* Pot de miel anti-robots : invisible pour les humains. */}
       <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
         <label>
           Website <input type="text" name="website" tabIndex={-1} autoComplete="off" />
         </label>
       </div>
-      <label className="grid gap-1.5 text-sm">
+      <label className="label grid gap-1 text-mute">
         {d.name}
         <input name="name" required maxLength={100} autoComplete="name" className={field} />
       </label>
-      <label className="grid gap-1.5 text-sm">
+      <label className="label grid gap-1 text-mute">
         {d.phone}
         <input name="phone" type="tel" required maxLength={30} autoComplete="tel" className={field} />
       </label>
-      <label className="grid gap-1.5 text-sm">
+      <label className="label grid gap-1 text-mute">
         {d.email}
         <input name="email" type="email" maxLength={150} autoComplete="email" className={field} />
       </label>
-      <label className="grid gap-1.5 text-sm">
+      <label className="label grid gap-1 text-mute">
         {d.model}
-        <select name="vehicle" defaultValue={defaultModel ?? ''} className={field}>
+        <select name="vehicle" defaultValue={defaultModel ?? ''} className={`${field} bg-panel`}>
           <option value="">{d.any}</option>
           {RS_MODELS.map((m) => (
             <option key={m.id} value={m.name}>
@@ -70,25 +70,25 @@ export default function BookingForm({ locale, defaultModel }: { locale: Locale; 
           <option value="Lamborghini">Lamborghini</option>
         </select>
       </label>
-      <label className="grid gap-1.5 text-sm">
+      <label className="label grid gap-1 text-mute">
         {d.start}
         <input name="startDate" type="date" required min={today} value={start} onChange={(e) => setStart(e.target.value)} className={field} />
       </label>
-      <label className="grid gap-1.5 text-sm">
+      <label className="label grid gap-1 text-mute">
         {d.end}
         <input name="endDate" type="date" required min={start || today} className={field} />
       </label>
-      <label className="grid gap-1.5 text-sm sm:col-span-2">
+      <label className="label grid gap-1 text-mute sm:col-span-2">
         {d.message}
         <textarea name="message" rows={3} maxLength={1000} placeholder={d.messagePh} className={field} />
       </label>
-      <div className="flex flex-col gap-3 sm:col-span-2 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mt-4 flex flex-col gap-4 sm:col-span-2 sm:flex-row sm:items-center sm:justify-between">
         <button
           type="submit"
           disabled={state === 'sending'}
-          className="rounded-full bg-rs px-6 py-3 text-sm font-semibold text-white transition hover:bg-rs/90 disabled:opacity-60"
+          className="label inline-flex items-center gap-4 bg-paper px-6 py-4 text-ink transition hover:bg-rs hover:text-paper disabled:opacity-60"
         >
-          {state === 'sending' ? d.sending : d.submit}
+          {state === 'sending' ? d.sending : d.submit} <span aria-hidden>→</span>
         </button>
         <p className="text-xs text-mute">
           {d.orText} :{' '}
