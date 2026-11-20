@@ -153,6 +153,8 @@ function FleetTab() {
 function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
   const [rate, setRate] = useState(model.dailyRate?.toString() ?? '');
   const [deposit, setDeposit] = useState(model.deposit.toString());
+  const [hp, setHp] = useState(String(model.specs.hp));
+  const [zero, setZero] = useState(model.specs.zeroTo100.replace(' s', '').replace('.', ','));
   const [status, setStatus] = useState<VehicleStatus>(model.status ?? 'available');
   const [images, setImages] = useState<string[]>(model.images);
   const [videos, setVideos] = useState<string[]>(model.videos ?? []);
@@ -242,7 +244,7 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
     const r = await fetch('/api/admin/fleet', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images: nextImages, videos: nextVideos, focuses, texts }),
+      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images: nextImages, videos: nextVideos, focuses, texts, specs: { hp, zeroTo100: zero } }),
     });
     const d = await r.json().catch(() => ({}));
     setBusy(false);
@@ -291,6 +293,17 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
         <label className="label grid gap-1 text-mute">
           Dépôt ($)
           <input inputMode="numeric" value={deposit} onChange={(e) => setDeposit(e.target.value.replace(/\D/g, ''))} className={`${field} normal-case tracking-normal text-paper`} />
+        </label>
+      </div>
+
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+        <label className="label grid gap-1 text-mute">
+          Puissance (ch)
+          <input inputMode="numeric" value={hp} onChange={(e) => setHp(e.target.value.replace(/\D/g, ''))} className={`${field} normal-case tracking-normal text-paper`} />
+        </label>
+        <label className="label grid gap-1 text-mute">
+          0-100 km/h (secondes)
+          <input inputMode="decimal" value={zero} onChange={(e) => setZero(e.target.value.replace(/[^\d.,]/g, ''))} placeholder="3,8" className={`${field} normal-case tracking-normal text-paper`} />
         </label>
       </div>
 

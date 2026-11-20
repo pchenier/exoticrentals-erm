@@ -5,7 +5,7 @@ import { t } from '@/lib/dict';
 import type { RsModel } from '@/lib/fleet';
 import Header from './Header';
 import Footer from './Footer';
-import { Badge, ModelVisual, StatusTag, WholeImage, accel, money, modelHref } from './ModelCard';
+import { Badge, ModelVisual, StatusBand, WholeImage, accel, money, modelHref } from './ModelCard';
 import BookingModal from './BookingModal';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
@@ -49,15 +49,17 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
         {/* Hero pleine largeur, nom du modèle en très grand. */}
         <section className="relative isolate flex min-h-[68svh] items-end overflow-hidden">
           <div className="absolute inset-0 -z-10">
-            <ModelVisual model={model} priority sizes="100vw" />
+            <div className="anim-photo absolute inset-0">
+              <ModelVisual model={model} priority sizes="100vw" />
+            </div>
+            <StatusBand model={model} locale={locale} />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/40" />
           </div>
-          <div className={`${wrap} w-full pb-10`}>
+          <div className={`${wrap} anim-rise w-full pb-10`}>
             <Link href={`${prefix || '/'}#rs`} className="label text-paper/70 hover:text-paper">← {d.model.back}</Link>
             <div className="mt-6 flex items-center gap-4">
               <p className="label text-paper/80">{model.body[locale]}</p>
               <Badge model={model} locale={locale} />
-              <StatusTag model={model} locale={locale} />
             </div>
             <h1 className="mt-3 text-[15vw] font-bold uppercase leading-[0.9] tracking-tight sm:text-7xl lg:text-8xl">
               <RsMark name={model.short} />

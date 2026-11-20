@@ -58,3 +58,14 @@ export function RsMark({ name, className = '' }: { name: string; className?: str
     </span>
   );
 }
+
+/** Bande « danger » jaune/noire en travers d'une photo (véhicule non disponible ou en entretien). */
+export function HazardBand({ label, small = false }: { label: string; small?: boolean }) {
+  return (
+    <div aria-hidden={false} className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center overflow-hidden bg-black/35">
+      <div className={`hazard flex w-[140%] -rotate-6 items-center justify-center shadow-[0_6px_24px_rgba(0,0,0,.6)] ${small ? 'h-7' : 'h-12 sm:h-14'}`}>
+        <span className={`bg-black font-bold uppercase text-[#ffd400] ${small ? 'px-2 py-0.5 text-[9px] tracking-[0.12em]' : 'label px-4 py-1.5 text-xs sm:text-sm'}`}>{label}</span>
+      </div>
+    </div>
+  );
+}

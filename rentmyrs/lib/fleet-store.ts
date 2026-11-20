@@ -12,6 +12,8 @@ export type FleetOverride = {
   texts?: ModelTexts | null;
   videos?: string[] | null;
   focuses?: Record<string, string> | null;
+  /** Puissance et 0-100 modifiés dans /admin. */
+  specs?: { hp?: number; zeroTo100?: string } | null;
 };
 
 export type ModelTexts = { tagline?: Partial<Record<'fr' | 'en', string>>; intro?: Partial<Record<'fr' | 'en', string>> };
@@ -21,7 +23,7 @@ export const isStatus = (v: unknown): v is VehicleStatus => STATUSES.includes(v 
 
 // Création / mise à jour de la table : seulement au moment d'enregistrer, jamais pendant l'affichage.
 // (Un ALTER TABLE à chaque démarrage bloquait les lectures et faisait afficher les valeurs par défaut.)
-const COLUMNS = ['texts', 'videos', 'focuses'] as const;
+const COLUMNS = ['texts', 'videos', 'focuses', 'specs'] as const;
 let tableReady: Promise<unknown> | null = null;
 function ensureTable() {
   const sql = db();
@@ -37,6 +39,7 @@ function ensureTable() {
         texts JSONB,
         videos JSONB,
         focuses JSONB,
+        specs JSONB,
         updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
       )`;
     const have = await sql<{ column_name: string }[]>`
@@ -100,8 +103,8 @@ export async function writeOverride(o: FleetOverride) {
   if (!sql) throw new Error('POSTGRES_URL non configurée');
   await ensureTable();
   await sql`
-    INSERT INTO rentmyrs_fleet (id, daily_rate, deposit, status, images, texts, videos, focuses, updated_at)
-    VALUES (${o.id}, ${o.daily_rate}, ${o.deposit}, ${o.status}, ${o.images ? sql.json(o.images) : null}, ${o.texts ? sql.json(o.texts) : null}, ${o.videos ? sql.json(o.videos) : null}, ${o.focuses ? sql.json(o.focuses) : null}, now())
+    INSERT INTO rentmyrs_fleet (id, daily_rate, deposit, status, images, texts, videos, focuses, specs, updated_at)
+    VALUES (${o.id}, ${o.daily_rate}, ${o.deposit}, ${o.status}, ${o.images ? sql.json(o.images) : null}, ${o.texts ? sql.json(o.texts) : null}, ${o.videos ? sql.json(o.videos) : null}, ${o.focuses ? sql.json(o.focuses) : null}, ${o.specs ? sql.json(o.specs) : null}, now())
     ON CONFLICT (id) DO UPDATE SET
       daily_rate = EXCLUDED.daily_rate,
       deposit = EXCLUDED.deposit,
@@ -110,6 +113,7 @@ export async function writeOverride(o: FleetOverride) {
       texts = EXCLUDED.texts,
       videos = EXCLUDED.videos,
       focuses = EXCLUDED.focuses,
+      specs = EXCLUDED.specs,
       updated_at = now()`;
 }
 
@@ -127,6 +131,7 @@ export function applyOverrides(models: RsModel[], overrides: FleetOverride[]): R
       focus: o.images && o.images.length ? undefined : m.focus,
       videos: o.videos ?? m.videos ?? [],
       focuses: o.focuses ?? m.focuses,
+      specs: { ...m.specs, ...(o.specs?.hp ? { hp: o.specs.hp } : {}), ...(o.specs?.zeroTo100 ? { zeroTo100: o.specs.zeroTo100 } : {}) },
       tagline: { fr: o.texts?.tagline?.fr || m.tagline.fr, en: o.texts?.tagline?.en || m.tagline.en },
       intro: { fr: o.texts?.intro?.fr || m.intro.fr, en: o.texts?.intro?.en || m.intro.en },
     };
