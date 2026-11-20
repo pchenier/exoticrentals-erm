@@ -21,8 +21,8 @@ export function businessLd(locale: Locale, models: RsModel[]) {
     alternateName: 'Rent My RS',
     description:
       locale === 'fr'
-        ? 'Location d’Audi RS (RS3, RS5, RS7, RSQ8) à Montréal, avec livraison à Laval, sur la Rive-Sud et à l’aéroport YUL. Réservation sur demande, sans paiement en ligne.'
-        : 'Audi RS rental (RS3, RS5, RS7, RSQ8) in Montreal, with delivery to Laval, the South Shore and YUL airport. Booking on request, no online payment.',
+        ? 'Location d’Audi RS (RS3, RS5, RS7, RSQ8) et de l’Audi R8 V10 à Montréal, avec livraison à Laval, sur la Rive-Sud et à l’aéroport YUL. Réservation sur demande, sans paiement en ligne.'
+        : 'Audi RS rental (RS3, RS5, RS7, RSQ8) and Audi R8 V10 in Montreal, with delivery to Laval, the South Shore and YUL airport. Booking on request, no online payment.',
     url: locale === 'fr' ? SITE.url : `${SITE.url}/en`,
     logo: `${SITE.url}/logo.png`,
     image: [`${SITE.url}/cars/rs3-front.jpg`, `${SITE.url}/cars/rs7-1.jpg`, `${SITE.url}/og.jpg`],

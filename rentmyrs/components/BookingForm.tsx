@@ -65,7 +65,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
         off,
       };
     }),
-    { key: 'Lamborghini', label: 'Lambo', sub: 'Huracán · Urus', img: '/cars/huracan-evo.jpg', off: false, wide: true },
+    { key: 'Lamborghini', label: 'Lambo', sub: 'Huracán · Urus', img: '/cars/huracan-evo.jpg', off: false, wide: models.length % 2 === 0 },
   ];
 
   return (
@@ -80,7 +80,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
       {/* 1. Modèle */}
       <fieldset>
         <legend className="label mb-4 text-mute">01 · {d.model}</legend>
-        <div className="grid grid-cols-2 gap-px bg-line sm:grid-cols-5">
+        <div className="grid grid-cols-2 gap-px bg-line sm:grid-cols-6">
           {options.map((o) => {
             const on = vehicle === o.key;
             return (

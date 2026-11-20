@@ -62,12 +62,12 @@ export default async function HomeView({ locale }: { locale: Locale }) {
         </section>
 
         {/* Bande de modèles */}
-        <nav aria-label="RS" className="grid grid-cols-2 border-y border-line sm:grid-cols-4">
+        <nav aria-label="RS" className="grid grid-cols-2 gap-px border-y border-line bg-line sm:grid-cols-5">
           {RS_MODELS.map((m, i) => (
             <a
               key={m.id}
               href={modelHref(m, locale)}
-              className={`group border-line px-4 py-6 transition hover:bg-panel sm:px-8 ${i % 2 === 0 ? 'border-r' : ''} ${i < 2 ? 'border-b sm:border-b-0' : ''} ${i === 1 ? 'sm:border-r' : ''} ${i === 2 ? 'sm:border-r' : ''}`}
+              className={`group bg-ink px-4 py-6 transition hover:bg-panel sm:px-8 ${i === RS_MODELS.length - 1 && RS_MODELS.length % 2 === 1 ? 'col-span-2 sm:col-span-1' : ''}`}
             >
               <p className="wide text-2xl font-bold tracking-tight transition group-hover:text-rs sm:text-3xl"><RsMark name={m.short} /></p>
               <p className="label mt-2 text-mute">

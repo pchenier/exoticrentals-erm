@@ -3,7 +3,7 @@ import type { Locale } from './site';
 type L = Record<Locale, string>;
 
 export type RsModel = {
-  id: 'rs3' | 'rs5' | 'rs7' | 'rsq8';
+  id: 'rs3' | 'rs5' | 'rs7' | 'rsq8' | 'r8';
   name: string; // "Audi RS3"
   short: string; // "RS3"
   slug: Record<Locale, string>;
@@ -110,6 +110,32 @@ export const RS_MODELS: RsModel[] = [
     dailyRate: 800,
     deposit: 5000,
     images: [],
+  },
+  {
+    // Repris de exoticrentalsmontreal.com/fleet/audi-r8 (prix, dépôt, puissance, photos) le 2026-11-20.
+    id: 'r8',
+    name: 'Audi R8 V10 Plus',
+    short: 'R8',
+    slug: { fr: 'location-audi-r8-montreal', en: 'audi-r8-rental-montreal' },
+    body: { fr: 'Supercar V10', en: 'V10 supercar' },
+    badge: { fr: 'V10', en: 'V10' },
+    tagline: { fr: 'Le dernier grand V10 atmosphérique.', en: 'The last great naturally aspirated V10.' },
+    intro: {
+      fr: "La R8 V10 Plus jaune, c'est l'un des derniers V10 atmosphériques jamais construits : 5,2 L, aucun turbo, et un moteur qui monte jusqu'à 8 700 tr/min. L'échappement en titane à valves se fait entendre dans tout le quartier, et la traction quattro permet d'exploiter ses 640 ch même sur chaussée mouillée.",
+      en: "The yellow R8 V10 Plus is one of the last naturally aspirated V10s ever built: 5.2L, no turbos, revving all the way to 8,700 rpm. The valved titanium exhaust lets the whole neighbourhood know you are coming, and quattro all-wheel drive puts all 640 hp down, even on wet pavement.",
+    },
+    highlights: {
+      fr: ['V10 atmosphérique 5,2 L, 8 700 tr/min', 'Échappement en titane à valves', 'Quattro, deux places, couleur jaune'],
+      en: ['5.2L naturally aspirated V10, 8,700 rpm', 'Valved titanium exhaust', 'quattro, two seats, yellow'],
+    },
+    specs: { hp: 640, engine: '5.2L V10 atmosphérique', zeroTo100: '3.2 s', seats: 2, drivetrain: 'quattro' },
+    dailyRate: 1099,
+    deposit: 5000,
+    images: [
+      'https://k4y2brl4jcindz84.public.blob.vercel-storage.com/519acd82-8309-4ccb-90b5-2875ae33198a-BTNi2SIEHqCXaAiAbip00JhaleyKF1.jpg',
+      'https://k4y2brl4jcindz84.public.blob.vercel-storage.com/850eaf37-1509-48e6-bc4b-69c37b92db62-Gxc9IaD0hQyJg7IBHXZrCfam7H4ebc.jpg',
+      'https://k4y2brl4jcindz84.public.blob.vercel-storage.com/5febdfa0-af44-4c77-bb0f-0b382d066b48-MyPklV4fgcAi0cify8GlqgCUbArZvI.jpg',
+    ],
   },
 ];
 
