@@ -58,12 +58,30 @@ function ensureTable() {
 /**
  * Réglages /admin. strict = true (admin) : lance une erreur si la base ne répond pas,
  * pour ne jamais afficher (puis réenregistrer) les valeurs par défaut à la place des vraies.
- * Sur les pages du site, une erreur garde la dernière version publiée (ISR) au lieu des défauts.
+ * Les pages du site sont rendues à la demande (jamais figées au build avec les défauts du code).
  */
+// Petit cache par instance (15 s) + dernière lecture réussie, pour ne jamais retomber sur les défauts du code.
+let cache: { at: number; rows: FleetOverride[] } | null = null;
+export function invalidateFleetCache() {
+  cache = null;
+}
+
 export async function readOverrides({ strict = false }: { strict?: boolean } = {}): Promise<FleetOverride[]> {
+  if (!strict && cache && Date.now() - cache.at < 15_000) return cache.rows;
+  try {
+    const rows = await readFromDb({ strict });
+    cache = { at: Date.now(), rows };
+    return rows;
+  } catch (e) {
+    if (strict) throw e;
+    // Base injoignable : dernière lecture réussie si on l'a, sinon défauts (jamais mis en cache).
+    return cache?.rows ?? [];
+  }
+}
+
+async function readFromDb({ strict }: { strict: boolean }): Promise<FleetOverride[]> {
   const sql = db();
   if (!sql) return [];
-  const building = process.env.NEXT_PHASE === 'phase-production-build';
   try {
     const read = sql<FleetOverride[]>`SELECT * FROM rentmyrs_fleet`.catch((e: { code?: string }) => {
       if (e?.code === '42P01') return [] as FleetOverride[]; // table pas encore créée
@@ -73,7 +91,6 @@ export async function readOverrides({ strict = false }: { strict?: boolean } = {
     return await Promise.race([read, timeout]);
   } catch (e) {
     console.error('fleet-store: read failed', e instanceof Error ? e.message : e);
-    if (building && !strict) return [];
     throw new Error('Base de données injoignable, réessaie dans un instant.');
   }
 }

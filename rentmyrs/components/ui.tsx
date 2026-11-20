@@ -45,6 +45,10 @@ export function Stat({ value, unit, label }: { value: string; unit?: string; lab
 
 /** Nom de modèle avec petit drapeau rouge incliné devant « RS » (dans l'esprit des badges RS, pas le logo officiel). */
 export function RsMark({ name, className = '' }: { name: string; className?: string }) {
+  // R8 : badge fourni par pan (public/r8-badge.png) à la place du texte.
+  if (name === 'R8')
+    // eslint-disable-next-line @next/next/no-img-element
+    return <img src="/r8-badge.png" alt="R8" width={330} height={120} style={{ height: '0.9em', width: 'auto' }} className={`inline-block align-[-0.08em] ${className}`} />;
   const m = /^RS\s?(.*)$/.exec(name);
   if (!m) return <span className={`italic ${className}`}>{name}</span>;
   return (

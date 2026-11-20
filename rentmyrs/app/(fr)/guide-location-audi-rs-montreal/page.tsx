@@ -10,7 +10,8 @@ export const metadata = pageMeta({
   path: GUIDE,
 });
 
-export const revalidate = 300;
+// Toujours lu à la demande : les photos et prix de /admin ne doivent jamais être remplacés par les valeurs du code lors d'une mise à jour.
+export const dynamic = 'force-dynamic';
 
 export default function Page() {
   return <GuideView locale="fr" />;

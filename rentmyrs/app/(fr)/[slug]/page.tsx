@@ -1,17 +1,14 @@
 import { notFound } from 'next/navigation';
 import ModelView from '@/components/ModelView';
-import { RS_MODELS, findModel } from '@/lib/fleet';
+import { findModel } from '@/lib/fleet';
 import { getFleet } from '@/lib/fleet-store';
 import { pageMeta } from '@/lib/meta';
 import { t } from '@/lib/dict';
 
 type Props = { params: Promise<{ slug: string }> };
 
-export const dynamicParams = false;
-export const revalidate = 300;
-export function generateStaticParams() {
-  return RS_MODELS.map((m) => ({ slug: m.slug.fr }));
-}
+// Toujours lu à la demande : les photos et prix de /admin ne doivent jamais être remplacés par les valeurs du code lors d'une mise à jour.
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: Props) {
   const m = findModel('fr', (await params).slug);

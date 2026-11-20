@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { revalidatePath } from 'next/cache';
 import { requireAdmin } from '@/lib/admin-auth';
 import { RS_MODELS } from '@/lib/fleet';
-import { getFleet, isStatus, writeOverride } from '@/lib/fleet-store';
+import { getFleet, invalidateFleetCache, isStatus, writeOverride } from '@/lib/fleet-store';
 import { db } from '@/lib/db';
 
 export const dynamic = 'force-dynamic';
@@ -66,6 +66,7 @@ export async function PUT(req: Request) {
   } catch (e) {
     return NextResponse.json({ error: e instanceof Error ? e.message : 'Erreur base de données' }, { status: 503 });
   }
+  invalidateFleetCache();
   revalidatePath('/', 'layout');
   return NextResponse.json({ success: true });
 }
