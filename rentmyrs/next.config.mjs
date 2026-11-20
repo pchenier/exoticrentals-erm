@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   devIndicators: false,
+  // Articles du blog lus par fs : les inclure pour les routes régénérées (llms.txt, sitemap).
+  outputFileTracingIncludes: { '/**': ['./content/blog/**/*.json'] },
   images: {
     remotePatterns: [{ protocol: 'https', hostname: '*.public.blob.vercel-storage.com' }],
     qualities: [75, 90],
