@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Locale } from '@/lib/site';
 import type { RsModel } from '@/lib/fleet';
 import { t } from '@/lib/dict';
-import { Btn, Stat } from './ui';
+import { Btn, RsMark, Stat } from './ui';
 
 export const money = (n: number, locale: Locale) => n.toLocaleString(locale === 'fr' ? 'fr-CA' : 'en-CA');
 export const accel = (m: RsModel, locale: Locale) =>
@@ -68,7 +68,7 @@ export default function ModelRow({ model, locale, flip = false }: { model: RsMod
           <Badge model={model} locale={locale} />
           <StatusTag model={model} locale={locale} />
         </div>
-        <h3 className="mt-4 wide text-6xl font-bold leading-none tracking-tight sm:text-8xl">{model.short}</h3>
+        <h3 className="mt-4 wide text-6xl font-bold leading-none tracking-tight sm:text-8xl"><RsMark name={model.short} /></h3>
         <p className="mt-5 max-w-md text-lg font-light text-paper/80">{model.tagline[locale]}</p>
         <div className="mt-10 grid max-w-md grid-cols-3 gap-6 border-t border-line pt-6">
           <Stat value={String(model.specs.hp)} unit={d.fleet.hp} label={d.model.power.split(' (')[0]} />

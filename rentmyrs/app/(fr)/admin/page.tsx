@@ -165,32 +165,39 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
       if (r.ok && d.url) added.push(d.url);
       else setMsg(d.error || `Échec du téléversement (HTTP ${r.status})`);
     }
-    setImages((cur) => [...cur, ...added]);
     setBusy(false);
-    if (added.length) setMsg('Photo ajoutée. Clique « Enregistrer » pour la publier.');
+    // Les photos sont publiées tout de suite, sans devoir cliquer « Enregistrer ».
+    if (added.length) await savePhotos([...images, ...added]);
   }
 
-  async function save() {
+  async function save(nextImages = images) {
     setBusy(true);
     setMsg('');
     const r = await fetch('/api/admin/fleet', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images }),
+      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images: nextImages }),
     });
     const d = await r.json().catch(() => ({}));
     setBusy(false);
     setMsg(r.ok ? 'Enregistré. Le site est à jour.' : d.error || `Erreur HTTP ${r.status}`);
+    return r.ok;
   }
 
-  const move = (i: number, dir: -1 | 1) =>
-    setImages((cur) => {
-      const next = [...cur];
-      const j = i + dir;
-      if (j < 0 || j >= next.length) return cur;
-      [next[i], next[j]] = [next[j], next[i]];
-      return next;
-    });
+  async function savePhotos(next: string[]) {
+    const prev = images;
+    setImages(next);
+    if (!canSave) return;
+    if (!(await save(next))) setImages(prev);
+  }
+
+  const move = (i: number, dir: -1 | 1) => {
+    const j = i + dir;
+    if (j < 0 || j >= images.length) return;
+    const next = [...images];
+    [next[i], next[j]] = [next[j], next[i]];
+    savePhotos(next);
+  };
 
   return (
     <section className="border border-line bg-panel p-5">
@@ -231,7 +238,7 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
               {i === 0 && <span className="label absolute left-1 top-1 bg-rs px-1.5 py-0.5 text-[9px]">Principale</span>}
               <div className="absolute inset-x-0 bottom-0 flex justify-between bg-black/70 p-1 text-xs">
                 <button type="button" onClick={() => move(i, -1)} className="px-2 hover:text-rs" aria-label="Avancer">←</button>
-                <button type="button" onClick={() => setImages((c) => c.filter((x) => x !== src))} className="px-2 hover:text-rs">Retirer</button>
+                <button type="button" onClick={() => savePhotos(images.filter((x) => x !== src))} className="px-2 hover:text-rs">Retirer</button>
                 <button type="button" onClick={() => move(i, 1)} className="px-2 hover:text-rs" aria-label="Reculer">→</button>
               </div>
             </div>
@@ -244,7 +251,7 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
       </div>
 
       <div className="mt-5 flex flex-wrap items-center gap-4">
-        <button onClick={save} disabled={busy || !canSave} className={btnSolid}>Enregistrer</button>
+        <button onClick={() => save()} disabled={busy || !canSave} className={btnSolid}>Enregistrer</button>
         {msg && <p className="text-sm text-mute">{msg}</p>}
       </div>
     </section>

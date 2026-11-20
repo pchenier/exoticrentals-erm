@@ -5,6 +5,7 @@ import { useMemo, useState } from 'react';
 import { SITE, waUrl, type Locale } from '@/lib/site';
 import type { RsModel } from '@/lib/fleet';
 import { t } from '@/lib/dict';
+import { RsMark } from './ui';
 
 const field =
   'w-full border-0 border-b border-line bg-transparent px-0 py-3 text-base font-light normal-case tracking-normal text-paper [font-stretch:100%] outline-none transition focus:border-paper';
@@ -95,7 +96,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
                   <Image src={o.img} alt="" fill sizes="(min-width: 640px) 15vw, 50vw" className={`object-cover transition duration-500 ${on ? 'opacity-70' : 'opacity-40 group-hover:opacity-60'}`} />
                 )}
                 <span className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
-                <span className="wide relative text-2xl font-bold tracking-tight">{o.label}</span>
+                <span className="wide relative text-2xl font-bold tracking-tight"><RsMark name={o.label} /></span>
                 <span className="label relative mt-1 text-[10px] text-paper/70">{o.sub}</span>
                 {on && <span className="absolute right-2 top-2 bg-rs px-1.5 text-xs font-bold">✓</span>}
               </button>
@@ -157,7 +158,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
         <button
           type="submit"
           disabled={state === 'sending'}
-          className="label inline-flex items-center justify-center gap-4 bg-paper px-8 py-4 text-ink transition hover:bg-rs hover:text-paper disabled:opacity-60"
+          className="cta cta-idle label inline-flex items-center justify-center gap-4 bg-rs px-10 py-4 font-bold text-paper hover:bg-paper hover:text-ink disabled:opacity-60"
         >
           {state === 'sending' ? d.sending : d.submit} <span aria-hidden>→</span>
         </button>
