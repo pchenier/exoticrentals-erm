@@ -7,6 +7,7 @@ import Header from './Header';
 import Footer from './Footer';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
+import BookingModal from './BookingModal';
 import FaqList from './FaqList';
 import { accel, money, modelHref } from './ModelCard';
 import { Btn } from './ui';
@@ -210,12 +211,13 @@ export default async function GuideView({ locale }: { locale: Locale }) {
             <div className={`${wrap} flex flex-col gap-8 py-20 sm:flex-row sm:items-center sm:justify-between`}>
               <p className="text-3xl font-bold uppercase tracking-tight sm:text-4xl">{fr ? 'Prêt à rouler ?' : 'Ready to drive?'}</p>
               <div className="flex flex-wrap gap-4">
-                <Btn href={`${home}#reserver`}>{fr ? 'Faire une demande' : 'Request a car'}</Btn>
+                <Btn href="#reserver">{fr ? 'Faire une demande' : 'Request a car'}</Btn>
                 <Btn href={`tel:${SITE.phone}`} variant="ghost">{SITE.phoneDisplay}</Btn>
               </div>
             </div>
           </section>
         </article>
+        <BookingModal locale={locale} models={models} />
       </main>
       <Footer locale={locale} />
       <ContactFloat />

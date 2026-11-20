@@ -5,7 +5,7 @@ import { getFleet } from '@/lib/fleet-store';
 import Header from './Header';
 import Footer from './Footer';
 import ModelRow, { money, modelHref } from './ModelCard';
-import BookingForm from './BookingForm';
+import BookingModal from './BookingModal';
 import ContactFloat from './ContactFloat';
 import Snow from './Snow';
 import JsonLd from './JsonLd';
@@ -102,17 +102,7 @@ export default async function HomeView({ locale }: { locale: Locale }) {
           </div>
         </section>
 
-        {/* Réservation */}
-        <section id="reserver" className="scroll-mt-16 border-t border-line bg-panel">
-          <div className={`${wrap} grid gap-12 py-24 lg:grid-cols-[1fr_1.4fr]`}>
-            <div>
-              <h2 className={h2}>{d.booking.title}</h2>
-              <div className="rule mt-8" />
-              <p className="mt-6 max-w-sm font-light text-mute">{d.booking.sub}</p>
-            </div>
-            <BookingForm locale={locale} models={RS_MODELS} />
-          </div>
-        </section>
+        <BookingModal locale={locale} models={RS_MODELS} />
 
         {/* FAQ */}
         <section id="faq" className="scroll-mt-16 border-t border-line">

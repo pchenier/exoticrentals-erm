@@ -29,20 +29,21 @@ export function StatusTag({ model, locale }: { model: RsModel; locale: Locale })
   );
 }
 
+/** Photo entière, jamais rognée : la photo complète au centre, et la même photo floutée pour remplir les côtés. */
+export function WholeImage({ src, alt, sizes, priority = false, focus }: { src: string; alt: string; sizes: string; priority?: boolean; focus?: string }) {
+  return (
+    <>
+      <Image src={src} alt="" aria-hidden fill sizes="25vw" quality={75} style={focus ? { objectPosition: focus } : undefined} className="scale-110 object-cover opacity-60 blur-2xl" />
+      <Image src={src} alt={alt} fill priority={priority} sizes={sizes} className="object-contain transition duration-700 group-hover:scale-[1.02]" />
+    </>
+  );
+}
+
 export function ModelVisual({ model, priority = false, sizes, index = 0 }: { model: RsModel; priority?: boolean; sizes: string; index?: number }) {
   const src = model.images[index];
   if (src) {
-    return (
-      <Image
-        src={src}
-        alt={model.name}
-        fill
-        priority={priority}
-        sizes={sizes}
-        style={(() => { const f = model.focuses?.[src] ?? (index === 0 ? model.focus : undefined); return f ? { objectPosition: f } : undefined; })()}
-        className="object-cover transition duration-700 group-hover:scale-[1.03]"
-      />
-    );
+    const focus = model.focuses?.[src] ?? (index === 0 ? model.focus : undefined);
+    return <WholeImage src={src} alt={model.name} sizes={sizes} priority={priority} focus={focus} />;
   }
   // Pas encore de photo : grand nom du modèle en filigrane.
   return (
@@ -59,7 +60,7 @@ export default function ModelRow({ model, locale, flip = false }: { model: RsMod
   const d = t(locale);
   return (
     <article className="group grid border-t border-line lg:grid-cols-2">
-      <Link href={modelHref(model, locale)} className={`relative block aspect-[16/10] overflow-hidden lg:aspect-auto lg:min-h-[400px] ${flip ? 'lg:order-2' : ''}`}>
+      <Link href={modelHref(model, locale)} className={`relative block aspect-[3/2] overflow-hidden bg-black lg:aspect-auto lg:min-h-[420px] ${flip ? 'lg:order-2' : ''}`}>
         <ModelVisual model={model} sizes="(min-width: 1024px) 50vw, 100vw" />
       </Link>
       <div className="flex flex-col justify-center px-4 py-8 sm:px-8 lg:px-14 lg:py-10">
