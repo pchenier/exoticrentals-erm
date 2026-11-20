@@ -84,7 +84,7 @@ export const faqs = [
   { id: "faq-4", question: "Is insurance required?", answer: "Yes, valid insurance coverage is required. We can also arrange coverage through our partners if needed.", sortOrder: 4 },
   { id: "faq-5", question: "Is delivery available?", answer: "By default, vehicles are picked up at our Montreal location, detailed and fueled. Delivery is available by special arrangement within Montreal, Laval and the South Shore—contact our concierge to coordinate.", sortOrder: 5 },
   { id: "faq-6", question: "Can vehicles be delivered to an airport or hotel?", answer: "Delivery to airports, hotels, residences, and marinas is available by special arrangement and quoted on request. Most customers pick up at our Montreal location for the fastest turnaround.", sortOrder: 6 },
-  { id: "faq-7", question: "How much mileage is included?", answer: "Most rentals include 100 miles per day. Additional mileage is available at a per-mile rate.", sortOrder: 7 },
+  { id: "faq-7", question: "How much mileage is included?", answer: "Every rental includes 200 km per day. Additional kilometres are available at a per-km rate confirmed before the reservation.", sortOrder: 7 },
   { id: "faq-8", question: "Can additional drivers be added?", answer: "Yes, additional drivers can be added for a fee. All drivers must meet the same age and documentation requirements.", sortOrder: 8 },
   { id: "faq-9", question: "What is the cancellation policy?", answer: "Full refund with 72+ hours notice. 50% refund with 24-72 hours notice. No refund within 24 hours.", sortOrder: 9 },
   { id: "faq-10", question: "Are same-day reservations available?", answer: "Yes, subject to availability. Contact our concierge team for same-day requests.", sortOrder: 10 },
@@ -93,11 +93,4 @@ export const faqs = [
   { id: "faq-13", question: "Can I request a vehicle not currently listed?", answer: "Yes, our concierge team can source specific vehicles through our partner network.", sortOrder: 13 },
 ];
 
-export const reviews = [
-  { id: "rev-1", rating: 5, title: "Exceptional service", text: "Picked up the Huracán at their Montreal location. Impeccable condition, full tank, and the concierge walked me through everything. Will definitely rent again.", customerLabel: "Montreal Beach", verified: true, rentalDate: "June 2026", vehicle: "Lamborghini Huracán EVO" },
-  { id: "rev-2", rating: 5, title: "Worth every penny", text: "Rented the G63 for a weekend in Laurentians. The Urban Kit turns heads everywhere. Pickup was seamless and the car was spotless.", customerLabel: "Old Montreal", verified: true, rentalDate: "June 2026", vehicle: "Mercedes-AMG G63" },
-  { id: "rev-3", rating: 5, title: "Best rental experience in Montreal", text: "I've rented from every exotic car company in Montreal. Premier is on another level. The Maybach was flawless and the service was white-glove.", customerLabel: "Westmount", verified: true, rentalDate: "May 2026", vehicle: "Mercedes-Maybach S680" },
-  { id: "rev-4", rating: 5, title: "Made our wedding perfect", text: "Rented the Bentley Bentayga for our wedding day. Arrived early, detailed to perfection, and the driver was professional. Made our day unforgettable.", customerLabel: "Plateau Mont-Royal", verified: true, rentalDate: "May 2026", vehicle: "Bentley Bentayga" },
-  { id: "rev-5", rating: 4, title: "Great experience overall", text: "The 911 was incredible to drive. Only minor issue was a slight delay at pickup, but the concierge kept me updated throughout.", customerLabel: "Downtown Montreal", verified: true, rentalDate: "April 2026", vehicle: "Porsche 911 4S" },
-  { id: "rev-6", rating: 5, title: "The Urus is a beast", text: "Rented the Performante for a photoshoot. Client was blown away. Arranged delivery to the studio and the car was spotless.", customerLabel: " Griffintown", verified: true, rentalDate: "April 2026", vehicle: "Lamborghini Urus Performante" },
-];
+export const reviews: { id: string; rating: number; title?: string; text: string; customerLabel?: string; verified?: boolean; rentalDate?: string; vehicle?: string }[] = [];

@@ -7,12 +7,11 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.exoticrentalsmontreal.com/faq' },
 };
 
-// FAQPage pour Google et les moteurs IA. faq-7 (kilométrage) exclu tant que la politique n'est pas confirmée.
+// FAQPage pour Google et les moteurs IA.
 const faqLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: faqs
-    .filter((f) => f.id !== 'faq-7')
     .map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })),
 };
 
