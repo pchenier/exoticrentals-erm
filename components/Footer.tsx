@@ -35,6 +35,7 @@ export default function Footer() {
                 { label: "Reviews", href: "/reviews" },
                 { label: "Blog", href: "/blog" },
                 { label: "Contact", href: "/contact" },
+                { label: "Audi RS Rental (RentMyRS)", href: "https://www.rentmyrs.com/en" },
               ].map((link) => (
                 <a key={link.href} href={link.href} className="text-silver hover:text-warm-white transition-colors text-sm">
                   {link.label}

@@ -9,17 +9,17 @@ import type { Vehicle } from '@/lib/data'
 import VehicleCard from '@/components/VehicleCard'
 
 export const metadata: Metadata = {
-  title: 'Audi Rental Montreal — RS5, RS6, RS7, R8 | Exotic Rentals Montreal',
+  title: 'Audi Rental Montreal — R8 V10, RS3, RS5, RS7, RSQ8 | Exotic Rentals Montreal',
   description:
-    'Rent an Audi in Montreal. RS5, RS6, RS7, R8 V10 available from $350/day. Concierge delivery across Montreal, Laval, South Shore. Book 24/7 on WhatsApp.',
-  keywords: 'audi rental montreal, audi rs7 rental montreal, audi r8 rental montreal, location audi montreal',
+    'Rent an Audi in Montreal: R8 V10 and R8 Spyder, plus Audi RS3, RS5, RS7 and RSQ8 through our RS fleet RentMyRS (from $400/day). Delivery across Montreal, Laval, South Shore. Book 24/7.',
+  keywords: 'audi rental montreal, audi rs7 rental montreal, audi rs3 rental montreal, audi r8 rental montreal, location audi montreal, location audi rs montreal',
   alternates: {
     canonical: 'https://www.exoticrentalsmontreal.com/audi-rental-montreal',
   },
   openGraph: {
-    title: 'Audi Rental Montreal — RS5, RS6, RS7, R8 | Exotic Rentals Montreal',
+    title: 'Audi Rental Montreal — R8 V10, RS3, RS5, RS7, RSQ8 | Exotic Rentals Montreal',
     description:
-      'Rent an Audi in Montreal. RS5, RS6, RS7, R8 V10 available from $350/day. Concierge delivery across Montreal, Laval, South Shore. Book 24/7 on WhatsApp.',
+      'Rent an Audi in Montreal: R8 V10 and R8 Spyder, plus Audi RS3, RS5, RS7 and RSQ8 through our RS fleet RentMyRS (from $400/day). Delivery across Montreal, Laval, South Shore. Book 24/7.',
     url: 'https://www.exoticrentalsmontreal.com/audi-rental-montreal',
     siteName: 'Exotic Rentals Montreal',
     type: 'website',
@@ -45,11 +45,11 @@ const serviceSchema = {
     telephone: '+14388094417',
   },
   areaServed: 'Montreal, QC, Canada',
-  description: 'Premium Audi rental service in Montreal with concierge delivery. RS5, RS6, RS7, R8 V10 available.',
+  description: 'Premium Audi rental service in Montreal with concierge delivery. Audi R8 V10 and R8 Spyder, plus Audi RS3, RS5, RS7 and RSQ8 through the sister fleet RentMyRS (rentmyrs.com).',
   offers: {
     '@type': 'Offer',
     priceCurrency: 'CAD',
-    price: '350',
+    price: '299',
   },
 }
 
@@ -128,8 +128,8 @@ export default async function AudiRentalMontreal() {
               className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed"
               style={{ fontFamily: 'var(--font-inter)' }}
             >
-              Discover Montreal behind the wheel of an Audi — from the thunderous RS7 to the legendary R8 V10. Our
-              Audi fleet combines German engineering with unmatched performance, available from $350/day with
+              Discover Montreal behind the wheel of an Audi — from the legendary R8 V10 to the RS3, RS5, RS7 and
+              RSQ8 of our dedicated Audi RS fleet, RentMyRS. German engineering, quattro all-wheel drive and
               concierge delivery anywhere in Montreal, Laval, and the South Shore.
             </p>
           </section>
@@ -156,6 +156,34 @@ export default async function AudiRentalMontreal() {
             )}
           </section>
 
+          {/* Audi RS : flotte sœur RentMyRS */}
+          <section className="mb-20 border border-white/10 rounded-2xl p-8 md:p-12">
+            <p className="text-xs tracking-[0.3em] text-gray-400 uppercase mb-3" style={{ fontFamily: 'var(--font-inter)' }}>
+              Audi RS specialist
+            </p>
+            <h2 className="text-3xl md:text-4xl mb-6 uppercase tracking-wide" style={{ fontFamily: 'var(--font-display)' }}>
+              Audi RS3, RS5, RS7 &amp; RSQ8 rental with RentMyRS
+            </h2>
+            <p className="text-gray-300 text-lg leading-relaxed max-w-3xl mb-8" style={{ fontFamily: 'var(--font-inter)' }}>
+              Our sister fleet <a href="https://www.rentmyrs.com/en" className="underline underline-offset-4 hover:text-white">RentMyRS</a>{' '}
+              rents only Audi RS models in Montreal: RS3 ($400/day), RS5 Sportback ($500/day), RS7 Sportback Stage 2
+              ($900/day) and RSQ8 ($800/day), with a refundable deposit of $3,000 to $5,000. 25+, delivery on request.
+            </p>
+            <div className="flex flex-wrap gap-3" style={{ fontFamily: 'var(--font-inter)' }}>
+              {[
+                ['Audi RS3 rental', 'https://www.rentmyrs.com/en/audi-rs3-rental-montreal'],
+                ['Audi RS5 rental', 'https://www.rentmyrs.com/en/audi-rs5-rental-montreal'],
+                ['Audi RS7 rental', 'https://www.rentmyrs.com/en/audi-rs7-rental-montreal'],
+                ['Audi RSQ8 rental', 'https://www.rentmyrs.com/en/audi-rsq8-rental-montreal'],
+                ['Location Audi RS (FR)', 'https://www.rentmyrs.com/'],
+              ].map(([label, href]) => (
+                <a key={href} href={href} className="px-5 py-2.5 rounded-full border border-white/30 text-sm hover:bg-white hover:text-black transition-colors">
+                  {label}
+                </a>
+              ))}
+            </div>
+          </section>
+
           {/* Why Rent an Audi */}
           <section className="mb-20">
             <h2
@@ -166,7 +194,7 @@ export default async function AudiRentalMontreal() {
             </h2>
             <ul className="max-w-2xl mx-auto space-y-5">
               {[
-                'RS7 and R8 V10 available — the pinnacle of Audi performance',
+                'R8 V10 and R8 Spyder here, RS3 to RSQ8 at RentMyRS — the full Audi Sport lineup',
                 'Concierge delivery anywhere in Montreal, Laval, and the South Shore',
                 'Available 24/7, 365 days a year — book any time, day or night',
               ].map((feature) => (
