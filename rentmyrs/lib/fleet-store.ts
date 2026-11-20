@@ -33,12 +33,19 @@ function ensureTable() {
 }
 
 export async function readOverrides(): Promise<FleetOverride[]> {
+  // Pendant le build Vercel, on n'attend pas la base : les pages se mettent à jour
+  // toutes les 5 minutes (et tout de suite après un enregistrement dans /admin).
+  if (process.env.NEXT_PHASE === 'phase-production-build') return [];
   const sql = db();
   if (!sql) return [];
   try {
-    await ensureTable();
-    const rows = await sql<FleetOverride[]>`SELECT id, daily_rate, deposit, status, images FROM rentmyrs_fleet`;
-    return rows;
+    const read = (async () => {
+      await ensureTable();
+      return sql<FleetOverride[]>`SELECT id, daily_rate, deposit, status, images FROM rentmyrs_fleet`;
+    })();
+    // Une base lente ne doit jamais bloquer l'affichage du site.
+    const timeout = new Promise<never>((_, rej) => setTimeout(() => rej(new Error('timeout')), 4000));
+    return await Promise.race([read, timeout]);
   } catch (e) {
     console.error('fleet-store: read failed', e instanceof Error ? e.message : e);
     return [];
