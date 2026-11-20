@@ -5,16 +5,16 @@ type BtnProps = { href: string; children: React.ReactNode; variant?: 'solid' | '
 /** Bouton rectangulaire avec flèche, façon showroom. */
 export function Btn({ href, children, variant = 'solid', className = '' }: BtnProps) {
   const base =
-    'group inline-flex items-center gap-4 px-6 py-3.5 text-[13px] font-medium uppercase tracking-[0.14em] transition';
+    'cta group inline-flex items-center gap-4 px-8 py-4 text-[13px] font-bold uppercase tracking-[0.16em]';
   const look =
     variant === 'solid'
-      ? 'bg-paper text-ink hover:bg-rs hover:text-paper'
-      : 'border border-paper/40 text-paper hover:border-paper';
+      ? 'cta-idle bg-rs text-paper hover:bg-paper hover:text-ink'
+      : 'bg-white/15 text-paper backdrop-blur-sm hover:bg-paper hover:text-ink';
   const cls = `${base} ${look} ${className}`;
   const inner = (
     <>
       {children}
-      <span aria-hidden className="transition group-hover:translate-x-1">→</span>
+      <span aria-hidden className="text-base transition-transform duration-200 group-hover:translate-x-1.5">→</span>
     </>
   );
   return href.startsWith('#') || href.startsWith('http') ? (
@@ -40,5 +40,19 @@ export function Stat({ value, unit, label }: { value: string; unit?: string; lab
       </p>
       <p className="label mt-1 text-mute">{label}</p>
     </div>
+  );
+}
+
+/** Nom de modèle avec petit drapeau rouge incliné devant « RS » (dans l'esprit des badges RS, pas le logo officiel). */
+export function RsMark({ name, className = '' }: { name: string; className?: string }) {
+  const m = /^RS\s?(.*)$/.exec(name);
+  if (!m) return <>{name}</>;
+  return (
+    <span className={`inline-flex items-center gap-[0.14em] italic ${className}`}>
+      <span aria-hidden className="rs-flag" />
+      <span>
+        RS{m[1] && <span className="ml-[0.14em]">{m[1]}</span>}
+      </span>
+    </span>
   );
 }

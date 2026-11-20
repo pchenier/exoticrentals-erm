@@ -9,7 +9,7 @@ import { Badge, ModelVisual, StatusTag, accel, money, modelHref } from './ModelC
 import BookingForm from './BookingForm';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
-import { Btn, Stat } from './ui';
+import { Btn, RsMark, Stat } from './ui';
 
 export default function ModelView({ locale, model, models }: { locale: Locale; model: RsModel; models: RsModel[] }) {
   const d = t(locale);
@@ -32,7 +32,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
     name: model.name,
     brand: { '@type': 'Brand', name: 'Audi' },
     url,
-    ...(model.images[0] && { image: model.images.map((i) => `${SITE.url}${i}`) }),
+    ...(model.images[0] && { image: model.images.map((i) => (i.startsWith("http") ? i : `${SITE.url}${i}`)) }),
     vehicleEngine: { '@type': 'EngineSpecification', name: model.specs.engine },
     seatingCapacity: model.specs.seats,
     ...(model.dailyRate != null && {
@@ -68,7 +68,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
               <StatusTag model={model} locale={locale} />
             </div>
             <h1 className="mt-3 text-[18vw] font-bold uppercase leading-[0.85] tracking-tight sm:text-[9rem]">
-              {model.short}
+              <RsMark name={model.short} />
               <span className="sr-only"> {locale === 'fr' ? `– location ${model.name} à Montréal` : `– ${model.name} rental in Montreal`}</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg font-light text-paper/85">{model.tagline[locale]}</p>
@@ -116,7 +116,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
         {/* Galerie bord à bord */}
         {model.images.length > 1 && (
           <section className="grid sm:grid-cols-3">
-            {model.images.slice(1, 4).map((src, i) => (
+            {model.images.slice(1).map((src, i) => (
               <div key={src} className="relative aspect-[4/3] overflow-hidden">
                 <Image src={src} alt={`${model.name} ${i + 2}`} fill sizes="(min-width: 640px) 33vw, 100vw" className="object-cover" />
               </div>
@@ -160,7 +160,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
                 <ModelVisual model={m} sizes="(min-width: 640px) 33vw, 100vw" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-6">
-                  <p className="wide text-4xl font-bold tracking-tight transition group-hover:text-rs">{m.short}</p>
+                  <p className="wide text-4xl font-bold tracking-tight transition group-hover:text-rs"><RsMark name={m.short} /></p>
                   <p className="label mt-2 text-paper/70">
                     {m.specs.hp} {d.fleet.hp}
                     {m.dailyRate != null && ` · ${money(m.dailyRate, locale)} $${d.fleet.perDay}`}

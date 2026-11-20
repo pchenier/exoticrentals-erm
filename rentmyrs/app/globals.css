@@ -52,3 +52,39 @@ h1, h2, h3, .label, .wide { font-stretch: 125%; }
   from { transform: translate3d(calc(var(--sway, 0px) * -1), 0, 0); }
   to { transform: translate3d(var(--sway, 0px), 0, 0); }
 }
+
+/* Boutons d'action : parallélogramme rouge façon badge RS, reflet qui passe, flèche qui avance. */
+.cta {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%);
+  transition: transform .2s ease, background-color .2s ease, color .2s ease;
+}
+.cta:hover { transform: translateY(-2px); }
+.cta:active { transform: translateY(0) scale(.98); }
+.cta::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 40%;
+  background: linear-gradient(100deg, transparent, rgba(255,255,255,.45), transparent);
+  transform: translateX(-150%) skewX(-20deg);
+  pointer-events: none;
+}
+.cta:hover::after { animation: cta-shine .7s ease; }
+.cta-idle::after { animation: cta-shine 1s ease 1.5s, cta-shine 1s ease 6s; }
+@keyframes cta-shine { to { transform: translateX(350%) skewX(-20deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .cta::after { display: none; }
+  .cta:hover { transform: none; }
+}
+
+/* Petit drapeau rouge devant « RS » dans les noms de modèles. */
+.rs-flag {
+  display: inline-block;
+  flex: none;
+  width: 0.5em;
+  height: 0.68em;
+  background: var(--color-rs);
+  clip-path: polygon(28% 0, 100% 0, 72% 100%, 0 100%);
+}

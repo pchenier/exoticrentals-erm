@@ -10,7 +10,7 @@ import BookingForm from './BookingForm';
 import ContactFloat from './ContactFloat';
 import Snow from './Snow';
 import JsonLd from './JsonLd';
-import { Btn } from './ui';
+import { Btn, RsMark } from './ui';
 
 export default async function HomeView({ locale }: { locale: Locale }) {
   const d = t(locale);
@@ -83,7 +83,7 @@ export default async function HomeView({ locale }: { locale: Locale }) {
               href={modelHref(m, locale)}
               className={`group border-line px-4 py-6 transition hover:bg-panel sm:px-8 ${i % 2 === 0 ? 'border-r' : ''} ${i < 2 ? 'border-b sm:border-b-0' : ''} ${i === 1 ? 'sm:border-r' : ''} ${i === 2 ? 'sm:border-r' : ''}`}
             >
-              <p className="wide text-2xl font-bold tracking-tight transition group-hover:text-rs sm:text-3xl">{m.short}</p>
+              <p className="wide text-2xl font-bold tracking-tight transition group-hover:text-rs sm:text-3xl"><RsMark name={m.short} /></p>
               <p className="label mt-2 text-mute">
                 {m.dailyRate != null ? `${money(m.dailyRate, locale)} $${d.fleet.perDay}` : d.fleet.onRequest}
               </p>

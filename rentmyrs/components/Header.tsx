@@ -18,7 +18,7 @@ export default function Header({ locale, otherHref }: { locale: Locale; otherHre
           <Link href={otherHref ?? d.nav.otherHref} hrefLang={locale === 'fr' ? 'en' : 'fr'} className={link}>
             {d.nav.other}
           </Link>
-          <a href="#reserver" className="label bg-paper px-4 py-2.5 text-ink transition hover:bg-rs hover:text-paper">
+          <a href="#reserver" className="cta label bg-rs px-5 py-2.5 font-bold text-paper hover:bg-paper hover:text-ink">
             {d.nav.book}
           </a>
         </nav>
