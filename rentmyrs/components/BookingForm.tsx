@@ -65,7 +65,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
         off,
       };
     }),
-    { key: 'Lamborghini', label: 'Lambo', sub: 'Huracán · Urus', img: '/cars/huracan-evo.jpg', off: false, wide: models.length % 2 === 0 },
+    { key: 'Lamborghini', label: 'Lambo', sub: 'Huracán · Urus', off: false, wide: models.length % 2 === 0 },
   ];
 
   return (

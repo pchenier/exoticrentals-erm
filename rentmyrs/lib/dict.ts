@@ -20,9 +20,9 @@ export const DICT = {
     lambo: {
       kicker: 'Envie de plus ?',
       title: 'Les Lamborghini sont aussi disponibles',
-      sub: 'Huracán et Urus de notre flotte sœur Exotic Rentals Montreal, avec le même service de livraison.',
+      sub: 'Huracán, Urus et autres exotiques chez notre flotte sœur, exoticrentalsmontreal.com, avec le même service de livraison.',
       from: 'Dès',
-      cta: 'Voir les Lamborghini',
+      cta: 'exoticrentalsmontreal.com',
     },
     how: {
       title: 'Comment ça marche',
@@ -79,9 +79,9 @@ export const DICT = {
     lambo: {
       kicker: 'Want more?',
       title: 'Lamborghinis are available too',
-      sub: 'Huracán and Urus from our sister fleet Exotic Rentals Montreal, with the same delivery service.',
+      sub: 'Huracán, Urus and more exotics at our sister fleet, exoticrentalsmontreal.com, with the same delivery service.',
       from: 'From',
-      cta: 'See the Lamborghinis',
+      cta: 'exoticrentalsmontreal.com',
     },
     how: {
       title: 'How it works',

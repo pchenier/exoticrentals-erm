@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { SITE, type Locale } from '@/lib/site';
 import { t } from '@/lib/dict';
-import { LAMBOS } from '@/lib/fleet';
 import { getFleet } from '@/lib/fleet-store';
 import Header from './Header';
 import Footer from './Footer';
@@ -91,7 +90,7 @@ export default async function HomeView({ locale }: { locale: Locale }) {
 
         {/* Lamborghini en arrière-plan */}
         <section id="lamborghini" className="scroll-mt-16 border-t border-line">
-          <div className={`${wrap} flex flex-col gap-8 pb-12 pt-24 lg:flex-row lg:items-end lg:justify-between`}>
+          <div className={`${wrap} flex flex-col gap-8 py-24 lg:flex-row lg:items-end lg:justify-between`}>
             <div>
               <p className="label text-mute">{d.lambo.kicker}</p>
               <h2 className={`${h2} mt-4`}>{d.lambo.title}</h2>
@@ -100,26 +99,6 @@ export default async function HomeView({ locale }: { locale: Locale }) {
             <Btn href={locale === 'fr' ? SITE.sister.lamborghiniFr : SITE.sister.lamborghiniEn} variant="ghost">
               {d.lambo.cta}
             </Btn>
-          </div>
-          <div className="grid sm:grid-cols-3">
-            {LAMBOS.map((l) => (
-              <figure key={l.name} className="group relative aspect-[4/5] overflow-hidden">
-                <Image
-                  src={l.image}
-                  alt={`${l.name} ${locale === 'fr' ? 'à louer à Montréal' : 'rental Montreal'}`}
-                  fill
-                  sizes="(min-width: 640px) 33vw, 100vw"
-                  className="object-cover grayscale-[40%] transition duration-700 group-hover:scale-[1.03] group-hover:grayscale-0"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent" />
-                <figcaption className="absolute inset-x-0 bottom-0 p-6">
-                  <p className="wide text-xl font-bold uppercase tracking-tight">{l.name.replace('Lamborghini ', '')}</p>
-                  <p className="label mt-2 text-paper/70">
-                    {l.hp} {d.fleet.hp} · {d.lambo.from} {money(l.dailyRate, locale)} ${d.fleet.perDay}
-                  </p>
-                </figcaption>
-              </figure>
-            ))}
           </div>
         </section>
 
