@@ -110,7 +110,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
           <section className="grid sm:grid-cols-3">
             {model.images.slice(1).map((src, i) => (
               <div key={src} className="relative aspect-[4/3] overflow-hidden">
-                <Image src={src} alt={`${model.name} ${i + 2}`} fill sizes="(min-width: 640px) 33vw, 100vw" className="object-cover" />
+                <Image src={src} alt={`${model.name} ${i + 2}`} fill sizes="(min-width: 640px) 33vw, 100vw" style={model.focuses?.[src] ? { objectPosition: model.focuses[src] } : undefined} className="object-cover" />
               </div>
             ))}
           </section>

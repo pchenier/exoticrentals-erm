@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { put } from '@vercel/blob';
+import { list, put } from '@vercel/blob';
 import { requireAdmin } from '@/lib/admin-auth';
 
 export const dynamic = 'force-dynamic';
@@ -27,4 +27,18 @@ export async function POST(req: Request) {
     contentType: file.type,
   });
   return NextResponse.json({ url: blob.url });
+}
+
+// GET ?model=rs3 : photos déjà téléversées pour ce modèle (pour en remettre une sans la renvoyer).
+export async function GET(req: Request) {
+  const denied = await requireAdmin(req);
+  if (denied) return denied;
+  if (!process.env.BLOB_READ_WRITE_TOKEN) return NextResponse.json({ urls: [] });
+  const model = (new URL(req.url).searchParams.get('model') ?? '').replace(/[^a-z0-9]/g, '');
+  if (!model) return NextResponse.json({ urls: [] });
+  const { blobs } = await list({ prefix: `rentmyrs/${model}/`, limit: 100 });
+  return NextResponse.json(
+    { urls: blobs.sort((a, b) => +new Date(b.uploadedAt) - +new Date(a.uploadedAt)).map((b) => b.url) },
+    { headers: { 'Cache-Control': 'no-store' } },
+  );
 }

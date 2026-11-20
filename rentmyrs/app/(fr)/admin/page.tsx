@@ -119,8 +119,9 @@ function FleetTab() {
 
   const load = useCallback(() => {
     fetch('/api/admin/fleet', { cache: 'no-store' })
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+      .then(async (r) => (r.ok ? r.json() : Promise.reject(new Error((await r.json().catch(() => ({}))).error || `HTTP ${r.status}`))))
       .then((d) => {
+        setError('');
         setModels(d.models);
         setDbOk(d.dbConfigured);
       })
@@ -128,7 +129,13 @@ function FleetTab() {
   }, []);
   useEffect(load, [load]);
 
-  if (error) return <p className="text-sm text-rs">{error}</p>;
+  if (error)
+    return (
+      <div className="grid justify-items-start gap-3">
+        <p className="text-sm text-rs">{error}</p>
+        <button type="button" onClick={() => { setError(''); load(); }} className={btnSolid}>Réessayer</button>
+      </div>
+    );
   if (!models) return <p className="label text-mute">Chargement…</p>;
 
   return (
@@ -149,7 +156,30 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
   const [status, setStatus] = useState<VehicleStatus>(model.status ?? 'available');
   const [images, setImages] = useState<string[]>(model.images);
   const [videos, setVideos] = useState<string[]>(model.videos ?? []);
+  const [focuses, setFocuses] = useState<Record<string, string>>(model.focuses ?? {});
+  const [focusDirty, setFocusDirty] = useState(0);
+  const pos = (src: string) => (focuses[src] ?? '50% 50%').split(' ').map((v) => parseInt(v, 10)) as [number, number];
+  const setFocus = (src: string, x: number, y: number) => {
+    const c = (n: number) => Math.max(0, Math.min(100, Math.round(n)));
+    setFocuses((f) => ({ ...f, [src]: `${c(x)}% ${c(y)}%` }));
+    setFocusDirty((n) => n + 1);
+  };
+  // Le cadrage est publié tout seul, une demi-seconde après le dernier réglage.
+  useEffect(() => {
+    if (!focusDirty || !canSave) return;
+    const t = setTimeout(() => save(), 600);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focusDirty]);
   const [progress, setProgress] = useState<number | null>(null);
+  const [library, setLibrary] = useState<string[]>([]);
+  useEffect(() => {
+    fetch(`/api/admin/upload?model=${model.id}`, { cache: 'no-store' })
+      .then((r) => (r.ok ? r.json() : { urls: [] }))
+      .then((d) => setLibrary(d.urls ?? []))
+      .catch(() => {});
+  }, [model.id]);
+  const unused = library.filter((u) => !images.includes(u));
   const [texts, setTexts] = useState({ tagline: { ...model.tagline }, intro: { ...model.intro } });
   const setText = (k: 'tagline' | 'intro', l: 'fr' | 'en', v: string) => setTexts((c) => ({ ...c, [k]: { ...c[k], [l]: v } }));
   const [busy, setBusy] = useState(false);
@@ -212,7 +242,7 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
     const r = await fetch('/api/admin/fleet', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images: nextImages, videos: nextVideos, texts }),
+      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images: nextImages, videos: nextVideos, focuses, texts }),
     });
     const d = await r.json().catch(() => ({}));
     setBusy(false);
@@ -280,17 +310,32 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
       </div>
 
       <div className="mt-5">
-        <p className="label text-mute">Photos (la première est la photo principale)</p>
+        <p className="label text-mute">Photos (la première est la photo principale). Clique sur une photo ou utilise X / Y pour la recadrer.</p>
         <div className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
           {images.map((src, i) => (
             <div key={src} className="group relative aspect-[4/3] overflow-hidden border border-line">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} alt="" className="h-full w-full object-cover" />
+              <img
+                src={src}
+                alt=""
+                title="Clique pour choisir le centre de la photo"
+                style={{ objectPosition: focuses[src] ?? '50% 50%' }}
+                onClick={(e) => {
+                  const r = e.currentTarget.getBoundingClientRect();
+                  setFocus(src, ((e.clientX - r.left) / r.width) * 100, ((e.clientY - r.top) / r.height) * 100);
+                }}
+                className="h-full w-full cursor-crosshair object-cover"
+              />
+              <span aria-hidden className="pointer-events-none absolute h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white bg-rs shadow" style={{ left: `${pos(src)[0]}%`, top: `${pos(src)[1]}%` }} />
               {i === 0 && <span className="label absolute left-1 top-1 bg-rs px-1.5 py-0.5 text-[9px]">Principale</span>}
               <div className="absolute inset-x-0 bottom-0 flex justify-between bg-black/70 p-1 text-xs">
                 <button type="button" onClick={() => move(i, -1)} className="px-2 hover:text-rs" aria-label="Avancer">←</button>
                 <button type="button" onClick={() => savePhotos(images.filter((x) => x !== src))} className="px-2 hover:text-rs">Retirer</button>
                 <button type="button" onClick={() => move(i, 1)} className="px-2 hover:text-rs" aria-label="Reculer">→</button>
+              </div>
+              <div className="absolute inset-x-0 bottom-7 grid gap-0.5 bg-black/70 px-2 py-1 opacity-0 transition group-hover:opacity-100 focus-within:opacity-100 [@media(hover:none)]:opacity-100">
+                <label className="flex items-center gap-2 text-[10px] text-mute">X<input type="range" min={0} max={100} value={pos(src)[0]} onChange={(e) => setFocus(src, +e.target.value, pos(src)[1])} className="w-full accent-rs" /></label>
+                <label className="flex items-center gap-2 text-[10px] text-mute">Y<input type="range" min={0} max={100} value={pos(src)[1]} onChange={(e) => setFocus(src, pos(src)[0], +e.target.value)} className="w-full accent-rs" /></label>
               </div>
             </div>
           ))}
@@ -300,6 +345,21 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
           </label>
         </div>
       </div>
+
+      {unused.length > 0 && (
+        <div className="mt-4">
+          <p className="label text-mute">Photos déjà téléversées, pas affichées (clique pour la remettre)</p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {unused.map((src) => (
+              <button key={src} type="button" onClick={() => savePhotos([...images, src])} className="relative h-16 w-24 overflow-hidden border border-line opacity-70 hover:border-paper hover:opacity-100">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={src} alt="" className="h-full w-full object-cover" />
+                <span className="absolute inset-0 flex items-center justify-center bg-black/40 text-lg">+</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="mt-5">
         <p className="label text-mute">Vidéos (MP4, MOV ou WebM, 500 Mo max)</p>

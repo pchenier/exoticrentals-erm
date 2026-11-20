@@ -11,10 +11,14 @@ export const dynamic = 'force-dynamic';
 export async function GET(req: Request) {
   const denied = await requireAdmin(req);
   if (denied) return denied;
-  return NextResponse.json(
-    { models: await getFleet(), dbConfigured: !!db() },
-    { headers: { 'Cache-Control': 'no-store' } },
-  );
+  try {
+    return NextResponse.json(
+      { models: await getFleet({ strict: true }), dbConfigured: !!db() },
+      { headers: { 'Cache-Control': 'no-store' } },
+    );
+  } catch (e) {
+    return NextResponse.json({ error: e instanceof Error ? e.message : 'Erreur' }, { status: 503 });
+  }
 }
 
 const toInt = (v: unknown) => {
@@ -42,6 +46,12 @@ export async function PUT(req: Request) {
   const videos = Array.isArray(body.videos)
     ? body.videos.filter((u): u is string => typeof u === 'string' && /^https:\/\/[a-z0-9]+\.public\.blob\.vercel-storage\.com\//.test(u)).slice(0, 12)
     : null;
+  const focuses: Record<string, string> = {};
+  if (body.focuses && typeof body.focuses === 'object') {
+    for (const [k, v] of Object.entries(body.focuses as Record<string, unknown>)) {
+      if (images?.includes(k) && typeof v === 'string' && /^\d{1,3}% \d{1,3}%$/.test(v)) focuses[k] = v;
+    }
+  }
   const txt = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice(0, max) : '');
   const t = (body.texts ?? {}) as Record<string, Record<string, unknown> | undefined>;
   const texts = {
@@ -52,7 +62,7 @@ export async function PUT(req: Request) {
     return NextResponse.json({ error: 'Champs invalides' }, { status: 400 });
   }
   try {
-    await writeOverride({ id: model.id, daily_rate: dailyRate, deposit, status: body.status, images, texts, videos });
+    await writeOverride({ id: model.id, daily_rate: dailyRate, deposit, status: body.status, images, texts, videos, focuses });
   } catch (e) {
     return NextResponse.json({ error: e instanceof Error ? e.message : 'Erreur base de données' }, { status: 503 });
   }

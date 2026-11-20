@@ -39,7 +39,7 @@ export function ModelVisual({ model, priority = false, sizes, index = 0 }: { mod
         fill
         priority={priority}
         sizes={sizes}
-        style={index === 0 && model.focus ? { objectPosition: model.focus } : undefined}
+        style={(() => { const f = model.focuses?.[src] ?? (index === 0 ? model.focus : undefined); return f ? { objectPosition: f } : undefined; })()}
         className="object-cover transition duration-700 group-hover:scale-[1.03]"
       />
     );
