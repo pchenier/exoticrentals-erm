@@ -8,7 +8,7 @@ export default function Header({ locale, otherHref }: { locale: Locale; otherHre
   const home = locale === 'fr' ? '/' : '/en';
   const link = 'label text-paper/70 transition hover:text-paper';
   return (
-    <header className="fixed inset-x-0 top-0 z-40 bg-gradient-to-b from-black/80 to-transparent">
+    <header className="fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-black/65 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between px-4 sm:h-20 sm:px-8">
         <Link href={home} aria-label="RentMyRS"><Logo /></Link>
         <nav className="flex items-center gap-4 sm:gap-8">
