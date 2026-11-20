@@ -12,6 +12,8 @@ export type BlogPost = {
   title: string;
   description: string;
   date: string; // AAAA-MM-JJ
+  /** Date de la dernière mise à jour (enrichisseur) */
+  updated?: string;
   model?: string | null;
   image?: string;
   /** Réponse directe en tête d'article (GEO) */
