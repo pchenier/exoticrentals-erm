@@ -59,18 +59,18 @@ export default function ModelRow({ model, locale, flip = false }: { model: RsMod
   const d = t(locale);
   return (
     <article className="group grid border-t border-line lg:grid-cols-2">
-      <Link href={modelHref(model, locale)} className={`relative block aspect-[4/3] overflow-hidden lg:aspect-auto lg:min-h-[620px] ${flip ? 'lg:order-2' : ''}`}>
+      <Link href={modelHref(model, locale)} className={`relative block aspect-[16/10] overflow-hidden lg:aspect-auto lg:min-h-[400px] ${flip ? 'lg:order-2' : ''}`}>
         <ModelVisual model={model} sizes="(min-width: 1024px) 50vw, 100vw" />
       </Link>
-      <div className="flex flex-col justify-center px-4 py-12 sm:px-8 lg:px-16 lg:py-20">
+      <div className="flex flex-col justify-center px-4 py-8 sm:px-8 lg:px-14 lg:py-10">
         <div className="flex items-center gap-4">
           <p className="label text-mute">{model.body[locale]}</p>
           <Badge model={model} locale={locale} />
           <StatusTag model={model} locale={locale} />
         </div>
-        <h3 className="mt-4 wide text-6xl font-bold leading-none tracking-tight sm:text-8xl"><RsMark name={model.short} /></h3>
-        <p className="mt-5 max-w-md text-lg font-light text-paper/80">{model.tagline[locale]}</p>
-        <div className="mt-10 grid max-w-md grid-cols-3 gap-6 border-t border-line pt-6">
+        <h3 className="mt-3 wide text-4xl font-bold leading-none tracking-tight sm:text-5xl"><RsMark name={model.short} /></h3>
+        <p className="mt-3 max-w-md font-light text-paper/80">{model.tagline[locale]}</p>
+        <div className="mt-6 grid max-w-md grid-cols-3 gap-6 border-t border-line pt-5">
           <Stat value={String(model.specs.hp)} unit={d.fleet.hp} label={d.model.power.split(' (')[0]} />
           <Stat value={accel(model, locale)} unit="s" label="0-100 km/h" />
           {model.dailyRate != null ? (
@@ -79,7 +79,7 @@ export default function ModelRow({ model, locale, flip = false }: { model: RsMod
             <Stat value="—" label={d.fleet.onRequest} />
           )}
         </div>
-        <div className="mt-10 flex flex-wrap gap-3">
+        <div className="mt-7 flex flex-wrap gap-3">
           <Btn href={modelHref(model, locale)}>{d.fleet.details}</Btn>
         </div>
       </div>

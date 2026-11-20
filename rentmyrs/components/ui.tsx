@@ -34,7 +34,7 @@ export function Logo({ className = "h-9 sm:h-11" }: { className?: string }) {
 export function Stat({ value, unit, label }: { value: string; unit?: string; label: string }) {
   return (
     <div>
-      <p className="text-3xl font-light tracking-tight sm:text-4xl">
+      <p className="text-2xl font-light tracking-tight sm:text-3xl">
         {value}
         {unit && <span className="ml-1 text-base text-mute">{unit}</span>}
       </p>
