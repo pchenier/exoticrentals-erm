@@ -6,6 +6,6 @@ const url = process.env.POSTGRES_URL || '';
 let client: ReturnType<typeof postgres> | null = null;
 export function db() {
   if (!url) return null;
-  client ??= postgres(url, { ssl: 'require', max: 1 });
+  client ??= postgres(url, { ssl: /@(localhost|127\.0\.0\.1)[:\/]/.test(url) ? false : 'require', max: 1 });
   return client;
 }

@@ -16,7 +16,7 @@ export const DICT = {
       cta: 'Faire une demande',
       cta2: 'Voir les RS',
     },
-    fleet: { title: 'La gamme RS', sub: 'Quatre caractères, une seule philosophie : la performance au quotidien.', from: 'Dès', perDay: '/jour', perDayLabel: 'Par jour', onRequest: 'Prix sur demande', details: 'Découvrir', hp: 'ch', seats: 'places', photoSoon: 'Photos à venir', deposit: 'Dépôt remboursable' },
+    fleet: { title: 'La gamme RS', sub: 'Quatre caractères, une seule philosophie : la performance au quotidien.', from: 'Dès', perDay: '/jour', perDayLabel: 'Par jour', onRequest: 'Prix sur demande', details: 'Découvrir', hp: 'ch', seats: 'places', photoSoon: 'Photos à venir', deposit: 'Dépôt remboursable', unavailable: 'Non disponible pour le moment', maintenance: 'En entretien', notAvail: 'non dispo' },
     lambo: {
       kicker: 'Envie de plus ?',
       title: 'Les Lamborghini sont aussi disponibles',
@@ -75,7 +75,7 @@ export const DICT = {
       cta: 'Request a car',
       cta2: 'See the RS lineup',
     },
-    fleet: { title: 'The RS lineup', sub: 'Four characters, one idea: everyday performance.', from: 'From', perDay: '/day', perDayLabel: 'Per day', onRequest: 'Price on request', details: 'Discover', hp: 'hp', seats: 'seats', photoSoon: 'Photos coming soon', deposit: 'Refundable deposit' },
+    fleet: { title: 'The RS lineup', sub: 'Four characters, one idea: everyday performance.', from: 'From', perDay: '/day', perDayLabel: 'Per day', onRequest: 'Price on request', details: 'Discover', hp: 'hp', seats: 'seats', photoSoon: 'Photos coming soon', deposit: 'Refundable deposit', unavailable: 'Currently unavailable', maintenance: 'In maintenance', notAvail: 'unavailable' },
     lambo: {
       kicker: 'Want more?',
       title: 'Lamborghinis are available too',
