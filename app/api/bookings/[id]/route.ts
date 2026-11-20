@@ -1,5 +1,6 @@
 import { sql } from '@/lib/db';
 import { NextResponse } from 'next/server';
+import { requireAdmin } from '@/lib/admin-auth';
 
 export const dynamic = 'force-dynamic';
 
@@ -7,6 +8,9 @@ export async function PUT(
   request: Request,
   { params }: { params: Promise<{ id: string }> }
 ) {
+  const denied = await requireAdmin(request);
+  if (denied) return denied;
+
   try {
     const { id } = await params;
     const body = await request.json();
@@ -39,9 +43,12 @@ export async function PUT(
 }
 
 export async function DELETE(
-  _req: Request,
+  req: Request,
   { params }: { params: Promise<{ id: string }> }
 ) {
+  const denied = await requireAdmin(req);
+  if (denied) return denied;
+
   const { id } = await params;
   const numId = parseInt(id, 10);
   await sql`DELETE FROM bookings WHERE id = ${numId}`;

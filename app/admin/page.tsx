@@ -9,8 +9,6 @@ import { upload } from "@vercel/blob/client";
 import { vehicles as staticVehicles, type Vehicle } from "@/lib/data";
 import { slugify } from "@/lib/slugify";
 
-const ADMIN_PASSWORD = "1666777";
-
 // ── Helpers ───────────────────────────────────────────────────────────
 function formatCurrency(n: number) {
   return `$${n.toLocaleString("en-US")}`;
@@ -502,14 +500,14 @@ type BookingRequest = {
   created_at: string;
 };
 
-function BookingsTab({ password }: { password: string }) {
+function BookingsTab() {
   const [bookings, setBookings] = useState<BookingRequest[]>([]);
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState("");
 
   const load = () => {
     setLoading(true);
-    fetch(`/api/booking-requests?password=${encodeURIComponent(password)}`)
+    fetch(`/api/booking-requests`)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
       .then((data) => {
         if (Array.isArray(data)) setBookings(data);
@@ -523,7 +521,7 @@ function BookingsTab({ password }: { password: string }) {
 
   const del = async (id: string) => {
     if (!confirm("Supprimer cette demande ?")) return;
-    await fetch(`/api/booking-requests?password=${encodeURIComponent(password)}&id=${id}`, { method: "DELETE" });
+    await fetch(`/api/booking-requests?id=${encodeURIComponent(id)}`, { method: "DELETE" });
     load();
   };
 
@@ -592,6 +590,8 @@ function BookingsTab({ password }: { password: string }) {
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false);
   const [password, setPassword] = useState("");
+  const [checking, setChecking] = useState(true);
+  const [loginError, setLoginError] = useState("");
   const [vehicles, setVehicles] = useState<Vehicle[]>([]);
   const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState<string | null>(null);
@@ -611,12 +611,39 @@ export default function AdminPage() {
     }
   }, [authed]);
 
-  const handleLogin = () => {
-    if (password === ADMIN_PASSWORD) {
-      setAuthed(true);
-    } else {
-      alert("Wrong password");
+  // Restore an existing session (httpOnly cookie) on load.
+  useEffect(() => {
+    fetch("/api/admin/session", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((d) => { if (d?.authed) setAuthed(true); })
+      .catch(() => {})
+      .finally(() => setChecking(false));
+  }, []);
+
+  const handleLogin = async () => {
+    setLoginError("");
+    try {
+      const res = await fetch("/api/admin/session", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      if (res.ok) {
+        setPassword("");
+        setAuthed(true);
+      } else if (res.status === 503) {
+        setLoginError("ADMIN_PASSWORD n'est pas configuré sur Vercel.");
+      } else {
+        setLoginError("Mot de passe incorrect");
+      }
+    } catch {
+      setLoginError("Erreur réseau");
     }
+  };
+
+  const handleLogout = async () => {
+    await fetch("/api/admin/session", { method: "DELETE" }).catch(() => {});
+    setAuthed(false);
   };
 
   const updateVehicle = (index: number, v: Vehicle) => {
@@ -681,10 +708,13 @@ export default function AdminPage() {
       const res = await fetch("/api/admin/save-data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password: ADMIN_PASSWORD, vehicles: fixedVehicles, faqs: [], reviews: [] }),
+        body: JSON.stringify({ vehicles: fixedVehicles, faqs: [], reviews: [] }),
       });
       const data = await res.json();
-      if (data.success) {
+      if (res.status === 401) {
+        setSaveMsg("Session expirée : reconnecte-toi puis sauvegarde à nouveau.");
+        setAuthed(false);
+      } else if (data.success) {
         setSaveMsg(`Saved! Changes live instantly (commit ${data.commit.slice(0, 7)}).`);
       } else {
         setSaveMsg(`Error: ${data.error || "Unknown"}`);
@@ -702,6 +732,10 @@ export default function AdminPage() {
   });
 
   // Login screen
+  if (!authed && checking) {
+    return <div className="min-h-screen bg-black" />;
+  }
+
   if (!authed) {
     return (
       <div className="min-h-screen bg-black flex items-center justify-center p-4">
@@ -722,6 +756,7 @@ export default function AdminPage() {
           >
             Enter
           </button>
+          {loginError && <p className="text-xs text-red-400 text-center">{loginError}</p>}
         </div>
       </div>
     );
@@ -749,6 +784,12 @@ export default function AdminPage() {
               Bookings
             </button>
           </div>
+          <button
+            onClick={handleLogout}
+            className="text-[10px] tracking-widest uppercase text-white/40 hover:text-[#c9a96e] px-2 py-1.5 transition-colors"
+          >
+            Logout
+          </button>
         </div>
         {tab === "fleet" && (
           <div className="flex items-center gap-3">
@@ -784,7 +825,7 @@ export default function AdminPage() {
 
       {/* Bookings tab */}
       {tab === "bookings" ? (
-        <BookingsTab password={ADMIN_PASSWORD} />
+        <BookingsTab />
       ) : (
         <div className="max-w-5xl mx-auto p-4 flex flex-col gap-2">
           {filtered.map((v) => {

@@ -1,19 +1,19 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest, NextResponse } from 'next/server';
 import { slugify } from '@/lib/slugify';
+import { isAdmin } from '@/lib/admin-auth';
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 const REPO_OWNER = 'pchenier';
 const REPO_NAME = 'exoticrentals-erm';
 const FILE_PATH = 'lib/vehicles.json';
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '1666777';
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { password, vehicles, faqs, reviews } = body;
+    const { vehicles, faqs, reviews } = body;
 
-    if (password !== ADMIN_PASSWORD) {
+    if (!(await isAdmin(request))) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 

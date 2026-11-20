@@ -1,7 +1,11 @@
 import { NextResponse } from 'next/server';
 import { sql } from '@/lib/db';
+import { requireAdmin } from '@/lib/admin-auth';
 
-export async function GET() {
+export async function GET(req: Request) {
+  const denied = await requireAdmin(req);
+  if (denied) return denied;
+
   try {
     // Create table
     await sql`

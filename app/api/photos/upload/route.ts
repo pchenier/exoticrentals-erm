@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { handleUpload, type HandleUploadBody } from '@vercel/blob/client';
+import { isAdmin } from '@/lib/admin-auth';
 
 // Token-issuing endpoint for direct browser → Vercel Blob uploads.
 // The browser uses `upload()` from `@vercel/blob/client`, which calls this
@@ -18,6 +19,11 @@ export async function POST(request: Request): Promise<NextResponse> {
       body,
       request,
       onBeforeGenerateToken: async (pathname) => {
+        // Only a logged-in admin may get an upload token. (The upload-completed
+        // callback comes from Vercel itself and is signature-verified.)
+        if (!(await isAdmin(request))) {
+          throw new Error('Unauthorized');
+        }
         // Basic extension allowlist
         const ext = pathname.split('.').pop()?.toLowerCase() ?? '';
         if (!['jpg', 'jpeg', 'png', 'webp'].includes(ext)) {

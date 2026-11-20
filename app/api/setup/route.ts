@@ -1,9 +1,13 @@
 import { sql } from '@/lib/db';
 import { NextResponse } from 'next/server';
+import { requireAdmin } from '@/lib/admin-auth';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(req: Request) {
+  const denied = await requireAdmin(req);
+  if (denied) return denied;
+
   await sql`
     CREATE TABLE IF NOT EXISTS bookings (
       id SERIAL PRIMARY KEY,
