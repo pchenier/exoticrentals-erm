@@ -3,7 +3,7 @@ import { SITE, type Locale } from '@/lib/site';
 import { t } from '@/lib/dict';
 import { RS_MODELS } from '@/lib/fleet';
 import { Logo } from './ui';
-import { GUIDE } from '@/lib/seo';
+import { GUIDE, NORTH } from '@/lib/seo';
 
 export default function Footer({ locale }: { locale: Locale }) {
   const d = t(locale);
@@ -29,6 +29,11 @@ export default function Footer({ locale }: { locale: Locale }) {
           <li>
             <Link href={GUIDE[locale]} className="font-light text-mute hover:text-paper">
               {locale === 'fr' ? 'Guide : quelle Audi RS louer ?' : 'Guide: which Audi RS to rent?'}
+            </Link>
+          </li>
+          <li>
+            <Link href={NORTH[locale]} className="font-light text-mute hover:text-paper">
+              {locale === 'fr' ? 'Location Audi RS Rive-Nord' : 'Audi RS rental North Shore'}
             </Link>
           </li>
         </ul>
