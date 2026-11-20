@@ -1,17 +1,17 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import { SITE, type Locale } from '@/lib/site';
+import { SITE, waUrl, type Locale } from '@/lib/site';
 import { t } from '@/lib/dict';
 import type { RsModel } from '@/lib/fleet';
 import Header from './Header';
 import Footer from './Footer';
-import { Badge, ModelVisual, StatusBand, WholeImage, accel, money, modelHref } from './ModelCard';
+import { Badge, ModelTile, ModelVisual, StatusBand, accel, money, modelHref } from './ModelCard';
+import ModelGallery from './ModelGallery';
 import BookingModal from './BookingModal';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
 import FaqList from './FaqList';
 import { GUIDE, carLd, faqLd, modelFaq, offerLd } from '@/lib/seo';
-import { Btn, RsMark, Stat } from './ui';
+import { Btn, RsMark } from './ui';
 
 export default function ModelView({ locale, model, models }: { locale: Locale; model: RsModel; models: RsModel[] }) {
   const d = t(locale);
@@ -45,100 +45,98 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
       <JsonLd data={crumbs} />
       <JsonLd data={faqLd(faqItems)} />
       <Header locale={locale} otherHref={otherHref} />
-      <main>
-        {/* Hero pleine largeur, nom du modèle en très grand. */}
-        <section className="relative isolate flex min-h-[68svh] items-end overflow-hidden">
-          <div className="absolute inset-0 -z-10">
-            <div className="anim-photo absolute inset-0">
-              <ModelVisual model={model} priority sizes="100vw" />
-            </div>
-            <StatusBand model={model} locale={locale} />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/40" />
-          </div>
-          <div className={`${wrap} anim-rise w-full pb-10`}>
-            <Link href={`${prefix || '/'}#rs`} className="label text-paper/70 hover:text-paper">← {d.model.back}</Link>
-            <div className="mt-6 flex items-center gap-4">
-              <p className="label text-paper/80">{model.body[locale]}</p>
-              <Badge model={model} locale={locale} />
-            </div>
-            <h1 className="mt-3 text-[15vw] font-bold uppercase leading-[0.9] tracking-tight sm:text-7xl lg:text-8xl">
-              <RsMark name={model.short} />
-              <span className="sr-only"> {locale === 'fr' ? `– location ${model.name} à Montréal` : `– ${model.name} rental in Montreal`}</span>
-            </h1>
-            <p className="mt-4 max-w-xl font-light text-paper/85">{model.tagline[locale]}</p>
-          </div>
-        </section>
+      <main className="pt-20 sm:pt-24">
+        {/* Comme les pages d'exoticrentalsmontreal.com : galerie à gauche, infos, prix et fiche à droite. */}
+        <section className={`${wrap} pb-16 pt-6`}>
+          <Link href={`${prefix || '/'}#rs`} className="label inline-flex items-center gap-2 border border-line px-4 py-2.5 text-paper/80 transition hover:border-paper hover:text-paper">
+            ← {d.model.back}
+          </Link>
 
-        {/* Chiffres clés */}
-        <section className="border-y border-line">
-          <div className={`${wrap} grid grid-cols-2 gap-y-8 py-10 sm:grid-cols-4`}>
-            <Stat value={String(model.specs.hp)} unit={d.fleet.hp} label={d.model.power} />
-            <Stat value={accel(model, locale)} unit="s" label="0-100 km/h" />
-            {model.dailyRate != null ? (
-              <Stat value={money(model.dailyRate, locale)} unit="$" label={d.fleet.perDayLabel} />
-            ) : (
-              <Stat value="—" label={d.fleet.onRequest} />
-            )}
-            <Stat value={money(model.deposit, locale)} unit="$" label={d.fleet.deposit} />
-          </div>
-        </section>
-
-        {/* Présentation */}
-        <section className={`${wrap} grid gap-12 py-16 lg:grid-cols-2`}>
-          <div>
-            <h2 className="text-2xl font-bold uppercase leading-tight tracking-tight sm:text-3xl">
-              {locale === 'fr' ? `Location ${model.name} à Montréal` : `${model.name} rental in Montreal`}
-            </h2>
-            <div className="rule mt-8" />
-          </div>
-          <div>
-            <p className="whitespace-pre-line font-light leading-relaxed text-paper/85">{model.intro[locale]}</p>
-            <ul className="mt-8 border-b border-line">
-              {model.highlights[locale].map((h) => (
-                <li key={h} className="flex items-center gap-4 border-t border-line py-4 font-light">
-                  <span className="h-px w-6 bg-rs" />
-                  {h}
-                </li>
-              ))}
-            </ul>
-            <div className="mt-10">
-              <Btn href="#reserver">{d.model.bookThis}</Btn>
+          <div className="mt-6 grid gap-10 lg:grid-cols-2 lg:gap-14">
+            <div className="min-w-0 lg:sticky lg:top-24 lg:self-start">
+              <ModelGallery
+                images={model.images}
+                alt={model.name}
+                focuses={model.focuses}
+                overlay={<StatusBand model={model} locale={locale} />}
+                placeholder={<ModelVisual model={model} sizes="50vw" />}
+              />
             </div>
-          </div>
-        </section>
 
-        {/* Galerie bord à bord */}
-        {model.images.length > 1 && (
-          <section className="grid sm:grid-cols-3">
-            {model.images.slice(1).map((src, i) => (
-              <div key={src} className="relative aspect-[4/3] overflow-hidden">
-                <WholeImage src={src} alt={`${model.name} ${i + 2}`} sizes="(min-width: 640px) 33vw, 100vw" focus={model.focuses?.[src]} />
+            <div className="anim-rise min-w-0">
+              <div className="flex flex-wrap items-center gap-3">
+                <p className="label text-mute">Audi · {model.body[locale]}</p>
+                <Badge model={model} locale={locale} />
               </div>
-            ))}
-          </section>
-        )}
+              <h1 className="mt-3 wide text-5xl font-bold leading-none tracking-tight sm:text-6xl">
+                <RsMark name={model.short} />
+                <span className="sr-only"> {locale === 'fr' ? `– location ${model.name} à Montréal` : `– ${model.name} rental in Montreal`}</span>
+              </h1>
+              <p className="mt-2 text-sm font-light text-mute">{model.name}</p>
+              <p className="mt-5 text-lg font-light text-paper">{model.tagline[locale]}</p>
+              <p className="mt-4 whitespace-pre-line font-light leading-relaxed text-paper/75">{model.intro[locale]}</p>
+
+              {/* Prix */}
+              <div className="mt-8 border border-line bg-panel p-5 sm:p-6">
+                <p className="flex items-baseline gap-2">
+                  {model.dailyRate != null ? (
+                    <>
+                      <span className="text-4xl font-light tracking-tight">{money(model.dailyRate, locale)} $</span>
+                      <span className="label text-mute">{d.fleet.perDay}</span>
+                    </>
+                  ) : (
+                    <span className="text-2xl font-light">{d.fleet.onRequest}</span>
+                  )}
+                </p>
+                <p className="mt-2 text-sm font-light text-mute">
+                  {d.fleet.deposit} : {money(model.deposit, locale)} $
+                </p>
+              </div>
+
+              {/* Fiche technique */}
+              <h2 className="label mt-8 text-mute">{d.model.specs}</h2>
+              <dl className="mt-3 grid grid-cols-2 gap-x-6">
+                {specs.map(([k, v]) => (
+                  <div key={k} className="border-b border-line py-3">
+                    <dt className="label text-[10px] text-mute">{k}</dt>
+                    <dd className="mt-1 text-lg font-light">{v}</dd>
+                  </div>
+                ))}
+              </dl>
+
+              <ul className="mt-6 grid gap-2">
+                {model.highlights[locale].map((h) => (
+                  <li key={h} className="flex items-center gap-3 text-sm font-light text-paper/80">
+                    <span className="h-px w-5 shrink-0 bg-rs" />
+                    {h}
+                  </li>
+                ))}
+              </ul>
+
+              {/* Actions */}
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+                <Btn href="#reserver" className="justify-center sm:flex-1">{d.model.bookThis}</Btn>
+                <a
+                  href={waUrl(locale === 'fr' ? `Bonjour, je suis intéressé par la ${model.name}` : `Hi, I'm interested in the ${model.name}`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="label inline-flex items-center justify-center border border-paper/30 px-6 py-4 text-paper transition hover:border-paper sm:flex-1"
+                >
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Vidéos ajoutées dans /admin */}
         {model.videos && model.videos.length > 0 && (
-          <section className={`grid gap-px bg-line ${model.videos.length > 1 ? 'sm:grid-cols-2' : ''}`}>
+          <section className={`${wrap} grid gap-4 pb-16 ${model.videos.length > 1 ? 'sm:grid-cols-2' : ''}`}>
             {model.videos.map((src) => (
-              <video key={src} src={src} controls playsInline preload="metadata" className="aspect-video w-full bg-black object-cover" />
+              <video key={src} src={src} controls playsInline preload="metadata" className="aspect-video w-full border border-line bg-black object-cover" />
             ))}
           </section>
         )}
-
-        {/* Fiche technique */}
-        <section className={`${wrap} py-16`}>
-          <h2 className="label text-mute">{d.model.specs}</h2>
-          <dl className="mt-8 border-b border-line">
-            {specs.map(([k, v]) => (
-              <div key={k} className="grid grid-cols-2 border-t border-line py-4">
-                <dt className="font-light text-mute">{k}</dt>
-                <dd className="text-right font-medium sm:text-left">{v}</dd>
-              </div>
-            ))}
-          </dl>
-        </section>
 
         <BookingModal locale={locale} models={models} defaultModel={model.status && model.status !== 'available' ? undefined : model.name} />
 
@@ -159,22 +157,12 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
 
         {/* Autres modèles */}
         <section className="border-t border-line">
-          <div className={`${wrap} pb-10 pt-20`}>
+          <div className={`${wrap} pb-8 pt-16`}>
             <h2 className="label text-mute">{d.model.others}</h2>
           </div>
-          <div className="grid sm:grid-cols-3">
+          <div className={`${wrap} grid gap-5 pb-20 sm:grid-cols-2 lg:grid-cols-4`}>
             {models.filter((m) => m.id !== model.id).map((m) => (
-              <Link key={m.id} href={modelHref(m, locale)} className="group relative block aspect-[16/10] overflow-hidden border-line sm:border-r">
-                <ModelVisual model={m} sizes="(min-width: 640px) 33vw, 100vw" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent" />
-                <div className="absolute inset-x-0 bottom-0 p-6">
-                  <p className="wide text-3xl font-bold tracking-tight transition group-hover:text-rs"><RsMark name={m.short} /></p>
-                  <p className="label mt-2 text-paper/70">
-                    {m.specs.hp} {d.fleet.hp}
-                    {m.dailyRate != null && ` · ${money(m.dailyRate, locale)} $${d.fleet.perDay}`}
-                  </p>
-                </div>
-              </Link>
+              <ModelTile key={m.id} model={m} locale={locale} />
             ))}
           </div>
         </section>

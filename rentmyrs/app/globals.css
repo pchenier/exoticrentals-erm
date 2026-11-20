@@ -109,3 +109,6 @@ h1, h2, h3, .label, .wide { font-stretch: 125%; }
 .anim-photo { animation: photo-in .7s cubic-bezier(.2,.7,.2,1) both; }
 .anim-rise { animation: rise-in .6s cubic-bezier(.2,.7,.2,1) .12s both; }
 @media (prefers-reduced-motion: reduce) { .anim-photo, .anim-rise { animation: none; } }
+
+/* Mobile : jamais de défilement de côté (flocons, ombres, etc.). */
+html, body { overflow-x: clip; }
