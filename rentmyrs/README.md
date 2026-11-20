@@ -10,7 +10,7 @@ App Next.js autonome, séparée du site principal (dossier `rentmyrs/`).
 
 ## Réservation
 Demande seulement, validation manuelle, aucun paiement en ligne.
-`POST /api/reservation` (aucun GET) enregistre la demande dans `booking_requests` (même base que le site principal, préfixe `[RentMyRS]` dans la colonne vehicle) puis envoie un SMS via OpenPhone. Anti-spam : pot de miel + limite par IP.
+`POST /api/reservation` (aucun GET) enregistre la demande dans `booking_requests` (même base que le site principal, préfixe `[RentMyRS]` dans la colonne vehicle). La notification de l'équipe reste à brancher (pas d'OpenPhone sur ce site). Anti-spam : pot de miel + limite par IP.
 
 ## Modifier le contenu
 - Modèles, prix, photos : `lib/fleet.ts` (`dailyRate: null` = « Prix sur demande »)
@@ -19,7 +19,7 @@ Demande seulement, validation manuelle, aucun paiement en ligne.
 
 ## Déployer sur Vercel
 1. Nouveau projet Vercel depuis ce repo, **Root Directory = `rentmyrs`**, branche de production `rentmyrs` (ou `main` une fois fusionné).
-2. Variables : `POSTGRES_URL`, `OPENPHONE_API_KEY`, `OPENPHONE_NUMBER_ID` (voir `.env.example`).
+2. Variable : `POSTGRES_URL` (voir `.env.example`).
 3. Ajouter les domaines `rentmyrs.com` et `www.rentmyrs.com` (www redirige vers le domaine nu).
 
 ```bash

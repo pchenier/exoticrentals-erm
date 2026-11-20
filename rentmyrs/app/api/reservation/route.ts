@@ -1,12 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
-import { SITE } from '@/lib/site';
 
 // Demande de réservation : validation MANUELLE par l'équipe, aucun paiement en ligne.
 // Seule la méthode POST existe : rien n'est lisible publiquement ici.
 
-const OPENPHONE_API_KEY = process.env.OPENPHONE_API_KEY || '';
-const OPENPHONE_NUMBER_ID = process.env.OPENPHONE_NUMBER_ID || '';
 
 // Limite simple par IP (par instance) contre le spam.
 const hits = new Map<string, number[]>();
@@ -71,7 +68,7 @@ export async function POST(req: NextRequest) {
     try {
       const rows = await sql`
         INSERT INTO booking_requests (name, phone, email, vehicle, start_date, end_date, message, sms_status)
-        VALUES (${name}, ${phone}, ${email || null}, ${`[RentMyRS] ${vehicle}`}, ${startDate}, ${endDate}, ${message || null}, 'pending')
+        VALUES (${name}, ${phone}, ${email || null}, ${`[RentMyRS] ${vehicle}`}, ${startDate}, ${endDate}, ${message || null}, 'none')
         RETURNING id`;
       savedId = rows[0]?.id ?? null;
     } catch (e) {
@@ -79,33 +76,10 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // 2) Prévenir l'équipe par SMS.
-  let smsSent = false;
-  if (OPENPHONE_API_KEY && OPENPHONE_NUMBER_ID) {
-    try {
-      const res = await fetch('https://api.openphone.com/v1/messages', {
-        method: 'POST',
-        headers: { Authorization: OPENPHONE_API_KEY, 'Content-Type': 'application/json' },
-        body: JSON.stringify({ phoneNumberId: OPENPHONE_NUMBER_ID, from: SITE.phone, to: [SITE.phone], content }),
-      });
-      smsSent = res.ok;
-      if (!res.ok) console.error('reservation: OpenPhone error', res.status);
-    } catch (e) {
-      console.error('reservation: OpenPhone failed', e instanceof Error ? e.message : e);
-    }
-  }
-
-  if (sql && savedId) {
-    try {
-      await sql`UPDATE booking_requests SET sms_status = ${smsSent ? 'sent' : 'failed'} WHERE id = ${savedId}`;
-    } catch {
-      /* best-effort */
-    }
-  }
-
-  // Si la demande n'a été ni enregistrée ni envoyée, le client doit le savoir.
-  if (!savedId && !smsSent) {
-    console.error('reservation: request LOST (no DB, no SMS)', content);
+  // Si la demande n'a pas été enregistrée, le client doit le savoir.
+  // TODO : brancher ici la notification de l'équipe (nouveau setup à venir).
+  if (!savedId) {
+    console.error('reservation: request NOT SAVED', content);
     return NextResponse.json({ error: 'Unavailable' }, { status: 503 });
   }
   return NextResponse.json({ success: true });
