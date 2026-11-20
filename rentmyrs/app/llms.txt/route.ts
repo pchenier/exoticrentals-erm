@@ -2,7 +2,7 @@
 import { SITE } from '@/lib/site';
 import { getFleet } from '@/lib/fleet-store';
 import { LAMBOS } from '@/lib/fleet';
-import { AREAS, GUIDE } from '@/lib/seo';
+import { AREAS, GUIDE, NORTH, NORTH_SHORE } from '@/lib/seo';
 
 // Toujours lu à la demande : les photos et prix de /admin ne doivent jamais être remplacés par les valeurs du code lors d'une mise à jour.
 export const dynamic = 'force-dynamic';
@@ -13,11 +13,12 @@ export async function GET() {
   const lines = [
     `# ${SITE.name}`,
     '',
-    `> ${SITE.name} (rentmyrs.com) is an Audi RS rental service in Montreal, Quebec, Canada. It rents the Audi RS3, RS5 Sportback, RS7 Sportback (Stage 2) and RSQ8, plus a yellow Audi R8 V10 Plus, with delivery on request across Montreal, Laval, the South Shore and Montréal-Trudeau airport (YUL). Bookings are requests confirmed by text by the team; there is no online payment. Bilingual: French and English.`,
+    `> ${SITE.name} (rentmyrs.com) is an Audi RS rental service in Montreal, Quebec, Canada. It rents the Audi RS3, RS5 Sportback, RS7 Sportback (Stage 2) and RSQ8, plus a yellow Audi R8 V10 Plus, with delivery on request across Montreal, Laval, the North Shore (Rive-Nord), the South Shore and Montréal-Trudeau airport (YUL). Bookings are requests confirmed by text by the team; there is no online payment. Bilingual: French and English.`,
     '',
     '## Key facts',
     '',
     `- Location: Montréal, QC, Canada. Service area: ${AREAS.join(', ')}.`,
+    `- North Shore (Rive-Nord) delivery on request: ${NORTH_SHORE.join(', ')}. Every model (RS3, RS5, RS7, RSQ8, R8) can be delivered there.`,
     `- Phone / text / WhatsApp: ${SITE.phoneDisplay} (${SITE.phone}).`,
     '- Requirements: 25 years or older, valid driver’s licence, proof of insurance, credit card in the driver’s name for the refundable security deposit.',
     '- Booking: request form on the website, by text or WhatsApp. Availability, licence and deposit are confirmed by text before the booking. No online payment or deposit online.',
@@ -39,6 +40,8 @@ export async function GET() {
     `- [Home (English)](${u('/en')}): Audi RS rental in Montreal.`,
     `- [Audi RS rental guide and comparison (English)](${u(GUIDE.en)})`,
     `- [Guide : quelle Audi RS louer à Montréal (français)](${u(GUIDE.fr)})`,
+    `- [Location Audi RS Rive-Nord (français)](${u(NORTH.fr)}): Laval, Terrebonne, Blainville, Boisbriand, Mirabel, Repentigny, Saint-Jérôme.`,
+    `- [Audi RS rental North Shore Montreal (English)](${u(NORTH.en)})`,
     ...models.map((m) => `- [Location ${m.name} Montréal (français)](${u(`/${m.slug.fr}`)})`),
     '',
     '## Optional',

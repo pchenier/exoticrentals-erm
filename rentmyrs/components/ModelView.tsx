@@ -10,7 +10,7 @@ import BookingModal from './BookingModal';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
 import FaqList from './FaqList';
-import { GUIDE, carLd, faqLd, modelFaq, offerLd } from '@/lib/seo';
+import { GUIDE, NORTH, carLd, faqLd, modelFaq, offerLd } from '@/lib/seo';
 import { Btn, RsMark } from './ui';
 
 export default function ModelView({ locale, model, models }: { locale: Locale; model: RsModel; models: RsModel[] }) {
@@ -149,6 +149,9 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
               </h2>
               <Link href={GUIDE[locale]} className="label mt-8 inline-block text-mute underline decoration-rs underline-offset-4 hover:text-paper">
                 {locale === 'fr' ? 'Comparer les 4 Audi RS →' : 'Compare all 4 Audi RS →'}
+              </Link>
+              <Link href={NORTH[locale]} className="label mt-4 block text-mute underline decoration-rs underline-offset-4 hover:text-paper">
+                {locale === 'fr' ? `Livraison de la ${model.short} sur la Rive-Nord →` : `${model.short} delivery on the North Shore →`}
               </Link>
             </div>
             <FaqList items={faqItems} />

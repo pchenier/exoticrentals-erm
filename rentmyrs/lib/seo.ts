@@ -4,7 +4,16 @@ import type { RsModel } from './fleet';
 
 export const BUSINESS_ID = `${SITE.url}/#business`;
 
-export const AREAS = ['Montréal', 'Laval', 'Longueuil', 'Brossard', 'Rive-Sud', 'Aéroport Montréal-Trudeau (YUL)'];
+// Villes de la Rive-Nord desservies (livraison sur demande).
+export const NORTH_SHORE = ['Laval', 'Terrebonne', 'Mascouche', 'Repentigny', 'Blainville', 'Boisbriand', 'Sainte-Thérèse', 'Rosemère', 'Mirabel', 'Saint-Eustache', 'Deux-Montagnes', 'Saint-Jérôme'];
+
+export const AREAS = ['Montréal', 'Laval', 'Rive-Nord', 'Terrebonne', 'Blainville', 'Boisbriand', 'Mirabel', 'Repentigny', 'Longueuil', 'Brossard', 'Rive-Sud', 'Aéroport Montréal-Trudeau (YUL)'];
+
+/** Page locale Rive-Nord. */
+export const NORTH = {
+  fr: '/location-audi-rs-rive-nord',
+  en: '/en/audi-rs-rental-north-shore-montreal',
+};
 
 export const GUIDE = {
   fr: '/guide-location-audi-rs-montreal',
@@ -21,8 +30,8 @@ export function businessLd(locale: Locale, models: RsModel[]) {
     alternateName: 'Rent My RS',
     description:
       locale === 'fr'
-        ? 'Location d’Audi RS (RS3, RS5, RS7, RSQ8) et de l’Audi R8 V10 à Montréal, avec livraison à Laval, sur la Rive-Sud et à l’aéroport YUL. Réservation sur demande, sans paiement en ligne.'
-        : 'Audi RS rental (RS3, RS5, RS7, RSQ8) and Audi R8 V10 in Montreal, with delivery to Laval, the South Shore and YUL airport. Booking on request, no online payment.',
+        ? 'Location d’Audi RS (RS3, RS5, RS7, RSQ8) et de l’Audi R8 V10 à Montréal, avec livraison à Laval, sur la Rive-Nord, sur la Rive-Sud et à l’aéroport YUL. Réservation sur demande, sans paiement en ligne.'
+        : 'Audi RS rental (RS3, RS5, RS7, RSQ8) and Audi R8 V10 in Montreal, with delivery to Laval, the North Shore (Rive-Nord), the South Shore and YUL airport. Booking on request, no online payment.',
     url: locale === 'fr' ? SITE.url : `${SITE.url}/en`,
     logo: `${SITE.url}/logo.png`,
     image: [`${SITE.url}/cars/rs3-front.jpg`, `${SITE.url}/cars/rs7-1.jpg`, `${SITE.url}/og.jpg`],
@@ -100,8 +109,8 @@ export function modelFaq(m: RsModel, l: Locale): [string, string][] {
         'Avoir 25 ans et plus, un permis de conduire valide, une preuve d’assurance et une carte de crédit à ton nom pour le dépôt. Aucun paiement en ligne : notre équipe valide chaque demande par texto.',
       ],
       [
-        `La ${m.short} peut-elle être livrée ?`,
-        'Oui, sur demande à Montréal, Laval, Longueuil, Brossard, sur la Rive-Sud, à ton hôtel ou à l’aéroport Montréal-Trudeau (YUL). Tu peux aussi venir la chercher à Montréal.',
+        `La ${m.short} peut-elle être livrée à Laval ou sur la Rive-Nord ?`,
+        'Oui, sur demande à Montréal, Laval, sur la Rive-Nord (Terrebonne, Blainville, Boisbriand, Mirabel, Repentigny, Saint-Jérôme), à Longueuil, Brossard et sur la Rive-Sud, à ton hôtel ou à l’aéroport Montréal-Trudeau (YUL). Tu peux aussi venir la chercher à Montréal.',
       ],
       [
         `Quelle est la puissance de la ${m.name} ?`,
@@ -125,8 +134,8 @@ export function modelFaq(m: RsModel, l: Locale): [string, string][] {
       'You must be 25 or older, with a valid driver’s licence, proof of insurance and a credit card in your name for the deposit. No online payment: our team confirms every request by text.',
     ],
     [
-      `Can the ${m.short} be delivered?`,
-      'Yes, on request across Montreal, Laval, Longueuil, Brossard, the South Shore, to your hotel or Montréal-Trudeau airport (YUL). You can also pick it up in Montreal.',
+      `Can the ${m.short} be delivered to Laval or the North Shore?`,
+      'Yes, on request across Montreal, Laval, the North Shore (Terrebonne, Blainville, Boisbriand, Mirabel, Repentigny, Saint-Jérôme), Longueuil, Brossard and the South Shore, to your hotel or Montréal-Trudeau airport (YUL). You can also pick it up in Montreal.',
     ],
     [
       `How powerful is the ${m.name}?`,
