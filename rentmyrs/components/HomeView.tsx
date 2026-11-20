@@ -35,8 +35,7 @@ export default async function HomeView({ locale }: { locale: Locale }) {
         {/* Hero : RS3 de face plein écran (même mise en page que la page RS3), titre et boutons par-dessus, flocons. */}
         <section className="relative isolate flex min-h-[88svh] items-end overflow-hidden">
           <div className="absolute inset-0 -z-10">
-            {/* Grand écran : la photo entière (dézoomée), la même photo floutée remplit les côtés. */}
-            <Image src="/cars/rs3-front.jpg" alt="" aria-hidden fill sizes="30vw" quality={75} className="hidden scale-110 object-cover opacity-50 blur-2xl lg:block" />
+            {/* Grand écran : la photo entière (dézoomée) au centre, ses bords fondus dans le noir. */}
             <div className="hero-fade absolute inset-0 lg:left-1/2 lg:right-auto lg:aspect-[3/2] lg:-translate-x-1/2">
               <Image
                 src="/cars/rs3-front.jpg"
