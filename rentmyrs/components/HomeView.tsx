@@ -48,15 +48,15 @@ export default async function HomeView({ locale }: { locale: Locale }) {
       <Header locale={locale} />
       <main>
         {/* Hero : seulement la photo, plein écran, recadrée (jamais étirée) autour de l'auto, avec des flocons. */}
-        <section className="relative isolate h-[72svh] min-h-[460px] overflow-hidden lg:h-[78svh]">
+        <section className="relative isolate aspect-[5/4] overflow-hidden sm:aspect-auto sm:h-[78svh] sm:min-h-[460px]">
           <Image
-            src="/cars/rs3-snow-hd.jpg"
+            src="/cars/rs3-front-hd.jpg"
             alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'}
             fill
             priority
             sizes="100vw"
             quality={90}
-            className="-z-10 object-cover object-[50%_57%] lg:object-[50%_50%]"
+            className="-z-10 object-cover object-[50%_45%] sm:object-[50%_30%]"
           />
           <div className="absolute inset-x-0 top-0 -z-10 h-32 bg-gradient-to-b from-black/60 to-transparent" />
           <Snow />
