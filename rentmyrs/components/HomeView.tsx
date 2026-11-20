@@ -62,7 +62,7 @@ export default async function HomeView({ locale }: { locale: Locale }) {
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/40" />
             <Snow />
           </div>
-          <div className="mx-auto w-full max-w-[1440px] px-4 pb-14 pt-32 sm:px-8 lg:px-16">
+          <div className="w-full px-4 pb-14 pt-32 sm:px-6 lg:px-8">
             <p className="label text-paper/80">{d.hero.kicker}</p>
             <h1 className="mt-4 max-w-4xl text-[2.6rem] font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
               {d.hero.title}
