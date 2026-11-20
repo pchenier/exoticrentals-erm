@@ -46,7 +46,7 @@ export function Stat({ value, unit, label }: { value: string; unit?: string; lab
 /** Nom de modèle avec petit drapeau rouge incliné devant « RS » (dans l'esprit des badges RS, pas le logo officiel). */
 export function RsMark({ name, className = '' }: { name: string; className?: string }) {
   const m = /^RS\s?(.*)$/.exec(name);
-  if (!m) return <>{name}</>;
+  if (!m) return <span className={`italic ${className}`}>{name}</span>;
   return (
     <span className={`inline-flex items-center gap-[0.14em] italic ${className}`}>
       <span aria-hidden className="rs-flag" />

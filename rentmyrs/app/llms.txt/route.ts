@@ -12,7 +12,7 @@ export async function GET() {
   const lines = [
     `# ${SITE.name}`,
     '',
-    `> ${SITE.name} (rentmyrs.com) is an Audi RS rental service in Montreal, Quebec, Canada. It rents the Audi RS3, RS5 Sportback, RS7 Sportback (Stage 2) and RSQ8, with delivery on request across Montreal, Laval, the South Shore and Montréal-Trudeau airport (YUL). Bookings are requests confirmed by text by the team; there is no online payment. Bilingual: French and English.`,
+    `> ${SITE.name} (rentmyrs.com) is an Audi RS rental service in Montreal, Quebec, Canada. It rents the Audi RS3, RS5 Sportback, RS7 Sportback (Stage 2) and RSQ8, plus a yellow Audi R8 V10 Plus, with delivery on request across Montreal, Laval, the South Shore and Montréal-Trudeau airport (YUL). Bookings are requests confirmed by text by the team; there is no online payment. Bilingual: French and English.`,
     '',
     '## Key facts',
     '',

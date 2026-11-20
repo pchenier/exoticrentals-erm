@@ -12,11 +12,11 @@ export const DICT = {
     hero: {
       kicker: 'Location Audi RS · Montréal',
       title: 'La performance RS, à Montréal.',
-      sub: 'RS3, RS5, RS7 et RSQ8 bien entretenues, prêtes à rouler à Montréal, avec livraison sur demande à Laval et sur la Rive-Sud. Tu fais ta demande, on te confirme rapidement par texto.',
+      sub: 'RS3, RS5, RS7, RSQ8 et R8 V10 bien entretenues, prêtes à rouler à Montréal, avec livraison sur demande à Laval et sur la Rive-Sud. Tu fais ta demande, on te confirme rapidement par texto.',
       cta: 'Faire une demande',
       cta2: 'Voir les RS',
     },
-    fleet: { title: 'La gamme RS', sub: 'Quatre caractères, une seule philosophie : la performance au quotidien.', from: 'Dès', perDay: '/jour', perDayLabel: 'Par jour', onRequest: 'Prix sur demande', details: 'Découvrir', hp: 'ch', seats: 'places', photoSoon: 'Photos à venir', deposit: 'Dépôt remboursable', unavailable: 'Non disponible pour le moment', maintenance: 'En entretien', notAvail: 'non dispo' },
+    fleet: { title: 'La gamme RS', sub: 'Cinq caractères, une seule philosophie : la performance au quotidien.', from: 'Dès', perDay: '/jour', perDayLabel: 'Par jour', onRequest: 'Prix sur demande', details: 'Découvrir', hp: 'ch', seats: 'places', photoSoon: 'Photos à venir', deposit: 'Dépôt remboursable', unavailable: 'Non disponible pour le moment', maintenance: 'En entretien', notAvail: 'non dispo' },
     lambo: {
       kicker: 'Envie de plus ?',
       title: 'Les Lamborghini sont aussi disponibles',
@@ -71,11 +71,11 @@ export const DICT = {
     hero: {
       kicker: 'Audi RS rental · Montreal',
       title: 'RS performance, in Montreal.',
-      sub: 'Well-kept RS3, RS5, RS7 and RSQ8, ready to drive in Montreal, with delivery on request to Laval and the South Shore. Send a request and we confirm by text.',
+      sub: 'Well-kept RS3, RS5, RS7, RSQ8 and R8 V10, ready to drive in Montreal, with delivery on request to Laval and the South Shore. Send a request and we confirm by text.',
       cta: 'Request a car',
       cta2: 'See the RS lineup',
     },
-    fleet: { title: 'The RS lineup', sub: 'Four characters, one idea: everyday performance.', from: 'From', perDay: '/day', perDayLabel: 'Per day', onRequest: 'Price on request', details: 'Discover', hp: 'hp', seats: 'seats', photoSoon: 'Photos coming soon', deposit: 'Refundable deposit', unavailable: 'Currently unavailable', maintenance: 'In maintenance', notAvail: 'unavailable' },
+    fleet: { title: 'The RS lineup', sub: 'Five characters, one idea: everyday performance.', from: 'From', perDay: '/day', perDayLabel: 'Per day', onRequest: 'Price on request', details: 'Discover', hp: 'hp', seats: 'seats', photoSoon: 'Photos coming soon', deposit: 'Refundable deposit', unavailable: 'Currently unavailable', maintenance: 'In maintenance', notAvail: 'unavailable' },
     lambo: {
       kicker: 'Want more?',
       title: 'Lamborghinis are available too',

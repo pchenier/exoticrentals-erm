@@ -19,6 +19,7 @@ const BEST_FOR: Record<RsModel['id'], Record<Locale, string>> = {
   rs5: { fr: 'Road trip à deux ou quatre, confort au quotidien, vrai coffre', en: 'Road trips for two to four, everyday comfort, real trunk' },
   rs7: { fr: 'Mariage, événement, photos, le plus de sensations (Stage 2)', en: 'Weddings, events, photo shoots, maximum thrill (Stage 2)' },
   rsq8: { fr: 'Famille, bagages, ski dans les Laurentides, hiver', en: 'Family, luggage, ski trips to the Laurentians, winter' },
+  r8: { fr: 'Supercar pour une occasion spéciale, son du V10 atmosphérique', en: 'A supercar for a special occasion, naturally aspirated V10 sound' },
 };
 
 export default async function GuideView({ locale }: { locale: Locale }) {
@@ -36,13 +37,13 @@ export default async function GuideView({ locale }: { locale: Locale }) {
 
   const title = fr ? 'Guide : quelle Audi RS louer à Montréal ?' : 'Guide: which Audi RS to rent in Montreal?';
   const answer = fr
-    ? `Chez RentMyRS, on loue quatre Audi RS à Montréal : la RS3, la RS5 Sportback, la RS7 Sportback (Stage 2) et le RSQ8.${cheapest && priciest ? ` Les prix vont de ${cur(cheapest.dailyRate!)} par jour (${cheapest.short}) à ${cur(priciest.dailyRate!)} par jour (${priciest.short}),` : ''} avec un dépôt remboursable de 3 000 $ à 5 000 $. Il faut avoir 25 ans et plus. La livraison est offerte sur demande à Montréal, Laval, sur la Rive-Sud et à l’aéroport YUL, et chaque demande est confirmée par texto, sans paiement en ligne.`
-    : `RentMyRS rents four Audi RS models in Montreal: the RS3, RS5 Sportback, RS7 Sportback (Stage 2) and RSQ8.${cheapest && priciest ? ` Prices range from ${cur(cheapest.dailyRate!)} per day (${cheapest.short}) to ${cur(priciest.dailyRate!)} per day (${priciest.short}),` : ''} with a refundable deposit of $3,000 to $5,000. Drivers must be 25 or older. Delivery is available on request across Montreal, Laval, the South Shore and YUL airport, and every request is confirmed by text, with no online payment.`;
+    ? `Chez RentMyRS, on loue quatre Audi RS à Montréal (la RS3, la RS5 Sportback, la RS7 Sportback Stage 2 et le RSQ8), ainsi qu’une Audi R8 V10 Plus jaune.${cheapest && priciest ? ` Les prix vont de ${cur(cheapest.dailyRate!)} par jour (${cheapest.short}) à ${cur(priciest.dailyRate!)} par jour (${priciest.short}),` : ''} avec un dépôt remboursable de 3 000 $ à 5 000 $. Il faut avoir 25 ans et plus. La livraison est offerte sur demande à Montréal, Laval, sur la Rive-Sud et à l’aéroport YUL, et chaque demande est confirmée par texto, sans paiement en ligne.`
+    : `RentMyRS rents four Audi RS models in Montreal (the RS3, RS5 Sportback, RS7 Sportback Stage 2 and RSQ8), plus a yellow Audi R8 V10 Plus.${cheapest && priciest ? ` Prices range from ${cur(cheapest.dailyRate!)} per day (${cheapest.short}) to ${cur(priciest.dailyRate!)} per day (${priciest.short}),` : ''} with a refundable deposit of $3,000 to $5,000. Drivers must be 25 or older. Delivery is available on request across Montreal, Laval, the South Shore and YUL airport, and every request is confirmed by text, with no online payment.`;
 
   const faq: [string, string][] = fr
     ? [
         ['Quelle est l’Audi RS la moins chère à louer à Montréal ?', cheapest ? `La ${cheapest.name}, à ${cur(cheapest.dailyRate!)} par jour avec un dépôt remboursable de ${dep(cheapest)}.` : 'Les prix sont confirmés sur demande.'],
-        ['Quelle Audi RS est la plus puissante ?', 'La RS7 Sportback et le RSQ8 ont le même V8 biturbo de 4,0 L (591 ch d’origine). Notre RS7 est reprogrammée Stage 2 avec échappement pops and bangs, c’est donc la plus puissante de la flotte.'],
+        ['Quelle Audi RS est la plus puissante ?', 'La RS7 Sportback et le RSQ8 ont le même V8 biturbo de 4,0 L (591 ch d’origine). Notre RS7 est reprogrammée Stage 2 avec échappement pops and bangs, c’est donc la RS la plus puissante. Pour un V10 atmosphérique, il y a aussi l’Audi R8 V10 Plus (640 ch).'],
         ['Quelle Audi RS choisir pour l’hiver ?', 'Toutes nos RS ont la traction intégrale quattro et des pneus d’hiver. Pour la neige, les bagages ou le ski, le RSQ8 est le plus pratique grâce à sa garde au sol et son coffre.'],
         ['Faut-il payer en ligne ou laisser un acompte ?', 'Non. Tu envoies une demande sur le site, par texto ou WhatsApp, et notre équipe confirme la disponibilité, le permis et le dépôt avec toi avant toute réservation.'],
         ['Où récupérer la voiture ?', `À Montréal, ou livrée sur demande à ${AREAS.join(', ')}. Les frais de livraison sont confirmés avec la réservation.`],
@@ -50,7 +51,7 @@ export default async function GuideView({ locale }: { locale: Locale }) {
       ]
     : [
         ['What is the cheapest Audi RS to rent in Montreal?', cheapest ? `The ${cheapest.name}, at ${cur(cheapest.dailyRate!)} per day with a ${dep(cheapest)} refundable deposit.` : 'Prices are confirmed on request.'],
-        ['Which Audi RS is the most powerful?', 'The RS7 Sportback and RSQ8 share the same 4.0L twin-turbo V8 (591 hp stock). Our RS7 carries a Stage 2 tune with a pops and bangs exhaust, making it the most powerful car in the fleet.'],
+        ['Which Audi RS is the most powerful?', 'The RS7 Sportback and RSQ8 share the same 4.0L twin-turbo V8 (591 hp stock). Our RS7 carries a Stage 2 tune with a pops and bangs exhaust, making it the most powerful RS. For a naturally aspirated V10, there is also the Audi R8 V10 Plus (640 hp).'],
         ['Which Audi RS is best for winter?', 'Every RS we rent has quattro all-wheel drive and winter tires. For snow, luggage or ski trips, the RSQ8 is the most practical thanks to its ground clearance and trunk.'],
         ['Do I pay online or leave a down payment?', 'No. Send a request on the site, by text or WhatsApp, and our team confirms availability, licence and deposit with you before anything is booked.'],
         ['Where do I pick up the car?', `In Montreal, or delivered on request to ${AREAS.join(', ')}. Delivery fees are confirmed with the booking.`],
