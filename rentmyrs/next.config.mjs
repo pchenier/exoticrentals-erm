@@ -1,17 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   devIndicators: false,
-  async redirects() {
-    return [
-      // Forcer le domaine canonique (sans www).
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'www.rentmyrs.com' }],
-        destination: 'https://rentmyrs.com/:path*',
-        permanent: true,
-      },
-    ];
-  },
+  // La redirection rentmyrs.com -> www.rentmyrs.com est gérée par Vercel (Domains).
   async headers() {
     return [
       {

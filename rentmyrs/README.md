@@ -20,7 +20,7 @@ Demande seulement, validation manuelle, aucun paiement en ligne.
 ## Déployer sur Vercel
 1. Nouveau projet Vercel depuis ce repo, **Root Directory = `rentmyrs`**, branche de production `rentmyrs` (ou `main` une fois fusionné).
 2. Variable : `POSTGRES_URL` (voir `.env.example`).
-3. Ajouter les domaines `rentmyrs.com` et `www.rentmyrs.com` (www redirige vers le domaine nu).
+3. Ajouter les domaines `rentmyrs.com` et `www.rentmyrs.com` (rentmyrs.com redirige vers www, réglé dans Vercel).
 
 ```bash
 npm install && npm run dev

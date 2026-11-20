@@ -1,6 +1,6 @@
 export const SITE = {
   name: 'RentMyRS',
-  url: 'https://rentmyrs.com',
+  url: 'https://www.rentmyrs.com',
   // Même ligne que Exotic Rentals Montreal (à confirmer).
   phone: '+14388094417',
   phoneDisplay: '438 809-4417',
