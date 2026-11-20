@@ -8,9 +8,10 @@ const valid = /^postgres(ql)?:\/\/\S+$/.test(url);
 if (url && !valid) console.error('db: POSTGRES_URL is not a postgres:// URL, database disabled');
 
 // Connexion paresseuse : aucune base configurée = pas de connexion.
+// prepare: false car le pooler Supabase (port 6543) ne garde pas les requêtes préparées.
 let client: ReturnType<typeof postgres> | null = null;
 export function db() {
   if (!valid) return null;
-  client ??= postgres(url, { ssl: /@(localhost|127\.0\.0\.1)[:/]/.test(url) ? false : 'require', max: 1 });
+  client ??= postgres(url, { ssl: /@(localhost|127\.0\.0\.1)[:/]/.test(url) ? false : 'require', max: 1, prepare: false });
   return client;
 }
