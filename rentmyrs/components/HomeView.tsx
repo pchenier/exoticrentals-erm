@@ -32,9 +32,11 @@ export default async function HomeView({ locale }: { locale: Locale }) {
       <JsonLd data={faq} />
       <Header locale={locale} />
       <main>
-        {/* Hero : RS3 de face plein écran (même mise en page que la page RS3), titre et boutons par-dessus, flocons. */}
-        <section className="relative isolate flex min-h-[88svh] items-end overflow-hidden">
-          <div className="absolute inset-0 -z-10">
+        {/* Mobile : l'auto entière en haut, le texte en dessous (rien par-dessus la RS3).
+            Grand écran : photo plein fond, titre et boutons par-dessus. */}
+        <section className="relative isolate flex flex-col overflow-hidden lg:min-h-[88svh] lg:flex-row lg:items-end">
+          <div className="pointer-events-none absolute inset-0 z-10 lg:-z-10"><Snow /></div>
+          <div className="relative -z-10 mt-16 aspect-[3/2] w-full lg:absolute lg:inset-0 lg:mt-0 lg:aspect-auto">
             {/* Grand écran : la photo entière (dézoomée) au centre, ses bords fondus dans le noir. */}
             <div className="hero-fade absolute inset-0 lg:left-1/2 lg:right-auto lg:aspect-[3/2] lg:-translate-x-1/2">
               <Image
@@ -47,10 +49,9 @@ export default async function HomeView({ locale }: { locale: Locale }) {
                 className="object-cover object-[50%_40%]"
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/40" />
-            <Snow />
+            <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-black to-transparent lg:inset-0 lg:h-auto lg:bg-gradient-to-t lg:from-black lg:via-black/40 lg:to-black/40" />
           </div>
-          <div className="w-full px-4 pb-14 pt-32 sm:px-6 lg:px-8">
+          <div className="w-full px-4 pb-12 pt-4 sm:px-6 lg:px-8 lg:pb-14 lg:pt-32">
             <p className="label text-paper/80">{d.hero.kicker}</p>
             <h1 className="mt-4 max-w-4xl text-[1.9rem] font-bold min-[400px]:text-[2.2rem] uppercase leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
               {d.hero.title}
