@@ -15,6 +15,7 @@ export default function Header({ locale, otherHref }: { locale: Locale; otherHre
           <a href={`${home}#rs`} className={`${link} hidden sm:inline`}>{d.nav.fleet}</a>
           <a href={`${home}#lamborghini`} className={`${link} hidden sm:inline`}>{d.nav.lambo}</a>
           <a href={`${home}#faq`} className={`${link} hidden md:inline`}>{d.nav.faq}</a>
+          <Link href={locale === 'fr' ? '/blog' : '/en/blog'} className={`${link} hidden md:inline`}>Blog</Link>
           <Link href={otherHref ?? d.nav.otherHref} hrefLang={locale === 'fr' ? 'en' : 'fr'} className={link}>
             {d.nav.other}
           </Link>

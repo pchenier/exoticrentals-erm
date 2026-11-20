@@ -3,6 +3,7 @@ import { SITE } from '@/lib/site';
 import { getFleet } from '@/lib/fleet-store';
 import { LAMBOS } from '@/lib/fleet';
 import { AREAS, GUIDE, NORTH, NORTH_SHORE } from '@/lib/seo';
+import { allPosts, postPath } from '@/lib/blog';
 
 // Toujours lu à la demande : les photos et prix de /admin ne doivent jamais être remplacés par les valeurs du code lors d'une mise à jour.
 export const dynamic = 'force-dynamic';
@@ -43,6 +44,10 @@ export async function GET() {
     `- [Location Audi RS Rive-Nord (français)](${u(NORTH.fr)}): Laval, Terrebonne, Blainville, Boisbriand, Mirabel, Repentigny, Saint-Jérôme.`,
     `- [Audi RS rental North Shore Montreal (English)](${u(NORTH.en)})`,
     ...models.map((m) => `- [Location ${m.name} Montréal (français)](${u(`/${m.slug.fr}`)})`),
+    '',
+    '## Blog',
+    '',
+    ...allPosts().slice(0, 30).map((p) => `- [${p.title}](${u(postPath(p))}) (${p.locale.toUpperCase()}, ${p.date}): ${p.description}`),
     '',
     '## Optional',
     '',
