@@ -36,7 +36,10 @@ export default function BookingModal({
     fetch("/api/vehicles")
       .then((r) => r.json())
       .then((data) => {
-        if (Array.isArray(data) && data.length > 0) setAllVehicles(data);
+        // Cars marked unavailable / in maintenance in the admin can't be booked.
+        if (Array.isArray(data) && data.length > 0) {
+          setAllVehicles(data.filter((v: Vehicle) => !v.status || v.status === "available"));
+        }
       })
       .catch(() => {});
   }, []);

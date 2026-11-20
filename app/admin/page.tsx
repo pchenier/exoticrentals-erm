@@ -6,7 +6,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { upload } from "@vercel/blob/client";
-import { vehicles as staticVehicles, type Vehicle } from "@/lib/data";
+import { vehicles as staticVehicles, vehicleStatus, type Vehicle, type VehicleStatus } from "@/lib/data";
 import { slugify } from "@/lib/slugify";
 
 // ── Helpers ───────────────────────────────────────────────────────────
@@ -26,7 +26,7 @@ function generateDataTs(vehicles: Vehicle[]): string {
     const badgesStr = v.badges
       .map((b) => `{ name: ${JSON.stringify(b.name)}, label: ${JSON.stringify(b.label)}, icon: ${JSON.stringify(b.icon)} }`)
       .join(", ");
-    return `  { id: ${JSON.stringify(v.id)}, slug: ${JSON.stringify(v.slug)}, make: ${JSON.stringify(v.make)}, model: ${JSON.stringify(v.model)}, year: ${v.year}, category: ${JSON.stringify(v.category)}, bodyStyle: ${JSON.stringify(v.bodyStyle)}, tagline: ${JSON.stringify(v.tagline)}, description: ${JSON.stringify(v.description)}, dailyRate: ${v.dailyRate}, weekendRate: ${v.weekendRate ?? 0}, weeklyRate: ${v.weeklyRate ?? 0}, securityDeposit: ${v.securityDeposit}, horsepower: ${v.horsepower}, engine: ${JSON.stringify(v.engine)}, zeroToSixty: ${JSON.stringify(v.zeroToSixty)}, topSpeed: ${JSON.stringify(v.topSpeed)}, transmission: ${JSON.stringify(v.transmission)}, drivetrain: ${JSON.stringify(v.drivetrain)}, seats: ${v.seats}, doors: ${v.doors}, luggage: ${v.luggage}, convertible: ${v.convertible}, available: ${v.available}, featured: ${v.featured}, premierVerified: ${v.premierVerified}, instantConfirm: ${v.instantConfirm}, displayOrder: ${v.displayOrder}, images: [${imagesStr}], badges: [${badgesStr}] },`;
+    return `  { id: ${JSON.stringify(v.id)}, slug: ${JSON.stringify(v.slug)}, make: ${JSON.stringify(v.make)}, model: ${JSON.stringify(v.model)}, year: ${v.year}, category: ${JSON.stringify(v.category)}, bodyStyle: ${JSON.stringify(v.bodyStyle)}, tagline: ${JSON.stringify(v.tagline)}, description: ${JSON.stringify(v.description)}, dailyRate: ${v.dailyRate}, weekendRate: ${v.weekendRate ?? 0}, weeklyRate: ${v.weeklyRate ?? 0}, securityDeposit: ${v.securityDeposit}, horsepower: ${v.horsepower}, engine: ${JSON.stringify(v.engine)}, zeroToSixty: ${JSON.stringify(v.zeroToSixty)}, topSpeed: ${JSON.stringify(v.topSpeed)}, transmission: ${JSON.stringify(v.transmission)}, drivetrain: ${JSON.stringify(v.drivetrain)}, seats: ${v.seats}, doors: ${v.doors}, luggage: ${v.luggage}, convertible: ${v.convertible}, available: ${v.available}, ${v.status && v.status !== "available" ? `status: ${JSON.stringify(v.status)}, ` : ""}featured: ${v.featured}, premierVerified: ${v.premierVerified}, instantConfirm: ${v.instantConfirm}, displayOrder: ${v.displayOrder}, images: [${imagesStr}], badges: [${badgesStr}] },`;
   });
 
   // Keep faqs and reviews as-is (read from original file)
@@ -221,6 +221,9 @@ function VehicleCard({
             {v.featured && <span className="text-[9px] text-[#c9a96e] tracking-wider">FEATURED</span>}
           </div>
         </div>
+
+        {/* Rental status: Disponible / Non dispo / Entretien */}
+        <StatusButtons value={vehicleStatus(v)} onChange={(s) => update("status", s)} />
 
         {/* Expand arrow */}
         <span className="text-white/30 text-xs">{expanded ? "−" : "+"}</span>
@@ -581,6 +584,33 @@ function BookingsTab() {
           {b.message && <div className="text-[11px] text-white/60 border-t border-white/5 pt-2">{b.message}</div>}
           <div className="text-[9px] text-white/25">{new Date(b.created_at).toLocaleString("fr-CA")}</div>
         </div>
+      ))}
+    </div>
+  );
+}
+
+// ── Rental status buttons (shown on each vehicle row) ────────────────
+const STATUS_OPTIONS: { value: VehicleStatus; label: string; active: string }[] = [
+  { value: "available", label: "Disponible", active: "bg-green-500/20 text-green-300 border-green-500/40" },
+  { value: "unavailable", label: "Non dispo", active: "bg-red-500/20 text-red-300 border-red-500/40" },
+  { value: "maintenance", label: "Entretien", active: "bg-amber-500/20 text-amber-300 border-amber-500/40" },
+];
+
+function StatusButtons({ value, onChange }: { value: VehicleStatus; onChange: (s: VehicleStatus) => void }) {
+  return (
+    <div className="flex flex-shrink-0" onClick={(e) => e.stopPropagation()}>
+      {STATUS_OPTIONS.map((o) => (
+        <button
+          key={o.value}
+          type="button"
+          onClick={() => onChange(o.value)}
+          aria-pressed={value === o.value}
+          className={`text-[9px] tracking-widest uppercase px-2 py-1.5 border -ml-px first:ml-0 transition-colors ${
+            value === o.value ? o.active : "border-white/10 text-white/30 hover:text-white/60"
+          }`}
+        >
+          {o.label}
+        </button>
       ))}
     </div>
   );
