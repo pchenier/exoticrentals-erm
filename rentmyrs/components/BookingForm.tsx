@@ -5,7 +5,7 @@ import { useMemo, useState } from 'react';
 import { SITE, waUrl, type Locale } from '@/lib/site';
 import type { RsModel } from '@/lib/fleet';
 import { t } from '@/lib/dict';
-import { RsMark } from './ui';
+import { HazardBand, RsMark } from './ui';
 
 const field =
   'w-full border-0 border-b border-line bg-transparent px-0 py-3 text-base font-light normal-case tracking-normal text-paper [font-stretch:100%] outline-none transition focus:border-paper';
@@ -91,7 +91,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
                 disabled={o.off}
                 onClick={() => setVehicle(on ? '' : o.key)}
                 aria-pressed={on}
-                className={`group relative flex ${o.wide ? 'col-span-2 aspect-[8/3] sm:col-span-1' : 'aspect-[4/3]'} flex-col justify-end overflow-hidden bg-ink p-3 text-left transition disabled:cursor-not-allowed disabled:opacity-35 sm:aspect-[3/4] ${on ? 'outline outline-2 -outline-offset-2 outline-rs' : ''}`}
+                className={`group relative flex ${o.wide ? 'col-span-2 aspect-[8/3] sm:col-span-1' : 'aspect-[4/3]'} flex-col justify-end overflow-hidden bg-ink p-3 text-left transition disabled:cursor-not-allowed disabled:opacity-90 sm:aspect-[3/4] ${on ? 'outline outline-2 -outline-offset-2 outline-rs' : ''}`}
               >
                 {o.img && (
                   <Image src={o.img} alt="" fill sizes="(min-width: 640px) 15vw, 50vw" className={`object-cover transition duration-500 ${on ? 'opacity-70' : 'opacity-40 group-hover:opacity-60'}`} />
@@ -99,6 +99,7 @@ export default function BookingForm({ locale, models, defaultModel }: { locale: 
                 <span className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
                 <span className="wide relative text-2xl font-bold tracking-tight"><RsMark name={o.label} /></span>
                 <span className="label relative mt-1 text-[10px] text-paper/70">{o.sub}</span>
+                {o.off && <HazardBand label={f.notAvail} small />}
                 {on && <span className="absolute right-2 top-2 bg-rs px-1.5 text-xs font-bold">✓</span>}
               </button>
             );

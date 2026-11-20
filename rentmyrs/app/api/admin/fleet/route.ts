@@ -52,6 +52,13 @@ export async function PUT(req: Request) {
       if (images?.includes(k) && typeof v === 'string' && /^\d{1,3}% \d{1,3}%$/.test(v)) focuses[k] = v;
     }
   }
+  const sp = (body.specs ?? {}) as Record<string, unknown>;
+  const hp = Math.round(Number(sp.hp));
+  const z = String(sp.zeroTo100 ?? '').trim().replace(',', '.').replace(/\s*s$/, '');
+  const specs = {
+    ...(Number.isFinite(hp) && hp > 0 && hp < 3000 ? { hp } : {}),
+    ...(/^\d{1,2}(\.\d{1,2})?$/.test(z) ? { zeroTo100: `${z} s` } : {}),
+  };
   const txt = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice(0, max) : '');
   const t = (body.texts ?? {}) as Record<string, Record<string, unknown> | undefined>;
   const texts = {
@@ -62,7 +69,7 @@ export async function PUT(req: Request) {
     return NextResponse.json({ error: 'Champs invalides' }, { status: 400 });
   }
   try {
-    await writeOverride({ id: model.id, daily_rate: dailyRate, deposit, status: body.status, images, texts, videos, focuses });
+    await writeOverride({ id: model.id, daily_rate: dailyRate, deposit, status: body.status, images, texts, videos, focuses, specs });
   } catch (e) {
     return NextResponse.json({ error: e instanceof Error ? e.message : 'Erreur base de données' }, { status: 503 });
   }

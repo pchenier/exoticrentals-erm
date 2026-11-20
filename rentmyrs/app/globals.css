@@ -96,3 +96,16 @@ h1, h2, h3, .label, .wide { font-stretch: 125%; }
     mask-image: linear-gradient(to right, transparent, #000 25%, #000 75%, transparent);
   }
 }
+
+/* Ruban « danger » jaune et noir. */
+.hazard {
+  background: repeating-linear-gradient(-45deg, #ffd400 0 18px, #111 18px 36px);
+  border-block: 2px solid #111;
+}
+
+/* Arrivée sur la page d'une auto : la photo se dézoome doucement, le titre monte. */
+@keyframes photo-in { from { opacity: 0; transform: scale(1.08); } to { opacity: 1; transform: scale(1); } }
+@keyframes rise-in { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+.anim-photo { animation: photo-in .7s cubic-bezier(.2,.7,.2,1) both; }
+.anim-rise { animation: rise-in .6s cubic-bezier(.2,.7,.2,1) .12s both; }
+@media (prefers-reduced-motion: reduce) { .anim-photo, .anim-rise { animation: none; } }

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Locale } from '@/lib/site';
 import type { RsModel } from '@/lib/fleet';
 import { t } from '@/lib/dict';
-import { Btn, RsMark, Stat } from './ui';
+import { Btn, RsMark, Stat, HazardBand } from './ui';
 
 export const money = (n: number, locale: Locale) => n.toLocaleString(locale === 'fr' ? 'fr-CA' : 'en-CA');
 export const accel = (m: RsModel, locale: Locale) =>
@@ -17,6 +17,13 @@ export function Badge({ model, locale }: { model: RsModel; locale: Locale }) {
       <span>{model.badge[locale]}</span>
     </span>
   );
+}
+
+/** Ruban jaune/noir par-dessus la photo quand le véhicule n'est pas disponible. */
+export function StatusBand({ model, locale }: { model: RsModel; locale: Locale }) {
+  if (!model.status || model.status === 'available') return null;
+  const d = t(locale).fleet;
+  return <HazardBand label={model.status === 'maintenance' ? d.maintenance : d.unavailable} />;
 }
 
 export function StatusTag({ model, locale }: { model: RsModel; locale: Locale }) {
@@ -98,12 +105,12 @@ export function ModelTile({ model, locale }: { model: RsModel; locale: Locale })
   const d = t(locale);
   const href = modelHref(model, locale);
   return (
-    <article className="group flex flex-col border border-line bg-ink transition duration-300 hover:-translate-y-1 hover:border-paper/30">
+    <article className="group flex flex-col border border-line bg-ink transition duration-300 hover:-translate-y-1 hover:border-paper/30 active:translate-y-0 active:scale-[0.97] active:duration-100">
       <Link href={href} className="relative block aspect-[3/2] overflow-hidden bg-black">
         <ModelVisual model={model} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" />
-        <div className="absolute left-3 top-3 flex gap-2">
+        <StatusBand model={model} locale={locale} />
+        <div className="absolute left-3 top-3 z-20 flex gap-2">
           <Badge model={model} locale={locale} />
-          <StatusTag model={model} locale={locale} />
         </div>
       </Link>
       <div className="flex flex-1 flex-col p-5 sm:p-6">
