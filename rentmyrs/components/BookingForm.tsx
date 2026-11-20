@@ -2,13 +2,13 @@
 
 import { useState } from 'react';
 import { SITE, waUrl, type Locale } from '@/lib/site';
-import { RS_MODELS } from '@/lib/fleet';
+import type { RsModel } from '@/lib/fleet';
 import { t } from '@/lib/dict';
 
 const field =
   'w-full border-0 border-b border-line bg-transparent px-0 py-3 text-base font-light normal-case tracking-normal text-paper [font-stretch:100%] outline-none transition focus:border-paper';
 
-export default function BookingForm({ locale, defaultModel }: { locale: Locale; defaultModel?: string }) {
+export default function BookingForm({ locale, models, defaultModel }: { locale: Locale; models: RsModel[]; defaultModel?: string }) {
   const d = t(locale).booking;
   const [state, setState] = useState<'idle' | 'sending' | 'ok' | 'err'>('idle');
   const today = new Date().toISOString().slice(0, 10);
@@ -62,11 +62,15 @@ export default function BookingForm({ locale, defaultModel }: { locale: Locale; 
         {d.model}
         <select name="vehicle" defaultValue={defaultModel ?? ''} className={`${field} bg-panel`}>
           <option value="">{d.any}</option>
-          {RS_MODELS.map((m) => (
-            <option key={m.id} value={m.name}>
-              {m.name}
-            </option>
-          ))}
+          {models.map((m) => {
+            const off = !!m.status && m.status !== 'available';
+            return (
+              <option key={m.id} value={m.name} disabled={off}>
+                {m.name}
+                {off ? ` (${t(locale).fleet.notAvail})` : ''}
+              </option>
+            );
+          })}
           <option value="Lamborghini">Lamborghini</option>
         </select>
       </label>

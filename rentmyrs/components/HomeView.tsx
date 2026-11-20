@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import { SITE, type Locale } from '@/lib/site';
 import { t } from '@/lib/dict';
-import { RS_MODELS, LAMBOS } from '@/lib/fleet';
+import { LAMBOS } from '@/lib/fleet';
+import { getFleet } from '@/lib/fleet-store';
 import Header from './Header';
 import Footer from './Footer';
 import ModelRow, { money, modelHref } from './ModelCard';
@@ -10,8 +11,9 @@ import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
 import { Btn } from './ui';
 
-export default function HomeView({ locale }: { locale: Locale }) {
+export default async function HomeView({ locale }: { locale: Locale }) {
   const d = t(locale);
+  const RS_MODELS = await getFleet();
   const home = locale === 'fr' ? SITE.url : `${SITE.url}/en`;
 
   const business = {
@@ -157,7 +159,7 @@ export default function HomeView({ locale }: { locale: Locale }) {
               <div className="rule mt-8" />
               <p className="mt-6 max-w-sm font-light text-mute">{d.booking.sub}</p>
             </div>
-            <BookingForm locale={locale} />
+            <BookingForm locale={locale} models={RS_MODELS} />
           </div>
         </section>
 
