@@ -4,7 +4,8 @@ import { getFleet } from '@/lib/fleet-store';
 import { LAMBOS } from '@/lib/fleet';
 import { AREAS, GUIDE } from '@/lib/seo';
 
-export const revalidate = 300;
+// Toujours lu à la demande : les photos et prix de /admin ne doivent jamais être remplacés par les valeurs du code lors d'une mise à jour.
+export const dynamic = 'force-dynamic';
 
 export async function GET() {
   const models = await getFleet();
