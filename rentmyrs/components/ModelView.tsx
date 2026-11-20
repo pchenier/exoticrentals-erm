@@ -9,6 +9,8 @@ import { Badge, ModelVisual, StatusTag, accel, money, modelHref } from './ModelC
 import BookingForm from './BookingForm';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
+import FaqList from './FaqList';
+import { GUIDE, carLd, faqLd, modelFaq, offerLd } from '@/lib/seo';
 import { Btn, RsMark, Stat } from './ui';
 
 export default function ModelView({ locale, model, models }: { locale: Locale; model: RsModel; models: RsModel[] }) {
@@ -26,19 +28,8 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
     [d.fleet.deposit, `${money(model.deposit, locale)} $`],
   ];
 
-  const product = {
-    '@context': 'https://schema.org',
-    '@type': 'Car',
-    name: model.name,
-    brand: { '@type': 'Brand', name: 'Audi' },
-    url,
-    ...(model.images[0] && { image: model.images.map((i) => (i.startsWith("http") ? i : `${SITE.url}${i}`)) }),
-    vehicleEngine: { '@type': 'EngineSpecification', name: model.specs.engine },
-    seatingCapacity: model.specs.seats,
-    ...(model.dailyRate != null && {
-      offers: { '@type': 'Offer', priceCurrency: 'CAD', price: model.dailyRate, url, seller: { '@type': 'AutoRental', name: SITE.name } },
-    }),
-  };
+  const product = { '@context': 'https://schema.org', ...carLd(model, locale), url, offers: offerLd(model, locale) };
+  const faqItems = modelFaq(model, locale);
   const crumbs = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -52,6 +43,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
     <>
       <JsonLd data={product} />
       <JsonLd data={crumbs} />
+      <JsonLd data={faqLd(faqItems)} />
       <Header locale={locale} otherHref={otherHref} />
       <main>
         {/* Hero pleine largeur, nom du modèle en très grand. */}
@@ -146,6 +138,21 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
               <p className="mt-6 max-w-sm font-light text-mute">{d.booking.sub}</p>
             </div>
             <BookingForm locale={locale} models={models} defaultModel={model.status && model.status !== 'available' ? undefined : model.name} />
+          </div>
+        </section>
+
+        {/* FAQ du modèle */}
+        <section className="border-t border-line">
+          <div className={`${wrap} grid gap-12 py-24 lg:grid-cols-[1fr_1.4fr]`}>
+            <div>
+              <h2 className="text-3xl font-bold uppercase leading-tight tracking-tight sm:text-4xl">
+                {locale === 'fr' ? `Louer la ${model.short} : questions fréquentes` : `Renting the ${model.short}: FAQ`}
+              </h2>
+              <Link href={GUIDE[locale]} className="label mt-8 inline-block text-mute underline decoration-rs underline-offset-4 hover:text-paper">
+                {locale === 'fr' ? 'Comparer les 4 Audi RS →' : 'Compare all 4 Audi RS →'}
+              </Link>
+            </div>
+            <FaqList items={faqItems} />
           </div>
         </section>
 

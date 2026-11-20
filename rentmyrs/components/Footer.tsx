@@ -3,6 +3,7 @@ import { SITE, type Locale } from '@/lib/site';
 import { t } from '@/lib/dict';
 import { RS_MODELS } from '@/lib/fleet';
 import { Logo } from './ui';
+import { GUIDE } from '@/lib/seo';
 
 export default function Footer({ locale }: { locale: Locale }) {
   const d = t(locale);
@@ -25,6 +26,11 @@ export default function Footer({ locale }: { locale: Locale }) {
               </Link>
             </li>
           ))}
+          <li>
+            <Link href={GUIDE[locale]} className="font-light text-mute hover:text-paper">
+              {locale === 'fr' ? 'Guide : quelle Audi RS louer ?' : 'Guide: which Audi RS to rent?'}
+            </Link>
+          </li>
         </ul>
         <div className="font-light text-mute">
           <p>

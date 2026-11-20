@@ -10,28 +10,14 @@ import BookingForm from './BookingForm';
 import ContactFloat from './ContactFloat';
 import Snow from './Snow';
 import JsonLd from './JsonLd';
+import { businessLd } from '@/lib/seo';
 import { Btn, RsMark } from './ui';
 
 export default async function HomeView({ locale }: { locale: Locale }) {
   const d = t(locale);
   const RS_MODELS = await getFleet();
-  const home = locale === 'fr' ? SITE.url : `${SITE.url}/en`;
 
-  const business = {
-    '@context': 'https://schema.org',
-    '@type': 'AutoRental',
-    name: SITE.name,
-    url: home,
-    telephone: SITE.phone,
-    image: `${SITE.url}/cars/rs3-1.jpg`,
-    areaServed: ['Montréal', 'Laval', 'Longueuil', 'Brossard'],
-    address: { '@type': 'PostalAddress', addressLocality: 'Montréal', addressRegion: 'QC', addressCountry: 'CA' },
-    sameAs: [SITE.sister.url],
-    makesOffer: [...RS_MODELS.map((m) => m.name), ...LAMBOS.map((l) => l.name)].map((name) => ({
-      '@type': 'Offer',
-      itemOffered: { '@type': 'Car', name },
-    })),
-  };
+  const business = businessLd(locale, RS_MODELS);
   const faq = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
