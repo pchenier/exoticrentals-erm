@@ -15,6 +15,7 @@ import { Btn } from './ui';
 export default async function HomeView({ locale }: { locale: Locale }) {
   const d = t(locale);
   const RS_MODELS = await getFleet();
+  const heroModel = RS_MODELS.find((m) => m.id === 'rs3') ?? RS_MODELS[0];
   const home = locale === 'fr' ? SITE.url : `${SITE.url}/en`;
 
   const business = {
@@ -47,18 +48,20 @@ export default async function HomeView({ locale }: { locale: Locale }) {
       <JsonLd data={faq} />
       <Header locale={locale} />
       <main>
-        {/* Hero : seulement la photo, plein écran, recadrée (jamais étirée) autour de l'auto, avec des flocons. */}
-        <section className="relative isolate aspect-[5/4] overflow-hidden sm:aspect-auto sm:h-[78svh] sm:min-h-[460px]">
-          <Image
-            src="/cars/rs3-front-hd.jpg"
-            alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'}
-            fill
-            priority
-            sizes="100vw"
-            quality={90}
-            className="-z-10 object-cover object-[50%_45%] sm:object-[50%_30%]"
-          />
-          <div className="absolute inset-x-0 top-0 -z-10 h-32 bg-gradient-to-b from-black/60 to-transparent" />
+        {/* Hero : même photo et même cadrage que la page RS3 (suit la photo principale réglée dans /admin), avec des flocons. */}
+        <section className="relative isolate min-h-[88svh] overflow-hidden">
+          <div className="absolute inset-0 -z-10">
+            <Image
+              src={heroModel.images[0] ?? '/cars/rs3-1.jpg'}
+              alt={locale === 'fr' ? 'Location Audi RS3 à Montréal' : 'Audi RS3 rental in Montreal'}
+              fill
+              priority
+              sizes="100vw"
+              style={{ objectPosition: heroModel.focus ?? '50% 72%' }}
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/40" />
+          </div>
           <Snow />
           <a href="#intro" aria-label={locale === 'fr' ? 'Défiler' : 'Scroll'} className="absolute bottom-8 left-1/2 -translate-x-1/2 text-2xl text-paper/80 transition hover:text-paper">
             ↓
