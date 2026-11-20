@@ -19,6 +19,16 @@ export function Badge({ model, locale }: { model: RsModel; locale: Locale }) {
   );
 }
 
+export function StatusTag({ model, locale }: { model: RsModel; locale: Locale }) {
+  if (!model.status || model.status === 'available') return null;
+  const d = t(locale).fleet;
+  return (
+    <span className="label border border-paper/40 bg-black/60 px-2.5 py-1 text-paper">
+      {model.status === 'maintenance' ? d.maintenance : d.unavailable}
+    </span>
+  );
+}
+
 export function ModelVisual({ model, priority = false, sizes, index = 0 }: { model: RsModel; priority?: boolean; sizes: string; index?: number }) {
   const src = model.images[index];
   if (src) {
@@ -56,6 +66,7 @@ export default function ModelRow({ model, locale, flip = false }: { model: RsMod
         <div className="flex items-center gap-4">
           <p className="label text-mute">{model.body[locale]}</p>
           <Badge model={model} locale={locale} />
+          <StatusTag model={model} locale={locale} />
         </div>
         <h3 className="mt-4 wide text-6xl font-bold leading-none tracking-tight sm:text-8xl">{model.short}</h3>
         <p className="mt-5 max-w-md text-lg font-light text-paper/80">{model.tagline[locale]}</p>

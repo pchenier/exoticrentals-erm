@@ -1,6 +1,25 @@
 // Static vehicle data - matches the 18-vehicle fleet
 // Used for production where Vercel cannot access local SQLite
 
+// Rental status, set from the admin with the status buttons.
+// "unavailable" / "maintenance" keep the car listed on the site but disable
+// booking for it. (The separate `available` flag hides the car entirely.)
+export type VehicleStatus = "available" | "unavailable" | "maintenance";
+
+export function vehicleStatus(v: { status?: VehicleStatus }): VehicleStatus {
+  return v.status === "unavailable" || v.status === "maintenance" ? v.status : "available";
+}
+
+export function isBookable(v: { status?: VehicleStatus }): boolean {
+  return vehicleStatus(v) === "available";
+}
+
+export const STATUS_LABEL: Record<VehicleStatus, string> = {
+  available: "Available",
+  unavailable: "Unavailable",
+  maintenance: "In maintenance",
+};
+
 export interface Vehicle {
   id: string;
   slug: string;
@@ -26,6 +45,8 @@ export interface Vehicle {
   luggage: number;
   convertible: boolean;
   available: boolean;
+  /** Rental status set from the admin. Missing = "available". */
+  status?: VehicleStatus;
   featured: boolean;
   premierVerified: boolean;
   instantConfirm: boolean;

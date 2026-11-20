@@ -21,7 +21,11 @@ export type RsModel = {
   images: string[];
   /** Cadrage CSS (object-position) de la photo principale. */
   focus?: string;
+  /** Disponibilité, modifiable dans /admin. */
+  status?: VehicleStatus;
 };
+
+export type VehicleStatus = 'available' | 'unavailable' | 'maintenance';
 
 // Prix et dépôts confirmés par pan le 2026-11-20. TODO : photos RSQ8 et autres photos RS3.
 export const RS_MODELS: RsModel[] = [

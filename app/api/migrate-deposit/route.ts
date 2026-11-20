@@ -1,9 +1,13 @@
 import { NextResponse } from 'next/server';
 import { sql } from '@/lib/db';
+import { requireAdmin } from '@/lib/admin-auth';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(req: Request) {
+  const denied = await requireAdmin(req);
+  if (denied) return denied;
+
   try {
     await sql`ALTER TABLE fleet ADD COLUMN IF NOT EXISTS deposit INTEGER DEFAULT 0`;
 

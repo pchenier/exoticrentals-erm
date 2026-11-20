@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   devIndicators: false,
+  images: {
+    remotePatterns: [{ protocol: 'https', hostname: '*.public.blob.vercel-storage.com' }],
+  },
   // La redirection rentmyrs.com -> www.rentmyrs.com est gérée par Vercel (Domains).
   async headers() {
     return [

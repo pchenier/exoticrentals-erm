@@ -2,16 +2,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { SITE, type Locale } from '@/lib/site';
 import { t } from '@/lib/dict';
-import { RS_MODELS, type RsModel } from '@/lib/fleet';
+import type { RsModel } from '@/lib/fleet';
 import Header from './Header';
 import Footer from './Footer';
-import { Badge, ModelVisual, accel, money, modelHref } from './ModelCard';
+import { Badge, ModelVisual, StatusTag, accel, money, modelHref } from './ModelCard';
 import BookingForm from './BookingForm';
 import ContactFloat from './ContactFloat';
 import JsonLd from './JsonLd';
 import { Btn, Stat } from './ui';
 
-export default function ModelView({ locale, model }: { locale: Locale; model: RsModel }) {
+export default function ModelView({ locale, model, models }: { locale: Locale; model: RsModel; models: RsModel[] }) {
   const d = t(locale);
   const prefix = locale === 'fr' ? '' : '/en';
   const url = `${SITE.url}${modelHref(model, locale)}`;
@@ -65,6 +65,7 @@ export default function ModelView({ locale, model }: { locale: Locale; model: Rs
             <div className="mt-8 flex items-center gap-4">
               <p className="label text-paper/80">{model.body[locale]}</p>
               <Badge model={model} locale={locale} />
+              <StatusTag model={model} locale={locale} />
             </div>
             <h1 className="mt-3 text-[18vw] font-bold uppercase leading-[0.85] tracking-tight sm:text-[9rem]">
               {model.short}
@@ -144,7 +145,7 @@ export default function ModelView({ locale, model }: { locale: Locale; model: Rs
               <div className="rule mt-8" />
               <p className="mt-6 max-w-sm font-light text-mute">{d.booking.sub}</p>
             </div>
-            <BookingForm locale={locale} defaultModel={model.name} />
+            <BookingForm locale={locale} models={models} defaultModel={model.status && model.status !== 'available' ? undefined : model.name} />
           </div>
         </section>
 
@@ -154,7 +155,7 @@ export default function ModelView({ locale, model }: { locale: Locale; model: Rs
             <h2 className="label text-mute">{d.model.others}</h2>
           </div>
           <div className="grid sm:grid-cols-3">
-            {RS_MODELS.filter((m) => m.id !== model.id).map((m) => (
+            {models.filter((m) => m.id !== model.id).map((m) => (
               <Link key={m.id} href={modelHref(m, locale)} className="group relative block aspect-[4/5] overflow-hidden border-line sm:border-r">
                 <ModelVisual model={m} sizes="(min-width: 640px) 33vw, 100vw" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent" />

@@ -239,35 +239,23 @@ export default function BookingForm({ defaultCar = "" }: BookingFormProps) {
     setSubmitting(true);
     setSubmitError("");
     try {
-      // Send SMS notification via OpenPhone
-      await fetch("/api/notify", {
+      // Single booking pipeline: /api/booking saves the request in
+      // booking_requests (admin "Bookings" tab) and texts the team via
+      // OpenPhone. Requests are validated manually: a request no longer
+      // writes to the bookings calendar, so it can't block dates by itself.
+      const res = await fetch("/api/booking", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          type: "booking",
-          data: {
-            name: form.name,
-            phone: form.phone,
-            vehicle: form.vehicle,
-            pickup_date: pickupDate,
-            return_date: returnDate,
-          },
+          name: form.name,
+          phone: form.phone,
+          vehicle: form.vehicle,
+          startDate: pickupDate,
+          endDate: returnDate,
+          message: `Source: home booking form. SMS consent: ${form.sms_consent ? "yes" : "no"}`,
         }),
       });
-      // Save booking to DB
-      await fetch("/api/bookings", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          car_name: form.vehicle,
-          client_name: form.name,
-          client_phone: form.phone,
-          pickup_date: pickupDate,
-          return_date: returnDate,
-          status: "pending",
-          sms_consent: form.sms_consent,
-        }),
-      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       // Fire GA4 generate_lead + Google Ads conversion (with enhanced conversions PII)
       trackBookingConversion({
         car: form.vehicle,

@@ -1,5 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse, after } from 'next/server';
 import { db } from '@/lib/db';
+import { notifyTeam } from '@/lib/push';
 
 // Demande de réservation : validation MANUELLE par l'équipe, aucun paiement en ligne.
 // Seule la méthode POST existe : rien n'est lisible publiquement ici.
@@ -39,6 +40,8 @@ export async function POST(req: NextRequest) {
   const startDate = str(body.startDate, 10);
   const endDate = str(body.endDate, 10);
   const message = str(body.message, 1000);
+  const est = Math.round(Number(body.estimate));
+  const estimate = Number.isFinite(est) && est > 0 && est < 1_000_000 ? String(est) : null;
   const locale = body.locale === 'en' ? 'en' : 'fr';
 
   if (!name || phone.replace(/\D/g, '').length < 7 || !isDate(startDate) || !isDate(endDate) || endDate < startDate) {
@@ -56,6 +59,7 @@ export async function POST(req: NextRequest) {
     `Vehicle: ${vehicle}`,
     `Pickup: ${startDate}`,
     `Return: ${endDate}`,
+    estimate && `Estimate: $${estimate}`,
     message && `Notes: ${message}`,
   ]
     .filter(Boolean)
@@ -67,8 +71,8 @@ export async function POST(req: NextRequest) {
   if (sql) {
     try {
       const rows = await sql`
-        INSERT INTO booking_requests (name, phone, email, vehicle, start_date, end_date, message, sms_status)
-        VALUES (${name}, ${phone}, ${email || null}, ${`[RentMyRS] ${vehicle}`}, ${startDate}, ${endDate}, ${message || null}, 'none')
+        INSERT INTO booking_requests (name, phone, email, vehicle, start_date, end_date, estimate, message, sms_status)
+        VALUES (${name}, ${phone}, ${email || null}, ${`[RentMyRS] ${vehicle}`}, ${startDate}, ${endDate}, ${estimate}, ${message || null}, 'none')
         RETURNING id`;
       savedId = rows[0]?.id ?? null;
     } catch (e) {
@@ -77,10 +81,19 @@ export async function POST(req: NextRequest) {
   }
 
   // Si la demande n'a pas été enregistrée, le client doit le savoir.
-  // TODO : brancher ici la notification de l'équipe (nouveau setup à venir).
   if (!savedId) {
     console.error('reservation: request NOT SAVED', content);
     return NextResponse.json({ error: 'Unavailable' }, { status: 503 });
   }
+
+  // 2) Notification push sur le téléphone de l'équipe, envoyée après la réponse au client.
+  const short = (d: string) => d.slice(5).replace('-', '/');
+  after(() =>
+    notifyTeam({
+      title: `Nouvelle demande · ${vehicle}`,
+      body: `${name} · ${phone}\n${short(startDate)} → ${short(endDate)}${estimate ? ` · ~${Number(estimate).toLocaleString('fr-CA')} $` : ''}`,
+      url: '/admin',
+    }),
+  );
   return NextResponse.json({ success: true });
 }
