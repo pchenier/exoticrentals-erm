@@ -8,7 +8,11 @@ export type FleetOverride = {
   deposit: number | null;
   status: VehicleStatus;
   images: string[] | null;
+  /** Textes modifiés dans /admin (accroche et description, FR/EN). Vide = texte par défaut. */
+  texts?: ModelTexts | null;
 };
+
+export type ModelTexts = { tagline?: Partial<Record<'fr' | 'en', string>>; intro?: Partial<Record<'fr' | 'en', string>> };
 
 const STATUSES: VehicleStatus[] = ['available', 'unavailable', 'maintenance'];
 export const isStatus = (v: unknown): v is VehicleStatus => STATUSES.includes(v as VehicleStatus);
@@ -25,7 +29,7 @@ function ensureTable() {
       status TEXT NOT NULL DEFAULT 'available',
       images JSONB,
       updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
-    )`.catch((e) => {
+    )`.then(() => sql`ALTER TABLE rentmyrs_fleet ADD COLUMN IF NOT EXISTS texts JSONB`).catch((e) => {
     tableReady = null;
     throw e;
   });
@@ -41,7 +45,7 @@ export async function readOverrides(): Promise<FleetOverride[]> {
   try {
     const read = (async () => {
       await ensureTable();
-      return sql<FleetOverride[]>`SELECT id, daily_rate, deposit, status, images FROM rentmyrs_fleet`;
+      return sql<FleetOverride[]>`SELECT id, daily_rate, deposit, status, images, texts FROM rentmyrs_fleet`;
     })();
     // Une base lente ne doit jamais bloquer l'affichage du site.
     const timeout = new Promise<never>((_, rej) => setTimeout(() => rej(new Error('timeout')), 4000));
@@ -57,13 +61,14 @@ export async function writeOverride(o: FleetOverride) {
   if (!sql) throw new Error('POSTGRES_URL non configurée');
   await ensureTable();
   await sql`
-    INSERT INTO rentmyrs_fleet (id, daily_rate, deposit, status, images, updated_at)
-    VALUES (${o.id}, ${o.daily_rate}, ${o.deposit}, ${o.status}, ${o.images ? sql.json(o.images) : null}, now())
+    INSERT INTO rentmyrs_fleet (id, daily_rate, deposit, status, images, texts, updated_at)
+    VALUES (${o.id}, ${o.daily_rate}, ${o.deposit}, ${o.status}, ${o.images ? sql.json(o.images) : null}, ${o.texts ? sql.json(o.texts) : null}, now())
     ON CONFLICT (id) DO UPDATE SET
       daily_rate = EXCLUDED.daily_rate,
       deposit = EXCLUDED.deposit,
       status = EXCLUDED.status,
       images = EXCLUDED.images,
+      texts = EXCLUDED.texts,
       updated_at = now()`;
 }
 
@@ -79,6 +84,8 @@ export function applyOverrides(models: RsModel[], overrides: FleetOverride[]): R
       images: o.images && o.images.length ? o.images : m.images,
       // Une photo téléversée remplace le cadrage prévu pour la photo par défaut.
       focus: o.images && o.images.length ? undefined : m.focus,
+      tagline: { fr: o.texts?.tagline?.fr || m.tagline.fr, en: o.texts?.tagline?.en || m.tagline.en },
+      intro: { fr: o.texts?.intro?.fr || m.intro.fr, en: o.texts?.intro?.en || m.intro.en },
     };
   });
 }

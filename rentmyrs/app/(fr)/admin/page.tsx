@@ -148,6 +148,8 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
   const [deposit, setDeposit] = useState(model.deposit.toString());
   const [status, setStatus] = useState<VehicleStatus>(model.status ?? 'available');
   const [images, setImages] = useState<string[]>(model.images);
+  const [texts, setTexts] = useState({ tagline: { ...model.tagline }, intro: { ...model.intro } });
+  const setText = (k: 'tagline' | 'intro', l: 'fr' | 'en', v: string) => setTexts((c) => ({ ...c, [k]: { ...c[k], [l]: v } }));
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState('');
 
@@ -176,7 +178,7 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
     const r = await fetch('/api/admin/fleet', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images: nextImages }),
+      body: JSON.stringify({ id: model.id, dailyRate: rate, deposit, status, images: nextImages, texts }),
     });
     const d = await r.json().catch(() => ({}));
     setBusy(false);
@@ -226,6 +228,21 @@ function ModelEditor({ model, canSave }: { model: RsModel; canSave: boolean }) {
           Dépôt ($)
           <input inputMode="numeric" value={deposit} onChange={(e) => setDeposit(e.target.value.replace(/\D/g, ''))} className={`${field} normal-case tracking-normal text-paper`} />
         </label>
+      </div>
+
+      <div className="mt-5 grid gap-4 sm:grid-cols-2">
+        {([['fr', 'Français'], ['en', 'English']] as const).map(([l, lang]) => (
+          <div key={l} className="grid gap-3">
+            <label className="label grid gap-1 text-mute">
+              Accroche ({lang})
+              <input value={texts.tagline[l]} onChange={(e) => setText('tagline', l, e.target.value)} maxLength={160} className={`${field} normal-case tracking-normal text-paper`} />
+            </label>
+            <label className="label grid gap-1 text-mute">
+              Description ({lang})
+              <textarea value={texts.intro[l]} onChange={(e) => setText('intro', l, e.target.value)} rows={6} maxLength={2000} className={`${field} resize-y normal-case leading-relaxed tracking-normal text-paper`} />
+            </label>
+          </div>
+        ))}
       </div>
 
       <div className="mt-5">

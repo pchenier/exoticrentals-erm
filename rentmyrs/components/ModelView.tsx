@@ -90,7 +90,7 @@ export default function ModelView({ locale, model, models }: { locale: Locale; m
             <div className="rule mt-8" />
           </div>
           <div>
-            <p className="text-lg font-light leading-relaxed text-paper/85">{model.intro[locale]}</p>
+            <p className="whitespace-pre-line text-lg font-light leading-relaxed text-paper/85">{model.intro[locale]}</p>
             <ul className="mt-8 border-b border-line">
               {model.highlights[locale].map((h) => (
                 <li key={h} className="flex items-center gap-4 border-t border-line py-4 font-light">
