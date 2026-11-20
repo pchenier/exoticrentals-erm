@@ -10,7 +10,7 @@ export function pageMeta(opts: {
 }): Metadata {
   const { locale, title, description, path } = opts;
   const url = `${SITE.url}${path[locale]}`;
-  const image = `${SITE.url}${opts.image ?? '/cars/rs3-1.jpg'}`;
+  const image = `${SITE.url}${opts.image ?? '/og.jpg'}`;
   return {
     title,
     description,

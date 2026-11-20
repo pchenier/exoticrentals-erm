@@ -24,13 +24,10 @@ export function Btn({ href, children, variant = 'solid', className = '' }: BtnPr
   );
 }
 
-export function Logo() {
-  return (
-    <span className="flex items-center gap-2 text-[15px] font-semibold uppercase tracking-[0.2em]">
-      RentMy
-      <span className="slant px-2 py-0.5 text-[13px] font-bold italic tracking-normal"><span>RS</span></span>
-    </span>
-  );
+export function Logo({ className = "h-9 sm:h-11" }: { className?: string }) {
+  // Logo officiel (fond transparent) : public/logo.png
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src="/logo.png" alt="RentMyRS" width={594} height={160} className={`${className} w-auto`} />;
 }
 
 /** Grand chiffre + petite étiquette. */

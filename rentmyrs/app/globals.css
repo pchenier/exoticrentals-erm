@@ -30,18 +30,25 @@ input, select, textarea { color-scheme: dark; border-radius: 0; }
 h1, h2, h3, .label, .wide { font-stretch: 125%; }
 
 /* Flocons de l'accueil */
-.snowflake {
+.snow { container-type: size; }
+.snowfall {
   position: absolute;
-  top: -10px;
-  border-radius: 9999px;
-  background: #fff;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.35);
+  top: 0;
   will-change: transform;
-  animation-name: snowfall;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation: snowfall linear infinite;
+}
+.snowflake {
+  display: block;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.7) 45%, rgba(255,255,255,0) 100%);
+  will-change: transform;
+  animation: snowsway ease-in-out infinite alternate;
 }
 @keyframes snowfall {
-  from { transform: translate3d(0, -10px, 0); }
-  to { transform: translate3d(var(--drift, 0px), 80svh, 0); }
+  from { transform: translate3d(0, -20px, 0); }
+  to { transform: translate3d(0, calc(100cqh + 20px), 0); }
+}
+@keyframes snowsway {
+  from { transform: translate3d(calc(var(--sway, 0px) * -1), 0, 0); }
+  to { transform: translate3d(var(--sway, 0px), 0, 0); }
 }
