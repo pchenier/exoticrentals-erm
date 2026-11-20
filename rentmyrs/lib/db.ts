@@ -12,6 +12,6 @@ if (url && !valid) console.error('db: POSTGRES_URL is not a postgres:// URL, dat
 let client: ReturnType<typeof postgres> | null = null;
 export function db() {
   if (!valid) return null;
-  client ??= postgres(url, { ssl: /@(localhost|127\.0\.0\.1)[:/]/.test(url) ? false : 'require', max: 1, prepare: false });
+  client ??= postgres(url, { ssl: /@(localhost|127\.0\.0\.1)[:/]/.test(url) ? false : 'require', max: 1, prepare: false, connect_timeout: 8, idle_timeout: 20 });
   return client;
 }
