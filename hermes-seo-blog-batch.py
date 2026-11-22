@@ -241,6 +241,87 @@ NEW_TOPICS = [
     {"kw": "luxury car rental Montreal Mothers Day", "title": "Mothers Day Luxury Car Rental Montreal: Mom Deserves the Maybach", "model": None, "angle": "occasion"},
     {"kw": "bachelorette party car rental Montreal", "title": "Bachelorette Party Car Rental Montreal: SUV Style for the Bride Crew", "model": None, "angle": "occasion"},
 
+    # ─── Batch 4: current-fleet model comparisons (Sept 2026 fleet) ───
+    {"kw": "Audi S5 rental Montreal", "title": "Audi S5 Rental Montreal: The Smart Entry Into German Performance", "model": "audi-s5-2020", "angle": "review"},
+    {"kw": "McLaren 600LT Spider rental Montreal", "title": "McLaren 600LT Spider Rental Montreal: The Open-Top Track Car", "model": "mclaren-600lt-spider", "angle": "review"},
+    {"kw": "BMW M4 Competition vs M4 KITH rental Montreal", "title": "BMW M4 Competition vs M4 KITH: Which M4 to Rent in Montreal", "model": "bmw-m4-competition-kith", "angle": "comparison"},
+    {"kw": "Audi R8 coupe vs R8 Spyder rental Montreal", "title": "Audi R8 Coupe vs Spyder: Which R8 to Rent in Montreal", "model": "audi-r8-spyder", "angle": "comparison"},
+    {"kw": "Cadillac Escalade vs Lamborghini Urus rental Montreal", "title": "Escalade vs Urus: Group SUV Rental in Montreal Compared", "model": "cadillac-escalade", "angle": "comparison"},
+    {"kw": "Porsche 911 Carrera 4 vs Macan GTS rental Montreal", "title": "Porsche 911 Carrera 4 vs Macan GTS: Which Porsche to Rent in Montreal", "model": "porsche-911-carrera-4", "angle": "comparison"},
+    {"kw": "Mercedes GT53 vs G63 AMG rental Montreal", "title": "Mercedes GT53 vs G63 AMG: Which Mercedes to Rent in Montreal", "model": "mercedes-gt53-amg", "angle": "comparison"},
+    {"kw": "Toyota GR Supra vs BMW M4 Competition rental Montreal", "title": "Toyota GR Supra vs BMW M4 Competition: Related Rivals in Montreal", "model": "toyota-supra", "angle": "comparison"},
+    {"kw": "Audi S5 vs RS5 rental Montreal", "title": "Audi S5 vs RS5: Which Audi Coupe to Rent in Montreal", "model": "audi-s5-2020", "angle": "comparison"},
+    {"kw": "Audi RS6 vs BMW M5 Competition rental Montreal", "title": "Audi RS6 vs BMW M5 Competition: Wagon vs Sedan in Montreal", "model": "bmw-m5-competition", "angle": "comparison"},
+    {"kw": "Mercedes GLC63s vs Porsche Macan GTS rental Montreal", "title": "GLC63s vs Macan GTS: Compact SUV Rental Showdown in Montreal", "model": "mercedes-glc63s-amg", "angle": "comparison"},
+    {"kw": "Toyota GR Supra vs Audi S5 rental Montreal", "title": "Toyota GR Supra vs Audi S5: Entry-Level Sports Rental in Montreal", "model": "toyota-supra", "angle": "comparison"},
+    {"kw": "BMW M3 vs M5 Competition rental Montreal", "title": "BMW M3 vs M5 Competition: Which M Car to Rent in Montreal", "model": "bmw-m3-competition", "angle": "comparison"},
+    {"kw": "Mercedes G63 vs GLC63s rental Montreal", "title": "Mercedes G63 vs GLC63s: Big vs Compact AMG in Montreal", "model": "mercedes-g63-amg", "angle": "comparison"},
+    {"kw": "Maybach S680 chauffeur experience Montreal", "title": "Maybach S680 Rear Seat Experience: VIP Travel in Montreal", "model": "mercedes-maybach-s680-virgil-abloh", "angle": "review"},
+
+    # ─── Batch 4: drive-a-brand series (current fleet only) ───
+    {"kw": "drive a McLaren in Montreal", "title": "Drive a McLaren in Montreal: The 600LT Is Ready", "model": "mclaren-600lt-spider", "angle": "experience"},
+    {"kw": "drive a Maybach in Montreal", "title": "Drive a Maybach in Montreal: S680 and GLS 600", "model": "mercedes-maybach-gls-600", "angle": "experience"},
+    {"kw": "drive a Porsche in Montreal", "title": "Drive a Porsche in Montreal: 911, Panamera and Macan", "model": "porsche-911-carrera-4", "angle": "experience"},
+    {"kw": "drive a BMW M car in Montreal", "title": "Drive a BMW M Car in Montreal: M3, M4 and M5", "model": "bmw-m3-competition", "angle": "experience"},
+    {"kw": "drive an Audi RS car in Montreal", "title": "Drive an Audi RS in Montreal: RS5, RS6 and R8", "model": "audi-rs5", "angle": "experience"},
+
+    # ─── Batch 4: commercial guides ───
+    {"kw": "exotic car rental Montreal 24 hours", "title": "24 Hour Exotic Car Rental Montreal: How the Minimum Works", "model": None, "angle": "guide"},
+    {"kw": "exotic car rental Montreal cancellation policy", "title": "Exotic Car Rental Montreal Cancellation Policy Explained", "model": None, "angle": "guide"},
+    {"kw": "exotic car rental Montreal second driver", "title": "Adding a Second Driver to Your Exotic Car Rental in Montreal", "model": None, "angle": "guide"},
+    {"kw": "extend exotic car rental Montreal", "title": "Extending Your Exotic Car Rental in Montreal: How Same-Day Extensions Work", "model": None, "angle": "guide"},
+    {"kw": "exotic car rental Montreal fuel policy", "title": "Exotic Car Rental Fuel Policy Montreal: Premium Fuel Only", "model": None, "angle": "guide"},
+    {"kw": "are exotic car rentals automatic Montreal", "title": "Are Exotic Car Rentals in Montreal Automatic? Here Is What You Drive", "model": None, "angle": "guide"},
+    {"kw": "exotic car rental Montreal prices 2027", "title": "Exotic Car Rental Montreal Prices 2027: Every Car and Every Rate", "model": None, "angle": "guide"},
+    {"kw": "luxury SUV rental Montreal daily rates", "title": "Luxury SUV Rental Montreal: Daily Rates for Every SUV in the Fleet", "model": None, "angle": "guide"},
+    {"kw": "Maybach rental Montreal price", "title": "Maybach Rental Montreal Prices: S680 and GLS 600 Day Rates", "model": "mercedes-maybach-gls-600", "angle": "guide"},
+    {"kw": "exotic car rental Montreal group booking", "title": "Group Exotic Car Rental Montreal: Multi-Car Bookings Explained", "model": None, "angle": "guide"},
+
+    # ─── Batch 4: experiences, seasonal, occasions ───
+    {"kw": "rent a supercar Montreal no occasion", "title": "No Occasion Needed: Renting a Supercar in Montreal Just Because", "model": None, "angle": "experience"},
+    {"kw": "best Instagram spots Montreal supercar", "title": "The Best Instagram Photo Spots in Montreal With a Supercar", "model": None, "angle": "experience"},
+    {"kw": "night drive Montreal supercar routes", "title": "Night Drives in Montreal: The Best Routes After Dark", "model": None, "angle": "experience"},
+    {"kw": "Montreal car meets supercar scene", "title": "Montreal Car Meets and the Supercar Scene: Where to Show Up", "model": None, "angle": "experience"},
+    {"kw": "fall foliage drive near Montreal exotic car", "title": "Fall Foliage Drives Near Montreal: Autumn in a Supercar", "model": None, "angle": "seasonal"},
+    {"kw": "Thanksgiving weekend exotic car rental Montreal", "title": "Thanksgiving Weekend Exotic Car Rental Montreal", "model": None, "angle": "occasion"},
+    {"kw": "Igloofest Montreal luxury car rental", "title": "Igloofest Season: Luxury Car Rental for Montreal's Winter Festival", "model": None, "angle": "seasonal"},
+    {"kw": "Bell Centre concert luxury car rental Montreal", "title": "Concert Night at the Bell Centre: Arrive in a Luxury Rental", "model": None, "angle": "occasion"},
+    {"kw": "Montreal cruise port luxury car rental", "title": "Cruise Port Montreal: Luxury Car Pickup at the Terminal", "model": None, "angle": "occasion"},
+    {"kw": "ski trip Mont Tremblant luxury SUV rental", "title": "Ski Trips to Mont-Tremblant in a Luxury SUV", "model": None, "angle": "experience"},
+    {"kw": "wedding car fleet rental Montreal", "title": "Wedding Car Fleet Montreal: Multiple Cars for the Whole Party", "model": None, "angle": "occasion"},
+    {"kw": "film production car rental Montreal picture car", "title": "Picture Cars for Film Productions in Montreal", "model": None, "angle": "occasion"},
+    {"kw": "luxury SUV road trip rental Montreal", "title": "Luxury SUV Road Trip From Montreal: Escalade, Urus and GLS 600", "model": None, "angle": "experience"},
+    {"kw": "how to drive a Lamborghini for the first time Montreal", "title": "How to Drive a Lamborghini for the First Time in Montreal", "model": "lamborghini-huracan-evo", "angle": "guide"},
+    {"kw": "best time to rent a supercar Montreal", "title": "The Best Time of Year to Rent a Supercar in Montreal", "model": None, "angle": "seasonal"},
+
+    # ─── Batch 4: new delivery locations (EN) ───
+    {"kw": "exotic car rental Chambly", "title": "Exotic Car Rental Chambly: South Shore Delivery Near the Fort", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Beloeil Quebec", "title": "Exotic Car Rental Beloeil: South Shore Supercar Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Mascouche", "title": "Exotic Car Rental Mascouche: North Shore Luxury Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Saint-Eustache", "title": "Exotic Car Rental Saint-Eustache: Luxury Delivery North of Montreal", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Candiac", "title": "Exotic Car Rental Candiac: South Shore Supercar Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Repentigny", "title": "Exotic Car Rental Repentigny: East Montreal Luxury Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Drummondville", "title": "Exotic Car Rental Drummondville: Supercar Delivery in Centre-du-Quebec", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Granby Quebec", "title": "Exotic Car Rental Granby: Eastern Townships Luxury Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Saint-Jean-sur-Richelieu", "title": "Exotic Car Rental Saint-Jean-sur-Richelieu: South Shore Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Mile End Montreal", "title": "Exotic Car Rental Mile End: Delivery to Montreal's Coolest Neighbourhood", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Saint-Leonard Montreal", "title": "Exotic Car Rental Saint-Leonard: East Montreal Luxury Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Boisbriand", "title": "Exotic Car Rental Boisbriand: North Shore Luxury Car Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Sainte-Therese Quebec", "title": "Exotic Car Rental Sainte-Therese: North Shore Supercar Delivery", "model": None, "angle": "location"},
+    {"kw": "exotic car rental Pincourt", "title": "Exotic Car Rental Pincourt: West Island Luxury Car Delivery", "model": None, "angle": "location"},
+
+    # ─── Batch 4: French SEO ───
+    {"kw": "location Audi S5 Montreal", "title": "Location Audi S5 Montreal: Le Sportif a Prix Accessible", "model": "audi-s5-2020", "angle": "french"},
+    {"kw": "louer McLaren 600LT Spider Montreal", "title": "Louer McLaren 600LT Spider Montreal: Le Toit Ouvert", "model": "mclaren-600lt-spider", "angle": "french"},
+    {"kw": "location Cadillac Escalade Montreal", "title": "Location Cadillac Escalade Montreal: Le SUV des Grands Evenements", "model": "cadillac-escalade", "angle": "french"},
+    {"kw": "location BMW M4 KITH Montreal", "title": "Location BMW M4 KITH Montreal: Streetwear et Performance", "model": "bmw-m4-competition-kith", "angle": "french"},
+    {"kw": "location Maybach S680 Montreal", "title": "Location Maybach S680 Montreal: L'Edition Virgil Abloh", "model": "mercedes-maybach-s680-virgil-abloh", "angle": "french"},
+    {"kw": "location voiture exotique Repentigny", "title": "Location Voiture Exotique Repentigny: Livraison Rive-Est", "model": None, "angle": "french"},
+    {"kw": "location voiture exotique Chambly", "title": "Location Voiture Exotique Chambly: Livraison Rive-Sud", "model": None, "angle": "french"},
+    {"kw": "location voiture exotique automne Montreal", "title": "Location Voiture Exotique en Automne: Les Laurentides en Supercar", "model": None, "angle": "french"},
+    {"kw": "location voiture exotique semaine Montreal", "title": "Location Voiture Exotique Semaine Montreal: Tarifs Longue Duree", "model": None, "angle": "french"},
+    {"kw": "louer SUV luxe Montreal hiver", "title": "Louer un SUV de Luxe a Montreal pour l'Hiver", "model": None, "angle": "french"},
+
 ]
 
 # ── Helper: Generate slug ───────────────────────────────────────────────────
