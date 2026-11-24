@@ -9,6 +9,83 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'the-best-instagram-photo-spots-in-montreal-with-a-supercar',
+    title: 'The Best Instagram Photo Spots in Montreal With a Supercar',
+    date: '2026-11-24',
+    description: 'Discover the best Instagram spots Montreal supercar photography: Old Montreal, Griffintown, Mount Royal and more, with rental rates and photo tips.',
+    content: `## What Are the Best Instagram Spots in Montreal for a Supercar Photoshoot?
+
+The best Instagram spots Montreal supercar photography happens at are Old Montreal, Griffintown, Mount Royal lookout, the Plateau's painted staircases, and the Habitat 67 concrete geometry, and you can shoot all five in one afternoon with a rental starting at $1,499/day for a Lamborghini Huracán EVO. Those locations give you cobblestone European texture, raw industrial walls, a skyline backdrop, color, and brutalist architecture, which covers basically every aesthetic trending on Instagram right now. The car you pick matters as much as the location, so plan both together.
+
+Our most photographed rentals are the [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder) at $1,499/day and the [McLaren 600LT Spider](/fleet/mclaren-600lt-spider) at $1,999/day, because drop tops photograph better at golden hour with the roof down. If your budget is tighter, the [BMW M4 Competition x KITH](/fleet/bmw-m4-competition-kith) at $649/day still delivers a genuine 503 hp stance for the camera.
+
+## Which Montreal Neighborhoods Photograph Best With an Exotic Car?
+
+Old Montreal is the single most reliable backdrop in the city. Rue Saint-Paul's cobblestones, the grey stone facades near Place Jacques-Cartier, and the Notre-Dame Basilica side streets all give a Lamborghini or a McLaren a European editorial look that no other North American city can match. Shoot early, before 8 AM on weekends, because tourists fill every frame by mid-morning and parking a $1,599/day Lamborghini Huracán Tecnica on a busy street becomes a crowd management problem.
+
+Griffintown is the industrial counterpoint. The neighborhood's raw brick warehouses, rusted steel beams, and wide empty side streets near the Lachine Canal give dark, moody shots that suit the angular bodywork of a Huracán or the [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day. The contrast between 631 hp of Italian design and 19th century industrial walls is exactly the kind of image that stops a scroll.
+
+The Plateau Mont-Royal adds color. The exterior staircases on streets like Rue Saint-Denis and the murals around Boulevard Saint-Laurent give you saturated backgrounds that pop against a bright car. A red or yellow Huracán EVO Spyder against a teal or purple painted wall is a proven composition, and the 0-100 km/h in 3.1s spec means you can get motion blur shots on quiet residential streets safely.
+
+## Where Do You Get the Best Skyline Shots With a Supercar?
+
+The Mount Royal lookout on Camillien-Houde is the answer for skyline content. You get the entire downtown grid behind the car, and at sunset the light hits the buildings in a way that makes even a phone shot look professional. Parking is available near the Kondiaronk belvedere, and the road up the mountain itself is one of the best driving roads within city limits, with sweepers and elevation that let a 621 hp Mercedes-Maybach S680 by Viril Abloh at $2,399/day stretch out properly.
+
+Habitat 67 in Griffintown near the river is the second skyline option. The brutalist concrete modules create repeating geometric patterns that frame a car perfectly, and the adjacent Port of Montreal silos add texture. This spot suits low, wide cars especially well: the McLaren 600LT's 592 hp and 0-100 km/h in 2.9s numbers matter less here than its shape, which is pure camera bait.
+
+For a third option, the Jacques-Cartier Bridge approach on the South Shore side gives you the bridge cables and the city behind you in one frame. It is a five minute drive from our drop points in Longueuil, and clients shooting there with the [Audi R8 Spyder](/fleet/audi-r8-spyder) at $1,299/day consistently get the best single image of their rental.
+
+## What Time of Day Gives the Best Supercar Photos in Montreal?
+
+Golden hour, roughly 30 minutes before sunset, is when every supercar color looks its best. In summer that means shooting around 8 PM, and in winter closer to 4 PM, which conveniently matches our delivery windows since most clients pick up in the afternoon. The low sun eliminates harsh reflections on the hood and gives the paint a warm glow that no filter replicates.
+
+Blue hour, the 20 minutes after sunset, is the underrated alternative. The city lights come on, the sky goes deep blue, and a car like the Lamborghini Urus Black on Black at $1,200/day with its 641 hp and murdered-out finish looks aggressive under the streetlights of Old Montreal. Bring a tripod or use a phone with night mode, because shutter speeds drop fast.
+
+Early morning is the practical choice for the busiest locations. Rue Saint-Paul is empty at 7 AM on a Sunday, and you can get 45 minutes of uninterrupted shooting with a [Lamborghini Huracán EVO](/fleet/lamborghini-huracan-evo) before anyone else shows up. That is the single best tip for the best Instagram spots Montreal supercar photographers keep quiet about: go before the city wakes up.
+
+## Which Car From the Fleet Photographs Best?
+
+The Lamborghini Huracán EVO Spyder at $1,499/day is our most photographed car, and it is not close. With the roof down, the 631 hp V10 visible behind the seats, and scissor-free but still dramatic doors, it gives you interior and exterior shots in one session. The 0-100 km/h in 3.1s also makes it the easiest car for rolling shots with a chase camera.
+
+The McLaren 600LT Spider at $1,999/day is the enthusiast's choice. The 592 hp, the 0-100 km/h in 2.8s, and the carbon fiber everywhere read as serious machinery, and the dihedral doors create the single most dramatic static shot you can get in Montreal. If your grid needs a wow image, this is the car.
+
+For SUV content, the Mercedes-Maybach GLS 600 at $999/day with 550 hp photographs like old money, and the Cadillac Escalade at $599/day with 420 hp is the classic Montreal status shot outside a restaurant or a club on Rue Saint-Laurent. Both are booked constantly for birthday and promotion shoots.
+
+On a tighter budget, the [BMW M4 Competition](/fleet/bmw-m4-competition-2023) at $599/day with 503 hp and 0-100 km/h in 3.8s gives you 80 percent of the visual impact for a fraction of the price, and the [Porsche 911 Carrera 4](/fleet/porsche-911-carrera-4) at $649/day is the most timeless silhouette in the fleet.
+
+## Do You Need a Permit to Shoot Photos With a Rental Supercar in Montreal?
+
+For personal Instagram content, no permit is needed. You are photographing a car you legally rented on public streets, which is the same as any tourist photo. The rules change if you bring professional lighting, block a street, or shoot with a crew on private property, in which case you need the owner's permission or a film permit from the city.
+
+Our rental agreement covers photos and videos for personal social media use, and many clients tag us. What we do not allow is reckless driving for the camera: no drifting, no burnouts, no closed-road stunts. The deposit covers damage, and a clutch replacement on a Huracán costs more than your entire rental, so keep the hero driving for the passenger seat camera work.
+
+If you want to scout locations before your rental day, our [how it works](/how-it-works) page explains delivery, and the [FAQ](/faq) covers insurance and age requirements, which is 25 with a full license for most of the supercar fleet.
+
+## FAQ
+
+### What is the cheapest supercar to rent in Montreal for a photoshoot?
+
+The Toyota GR Supra at $400/day with 420 hp is the cheapest sporty option, and the Audi RS5 at $400/day with 450 hp is close behind. For a true exotic look, the Audi R8 V10 at $899/day with 562 hp is the most affordable mid-engine option.
+
+### Where is the best spot in Montreal for a Lamborghini photoshoot?
+
+Old Montreal, specifically Rue Saint-Paul and the streets around Place Jacques-Cartier, is the best single location. The cobblestones and grey stone give a Lamborghini Huracán EVO at $1,499/day a European backdrop unavailable anywhere else in North America.
+
+### Can I shoot photos with a rented supercar for my business Instagram?
+
+Yes, personal and standard business social content is fine under our rental agreement. Commercial productions with crews, lighting equipment, or street closures need a city film permit, and you should tell us in advance so we can arrange the right vehicle and coverage.
+
+### How long should I rent a supercar for a photoshoot?
+
+Four hours is the minimum for a proper shoot at two locations, but a full day is the sweet spot. A 24 hour rental of a Lamborghini Urus at $1,399/day lets you shoot Old Montreal at sunrise, Habitat 67 at midday, and Mount Royal at golden hour without rushing.
+
+### Do you deliver the supercar to the photoshoot location?
+
+Yes, we deliver anywhere in Greater Montreal, including Laval, Longueuil, and the South Shore, at no extra stress to you. You can also come to us, and delivery details are on our [contact](/contact) page.
+
+Book your shoot car by calling [438-809-4417](tel:4388094417) or messaging us on [WhatsApp](https://wa.me/14388094417), and we will have it delivered clean and full of fuel.`,
+  },
+  {
     slug: 'no-occasion-needed-renting-a-supercar-in-montreal-just-because',
     title: 'No Occasion Needed: Renting a Supercar in Montreal Just Because',
     date: '2026-11-23',
