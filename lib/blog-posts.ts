@@ -9,6 +9,89 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'montreal-car-meets-and-the-supercar-scene-where-to-show-up',
+    title: 'Montreal Car Meets and the Supercar Scene: Where to Show Up',
+    date: '2026-11-26',
+    description: 'Explore the Montreal car meets supercar scene: top spots, best nights, what to drive, and how to rent a supercar from $1,499/day to show up right.',
+    content: `## Where Does the Montreal Car Meets Supercar Scene Actually Happen?
+
+The Montreal car meets supercar scene concentrates around a handful of predictable spots: Old Montreal on summer weekends, the Underground City parking garages downtown, and the Tim Hortons and Quartier DIX30 lots on the South Shore, with peak season running May through September. If you want to be part of it, showing up in something with at least 500 hp changes the entire night. A Lamborghini Huracán EVO at $1,499/day, with 610 hp and a 0-100 time of 3.3 seconds, gets you waved into the front row instead of the back lot.
+
+I have spent enough nights circling these lots to know the rhythm. The scene is real, it is organized, and it rewards people who show up prepared. Here is exactly where to go, when to go, and what to drive.
+
+## What Are the Best Car Meet Locations in Montreal?
+
+The core spots are Old Montreal around Rue Saint-Paul, the Peel and Sainte-Catherine garage levels, and the Laval and Brossard big-box parking lots where clubs stage their meets. Old Montreal is the showcase: on a warm Friday or Saturday night, the stretch near Place Jacques-Cartier fills with exotics, and tourists circle with phones out before the exhausts even warm up.
+
+The South Shore meets, especially around Quartier DIX30 in Brossard, pull bigger numbers and a more local crowd. You will see everything from modified Supras to Uruses parked side by side. If you are based downtown, the [Old Montreal location](/locations/old-montreal) is walkable from most hotels, which matters when you are picking up a rental and planning your night around it.
+
+## When Is the Best Time of Year for the Montreal Supercar Scene?
+
+May to September, no contest. Montreal winters kill the outdoor scene completely, and the first warm weekends of May are when the cars reappear. June and July are peak: every weekend has at least one organized meet, and the F1 weekend in June turns the entire city into a rolling car show.
+
+During Grand Prix weekend, Sainte-Catherine and Crescent turn into an open-air supercar parade. That is the one weekend where a [Lamborghini Huracán Tecnica](/fleet/lamborghini-huracan-tecnica), 631 hp and 0-100 in 3.2 seconds at $1,599/day, earns its rate in attention alone. Book early for that weekend, it goes first every year.
+
+## What Should You Drive to a Montreal Car Meet?
+
+Drive something that fits the meet. A bone-stock commuter car gets you ignored, and a poorly modified one gets you roasted. The sweet spot is a genuine exotic or a serious performance car with real credentials.
+
+My honest picks from our fleet:
+
+- [Lamborghini Huracán EVO Spyder](/fleet/lamborghini-huracan-evo-spyder): $1,499/day, 631 hp, 0-100 in 3.1 seconds. The drop-top is the meet king, doors up, top down, V10 screaming on the way in.
+- [McLaren 600LT Spider](/fleet/mclaren-600lt-spider): $1,999/day, 592 hp, 0-100 in 2.8 seconds. Rare enough that people ask what it is.
+- [Audi R8 Spyder](/fleet/audi-r8-spyder): $1,299/day, 562 hp, 0-100 in 3.5 seconds. The understated choice that still sounds like a V10 should.
+- [Lamborghini Urus](/fleet/lamborghini-urus): $1,399/day, 641 hp, 0-100 in 3.6 seconds. If you are bringing friends, this is the move, 641 hp in an SUV body confuses people in the best way.
+- [Toyota GR Supra](/cars/toyota-supra): $400/day, 420 hp, 0-100 in 3.9 seconds. The budget-friendly entry that tuner crowds respect.
+
+The Supra at $400/day is worth a mention because the Montreal car meets supercar scene is not exclusively exotics. The JDM and tuner meets in Laval and Saint-Jérôme are huge, and a Supra gets genuine respect there in a way a base luxury sedan never will.
+
+## How Much Does It Cost to Rent a Supercar for a Car Meet in Montreal?
+
+Expect between $599 and $2,399 per day depending on the statement you want to make. The entry point for something with real presence is the [Cadillac Escalade](/fleet/cadillac-escalade) at $599/day with 420 hp, and the ceiling is the [Mercedes-Maybach S680 by Virgil Abloh](/fleet/mercedes-maybach-s680-virgil-abloh) at $2,399/day, 621 hp and one of the rarest sedans in the country.
+
+The middle tier is where most meet-goers land. The [BMW M4 Competition](/fleet/bmw-m4-competition-2023) at $599/day with 503 hp and a 0-100 time of 3.8 seconds is the everyday hero car of the scene, you see them constantly. One step up, the [Audi R8 V10](/cars/audi-r8) at $899/day with 562 hp puts you in proper supercar territory without the Huracán price tag.
+
+For a single big night, most clients rent for 24 hours, do the meet, drive Old Montreal after, and return the next morning. Our [how it works](/how-it-works) page breaks down the pickup and delivery process.
+
+## What Are the Unwritten Rules at Montreal Car Meets?
+
+Three rules, and breaking them gets you remembered for the wrong reasons. First, no revving or burnouts in the lot, Montreal police actively patrol the known meet spots and one showoff can end the whole night. Second, do not touch other people's cars, ever. Third, park where the organizers direct you, showing up in a Huracán does not exempt you from the lineup etiquette.
+
+Also, plan your photos. The Montreal car meets supercar scene lives on Instagram, and the golden hour shots on Rue Saint-Paul or against the Old Port stone walls are the ones that circulate. A [Porsche 911 Carrera 4](/fleet/porsche-911-carrera-4) at $649/day photographs beautifully and drives home in any weather thanks to all-wheel drive.
+
+One more practical note: fuel up before you arrive. Nothing kills the entrance like rolling into a packed lot on fumes and having to leave for a gas station mid-meet.
+
+## Can You Rent a Supercar in Montreal Just for One Night?
+
+Yes, most rentals here are exactly that, a 24-hour minimum with delivery anywhere in Greater Montreal. The exotic rental market in this city is built around events: car meets, weddings, F1 weekend, proms, and photo shoots. You do not need a weekly commitment.
+
+The requirements are straightforward: a valid driver's license, meeting the age requirement for exotics, and a security deposit that varies by car. Our [FAQ](/faq) covers the deposit amounts and insurance questions in detail. If you are planning around a specific meet date, message us early, the Huracán variants and the Urus are the first to go from May through September.
+
+## FAQ
+
+### Where do supercar owners meet in Montreal?
+
+Old Montreal near Place Jacques-Cartier is the main showcase spot on warm weekend nights, with organized meets rotating through downtown garages and South Shore lots like Quartier DIX30 in Brossard. Laval and Saint-Jérôme host the bigger tuner and JDM-oriented meets.
+
+### When is Montreal car meet season?
+
+The season runs from May to September, with June and July as the peak months. Grand Prix weekend in June is the single biggest supercar weekend of the year, when Crescent and Sainte-Catherine fill with exotics from around the world.
+
+### How much does it cost to rent a supercar for a car meet in Montreal?
+
+Rental rates run from $400/day for a Toyota GR Supra with 420 hp up to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh. The most popular meet cars, the Lamborghini Huracán EVO and EVO Spyder, both sit at $1,499/day.
+
+### Can I rent a Lamborghini in Montreal for just one day?
+
+Yes, the minimum rental is 24 hours and one-day exotic rentals are the most common booking, especially around car meets and F1 weekend. The Huracán Tecnica at $1,599/day and the Huracán EVO Spyder at $1,499/day are the two most requested cars for single-night events.
+
+### Is it legal to rev or do burnouts at Montreal car meets?
+
+No, and doing it risks fines and can get an entire meet shut down by police. Montreal police patrol the known meet locations, so keep the loud stuff for the road and respect the lot.
+
+Ready to make an entrance at the next meet? Call us at [438-809-4417](tel:4388094417) or message [WhatsApp](https://wa.me/14388094417) to reserve your car for the weekend.`,
+  },
+  {
     slug: 'night-drives-in-montreal-the-best-routes-after-dark',
     title: 'Night Drives in Montreal: The Best Routes After Dark',
     date: '2026-11-25',
