@@ -9,6 +9,88 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'thanksgiving-weekend-exotic-car-rental-montreal',
+    title: 'Thanksgiving Weekend Exotic Car Rental Montreal',
+    date: '2026-11-28',
+    description: 'Thanksgiving weekend exotic car rental Montreal: Lamborghini from $1,499/day, McLaren 600LT from $1,199/day. Book early, free delivery in Greater Montreal.',
+    content: `A Thanksgiving weekend exotic car rental Montreal booking costs between $599 and $2,399 per day, with a 24 hour minimum and free delivery anywhere in Greater Montreal. The busiest slots fill two to three weeks before the October long weekend, so the earlier you lock your dates, the better your choice of car.
+
+Thanksgiving in Montreal lands on the second Monday of October, and the weekend around it is one of the best windows of the year to drive something serious. The fall colors are peaking in the Laurentians and the Eastern Townships, the summer tourist traffic is gone, and the roads between Montreal and destinations like Saint-Jerome or Sherbrooke are wide open. Whether you are planning a family dinner arrival that gets noticed, a scenic drive out of the city, or simply a long weekend with a car you have wanted to drive for years, this is the weekend to do it.
+
+Here is what you need to know about booking a Thanksgiving weekend exotic car rental Montreal, from pricing to delivery logistics.
+
+## How Much Does a Thanksgiving Weekend Exotic Car Rental in Montreal Cost?
+
+Expect to pay between $599 and $2,399 per day depending on the car, with most clients booking a two or three day weekend package. Entry into the exotic range starts with the [Cadillac Escalade](/fleet/cadillac-escalade) at $599/day, 420 hp, which is the classic Thanksgiving move if you are hauling family and a turkey in style.
+
+From there, pricing climbs by tier:
+
+- BMW M4 Competition: $599/day, 503 hp, 0-100 in 3.8s
+- Porsche Panamera GTS: $699/day, 473 hp, 0-100 in 3.2s
+- Audi R8 V10: $899/day, 562 hp, 0-100 in 3.2s
+- McLaren 600LT: $1,199/day, 592 hp, 0-100 in 2.9s
+- Lamborghini Huracan Tecnica: $1,599/day, 631 hp, 0-100 in 3.2s
+- Mercedes-Maybach S680 by Virgil Abloh: $2,399/day, 621 hp, 0-100 in 4.4s
+
+Most Thanksgiving bookings land in the $599 to $1,499 range. The [Lamborghini Huracan EVO](/fleet/lamborghini-huracan-evo) at $1,499/day is one of the most requested cars for holiday weekends, and it usually goes first.
+
+## Which Exotic Car Should You Rent for Thanksgiving Weekend?
+
+It depends on what the weekend looks like. If you are driving to a family dinner in Laval or on the South Shore, you want something that handles passengers and luggage without giving up presence. The [Lamborghini Urus](/fleet/lamborghini-urus) at $1,399/day, 641 hp, 0-100 in 3.6s, seats five and still turns every head in the parking lot. The [Mercedes-Maybach GLS 600](/fleet/mercedes-maybach-gls-600) at $999/day, 550 hp, is the quieter luxury option, and the Escalade at $599/day is the value play for a full family load.
+
+If the weekend is about the drive itself, the fall foliage routes change the math. The McLaren 600LT at $1,199/day, 0-100 in 2.9s, is the sharpest tool for the winding roads through the Laurentians toward [Saint-Jerome](/locations/saint-jerome). The Audi R8 Spyder at $1,299/day, 562 hp, 0-100 in 3.5s, lets you run the Eastern Townships roads toward Sherbrooke with the top down and the fall colors right at eye level. And if you want the pure spectacle of a V10, the Huracan Tecnica at $1,599/day is the most track-focused Lamborghini in the fleet.
+
+For a dinner-arrival statement, nothing beats the [Mercedes-Maybach S680 by Viril Abloh](/fleet/mercedes-maybach-s680-virgil-abloh) at $2,399/day. It is a limited edition, 621 hp, and it is the kind of car people photograph before they say hello.
+
+## When Should You Book a Thanksgiving Weekend Exotic Car Rental in Montreal?
+
+Book two to three weeks ahead minimum, and earlier if you want a Lamborghini or a McLaren. The October long weekend is one of our top five busiest periods of the year, alongside Grand Prix weekend and the summer holidays. The pattern is predictable: the Huracans and the Urus get reserved first, then the 600LT, and by the week before Thanksgiving the remaining inventory is mostly sedans and SUVs.
+
+A Thanksgiving weekend exotic car rental Montreal booking typically runs Friday pickup to Monday return, or Saturday to Monday for a shorter two day package. We deliver the car to your home, hotel, or office anywhere in Greater Montreal, including [Laval](/locations/laval), [Longueuil](/locations/longueuil), and the West Island. Delivery is included, and the 24 hour minimum applies to each day of the booking.
+
+If your dates are flexible, Sunday to Tuesday often has better availability than the Saturday peak. But if you need the car for the Monday family dinner specifically, lock it in early.
+
+## What Are the Requirements to Rent an Exotic Car for Thanksgiving Weekend?
+
+You need to be 25 or older with a valid driver's license and full insurance coverage for most cars in the fleet. Drivers between 21 and 24 can access select vehicles, typically the lower tier sedans and SUVs like the [Audi S5](/fleet/audi-s5-2020) at $299/day or the BMW M4 Competition at $599/day, subject to approval.
+
+The security deposit varies by car, from a few thousand dollars on the entry tier to a higher hold on the Lamborghinis and McLarens. The deposit is placed on a credit card at pickup and released after the return inspection. Full details on deposits, mileage limits, and insurance are on our [FAQ](/faq) page.
+
+One Thanksgiving-specific note: October weather in Montreal is unpredictable. We track the forecast with you before pickup, and if the weekend calls for early snow or freezing rain, we will work with you on the dates. Our team walks you through the full process on the [how it works](/how-it-works) page.
+
+## Where Should You Drive an Exotic Car Around Montreal on Thanksgiving Weekend?
+
+The best Thanksgiving drives from Montreal are the fall color routes, and they peak exactly on this weekend. Route 117 north through the Laurentians toward Saint-Jerome and beyond is the classic run, roughly 45 minutes to an hour of rolling road with color on both sides. The Eastern Townships route toward Sherbrooke and Magog is the other big one, about 90 minutes each way, with cider houses and viewpoints worth stopping for.
+
+Closer to the city, a loop through [Old Montreal](/locations/old-montreal) and up the mountain gives you the photo stops without committing to a full day. If you are staying in town for dinner, a drive along the river through [Verdun](/locations/verdun) and toward Brossard is an easy 45 minute run before you have to be at the table.
+
+For a full weekend plan, many clients do Saturday in the Laurentians, Sunday in the Townships, and Monday arrival at the family dinner in the Urus or the Maybach. That is the ideal Thanksgiving weekend exotic car rental Montreal itinerary, and it uses the car the way it deserves.
+
+## FAQ
+
+### How much does it cost to rent an exotic car in Montreal for Thanksgiving weekend?
+
+Exotic car rentals in Montreal run from $599/day for a Cadillac Escalade or BMW M4 Competition up to $2,399/day for the Mercedes-Maybach S680 by Virgil Abloh. Most Thanksgiving weekend bookings fall between $599 and $1,599 per day, with a 24 hour minimum per day.
+
+### Do you deliver the car to my home or hotel in Montreal?
+
+Yes, delivery is included anywhere in Greater Montreal, including Laval, Longueuil, Brossard, and the West Island. The car arrives at your chosen address at the scheduled pickup time, and we collect it from the same location at the end of your booking.
+
+### How old do I need to be to rent a Lamborghini or McLaren for the weekend?
+
+You need to be 25 or older with a valid license and full insurance for the Lamborghinis, McLarens, and Maybachs. Drivers aged 21 to 24 can rent select vehicles from the lower tiers, such as the Audi S5 at $299/day or the BMW M4 Competition at $599/day, subject to approval.
+
+### When should I reserve my car for the October long weekend?
+
+Reserve at least two to three weeks in advance, and earlier for Lamborghini and McLaren models. The Thanksgiving weekend is one of the busiest rental periods of the year, and the most popular cars are usually gone by the week before.
+
+### Can I rent an exotic car for just one day over Thanksgiving?
+
+Yes, the minimum booking is 24 hours, so a single-day rental for the Monday dinner is possible. That said, most clients book a two or three day package covering Saturday through Monday, and multi-day bookings get priority on the most requested cars.
+
+To reserve your car for the long weekend, call us at [438-809-4417](tel:4388094417) or message us on WhatsApp at [wa.me/14388094417](https://wa.me/14388094417) and we will confirm availability on the spot.`,
+  },
+  {
     slug: 'fall-foliage-drives-near-montreal-autumn-in-a-supercar',
     title: 'Fall Foliage Drives Near Montreal: Autumn in a Supercar',
     date: '2026-11-27',
